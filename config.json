@@ -1,16 +1,24 @@
 {
-  "my_guild":      "Lowly People",
-  "enemy_guilds":  ["MentaliTY"],
-  "world":         "Baiak",
-  "owner":         "Salles On Amonot",
-  "founded":       "Abril de 2026",
-  "deaths_pages":  4,
-  "fetch_chars":   true,
+  "my_guild": "Lowly People",
+  "enemy_guilds": [
+    "MentaliTY"
+  ],
+  "world": "Baiak",
+  "owner": "Salles On Amonot",
+  "founded": "Abril de 2026",
+  "deaths_pages": 4,
+  "fetch_chars": true,
   "hunted_manual": [
     {
-      "name":   "Darkzao Knight",
+      "name": "Darkzao Knight",
       "reason": "Main Sauron",
       "added_by": "Royal Luthons"
+    },
+    {
+      "name": "Draegor UmbraFlame",
+      "reason": "Saiu da Mentality",
+      "added_by": "Royal Luthons",
+      "timestamp": "19/05/2026, 18:18:25"
     }
   ]
 }
