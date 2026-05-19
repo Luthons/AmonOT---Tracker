@@ -1,0 +1,42 @@
+name: Atualizar Dados da Guild
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # A cada hora
+  workflow_dispatch:       # Permite rodar manualmente pela aba Actions
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Restaurar guild_data.json anterior
+        uses: actions/cache@v4
+        with:
+          path: guild_data.json
+          key: guild-data-${{ github.run_id }}
+          restore-keys: |
+            guild-data-
+
+      - name: Rodar scraper
+        run: python main.py
+
+      - name: Salvar guild_data.json no repositório
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add guild_data.json
+          git diff --cached --quiet || git commit -m "chore: atualizar guild_data.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
