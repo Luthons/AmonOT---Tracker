@@ -278,6 +278,31 @@ footer span{color:var(--gold-dim)}
 .up-row-label{font-family:'Cinzel',serif;font-size:.72rem;color:var(--text-dim);width:80px;flex-shrink:0}
 .up-pct{font-family:'Cinzel',serif;font-size:.75rem;min-width:36px;text-align:right}
 
+/* HUNTED LIST */
+.hunted-card{background:var(--bg3);border:1px solid rgba(232,120,48,.25);padding:16px 18px;margin-bottom:12px;display:flex;align-items:flex-start;gap:16px;position:relative}
+.hunted-card.auto{border-left:3px solid rgba(201,80,80,.5)}
+.hunted-card.manual{border-left:3px solid rgba(232,120,48,.7)}
+.hunted-icon{font-size:1.4rem;flex-shrink:0;margin-top:2px}
+.hunted-name{font-family:'Cinzel',serif;font-size:.95rem;font-weight:700;color:var(--gold-light);margin-bottom:4px}
+.hunted-name a{color:var(--gold-light);text-decoration:none}
+.hunted-name a:hover{color:#fff;text-decoration:underline}
+.hunted-reason{font-size:.85rem;color:var(--text-dim);margin-bottom:4px}
+.hunted-meta{font-size:.75rem;color:var(--text-dim)}
+.hunted-badge{position:absolute;top:12px;right:12px;font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:1px solid}
+.hunted-badge.auto{color:var(--red);border-color:rgba(201,80,80,.3);background:rgba(201,80,80,.06)}
+.hunted-badge.manual{color:#e87830;border-color:rgba(232,120,48,.3);background:rgba(232,120,48,.06)}
+
+/* CHANGES LOG */
+.changes-log{border:1px solid var(--border-gold);overflow:hidden}
+.change-entry{display:flex;align-items:center;gap:14px;padding:10px 14px;border-bottom:1px solid var(--border);font-size:.9rem}
+.change-entry:last-child{border-bottom:none}
+.change-entry:hover{background:var(--bg3)}
+.change-type{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:1px solid;white-space:nowrap}
+.change-type.joined{color:var(--online);border-color:rgba(93,191,110,.3);background:rgba(93,191,110,.06)}
+.change-type.left{color:var(--red);border-color:rgba(201,80,80,.3);background:rgba(201,80,80,.06)}
+.change-name{font-weight:600;color:var(--gold-light);flex:1}
+.change-time{font-size:.78rem;color:var(--text-dim);white-space:nowrap}
+
 /* MOBILE */
 @media(max-width:700px){
   #sidebar{transform:translateX(calc(-1 * var(--sidebar-w)));transition:transform .28s cubic-bezier(.4,0,.2,1)}
@@ -347,6 +372,14 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('enemy')" id="nav-enemy">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
       Guilda Inimiga
+    </button>
+    <button class="nav-item" onclick="navigate('hunted')" id="nav-hunted" style="color:#e87830">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      ⚠ Hunted List
+    </button>
+    <button class="nav-item" onclick="navigate('changes')" id="nav-changes">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      Log de Mudanças
     </button>
   </div>
 
@@ -675,6 +708,31 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ HUNTED LIST ══ -->
+<div class="page" id="page-hunted">
+  <div class="cwrap">
+    <div class="page-title" style="color:#e87830">⚠ Hunted List</div>
+    <div class="page-desc">Jogadores suspeitos — detectados automaticamente pelo tracker ou adicionados manualmente pela staff.</div>
+    <div class="page-divider" style="background:linear-gradient(90deg,#e87830,transparent)"></div>
+    <div class="info-callout">
+      <strong>Como funciona:</strong> O tracker detecta automaticamente jogadores que saíram da guilda inimiga mas continuaram atacando membros da Lowly People. A staff também pode adicionar suspeitos manualmente editando o <strong>config.json</strong> no repositório.
+    </div>
+    <div id="hunted-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Hunted list · Auto-detectado + adicionado pela staff</footer>
+  </div>
+</div>
+
+<!-- ══ LOG DE MUDANÇAS ══ -->
+<div class="page" id="page-changes">
+  <div class="cwrap">
+    <div class="page-title">Log de Mudanças</div>
+    <div class="page-desc">Registro de entradas e saídas de membros nas guildas monitoradas.</div>
+    <div class="page-divider"></div>
+    <div id="changes-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Log de mudanças · Atualizado a cada hora</footer>
+  </div>
+</div>
+
 </main>
 
 <script>
@@ -739,6 +797,11 @@ function renderTable(){
     var rid='detail-'+idx;
     var status=m.online?'online':'offline';
     var hiddenTag=m.hidden?'<span style="font-family:Cinzel,serif;font-size:.5rem;color:var(--text-dim);border:1px solid var(--border);padding:1px 5px;margin-left:6px">hidden</span>':'';
+    // Reset history
+    var resetHtml='';
+    var rh=m.reset_history||[];
+    if(!rh.length){resetHtml='<div class="no-data">Sem histórico ainda — acumula a partir do início do monitoramento.</div>';}
+    else{rh.slice(0,7).forEach(function(r){resetHtml+='<div class="reset-entry"><span class="reset-num">'+r.resets+' resets (+'+r.gained+')</span><span class="reset-time">'+r.timestamp+'</span></div>';});}
     rows.push(
       '<tr>'
       +'<td style="padding:8px 6px;text-align:center"><button class="expand-btn" data-rid="'+rid+'" title="Ver detalhes">&#9658;</button></td>'
@@ -759,7 +822,7 @@ function renderTable(){
             +'</div>'
             +'<div class="detail-section">'
               +'<h4>Histórico de Resets</h4>'
-              +'<div class="no-data">Acumula a partir do início do monitoramento.</div>'
+              +resetHtml
             +'</div>'
           +'</div>'
         +'</td>'
@@ -966,6 +1029,54 @@ function renderEnemyTable(){
   }).join('');
 }
 
+// ─── HUNTED LIST ───────────────────────────────────────
+var huntedList=[];
+function renderHunted(){
+  var cont=document.getElementById('hunted-content');
+  if(!cont)return;
+  if(!huntedList.length){
+    cont.innerHTML='<div class="no-data" style="padding:32px 0">Nenhum jogador na hunted list ainda.</div>';
+    return;
+  }
+  cont.innerHTML=huntedList.map(function(h){
+    var url='https://amonot.online/characters?name='+encodeURIComponent(h.name);
+    var isManual=h.source==='manual';
+    var icon=isManual?'⚠':'🔍';
+    var addedBy=h.added_by?'Adicionado por: '+h.added_by:'';
+    var timestamp=h.timestamp||'';
+    return '<div class="hunted-card '+(isManual?'manual':'auto')+'">'
+      +'<div class="hunted-icon">'+icon+'</div>'
+      +'<div style="flex:1">'
+        +'<div class="hunted-name"><a href="'+url+'" target="_blank" rel="noopener">'+h.name+'</a></div>'
+        +'<div class="hunted-reason">'+(h.reason||'Motivo não especificado')+'</div>'
+        +'<div class="hunted-meta">'+(addedBy||timestamp?[addedBy,timestamp].filter(Boolean).join(' · '):'')+'</div>'
+      +'</div>'
+      +'<span class="hunted-badge '+(isManual?'manual':'auto')+'">'+(isManual?'Staff':'Auto')+'</span>'
+      +'</div>';
+  }).join('');
+}
+
+// ─── LOG DE MUDANÇAS ───────────────────────────────────
+var changesLog=[];
+function renderChanges(){
+  var cont=document.getElementById('changes-content');
+  if(!cont)return;
+  if(!changesLog.length){
+    cont.innerHTML='<div class="no-data" style="padding:32px 0">Nenhuma mudança registrada ainda. Os dados acumulam a partir do início do monitoramento.</div>';
+    return;
+  }
+  var sorted=[].concat(changesLog).reverse(); // mais recentes primeiro
+  cont.innerHTML='<div class="changes-log">'
+    +sorted.map(function(c){
+      return '<div class="change-entry">'
+        +'<span class="change-type '+(c.type==='joined'?'joined':'left')+'">'+(c.type==='joined'?'Entrou':'Saiu')+'</span>'
+        +'<span class="change-name">'+c.name+'</span>'
+        +'<span class="change-time">'+c.timestamp+'</span>'
+        +'</div>';
+    }).join('')
+    +'</div>';
+}
+
 // ─── LOAD DATA ─────────────────────────────────────────
 async function loadData(){
   try{
@@ -1016,6 +1127,14 @@ async function loadData(){
       allEnemyMembers=eg.members||[];
       renderEnemyTable();
     }
+
+    // Hunted list
+    huntedList=data.hunted_list||[];
+    renderHunted();
+
+    // Log de mudanças
+    changesLog=data.changes_log||[];
+    renderChanges();
 
   }catch(e){
     document.getElementById('loading').style.display='none';
