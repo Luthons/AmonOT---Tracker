@@ -712,11 +712,45 @@ footer span{color:var(--gold-dim)}
 <div class="page" id="page-hunted">
   <div class="cwrap">
     <div class="page-title" style="color:#e87830">⚠ Hunted List</div>
-    <div class="page-desc">Jogadores suspeitos — detectados automaticamente pelo tracker ou adicionados manualmente pela staff.</div>
+    <div class="page-desc">Jogadores suspeitos — detectados automaticamente pelo tracker ou adicionados pela staff.</div>
     <div class="page-divider" style="background:linear-gradient(90deg,#e87830,transparent)"></div>
-    <div class="info-callout">
-      <strong>Como funciona:</strong> O tracker detecta automaticamente jogadores que saíram da guilda inimiga mas continuaram atacando membros da Lowly People. A staff também pode adicionar suspeitos manualmente editando o <strong>config.json</strong> no repositório.
+
+    <!-- FORMULÁRIO PROTEGIDO -->
+    <div class="calc-panel" style="margin-bottom:24px" id="hunted-form-wrap">
+      <h3>➕ Adicionar à Hunted List — Staff</h3>
+      <div id="hunted-auth-section">
+        <div class="field-row">
+          <label class="field-label">Senha da Staff</label>
+          <input class="field-input" type="password" id="hunted-password" placeholder="Digite a senha..." onkeydown="if(event.key==='Enter')huntedAuth()">
+        </div>
+        <button class="btn" style="background:var(--bg4);border-color:var(--gold-dim);color:var(--gold-light);padding:9px 20px" onclick="huntedAuth()">Entrar</button>
+        <div id="hunted-auth-error" style="color:var(--red);font-size:.8rem;margin-top:8px;display:none">Senha incorreta.</div>
+      </div>
+      <div id="hunted-add-section" style="display:none">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">
+          <div class="field-row" style="margin:0">
+            <label class="field-label">Nome do Player</label>
+            <input class="field-input" type="text" id="hunted-name" placeholder="Ex: Voltoks">
+          </div>
+          <div class="field-row" style="margin:0">
+            <label class="field-label">Adicionado por</label>
+            <input class="field-input" type="text" id="hunted-added-by" placeholder="Seu nome">
+          </div>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Motivo</label>
+          <input class="field-input" type="text" id="hunted-reason" placeholder="Ex: Saiu da guilda e continua atacando">
+        </div>
+        <div style="display:flex;gap:10px;align-items:center;margin-top:4px">
+          <button class="btn" style="background:rgba(232,120,48,.15);border-color:#e87830;color:#e87830;padding:9px 20px" onclick="huntedAdd()">⚠ Adicionar</button>
+          <div id="hunted-add-status" style="font-size:.82rem;color:var(--text-dim)"></div>
+        </div>
+        <div class="info-callout" style="margin-top:14px;font-size:.8rem">
+          Para <strong>remover</strong> um player, edite o <strong>config.json</strong> no repositório GitHub e rode o workflow.
+        </div>
+      </div>
     </div>
+
     <div id="hunted-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
     <footer>Hunted list · Auto-detectado + adicionado pela staff</footer>
   </div>
@@ -1031,6 +1065,17 @@ function renderEnemyTable(){
 
 // ─── HUNTED LIST ───────────────────────────────────────
 var huntedList=[];
+var huntedAuthed=false;
+var GITHUB_REPO='Luthons/AmonOT---Tracker';
+var GITHUB_TOKEN=''; // preenchido após autenticação
+var HUNTED_PASSWORD='LowlyPeople@2026';
+
+function getEnemyStatus(name){
+  var m=allEnemyMembers.find(function(e){return e.name.toLowerCase()===name.toLowerCase()});
+  if(!m)return null;
+  return m.online;
+}
+
 function renderHunted(){
   var cont=document.getElementById('hunted-content');
   if(!cont)return;
@@ -1044,16 +1089,91 @@ function renderHunted(){
     var icon=isManual?'⚠':'🔍';
     var addedBy=h.added_by?'Adicionado por: '+h.added_by:'';
     var timestamp=h.timestamp||'';
+    // Status online/offline
+    var onlineStatus=getEnemyStatus(h.name);
+    var statusHtml='';
+    if(onlineStatus===true) statusHtml='<span class="dot online" style="margin-left:8px"></span><span class="status-text online" style="font-size:.78rem">Online</span>';
+    else if(onlineStatus===false) statusHtml='<span class="dot offline" style="margin-left:8px"></span><span class="status-text offline" style="font-size:.78rem">Offline</span>';
+    else statusHtml='<span style="font-size:.78rem;color:var(--text-dim);margin-left:8px">Não monitorado</span>';
     return '<div class="hunted-card '+(isManual?'manual':'auto')+'">'
       +'<div class="hunted-icon">'+icon+'</div>'
       +'<div style="flex:1">'
-        +'<div class="hunted-name"><a href="'+url+'" target="_blank" rel="noopener">'+h.name+'</a></div>'
+        +'<div class="hunted-name" style="display:flex;align-items:center;gap:4px"><a href="'+url+'" target="_blank" rel="noopener">'+h.name+'</a>'+statusHtml+'</div>'
         +'<div class="hunted-reason">'+(h.reason||'Motivo não especificado')+'</div>'
         +'<div class="hunted-meta">'+(addedBy||timestamp?[addedBy,timestamp].filter(Boolean).join(' · '):'')+'</div>'
       +'</div>'
       +'<span class="hunted-badge '+(isManual?'manual':'auto')+'">'+(isManual?'Staff':'Auto')+'</span>'
       +'</div>';
   }).join('');
+}
+
+function huntedAuth(){
+  var pwd=document.getElementById('hunted-password').value;
+  var err=document.getElementById('hunted-auth-error');
+  if(pwd===HUNTED_PASSWORD){
+    huntedAuthed=true;
+    GITHUB_TOKEN=prompt('Cole seu GitHub Token (começa com ghp_):');
+    if(!GITHUB_TOKEN){err.textContent='Token não informado.';err.style.display='block';return}
+    document.getElementById('hunted-auth-section').style.display='none';
+    document.getElementById('hunted-add-section').style.display='block';
+    err.style.display='none';
+  }else{
+    err.style.display='block';
+  }
+}
+
+async function huntedAdd(){
+  var name=document.getElementById('hunted-name').value.trim();
+  var reason=document.getElementById('hunted-reason').value.trim();
+  var addedBy=document.getElementById('hunted-added-by').value.trim();
+  var status=document.getElementById('hunted-add-status');
+
+  if(!name){status.textContent='⚠ Nome obrigatório.';status.style.color='var(--red)';return}
+  if(!addedBy){status.textContent='⚠ Preencha quem está adicionando.';status.style.color='var(--red)';return}
+  if(!GITHUB_TOKEN){status.textContent='⚠ Token não configurado. Faça login novamente.';status.style.color='var(--red)';return}
+
+  status.textContent='Salvando...';status.style.color='var(--text-dim)';
+
+  try{
+    // Busca o config.json atual
+    var r=await fetch('https://api.github.com/repos/'+GITHUB_REPO+'/contents/config.json',{
+      headers:{'Authorization':'Bearer '+GITHUB_TOKEN,'Accept':'application/vnd.github+json'}
+    });
+    if(!r.ok)throw new Error('Erro ao buscar config.json: '+r.status);
+    var data=await r.json();
+    var content=JSON.parse(atob(data.content));
+
+    // Verifica se já existe
+    var exists=(content.hunted_manual||[]).some(function(h){return h.name.toLowerCase()===name.toLowerCase()});
+    if(exists){status.textContent='⚠ Player já está na hunted list.';status.style.color='var(--red)';return}
+
+    // Adiciona o novo
+    if(!content.hunted_manual)content.hunted_manual=[];
+    content.hunted_manual.push({
+      name:name,
+      reason:reason||'Adicionado pela staff',
+      added_by:addedBy,
+      timestamp:new Date().toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'})
+    });
+
+    // Salva de volta
+    var newContent=btoa(unescape(encodeURIComponent(JSON.stringify(content,null,2))));
+    var s=await fetch('https://api.github.com/repos/'+GITHUB_REPO+'/contents/config.json',{
+      method:'PUT',
+      headers:{'Authorization':'Bearer '+GITHUB_TOKEN,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
+      body:JSON.stringify({message:'hunted: adicionar '+name,content:newContent,sha:data.sha})
+    });
+    if(!s.ok)throw new Error('Erro ao salvar: '+s.status);
+
+    status.textContent='✅ '+name+' adicionado! Aparece após o próximo workflow (~1h).';
+    status.style.color='var(--online)';
+    document.getElementById('hunted-name').value='';
+    document.getElementById('hunted-reason').value='';
+
+  }catch(e){
+    status.textContent='❌ '+e.message;
+    status.style.color='var(--red)';
+  }
 }
 
 // ─── LOG DE MUDANÇAS ───────────────────────────────────
