@@ -5,5 +5,12 @@
   "owner":         "Salles On Amonot",
   "founded":       "Abril de 2026",
   "deaths_pages":  4,
-  "fetch_chars":   true
+  "fetch_chars":   true,
+  "hunted_manual": [
+    {
+      "name":   "Exemplo Player",
+      "reason": "Suspeito de atacar fora da guilda",
+      "added_by": "Salles On Amonot"
+    }
+  ]
 }
