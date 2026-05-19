@@ -726,7 +726,7 @@ footer span{color:var(--gold-dim)}
 <div class="page" id="page-changes">
   <div class="cwrap">
     <div class="page-title">Log de Mudanças</div>
-    <div class="page-desc">Registro de entradas e saídas de membros nas guildas monitoradas.</div>
+    <div class="page-desc">Registro de entradas e saídas de membros na <strong style="color:var(--red)" id="changes-guild-name">guilda inimiga</strong>. Útil para identificar movimentações suspeitas.</div>
     <div class="page-divider"></div>
     <div id="changes-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
     <footer>Log de mudanças · Atualizado a cada hora</footer>
@@ -1134,6 +1134,8 @@ async function loadData(){
 
     // Log de mudanças
     changesLog=data.changes_log||[];
+    var cgn=document.getElementById('changes-guild-name');
+    if(cgn&&data.enemy_guilds&&data.enemy_guilds[0])cgn.textContent=data.enemy_guilds[0].name;
     renderChanges();
 
   }catch(e){
