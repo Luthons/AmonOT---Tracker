@@ -137,10 +137,20 @@ def update_member_changes(current_members: list, previous_history: dict) -> dict
     """
     Detecta membros que entraram ou saíram da guilda.
     Mantém log histórico de todas as mudanças.
+    Na primeira execução apenas salva a lista sem registrar eventos.
     """
-    current_names  = {m["name"] for m in current_members}
+    current_names  = {m["name"] if isinstance(m, dict) else m for m in current_members}
     previous_names = set(previous_history.get("last_member_list", []))
     changes_log    = previous_history.get("changes_log", [])
+
+    # Primeira execução — só salva a lista, não registra eventos
+    if not previous_names:
+        print(f"[history] primeira execução — salvando lista com {len(current_names)} membros sem registrar eventos")
+        return {
+            "last_member_list": list(current_names),
+            "changes_log":      [],
+            "recent_changes":   [],
+        }
 
     joined = current_names - previous_names
     left   = previous_names - current_names
@@ -155,7 +165,7 @@ def update_member_changes(current_members: list, previous_history: dict) -> dict
         }
         new_changes.append(event)
         changes_log.append(event)
-        print(f"[history] entrou na guilda: {name}")
+        print(f"[history] entrou na guilda inimiga: {name}")
 
     for name in left:
         event = {
@@ -165,12 +175,12 @@ def update_member_changes(current_members: list, previous_history: dict) -> dict
         }
         new_changes.append(event)
         changes_log.append(event)
-        print(f"[history] saiu da guilda: {name}")
+        print(f"[history] saiu da guilda inimiga: {name}")
 
     if not new_changes:
         print("[history] nenhuma mudança de membros detectada")
 
-    # Mantém apenas últimos 90 dias de mudanças
+    # Mantém apenas últimos 500 eventos
     changes_log = changes_log[-500:]
 
     return {
