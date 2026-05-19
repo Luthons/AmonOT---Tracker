@@ -188,9 +188,18 @@ def run():
         print(f"   ❌ {e}")
 
     try:
-        member_changes = update_member_changes(my_members, prev_history.get("members", {}))
+        # Verifica se o histórico anterior era da guilda errada (nossa guilda)
+        # Se a lista anterior contiver membros da nossa guilda, reseta o histórico
+        prev_member_hist = prev_history.get("members", {})
+        prev_list = set(prev_member_hist.get("last_member_list", []))
+        my_names  = {m["name"] for m in my_members}
+        # Se mais de 50% da lista anterior for da nossa guilda, reseta
+        if prev_list and len(prev_list & my_names) / len(prev_list) > 0.5:
+            print("   ⚠ Histórico de membros era da guilda errada, resetando...")
+            prev_member_hist = {}
+        member_changes = update_member_changes(all_enemy_members, prev_member_hist)
         recent = member_changes.get("recent_changes", [])
-        print(f"   ✅ Membros: {len(recent)} mudança(s) detectada(s)")
+        print(f"   ✅ Mudanças guilda inimiga: {len(recent)} mudança(s) detectada(s)")
     except Exception as e:
         errors.append(f"Member changes: {e}")
         print(f"   ❌ {e}")
