@@ -197,6 +197,12 @@ def run():
         if prev_list and len(prev_list & my_names) / len(prev_list) > 0.5:
             print("   ⚠ Histórico de membros era da guilda errada, resetando...")
             prev_member_hist = {}
+        # Se o changes_log tiver eventos com membros da nossa guilda, limpa
+        changes_log = prev_member_hist.get("changes_log", [])
+        if changes_log and any(e.get("name") in my_names for e in changes_log[:10]):
+            print("   ⚠ Changes log corrompido, limpando...")
+            prev_member_hist["changes_log"] = []
+            prev_member_hist["last_member_list"] = []
         member_changes = update_member_changes(all_enemy_members, prev_member_hist)
         recent = member_changes.get("recent_changes", [])
         print(f"   ✅ Mudanças guilda inimiga: {len(recent)} mudança(s) detectada(s)")
