@@ -222,6 +222,33 @@ def run():
     # ── 7. Monta JSON final ───────────────────────────────────────────────────
     print("\n── [7/7] Montando JSON final ──")
 
+    # Hunted list: merge automático + manual
+    hunted_auto   = list(hunted_data.get("hunted", {}).values())
+    hunted_manual = cfg.get("hunted_manual", [])
+
+    # Marca cada entrada com sua origem
+    for h in hunted_auto:
+        h["source"] = "auto"
+    for h in hunted_manual:
+        h["source"] = "manual"
+
+    # Combina sem duplicar (manual tem prioridade)
+    manual_names  = {h["name"].lower() for h in hunted_manual}
+    hunted_merged = hunted_manual + [h for h in hunted_auto if h["name"].lower() not in manual_names]
+
+    # Histórico de resets por membro (para expand na tabela)
+    reset_events = reset_history.get("events", [])
+    reset_by_member = {}
+    for ev in reset_events:
+        name = ev["name"]
+        if name not in reset_by_member:
+            reset_by_member[name] = []
+        reset_by_member[name].append({
+            "resets":    ev["resets"],
+            "gained":    ev["gained"],
+            "timestamp": ev["timestamp"],
+        })
+
     # Info de cada guilda inimiga para o frontend
     enemy_guilds_info = []
     for name, data in enemy_guilds_data.items():
@@ -243,17 +270,17 @@ def run():
         "online_count":  my_members_data.get("online_count", 0),
         "offline_count": my_members_data.get("offline_count", 0),
 
-        # ── Membros ──
+        # ── Membros (enriquecidos com chars + histórico de resets) ──
         "members": [
             {
                 **m,
-                # Enriquece com dados de characters.py se disponível
                 **next(
                     ({"last_login": c["last_login"], "guild_rank": c["guild_rank"],
                       "former_names": c["former_names"], "hidden": c["hidden"]}
                      for c in char_stats if c.get("ok") and c["name"] == m["name"]),
                     {}
                 ),
+                "reset_history": reset_by_member.get(m["name"], []),
             }
             for m in my_members
         ],
@@ -279,9 +306,12 @@ def run():
             "hunted":  hunted_data,
         },
 
-        # ── Mudanças recentes ──
+        # ── Mudanças recentes de membros ──
         "recent_changes": member_changes.get("recent_changes", []),
-        "hunted_list":    list(hunted_data.get("hunted", {}).values()),
+        "changes_log":    member_changes.get("changes_log", [])[-50:],
+
+        # ── Hunted list (auto + manual) ──
+        "hunted_list": hunted_merged,
 
         # ── Erros da execução (para debug) ──
         "errors": errors,
