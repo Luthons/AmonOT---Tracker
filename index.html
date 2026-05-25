@@ -1113,7 +1113,7 @@ function renderEnemyTable(){
 
 // ─── RANKING DE RESETS ─────────────────────────────────
 var resetStats={};
-var enemyResetSnapshots={};
+var enemyResetsToday=[];
 function renderResetRanking(){
   var cont=document.getElementById('reset-ranking-content');
   if(!cont)return;
@@ -1172,32 +1172,8 @@ function renderResetRanking(){
   // Resets do dia — Lowly People
   var myResetsToday=resetsToday||[];
 
-  // Resets do dia — MentaliTY (calculado a partir dos membros e snapshots)
-  var enResetsToday=[];
-  if(enemyResetSnapshots&&allEnemyMembers.length){
-    var snapKeys=Object.keys(enemyResetSnapshots).sort();
-    // Encontra snapshot mais próximo das 22h
-    var now=new Date();
-    var brt=new Date(now.toLocaleString('en-US',{timeZone:'America/Sao_Paulo'}));
-    var day22=new Date(brt);
-    day22.setHours(22,0,0,0);
-    if(brt<day22)day22.setDate(day22.getDate()-1);
-    var dayKey=day22.getFullYear()+'-'
-      +String(day22.getMonth()+1).padStart(2,'0')+'-'
-      +String(day22.getDate()).padStart(2,'0')+'-'
-      +String(day22.getHours()).padStart(2,'0');
-    var bestKey=null;
-    for(var ki=0;ki<snapKeys.length;ki++){if(snapKeys[ki]<=dayKey)bestKey=snapKeys[ki];}
-    var snapDay=bestKey?enemyResetSnapshots[bestKey]:{};
-    allEnemyMembers.forEach(function(m){
-      var cur=m.resets;
-      var prev=snapDay[m.name];
-      if(prev!==undefined&&cur>prev){
-        enResetsToday.push({name:m.name,resets_today:cur-prev,resets_total:cur,vocation:m.vocation||'',online:m.online});
-      }
-    });
-    enResetsToday.sort(function(a,b){return b.resets_today-a.resets_today});
-  }
+  // Resets do dia — MentaliTY (vem pronto do JSON)
+  var enResetsToday=enemyResetsToday||[];
 
   function resetDayCards(list, color){
     if(!list.length) return '<div class="no-data" style="padding:16px 0">Nenhum reset registrado hoje.</div>';
@@ -1419,7 +1395,7 @@ async function loadData(){
 
     // Reset ranking
     resetStats=data.reset_stats||{};
-    enemyResetSnapshots=(data.history&&data.history.enemy_resets&&data.history.enemy_resets.snapshots)||{};
+    enemyResetsToday=data.enemy_resets_today||[];
     renderResetRanking();
 
     // Hunted list
