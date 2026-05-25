@@ -22,6 +22,7 @@ from history    import (
     update_member_changes,
     update_hunted_list,
     compute_resets_today,
+    compute_guild_reset_stats,
     load_history,
 )
 from rankings   import build_rankings, build_war_rankings
@@ -173,18 +174,30 @@ def run():
 
     # ── 5. Histórico de resets e membros ─────────────────────────────────────
     print("\n── [5/7] Histórico ──")
-    prev_history   = load_history(OUTPUT_PATH)
-    reset_history  = {}
-    member_changes = {}
-    hunted_data    = {}
-    resets_today   = []
+    prev_history      = load_history(OUTPUT_PATH)
+    reset_history     = {}
+    enemy_reset_history = {}
+    member_changes    = {}
+    hunted_data       = {}
+    resets_today      = []
+    my_guild_stats    = {}
+    enemy_guild_stats = {}
 
     try:
         reset_history = update_reset_history(my_members, prev_history.get("resets", {}))
         resets_today  = compute_resets_today(my_members, reset_history)
-        print(f"   ✅ Resets: {len(reset_history['events'])} eventos | {len(resets_today)} resets hoje")
+        my_guild_stats = compute_guild_reset_stats(my_members, reset_history, my_guild)
+        print(f"   ✅ Resets minha guilda: {len(reset_history['events'])} eventos | hoje: {my_guild_stats['resets_today']}")
     except Exception as e:
         errors.append(f"Reset history: {e}")
+        print(f"   ❌ {e}")
+
+    try:
+        enemy_reset_history = update_reset_history(all_enemy_members, prev_history.get("enemy_resets", {}))
+        enemy_guild_stats   = compute_guild_reset_stats(all_enemy_members, enemy_reset_history, ", ".join(enemy_guilds))
+        print(f"   ✅ Resets guilda inimiga: hoje: {enemy_guild_stats['resets_today']}")
+    except Exception as e:
+        errors.append(f"Enemy reset history: {e}")
         print(f"   ❌ {e}")
 
     try:
@@ -316,9 +329,16 @@ def run():
 
         # ── Histórico interno ──
         "history": {
-            "resets":  reset_history,
-            "members": member_changes,
-            "hunted":  hunted_data,
+            "resets":        reset_history,
+            "enemy_resets":  enemy_reset_history,
+            "members":       member_changes,
+            "hunted":        hunted_data,
+        },
+
+        # ── Stats comparativos de resets ──
+        "reset_stats": {
+            "my_guild":    my_guild_stats,
+            "enemy_guild": enemy_guild_stats,
         },
 
         # ── Mudanças recentes de membros ──
