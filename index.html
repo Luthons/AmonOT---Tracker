@@ -278,6 +278,39 @@ footer span{color:var(--gold-dim)}
 .up-row-label{font-family:'Cinzel',serif;font-size:.72rem;color:var(--text-dim);width:80px;flex-shrink:0}
 .up-pct{font-family:'Cinzel',serif;font-size:.75rem;min-width:36px;text-align:right}
 
+/* RESET RANKING */
+.rr-scoreboard{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:28px}
+.rr-guild-card{background:var(--bg3);border:1px solid var(--border-gold);padding:22px;position:relative;overflow:hidden}
+.rr-guild-card.mine{border-color:rgba(93,191,110,.25)}
+.rr-guild-card.mine::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(93,191,110,.04),transparent 60%)}
+.rr-guild-card.enemy{border-color:rgba(201,80,80,.25)}
+.rr-guild-card.enemy::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,80,80,.04),transparent 60%)}
+.rr-guild-title{font-family:'Cinzel',serif;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px}
+.rr-guild-title.mine{color:var(--online)}
+.rr-guild-title.enemy{color:var(--red)}
+.rr-stat-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border)}
+.rr-stat-row:last-child{border-bottom:none}
+.rr-stat-label{font-size:.85rem;color:var(--text-dim)}
+.rr-stat-val{font-family:'Cinzel',serif;font-size:.95rem;font-weight:600;color:var(--gold-light)}
+.rr-stat-val.highlight{font-size:1.1rem;color:var(--online)}
+.rr-stat-val.enemy-hl{font-size:1.1rem;color:var(--red)}
+.rr-compare{background:var(--bg3);border:1px solid var(--border-gold);margin-bottom:28px;overflow:hidden}
+.rr-compare-header{padding:10px 16px;border-bottom:1px solid var(--border-gold);font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dim)}
+.rr-compare-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border);gap:12px}
+.rr-compare-row:last-child{border-bottom:none}
+.rr-compare-row:hover{background:var(--bg4)}
+.rr-period{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:center;white-space:nowrap}
+.rr-num-mine{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--online);text-align:right}
+.rr-num-enemy{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--red);text-align:left}
+.rr-bar-wrap{display:flex;align-items:center;gap:6px;width:100%}
+.rr-bar-mine{height:8px;background:var(--online);border-radius:4px;transition:width .4s}
+.rr-bar-enemy{height:8px;background:var(--red);border-radius:4px;transition:width .4s}
+.rr-winner{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:1px solid;white-space:nowrap}
+.rr-winner.mine{color:var(--online);border-color:rgba(93,191,110,.3);background:rgba(93,191,110,.06)}
+.rr-winner.enemy{color:var(--red);border-color:rgba(201,80,80,.3);background:rgba(201,80,80,.06)}
+.rr-winner.tie{color:var(--gold-dim);border-color:var(--border-gold)}
+@media(max-width:700px){.rr-scoreboard{grid-template-columns:1fr}}
+
 /* HUNTED LIST */
 .hunted-card{background:var(--bg3);border:1px solid rgba(232,120,48,.25);padding:16px 18px;margin-bottom:12px;display:flex;align-items:flex-start;gap:16px;position:relative}
 .hunted-card.auto{border-left:3px solid rgba(201,80,80,.5)}
@@ -358,6 +391,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('resets_day')" id="nav-resets_day">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
       Resets do Dia
+    </button>
+    <button class="nav-item" onclick="navigate('reset_ranking')" id="nav-reset_ranking">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 20 18 10"/><polyline points="12 20 12 4"/><polyline points="6 20 6 14"/></svg>
+      Ranking de Resets
     </button>
   </div>
 
@@ -705,6 +742,17 @@ footer span{color:var(--gold-dim)}
     <div class="info-callout" style="margin-top:18px">
       <strong>Custo por tentativa:</strong> 40 Boss Tokens. Upgrades acima de +6 ficam cada vez mais difíceis.
     </div>
+  </div>
+</div>
+
+<!-- ══ RANKING DE RESETS ══ -->
+<div class="page" id="page-reset_ranking">
+  <div class="cwrap">
+    <div class="page-title">Ranking de Resets</div>
+    <div class="page-desc">Comparativo de resets entre <strong style="color:var(--online)">Lowly People</strong> e a <strong style="color:var(--red)" id="rr-enemy-name">guilda inimiga</strong> por período.</div>
+    <div class="page-divider"></div>
+    <div id="reset-ranking-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Dados acumulados desde o início do monitoramento · Atualizado a cada hora</footer>
   </div>
 </div>
 
@@ -1063,6 +1111,71 @@ function renderEnemyTable(){
   }).join('');
 }
 
+// ─── RANKING DE RESETS ─────────────────────────────────
+var resetStats={};
+function renderResetRanking(){
+  var cont=document.getElementById('reset-ranking-content');
+  if(!cont)return;
+  var my=resetStats.my_guild||{};
+  var en=resetStats.enemy_guild||{};
+  if(!my.guild){cont.innerHTML='<div class="no-data" style="padding:32px 0">Dados ainda não disponíveis — acumula a partir do início do monitoramento.</div>';return;}
+
+  var enName=en.guild||'Guilda Inimiga';
+  var enEl=document.getElementById('rr-enemy-name');
+  if(enEl)enEl.textContent=enName;
+
+  // Cards individuais
+  function card(data, cls){
+    return '<div class="rr-guild-card '+cls+'">'
+      +'<div class="rr-guild-title '+cls+'">'+data.guild+'</div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Total de membros</span><span class="rr-stat-val">'+data.num_members+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Resets totais (lifetime)</span><span class="rr-stat-val '+(cls==='mine'?'highlight':'enemy-hl')+'">'+data.total_current+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Média por player</span><span class="rr-stat-val">'+data.avg_per_player+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Resets hoje</span><span class="rr-stat-val">'+data.resets_today+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Resets na semana</span><span class="rr-stat-val">'+data.resets_week+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Resets no mês</span><span class="rr-stat-val">'+data.resets_month+'</span></div>'
+      +'<div class="rr-stat-row"><span class="rr-stat-label">Resets desde monitoramento</span><span class="rr-stat-val">'+data.resets_lifetime+'</span></div>'
+      +'</div>';
+  }
+
+  // Tabela comparativa
+  var periods=[
+    {label:'Hoje',        my:my.resets_today,    en:en.resets_today},
+    {label:'Semana',      my:my.resets_week,     en:en.resets_week},
+    {label:'Mês',         my:my.resets_month,    en:en.resets_month},
+    {label:'Monitoramento',my:my.resets_lifetime, en:en.resets_lifetime},
+    {label:'Lifetime Total',my:my.total_current,  en:en.total_current},
+    {label:'Média/Player', my:my.avg_per_player,  en:en.avg_per_player},
+  ];
+
+  var compareRows=periods.map(function(p){
+    var total=(p.my||0)+(p.en||0);
+    var myPct=total>0?Math.round((p.my||0)/total*100):50;
+    var enPct=100-myPct;
+    var winner=p.my>p.en?'mine':p.my<p.en?'enemy':'tie';
+    var winnerText=winner==='mine'?'LP':winner==='enemy'?enName:'Empate';
+    return '<div class="rr-compare-row">'
+      +'<div class="rr-num-mine">'+(p.my||0)+'</div>'
+      +'<div style="display:flex;flex-direction:column;align-items:center;gap:5px;min-width:160px">'
+        +'<span class="rr-period">'+p.label+'</span>'
+        +'<div class="rr-bar-wrap" style="justify-content:center">'
+          +'<div class="rr-bar-mine" style="width:'+myPct+'px;max-width:70px"></div>'
+          +'<div class="rr-bar-enemy" style="width:'+enPct+'px;max-width:70px"></div>'
+        +'</div>'
+        +'<span class="rr-winner '+winner+'">'+winnerText+'</span>'
+      +'</div>'
+      +'<div class="rr-num-enemy">'+(p.en||0)+'</div>'
+      +'</div>';
+  }).join('');
+
+  cont.innerHTML=
+    '<div class="rr-scoreboard">'+card(my,'mine')+card(en,'enemy')+'</div>'
+    +'<div class="rr-compare">'
+      +'<div class="rr-compare-header">Comparativo — <span style="color:var(--online)">Lowly People</span> vs <span style="color:var(--red)">'+enName+'</span></div>'
+      +compareRows
+    +'</div>';
+}
+
 // ─── HUNTED LIST ───────────────────────────────────────
 var huntedList=[];
 var huntedAuthed=false;
@@ -1247,6 +1360,10 @@ async function loadData(){
       allEnemyMembers=eg.members||[];
       renderEnemyTable();
     }
+
+    // Reset ranking
+    resetStats=data.reset_stats||{};
+    renderResetRanking();
 
     // Hunted list
     huntedList=data.hunted_list||[];
