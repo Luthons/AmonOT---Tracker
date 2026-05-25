@@ -195,9 +195,11 @@ def run():
     try:
         enemy_reset_history = update_reset_history(all_enemy_members, prev_history.get("enemy_resets", {}))
         enemy_guild_stats   = compute_guild_reset_stats(all_enemy_members, enemy_reset_history, ", ".join(enemy_guilds))
-        print(f"   ✅ Resets guilda inimiga: hoje: {enemy_guild_stats['resets_today']}")
+        enemy_resets_today  = compute_resets_today(all_enemy_members, enemy_reset_history)
+        print(f"   ✅ Resets guilda inimiga: hoje: {enemy_guild_stats['resets_today']} | {len(enemy_resets_today)} membros")
     except Exception as e:
         errors.append(f"Enemy reset history: {e}")
+        enemy_resets_today = []
         print(f"   ❌ {e}")
 
     try:
@@ -317,7 +319,8 @@ def run():
         "enemy_guilds": enemy_guilds_info,
 
         # ── Resets do dia ──
-        "resets_today": resets_today,
+        "resets_today":       resets_today,
+        "enemy_resets_today": enemy_resets_today,
 
         # ── Rankings ──
         "highscores":    rankings,
