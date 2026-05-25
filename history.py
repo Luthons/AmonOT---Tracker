@@ -131,6 +131,66 @@ def compute_resets_today(members: list, reset_history: dict) -> list:
     return sorted(result, key=lambda x: x["resets_today"], reverse=True)
 
 
+def compute_guild_reset_stats(members: list, reset_history: dict, guild_name: str) -> dict:
+    """
+    Calcula estatísticas agregadas de resets da guilda por período.
+    - Hoje, semana, mês e lifetime (desde início do monitoramento)
+    - Média por player
+    """
+    day        = day_start()
+    week_start = day - timedelta(days=6)
+    month_start= day - timedelta(days=29)
+
+    day_key   = day.strftime("%Y-%m-%d-%H")
+    week_key  = week_start.strftime("%Y-%m-%d-%H")
+    month_key = month_start.strftime("%Y-%m-%d-%H")
+
+    snapshots = reset_history.get("snapshots", {})
+
+    def find_snapshot_near(target_key: str) -> dict:
+        keys = sorted(snapshots.keys())
+        best = None
+        for k in keys:
+            if k <= target_key:
+                best = k
+        return snapshots.get(best, {}) if best else {}
+
+    snap_day   = find_snapshot_near(day_key)
+    snap_week  = find_snapshot_near(week_key)
+    snap_month = find_snapshot_near(month_key)
+
+    # Snapshot mais antigo disponível (para lifetime)
+    all_keys   = sorted(snapshots.keys())
+    snap_first = snapshots.get(all_keys[0], {}) if all_keys else {}
+
+    total_today    = 0
+    total_week     = 0
+    total_month    = 0
+    total_lifetime = 0
+    total_current  = sum(m["resets"] for m in members)
+    num_members    = len(members)
+
+    for member in members:
+        name    = member["name"]
+        current = member["resets"]
+
+        total_today    += max(0, current - snap_day.get(name,   current))
+        total_week     += max(0, current - snap_week.get(name,  current))
+        total_month    += max(0, current - snap_month.get(name, current))
+        total_lifetime += max(0, current - snap_first.get(name, current))
+
+    return {
+        "guild":           guild_name,
+        "num_members":     num_members,
+        "total_current":   total_current,
+        "resets_today":    total_today,
+        "resets_week":     total_week,
+        "resets_month":    total_month,
+        "resets_lifetime": total_lifetime,
+        "avg_per_player":  round(total_current / num_members, 1) if num_members else 0,
+    }
+
+
 # ── Entradas e saídas de membros ──────────────────────────────────────────────
 
 def update_member_changes(current_members: list, previous_history: dict) -> dict:
