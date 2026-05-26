@@ -1854,30 +1854,31 @@ async function loadCalendarData(){
       var desc = c[5]?.v || '';
       var vagas= parseInt(c[6]?.v) || 0;
 
-      // Data vem como "Date(2026,4,26)" do Sheets — mês começa em 0
+      // Data vem como string "Date(2026,4,26)" — mês começa em 0
       var dateStr = '';
-      if(typeof data === 'string' && data.startsWith('Date(')){
-        var parts = data.replace('Date(','').replace(')','').split(',');
-        var y=parseInt(parts[0]),m=parseInt(parts[1]),d=parseInt(parts[2]);
-        dateStr = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-      } else if(data && typeof data === 'object' && data.toString().startsWith('Date')){
-        // Às vezes vem como objeto Date
-        var match = data.toString().match(/Date\((\d+),(\d+),(\d+)\)/);
+      var dataRaw = c[3]?.v || '';
+      if(typeof dataRaw === 'string' && dataRaw.includes('Date(')){
+        var match = dataRaw.match(/Date\((\d+),(\d+),(\d+)/);
         if(match){
           dateStr = `${match[1]}-${String(parseInt(match[2])+1).padStart(2,'0')}-${String(match[3]).padStart(2,'0')}`;
         }
+      } else if(c[3]?.f){
+        dateStr = c[3].f; // usa o formato já pronto "2026-05-26"
       } else {
-        dateStr = String(data);
+        dateStr = String(dataRaw);
       }
 
-      // Hora vem formatada como "22:00"
-      if(typeof hora === 'number'){
-        var h = Math.floor(hora * 24);
-        var m2= Math.round((hora * 24 - h) * 60);
-        hora = `${String(h).padStart(2,'0')}:${String(m2).padStart(2,'0')}`;
+      // Hora vem como "Date(1899,11,30,22,0,0)" — usa o campo formatado .f
+      var horaRaw = c[4]?.f || '';
+      if(!horaRaw && c[4]?.v){
+        var hv = c[4].v;
+        if(typeof hv === 'string' && hv.includes('Date(')){
+          var hm = hv.match(/Date\(\d+,\d+,\d+,(\d+),(\d+)/);
+          if(hm) horaRaw = `${String(hm[1]).padStart(2,'0')}:${String(hm[2]).padStart(2,'0')}`;
+        }
       }
 
-      return {id, tipo, nome, data: dateStr, hora: String(hora), desc: String(desc||''), vagas};
+      return {id, tipo, nome, data: dateStr, hora: horaRaw, desc: String(desc||''), vagas};
     }).filter(e => e.nome && e.data);
 
     // Busca joins
