@@ -872,7 +872,10 @@ footer span{color:var(--gold-dim)}
     <div class="cal-header">
       <button class="cal-nav-btn" onclick="calPrevMonth()">◀ Anterior</button>
       <div class="cal-month-title" id="cal-month-title">—</div>
-      <button class="cal-nav-btn" onclick="calNextMonth()">Próximo ▶</button>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="cal-nav-btn" id="btn-new-event" onclick="openCreateEvent()" style="display:none;border-color:var(--gold-dim);color:var(--gold-light)">+ Novo Evento</button>
+        <button class="cal-nav-btn" onclick="calNextMonth()">Próximo ▶</button>
+      </div>
     </div>
 
     <div class="cal-grid" id="cal-grid">
@@ -888,6 +891,50 @@ footer span{color:var(--gold-dim)}
     <div id="cal-day-view" style="display:none"></div>
 
     <footer>Calendário · Eventos criados pela staff via Google Sheets</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: CRIAR EVENTO ══ -->
+<div class="modal-overlay hidden" id="modal-create-event">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('modal-create-event')">✕</button>
+    <h2>📅 Novo Evento</h2>
+    <p>Preencha os dados do evento. Ele aparecerá no calendário imediatamente após salvar.</p>
+    <div class="field-row">
+      <label class="field-label">Tipo</label>
+      <select class="field-input" id="ce-tipo">
+        <option value="quest">Quest</option>
+        <option value="expedicao">Expedição</option>
+        <option value="vip">Acesso VIP</option>
+        <option value="task">Task</option>
+        <option value="boss">Boss</option>
+        <option value="hunt">Hunt</option>
+      </select>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Nome</label>
+      <input class="field-input" type="text" id="ce-nome" placeholder="Ex: Quest da Floresta Élfica">
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div class="field-row">
+        <label class="field-label">Data</label>
+        <input class="field-input" type="date" id="ce-data">
+      </div>
+      <div class="field-row">
+        <label class="field-label">Hora</label>
+        <input class="field-input" type="time" id="ce-hora">
+      </div>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Descrição (opcional)</label>
+      <input class="field-input" type="text" id="ce-desc" placeholder="Detalhes do evento...">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Vagas (0 = ilimitado)</label>
+      <input class="field-input" type="number" id="ce-vagas" min="0" value="0">
+    </div>
+    <button class="modal-btn" onclick="submitCreateEvent()">Criar Evento</button>
+    <div id="ce-status" class="modal-status"></div>
   </div>
 </div>
 
@@ -2069,12 +2116,20 @@ async function submitJoin(){
 
   if(!charName){ status.textContent='Selecione um personagem.';status.className='modal-status err';return; }
 
+  // Verifica join duplo
+  var joinData = calJoins[joinEventId];
+  if(joinData && joinData.players.includes(charName)){
+    status.textContent='⚠ '+charName+' já confirmou presença neste evento.';
+    status.className='modal-status err';
+    return;
+  }
+
   status.textContent='Confirmando...';status.className='modal-status ok';
 
   try {
     var r = await fetch(APPS_SCRIPT_URL, {
       method: 'POST',
-      body: JSON.stringify({evento_id: joinEventId, player_name: charName}),
+      body: JSON.stringify({action: 'join', evento_id: joinEventId, player_name: charName}),
     });
     var data = await r.json();
     if(data.ok){
@@ -2093,6 +2148,60 @@ async function submitJoin(){
   } catch(e) {
     status.textContent = 'Erro de conexão.';
     status.className   = 'modal-status err';
+  }
+}
+
+function openCreateEvent(){
+  document.getElementById('ce-status').textContent='';
+  document.getElementById('ce-status').className='modal-status';
+  // Preenche data com hoje
+  document.getElementById('ce-data').value = new Date().toISOString().split('T')[0];
+  showModal('modal-create-event');
+}
+
+async function submitCreateEvent(){
+  var tipo  = document.getElementById('ce-tipo').value;
+  var nome  = document.getElementById('ce-nome').value.trim();
+  var data  = document.getElementById('ce-data').value;
+  var hora  = document.getElementById('ce-hora').value;
+  var desc  = document.getElementById('ce-desc').value.trim();
+  var vagas = parseInt(document.getElementById('ce-vagas').value)||0;
+  var status= document.getElementById('ce-status');
+
+  if(!nome){status.textContent='Nome obrigatório.';status.className='modal-status err';return}
+  if(!data){status.textContent='Data obrigatória.';status.className='modal-status err';return}
+  if(!hora){status.textContent='Hora obrigatória.';status.className='modal-status err';return}
+
+  status.textContent='Salvando...';status.className='modal-status ok';
+
+  try{
+    var r = await fetch(APPS_SCRIPT_URL,{
+      method:'POST',
+      body: JSON.stringify({action:'create_event', tipo, nome, data, hora, descricao:desc, vagas}),
+    });
+    var d = await r.json();
+    if(d.ok){
+      status.textContent='✅ Evento criado!';
+      status.className='modal-status ok';
+      // Adiciona localmente
+      calEvents.push({id:String(d.id||Date.now()), tipo, nome, data, hora, desc, vagas});
+      renderCalendar();
+      setTimeout(()=>{closeModal('modal-create-event');document.getElementById('ce-nome').value='';},1200);
+    } else {
+      status.textContent='Erro: '+(d.error||'tente novamente');
+      status.className='modal-status err';
+    }
+  }catch(e){
+    status.textContent='Erro de conexão.';
+    status.className='modal-status err';
+  }
+}
+
+// Mostra botão de novo evento para admin/staff após login
+function updateCalendarUI(){
+  var btn = document.getElementById('btn-new-event');
+  if(btn && currentProfile && (currentProfile.role==='admin'||currentProfile.role==='staff')){
+    btn.style.display='inline-block';
   }
 }
 
@@ -2131,6 +2240,7 @@ async function loadProfile(){
   if(data){
     currentProfile = data;
     updateAuthUI();
+    updateCalendarUI();
     closeModal('modal-login');
   } else {
     // Primeiro login — abre cadastro
