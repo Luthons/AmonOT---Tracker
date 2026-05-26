@@ -2309,7 +2309,7 @@ async function loginWithGoogle(){
   status.className = 'modal-status ok';
   const {error} = await _supa.auth.signInWithOAuth({
     provider: 'google',
-    options: {redirectTo: window.location.href}
+    options: {redirectTo: 'https://amon-ot-tracker.vercel.app'}
   });
   if(error){
     status.textContent = 'Erro: ' + error.message;
