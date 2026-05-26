@@ -50,17 +50,21 @@ def event_key(death: dict) -> str:
 
 # ── Discord ───────────────────────────────────────────────────────────────────
 
-def send_channel_message(embed: dict) -> bool:
+def send_channel_message(embed: dict, mention_everyone: bool = False) -> bool:
     """Envia mensagem embed no canal da guilda."""
     if not DISCORD_CHANNEL_ID:
         print("[death_tracker] DISCORD_CHANNEL_ID não configurado")
         return False
 
+    payload = {"embeds": [embed]}
+    if mention_everyone:
+        payload["content"] = "@everyone"
+
     for attempt in range(3):
         r = requests.post(
             f"https://discord.com/api/v10/channels/{DISCORD_CHANNEL_ID}/messages",
             headers=HEADERS_DS,
-            json={"embeds": [embed]},
+            json=payload,
             timeout=10,
         )
         if r.status_code in (200, 201):
@@ -212,7 +216,7 @@ def run():
         embed    = build_embed(death, is_enemy)
 
         # Envia no canal da guilda
-        if send_channel_message(embed):
+        if send_channel_message(embed, mention_everyone=True):
             print(f"[death_tracker] ✅ canal: {death['player']} morto por {death['killedBy']}")
             new_count += 1
         else:
