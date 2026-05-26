@@ -1,13 +1,13 @@
 {
   "3": [
     {
-      "id": "Sleep Shawl|35,000,000|Crit Chance Lv.1 (+0.35) · Attack Speed Lv.1 (+0.3",
-      "name": "Sleep Shawl",
-      "meta": "Amulets and necklaces · 1x",
-      "price": "35,000,000",
-      "attrs": "Crit Chance Lv.1 (+0.35) · Attack Speed Lv.1 (+0.35) · Frenzy Lv.1 (+0.25) · ",
+      "id": "Charged Spiritthorn Ring|50,000,000|Frenzy Lv.1 (+0.25) · Exp Lv.1 (+1.00) · Max Mana ",
+      "name": "Charged Spiritthorn Ring",
+      "meta": "Rings · 1x",
+      "price": "50,000,000",
+      "attrs": "Frenzy Lv.1 (+0.25) · Exp Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · ",
       "rarity": 3,
-      "first_seen": 1779766582
+      "first_seen": 1779767174
     },
     {
       "id": "Bear Skin|12,000,000|Defense Lv.1 (+2.00) · Protect Energy Lv.1 (+0.50)",
@@ -453,6 +453,15 @@
   ],
   "4": [
     {
+      "id": "Lion Spellbook|40,000,000|Crit Damage Lv.1 (+1.50) · Max HP Lv.1 (+0.50) · P",
+      "name": "Lion Spellbook",
+      "meta": "Spellbook · 1x",
+      "price": "40,000,000",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Max HP Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · Protect Fire Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779767174
+    },
+    {
       "id": "Ectoplasmic Shield|25,000,000|Execute Lv.1 (+0.25) · Spell Damage Lv.1 (+0.50) ·",
       "name": "Ectoplasmic Shield",
       "meta": "Shield · 1x",
@@ -892,15 +901,6 @@
       "attrs": "Spell Healing Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Exp Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · ",
       "rarity": 4,
       "first_seen": 1779756119
-    },
-    {
-      "id": "Energized Limb|3,500,000|Max Mana Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · ",
-      "name": "Energized Limb",
-      "meta": "Wand · 1x",
-      "price": "3,500,000",
-      "attrs": "Max Mana Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · MP Regen Lv.1 (+0.08) · Spell Damage Lv.1 (+0.50) · ",
-      "rarity": 4,
-      "first_seen": 1779765669
     }
   ],
   "5": [
