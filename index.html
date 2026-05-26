@@ -6,6 +6,7 @@
 <title>Lowly People — Painel da Guild</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" crossorigin="anonymous"></script>
 <style>
 :root{
   --gold:#c9a84c;--gold-light:#e8cb7a;--gold-dim:#7a6330;
@@ -1218,23 +1219,36 @@ footer span{color:var(--gold-dim)}
 
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" crossorigin="anonymous"></script>
 <script>
+// Garante que navigate existe antes de qualquer click
+window.navigate = function(page){
+  if(typeof _navigate === 'function') _navigate(page);
+};
+window.toggleSidebar = function(){
+  if(typeof _toggleSidebar === 'function') _toggleSidebar();
+};
+window.closeSidebarMobile = function(){
+  if(typeof _closeSidebarMobile === 'function') _closeSidebarMobile();
+};
+</script>
+
+<script>
+
 // ─── SIDEBAR ───────────────────────────────────────────
 var sbOpen=true;
 function isMob(){return window.innerWidth<=700}
-function toggleSidebar(){
+function _toggleSidebar(){
   if(isMob()){var open=document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('visible',open);}
   else{sbOpen=!sbOpen;document.getElementById('sidebar').classList.toggle('collapsed',!sbOpen);document.getElementById('main').classList.toggle('full',!sbOpen);document.getElementById('toggle-btn').classList.toggle('closed',!sbOpen);}
 }
-function closeSidebarMobile(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('visible')}
-function navigate(page){
+function _closeSidebarMobile(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('visible')}
+function _navigate(page){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
   document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active')});
   document.getElementById('page-'+page).classList.add('active');
   document.getElementById('nav-'+page).classList.add('active');
   document.getElementById('main').scrollTop=0;
-  if(isMob())closeSidebarMobile();
+  if(isMob())_closeSidebarMobile();
   if(page==='calendar') loadCalendarData();
   if(page==='deaths_global') renderDeathsGlobal();
   if(page==='inactive') renderInactive();
@@ -2716,7 +2730,7 @@ function updateAuthUI(){
     if(annNav) annNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
-      navigate('guild');
+      _navigate('guild');
     }
   }
 }
