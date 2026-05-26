@@ -1777,15 +1777,6 @@ async function loadAnnouncements(){
     console.error(e);
   }
 }
-  if(!confirm('Remover este aviso?')) return;
-  await supaFetch('announcements?id=eq.'+id, null, 'DELETE');
-  var el = document.getElementById('ann-'+id);
-  if(el) el.remove();
-  var cont = document.getElementById('announcements-content');
-  if(cont && !cont.querySelector('.announcement-card')){
-    cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
-  }
-}
 
 async function deleteAnnouncement(id){
   if(!confirm('Remover este aviso?')) return;
