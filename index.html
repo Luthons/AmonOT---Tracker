@@ -2639,17 +2639,20 @@ async function initAuth(){
   var hash = window.location.hash;
   if(hash && hash.includes('access_token')){
     try {
-      var params = new URLSearchParams(hash.substring(1));
+      // Remove o # inicial
+      var hashContent = hash.startsWith('#') ? hash.substring(1) : hash;
+      var params = new URLSearchParams(hashContent);
       var accessToken  = params.get('access_token');
       var refreshToken = params.get('refresh_token');
+      console.log('[auth] access_token encontrado na URL:', !!accessToken);
       if(accessToken && refreshToken){
         var {data, error} = await _supa.auth.setSession({
           access_token:  accessToken,
           refresh_token: refreshToken,
         });
+        console.log('[auth] setSession result:', data?.session?.user?.email, error?.message);
         if(data?.session){
           currentUser = data.session.user;
-          // Limpa hash da URL
           window.history.replaceState(null, '', window.location.pathname);
           await loadProfile();
           return;
