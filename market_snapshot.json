@@ -1,1 +1,917 @@
-{}
+{
+  "3": [
+    {
+      "id": "Green Demon Armor|1,000,0001,000,000 ea.|Defense Lv.1 (+2.00) · Protect All Lv.1 (+0.17) · ",
+      "name": "Green Demon Armor",
+      "meta": "Armors · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Protect All Lv.1 (+0.17) · Protect Energy Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gnome Legs|5,000,0005,000,000 ea.|Protect Fire Lv.1 (+0.50) · Life Leech Lv.1 (+0.20",
+      "name": "Gnome Legs",
+      "meta": "Legs · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Protect Fire Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · Onslaught Lv.1 (+0.10) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Enchanted Pendulet|70,000,00070,000,000 ea.|Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.5",
+      "name": "Enchanted Pendulet",
+      "meta": "Amulets and necklaces · 1x",
+      "price": "70,000,00070,000,000 ea.",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Sanguine Battleaxe|400,000,000400,000,000 ea.|Max HP Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · ",
+      "name": "Sanguine Battleaxe",
+      "meta": "Two-handed · 1x",
+      "price": "400,000,000400,000,000 ea.",
+      "attrs": "Max HP Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · Defense Lv.1 (+2.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Sanguine Greaves|1,000,000,0001,000,000,000 ea.|Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
+      "name": "Sanguine Greaves",
+      "meta": "Legs · 1x",
+      "price": "1,000,000,0001,000,000,000 ea.",
+      "attrs": "Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Armor Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Naga Crossbow|12,000,00012,000,000 ea.|Attack Lv.1 (+1.00) · Defense Lv.1 (+2.00) · Spell",
+      "name": "Naga Crossbow",
+      "meta": "Two-handed · 1x",
+      "price": "12,000,00012,000,000 ea.",
+      "attrs": "Attack Lv.1 (+1.00) · Defense Lv.1 (+2.00) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gnome Legs|5,000,0005,000,000 ea.|Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · ",
+      "name": "Gnome Legs",
+      "meta": "Legs · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Enchanted Theurgic Amulet|20,000,00020,000,000 ea.|Execute Lv.1 (+0.25) · Max HP Lv.1 (+0.50) · Prote",
+      "name": "Enchanted Theurgic Amulet",
+      "meta": "Amulets and necklaces · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Max HP Lv.1 (+0.50) · Protect All Lv.1 (+0.17) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Bear Skin|8,000,0008,000,000 ea.|HP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) ·",
+      "name": "Bear Skin",
+      "meta": "Armors · 1x",
+      "price": "8,000,0008,000,000 ea.",
+      "attrs": "HP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · Execute Lv.1 (+0.25) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Exotic Legs|1,050,0001,050,000 ea.|MP Regen Lv.1 (+0.08) · Life Leech Lv.1 (+0.20) · ",
+      "name": "Exotic Legs",
+      "meta": "Legs · 1x",
+      "price": "1,050,0001,050,000 ea.",
+      "attrs": "MP Regen Lv.1 (+0.08) · Life Leech Lv.1 (+0.20) · Attack Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gilded Eldritch Rod|9,999,9999,999,999 ea.|Spell Damage Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
+      "name": "Gilded Eldritch Rod",
+      "meta": "Wand · 1x",
+      "price": "9,999,9999,999,999 ea.",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · MP Regen Lv.1 (+0.08) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Resizer|1,000,0001,000,000 ea.|Crit Chance Lv.1 (+0.35) · Spell Damage Lv.1 (+0.5",
+      "name": "Resizer",
+      "meta": "Two-handed · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Crit Chance Lv.1 (+0.35) · Spell Damage Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Amber Sabre|30,000,00030,000,000 ea.|Mana Leech Lv.1 (+0.20) · Attack Speed Lv.1 (+0.35",
+      "name": "Amber Sabre",
+      "meta": "Sword · 1x",
+      "price": "30,000,00030,000,000 ea.",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Attack Speed Lv.1 (+0.35) · Protect All Lv.1 (+0.17) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dreadfire Headpiece|50,000,00050,000,000 ea.|Mana Leech Lv.1 (+0.20) · Max HP Lv.1 (+0.50) · Lo",
+      "name": "Dreadfire Headpiece",
+      "meta": "Helmets · 1x",
+      "price": "50,000,00050,000,000 ea.",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Max HP Lv.1 (+0.50) · Loot Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Soulbiter|150,000,000150,000,000 ea.|Protect All Lv.1 (+0.17) · Armor Lv.1 (+1.00) · Ma",
+      "name": "Soulbiter",
+      "meta": "Axe · 1x",
+      "price": "150,000,000150,000,000 ea.",
+      "attrs": "Protect All Lv.1 (+0.17) · Armor Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Hailstorm Rod|3,000,0003,000,000 ea.|Max Mana Lv.1 (+0.50) · MP Regen Lv.1 (+0.08) · Pr",
+      "name": "Hailstorm Rod",
+      "meta": "Wand · 1x",
+      "price": "3,000,0003,000,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · MP Regen Lv.1 (+0.08) · Protect Death Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Yalahari Leg Piece|3,000,0003,000,000 ea.|Mana Leech Lv.1 (+0.20) · Spell Healing Lv.1 (+0.5",
+      "name": "Yalahari Leg Piece",
+      "meta": "Legs · 1x",
+      "price": "3,000,0003,000,000 ea.",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Spell Healing Lv.1 (+0.50) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Crude Umbral Katar|800,000800,000 ea.|Life Leech Lv.1 (+0.20) · Protect Death Lv.1 (+0.5",
+      "name": "Crude Umbral Katar",
+      "meta": "Two-handed · 1x",
+      "price": "800,000800,000 ea.",
+      "attrs": "Life Leech Lv.1 (+0.20) · Protect Death Lv.1 (+0.50) · Loot Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Crude Umbral Mace|800,000800,000 ea.|Armor Lv.1 (+1.00) · Protect All Lv.1 (+0.17) · Pr",
+      "name": "Crude Umbral Mace",
+      "meta": "Club · 1x",
+      "price": "800,000800,000 ea.",
+      "attrs": "Armor Lv.1 (+1.00) · Protect All Lv.1 (+0.17) · Protect Holy Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dark Armor|999,999999,999 ea.|Protect Death Lv.1 (+0.50) · Execute Lv.1 (+0.25) ",
+      "name": "Dark Armor",
+      "meta": "Armors · 1x",
+      "price": "999,999999,999 ea.",
+      "attrs": "Protect Death Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Fabulous Legs|150,000,000150,000,000 ea.|Onslaught Lv.1 (+0.10) · Spell Damage Lv.1 (+0.50)",
+      "name": "Fabulous Legs",
+      "meta": "Legs · 1x",
+      "price": "150,000,000150,000,000 ea.",
+      "attrs": "Onslaught Lv.1 (+0.10) · Spell Damage Lv.1 (+0.50) · Attack Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gnome Helmet|20,000,00020,000,000 ea.|Armor Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · Prote",
+      "name": "Gnome Helmet",
+      "meta": "Helmets · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Armor Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · Protect Fire Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Eldritch Bow|7,000,0007,000,000 ea.|Crit Damage Lv.1 (+1.50) · Mana Leech Lv.1 (+0.20)",
+      "name": "Eldritch Bow",
+      "meta": "Two-handed · 1x",
+      "price": "7,000,0007,000,000 ea.",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Mana Leech Lv.1 (+0.20) · Armor Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Eldritch Bow|8,000,0008,000,000 ea.|HP Regen Lv.1 (+0.08) · Protect All Lv.1 (+0.17) ·",
+      "name": "Eldritch Bow",
+      "meta": "Two-handed · 1x",
+      "price": "8,000,0008,000,000 ea.",
+      "attrs": "HP Regen Lv.1 (+0.08) · Protect All Lv.1 (+0.17) · Protect Earth Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Merudri Battle Mail|10,000,00010,000,000 ea.|Protect All Lv.1 (+0.17) · Max Mana Lv.1 (+0.50) ·",
+      "name": "Merudri Battle Mail",
+      "meta": "Armors · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect All Lv.1 (+0.17) · Max Mana Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Enchanted Sleep Shawl|49,999,99949,999,999 ea.|Max HP Lv.1 (+0.50) · Exp Lv.1 (+1.00) · Protect F",
+      "name": "Enchanted Sleep Shawl",
+      "meta": "Amulets and necklaces · 1x",
+      "price": "49,999,99949,999,999 ea.",
+      "attrs": "Max HP Lv.1 (+0.50) · Exp Lv.1 (+1.00) · Protect Fire Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gnome Shield|32,000,00032,000,000 ea.|Frenzy Lv.1 (+0.25) · Loot Lv.1 (+1.00) · Crit Cha",
+      "name": "Gnome Shield",
+      "meta": "Shield · 1x",
+      "price": "32,000,00032,000,000 ea.",
+      "attrs": "Frenzy Lv.1 (+0.25) · Loot Lv.1 (+1.00) · Crit Chance Lv.1 (+0.35) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Green Demon Helmet|1,499,0001,499,000 ea.|Crit Damage Lv.1 (+1.50) · Attack Speed Lv.1 (+0.3",
+      "name": "Green Demon Helmet",
+      "meta": "Helmets · 1x",
+      "price": "1,499,0001,499,000 ea.",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Attack Speed Lv.1 (+0.35) · Spell Healing Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Gnome Shield|35,000,00035,000,000 ea.|Protect Energy Lv.1 (+0.50) · Crit Chance Lv.1 (+0",
+      "name": "Gnome Shield",
+      "meta": "Shield · 1x",
+      "price": "35,000,00035,000,000 ea.",
+      "attrs": "Protect Energy Lv.1 (+0.50) · Crit Chance Lv.1 (+0.35) · Execute Lv.1 (+0.25) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Sanguine Trousers|500,000,000500,000,000 ea.|Loot Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Frenzy",
+      "name": "Sanguine Trousers",
+      "meta": "Legs · 1x",
+      "price": "500,000,000500,000,000 ea.",
+      "attrs": "Loot Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Frenzy Lv.1 (+0.25) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Amber Slayer|20,000,00020,000,000 ea.|Crit Chance Lv.1 (+0.35) · MP Regen Lv.1 (+0.08) ·",
+      "name": "Amber Slayer",
+      "meta": "Two-handed · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Crit Chance Lv.1 (+0.35) · MP Regen Lv.1 (+0.08) · Protect Earth Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Spellbook Of Dark Mysteries|3,000,0003,000,000 ea.|Frenzy Lv.1 (+0.25) · Execute Lv.1 (+0.25) · Crit ",
+      "name": "Spellbook Of Dark Mysteries",
+      "meta": "Spellbook · 1x",
+      "price": "3,000,0003,000,000 ea.",
+      "attrs": "Frenzy Lv.1 (+0.25) · Execute Lv.1 (+0.25) · Crit Chance Lv.1 (+0.35) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Elven Mail|1,000,0001,000,000 ea.|Max Mana Lv.1 (+0.50) · Crit Chance Lv.1 (+0.35) ·",
+      "name": "Elven Mail",
+      "meta": "Armors · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · Crit Chance Lv.1 (+0.35) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Ornate Crossbow|80,00080,000 ea.|Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
+      "name": "Ornate Crossbow",
+      "meta": "Two-handed · 1x",
+      "price": "80,00080,000 ea.",
+      "attrs": "Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Max Mana Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Antler-horn Helmet|5,000,0005,000,000 ea.|Execute Lv.1 (+0.25) · Frenzy Lv.1 (+0.25) · MP Re",
+      "name": "Antler-horn Helmet",
+      "meta": "Helmets · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Frenzy Lv.1 (+0.25) · MP Regen Lv.1 (+0.08) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Bow Of Cataclysm|10,000,00010,000,000 ea.|Mana Leech Lv.1 (+0.20) · Frenzy Lv.1 (+0.25) · At",
+      "name": "Bow Of Cataclysm",
+      "meta": "Two-handed · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Frenzy Lv.1 (+0.25) · Attack Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Soulshredder|350,000,000350,000,000 ea.|Attack Lv.1 (+2.00) · Spell Damage Lv.1 (+0.50) · ",
+      "name": "Soulshredder",
+      "meta": "Two-handed · 1x",
+      "price": "350,000,000350,000,000 ea.",
+      "attrs": "Attack Lv.1 (+2.00) · Spell Damage Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Wand Of Inferno|8,0008,000 ea.|Protect Fire Lv.1 (+0.50) · Max HP Lv.1 (+0.50) · ",
+      "name": "Wand Of Inferno",
+      "meta": "Wand · 1x",
+      "price": "8,0008,000 ea.",
+      "attrs": "Protect Fire Lv.1 (+0.50) · Max HP Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Wand Of Destruction|200,000100,000 ea.|Protect Energy Lv.1 (+0.50) · Crit Damage Lv.1 (+1",
+      "name": "Wand Of Destruction",
+      "meta": "Wand · 2x",
+      "price": "200,000100,000 ea.",
+      "attrs": "Protect Energy Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect Death Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Winterblade|20,000,00020,000,000 ea.|Frenzy Lv.1 (+0.25) · HP Regen Lv.1 (+0.08) · Defe",
+      "name": "Winterblade",
+      "meta": "Sword · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Frenzy Lv.1 (+0.25) · HP Regen Lv.1 (+0.08) · Defense Lv.1 (+2.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Yalahari Armor|1,000,0001,000,000 ea.|Life Leech Lv.1 (+0.20) · Protect Earth Lv.1 (+0.5",
+      "name": "Yalahari Armor",
+      "meta": "Armors · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Life Leech Lv.1 (+0.20) · Protect Earth Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Knight Legs|1,000,0001,000,000 ea.|Defense Lv.1 (+2.00) · Attack Speed Lv.1 (+0.35) ·",
+      "name": "Knight Legs",
+      "meta": "Legs · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Attack Speed Lv.1 (+0.35) · Protect Energy Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Toga Mortis|1,350,0001,350,000 ea.|Defense Lv.1 (+2.00) · Execute Lv.1 (+0.25) · Spel",
+      "name": "Toga Mortis",
+      "meta": "Armors · 1x",
+      "price": "1,350,0001,350,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Execute Lv.1 (+0.25) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Ring Of Healing|1,000,0001,000,000 ea.|Max Mana Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50",
+      "name": "Ring Of Healing",
+      "meta": "1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50) · Loot Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Energy Ring|1,000,0001,000,000 ea.|Protect Energy Lv.1 (+0.50) · Max HP Lv.1 (+0.50) ",
+      "name": "Energy Ring",
+      "meta": "Rings · 1x",
+      "price": "1,000,0001,000,000 ea.",
+      "attrs": "Protect Energy Lv.1 (+0.50) · Max HP Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Living Vine Bow|2,999,0002,999,000 ea.|Protect Holy Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) ",
+      "name": "Living Vine Bow",
+      "meta": "Two-handed · 1x",
+      "price": "2,999,0002,999,000 ea.",
+      "attrs": "Protect Holy Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Bow|60,00060,000 ea.|Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · ",
+      "name": "Bow",
+      "meta": "Two-handed · 1x",
+      "price": "60,00060,000 ea.",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Nunchaku Of Destruction|3,500,0003,500,000 ea.|Mana Leech Lv.1 (+0.20) · Life Leech Lv.1 (+0.20) ",
+      "name": "Nunchaku Of Destruction",
+      "meta": "Two-handed · 1x",
+      "price": "3,500,0003,500,000 ea.",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Life Leech Lv.1 (+0.20) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Jade Legs|900,000900,000 ea.|Spell Damage Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
+      "name": "Jade Legs",
+      "meta": "Legs · 1x",
+      "price": "900,000900,000 ea.",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · Execute Lv.1 (+0.25) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Sanguine Battleaxe|500,000,000500,000,000 ea.|Defense Lv.1 (+2.00) · Max Mana Lv.1 (+0.50) · Cri",
+      "name": "Sanguine Battleaxe",
+      "meta": "Two-handed · 1x",
+      "price": "500,000,000500,000,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Max Mana Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · ",
+      "rarity": 3,
+      "first_seen": 1779755795
+    }
+  ],
+  "4": [
+    {
+      "id": "Jade Legs|40,000,00040,000,000 ea.|Protect Fire Lv.1 (+0.50) · Attack Speed Lv.1 (+0.",
+      "name": "Jade Legs",
+      "meta": "Legs · 1x",
+      "price": "40,000,00040,000,000 ea.",
+      "attrs": "Protect Fire Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · Protect Holy Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Mastermind Shield|3,000,0003,000,000 ea.|Loot Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Crit D",
+      "name": "Mastermind Shield",
+      "meta": "Shield · 1x",
+      "price": "3,000,0003,000,000 ea.",
+      "attrs": "Loot Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · Exp Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Stitched Mutant Hide Legs|100,000,000100,000,000 ea.|Attack Speed Lv.1 (+0.35) · Protect Holy Lv.1 (+0.",
+      "name": "Stitched Mutant Hide Legs",
+      "meta": "Legs · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Attack Speed Lv.1 (+0.35) · Protect Holy Lv.1 (+0.50) · Armor Lv.1 (+1.00) · Spell Healing Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Cobra Sword|10,000,00010,000,000 ea.|Protect Death Lv.1 (+0.50) · Protect All Lv.1 (+0.",
+      "name": "Cobra Sword",
+      "meta": "Sword · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Death Lv.1 (+0.50) · Protect All Lv.1 (+0.17) · Crit Chance Lv.1 (+0.35) · Protect Earth Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Badger Boots|5,000,0005,000,000 ea.|Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · ",
+      "name": "Badger Boots",
+      "meta": "Boots · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · Attack Lv.1 (+1.00) · Protect Holy Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Spirit Guide|100,000,000100,000,000 ea.|Life Leech Lv.1 (+0.20) · Onslaught Lv.1 (+0.10) ·",
+      "name": "Spirit Guide",
+      "meta": "Shield · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Life Leech Lv.1 (+0.20) · Onslaught Lv.1 (+0.10) · Attack Speed Lv.1 (+0.35) · Defense Lv.1 (+2.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Jade Legs|100,000,000100,000,000 ea.|Execute Lv.1 (+0.25) · Attack Speed Lv.1 (+0.35) ·",
+      "name": "Jade Legs",
+      "meta": "Legs · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Attack Speed Lv.1 (+0.35) · Armor Lv.1 (+1.00) · Attack Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Metal Spats|19,950,00019,950,000 ea.|Exp Lv.1 (+1.00) · Spell Damage Lv.1 (+0.50) · Pro",
+      "name": "Metal Spats",
+      "meta": "Boots · 1x",
+      "price": "19,950,00019,950,000 ea.",
+      "attrs": "Exp Lv.1 (+1.00) · Spell Damage Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Spiked Squelcher|80,00080,000 ea.|Protect Ice Lv.1 (+0.50) · Protect Holy Lv.1 (+0.5",
+      "name": "Spiked Squelcher",
+      "meta": "Two-handed · 1x",
+      "price": "80,00080,000 ea.",
+      "attrs": "Protect Ice Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · Spell Damage Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Firesoul Tabard|7,000,0007,000,000 ea.|Defense Lv.1 (+2.00) · Protect Death Lv.1 (+0.50) ",
+      "name": "Firesoul Tabard",
+      "meta": "Armors · 1x",
+      "price": "7,000,0007,000,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Protect Death Lv.1 (+0.50) · Protect All Lv.1 (+0.17) · Onslaught Lv.1 (+0.10) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Firesoul Tabard|4,000,0004,000,000 ea.|Protect All Lv.1 (+0.17) · Protect Ice Lv.1 (+0.50",
+      "name": "Firesoul Tabard",
+      "meta": "Armors · 1x",
+      "price": "4,000,0004,000,000 ea.",
+      "attrs": "Protect All Lv.1 (+0.17) · Protect Ice Lv.1 (+0.50) · Protect Earth Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Heavy Machete|5,000,0005,000,000 ea.|Onslaught Lv.1 (+0.10) · Execute Lv.1 (+0.25) · Pr",
+      "name": "Heavy Machete",
+      "meta": "Sword · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Onslaught Lv.1 (+0.10) · Execute Lv.1 (+0.25) · Protect Death Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Hailstorm Rod|9,000,0009,000,000 ea.|Defense Lv.1 (+2.00) · Life Leech Lv.1 (+0.20) · F",
+      "name": "Hailstorm Rod",
+      "meta": "Wand · 1x",
+      "price": "9,000,0009,000,000 ea.",
+      "attrs": "Defense Lv.1 (+2.00) · Life Leech Lv.1 (+0.20) · Frenzy Lv.1 (+0.25) · Attack Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Grasshopper Legs|10,000,00010,000,000 ea.|Protect Ice Lv.1 (+0.50) · Attack Speed Lv.1 (+0.3",
+      "name": "Grasshopper Legs",
+      "meta": "Legs · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Ice Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · MP Regen Lv.1 (+0.08) · Life Leech Lv.1 (+0.20) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Mastermind Shield|10,000,00010,000,000 ea.|Execute Lv.1 (+0.25) · Mana Leech Lv.1 (+0.20) · E",
+      "name": "Mastermind Shield",
+      "meta": "Shield · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Mana Leech Lv.1 (+0.20) · Exp Lv.1 (+1.00) · Armor Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Crude Umbral Katar|20,000,00020,000,000 ea.|Exp Lv.1 (+1.00) · Defense Lv.1 (+2.00) · MP Regen",
+      "name": "Crude Umbral Katar",
+      "meta": "Two-handed · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Exp Lv.1 (+1.00) · Defense Lv.1 (+2.00) · MP Regen Lv.1 (+0.08) · Protect Ice Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dragon Scale Mail|11,111,11111,111,111 ea.|MP Regen Lv.1 (+0.08) · Protect Death Lv.1 (+0.50)",
+      "name": "Dragon Scale Mail",
+      "meta": "Armors · 1x",
+      "price": "11,111,11111,111,111 ea.",
+      "attrs": "MP Regen Lv.1 (+0.08) · Protect Death Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Shadow Sceptre|6,999,9996,999,999 ea.|Frenzy Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) ·",
+      "name": "Shadow Sceptre",
+      "meta": "Club · 1x",
+      "price": "6,999,9996,999,999 ea.",
+      "attrs": "Frenzy Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Hailstorm Rod|10,000,00010,000,000 ea.|Max HP Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Pr",
+      "name": "Hailstorm Rod",
+      "meta": "Wand · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Max HP Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Protect Earth Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Metal Spats|20,000,00020,000,000 ea.|Execute Lv.1 (+0.25) · Onslaught Lv.1 (+0.10) · Pr",
+      "name": "Metal Spats",
+      "meta": "Boots · 1x",
+      "price": "20,000,00020,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Onslaught Lv.1 (+0.10) · Protect All Lv.1 (+0.17) · Mana Leech Lv.1 (+0.20) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Ring Of Souls|350,000,000350,000,000 ea.|Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · S",
+      "name": "Ring Of Souls",
+      "meta": "1x",
+      "price": "350,000,000350,000,000 ea.",
+      "attrs": "Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Terra Rod|10,000,00010,000,000 ea.|MP Regen Lv.1 (+0.08) · Max Mana Lv.1 (+0.50) · Lo",
+      "name": "Terra Rod",
+      "meta": "Wand · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "MP Regen Lv.1 (+0.08) · Max Mana Lv.1 (+0.50) · Loot Lv.1 (+1.00) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dark Vision Bandana|100,000,000100,000,000 ea.|Max Mana Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · Pr",
+      "name": "Dark Vision Bandana",
+      "meta": "Helmets · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · HP Regen Lv.1 (+0.08) · Protect All Lv.1 (+0.17) · Spell Healing Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Nunchaku Of Destruction|6,000,0006,000,000 ea.|Loot Lv.1 (+1.00) · Execute Lv.1 (+0.25) · Frenzy ",
+      "name": "Nunchaku Of Destruction",
+      "meta": "Two-handed · 1x",
+      "price": "6,000,0006,000,000 ea.",
+      "attrs": "Loot Lv.1 (+1.00) · Execute Lv.1 (+0.25) · Frenzy Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dream Shroud|50,000,00050,000,000 ea.|Protect Death Lv.1 (+0.50) · Attack Lv.1 (+1.00) ·",
+      "name": "Dream Shroud",
+      "meta": "Armors · 1x",
+      "price": "50,000,00050,000,000 ea.",
+      "attrs": "Protect Death Lv.1 (+0.50) · Attack Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Living Vine Bow|30,000,00030,000,000 ea.|Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) ",
+      "name": "Living Vine Bow",
+      "meta": "Two-handed · 1x",
+      "price": "30,000,00030,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Knight Legs|4,000,0004,000,000 ea.|Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) ·",
+      "name": "Knight Legs",
+      "meta": "Legs · 1x",
+      "price": "4,000,0004,000,000 ea.",
+      "attrs": "Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · Life Leech Lv.1 (+0.20) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Steel Helmet|100,000100,000 ea.|MP Regen Lv.1 (+0.08) · Protect Fire Lv.1 (+0.50) ",
+      "name": "Steel Helmet",
+      "meta": "Helmets · 1x",
+      "price": "100,000100,000 ea.",
+      "attrs": "MP Regen Lv.1 (+0.08) · Protect Fire Lv.1 (+0.50) · Spell Damage Lv.1 (+0.50) · Onslaught Lv.1 (+0.10) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Crest Of The Deep Seas|2,000,0002,000,000 ea.|Onslaught Lv.1 (+0.10) · Max HP Lv.1 (+0.50) · Pro",
+      "name": "Crest Of The Deep Seas",
+      "meta": "1x",
+      "price": "2,000,0002,000,000 ea.",
+      "attrs": "Onslaught Lv.1 (+0.10) · Max HP Lv.1 (+0.50) · Protect All Lv.1 (+0.17) · Loot Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Metal Spats|80,000,00080,000,000 ea.|Execute Lv.1 (+0.25) · Max Mana Lv.1 (+0.50) · Loo",
+      "name": "Metal Spats",
+      "meta": "Boots · 1x",
+      "price": "80,000,00080,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Max Mana Lv.1 (+0.50) · Loot Lv.1 (+1.00) · Protect Earth Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Umbral Bow|2,000,0002,000,000 ea.|Protect All Lv.1 (+0.17) · Frenzy Lv.1 (+0.25) · H",
+      "name": "Umbral Bow",
+      "meta": "Two-handed · 1x",
+      "price": "2,000,0002,000,000 ea.",
+      "attrs": "Protect All Lv.1 (+0.17) · Frenzy Lv.1 (+0.25) · HP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Arcanomancer Regalia|4,000,000,0004,000,000,000 ea.|Protect Earth Lv.1 (+0.50) · Attack Speed Lv.1 (+0",
+      "name": "Arcanomancer Regalia",
+      "meta": "Helmets · 1x",
+      "price": "4,000,000,0004,000,000,000 ea.",
+      "attrs": "Protect Earth Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · Protect Ice Lv.1 (+0.50) · Execute Lv.1 (+0.25) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Fire Sword|10,000,00010,000,000 ea.|Protect Death Lv.1 (+0.50) · Crit Chance Lv.1 (+0.",
+      "name": "Fire Sword",
+      "meta": "Sword · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Death Lv.1 (+0.50) · Crit Chance Lv.1 (+0.35) · Frenzy Lv.1 (+0.25) · Attack Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Glacier Kilt|10,000,00010,000,000 ea.|Protect Fire Lv.1 (+0.50) · Defense Lv.1 (+2.00) ·",
+      "name": "Glacier Kilt",
+      "meta": "Legs · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Fire Lv.1 (+0.50) · Defense Lv.1 (+2.00) · Protect Energy Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Dragon Robe|10,000,00010,000,000 ea.|Armor Lv.1 (+1.00) · Protect Holy Lv.1 (+0.50) · P",
+      "name": "Dragon Robe",
+      "meta": "Armors · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Armor Lv.1 (+1.00) · Protect Holy Lv.1 (+0.50) · Protect Earth Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Yalahari Armor|30,000,00030,000,000 ea.|Max HP Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · Lo",
+      "name": "Yalahari Armor",
+      "meta": "Armors · 1x",
+      "price": "30,000,00030,000,000 ea.",
+      "attrs": "Max HP Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · Loot Lv.1 (+1.00) · Protect All Lv.1 (+0.17) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Soulful Legs|110,000,000110,000,000 ea.|Loot Lv.1 (+1.00) · Protect Fire Lv.1 (+0.50) · Ex",
+      "name": "Soulful Legs",
+      "meta": "Legs · 1x",
+      "price": "110,000,000110,000,000 ea.",
+      "attrs": "Loot Lv.1 (+1.00) · Protect Fire Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Wand Of Destruction|10,000,00010,000,000 ea.|Max HP Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · Execut",
+      "name": "Wand Of Destruction",
+      "meta": "Wand · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Max HP Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · Execute Lv.1 (+0.25) · Armor Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Rod Of Destruction|10,000,00010,000,000 ea.|Protect Holy Lv.1 (+0.50) · Execute Lv.1 (+0.25) ·",
+      "name": "Rod Of Destruction",
+      "meta": "Wand · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Holy Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Protect All Lv.1 (+0.17) · Attack Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Jade Legs|50,000,00050,000,000 ea.|MP Regen Lv.1 (+0.08) · Defense Lv.1 (+2.00) · HP ",
+      "name": "Jade Legs",
+      "meta": "Legs · 1x",
+      "price": "50,000,00050,000,000 ea.",
+      "attrs": "MP Regen Lv.1 (+0.08) · Defense Lv.1 (+2.00) · HP Regen Lv.1 (+0.08) · Crit Chance Lv.1 (+0.35) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Cobra Sword|30,000,00030,000,000 ea.|Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · ",
+      "name": "Cobra Sword",
+      "meta": "Sword · 1x",
+      "price": "30,000,00030,000,000 ea.",
+      "attrs": "Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · Exp Lv.1 (+1.00) · Protect Death Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Umbral Bow|5,000,0005,000,000 ea.|Max Mana Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · Prot",
+      "name": "Umbral Bow",
+      "meta": "Two-handed · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · Protect Earth Lv.1 (+0.50) · Loot Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Spellbook Of Mind Control|100,000,000100,000,000 ea.|Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.",
+      "name": "Spellbook Of Mind Control",
+      "meta": "Spellbook · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · HP Regen Lv.1 (+0.08) · Execute Lv.1 (+0.25) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Metal Spats|500,000,000500,000,000 ea.|Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.",
+      "name": "Metal Spats",
+      "meta": "Boots · 1x",
+      "price": "500,000,000500,000,000 ea.",
+      "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Firesoul Tabard|12,000,00012,000,000 ea.|Spell Healing Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
+      "name": "Firesoul Tabard",
+      "meta": "Armors · 1x",
+      "price": "12,000,00012,000,000 ea.",
+      "attrs": "Spell Healing Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Exp Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Energized Limb|3,500,0003,500,000 ea.|Max Mana Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · ",
+      "name": "Energized Limb",
+      "meta": "Wand · 1x",
+      "price": "3,500,0003,500,000 ea.",
+      "attrs": "Max Mana Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · MP Regen Lv.1 (+0.08) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Yalahari Mask|100,000,000100,000,000 ea.|Spell Damage Lv.1 (+0.50) · Crit Damage Lv.1 (+1.5",
+      "name": "Yalahari Mask",
+      "meta": "Helmets · 1x",
+      "price": "100,000,000100,000,000 ea.",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect All Lv.1 (+0.17) · Protect Fire Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Firesoul Tabard|30,000,00030,000,000 ea.|HP Regen Lv.1 (+0.08) · Protect Death Lv.1 (+0.50)",
+      "name": "Firesoul Tabard",
+      "meta": "Armors · 1x",
+      "price": "30,000,00030,000,000 ea.",
+      "attrs": "HP Regen Lv.1 (+0.08) · Protect Death Lv.1 (+0.50) · Onslaught Lv.1 (+0.10) · Attack Lv.1 (+1.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Crude Umbral Mace|10,000,00010,000,000 ea.|Protect Ice Lv.1 (+0.50) · Protect Death Lv.1 (+0.",
+      "name": "Crude Umbral Mace",
+      "meta": "Club · 1x",
+      "price": "10,000,00010,000,000 ea.",
+      "attrs": "Protect Ice Lv.1 (+0.50) · Protect Death Lv.1 (+0.50) · Loot Lv.1 (+1.00) · Defense Lv.1 (+2.00) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    },
+    {
+      "id": "Avenger|5,000,0005,000,000 ea.|Spell Damage Lv.1 (+0.50) · Protect Fire Lv.1 (+0.",
+      "name": "Avenger",
+      "meta": "Two-handed · 1x",
+      "price": "5,000,0005,000,000 ea.",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Protect Fire Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · HP Regen Lv.1 (+0.08) · ",
+      "rarity": 4,
+      "first_seen": 1779755795
+    }
+  ],
+  "5": [
+    {
+      "id": "Throwing Axe|200,000,000200,000,000 ea.|Protect Earth Lv.1 (+0.50) · Crit Chance Lv.1 (+0.",
+      "name": "Throwing Axe",
+      "meta": "Axe · 1x",
+      "price": "200,000,000200,000,000 ea.",
+      "attrs": "Protect Earth Lv.1 (+0.50) · Crit Chance Lv.1 (+0.35) · Mana Leech Lv.1 (+0.20) · Protect All Lv.1 (+0.17) · Armor Lv.1 (+1.00) · ",
+      "rarity": 5,
+      "first_seen": 1779755795
+    }
+  ]
+}
