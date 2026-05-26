@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # A cada hora
   workflow_dispatch:       # Permite rodar manualmente pela aba Actions
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -30,13 +33,27 @@ jobs:
           restore-keys: |
             guild-data-
 
+      - name: Restaurar market_snapshot.json anterior
+        uses: actions/cache@v4
+        with:
+          path: market_snapshot.json
+          key: market-snapshot-${{ github.run_id }}
+          restore-keys: |
+            market-snapshot-
+
       - name: Rodar scraper
         run: python main.py
 
-      - name: Salvar guild_data.json no repositório
+      - name: Rodar market tracker
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+        run: python market_tracker.py
+
+      - name: Salvar arquivos no repositório
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add guild_data.json
-          git diff --cached --quiet || git commit -m "chore: atualizar guild_data.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git add guild_data.json market_snapshot.json
+          git diff --cached --quiet || git commit -m "chore: atualizar dados [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
