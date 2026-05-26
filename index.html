@@ -2615,7 +2615,15 @@ function initSupabase(){
     setTimeout(initSupabase, 200);
     return;
   }
-  _supa = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  _supa = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: {
+      storage:          window.localStorage,
+      storageKey:       'lp-tracker-auth',
+      autoRefreshToken: true,
+      persistSession:   true,
+      detectSessionInUrl: true,
+    }
+  });
   initAuth();
 }
 
