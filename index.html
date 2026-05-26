@@ -2622,10 +2622,6 @@ function initSupabase(){
       autoRefreshToken:   true,
       persistSession:     true,
       detectSessionInUrl: true,
-      flowType:           'pkce',
-    },
-    global: {
-      headers: { 'x-supabase-clock-skew': '3600' }
     }
   });
   initAuth();
