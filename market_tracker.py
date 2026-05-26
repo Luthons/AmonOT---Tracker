@@ -65,8 +65,16 @@ def fetch_market(rarity: int) -> list:
                 name = name[:-len(rarity_label)].strip()
                 break
 
-        meta  = meta_el.get_text(" ", strip=True) if meta_el else ""
-        price = price_el.get_text(strip=True) if price_el else "?"
+        meta = meta_el.get_text(strip=True) if meta_el else ""
+
+        # Preço — usa só o mkt-total para evitar duplicação com mkt-unit
+        price = "?"
+        if price_el:
+            total_el = price_el.select_one(".mkt-total")
+            if total_el:
+                price = total_el.get_text(strip=True)
+            else:
+                price = price_el.get_text(strip=True)
 
         # Extrai atributos do title ou do conteúdo
         attrs_text = ""
