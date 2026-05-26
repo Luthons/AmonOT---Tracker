@@ -14,7 +14,9 @@ import requests
 # ── Configuração ──────────────────────────────────────────────────────────────
 DISCORD_TOKEN      = os.environ.get("DISCORD_BOT_TOKEN", "")
 DISCORD_CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "")
-DISCORD_USER_ID    = os.environ.get("DISCORD_USER_ID", "")  # admin fallback
+DISCORD_USER_ID    = os.environ.get("DISCORD_USER_ID", "")
+SUPABASE_URL       = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY       = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 SNAPSHOT_PATH = "death_snapshot.json"
 
@@ -138,6 +140,24 @@ def build_embed(death: dict, is_enemy: bool) -> dict:
     }
 
 
+def build_embed_dm(death: dict, is_enemy: bool) -> dict:
+    """Monta o embed de DM para o dono do personagem."""
+    color      = 0xC95050 if is_enemy else 0x5A5040
+    killer_url = f"https://amonot.online/characters?name={requests.utils.quote(death['killedBy'])}"
+    alert      = "⚠️ Você foi morto por um **inimigo conhecido**!" if is_enemy else "Você foi morto em PvP."
+
+    return {
+        "title":       f"💀 {death['player']} foi morto!",
+        "description": alert,
+        "color":       color,
+        "fields": [
+            {"name": "Morto por", "value": f"[{death['killedBy']}]({killer_url})", "inline": True},
+            {"name": "Horário",   "value": death["time"],                           "inline": True},
+        ],
+        "footer": {"text": "Lowly People · Death Tracker — Para silenciar notificações, acesse seu perfil no site."},
+    }
+
+
 # ── Supabase lookup ───────────────────────────────────────────────────────────
 
 def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str) -> str | None:
@@ -204,7 +224,7 @@ def run():
         for m in eg.get("members", []):
             enemy_set.add(m["name"].lower())
 
-    notified = load_snapshot()
+    notified  = load_snapshot()
     new_count = 0
 
     for death in deaths_global:
@@ -216,11 +236,24 @@ def run():
         embed    = build_embed(death, is_enemy)
 
         # Envia no canal da guilda
-        if send_channel_message(embed, mention_everyone=True):
+        canal_ok = send_channel_message(embed, mention_everyone=True)
+        if canal_ok:
             print(f"[death_tracker] ✅ canal: {death['player']} morto por {death['killedBy']}")
             new_count += 1
         else:
-            print(f"[death_tracker] ❌ falha ao enviar: {death['player']}")
+            print(f"[death_tracker] ❌ falha canal: {death['player']}")
+
+        # Tenta mandar DM para o dono do personagem
+        if SUPABASE_URL and SUPABASE_KEY:
+            discord_id = get_discord_id_for_char(death["player"], SUPABASE_URL, SUPABASE_KEY)
+            if discord_id:
+                embed_dm = build_embed_dm(death, is_enemy)
+                if send_dm(discord_id, embed_dm):
+                    print(f"[death_tracker] ✅ DM: {death['player']} → discord_id {discord_id}")
+                else:
+                    print(f"[death_tracker] ❌ falha DM: {death['player']}")
+            else:
+                print(f"[death_tracker] ℹ {death['player']} sem discord_id cadastrado")
 
         notified.add(key)
         time.sleep(0.5)  # evita rate limit
