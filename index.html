@@ -2635,13 +2635,40 @@ var regChars       = [];
 
 // ── Inicialização ───────────────────────────────────────
 async function initAuth(){
+  // Tenta pegar sessão da URL (após redirect do OAuth)
+  var hash = window.location.hash;
+  if(hash && hash.includes('access_token')){
+    try {
+      var params = new URLSearchParams(hash.substring(1));
+      var accessToken  = params.get('access_token');
+      var refreshToken = params.get('refresh_token');
+      if(accessToken && refreshToken){
+        var {data, error} = await _supa.auth.setSession({
+          access_token:  accessToken,
+          refresh_token: refreshToken,
+        });
+        if(data?.session){
+          currentUser = data.session.user;
+          // Limpa hash da URL
+          window.history.replaceState(null, '', window.location.pathname);
+          await loadProfile();
+          return;
+        }
+      }
+    } catch(e){
+      console.warn('[auth] erro ao processar sessão da URL:', e);
+    }
+  }
+
+  // Tenta restaurar sessão existente
   const {data:{session}} = await _supa.auth.getSession();
   if(session){
     currentUser = session.user;
     await loadProfile();
   }
+
   _supa.auth.onAuthStateChange(async(event, session)=>{
-    if(event==='SIGNED_IN'&&session){
+    if(event==='SIGNED_IN' && session){
       currentUser = session.user;
       await loadProfile();
     } else if(event==='SIGNED_OUT'){
