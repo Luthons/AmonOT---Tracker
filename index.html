@@ -933,7 +933,7 @@ footer span{color:var(--gold-dim)}
       <label class="field-label">Vagas (0 = ilimitado)</label>
       <input class="field-input" type="number" id="ce-vagas" min="0" value="0">
     </div>
-    <button class="modal-btn" onclick="submitCreateEvent()">Criar Evento</button>
+    <button class="modal-btn" id="btn-submit-create-event">Criar Evento</button>
     <div id="ce-status" class="modal-status"></div>
   </div>
 </div>
@@ -2465,6 +2465,12 @@ document.addEventListener('click', function(e){
 
 // Inicia auth
 initAuth();
+
+// Event listeners para botões dos modais
+document.addEventListener('DOMContentLoaded', function(){
+  var btnCreate = document.getElementById('btn-submit-create-event');
+  if(btnCreate) btnCreate.addEventListener('click', submitCreateEvent);
+});
 function chanceColor(c){if(c>=70)return'#5dbf6e';if(c>=40)return'#c9a84c';if(c>=15)return'#e87830';return'#c95050'}
 function fmtGold(v){if(!v||v===0)return'0';v=Math.round(v);return v.toLocaleString('pt-BR')}
 function resetCostForReset(ri){
