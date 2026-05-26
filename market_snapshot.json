@@ -1,6 +1,69 @@
 {
   "3": [
     {
+      "id": "Spellbook Of Warding|1,000,000|Crit Damage Lv.1 (+1.50) · MP Regen Lv.1 (+0.08) ·",
+      "name": "Spellbook Of Warding",
+      "meta": "Spellbook · 1x",
+      "price": "1,000,000",
+      "attrs": "Crit Damage Lv.1 (+1.50) · MP Regen Lv.1 (+0.08) · Loot Lv.1 (+1.00) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Glacier Robe|90,000|Mana Leech Lv.1 (+0.20) · Max Mana Lv.1 (+0.50) · ",
+      "name": "Glacier Robe",
+      "meta": "Armors · 1x",
+      "price": "90,000",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Max Mana Lv.1 (+0.50) · MP Regen Lv.1 (+0.08) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Glacier Kilt|2,000,000|Crit Chance Lv.1 (+0.35) · MP Regen Lv.1 (+0.08) ·",
+      "name": "Glacier Kilt",
+      "meta": "Legs · 1x",
+      "price": "2,000,000",
+      "attrs": "Crit Chance Lv.1 (+0.35) · MP Regen Lv.1 (+0.08) · Max Mana Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Crown Armor|200,000|Spell Damage Lv.1 (+0.50) · Protect Ice Lv.1 (+0.5",
+      "name": "Crown Armor",
+      "meta": "Armors · 1x",
+      "price": "200,000",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · Spell Healing Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Enchanted Theurgic Amulet|5,000,000|Attack Speed Lv.1 (+0.35) · Execute Lv.1 (+0.25) ·",
+      "name": "Enchanted Theurgic Amulet",
+      "meta": "Amulets and necklaces · 1x",
+      "price": "5,000,000",
+      "attrs": "Attack Speed Lv.1 (+0.35) · Execute Lv.1 (+0.25) · Protect Ice Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Nunchaku Of Destruction|1,000,000|Crit Damage Lv.1 (+1.50) · Frenzy Lv.1 (+0.25) · S",
+      "name": "Nunchaku Of Destruction",
+      "meta": "Two-handed · 1x",
+      "price": "1,000,000",
+      "attrs": "Crit Damage Lv.1 (+1.50) · Frenzy Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
+      "id": "Lion Longbow|50,000,000|Max HP Lv.1 (+0.50) · Protect Fire Lv.1 (+0.50) · ",
+      "name": "Lion Longbow",
+      "meta": "Two-handed · 1x",
+      "price": "50,000,000",
+      "attrs": "Max HP Lv.1 (+0.50) · Protect Fire Lv.1 (+0.50) · Protect Death Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779799280
+    },
+    {
       "id": "Pair Of Dreamwalkers|6,000,000|Protect Earth Lv.1 (+0.50) · Protect All Lv.1 (+0.",
       "name": "Pair Of Dreamwalkers",
       "meta": "1x",
@@ -53,15 +116,6 @@
       "attrs": "Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · Crit Chance Lv.1 (+0.35) · ",
       "rarity": 3,
       "first_seen": 1779770170
-    },
-    {
-      "id": "Charged Spiritthorn Ring|50,000,000|Frenzy Lv.1 (+0.25) · Exp Lv.1 (+1.00) · Max Mana ",
-      "name": "Charged Spiritthorn Ring",
-      "meta": "Rings · 1x",
-      "price": "50,000,000",
-      "attrs": "Frenzy Lv.1 (+0.25) · Exp Lv.1 (+1.00) · Max Mana Lv.1 (+0.50) · ",
-      "rarity": 3,
-      "first_seen": 1779767174
     },
     {
       "id": "Bear Skin|12,000,000|Defense Lv.1 (+2.00) · Protect Energy Lv.1 (+0.50)",
@@ -154,15 +208,6 @@
       "first_seen": 1779759377
     },
     {
-      "id": "Gnome Legs|5,000,000|Protect Fire Lv.1 (+0.50) · Life Leech Lv.1 (+0.20",
-      "name": "Gnome Legs",
-      "meta": "Legs · 1x",
-      "price": "5,000,000",
-      "attrs": "Protect Fire Lv.1 (+0.50) · Life Leech Lv.1 (+0.20) · Onslaught Lv.1 (+0.10) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
       "id": "Enchanted Pendulet|70,000,000|Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.5",
       "name": "Enchanted Pendulet",
       "meta": "Amulets and necklaces · 1x",
@@ -177,15 +222,6 @@
       "meta": "Two-handed · 1x",
       "price": "400,000,000",
       "attrs": "Max HP Lv.1 (+0.50) · Protect Holy Lv.1 (+0.50) · Defense Lv.1 (+2.00) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Sanguine Greaves|1,000,000,000|Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
-      "name": "Sanguine Greaves",
-      "meta": "Legs · 1x",
-      "price": "1,000,000,000",
-      "attrs": "Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Armor Lv.1 (+1.00) · ",
       "rarity": 3,
       "first_seen": 1779756119
     },
@@ -413,45 +449,18 @@
       "attrs": "Frenzy Lv.1 (+0.25) · Execute Lv.1 (+0.25) · Crit Chance Lv.1 (+0.35) · ",
       "rarity": 3,
       "first_seen": 1779756119
-    },
-    {
-      "id": "Ornate Crossbow|80,000|Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
-      "name": "Ornate Crossbow",
-      "meta": "Two-handed · 1x",
-      "price": "80,000",
-      "attrs": "Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Max Mana Lv.1 (+0.50) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Antler-horn Helmet|5,000,000|Execute Lv.1 (+0.25) · Frenzy Lv.1 (+0.25) · MP Re",
-      "name": "Antler-horn Helmet",
-      "meta": "Helmets · 1x",
-      "price": "5,000,000",
-      "attrs": "Execute Lv.1 (+0.25) · Frenzy Lv.1 (+0.25) · MP Regen Lv.1 (+0.08) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Bow Of Cataclysm|10,000,000|Mana Leech Lv.1 (+0.20) · Frenzy Lv.1 (+0.25) · At",
-      "name": "Bow Of Cataclysm",
-      "meta": "Two-handed · 1x",
-      "price": "10,000,000",
-      "attrs": "Mana Leech Lv.1 (+0.20) · Frenzy Lv.1 (+0.25) · Attack Lv.1 (+1.00) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Soulshredder|350,000,000|Attack Lv.1 (+2.00) · Spell Damage Lv.1 (+0.50) · ",
-      "name": "Soulshredder",
-      "meta": "Two-handed · 1x",
-      "price": "350,000,000",
-      "attrs": "Attack Lv.1 (+2.00) · Spell Damage Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
     }
   ],
   "4": [
+    {
+      "id": "Yalahari Mask|40,000,000|Spell Damage Lv.1 (+0.50) · Crit Damage Lv.1 (+1.5",
+      "name": "Yalahari Mask",
+      "meta": "Helmets · 1x",
+      "price": "40,000,000",
+      "attrs": "Spell Damage Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect All Lv.1 (+0.17) · Protect Fire Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779799280
+    },
     {
       "id": "Falcon Sai|150,000,000|Protect Holy Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20",
       "name": "Falcon Sai",
@@ -892,15 +901,6 @@
       "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · HP Regen Lv.1 (+0.08) · Execute Lv.1 (+0.25) · ",
       "rarity": 4,
       "first_seen": 1779756119
-    },
-    {
-      "id": "Metal Spats|500,000,000|Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.",
-      "name": "Metal Spats",
-      "meta": "Boots · 1x",
-      "price": "500,000,000",
-      "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
-      "rarity": 4,
-      "first_seen": 1779775279
     }
   ],
   "5": [
