@@ -1889,10 +1889,11 @@ async function loadCalendarData(){
     var rows2= json2.table.rows || [];
 
     calJoins = {};
-    rows2.slice(1).forEach(function(row){
+    rows2.forEach(function(row){
       var c = row.c || [];
       var evId    = String(c[0]?.v || '');
       var player  = c[1]?.v || '';
+      if(!evId) return;
       if(!calJoins[evId]) calJoins[evId] = {count:0, players:[]};
       calJoins[evId].count++;
       if(player) calJoins[evId].players.push(player);
