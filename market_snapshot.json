@@ -118,15 +118,6 @@
       "first_seen": 1779759377
     },
     {
-      "id": "Gnome Legs|2,500,000|Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · ",
-      "name": "Gnome Legs",
-      "meta": "Legs · 1x",
-      "price": "2,500,000",
-      "attrs": "Execute Lv.1 (+0.25) · Crit Damage Lv.1 (+1.50) · Defense Lv.1 (+2.00) · ",
-      "rarity": 3,
-      "first_seen": 1779756671
-    },
-    {
       "id": "Gnome Legs|5,000,000|Protect Fire Lv.1 (+0.50) · Life Leech Lv.1 (+0.20",
       "name": "Gnome Legs",
       "meta": "Legs · 1x",
@@ -449,9 +440,27 @@
       "attrs": "Frenzy Lv.1 (+0.25) · HP Regen Lv.1 (+0.08) · Defense Lv.1 (+2.00) · ",
       "rarity": 3,
       "first_seen": 1779756119
+    },
+    {
+      "id": "Yalahari Armor|1,000,000|Life Leech Lv.1 (+0.20) · Protect Earth Lv.1 (+0.5",
+      "name": "Yalahari Armor",
+      "meta": "Armors · 1x",
+      "price": "1,000,000",
+      "attrs": "Life Leech Lv.1 (+0.20) · Protect Earth Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779774974
     }
   ],
   "4": [
+    {
+      "id": "Falcon Sai|150,000,000|Protect Holy Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20",
+      "name": "Falcon Sai",
+      "meta": "Two-handed · 1x",
+      "price": "150,000,000",
+      "attrs": "Protect Holy Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Spell Healing Lv.1 (+0.50) · Attack Speed Lv.1 (+0.35) · ",
+      "rarity": 4,
+      "first_seen": 1779774974
+    },
     {
       "id": "Sanguine Trousers|3,000,000,000|Spell Healing Lv.1 (+0.50) · Onslaught Lv.1 (+0.10",
       "name": "Sanguine Trousers",
@@ -890,15 +899,6 @@
       "meta": "Spellbook · 1x",
       "price": "100,000,000",
       "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · HP Regen Lv.1 (+0.08) · Execute Lv.1 (+0.25) · ",
-      "rarity": 4,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Metal Spats|500,000,000|Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.",
-      "name": "Metal Spats",
-      "meta": "Boots · 1x",
-      "price": "500,000,000",
-      "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
       "rarity": 4,
       "first_seen": 1779756119
     }
