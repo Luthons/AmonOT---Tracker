@@ -312,7 +312,55 @@ footer span{color:var(--gold-dim)}
 .rr-winner.tie{color:var(--gold-dim);border-color:var(--border-gold)}
 @media(max-width:700px){.rr-scoreboard{grid-template-columns:1fr}}
 
-/* HUNTED LIST */
+/* CALENDAR */
+.cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.cal-nav-btn{background:var(--bg3);border:1px solid var(--border-gold);color:var(--gold-dim);cursor:pointer;padding:6px 14px;font-family:'Cinzel',serif;font-size:.75rem;transition:all .2s}
+.cal-nav-btn:hover{border-color:var(--gold);color:var(--gold-light)}
+.cal-month-title{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);letter-spacing:.08em;text-transform:uppercase}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--border-gold);margin-bottom:28px}
+.cal-day-header{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dim);text-align:center;padding:8px 4px;background:var(--bg3);border-bottom:1px solid var(--border-gold)}
+.cal-cell{min-height:80px;padding:6px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s;position:relative}
+.cal-cell:nth-child(7n){border-right:none}
+.cal-cell:hover{background:var(--bg3)}
+.cal-cell.other-month{opacity:.3;cursor:default}
+.cal-cell.other-month:hover{background:transparent}
+.cal-cell.today{background:rgba(201,168,76,.06);border-color:var(--border-gold)}
+.cal-cell.has-events{cursor:pointer}
+.cal-day-num{font-family:'Cinzel',serif;font-size:.75rem;color:var(--text-dim);margin-bottom:4px}
+.cal-cell.today .cal-day-num{color:var(--gold-light);font-weight:700}
+.cal-event-pill{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.05em;padding:2px 5px;border-radius:2px;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.cal-event-pill.quest{background:rgba(176,111,232,.2);color:#c89af0;border:1px solid rgba(176,111,232,.3)}
+.cal-event-pill.expedicao{background:rgba(29,143,232,.2);color:#6db8f0;border:1px solid rgba(29,143,232,.3)}
+.cal-event-pill.vip{background:rgba(201,168,76,.2);color:var(--gold-light);border:1px solid rgba(201,168,76,.3)}
+.cal-event-pill.task{background:rgba(93,191,110,.2);color:#8de0a0;border:1px solid rgba(93,191,110,.3)}
+.cal-event-pill.boss{background:rgba(201,80,80,.2);color:#f09090;border:1px solid rgba(201,80,80,.3)}
+.cal-event-pill.hunt{background:rgba(232,120,48,.2);color:#f0a870;border:1px solid rgba(232,120,48,.3)}
+.cal-day-view{background:var(--bg2);border:1px solid var(--border-gold);padding:20px;margin-bottom:24px}
+.cal-day-view-title{font-family:'Cinzel',serif;font-size:.9rem;font-weight:700;color:var(--gold-light);margin-bottom:16px;display:flex;align-items:center;justify-content:space-between}
+.cal-day-close{background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:1rem}
+.cal-day-close:hover{color:var(--gold-light)}
+.event-card{background:var(--bg3);border:1px solid var(--border);padding:14px 16px;margin-bottom:12px;position:relative}
+.event-card-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.event-type-badge{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:1px solid;border-radius:2px;white-space:nowrap}
+.event-type-badge.quest{color:#c89af0;border-color:rgba(176,111,232,.4)}
+.event-type-badge.expedicao{color:#6db8f0;border-color:rgba(29,143,232,.4)}
+.event-type-badge.vip{color:var(--gold-light);border-color:rgba(201,168,76,.4)}
+.event-type-badge.task{color:#8de0a0;border-color:rgba(93,191,110,.4)}
+.event-type-badge.boss{color:#f09090;border-color:rgba(201,80,80,.4)}
+.event-type-badge.hunt{color:#f0a870;border-color:rgba(232,120,48,.4)}
+.event-card-name{font-family:'Cinzel',serif;font-size:.9rem;font-weight:700;color:var(--text);flex:1}
+.event-card-time{font-family:'Cinzel',serif;font-size:.7rem;color:var(--gold-dim)}
+.event-card-desc{font-size:.85rem;color:var(--text-dim);margin-bottom:10px;line-height:1.5}
+.event-card-footer{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.event-joins{font-family:'Cinzel',serif;font-size:.7rem;color:var(--text-dim)}
+.event-joins strong{color:var(--gold-light)}
+.join-btn{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border:1px solid var(--gold-dim);background:rgba(201,168,76,.08);color:var(--gold-light);cursor:pointer;transition:all .2s}
+.join-btn:hover{background:rgba(201,168,76,.18);border-color:var(--gold)}
+.join-btn:disabled{opacity:.4;cursor:not-allowed}
+.cal-legend{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.cal-legend-item{display:flex;align-items:center;gap:5px;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;color:var(--text-dim)}
+.cal-legend-dot{width:8px;height:8px;border-radius:50%}
+@media(max-width:700px){.cal-grid{font-size:.7rem}.cal-cell{min-height:55px;padding:3px}.cal-event-pill{display:none}.cal-cell.has-events::after{content:'•';position:absolute;bottom:3px;right:4px;font-size:.8rem;color:var(--gold)}}
 .hunted-card{background:var(--bg3);border:1px solid rgba(232,120,48,.25);padding:16px 18px;margin-bottom:12px;display:flex;align-items:flex-start;gap:16px;position:relative}
 .hunted-card.auto{border-left:3px solid rgba(201,80,80,.5)}
 .hunted-card.manual{border-left:3px solid rgba(232,120,48,.7)}
@@ -435,6 +483,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('reset_ranking')" id="nav-reset_ranking">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 20 18 10"/><polyline points="12 20 12 4"/><polyline points="6 20 6 14"/></svg>
       Ranking de Resets
+    </button>
+    <button class="nav-item" onclick="navigate('calendar')" id="nav-calendar">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Calendário
     </button>
   </div>
 
@@ -803,6 +855,57 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ CALENDÁRIO ══ -->
+<div class="page" id="page-calendar">
+  <div class="cwrap">
+    <div class="page-title">📅 Calendário da Guild</div>
+    <div class="page-desc">Eventos organizados pela staff — Quests, Expedições, VIP, Tasks. Clique num dia para ver os detalhes e confirmar presença.</div>
+    <div class="page-divider"></div>
+
+    <div class="cal-legend">
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#b06fe8"></div>Quest</div>
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#1d8fe8"></div>Expedição</div>
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#c9a84c"></div>VIP</div>
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#5dbf6e"></div>Task</div>
+    </div>
+
+    <div class="cal-header">
+      <button class="cal-nav-btn" onclick="calPrevMonth()">◀ Anterior</button>
+      <div class="cal-month-title" id="cal-month-title">—</div>
+      <button class="cal-nav-btn" onclick="calNextMonth()">Próximo ▶</button>
+    </div>
+
+    <div class="cal-grid" id="cal-grid">
+      <div class="cal-day-header">Dom</div>
+      <div class="cal-day-header">Seg</div>
+      <div class="cal-day-header">Ter</div>
+      <div class="cal-day-header">Qua</div>
+      <div class="cal-day-header">Qui</div>
+      <div class="cal-day-header">Sex</div>
+      <div class="cal-day-header">Sáb</div>
+    </div>
+
+    <div id="cal-day-view" style="display:none"></div>
+
+    <footer>Calendário · Eventos criados pela staff via Google Sheets</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: JOIN EVENTO ══ -->
+<div class="modal-overlay hidden" id="modal-join">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('modal-join')">✕</button>
+    <h2>✦ Confirmar Presença</h2>
+    <p id="join-event-desc">Confirmando presença no evento.</p>
+    <div class="field-row">
+      <label class="field-label">Personagem que vai participar</label>
+      <select class="field-input" id="join-char-select"></select>
+    </div>
+    <button class="modal-btn" onclick="submitJoin()">Confirmar Presença</button>
+    <div id="join-status" class="modal-status"></div>
+  </div>
+</div>
+
 <!-- ══ HUNTED LIST ══ -->
 <div class="page" id="page-hunted">
   <div class="cwrap">
@@ -938,6 +1041,7 @@ function navigate(page){
   document.getElementById('nav-'+page).classList.add('active');
   document.getElementById('main').scrollTop=0;
   if(isMob())closeSidebarMobile();
+  if(page==='calendar') loadCalendarData();
 }
 
 // ─── GUILD TABLE ───────────────────────────────────────
@@ -1707,6 +1811,261 @@ function upUpdate(){
   document.getElementById('up-table').innerHTML=html;
 }
 upUpdate();
+
+// ─── CALENDÁRIO ────────────────────────────────────────
+var SHEETS_ID      = '1WMRVrB0JN2nGr8guQF2TjTfXta91s_ZjvzL2KBBJiTQ';
+var APPS_SCRIPT_URL= 'https://script.google.com/macros/s/AKfycbx-XxURYj7NT7sTfb0IrqIn24cHmCpxji_jDK6L9m6qzTV0QonfosogLfqSULkvgMC5wA/exec';
+
+var calEvents      = [];
+var calJoins       = {};
+var calYear        = new Date().getFullYear();
+var calMonth       = new Date().getMonth(); // 0-indexed
+var calSelectedDay = null;
+var joinEventId    = null;
+
+var EVENT_TYPES = {
+  quest:     {label:'Quest',     color:'#b06fe8'},
+  expedicao: {label:'Expedição', color:'#1d8fe8'},
+  vip:       {label:'VIP',       color:'#c9a84c'},
+  task:      {label:'Task',      color:'#5dbf6e'},
+  boss:      {label:'Boss',      color:'#c95050'},
+  hunt:      {label:'Hunt',      color:'#e87830'},
+};
+
+var MONTHS_PT = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+
+async function loadCalendarData(){
+  try {
+    // Busca eventos do Google Sheets via API pública
+    var url = `https://docs.google.com/spreadsheets/d/${SHEETS_ID}/gviz/tq?tqx=out:json&sheet=eventos`;
+    var r   = await fetch(url);
+    var txt = await r.text();
+    // Remove o wrapper google.visualization.Query.setResponse(...)
+    var json = JSON.parse(txt.replace(/^[^(]+\(/, '').replace(/\);?\s*$/, ''));
+    var rows = json.table.rows || [];
+
+    calEvents = rows.slice(1).map(function(row, i){
+      var c = row.c || [];
+      var id   = c[0]?.v || (i+1);
+      var tipo = (c[1]?.v || '').toLowerCase().trim();
+      var nome = c[2]?.v || '';
+      var data = c[3]?.v || '';
+      var hora = c[4]?.v || '';
+      var desc = c[5]?.v || '';
+      var vagas= parseInt(c[6]?.v) || 0;
+
+      // Data pode vir como "Date(2026,4,22)" do Sheets
+      var dateStr = '';
+      if(typeof data === 'string' && data.startsWith('Date(')){
+        var parts = data.replace('Date(','').replace(')','').split(',');
+        var y=parseInt(parts[0]),m=parseInt(parts[1]),d=parseInt(parts[2]);
+        dateStr = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      } else {
+        dateStr = String(data);
+      }
+
+      return {id: String(id), tipo, nome, data: dateStr, hora: String(hora), desc: String(desc), vagas};
+    }).filter(e => e.nome && e.data);
+
+    // Busca joins
+    var url2 = `https://docs.google.com/spreadsheets/d/${SHEETS_ID}/gviz/tq?tqx=out:json&sheet=joins`;
+    var r2   = await fetch(url2);
+    var txt2 = await r2.text();
+    var json2= JSON.parse(txt2.replace(/^[^(]+\(/, '').replace(/\);?\s*$/, ''));
+    var rows2= json2.table.rows || [];
+
+    calJoins = {};
+    rows2.slice(1).forEach(function(row){
+      var c = row.c || [];
+      var evId = String(c[0]?.v || '');
+      if(!calJoins[evId]) calJoins[evId] = 0;
+      calJoins[evId]++;
+    });
+
+    renderCalendar();
+  } catch(e) {
+    console.error('[calendar] erro ao carregar dados:', e);
+  }
+}
+
+function renderCalendar(){
+  var title = document.getElementById('cal-month-title');
+  if(title) title.textContent = MONTHS_PT[calMonth] + ' ' + calYear;
+
+  var grid = document.getElementById('cal-grid');
+  if(!grid) return;
+
+  // Remove células antigas (mantém os 7 headers)
+  while(grid.children.length > 7) grid.removeChild(grid.lastChild);
+
+  // Dias do mês
+  var firstDay  = new Date(calYear, calMonth, 1).getDay();
+  var daysInMonth = new Date(calYear, calMonth+1, 0).getDate();
+  var daysInPrev  = new Date(calYear, calMonth, 0).getDate();
+  var today = new Date();
+
+  // Preenche dias do mês anterior
+  for(var i=0; i<firstDay; i++){
+    var cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    cell.innerHTML = `<div class="cal-day-num">${daysInPrev - firstDay + i + 1}</div>`;
+    grid.appendChild(cell);
+  }
+
+  // Dias do mês atual
+  for(var d=1; d<=daysInMonth; d++){
+    var dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    var dayEvents = calEvents.filter(e => e.data === dateStr);
+    var isToday = (today.getFullYear()===calYear && today.getMonth()===calMonth && today.getDate()===d);
+
+    var cell = document.createElement('div');
+    cell.className = 'cal-cell' + (isToday?' today':'') + (dayEvents.length?' has-events':'');
+    cell.dataset.date = dateStr;
+
+    var html = `<div class="cal-day-num">${d}</div>`;
+    dayEvents.slice(0,3).forEach(function(ev){
+      var tipo = ev.tipo in EVENT_TYPES ? ev.tipo : 'quest';
+      var label = ev.tipo === 'expedicao' ? 'Expedição' :
+                  ev.tipo === 'vip' ? ev.nome :
+                  ev.tipo === 'task' ? ev.nome :
+                  ev.nome;
+      html += `<div class="cal-event-pill ${tipo}">${label}</div>`;
+    });
+    if(dayEvents.length > 3) html += `<div style="font-size:.48rem;color:var(--text-dim)">+${dayEvents.length-3} mais</div>`;
+
+    cell.innerHTML = html;
+    if(dayEvents.length) cell.onclick = function(){ calSelectDay(this.dataset.date); };
+    grid.appendChild(cell);
+  }
+
+  // Preenche dias do próximo mês
+  var remaining = 42 - (firstDay + daysInMonth);
+  for(var i=1; i<=remaining; i++){
+    var cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    cell.innerHTML = `<div class="cal-day-num">${i}</div>`;
+    grid.appendChild(cell);
+  }
+
+  // Atualiza day view se estiver aberto
+  if(calSelectedDay) calSelectDay(calSelectedDay);
+}
+
+function calSelectDay(dateStr){
+  calSelectedDay = dateStr;
+  var dayEvents  = calEvents.filter(e => e.data === dateStr);
+  var view       = document.getElementById('cal-day-view');
+  if(!view) return;
+
+  if(!dayEvents.length){ view.style.display='none'; return; }
+
+  var parts   = dateStr.split('-');
+  var dateLabel = `${parseInt(parts[2])} de ${MONTHS_PT[parseInt(parts[1])-1]} de ${parts[0]}`;
+
+  var html = `<div class="cal-day-view">
+    <div class="cal-day-view-title">
+      <span>📅 ${dateLabel}</span>
+      <button class="cal-day-close" onclick="calCloseDay()">✕</button>
+    </div>`;
+
+  dayEvents.forEach(function(ev){
+    var tipo  = ev.tipo in EVENT_TYPES ? ev.tipo : 'quest';
+    var tinfo = EVENT_TYPES[tipo] || EVENT_TYPES.quest;
+    var joins = calJoins[ev.id] || 0;
+    var vagasInfo = ev.vagas > 0 ? `${joins}/${ev.vagas} confirmados` : `${joins} confirmados`;
+
+    html += `<div class="event-card">
+      <div class="event-card-header">
+        <span class="event-type-badge ${tipo}">${tinfo.label}</span>
+        <span class="event-card-name">${ev.nome}</span>
+        <span class="event-card-time">${ev.hora}</span>
+      </div>
+      ${ev.desc ? `<div class="event-card-desc">${ev.desc}</div>` : ''}
+      <div class="event-card-footer">
+        <span class="event-joins"><strong>${vagasInfo}</strong>${ev.vagas > 0 ? ` · ${ev.vagas} vagas` : ''}</span>
+        <button class="join-btn" onclick="openJoin('${ev.id}','${ev.nome.replace(/'/g,'')}')"
+          ${ev.vagas > 0 && joins >= ev.vagas ? 'disabled' : ''}>
+          ${ev.vagas > 0 && joins >= ev.vagas ? 'Vagas esgotadas' : 'Confirmar Presença'}
+        </button>
+      </div>
+    </div>`;
+  });
+
+  html += '</div>';
+  view.innerHTML  = html;
+  view.style.display = 'block';
+  view.scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+function calCloseDay(){
+  calSelectedDay = null;
+  var view = document.getElementById('cal-day-view');
+  if(view) view.style.display = 'none';
+}
+
+function calPrevMonth(){
+  calMonth--;
+  if(calMonth < 0){ calMonth=11; calYear--; }
+  calCloseDay();
+  renderCalendar();
+}
+
+function calNextMonth(){
+  calMonth++;
+  if(calMonth > 11){ calMonth=0; calYear++; }
+  calCloseDay();
+  renderCalendar();
+}
+
+async function openJoin(eventId, eventName){
+  if(!currentProfile){
+    showModal('modal-login');
+    return;
+  }
+  joinEventId = eventId;
+  document.getElementById('join-event-desc').textContent = `Confirmando presença em: ${eventName}`;
+
+  // Carrega personagens do usuário
+  var {data:chars} = await _supa.from('characters').select('*').eq('profile_id', currentProfile.id);
+  var sel = document.getElementById('join-char-select');
+  sel.innerHTML = (chars||[]).map(c => `<option value="${c.name}">${c.name} (${c.resets} resets)</option>`).join('');
+  if(!sel.innerHTML) sel.innerHTML = '<option value="">Nenhum personagem cadastrado</option>';
+
+  document.getElementById('join-status').textContent = '';
+  document.getElementById('join-status').className   = 'modal-status';
+  showModal('modal-join');
+}
+
+async function submitJoin(){
+  var charName = document.getElementById('join-char-select').value;
+  var status   = document.getElementById('join-status');
+
+  if(!charName){ status.textContent='Selecione um personagem.';status.className='modal-status err';return; }
+
+  status.textContent='Confirmando...';status.className='modal-status ok';
+
+  try {
+    var r = await fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      body: JSON.stringify({evento_id: joinEventId, player_name: charName}),
+    });
+    var data = await r.json();
+    if(data.ok){
+      // Atualiza contador local
+      calJoins[joinEventId] = (calJoins[joinEventId]||0) + 1;
+      status.textContent = '✅ Presença confirmada!';
+      status.className   = 'modal-status ok';
+      if(calSelectedDay) calSelectDay(calSelectedDay);
+      setTimeout(()=>closeModal('modal-join'), 1500);
+    } else {
+      status.textContent = 'Erro: ' + (data.error||'tente novamente');
+      status.className   = 'modal-status err';
+    }
+  } catch(e) {
+    status.textContent = 'Erro de conexão.';
+    status.className   = 'modal-status err';
+  }
+}
 
 // ─── SUPABASE AUTH ─────────────────────────────────────
 const SUPABASE_URL     = 'https://vgvjyceoefzzomcnuefo.supabase.co';
