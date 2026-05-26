@@ -2446,7 +2446,7 @@ function updateCalendarUI(){
 
 // ─── SUPABASE AUTH ─────────────────────────────────────
 const SUPABASE_URL      = 'https://vgvjyceoefzzomcnuefo.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZndmp5Y2VvZWZ6em9tY251ZWZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk3NTY2MDUsImV4cCI6MjA5NTMzMjYwNX0.bBExbkJyOUbD2alL86GBHZCyQVKl9pS2b04xDdLpgAA';
+const SUPABASE_ANON_KEY = 'COLE_SUA_ANON_KEY_AQUI';
 
 var _supa = null;
 
@@ -2718,7 +2718,16 @@ async function openProfile(){
       </div>
       <input type="hidden" id="prof-char-resets-hidden">
     </div>
-    <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar Discord</button>
+    <div class="field-row">
+      <label class="field-label">Notificações de Morte (DM)</label>
+      <div style="display:flex;align-items:center;gap:12px;padding:10px 0">
+        <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+          <input type="checkbox" id="prof-death-dm" style="width:16px;height:16px;cursor:pointer" ${currentProfile.death_dm !== false ? 'checked' : ''}>
+          <span style="font-size:.9rem;color:var(--text-dim)">Receber DM quando meu personagem for morto em PvP</span>
+        </label>
+      </div>
+    </div>
+    <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar</button>
     <div id="profile-status" class="modal-status"></div>
   `;
 
@@ -2773,18 +2782,34 @@ async function removeChar(charId){
 async function saveProfile(){
   var discord    = document.getElementById('prof-discord').value.trim();
   var discordId  = document.getElementById('prof-discord-id').value.trim();
+  var deathDm    = document.getElementById('prof-death-dm').checked;
   var status     = document.getElementById('profile-status');
+
+  // Salva perfil
   const {error} = await _supa.from('profiles').update({
     discord_username: discord,
     discord_id:       discordId || null,
+    death_dm:         deathDm,
   }).eq('id', currentProfile.id);
-  if(error){status.textContent='Erro: '+error.message;status.className='modal-status err';}
-  else{
-    currentProfile.discord_username = discord;
-    currentProfile.discord_id       = discordId;
-    status.textContent='Salvo!';
-    status.className='modal-status ok';
+
+  if(error){
+    status.textContent='Erro: '+error.message;
+    status.className='modal-status err';
+    return;
   }
+
+  // Salva notification_settings
+  await _supa.from('notification_settings').upsert({
+    profile_id: currentProfile.id,
+    death_dm:   deathDm,
+    updated_at: new Date().toISOString(),
+  }, {onConflict: 'profile_id'});
+
+  currentProfile.discord_username = discord;
+  currentProfile.discord_id       = discordId;
+  currentProfile.death_dm         = deathDm;
+  status.textContent='Salvo!';
+  status.className='modal-status ok';
 }
 
 // ── Gerar convite (Admin) ───────────────────────────────
