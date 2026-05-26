@@ -3059,21 +3059,6 @@ async function generateInvite(){
     result.innerHTML = `<div class="modal-status err">Erro: ${e.message}</div>`;
   }
 }
-  btn.textContent = 'Gerar Código (válido por 2h)';
-
-  if(error){
-    result.innerHTML = `<div class="modal-status err">Erro: ${error.message}</div>`;
-  } else {
-    var expDate = new Date(expires).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'});
-    result.innerHTML = `
-      <div class="invite-code-display">
-        <span class="invite-code-text">${code}</span>
-        <span class="invite-code-exp">Válido até ${expDate}</span>
-      </div>
-      <button class="modal-btn secondary" onclick="navigator.clipboard.writeText('${code}');this.textContent='Copiado!'">Copiar Código</button>
-    `;
-  }
-}
 
 // ── Helpers de modal ────────────────────────────────────
 function showModal(id){document.getElementById(id).classList.remove('hidden')}
