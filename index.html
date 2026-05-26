@@ -1891,9 +1891,11 @@ async function loadCalendarData(){
     calJoins = {};
     rows2.slice(1).forEach(function(row){
       var c = row.c || [];
-      var evId = String(c[0]?.v || '');
-      if(!calJoins[evId]) calJoins[evId] = 0;
-      calJoins[evId]++;
+      var evId    = String(c[0]?.v || '');
+      var player  = c[1]?.v || '';
+      if(!calJoins[evId]) calJoins[evId] = {count:0, players:[]};
+      calJoins[evId].count++;
+      if(player) calJoins[evId].players.push(player);
     });
 
     renderCalendar();
@@ -1985,8 +1987,17 @@ function calSelectDay(dateStr){
   dayEvents.forEach(function(ev){
     var tipo  = ev.tipo in EVENT_TYPES ? ev.tipo : 'quest';
     var tinfo = EVENT_TYPES[tipo] || EVENT_TYPES.quest;
-    var joins = calJoins[ev.id] || 0;
+    var joinData  = calJoins[ev.id] || {count:0, players:[]};
+    var joins     = joinData.count;
     var vagasInfo = ev.vagas > 0 ? `${joins}/${ev.vagas} confirmados` : `${joins} confirmados`;
+    var isAdminOrStaff = currentProfile && (currentProfile.role==='admin'||currentProfile.role==='staff');
+    var playerList = '';
+    if(isAdminOrStaff && joinData.players.length){
+      playerList = `<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border)">
+        <div style="font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);margin-bottom:5px">Confirmados</div>
+        ${joinData.players.map(p=>`<div style="font-size:.82rem;color:var(--text-dim);padding:2px 0">• ${p}</div>`).join('')}
+      </div>`;
+    }
 
     html += `<div class="event-card">
       <div class="event-card-header">
@@ -2002,6 +2013,7 @@ function calSelectDay(dateStr){
           ${ev.vagas > 0 && joins >= ev.vagas ? 'Vagas esgotadas' : 'Confirmar Presença'}
         </button>
       </div>
+      ${playerList}
     </div>`;
   });
 
@@ -2066,7 +2078,9 @@ async function submitJoin(){
     var data = await r.json();
     if(data.ok){
       // Atualiza contador local
-      calJoins[joinEventId] = (calJoins[joinEventId]||0) + 1;
+      if(!calJoins[joinEventId]) calJoins[joinEventId] = {count:0, players:[]};
+      calJoins[joinEventId].count++;
+      calJoins[joinEventId].players.push(charName);
       status.textContent = '✅ Presença confirmada!';
       status.className   = 'modal-status ok';
       if(calSelectedDay) calSelectDay(calSelectedDay);
