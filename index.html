@@ -2168,6 +2168,8 @@ async function submitCreateEvent(){
   var vagas = parseInt(document.getElementById('ce-vagas').value)||0;
   var status= document.getElementById('ce-status');
 
+  console.log('[createEvent] tipo:', tipo, 'nome:', nome, 'data:', data, 'hora:', hora);
+
   if(!nome){status.textContent='Nome obrigatório.';status.className='modal-status err';return}
   if(!data){status.textContent='Data obrigatória.';status.className='modal-status err';return}
   if(!hora){status.textContent='Hora obrigatória.';status.className='modal-status err';return}
