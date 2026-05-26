@@ -2174,14 +2174,18 @@ async function submitCreateEvent(){
   if(!data){status.textContent='Data obrigatória.';status.className='modal-status err';return}
   if(!hora){status.textContent='Hora obrigatória.';status.className='modal-status err';return}
 
+  console.log('[createEvent] validação passou, chamando fetch...');
   status.textContent='Salvando...';status.className='modal-status ok';
 
   try{
+    console.log('[createEvent] iniciando fetch...');
     var r = await fetch(APPS_SCRIPT_URL,{
       method:'POST',
       body: JSON.stringify({action:'create_event', tipo, nome, data, hora, descricao:desc, vagas}),
     });
+    console.log('[createEvent] fetch respondeu, status:', r.status);
     var d = await r.json();
+    console.log('[createEvent] resposta JSON:', d);
     if(d.ok){
       status.textContent='✅ Evento criado!';
       status.className='modal-status ok';
