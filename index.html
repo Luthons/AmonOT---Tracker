@@ -1241,6 +1241,29 @@ function navigate(page){
   if(page==='announcements') loadAnnouncements();
 }
 
+// ─── SUPABASE FETCH HELPER ─────────────────────────────
+// Usa fetch direto para evitar problema de clock skew no SDK
+async function supaFetch(table, params, method='GET', body=null){
+  var url = SUPABASE_URL + '/rest/v1/' + table;
+  if(params) url += '?' + new URLSearchParams(params).toString();
+  var headers = {
+    'apikey': SUPABASE_ANON_KEY,
+    'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+    'Content-Type': 'application/json',
+    'Prefer': method==='POST' ? 'return=representation' : 'return=minimal',
+  };
+  var opts = {method, headers};
+  if(body) opts.body = JSON.stringify(body);
+  var r = await fetch(url, opts);
+  if(!r.ok){
+    var err = await r.text();
+    throw new Error(err);
+  }
+  if(method==='DELETE' || r.status===204) return {data:[], error:null};
+  var data = await r.json();
+  return {data, error:null};
+}
+
 // ─── ROLES & PERMISSÕES ────────────────────────────────
 var ROLE_LABELS = {
   'admin':    'Admin',
@@ -1704,63 +1727,60 @@ function renderResetRanking(){
 // ─── MURAL DE AVISOS ───────────────────────────────────
 async function loadAnnouncements(){
   var cont = document.getElementById('announcements-content');
-  if(!cont || !_supa) return;
+  if(!cont) return;
 
   cont.innerHTML = '<div class="announcement-empty">Carregando...</div>';
 
   var now = new Date().toISOString();
-  var {data, error} = await _supa
-    .from('announcements')
-    .select('*, profiles(display_name)')
-    .gt('expires_at', now)
-    .order('pinned', {ascending: false})
-    .order('created_at', {ascending: false});
+  try {
+    var {data} = await supaFetch('announcements', {
+      'expires_at': 'gt.'+now,
+      'order': 'pinned.desc,created_at.desc',
+      'select': '*,profiles(display_name)'
+    });
 
-  if(error){
-    cont.innerHTML = '<div class="announcement-empty">Erro ao carregar avisos.</div>';
-    return;
-  }
+    if(!data || !data.length){
+      cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
+      return;
+    }
 
-  if(!data || !data.length){
-    cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
-    return;
-  }
+    var canManage = ['admin','lider','vice'].includes(getRole());
 
-  var canManage = ['admin','lider','vice'].includes(getRole());
+    cont.innerHTML = data.map(function(a){
+      var author   = a.profiles?.display_name || 'Staff';
+      var created  = new Date(a.created_at).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
+      var expires  = new Date(a.expires_at).toLocaleDateString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit'});
+      var deleteBtn = canManage ? `<button class="announcement-delete" onclick="deleteAnnouncement('${a.id}')">Remover</button>` : '';
 
-  cont.innerHTML = data.map(function(a){
-    var author   = a.profiles?.display_name || 'Staff';
-    var created  = new Date(a.created_at).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
-    var expires  = new Date(a.expires_at).toLocaleDateString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit'});
-    var deleteBtn = canManage ? `<button class="announcement-delete" onclick="deleteAnnouncement('${a.id}')">Remover</button>` : '';
-
-    return `<div class="announcement-card ${a.pinned?'pinned':''}" id="ann-${a.id}">
-      <div class="announcement-title">
-        ${a.pinned ? '<span class="announcement-pin">📌 Fixado</span>' : ''}
-        ${a.title}
-      </div>
-      <div class="announcement-content">${a.content}</div>
-      <div class="announcement-meta">
-        <span class="announcement-author">Por ${author} · ${created}</span>
-        <div style="display:flex;align-items:center;gap:10px">
-          <span class="announcement-expires">Expira em ${expires}</span>
-          ${deleteBtn}
+      return `<div class="announcement-card ${a.pinned?'pinned':''}" id="ann-${a.id}">
+        <div class="announcement-title">
+          ${a.pinned ? '<span class="announcement-pin">📌 Fixado</span>' : ''}
+          ${a.title}
         </div>
-      </div>
-    </div>`;
-  }).join('');
+        <div class="announcement-content">${a.content}</div>
+        <div class="announcement-meta">
+          <span class="announcement-author">Por ${author} · ${created}</span>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span class="announcement-expires">Expira em ${expires}</span>
+            ${deleteBtn}
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    cont.innerHTML = '<div class="announcement-empty">Erro ao carregar avisos.</div>';
+    console.error(e);
+  }
 }
 
 async function deleteAnnouncement(id){
   if(!confirm('Remover este aviso?')) return;
-  var {error} = await _supa.from('announcements').delete().eq('id', id);
-  if(!error){
-    var el = document.getElementById('ann-'+id);
-    if(el) el.remove();
-    var cont = document.getElementById('announcements-content');
-    if(cont && !cont.querySelector('.announcement-card')){
-      cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
-    }
+  await supaFetch('announcements?id=eq.'+id, null, 'DELETE');
+  var el = document.getElementById('ann-'+id);
+  if(el) el.remove();
+  var cont = document.getElementById('announcements-content');
+  if(cont && !cont.querySelector('.announcement-card')){
+    cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
   }
 }
 
@@ -1777,7 +1797,7 @@ async function submitAnnouncement(){
 
   var expires = new Date(Date.now() + 7*24*60*60*1000).toISOString();
 
-  var {error} = await _supa.from('announcements').insert({
+  var {error} = await supaFetch('announcements', null, 'POST', {
     title,
     content,
     pinned,
@@ -2493,8 +2513,8 @@ async function openJoin(eventId, eventName){
   joinEventId = eventId;
   document.getElementById('join-event-desc').textContent = `Confirmando presença em: ${eventName}`;
 
-  // Carrega personagens do usuário
-  var {data:chars} = await _supa.from('characters').select('*').eq('profile_id', currentProfile.id);
+  // Carrega personagens do usuário via fetch direto
+  var {data:chars} = await supaFetch('characters', {profile_id: 'eq.'+currentProfile.id});
   var sel = document.getElementById('join-char-select');
   sel.innerHTML = (chars||[]).map(c => `<option value="${c.name}">${c.name} (${c.resets} resets)</option>`).join('');
   if(!sel.innerHTML) sel.innerHTML = '<option value="">Nenhum personagem cadastrado</option>';
@@ -2645,15 +2665,19 @@ async function initAuth(){
 }
 
 async function loadProfile(){
-  if(!currentUser || !_supa) return;
-  const {data} = await _supa.from('profiles').select('*').eq('google_id', currentUser.id).single();
-  if(data){
-    currentProfile = data;
-    updateAuthUI();
-    updateCalendarUI();
-    closeModal('modal-login');
-  } else {
-    // Primeiro login — abre cadastro
+  if(!currentUser) return;
+  try {
+    var {data} = await supaFetch('profiles', {google_id: 'eq.'+currentUser.id});
+    if(data && data.length > 0){
+      currentProfile = data[0];
+      updateAuthUI();
+      updateCalendarUI();
+      closeModal('modal-login');
+    } else {
+      showModal('modal-register');
+    }
+  } catch(e) {
+    console.error('[auth] erro ao carregar perfil:', e);
     showModal('modal-register');
   }
 }
@@ -2797,49 +2821,56 @@ async function submitRegister(){
 
   status.textContent='Verificando código...';status.className='modal-status ok';
 
-  // Verifica código de convite
-  const {data:code} = await _supa.from('invite_codes')
-    .select('*')
-    .eq('code', invite)
-    .is('used_by', null)
-    .gt('expires_at', new Date().toISOString())
-    .single();
+  try {
+    // Verifica código de convite
+    var {data:codes} = await supaFetch('invite_codes', {
+      code: 'eq.'+invite,
+      used_by: 'is.null',
+      expires_at: 'gt.'+new Date().toISOString(),
+    });
 
-  if(!code){
-    status.textContent='Código inválido ou expirado.';status.className='modal-status err';return;
+    if(!codes || !codes.length){
+      status.textContent='Código inválido ou expirado.';status.className='modal-status err';return;
+    }
+    var code = codes[0];
+
+    // Cria perfil
+    var {data:profiles} = await supaFetch('profiles', null, 'POST', {
+      google_id:        currentUser.id,
+      email:            currentUser.email,
+      display_name:     currentUser.user_metadata?.full_name || currentUser.email,
+      discord_username: discord,
+      role:             'member',
+    });
+
+    var profile = Array.isArray(profiles) ? profiles[0] : profiles;
+    if(!profile || !profile.id){
+      status.textContent='Erro ao criar perfil.';status.className='modal-status err';return;
+    }
+
+    // Salva personagens
+    if(regChars.length){
+      await supaFetch('characters', null, 'POST',
+        regChars.map(c=>({profile_id: profile.id, name: c.name, resets: c.resets}))
+      );
+    }
+
+    // Marca código como usado
+    await supaFetch('invite_codes?id=eq.'+code.id, null, 'PATCH', {
+      used_by: profile.id, used_at: new Date().toISOString()
+    });
+
+    // Cria configurações de notificação padrão
+    await supaFetch('notification_settings', null, 'POST', {profile_id: profile.id});
+
+    currentProfile = profile;
+    updateAuthUI();
+    closeModal('modal-register');
+    status.textContent='';
+    regChars=[];
+  } catch(e) {
+    status.textContent='Erro: '+e.message;status.className='modal-status err';
   }
-
-  // Cria perfil
-  const {data:profile, error:profErr} = await _supa.from('profiles').insert({
-    google_id:      currentUser.id,
-    email:          currentUser.email,
-    display_name:   currentUser.user_metadata?.full_name || currentUser.email,
-    discord_username: discord,
-    role:           'member',
-  }).select().single();
-
-  if(profErr){
-    status.textContent='Erro ao criar perfil: '+profErr.message;status.className='modal-status err';return;
-  }
-
-  // Salva personagens
-  if(regChars.length){
-    await _supa.from('characters').insert(
-      regChars.map(c=>({profile_id: profile.id, name: c.name, resets: c.resets}))
-    );
-  }
-
-  // Marca código como usado
-  await _supa.from('invite_codes').update({used_by: profile.id, used_at: new Date().toISOString()}).eq('id', code.id);
-
-  // Cria configurações de notificação padrão
-  await _supa.from('notification_settings').insert({profile_id: profile.id});
-
-  currentProfile = profile;
-  updateAuthUI();
-  closeModal('modal-register');
-  status.textContent='';
-  regChars=[];
 }
 
 // ── Perfil ──────────────────────────────────────────────
@@ -2848,7 +2879,7 @@ async function openProfile(){
   var cont = document.getElementById('profile-content');
 
   // Busca personagens
-  const {data:chars} = await _supa.from('characters').select('*').eq('profile_id', currentProfile.id);
+  var {data:chars} = await supaFetch('characters', {profile_id: 'eq.'+currentProfile.id});
 
   cont.innerHTML = `
     <div class="field-row">
@@ -2918,19 +2949,19 @@ async function addCharToProfile(){
   var status = document.getElementById('profile-status');
   status.textContent='Adicionando...';status.className='modal-status ok';
 
-  var {error} = await _supa.from('characters').insert({
+  var {error} = await supaFetch('characters', null, 'POST', {
     profile_id: currentProfile.id, name, resets
   });
 
   if(error){
-    status.textContent='Erro: '+error.message;status.className='modal-status err';
+    status.textContent='Erro: '+error;status.className='modal-status err';
   } else {
     nameEl.value='';
     document.getElementById('prof-char-resets-hidden').value='';
     document.getElementById('prof-char-hint').style.display='none';
     status.textContent='✅ Personagem adicionado!';status.className='modal-status ok';
     // Atualiza a lista
-    var {data:chars} = await _supa.from('characters').select('*').eq('profile_id', currentProfile.id);
+    var {data:chars} = await supaFetch('characters', {profile_id: 'eq.'+currentProfile.id});
     var list = document.getElementById('prof-char-list');
     if(list) list.innerHTML = (chars||[]).map(c=>`
       <div class="char-item" id="char-item-${c.id}">
@@ -2942,6 +2973,9 @@ async function addCharToProfile(){
 }
 
 async function removeChar(charId){
+  await supaFetch('characters?id=eq.'+charId, null, 'DELETE');
+  var el = document.getElementById('char-item-'+charId);
+  if(el) el.remove();
 }
 
 async function saveProfile(){
@@ -2950,31 +2984,27 @@ async function saveProfile(){
   var deathDm    = document.getElementById('prof-death-dm').checked;
   var status     = document.getElementById('profile-status');
 
-  // Salva perfil
-  const {error} = await _supa.from('profiles').update({
-    discord_username: discord,
-    discord_id:       discordId || null,
-    death_dm:         deathDm,
-  }).eq('id', currentProfile.id);
+  try {
+    await supaFetch('profiles?id=eq.'+currentProfile.id, null, 'PATCH', {
+      discord_username: discord,
+      discord_id:       discordId || null,
+      death_dm:         deathDm,
+    });
 
-  if(error){
-    status.textContent='Erro: '+error.message;
+    await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
+      death_dm:   deathDm,
+      updated_at: new Date().toISOString(),
+    });
+
+    currentProfile.discord_username = discord;
+    currentProfile.discord_id       = discordId;
+    currentProfile.death_dm         = deathDm;
+    status.textContent='Salvo!';
+    status.className='modal-status ok';
+  } catch(e) {
+    status.textContent='Erro: '+e.message;
     status.className='modal-status err';
-    return;
   }
-
-  // Salva notification_settings
-  await _supa.from('notification_settings').upsert({
-    profile_id: currentProfile.id,
-    death_dm:   deathDm,
-    updated_at: new Date().toISOString(),
-  }, {onConflict: 'profile_id'});
-
-  currentProfile.discord_username = discord;
-  currentProfile.discord_id       = discordId;
-  currentProfile.death_dm         = deathDm;
-  status.textContent='Salvo!';
-  status.className='modal-status ok';
 }
 
 // ── Gerar convite (Admin) ───────────────────────────────
@@ -2984,17 +3014,32 @@ async function generateInvite(){
   btn.disabled = true;
   btn.textContent = 'Gerando...';
 
-  // Gera código aleatório
-  var code = 'LP-' + Math.random().toString(36).substring(2,6).toUpperCase() + '-' + Math.random().toString(36).substring(2,6).toUpperCase();
+  var code    = 'LP-' + Math.random().toString(36).substring(2,6).toUpperCase() + '-' + Math.random().toString(36).substring(2,6).toUpperCase();
   var expires = new Date(Date.now() + 2*60*60*1000).toISOString();
 
-  const {error} = await _supa.from('invite_codes').insert({
-    code:        code,
-    created_by:  currentProfile.id,
-    expires_at:  expires,
-  });
+  try {
+    await supaFetch('invite_codes', null, 'POST', {
+      code,
+      created_by: currentProfile.id,
+      expires_at: expires,
+    });
 
-  btn.disabled = false;
+    btn.disabled = false;
+    btn.textContent = 'Gerar Código (válido por 2h)';
+    var expDate = new Date(expires).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'});
+    result.innerHTML = `
+      <div class="invite-code-display">
+        <span class="invite-code-text">${code}</span>
+        <span class="invite-code-exp">Válido até ${expDate}</span>
+      </div>
+      <button class="modal-btn secondary" onclick="navigator.clipboard.writeText('${code}');this.textContent='Copiado!'">Copiar Código</button>
+    `;
+  } catch(e) {
+    btn.disabled = false;
+    btn.textContent = 'Gerar Código (válido por 2h)';
+    result.innerHTML = `<div class="modal-status err">Erro: ${e.message}</div>`;
+  }
+}
   btn.textContent = 'Gerar Código (válido por 2h)';
 
   if(error){
