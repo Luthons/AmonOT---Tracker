@@ -410,7 +410,9 @@ footer span{color:var(--gold-dim)}
 .auth-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;text-align:left}
 .auth-role-badge{font-size:.48rem;padding:1px 5px;border:1px solid;border-radius:2px;flex-shrink:0;text-transform:uppercase;letter-spacing:.08em}
 .auth-role-badge.admin{color:#e87830;border-color:rgba(232,120,48,.4)}
-.auth-role-badge.staff{color:var(--gold);border-color:var(--gold-dim)}
+.auth-role-badge.lider{color:#e8cb7a;border-color:rgba(232,203,122,.4)}
+.auth-role-badge.vice{color:var(--gold);border-color:var(--gold-dim)}
+.auth-role-badge.veterano{color:#6db8f0;border-color:rgba(29,143,232,.4)}
 .auth-role-badge.member{color:var(--text-dim);border-color:var(--border)}
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px}
 .modal-overlay.hidden{display:none}
@@ -1093,6 +1095,23 @@ function navigate(page){
   if(isMob())closeSidebarMobile();
   if(page==='calendar') loadCalendarData();
 }
+
+// ─── ROLES & PERMISSÕES ────────────────────────────────
+var ROLE_LABELS = {
+  'admin':    'Admin',
+  'lider':    'Líder',
+  'vice':     'Vice-Líder',
+  'veterano': 'Veterano',
+  'member':   'Membro',
+};
+
+function getRole(){ return currentProfile ? (currentProfile.role || 'member') : null; }
+
+function canCreateEvents(){ return ['admin','lider','vice','veterano'].includes(getRole()); }
+function canGenerateInvite(){ return ['admin','lider','vice'].includes(getRole()); }
+function canSeeConfirmed(){ return ['admin','lider','vice','veterano'].includes(getRole()); }
+function canAddHunted(){ return ['admin','lider','vice','veterano'].includes(getRole()); }
+function isLoggedIn(){ return !!currentProfile; }
 
 // ─── GUILD TABLE ───────────────────────────────────────
 var allMembers=[],currentFilter='all',currentSort={key:'rank',dir:'asc'};
@@ -2041,7 +2060,7 @@ function calSelectDay(dateStr){
     var joinData  = calJoins[ev.id] || {count:0, players:[]};
     var joins     = joinData.count;
     var vagasInfo = ev.vagas > 0 ? `${joins}/${ev.vagas} confirmados` : `${joins} confirmados`;
-    var isAdminOrStaff = currentProfile && (currentProfile.role==='admin'||currentProfile.role==='staff');
+    var isAdminOrStaff = canSeeConfirmed();
     var playerList = '';
     if(isAdminOrStaff && joinData.players.length){
       playerList = `<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border)">
@@ -2206,12 +2225,10 @@ async function submitCreateEvent(){
   }
 }
 
-// Mostra botão de novo evento para admin/staff após login
+// Mostra botão de novo evento para quem pode criar eventos
 function updateCalendarUI(){
   var btn = document.getElementById('btn-new-event');
-  if(btn && currentProfile && (currentProfile.role==='admin'||currentProfile.role==='staff')){
-    btn.style.display='inline-block';
-  }
+  if(btn) btn.style.display = canCreateEvents() ? 'inline-block' : 'none';
 }
 
 // ─── SUPABASE AUTH ─────────────────────────────────────
@@ -2279,8 +2296,7 @@ function updateAuthUI(){
     btn.classList.add('logged');
     name.textContent = currentProfile.display_name || currentUser.email;
     badge.style.display = 'inline-block';
-    badge.className = 'auth-role-badge ' + (currentProfile.role||'member');
-    badge.textContent = currentProfile.role === 'admin' ? 'Admin' : currentProfile.role === 'staff' ? 'Staff' : 'Membro';
+    badge.className = 'auth-role-badge ' + (currentProfile.role||'member');    badge.textContent = ROLE_LABELS[currentProfile.role] || 'Membro';
     if(calNav) calNav.style.display = 'flex';
   } else {
     btn.classList.remove('logged');
@@ -2486,7 +2502,7 @@ async function openProfile(){
 
   // Mostra botão de gerar convite só para admin
   var invSection = document.getElementById('modal-invite-section');
-  invSection.style.display = currentProfile.role === 'admin' ? 'block' : 'none';
+  invSection.style.display = canGenerateInvite() ? 'block' : 'none';
 
   showModal('modal-profile');
 }
