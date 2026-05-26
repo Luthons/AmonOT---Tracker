@@ -131,16 +131,25 @@ def run():
 
     # ── 3. Mortes e guerra ────────────────────────────────────────────────────
     print("\n── [3/7] Mortes e guerra ──")
-    new_kills  = []
-    new_deaths = []
-    war_stats  = previous.get("war", {})
+    new_kills    = []
+    new_deaths   = []
+    war_stats    = previous.get("war", {})
+    deaths_global= []
 
     try:
         deaths_result = fetch_deaths(pages=pages, world=world, kill_type="pvp")
-        crossed       = filter_guild_deaths(deaths_result["deaths"], my_set, enemy_set)
+        all_pvp       = deaths_result["deaths"]
+        crossed       = filter_guild_deaths(all_pvp, my_set, enemy_set)
         new_kills     = crossed["my_kills"]
         new_deaths    = crossed["my_deaths"]
-        print(f"   ✅ {deaths_result['total']} mortes analisadas | {len(new_kills)} kills | {len(new_deaths)} deaths novos")
+
+        # Deaths globais — todas as mortes PvP onde o player é membro da LP
+        deaths_global = [
+            d for d in all_pvp
+            if d["player"].lower() in my_set
+        ]
+
+        print(f"   ✅ {deaths_result['total']} mortes analisadas | {len(new_kills)} kills | {len(new_deaths)} deaths vs inimigo | {len(deaths_global)} deaths globais")
 
         # Merge com histórico
         prev_war  = load_previous_war(OUTPUT_PATH)
@@ -327,8 +336,9 @@ def run():
         "war_rankings":  war_rankings,
 
         # ── Guerra ──
-        "war":         war_stats,
-        "war_history": history,
+        "war":            war_stats,
+        "war_history":    history,
+        "deaths_global":  deaths_global,
 
         # ── Histórico interno ──
         "history": {
