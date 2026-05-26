@@ -161,6 +161,32 @@ def compute_war_stats(all_kills: list, all_deaths: list, my_guild: str, enemy_gu
     war_log.sort(key=lambda e: e["time"], reverse=True)
     war_log = war_log[:100]
 
+    # ── Streak de vantagem ────────────────────────────────────────────────────
+    # Conta dias consecutivos onde LP teve mais kills que deaths (K/D > 1)
+    # Agrupa eventos por dia e compara kills vs deaths em cada dia
+    days_kills  = {}
+    days_deaths = {}
+    for e in all_kills:
+        try:
+            day = parse_event_time(e["time"]).strftime("%Y-%m-%d")
+            days_kills[day] = days_kills.get(day, 0) + 1
+        except: pass
+    for e in all_deaths:
+        try:
+            day = parse_event_time(e["time"]).strftime("%Y-%m-%d")
+            days_deaths[day] = days_deaths.get(day, 0) + 1
+        except: pass
+
+    all_days = sorted(set(list(days_kills.keys()) + list(days_deaths.keys())), reverse=True)
+    streak = 0
+    for day in all_days:
+        k = days_kills.get(day, 0)
+        d = days_deaths.get(day, 0)
+        if k > d:
+            streak += 1
+        else:
+            break
+
     return {
         "my_guild":             my_guild,
         "enemy_guild":          enemy_guild,
@@ -178,6 +204,9 @@ def compute_war_stats(all_kills: list, all_deaths: list, my_guild: str, enemy_gu
         "kd_total":             round(kills_total  / deaths_total,  2) if deaths_total  else None,
         "kd_today":             round(kills_today  / deaths_today,  2) if deaths_today  else None,
         "kd_week":              round(kills_week   / deaths_week,   2) if deaths_week   else None,
+
+        # Streak
+        "streak_days":          streak,
 
         # Rankings
         "top_my_killers":       top_my_killers,
