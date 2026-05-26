@@ -58,3 +58,12 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: atualizar dados [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git pull --rebase origin main
           git push
+
+      - name: Deploy no Vercel (só se index.html mudou)
+        run: |
+          if git diff HEAD^ HEAD --name-only | grep -q "index.html"; then
+            curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_QILaxpNGzjDLuUQRR2jKQHM8o7Sz/47NPwowmva"
+            echo "Deploy Vercel disparado."
+          else
+            echo "index.html não mudou, deploy Vercel ignorado."
+          fi
