@@ -2522,12 +2522,9 @@ async function addCharToProfile(){
 }
 
 async function removeChar(charId){
-  var {error} = await _supa.from('characters').delete().eq('id', charId);
-  if(!error){
-    var el = document.getElementById('char-item-'+charId);
-    if(el) el.remove();
-  }
 }
+
+async function saveProfile(){
   var discord = document.getElementById('prof-discord').value.trim();
   var status  = document.getElementById('profile-status');
   const {error} = await _supa.from('profiles').update({discord_username: discord}).eq('id', currentProfile.id);
