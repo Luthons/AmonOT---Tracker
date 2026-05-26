@@ -2,7 +2,7 @@ name: Atualizar Dados da Guild
 
 on:
   schedule:
-    - cron: '0 * * * *'  # A cada hora
+    - cron: '*/5 * * * *'  # A cada hora
   workflow_dispatch:       # Permite rodar manualmente pela aba Actions
 
 permissions:
