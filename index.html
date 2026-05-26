@@ -1443,6 +1443,7 @@ function renderWar(){
   document.getElementById('war-enemy-kd').textContent=w.kd_total?(1/w.kd_total).toFixed(2):'—';
 
   var lk=w.kills_total||0,dk=w.deaths_total||0;
+  var badge=document.getElementById('war-leading-badge');
   // Streak
   var streak = w.streak_days || 0;
   var streakBadge = document.getElementById('war-streak-badge');
