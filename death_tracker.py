@@ -160,8 +160,9 @@ def build_embed_dm(death: dict, is_enemy: bool) -> dict:
 
 # ── Supabase lookup ───────────────────────────────────────────────────────────
 
-def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str) -> str | None:
-    """Busca o Discord ID do dono de um personagem no Supabase."""
+def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str) -> tuple[str | None, bool]:
+    """Busca o Discord ID e preferência de DM do dono de um personagem no Supabase.
+    Retorna (discord_id, death_dm_enabled)."""
     try:
         # Busca o personagem
         r = requests.get(
@@ -174,28 +175,33 @@ def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str
             timeout=10,
         )
         if r.status_code != 200 or not r.json():
-            return None
+            return None, True
 
         profile_id = r.json()[0]["profile_id"]
 
-        # Busca o perfil
+        # Busca o perfil com discord_id e death_dm
         r2 = requests.get(
             f"{supabase_url}/rest/v1/profiles",
             headers={
                 "apikey":        supabase_key,
                 "Authorization": f"Bearer {supabase_key}",
             },
-            params={"id": f"eq.{profile_id}", "select": "discord_id"},
+            params={"id": f"eq.{profile_id}", "select": "discord_id,death_dm"},
             timeout=10,
         )
         if r2.status_code != 200 or not r2.json():
-            return None
+            return None, True
 
-        return r2.json()[0].get("discord_id")
+        profile = r2.json()[0]
+        death_dm = profile.get("death_dm", True)
+        if death_dm is None:
+            death_dm = True
+
+        return profile.get("discord_id"), death_dm
 
     except Exception as e:
         print(f"[death_tracker] erro ao buscar Discord ID: {e}")
-        return None
+        return None, True
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -245,13 +251,15 @@ def run():
 
         # Tenta mandar DM para o dono do personagem
         if SUPABASE_URL and SUPABASE_KEY:
-            discord_id = get_discord_id_for_char(death["player"], SUPABASE_URL, SUPABASE_KEY)
-            if discord_id:
+            discord_id, death_dm_enabled = get_discord_id_for_char(death["player"], SUPABASE_URL, SUPABASE_KEY)
+            if discord_id and death_dm_enabled:
                 embed_dm = build_embed_dm(death, is_enemy)
                 if send_dm(discord_id, embed_dm):
-                    print(f"[death_tracker] ✅ DM: {death['player']} → discord_id {discord_id}")
+                    print(f"[death_tracker] ✅ DM: {death['player']} → {discord_id}")
                 else:
                     print(f"[death_tracker] ❌ falha DM: {death['player']}")
+            elif discord_id and not death_dm_enabled:
+                print(f"[death_tracker] ℹ {death['player']} optou por não receber DMs")
             else:
                 print(f"[death_tracker] ℹ {death['player']} sem discord_id cadastrado")
 
