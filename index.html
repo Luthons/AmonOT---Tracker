@@ -6,7 +6,6 @@
 <title>Lowly People — Painel da Guild</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 :root{
   --gold:#c9a84c;--gold-light:#e8cb7a;--gold-dim:#7a6330;
@@ -531,7 +530,7 @@ footer span{color:var(--gold-dim)}
   </div>
 
   <div class="sb-footer">
-    <button class="auth-btn" id="auth-btn" onclick="authBtnClick()">
+    <button class="auth-btn" id="auth-btn">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       <span class="auth-name" id="auth-name">Entrar com Google</span>
       <span class="auth-role-badge" id="auth-role-badge" style="display:none"></span>
@@ -1075,6 +1074,7 @@ footer span{color:var(--gold-dim)}
 
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" crossorigin="anonymous"></script>
 <script>
 // ─── SIDEBAR ───────────────────────────────────────────
 var sbOpen=true;
@@ -2576,6 +2576,8 @@ initAuth();
 document.addEventListener('DOMContentLoaded', function(){
   var btnCreate = document.getElementById('btn-submit-create-event');
   if(btnCreate) btnCreate.addEventListener('click', submitCreateEvent);
+  var btnAuth = document.getElementById('auth-btn');
+  if(btnAuth) btnAuth.addEventListener('click', authBtnClick);
 });
 function chanceColor(c){if(c>=70)return'#5dbf6e';if(c>=40)return'#c9a84c';if(c>=15)return'#e87830';return'#c95050'}
 function fmtGold(v){if(!v||v===0)return'0';v=Math.round(v);return v.toLocaleString('pt-BR')}
