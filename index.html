@@ -2617,11 +2617,11 @@ function initSupabase(){
   }
   _supa = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     auth: {
-      storage:            window.localStorage,
-      storageKey:         'lp-tracker-auth',
-      autoRefreshToken:   true,
-      persistSession:     true,
-      detectSessionInUrl: true,
+      storage:              window.localStorage,
+      storageKey:           'lp-tracker-auth',
+      autoRefreshToken:     true,
+      persistSession:       true,
+      detectSessionInUrl:   false,
     }
   });
   initAuth();
