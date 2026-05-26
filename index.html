@@ -1260,9 +1260,18 @@ function _navigate(page){
 async function supaFetch(table, params, method='GET', body=null){
   var url = SUPABASE_URL + '/rest/v1/' + table;
   if(params) url += '?' + new URLSearchParams(params).toString();
+  // Usa JWT do usuário logado quando disponível — necessário para RLS funcionar
+  var token = SUPABASE_ANON_KEY;
+  try {
+    if(typeof _supa !== 'undefined' && _supa) {
+      var sess = await _supa.auth.getSession();
+      if(sess && sess.data && sess.data.session && sess.data.session.access_token)
+        token = sess.data.session.access_token;
+    }
+  } catch(e) { /* fallback para anon key */ }
   var headers = {
     'apikey': SUPABASE_ANON_KEY,
-    'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+    'Authorization': 'Bearer ' + token,
     'Content-Type': 'application/json',
     'Prefer': method==='POST' ? 'return=representation' : 'return=minimal',
   };
