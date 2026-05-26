@@ -1,6 +1,24 @@
 {
   "3": [
     {
+      "id": "Norcferatu Bloodstrider|30,000,000|Exp Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Protect",
+      "name": "Norcferatu Bloodstrider",
+      "meta": "Legs · 1x",
+      "price": "30,000,000",
+      "attrs": "Exp Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · Protect Earth Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779820874
+    },
+    {
+      "id": "Falcon Circlet|50,000,000|Protect Fire Lv.1 (+0.50) · MP Regen Lv.1 (+0.08) ",
+      "name": "Falcon Circlet",
+      "meta": "Helmets · 1x",
+      "price": "50,000,000",
+      "attrs": "Protect Fire Lv.1 (+0.50) · MP Regen Lv.1 (+0.08) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779820874
+    },
+    {
       "id": "Falcon Escutcheon|150,000,000|Life Leech Lv.1 (+0.20) · Onslaught Lv.1 (+0.10) ·",
       "name": "Falcon Escutcheon",
       "meta": "Shield · 1x",
@@ -431,27 +449,27 @@
       "attrs": "Crit Damage Lv.1 (+1.50) · Mana Leech Lv.1 (+0.20) · Armor Lv.1 (+1.00) · ",
       "rarity": 3,
       "first_seen": 1779756119
-    },
-    {
-      "id": "Eldritch Bow|8,000,000|HP Regen Lv.1 (+0.08) · Protect All Lv.1 (+0.17) ·",
-      "name": "Eldritch Bow",
-      "meta": "Two-handed · 1x",
-      "price": "8,000,000",
-      "attrs": "HP Regen Lv.1 (+0.08) · Protect All Lv.1 (+0.17) · Protect Earth Lv.1 (+0.50) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Merudri Battle Mail|10,000,000|Protect All Lv.1 (+0.17) · Max Mana Lv.1 (+0.50) ·",
-      "name": "Merudri Battle Mail",
-      "meta": "Armors · 1x",
-      "price": "10,000,000",
-      "attrs": "Protect All Lv.1 (+0.17) · Max Mana Lv.1 (+0.50) · Frenzy Lv.1 (+0.25) · ",
-      "rarity": 3,
-      "first_seen": 1779756119
     }
   ],
   "4": [
+    {
+      "id": "Ring Of Souls|30,000,000|Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · S",
+      "name": "Ring Of Souls",
+      "meta": "1x",
+      "price": "30,000,000",
+      "attrs": "Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50) · ",
+      "rarity": 4,
+      "first_seen": 1779820874
+    },
+    {
+      "id": "Knight Legs|2,500,000|Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) ·",
+      "name": "Knight Legs",
+      "meta": "Legs · 1x",
+      "price": "2,500,000",
+      "attrs": "Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · Life Leech Lv.1 (+0.20) · ",
+      "rarity": 4,
+      "first_seen": 1779820874
+    },
     {
       "id": "Yalahari Armor|20,000,000|Frenzy Lv.1 (+0.25) · Protect All Lv.1 (+0.17) · P",
       "name": "Yalahari Armor",
@@ -723,15 +741,6 @@
       "first_seen": 1779756119
     },
     {
-      "id": "Ring Of Souls|350,000,000|Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · S",
-      "name": "Ring Of Souls",
-      "meta": "1x",
-      "price": "350,000,000",
-      "attrs": "Life Leech Lv.1 (+0.20) · Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Energy Lv.1 (+0.50) · ",
-      "rarity": 4,
-      "first_seen": 1779756119
-    },
-    {
       "id": "Terra Rod|10,000,000|MP Regen Lv.1 (+0.08) · Max Mana Lv.1 (+0.50) · Lo",
       "name": "Terra Rod",
       "meta": "Wand · 1x",
@@ -764,15 +773,6 @@
       "meta": "Two-handed · 1x",
       "price": "30,000,000",
       "attrs": "Execute Lv.1 (+0.25) · Spell Healing Lv.1 (+0.50) · Protect Earth Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · ",
-      "rarity": 4,
-      "first_seen": 1779756119
-    },
-    {
-      "id": "Knight Legs|4,000,000|Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) ·",
-      "name": "Knight Legs",
-      "meta": "Legs · 1x",
-      "price": "4,000,000",
-      "attrs": "Protect All Lv.1 (+0.17) · MP Regen Lv.1 (+0.08) · Crit Damage Lv.1 (+1.50) · Life Leech Lv.1 (+0.20) · ",
       "rarity": 4,
       "first_seen": 1779756119
     },
