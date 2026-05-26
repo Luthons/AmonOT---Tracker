@@ -2215,10 +2215,22 @@ function updateCalendarUI(){
 }
 
 // ─── SUPABASE AUTH ─────────────────────────────────────
-const SUPABASE_URL     = 'https://vgvjyceoefzzomcnuefo.supabase.co';
+const SUPABASE_URL      = 'https://vgvjyceoefzzomcnuefo.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZndmp5Y2VvZWZ6em9tY251ZWZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk3NTY2MDUsImV4cCI6MjA5NTMzMjYwNX0.bBExbkJyOUbD2alL86GBHZCyQVKl9pS2b04xDdLpgAA';
 
-const _supa = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+var _supa = null;
+
+function initSupabase(){
+  if(typeof supabase === 'undefined'){
+    console.warn('[auth] Supabase SDK ainda não carregou, tentando novamente em 200ms...');
+    setTimeout(initSupabase, 200);
+    return;
+  }
+  _supa = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  initAuth();
+}
+
+initSupabase();
 
 var currentUser    = null;
 var currentProfile = null;
@@ -2244,7 +2256,7 @@ async function initAuth(){
 }
 
 async function loadProfile(){
-  if(!currentUser)return;
+  if(!currentUser || !_supa) return;
   const {data} = await _supa.from('profiles').select('*').eq('google_id', currentUser.id).single();
   if(data){
     currentProfile = data;
@@ -2568,9 +2580,6 @@ document.addEventListener('click', function(e){
     if(el&&!el.classList.contains('hidden')&&e.target===el)closeModal(id);
   });
 });
-
-// Inicia auth
-initAuth();
 
 // Event listeners para botões dos modais
 document.addEventListener('DOMContentLoaded', function(){
