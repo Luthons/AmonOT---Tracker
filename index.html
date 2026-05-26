@@ -536,6 +536,10 @@ footer span{color:var(--gold-dim)}
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       Log de Mudanças
     </button>
+    <button class="nav-item" onclick="navigate('inactive')" id="nav-inactive" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg>
+      Inativos
+    </button>
   </div>
 
   <div class="sb-divider"></div>
@@ -705,6 +709,7 @@ footer span{color:var(--gold-dim)}
       </div>
     </div>
     <div style="text-align:center;margin-bottom:28px" id="war-leading-badge"></div>
+    <div style="text-align:center;margin-bottom:28px" id="war-streak-badge"></div>
 
     <div class="war-tables">
       <div class="war-table-wrap">
@@ -1057,6 +1062,30 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ INATIVOS ══ -->
+<div class="page" id="page-inactive">
+  <div class="cwrap">
+    <div class="page-title">😴 Membros Inativos</div>
+    <div class="page-desc">Membros que não logam há mais de 7 dias. Visível apenas para liderança.</div>
+    <div class="page-divider"></div>
+    <div class="info-callout" id="inactive-summary"></div>
+    <div class="table-wrap" id="inactive-table-wrap">
+      <table>
+        <thead><tr>
+          <th>Nome</th>
+          <th>Cargo</th>
+          <th>Último Login</th>
+          <th>Dias Inativo</th>
+          <th>Resets</th>
+          <th>Vocação</th>
+        </tr></thead>
+        <tbody id="inactive-tbody"></tbody>
+      </table>
+    </div>
+    <footer>Inativos · Baseado no último login registrado no servidor</footer>
+  </div>
+</div>
+
 <!-- ══ LOG DE MUDANÇAS ══ -->
 <div class="page" id="page-changes">
   <div class="cwrap">
@@ -1150,6 +1179,7 @@ function navigate(page){
   if(isMob())closeSidebarMobile();
   if(page==='calendar') loadCalendarData();
   if(page==='deaths_global') renderDeathsGlobal();
+  if(page==='inactive') renderInactive();
 }
 
 // ─── ROLES & PERMISSÕES ────────────────────────────────
@@ -1413,7 +1443,17 @@ function renderWar(){
   document.getElementById('war-enemy-kd').textContent=w.kd_total?(1/w.kd_total).toFixed(2):'—';
 
   var lk=w.kills_total||0,dk=w.deaths_total||0;
-  var badge=document.getElementById('war-leading-badge');
+  // Streak
+  var streak = w.streak_days || 0;
+  var streakBadge = document.getElementById('war-streak-badge');
+  if(streakBadge){
+    if(streak > 0){
+      var fire = streak >= 7 ? '🔥🔥🔥' : streak >= 3 ? '🔥🔥' : '🔥';
+      streakBadge.innerHTML = `<span style="font-family:'Cinzel',serif;font-size:.8rem;color:var(--online);border:1px solid rgba(93,191,110,.3);background:rgba(93,191,110,.06);padding:6px 18px">${fire} Lowly People em vantagem há <strong>${streak}</strong> dia${streak>1?'s':''} consecutivo${streak>1?'s':''}</span>`;
+    } else {
+      streakBadge.innerHTML = '';
+    }
+  }
   if(lk>dk)badge.innerHTML='<span class="war-leading lp">Lowly People em vantagem (+' +(lk-dk)+')</span>';
   else if(dk>lk)badge.innerHTML='<span class="war-leading enemy">'+enemyName+' em vantagem (+'+(dk-lk)+')</span>';
   else badge.innerHTML='<span class="war-leading tie">Empate</span>';
@@ -1599,6 +1639,53 @@ function renderResetRanking(){
         +resetDayCards(enResetsToday,'#c95050')
       +'</div>'
     +'</div>';
+}
+
+// ─── INATIVOS ──────────────────────────────────────────
+function renderInactive(){
+  var tbody   = document.getElementById('inactive-tbody');
+  var summary = document.getElementById('inactive-summary');
+  if(!tbody) return;
+
+  var INACTIVE_DAYS = 7;
+  var now = new Date();
+
+  var inactive = allMembers.map(function(m){
+    if(!m.last_login) return null;
+    // Formato: "26/05/2026 às 10:30 (Brasília)" ou "May 26, 2026"
+    var dateStr = m.last_login.replace(/\s*\(.*\)/, '').trim();
+    var dt = new Date(dateStr);
+    if(isNaN(dt.getTime())){
+      // Tenta formato pt-BR dd/mm/yyyy
+      var parts = dateStr.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+      if(parts) dt = new Date(`${parts[3]}-${parts[2]}-${parts[1]}`);
+    }
+    if(isNaN(dt.getTime())) return null;
+    var days = Math.floor((now - dt) / (1000 * 60 * 60 * 24));
+    if(days < INACTIVE_DAYS) return null;
+    return {...m, days_inactive: days, last_login_dt: dt};
+  }).filter(Boolean).sort(function(a,b){ return b.days_inactive - a.days_inactive; });
+
+  if(summary) summary.innerHTML = `<strong>${inactive.length}</strong> membro${inactive.length!==1?'s':''} inativo${inactive.length!==1?'s':''} (sem logar há mais de ${INACTIVE_DAYS} dias).`;
+
+  if(!inactive.length){
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">Nenhum membro inativo no momento.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = inactive.map(function(m){
+    var url  = 'https://amonot.online/characters?name=' + encodeURIComponent(m.name);
+    var rank = m.guild_rank || m.rank || 'Member';
+    var daysColor = m.days_inactive >= 30 ? 'var(--red)' : m.days_inactive >= 14 ? '#e87830' : 'var(--gold-dim)';
+    return '<tr>'
+      + '<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+m.name+'</a></td>'
+      + '<td><span class="badge-rank '+badgeClass(rank)+'">'+rank+'</span></td>'
+      + '<td style="color:var(--text-dim);font-size:.88rem">'+m.last_login+'</td>'
+      + '<td style="font-family:Cinzel,serif;font-size:.9rem;font-weight:700;color:'+daysColor+'">'+m.days_inactive+'d</td>'
+      + '<td class="td-num">'+m.resets+'</td>'
+      + '<td class="td-voc">'+(m.vocation||'—')+'</td>'
+      + '</tr>';
+  }).join('');
 }
 
 // ─── HUNTED LIST ───────────────────────────────────────
@@ -2423,11 +2510,15 @@ function updateAuthUI(){
     badge.style.display = 'inline-block';
     badge.className = 'auth-role-badge ' + (currentProfile.role||'member');    badge.textContent = ROLE_LABELS[currentProfile.role] || 'Membro';
     if(calNav) calNav.style.display = 'flex';
+    var inactiveNav = document.getElementById('nav-inactive');
+    if(inactiveNav) inactiveNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
   } else {
     btn.classList.remove('logged');
     name.textContent = 'Entrar com Google';
     badge.style.display = 'none';
     if(calNav) calNav.style.display = 'none';
+    var inactiveNav = document.getElementById('nav-inactive');
+    if(inactiveNav) inactiveNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
       navigate('guild');
@@ -2599,8 +2690,13 @@ async function openProfile(){
       <div style="color:var(--text);font-size:.95rem">${currentProfile.display_name||'—'}</div>
     </div>
     <div class="field-row">
-      <label class="field-label">Discord</label>
-      <input class="field-input" type="text" id="prof-discord" value="${currentProfile.discord_username||''}">
+      <label class="field-label">Discord Username</label>
+      <input class="field-input" type="text" id="prof-discord" value="${currentProfile.discord_username||''}" placeholder="Ex: luthons">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Discord ID <span style="font-size:.75rem;color:var(--text-dim)">(para receber notificações de morte)</span></label>
+      <input class="field-input" type="text" id="prof-discord-id" value="${currentProfile.discord_id||''}" placeholder="Ex: 123456789012345678">
+      <div style="font-size:.75rem;color:var(--text-dim);margin-top:4px">Ative o Modo Desenvolvedor no Discord → clique com botão direito no seu nome → Copiar ID</div>
     </div>
     <div class="field-row">
       <label class="field-label">Personagens</label>
@@ -2674,11 +2770,20 @@ async function removeChar(charId){
 }
 
 async function saveProfile(){
-  var discord = document.getElementById('prof-discord').value.trim();
-  var status  = document.getElementById('profile-status');
-  const {error} = await _supa.from('profiles').update({discord_username: discord}).eq('id', currentProfile.id);
+  var discord    = document.getElementById('prof-discord').value.trim();
+  var discordId  = document.getElementById('prof-discord-id').value.trim();
+  var status     = document.getElementById('profile-status');
+  const {error} = await _supa.from('profiles').update({
+    discord_username: discord,
+    discord_id:       discordId || null,
+  }).eq('id', currentProfile.id);
   if(error){status.textContent='Erro: '+error.message;status.className='modal-status err';}
-  else{currentProfile.discord_username=discord;status.textContent='Salvo!';status.className='modal-status ok';}
+  else{
+    currentProfile.discord_username = discord;
+    currentProfile.discord_id       = discordId;
+    status.textContent='Salvo!';
+    status.className='modal-status ok';
+  }
 }
 
 // ── Gerar convite (Admin) ───────────────────────────────
