@@ -1750,7 +1750,7 @@ async function loadAnnouncements(){
       var author   = a.profiles?.display_name || 'Staff';
       var created  = new Date(a.created_at).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
       var expires  = new Date(a.expires_at).toLocaleDateString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit'});
-      var deleteBtn = canManage ? `<button class="announcement-delete" onclick="deleteAnnouncement('${a.id}')">Remover</button>` : '';
+      var deleteBtn = canManage ? `<button class="announcement-delete" data-ann-id="${a.id}">Remover</button>` : '';
 
       return `<div class="announcement-card ${a.pinned?'pinned':''}" id="ann-${a.id}">
         <div class="announcement-title">
@@ -1767,9 +1767,23 @@ async function loadAnnouncements(){
         </div>
       </div>`;
     }).join('');
+    // Event delegation para botões de remover
+    cont.onclick = function(e){
+      var btn = e.target.closest('.announcement-delete');
+      if(btn && btn.dataset.annId) deleteAnnouncement(btn.dataset.annId);
+    };
   } catch(e) {
     cont.innerHTML = '<div class="announcement-empty">Erro ao carregar avisos.</div>';
     console.error(e);
+  }
+}
+  if(!confirm('Remover este aviso?')) return;
+  await supaFetch('announcements?id=eq.'+id, null, 'DELETE');
+  var el = document.getElementById('ann-'+id);
+  if(el) el.remove();
+  var cont = document.getElementById('announcements-content');
+  if(cont && !cont.querySelector('.announcement-card')){
+    cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
   }
 }
 
