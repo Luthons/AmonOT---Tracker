@@ -1040,13 +1040,16 @@ footer span{color:var(--gold-dim)}
       <input class="field-input" type="text" id="reg-discord" placeholder="Ex: luthons">
     </div>
     <div class="field-row">
-      <label class="field-label">Seus Personagens (nome e resets)</label>
+      <label class="field-label">Seus Personagens</label>
       <div class="char-list" id="reg-char-list"></div>
-      <div style="display:grid;grid-template-columns:1fr auto auto;gap:6px">
-        <input class="field-input" type="text" id="reg-char-name" placeholder="Nome do personagem">
-        <input class="field-input" type="number" id="reg-char-resets" placeholder="Resets" min="0" style="width:80px">
+      <div style="display:grid;grid-template-columns:1fr auto;gap:6px">
+        <div style="position:relative">
+          <input class="field-input" type="text" id="reg-char-name" placeholder="Nome do personagem" oninput="charNameLookup('reg-char-name','reg-char-resets','reg-char-hint')">
+          <div id="reg-char-hint" style="position:absolute;left:0;right:0;background:var(--bg4);border:1px solid var(--border-gold);z-index:10;display:none;max-height:150px;overflow-y:auto"></div>
+        </div>
         <button class="btn" style="padding:8px 12px" onclick="addCharToForm()">+</button>
       </div>
+      <div style="font-size:.75rem;color:var(--text-dim);margin-top:4px">Os resets são preenchidos automaticamente se o personagem estiver na guilda.</div>
     </div>
     <button class="modal-btn" onclick="submitRegister()">Finalizar Cadastro</button>
     <div id="register-status" class="modal-status"></div>
@@ -2300,13 +2303,53 @@ async function logoutUser(){
 }
 
 // ── Cadastro ────────────────────────────────────────────
+// ─── CHAR LOOKUP ───────────────────────────────────────
+function charNameLookup(nameInputId, resetsInputId, hintId){
+  var input = document.getElementById(nameInputId);
+  var hint  = document.getElementById(hintId);
+  var q     = input.value.toLowerCase().trim();
+
+  if(q.length < 2){ hint.style.display='none'; return; }
+
+  var matches = allMembers.filter(m => m.name.toLowerCase().includes(q)).slice(0, 8);
+  if(!matches.length){ hint.style.display='none'; return; }
+
+  hint.innerHTML = matches.map(m =>
+    `<div style="padding:7px 10px;cursor:pointer;font-size:.88rem;border-bottom:1px solid var(--border);color:var(--text)"
+      onmousedown="selectChar('${m.name.replace(/'/g,"\\'")}',${m.resets},'${nameInputId}','${resetsInputId}','${hintId}')"
+      onmouseover="this.style.background='var(--bg3)'" onmouseout="this.style.background=''"
+    >${m.name} <span style="color:var(--text-dim);font-size:.78rem">${m.resets} resets</span></div>`
+  ).join('');
+  hint.style.display='block';
+}
+
+function selectChar(name, resets, nameInputId, resetsInputId, hintId){
+  document.getElementById(nameInputId).value = name;
+  var ri = document.getElementById(resetsInputId);
+  if(ri) ri.value = resets;
+  document.getElementById(hintId).style.display='none';
+  // Guarda resets no dataset do input
+  document.getElementById(nameInputId).dataset.resets = resets;
+}
+
 function addCharToForm(){
-  var name   = document.getElementById('reg-char-name').value.trim();
-  var resets = parseInt(document.getElementById('reg-char-resets').value)||0;
-  if(!name)return;
+  var nameEl   = document.getElementById('reg-char-name');
+  var name     = nameEl.value.trim();
+  if(!name) return;
+
+  // Tenta pegar resets do lookup ou do dataset
+  var resets = parseInt(nameEl.dataset.resets);
+  if(isNaN(resets)){
+    // Tenta buscar no allMembers
+    var found = allMembers.find(m => m.name.toLowerCase() === name.toLowerCase());
+    resets = found ? found.resets : 0;
+    if(found) name = found.name; // corrige capitalização
+  }
+
   regChars.push({name, resets});
-  document.getElementById('reg-char-name').value   = '';
-  document.getElementById('reg-char-resets').value = '';
+  nameEl.value = '';
+  nameEl.dataset.resets = '';
+  document.getElementById('reg-char-hint').style.display='none';
   renderRegChars();
 }
 
@@ -2400,9 +2443,24 @@ async function openProfile(){
     </div>
     <div class="field-row">
       <label class="field-label">Personagens</label>
-      <div class="char-list">${(chars||[]).map(c=>`<div class="char-item"><span class="char-item-name">${c.name}</span><span class="char-item-resets">${c.resets} resets</span></div>`).join('')}</div>
+      <div class="char-list" id="prof-char-list">
+        ${(chars||[]).map(c=>`
+          <div class="char-item" id="char-item-${c.id}">
+            <span class="char-item-name">${c.name}</span>
+            <span class="char-item-resets">${c.resets} resets</span>
+            <button class="char-remove" onclick="removeChar('${c.id}')">✕</button>
+          </div>`).join('')}
+      </div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:6px;margin-top:8px;position:relative">
+        <div style="position:relative">
+          <input class="field-input" type="text" id="prof-char-name" placeholder="Adicionar personagem..." oninput="charNameLookup('prof-char-name','prof-char-resets-hidden','prof-char-hint')">
+          <div id="prof-char-hint" style="position:absolute;left:0;right:0;background:var(--bg4);border:1px solid var(--border-gold);z-index:10;display:none;max-height:150px;overflow-y:auto"></div>
+        </div>
+        <button class="btn" style="padding:8px 12px" onclick="addCharToProfile()">+</button>
+      </div>
+      <input type="hidden" id="prof-char-resets-hidden">
     </div>
-    <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar</button>
+    <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar Discord</button>
     <div id="profile-status" class="modal-status"></div>
   `;
 
@@ -2413,7 +2471,51 @@ async function openProfile(){
   showModal('modal-profile');
 }
 
-async function saveProfile(){
+async function addCharToProfile(){
+  var nameEl = document.getElementById('prof-char-name');
+  var name   = nameEl.value.trim();
+  if(!name) return;
+
+  var resets = parseInt(document.getElementById('prof-char-resets-hidden').value);
+  if(isNaN(resets)){
+    var found = allMembers.find(m => m.name.toLowerCase() === name.toLowerCase());
+    resets = found ? found.resets : 0;
+    if(found) name = found.name;
+  }
+
+  var status = document.getElementById('profile-status');
+  status.textContent='Adicionando...';status.className='modal-status ok';
+
+  var {error} = await _supa.from('characters').insert({
+    profile_id: currentProfile.id, name, resets
+  });
+
+  if(error){
+    status.textContent='Erro: '+error.message;status.className='modal-status err';
+  } else {
+    nameEl.value='';
+    document.getElementById('prof-char-resets-hidden').value='';
+    document.getElementById('prof-char-hint').style.display='none';
+    status.textContent='✅ Personagem adicionado!';status.className='modal-status ok';
+    // Atualiza a lista
+    var {data:chars} = await _supa.from('characters').select('*').eq('profile_id', currentProfile.id);
+    var list = document.getElementById('prof-char-list');
+    if(list) list.innerHTML = (chars||[]).map(c=>`
+      <div class="char-item" id="char-item-${c.id}">
+        <span class="char-item-name">${c.name}</span>
+        <span class="char-item-resets">${c.resets} resets</span>
+        <button class="char-remove" onclick="removeChar('${c.id}')">✕</button>
+      </div>`).join('');
+  }
+}
+
+async function removeChar(charId){
+  var {error} = await _supa.from('characters').delete().eq('id', charId);
+  if(!error){
+    var el = document.getElementById('char-item-'+charId);
+    if(el) el.remove();
+  }
+}
   var discord = document.getElementById('prof-discord').value.trim();
   var status  = document.getElementById('profile-status');
   const {error} = await _supa.from('profiles').update({discord_username: discord}).eq('id', currentProfile.id);
