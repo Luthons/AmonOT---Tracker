@@ -1844,27 +1844,40 @@ async function loadCalendarData(){
     var json = JSON.parse(txt.replace(/^[^(]+\(/, '').replace(/\);?\s*$/, ''));
     var rows = json.table.rows || [];
 
-    calEvents = rows.slice(1).map(function(row, i){
+    calEvents = rows.map(function(row, i){
       var c = row.c || [];
-      var id   = c[0]?.v || (i+1);
+      var id   = c[0]?.v !== null && c[0]?.v !== undefined ? String(c[0].v) : String(i+1);
       var tipo = (c[1]?.v || '').toLowerCase().trim();
       var nome = c[2]?.v || '';
       var data = c[3]?.v || '';
-      var hora = c[4]?.v || '';
+      var hora = c[4]?.f || c[4]?.v || '';
       var desc = c[5]?.v || '';
       var vagas= parseInt(c[6]?.v) || 0;
 
-      // Data pode vir como "Date(2026,4,22)" do Sheets
+      // Data vem como "Date(2026,4,26)" do Sheets — mês começa em 0
       var dateStr = '';
       if(typeof data === 'string' && data.startsWith('Date(')){
         var parts = data.replace('Date(','').replace(')','').split(',');
         var y=parseInt(parts[0]),m=parseInt(parts[1]),d=parseInt(parts[2]);
         dateStr = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      } else if(data && typeof data === 'object' && data.toString().startsWith('Date')){
+        // Às vezes vem como objeto Date
+        var match = data.toString().match(/Date\((\d+),(\d+),(\d+)\)/);
+        if(match){
+          dateStr = `${match[1]}-${String(parseInt(match[2])+1).padStart(2,'0')}-${String(match[3]).padStart(2,'0')}`;
+        }
       } else {
         dateStr = String(data);
       }
 
-      return {id: String(id), tipo, nome, data: dateStr, hora: String(hora), desc: String(desc), vagas};
+      // Hora vem formatada como "22:00"
+      if(typeof hora === 'number'){
+        var h = Math.floor(hora * 24);
+        var m2= Math.round((hora * 24 - h) * 60);
+        hora = `${String(h).padStart(2,'0')}:${String(m2).padStart(2,'0')}`;
+      }
+
+      return {id, tipo, nome, data: dateStr, hora: String(hora), desc: String(desc||''), vagas};
     }).filter(e => e.nome && e.data);
 
     // Busca joins
