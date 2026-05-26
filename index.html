@@ -278,6 +278,20 @@ footer span{color:var(--gold-dim)}
 .up-row-label{font-family:'Cinzel',serif;font-size:.72rem;color:var(--text-dim);width:80px;flex-shrink:0}
 .up-pct{font-family:'Cinzel',serif;font-size:.75rem;min-width:36px;text-align:right}
 
+/* ANNOUNCEMENTS */
+.announcement-card{background:var(--bg3);border:1px solid var(--border-gold);padding:20px 22px;margin-bottom:14px;position:relative;overflow:hidden}
+.announcement-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,168,76,.04),transparent 60%)}
+.announcement-card.pinned{border-color:rgba(201,168,76,.4);border-left:3px solid var(--gold)}
+.announcement-title{font-family:'Cinzel',serif;font-size:1rem;font-weight:700;color:var(--gold-light);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.announcement-pin{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 6px;border:1px solid var(--gold-dim);color:var(--gold-dim)}
+.announcement-content{font-size:.95rem;color:var(--text);line-height:1.6;margin-bottom:12px;white-space:pre-wrap}
+.announcement-meta{display:flex;justify-content:space-between;align-items:center;font-size:.75rem;color:var(--text-dim)}
+.announcement-author{color:var(--gold-dim)}
+.announcement-expires{color:var(--text-dim)}
+.announcement-delete{background:none;border:1px solid rgba(201,80,80,.3);color:var(--red);cursor:pointer;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.1em;padding:3px 8px;transition:all .2s}
+.announcement-delete:hover{background:rgba(201,80,80,.15)}
+.announcement-empty{text-align:center;padding:48px 24px;color:var(--text-dim);font-style:italic}
+
 /* RESET RANKING */
 .rr-scoreboard{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:28px}
 .rr-guild-card{background:var(--bg3);border:1px solid var(--border-gold);padding:22px;position:relative;overflow:hidden}
@@ -487,6 +501,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item active" onclick="navigate('guild')" id="nav-guild">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       Lista de Membros
+    </button>
+    <button class="nav-item" onclick="navigate('announcements')" id="nav-announcements" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"/></svg>
+      Mural de Avisos
     </button>
   </div>
 
@@ -1062,6 +1080,46 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ MURAL DE AVISOS ══ -->
+<div class="page" id="page-announcements">
+  <div class="cwrap">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:5px">
+      <div class="page-title">📢 Mural de Avisos</div>
+      <button class="btn" id="btn-new-announcement" onclick="showModal('modal-create-announcement')" style="display:none;border-color:var(--gold-dim);color:var(--gold-light)">+ Novo Aviso</button>
+    </div>
+    <div class="page-desc">Comunicados da liderança para os membros da guilda.</div>
+    <div class="page-divider"></div>
+    <div id="announcements-content">
+      <div class="announcement-empty">Carregando avisos...</div>
+    </div>
+    <footer>Mural de Avisos · Avisos expiram após 7 dias</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: CRIAR AVISO ══ -->
+<div class="modal-overlay hidden" id="modal-create-announcement">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('modal-create-announcement')">✕</button>
+    <h2>📢 Novo Aviso</h2>
+    <div class="field-row">
+      <label class="field-label">Título</label>
+      <input class="field-input" type="text" id="ann-title" placeholder="Ex: Expedição amanhã às 21h">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Conteúdo</label>
+      <textarea class="field-input" id="ann-content" rows="5" placeholder="Detalhes do aviso..." style="resize:vertical"></textarea>
+    </div>
+    <div class="field-row">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" id="ann-pinned" style="width:16px;height:16px">
+        <span class="field-label" style="margin:0">Fixar aviso no topo</span>
+      </label>
+    </div>
+    <button class="modal-btn" id="btn-submit-announcement">Publicar Aviso</button>
+    <div id="ann-status" class="modal-status"></div>
+  </div>
+</div>
+
 <!-- ══ INATIVOS ══ -->
 <div class="page" id="page-inactive">
   <div class="cwrap">
@@ -1180,6 +1238,7 @@ function navigate(page){
   if(page==='calendar') loadCalendarData();
   if(page==='deaths_global') renderDeathsGlobal();
   if(page==='inactive') renderInactive();
+  if(page==='announcements') loadAnnouncements();
 }
 
 // ─── ROLES & PERMISSÕES ────────────────────────────────
@@ -1640,6 +1699,106 @@ function renderResetRanking(){
         +resetDayCards(enResetsToday,'#c95050')
       +'</div>'
     +'</div>';
+}
+
+// ─── MURAL DE AVISOS ───────────────────────────────────
+async function loadAnnouncements(){
+  var cont = document.getElementById('announcements-content');
+  if(!cont || !_supa) return;
+
+  cont.innerHTML = '<div class="announcement-empty">Carregando...</div>';
+
+  var now = new Date().toISOString();
+  var {data, error} = await _supa
+    .from('announcements')
+    .select('*, profiles(display_name)')
+    .gt('expires_at', now)
+    .order('pinned', {ascending: false})
+    .order('created_at', {ascending: false});
+
+  if(error){
+    cont.innerHTML = '<div class="announcement-empty">Erro ao carregar avisos.</div>';
+    return;
+  }
+
+  if(!data || !data.length){
+    cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
+    return;
+  }
+
+  var canManage = ['admin','lider','vice'].includes(getRole());
+
+  cont.innerHTML = data.map(function(a){
+    var author   = a.profiles?.display_name || 'Staff';
+    var created  = new Date(a.created_at).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
+    var expires  = new Date(a.expires_at).toLocaleDateString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit', month:'2-digit'});
+    var deleteBtn = canManage ? `<button class="announcement-delete" onclick="deleteAnnouncement('${a.id}')">Remover</button>` : '';
+
+    return `<div class="announcement-card ${a.pinned?'pinned':''}" id="ann-${a.id}">
+      <div class="announcement-title">
+        ${a.pinned ? '<span class="announcement-pin">📌 Fixado</span>' : ''}
+        ${a.title}
+      </div>
+      <div class="announcement-content">${a.content}</div>
+      <div class="announcement-meta">
+        <span class="announcement-author">Por ${author} · ${created}</span>
+        <div style="display:flex;align-items:center;gap:10px">
+          <span class="announcement-expires">Expira em ${expires}</span>
+          ${deleteBtn}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+async function deleteAnnouncement(id){
+  if(!confirm('Remover este aviso?')) return;
+  var {error} = await _supa.from('announcements').delete().eq('id', id);
+  if(!error){
+    var el = document.getElementById('ann-'+id);
+    if(el) el.remove();
+    var cont = document.getElementById('announcements-content');
+    if(cont && !cont.querySelector('.announcement-card')){
+      cont.innerHTML = '<div class="announcement-empty">Nenhum aviso no momento.</div>';
+    }
+  }
+}
+
+async function submitAnnouncement(){
+  var title   = document.getElementById('ann-title').value.trim();
+  var content = document.getElementById('ann-content').value.trim();
+  var pinned  = document.getElementById('ann-pinned').checked;
+  var status  = document.getElementById('ann-status');
+
+  if(!title){status.textContent='Título obrigatório.';status.className='modal-status err';return}
+  if(!content){status.textContent='Conteúdo obrigatório.';status.className='modal-status err';return}
+
+  status.textContent='Publicando...';status.className='modal-status ok';
+
+  var expires = new Date(Date.now() + 7*24*60*60*1000).toISOString();
+
+  var {error} = await _supa.from('announcements').insert({
+    title,
+    content,
+    pinned,
+    created_by: currentProfile.id,
+    expires_at: expires,
+  });
+
+  if(error){
+    status.textContent='Erro: '+error.message;
+    status.className='modal-status err';
+  } else {
+    status.textContent='✅ Aviso publicado!';
+    status.className='modal-status ok';
+    document.getElementById('ann-title').value   = '';
+    document.getElementById('ann-content').value = '';
+    document.getElementById('ann-pinned').checked= false;
+    setTimeout(function(){
+      closeModal('modal-create-announcement');
+      loadAnnouncements();
+    }, 1000);
+  }
 }
 
 // ─── INATIVOS ──────────────────────────────────────────
@@ -2513,6 +2672,10 @@ function updateAuthUI(){
     if(calNav) calNav.style.display = 'flex';
     var inactiveNav = document.getElementById('nav-inactive');
     if(inactiveNav) inactiveNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
+    var annNav = document.getElementById('nav-announcements');
+    if(annNav) annNav.style.display = 'flex';
+    var btnNewAnn = document.getElementById('btn-new-announcement');
+    if(btnNewAnn) btnNewAnn.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'inline-block' : 'none';
   } else {
     btn.classList.remove('logged');
     name.textContent = 'Entrar com Google';
@@ -2520,6 +2683,8 @@ function updateAuthUI(){
     if(calNav) calNav.style.display = 'none';
     var inactiveNav = document.getElementById('nav-inactive');
     if(inactiveNav) inactiveNav.style.display = 'none';
+    var annNav = document.getElementById('nav-announcements');
+    if(annNav) annNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
       navigate('guild');
@@ -2864,6 +3029,8 @@ document.addEventListener('DOMContentLoaded', function(){
   if(btnCreate) btnCreate.addEventListener('click', submitCreateEvent);
   var btnAuth = document.getElementById('auth-btn');
   if(btnAuth) btnAuth.addEventListener('click', authBtnClick);
+  var btnAnn = document.getElementById('btn-submit-announcement');
+  if(btnAnn) btnAnn.addEventListener('click', submitAnnouncement);
 });
 function chanceColor(c){if(c>=70)return'#5dbf6e';if(c>=40)return'#c9a84c';if(c>=15)return'#e87830';return'#c95050'}
 function fmtGold(v){if(!v||v===0)return'0';v=Math.round(v);return v.toLocaleString('pt-BR')}
