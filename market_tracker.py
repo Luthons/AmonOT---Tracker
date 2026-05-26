@@ -57,7 +57,14 @@ def fetch_market(rarity: int) -> list:
         if not name_el:
             continue
 
-        name  = name_el.get_text(strip=True)
+        # Remove filhos (como spans de raridade) e pega só o texto direto
+        name = name_el.get_text(separator=" ", strip=True)
+        # Remove sufixos de raridade colados ao nome
+        for rarity_label in ["Mythical", "Legendary", "Epic", "Rare", "Uncommon", "Common"]:
+            if name.endswith(rarity_label):
+                name = name[:-len(rarity_label)].strip()
+                break
+
         meta  = meta_el.get_text(" ", strip=True) if meta_el else ""
         price = price_el.get_text(strip=True) if price_el else "?"
 
@@ -118,19 +125,27 @@ def get_dm_channel(user_id: str) -> str | None:
 
 
 def send_dm(channel_id: str, embed: dict):
-    """Envia uma mensagem embed no canal de DM."""
-    r = requests.post(
-        f"https://discord.com/api/v10/channels/{channel_id}/messages",
-        headers={
-            "Authorization": f"Bot {DISCORD_TOKEN}",
-            "Content-Type": "application/json",
-        },
-        json={"embeds": [embed]},
-        timeout=10,
-    )
-    if r.status_code not in (200, 201):
-        print(f"[discord] erro ao enviar mensagem: {r.status_code} {r.text}")
-    return r.status_code in (200, 201)
+    """Envia uma mensagem embed no canal de DM com retry em rate limit."""
+    for attempt in range(3):
+        r = requests.post(
+            f"https://discord.com/api/v10/channels/{channel_id}/messages",
+            headers={
+                "Authorization": f"Bot {DISCORD_TOKEN}",
+                "Content-Type": "application/json",
+            },
+            json={"embeds": [embed]},
+            timeout=10,
+        )
+        if r.status_code in (200, 201):
+            return True
+        if r.status_code == 429:
+            retry_after = r.json().get("retry_after", 1)
+            print(f"[discord] rate limit — aguardando {retry_after}s")
+            time.sleep(retry_after + 0.1)
+        else:
+            print(f"[discord] erro ao enviar mensagem: {r.status_code} {r.text}")
+            return False
+    return False
 
 
 def build_embed_new(item: dict, rarity_info: dict) -> dict:
