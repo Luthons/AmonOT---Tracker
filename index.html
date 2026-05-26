@@ -483,7 +483,7 @@ footer span{color:var(--gold-dim)}
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 20 18 10"/><polyline points="12 20 12 4"/><polyline points="6 20 6 14"/></svg>
       Ranking de Resets
     </button>
-    <button class="nav-item" onclick="navigate('calendar')" id="nav-calendar">
+    <button class="nav-item" onclick="navigate('calendar')" id="nav-calendar" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
       Calendário
     </button>
@@ -2270,19 +2270,27 @@ async function loadProfile(){
 }
 
 function updateAuthUI(){
-  var btn   = document.getElementById('auth-btn');
-  var name  = document.getElementById('auth-name');
-  var badge = document.getElementById('auth-role-badge');
+  var btn     = document.getElementById('auth-btn');
+  var name    = document.getElementById('auth-name');
+  var badge   = document.getElementById('auth-role-badge');
+  var calNav  = document.getElementById('nav-calendar');
+
   if(currentProfile){
     btn.classList.add('logged');
     name.textContent = currentProfile.display_name || currentUser.email;
     badge.style.display = 'inline-block';
     badge.className = 'auth-role-badge ' + (currentProfile.role||'member');
     badge.textContent = currentProfile.role === 'admin' ? 'Admin' : currentProfile.role === 'staff' ? 'Staff' : 'Membro';
+    if(calNav) calNav.style.display = 'flex';
   } else {
     btn.classList.remove('logged');
     name.textContent = 'Entrar com Google';
     badge.style.display = 'none';
+    if(calNav) calNav.style.display = 'none';
+    // Se estava na página do calendário, redireciona para guild
+    if(document.getElementById('page-calendar')?.classList.contains('active')){
+      navigate('guild');
+    }
   }
 }
 
