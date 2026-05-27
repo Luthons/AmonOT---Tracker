@@ -501,6 +501,33 @@ footer span{color:var(--gold-dim)}
 .hm-cell:hover::after{content:attr(data-tip);position:absolute;bottom:22px;left:50%;transform:translateX(-50%);background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);font-size:.7rem;padding:3px 8px;white-space:nowrap;z-index:10;pointer-events:none}
 .hm-week-legend{display:flex;align-items:center;gap:6px;margin-top:14px;flex-wrap:wrap}
 .hm-legend-swatch{display:inline-block;width:14px;height:14px;border-radius:2px;border:1px solid var(--border);vertical-align:middle}
+
+/* ── VOTAÇÕES ────────────────────────────────────────────────── */
+.vote-card{background:var(--bg2);border:1px solid var(--border);padding:20px 22px;margin-bottom:16px;position:relative}
+.vote-card.closed{opacity:.7}
+.vote-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:14px}
+.vote-card-title{font-family:'Cinzel',serif;font-size:.95rem;color:var(--text);letter-spacing:.04em}
+.vote-badge{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border:1px solid;white-space:nowrap}
+.vote-badge.open{color:var(--online);border-color:rgba(93,191,110,.4);background:rgba(93,191,110,.06)}
+.vote-badge.closed{color:var(--text-dim);border-color:var(--border)}
+.vote-type-label{font-size:.72rem;color:var(--text-dim);margin-bottom:12px}
+.vote-option{margin-bottom:10px}
+.vote-option-header{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.vote-option-label{font-size:.82rem;color:var(--text);flex:1}
+.vote-option-count{font-size:.75rem;color:var(--text-dim);white-space:nowrap}
+.vote-bar-bg{height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.vote-bar-fill{height:100%;border-radius:3px;background:var(--gold-dim);transition:width .4s}
+.vote-bar-fill.selected{background:var(--gold-light)}
+.vote-actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.vote-btn{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;padding:7px 16px;border:1px solid var(--border-gold);background:rgba(201,168,76,.08);color:var(--gold-light);cursor:pointer;transition:all .2s}
+.vote-btn:hover{background:rgba(201,168,76,.15)}
+.vote-btn.voted{border-color:var(--online);color:var(--online);background:rgba(93,191,110,.06)}
+.vote-btn.close-btn{border-color:var(--red);color:var(--red);background:rgba(201,80,80,.06)}
+.vote-meta{font-size:.72rem;color:var(--text-dim);margin-top:12px}
+.vote-option-input{display:flex;align-items:center;gap:8px;margin-bottom:8px;cursor:pointer}
+.vote-option-input input{accent-color:var(--gold-light);width:16px;height:16px;cursor:pointer}
+.vote-option-input label{font-size:.85rem;color:var(--text);cursor:pointer}
+.vote-empty{color:var(--text-dim);font-style:italic;padding:20px 0}
 </style>
 </head>
 <body>
@@ -528,6 +555,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('announcements')" id="nav-announcements" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"/></svg>
       Mural de Avisos
+    </button>
+    <button class="nav-item" onclick="navigate('votes')" id="nav-votes" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      Votações
     </button>
   </div>
 
@@ -1235,6 +1266,55 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-votes">
+  <div class="cwrap">
+    <div class="page-title">🗳 Votações</div>
+    <div class="page-desc">Enquetes criadas pela staff da Lowly People. Participe e faça sua voz ser ouvida.</div>
+    <div class="page-divider"></div>
+    <div id="votes-staff-bar" style="display:none;margin-bottom:20px">
+      <button class="modal-btn" id="btn-new-vote" onclick="openNewVoteModal()">+ Nova Votação</button>
+    </div>
+    <div id="votes-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Votações · Lowly People</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: NOVA VOTAÇÃO ══ -->
+<div class="modal-overlay hidden" id="modal-new-vote">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-new-vote')">✕</button>
+    <div class="modal-title">🗳 Nova Votação</div>
+    <div class="field-row">
+      <label class="field-label">Título</label>
+      <input class="field-input" type="text" id="nv-title" placeholder="Ex: Qual o melhor horário?">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Tipo</label>
+      <select class="field-input" id="nv-type" onchange="nvOnTypeChange()">
+        <option value="binary">Binária (Sim / Não)</option>
+        <option value="single">Múltipla escolha — seleção única</option>
+        <option value="multiple">Múltipla escolha — seleção múltipla</option>
+      </select>
+    </div>
+    <div id="nv-options-wrap" style="display:none">
+      <label class="field-label">Opções (até 5)</label>
+      <div id="nv-options-list">
+        <input class="field-input" type="text" placeholder="Opção 1" style="margin-bottom:6px" data-opt="0">
+        <input class="field-input" type="text" placeholder="Opção 2" style="margin-bottom:6px" data-opt="1">
+        <input class="field-input" type="text" placeholder="Opção 3 (opcional)" style="margin-bottom:6px" data-opt="2">
+        <input class="field-input" type="text" placeholder="Opção 4 (opcional)" style="margin-bottom:6px" data-opt="3">
+        <input class="field-input" type="text" placeholder="Opção 5 (opcional)" style="margin-bottom:6px" data-opt="4">
+      </div>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Encerra em</label>
+      <input class="field-input" type="datetime-local" id="nv-expires">
+    </div>
+    <button class="modal-btn" onclick="submitNewVote()">Criar Votação</button>
+    <div id="nv-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1333,6 +1413,7 @@ function _navigate(page){
   if(page==='inactive') renderInactive();
   if(page==='announcements') loadAnnouncements();
   if(page==='heatmap') hmInit();
+  if(page==='votes') loadVotes();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -2810,6 +2891,8 @@ function updateAuthUI(){
     if(inactiveNav) inactiveNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var annNav = document.getElementById('nav-announcements');
     if(annNav) annNav.style.display = 'flex';
+    var votesNav = document.getElementById('nav-votes');
+    if(votesNav) votesNav.style.display = 'flex';
     var btnNewAnn = document.getElementById('btn-new-announcement');
     if(btnNewAnn) btnNewAnn.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'inline-block' : 'none';
   } else {
@@ -2821,6 +2904,8 @@ function updateAuthUI(){
     if(inactiveNav) inactiveNav.style.display = 'none';
     var annNav = document.getElementById('nav-announcements');
     if(annNav) annNav.style.display = 'none';
+    var votesNav = document.getElementById('nav-votes');
+    if(votesNav) votesNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
       _navigate('guild');
@@ -3328,6 +3413,229 @@ function ceUpdateSharePreview() {
   if (!share) { preview.style.display = 'none'; return; }
   preview.style.display = '';
   preview.textContent = '⚔ Min: ' + share.min + ' | Max: ' + share.max;
+}
+
+
+// ─── VOTAÇÕES ──────────────────────────────────────────────────
+var votesData = [];
+
+function canManageVotes(){ return ['admin','lider','vice'].includes(getRole()); }
+
+function nvOnTypeChange(){
+  var type = document.getElementById('nv-type').value;
+  var wrap = document.getElementById('nv-options-wrap');
+  if(wrap) wrap.style.display = (type === 'binary') ? 'none' : '';
+}
+
+function openNewVoteModal(){
+  if(!canManageVotes()) return;
+  // Default expires: 24h from now
+  var d = new Date(Date.now() + 24*60*60*1000);
+  var pad = n => String(n).padStart(2,'0');
+  var def = d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'T'+pad(d.getHours())+':'+pad(d.getMinutes());
+  document.getElementById('nv-expires').value = def;
+  document.getElementById('nv-title').value = '';
+  document.getElementById('nv-type').value = 'binary';
+  document.getElementById('nv-status').innerHTML = '';
+  nvOnTypeChange();
+  showModal('modal-new-vote');
+}
+
+async function submitNewVote(){
+  var title   = document.getElementById('nv-title').value.trim();
+  var type    = document.getElementById('nv-type').value;
+  var expires = document.getElementById('nv-expires').value;
+  var status  = document.getElementById('nv-status');
+
+  if(!title){ status.innerHTML = '<span style="color:var(--red)">Título obrigatório.</span>'; return; }
+  if(!expires){ status.innerHTML = '<span style="color:var(--red)">Data de encerramento obrigatória.</span>'; return; }
+
+  var options = [];
+  if(type === 'binary'){
+    options = ['Sim','Não'];
+  } else {
+    var inputs = document.querySelectorAll('#nv-options-list input[data-opt]');
+    inputs.forEach(function(inp){ if(inp.value.trim()) options.push(inp.value.trim()); });
+    if(options.length < 2){ status.innerHTML = '<span style="color:var(--red)">Mínimo 2 opções.</span>'; return; }
+  }
+
+  status.innerHTML = '<span style="color:var(--text-dim)">Criando...</span>';
+  try {
+    var {data, error} = await supaFetch('votes', null, 'POST', {
+      title,
+      type,
+      options,
+      created_by: currentProfile.id,
+      expires_at: new Date(expires).toISOString(),
+    });
+    if(error) throw new Error(error);
+    status.innerHTML = '<span style="color:var(--online)">Votação criada!</span>';
+    setTimeout(function(){ closeModal('modal-new-vote'); loadVotes(); }, 1000);
+  } catch(e){
+    status.innerHTML = '<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+async function submitVote(voteId, type){
+  if(!currentProfile) return;
+  var selected = [];
+  if(type === 'binary' || type === 'single'){
+    var el = document.querySelector('input[name="vote-'+voteId+'"]:checked');
+    if(!el){ alert('Selecione uma opção.'); return; }
+    selected = [el.value];
+  } else {
+    var els = document.querySelectorAll('input[name="vote-'+voteId+'"]:checked');
+    if(!els.length){ alert('Selecione pelo menos uma opção.'); return; }
+    els.forEach(function(el){ selected.push(el.value); });
+  }
+
+  try {
+    await supaFetch('vote_responses', null, 'POST', {
+      vote_id: voteId,
+      profile_id: currentProfile.id,
+      selected_options: selected,
+    });
+    loadVotes();
+  } catch(e){
+    alert('Erro ao votar: '+e.message);
+  }
+}
+
+async function closeVote(voteId){
+  if(!canManageVotes()) return;
+  if(!confirm('Encerrar esta votação antes do prazo?')) return;
+  try {
+    await supaFetch('votes?id=eq.'+voteId, null, 'PATCH', {
+      closed_at: new Date().toISOString(),
+      closed_by: currentProfile.id,
+    });
+    loadVotes();
+  } catch(e){
+    alert('Erro ao encerrar: '+e.message);
+  }
+}
+
+function submitVoteBtn(btn){
+  var vid = btn.dataset.vid;
+  var vtype = btn.dataset.vtype;
+  submitVote(vid, vtype);
+}
+
+function closeVoteBtn(btn){
+  var vid = btn.dataset.vid;
+  closeVote(vid);
+}
+
+async function loadVotes(){
+  var cont = document.getElementById('votes-content');
+  if(!cont) return;
+
+  // Show/hide staff bar
+  var bar = document.getElementById('votes-staff-bar');
+  if(bar) bar.style.display = canManageVotes() ? '' : 'none';
+
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  try {
+    var {data: votes} = await supaFetch('votes', {order: 'created_at.desc', limit: '50'});
+    if(!votes || !votes.length){
+      cont.innerHTML = '<div class="vote-empty">Nenhuma votação ainda.</div>';
+      return;
+    }
+
+    // Load user's responses
+    var myResponses = {};
+    if(currentProfile){
+      var {data: resps} = await supaFetch('vote_responses', {profile_id: 'eq.'+currentProfile.id});
+      (resps||[]).forEach(function(r){ myResponses[r.vote_id] = r.selected_options; });
+    }
+
+    // Load all responses for counts
+    var {data: allResps} = await supaFetch('vote_responses', {select: 'vote_id,selected_options'});
+    var countMap = {};
+    (allResps||[]).forEach(function(r){
+      if(!countMap[r.vote_id]) countMap[r.vote_id] = {};
+      (r.selected_options||[]).forEach(function(opt){
+        countMap[r.vote_id][opt] = (countMap[r.vote_id][opt]||0)+1;
+      });
+    });
+
+    cont.innerHTML = votes.map(function(v){
+      var now = new Date();
+      var exp = new Date(v.expires_at);
+      var isClosed = v.closed_at || now > exp;
+      var myVote   = myResponses[v.id] || null;
+      var counts   = countMap[v.id] || {};
+      var opts     = v.options || [];
+      var totalVoters = Object.keys((allResps||[]).filter ? allResps.filter(function(r){ return r.vote_id===v.id; }).reduce(function(a,r){ a[JSON.stringify(r.selected_options)]=1; return a; },{}) : {}).length;
+      // Better: count unique voters
+      var uniqueVoters = (allResps||[]).filter(function(r){ return r.vote_id===v.id; }).length;
+
+      var typeLabel = v.type==='binary' ? 'Binária' : v.type==='single' ? 'Múltipla escolha (seleção única)' : 'Múltipla escolha (seleção múltipla)';
+      var badgeClass = isClosed ? 'closed' : 'open';
+      var badgeText  = isClosed ? 'Encerrada' : 'Aberta';
+
+      // Options display
+      var optsHtml = '';
+      if(isClosed || myVote){
+        // Show results
+        var maxCount = Math.max.apply(null, opts.map(function(o){ return counts[o]||0; }).concat([1]));
+        optsHtml = opts.map(function(opt){
+          var c = counts[opt]||0;
+          var pct = uniqueVoters > 0 ? Math.round(c/uniqueVoters*100) : 0;
+          var isSelected = myVote && myVote.includes(opt);
+          return '<div class="vote-option">'
+            +'<div class="vote-option-header">'
+            +'<span class="vote-option-label">'+(isSelected?'✓ ':'')+opt+'</span>'
+            +'<span class="vote-option-count">'+c+' voto'+(c!==1?'s':'')+' ('+pct+'%)</span>'
+            +'</div>'
+            +'<div class="vote-bar-bg"><div class="vote-bar-fill'+(isSelected?' selected':'')+'" style="width:'+pct+'%"></div></div>'
+            +'</div>';
+        }).join('');
+      } else if(currentProfile) {
+        // Show voting inputs
+        var inputType = v.type==='multiple' ? 'checkbox' : 'radio';
+        optsHtml = '<div style="margin-bottom:12px">'
+          + opts.map(function(opt){
+            return '<div class="vote-option-input">'
+              +'<input type="'+inputType+'" name="vote-'+v.id+'" id="vopt-'+v.id+'-'+opt+'" value="'+opt+'">'
+              +'<label for="vopt-'+v.id+'-'+opt+'">'+opt+'</label>'
+              +'</div>';
+          }).join('')
+          +'</div>'
+          +'<button class="vote-btn voted" data-vid="'+v.id+'" data-vtype="'+v.type+'" onclick="submitVoteBtn(this)">Votar</button>';
+      } else {
+        optsHtml = opts.map(function(opt){
+          var c = counts[opt]||0;
+          var pct = uniqueVoters > 0 ? Math.round(c/uniqueVoters*100) : 0;
+          return '<div class="vote-option">'
+            +'<div class="vote-option-header">'
+            +'<span class="vote-option-label">'+opt+'</span>'
+            +'<span class="vote-option-count">'+c+' voto'+(c!==1?'s':'')+'</span>'
+            +'</div>'
+            +'<div class="vote-bar-bg"><div class="vote-bar-fill" style="width:'+pct+'%"></div></div>'
+            +'</div>';
+        }).join('');
+      }
+
+      var closeBtn = (!isClosed && canManageVotes()) ? '<button class="vote-btn close-btn" data-vid="'+v.id+'" onclick="closeVoteBtn(this)">Encerrar</button>' : '';
+      var expStr = exp.toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'});
+
+      return '<div class="vote-card'+(isClosed?' closed':'')+'">'
+        +'<div class="vote-card-header">'
+        +'<div class="vote-card-title">'+v.title+'</div>'
+        +'<span class="vote-badge '+badgeClass+'">'+badgeText+'</span>'
+        +'</div>'
+        +'<div class="vote-type-label">'+typeLabel+' · '+uniqueVoters+' participante'+(uniqueVoters!==1?'s':'')+'</div>'
+        + optsHtml
+        +'<div class="vote-meta">Encerra em: '+expStr+'</div>'
+        + (closeBtn ? '<div class="vote-actions">'+closeBtn+'</div>' : '')
+        +'</div>';
+    }).join('');
+
+  } catch(e){
+    cont.innerHTML = '<div style="color:var(--red)">Erro ao carregar votações: '+e.message+'</div>';
+  }
 }
 
 </script>
