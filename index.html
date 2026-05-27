@@ -479,6 +479,28 @@ footer span{color:var(--gold-dim)}
 .invite-code-display{background:var(--bg3);border:1px solid var(--gold-dim);padding:14px;text-align:center;margin:12px 0}
 .invite-code-text{font-family:'Cinzel',serif;font-size:1.4rem;font-weight:700;color:var(--gold-light);letter-spacing:.15em;display:block;margin-bottom:6px}
 .invite-code-exp{font-size:.75rem;color:var(--text-dim)}
+
+/* ── HEATMAP ─────────────────────────────────────────────────── */
+.hm-tabs{display:flex;gap:8px;margin-bottom:22px}
+.hm-tab{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:7px 18px;background:transparent;border:1px solid var(--border);color:var(--text-dim);cursor:pointer;transition:all .2s}
+.hm-tab.active{border-color:var(--gold-dim);color:var(--gold-light);background:rgba(201,168,76,.06)}
+.hm-day-selector{display:flex;gap:6px;margin-bottom:20px;flex-wrap:wrap}
+.hm-day-btn{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.08em;padding:5px 12px;background:transparent;border:1px solid var(--border);color:var(--text-dim);cursor:pointer;transition:all .2s}
+.hm-day-btn.active{border-color:var(--gold-dim);color:var(--gold-light);background:rgba(201,168,76,.08)}
+.hm-day-chart{display:flex;align-items:flex-end;gap:3px;height:120px;margin-bottom:8px}
+.hm-bar-wrap{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+.hm-bar{width:100%;background:var(--border);border-radius:2px 2px 0 0;transition:height .3s,background .3s;min-height:2px}
+.hm-bar-label{font-size:.6rem;color:var(--text-dim);font-family:'Cinzel',serif}
+.hm-day-legend{margin-top:8px}
+.hm-grid-wrap{display:flex;gap:0;overflow-x:auto}
+.hm-grid-hours{display:flex;flex-direction:column;gap:2px;padding-top:22px;padding-right:6px}
+.hm-hour-label{font-size:.58rem;color:var(--text-dim);font-family:'Cinzel',serif;height:18px;display:flex;align-items:center;white-space:nowrap}
+.hm-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.hm-grid-day-header{font-family:'Cinzel',serif;font-size:.6rem;color:var(--gold-dim);text-align:center;padding-bottom:6px;letter-spacing:.08em}
+.hm-cell{width:100%;height:18px;border-radius:2px;cursor:default;transition:background .2s;position:relative}
+.hm-cell:hover::after{content:attr(data-tip);position:absolute;bottom:22px;left:50%;transform:translateX(-50%);background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);font-size:.7rem;padding:3px 8px;white-space:nowrap;z-index:10;pointer-events:none}
+.hm-week-legend{display:flex;align-items:center;gap:6px;margin-top:14px;flex-wrap:wrap}
+.hm-legend-swatch{display:inline-block;width:14px;height:14px;border-radius:2px;border:1px solid var(--border);vertical-align:middle}
 </style>
 </head>
 <body>
@@ -554,6 +576,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('changes')" id="nav-changes">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       Log de Mudanças
+    </button>
+    <button class="nav-item" onclick="navigate('heatmap')" id="nav-heatmap">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      🌡 Atividade Inimiga
     </button>
     <button class="nav-item" onclick="navigate('inactive')" id="nav-inactive" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg>
@@ -1156,6 +1182,52 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-heatmap">
+  <div class="cwrap">
+    <div class="page-title">🌡 Atividade Inimiga</div>
+    <div class="page-desc">Horários de maior atividade da guilda inimiga, baseado nas mortes registradas no histórico de guerra.</div>
+    <div class="page-divider"></div>
+    <div class="hm-tabs">
+      <button class="hm-tab active" id="hm-tab-day" onclick="hmSetTab('day',this)">Por Dia da Semana</button>
+      <button class="hm-tab" id="hm-tab-week" onclick="hmSetTab('week',this)">Grade Semanal</button>
+    </div>
+
+    <!-- Aba: Dia -->
+    <div id="hm-panel-day">
+      <div class="hm-day-selector">
+        <button class="hm-day-btn" data-day="0">Dom</button>
+        <button class="hm-day-btn" data-day="1">Seg</button>
+        <button class="hm-day-btn" data-day="2">Ter</button>
+        <button class="hm-day-btn" data-day="3">Qua</button>
+        <button class="hm-day-btn" data-day="4">Qui</button>
+        <button class="hm-day-btn" data-day="5">Sex</button>
+        <button class="hm-day-btn" data-day="6">Sáb</button>
+      </div>
+      <div class="hm-day-chart" id="hm-day-chart"></div>
+      <div class="hm-day-legend">
+        <span style="color:var(--text-dim);font-size:.8rem">Baseado em <span id="hm-day-total">0</span> morte(s) registradas neste dia da semana</span>
+      </div>
+    </div>
+
+    <!-- Aba: Semana -->
+    <div id="hm-panel-week" style="display:none">
+      <div class="hm-grid-wrap">
+        <div class="hm-grid-hours" id="hm-grid-hours"></div>
+        <div class="hm-grid" id="hm-grid"></div>
+      </div>
+      <div class="hm-week-legend">
+        <span style="color:var(--text-dim);font-size:.8rem">Cada célula = mortes naquele horário/dia · Cores: </span>
+        <span class="hm-legend-swatch" style="background:#1a1710"></span><span style="font-size:.75rem;color:var(--text-dim)">Nenhuma</span>
+        <span class="hm-legend-swatch" style="background:rgba(201,168,76,.35)"></span><span style="font-size:.75rem;color:var(--text-dim)">Baixa</span>
+        <span class="hm-legend-swatch" style="background:#e87830"></span><span style="font-size:.75rem;color:var(--text-dim)">Alta</span>
+        <span class="hm-legend-swatch" style="background:#c95050"></span><span style="font-size:.75rem;color:var(--text-dim)">Pico</span>
+      </div>
+    </div>
+
+    <footer>Atividade Inimiga · Baseado no histórico de guerra acumulado</footer>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1253,6 +1325,7 @@ function _navigate(page){
   if(page==='deaths_global') renderDeathsGlobal();
   if(page==='inactive') renderInactive();
   if(page==='announcements') loadAnnouncements();
+  if(page==='heatmap') hmInit();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -2075,6 +2148,7 @@ async function loadData(){
 
     // War
     warData=data.war||{};
+    window._hmAllDeaths = (data.war_history||{}).all_deaths || [];
     renderWar();
 
     // Enemy guild
@@ -3099,6 +3173,122 @@ function resetCostForReset(ri){
   var base=330000000;for(var t2=0;t2<tierIdx;t2++){var incT=40000000;for(var tt=0;tt<t2;tt++)incT*=2;base+=10*incT;}
   var posInTier=(ri-21)%10+1;return base+posInTier*inc;
 }
+
+// ─── MAPA DE CALOR DE ATIVIDADE INIMIGA ────────────────────────
+var hmDeaths = [];
+var hmSelectedDay = new Date().getDay(); // dia atual como default
+
+function hmCellColor(count, max) {
+  if (!count || max === 0) return '#1a1710';
+  var ratio = count / max;
+  if (ratio < 0.25) return 'rgba(201,168,76,0.2)';
+  if (ratio < 0.5)  return 'rgba(201,168,76,0.5)';
+  if (ratio < 0.75) return '#e87830';
+  return '#c95050';
+}
+
+function hmParseDeaths(allDeaths) {
+  // Parse "May 26, 2026 13:17" → {dayOfWeek, hour}
+  return allDeaths.map(function(d) {
+    try {
+      var dt = new Date(d.time);
+      return { dow: dt.getDay(), hour: dt.getHours(), raw: d.time };
+    } catch(e) { return null; }
+  }).filter(Boolean);
+}
+
+function hmSetTab(tab, btn) {
+  document.querySelectorAll('.hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+  document.getElementById('hm-panel-day').style.display  = tab === 'day'  ? '' : 'none';
+  document.getElementById('hm-panel-week').style.display = tab === 'week' ? '' : 'none';
+}
+
+function hmRenderDay(dow) {
+  hmSelectedDay = dow;
+  // Highlight selected day button
+  document.querySelectorAll('.hm-day-btn').forEach(function(b){
+    b.classList.toggle('active', parseInt(b.dataset.day) === dow);
+  });
+
+  var hours = Array(24).fill(0);
+  var filtered = hmDeaths.filter(function(d){ return d.dow === dow; });
+  filtered.forEach(function(d){ hours[d.hour]++; });
+
+  var max = Math.max.apply(null, hours) || 1;
+  var chart = document.getElementById('hm-day-chart');
+  var total = document.getElementById('hm-day-total');
+  if(total) total.textContent = filtered.length;
+
+  chart.innerHTML = hours.map(function(count, h) {
+    var heightPct = Math.max(4, Math.round((count / max) * 100));
+    var color = hmCellColor(count, max);
+    var label = h.toString().padStart(2,'0') + 'h';
+    return '<div class="hm-bar-wrap">'
+      + '<div class="hm-bar" style="height:' + heightPct + '%;background:' + color + '" title="' + label + ': ' + count + ' morte(s)"></div>'
+      + '<div class="hm-bar-label">' + (h % 3 === 0 ? label : '') + '</div>'
+      + '</div>';
+  }).join('');
+}
+
+function hmRenderWeek() {
+  var DAYS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+  // Count deaths per [dow][hour]
+  var matrix = Array.from({length: 24}, function(){ return Array(7).fill(0); });
+  hmDeaths.forEach(function(d){ matrix[d.hour][d.dow]++; });
+
+  var max = 0;
+  matrix.forEach(function(row){ row.forEach(function(v){ if(v>max) max=v; }); });
+
+  // Hours labels
+  var hoursEl = document.getElementById('hm-grid-hours');
+  if(hoursEl) {
+    hoursEl.innerHTML = '<div class="hm-hour-label" style="height:22px"></div>' +
+      Array.from({length:24}, function(_,h){
+        return '<div class="hm-hour-label">' + h.toString().padStart(2,'0') + 'h</div>';
+      }).join('');
+  }
+
+  // Grid
+  var grid = document.getElementById('hm-grid');
+  if(!grid) return;
+
+  // Day headers
+  var headers = DAYS.map(function(d){
+    return '<div class="hm-grid-day-header">' + d + '</div>';
+  }).join('');
+
+  // Cells row by row (hour), col by col (day)
+  var cells = '';
+  for(var h = 0; h < 24; h++) {
+    for(var d2 = 0; d2 < 7; d2++) {
+      var count = matrix[h][d2];
+      var color = hmCellColor(count, max);
+      var tip = DAYS[d2] + ' ' + h.toString().padStart(2,'0') + 'h: ' + count + ' morte(s)';
+      cells += '<div class="hm-cell" style="background:' + color + '" data-tip="' + tip + '"></div>';
+    }
+  }
+
+  grid.innerHTML = headers + cells;
+  grid.style.gridTemplateColumns = 'repeat(7,1fr)';
+}
+
+function hmInit() {
+  if(!warData || !warData.war_log) return;
+  // Use all_deaths from war_history via warData
+  var allDeaths = (window._hmAllDeaths || []);
+  hmDeaths = hmParseDeaths(allDeaths);
+
+  // Set active day button
+  document.querySelectorAll('.hm-day-btn').forEach(function(b){
+    b.addEventListener('click', function(){ hmRenderDay(parseInt(b.dataset.day)); });
+    if(parseInt(b.dataset.day) === hmSelectedDay) b.classList.add('active');
+  });
+
+  hmRenderDay(hmSelectedDay);
+  hmRenderWeek();
+}
+
 </script>
 </body>
 </html>
