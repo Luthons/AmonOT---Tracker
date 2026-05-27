@@ -973,6 +973,8 @@ footer span{color:var(--gold-dim)}
       <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#1d8fe8"></div>Expedição</div>
       <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#c9a84c"></div>VIP</div>
       <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#5dbf6e"></div>Task</div>
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#c95050"></div>Boss</div>
+      <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#e87830"></div>Hunt</div>
     </div>
 
     <div class="cal-header">
@@ -1008,7 +1010,7 @@ footer span{color:var(--gold-dim)}
     <p>Preencha os dados do evento. Ele aparecerá no calendário imediatamente após salvar.</p>
     <div class="field-row">
       <label class="field-label">Tipo</label>
-      <select class="field-input" id="ce-tipo">
+      <select class="field-input" id="ce-tipo" onchange="ceOnTipoChange()">
         <option value="quest">Quest</option>
         <option value="expedicao">Expedição</option>
         <option value="vip">Acesso VIP</option>
@@ -1038,6 +1040,11 @@ footer span{color:var(--gold-dim)}
     <div class="field-row">
       <label class="field-label">Vagas (0 = ilimitado)</label>
       <input class="field-input" type="number" id="ce-vagas" min="0" value="0">
+    </div>
+    <div class="field-row" id="ce-resets-row" style="display:none">
+      <label class="field-label">Resets necessários (opcional)</label>
+      <input class="field-input" type="number" id="ce-resets" min="0" value="" placeholder="Ex: 20" oninput="ceUpdateSharePreview()">
+      <div id="ce-share-preview" style="margin-top:6px;font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold-light);display:none"></div>
     </div>
     <button class="modal-btn" id="btn-submit-create-event">Criar Evento</button>
     <div id="ce-status" class="modal-status"></div>
@@ -2570,6 +2577,7 @@ function calSelectDay(dateStr){
         <span class="event-card-time">${ev.hora}</span>
       </div>
       ${ev.desc ? `<div class="event-card-desc">${ev.desc}</div>` : ''}
+      ${(ev.share && canCreateEvents() && (tipo==='boss'||tipo==='hunt')) ? `<div style="font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold-light);margin-bottom:10px;background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);padding:5px 10px;display:inline-block">⚔ Min: ${ev.share.min} | Max: ${ev.share.max}</div>` : ''}
       <div class="event-card-footer">
         <span class="event-joins"><strong>${vagasInfo}</strong>${ev.vagas > 0 ? ` · ${ev.vagas} vagas` : ''}</span>
         <button class="join-btn" onclick="openJoin('${ev.id}','${ev.nome.replace(/'/g,'')}')"
@@ -2681,8 +2689,10 @@ async function submitCreateEvent(){
   var data  = document.getElementById('ce-data').value;
   var hora  = document.getElementById('ce-hora').value;
   var desc  = document.getElementById('ce-desc').value.trim();
-  var vagas = parseInt(document.getElementById('ce-vagas').value)||0;
-  var status= document.getElementById('ce-status');
+  var vagas  = parseInt(document.getElementById('ce-vagas').value)||0;
+  var resets = parseInt(document.getElementById('ce-resets').value)||0;
+  var share  = (resets > 0 && (tipo==='boss'||tipo==='hunt')) ? calcShare(resets) : null;
+  var status = document.getElementById('ce-status');
 
   console.log('[createEvent] tipo:', tipo, 'nome:', nome, 'data:', data, 'hora:', hora);
 
@@ -2697,7 +2707,7 @@ async function submitCreateEvent(){
     console.log('[createEvent] iniciando fetch...');
     var r = await fetch(APPS_SCRIPT_URL,{
       method:'POST',
-      body: JSON.stringify({action:'create_event', tipo, nome, data, hora, descricao:desc, vagas}),
+      body: JSON.stringify({action:'create_event', tipo, nome, data, hora, descricao:desc, vagas, resets, share}),
     });
     console.log('[createEvent] fetch respondeu, status:', r.status);
     var d = await r.json();
@@ -2706,7 +2716,7 @@ async function submitCreateEvent(){
       status.textContent='✅ Evento criado!';
       status.className='modal-status ok';
       // Adiciona localmente
-      calEvents.push({id:String(d.id||Date.now()), tipo, nome, data, hora, desc, vagas});
+      calEvents.push({id:String(d.id||Date.now()), tipo, nome, data, hora, desc, vagas, resets, share});
       renderCalendar();
       setTimeout(()=>{closeModal('modal-create-event');document.getElementById('ce-nome').value='';},1200);
     } else {
@@ -3287,6 +3297,37 @@ function hmInit() {
 
   hmRenderDay(hmSelectedDay);
   hmRenderWeek();
+}
+
+
+// ─── BOSS/HUNT SHARE CALC ──────────────────────────────────────
+function calcShare(r) {
+  r = parseInt(r);
+  if (!r || r <= 0) return null;
+  var minShare = Math.max(0, Math.floor(r * 2 / 3) - (r % 3 === 0 ? 2 : 1));
+  var maxShare = Math.floor(r * 3 / 2) + 3;
+  return { min: minShare, max: maxShare };
+}
+
+function ceOnTipoChange() {
+  var tipo = document.getElementById('ce-tipo').value;
+  var resetsRow = document.getElementById('ce-resets-row');
+  var isBossHunt = (tipo === 'boss' || tipo === 'hunt');
+  var canSeeShare = canCreateEvents(); // veterano+
+  if (resetsRow) resetsRow.style.display = (isBossHunt && canSeeShare) ? '' : 'none';
+  ceUpdateSharePreview();
+}
+
+function ceUpdateSharePreview() {
+  var preview = document.getElementById('ce-share-preview');
+  var resetsEl = document.getElementById('ce-resets');
+  if (!preview || !resetsEl) return;
+  var val = resetsEl.value;
+  if (!val) { preview.style.display = 'none'; return; }
+  var share = calcShare(val);
+  if (!share) { preview.style.display = 'none'; return; }
+  preview.style.display = '';
+  preview.textContent = '⚔ Min: ' + share.min + ' | Max: ' + share.max;
 }
 
 </script>
