@@ -177,11 +177,23 @@ def compute_war_stats(all_kills: list, all_deaths: list, my_guild: str, enemy_gu
             days_deaths[day] = days_deaths.get(day, 0) + 1
         except: pass
 
+    # Dia atual (ainda em andamento) — não entra no streak
+    # O "dia atual" começa às 22h de Brasília
+    current_day_start = day_start()
+    current_day_key   = current_day_start.strftime("%Y-%m-%d")
+
     all_days = sorted(set(list(days_kills.keys()) + list(days_deaths.keys())), reverse=True)
     streak = 0
-    for day in all_days:
-        k = days_kills.get(day, 0)
-        d = days_deaths.get(day, 0)
+    for d_key in all_days:
+        # Ignora o dia atual (ainda não fechou)
+        if d_key == current_day_key:
+            continue
+        k = days_kills.get(d_key, 0)
+        d = days_deaths.get(d_key, 0)
+        # Ignora dias sem nenhuma atividade (não quebra nem conta)
+        if k == 0 and d == 0:
+            continue
+        # Dia com atividade: se LP ganhou, conta; senão, quebra
         if k > d:
             streak += 1
         else:
