@@ -1,15 +1,6 @@
 {
   "3": [
     {
-      "id": "Ethereal Ring|10,000,000|Max HP Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · S",
-      "name": "Ethereal Ring",
-      "meta": "Rings · 1x",
-      "price": "10,000,000",
-      "attrs": "Max HP Lv.1 (+0.50) · Protect Ice Lv.1 (+0.50) · Spell Damage Lv.1 (+0.50) · ",
-      "rarity": 3,
-      "first_seen": 1779841570
-    },
-    {
       "id": "Crown Armor|149,999|Crit Damage Lv.1 (+1.50) · Onslaught Lv.1 (+0.10) ",
       "name": "Crown Armor",
       "meta": "Armors · 1x",
@@ -343,15 +334,6 @@
       "first_seen": 1779761773
     },
     {
-      "id": "Shoulder Plate|2,000,000|Protect Earth Lv.1 (+0.50) · Execute Lv.1 (+0.25) ",
-      "name": "Shoulder Plate",
-      "meta": "Shield · 1x",
-      "price": "2,000,000",
-      "attrs": "Protect Earth Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Crit Chance Lv.1 (+0.35) · ",
-      "rarity": 3,
-      "first_seen": 1779759377
-    },
-    {
       "id": "Enchanted Pendulet|70,000,000|Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.5",
       "name": "Enchanted Pendulet",
       "meta": "Amulets and necklaces · 1x",
@@ -449,9 +431,36 @@
       "attrs": "Life Leech Lv.1 (+0.20) · Protect Death Lv.1 (+0.50) · Loot Lv.1 (+1.00) · ",
       "rarity": 3,
       "first_seen": 1779756119
+    },
+    {
+      "id": "Crude Umbral Mace|800,000|Armor Lv.1 (+1.00) · Protect All Lv.1 (+0.17) · Pr",
+      "name": "Crude Umbral Mace",
+      "meta": "Club · 1x",
+      "price": "800,000",
+      "attrs": "Armor Lv.1 (+1.00) · Protect All Lv.1 (+0.17) · Protect Holy Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779842771
+    },
+    {
+      "id": "Dark Armor|999,999|Protect Death Lv.1 (+0.50) · Execute Lv.1 (+0.25) ",
+      "name": "Dark Armor",
+      "meta": "Armors · 1x",
+      "price": "999,999",
+      "attrs": "Protect Death Lv.1 (+0.50) · Execute Lv.1 (+0.25) · Spell Damage Lv.1 (+0.50) · ",
+      "rarity": 3,
+      "first_seen": 1779842771
     }
   ],
   "4": [
+    {
+      "id": "Sleep Shawl|120,000,000|Mana Leech Lv.1 (+0.20) · Crit Damage Lv.1 (+1.50)",
+      "name": "Sleep Shawl",
+      "meta": "Amulets and necklaces · 1x",
+      "price": "120,000,000",
+      "attrs": "Mana Leech Lv.1 (+0.20) · Crit Damage Lv.1 (+1.50) · Frenzy Lv.1 (+0.25) · Defense Lv.1 (+2.00) · ",
+      "rarity": 4,
+      "first_seen": 1779842771
+    },
     {
       "id": "Mino Shield|9,000,000|Defense Lv.1 (+2.00) · MP Regen Lv.1 (+0.08) · Loo",
       "name": "Mino Shield",
@@ -890,15 +899,6 @@
       "meta": "Boots · 1x",
       "price": "500,000,000",
       "attrs": "Spell Healing Lv.1 (+0.50) · Crit Damage Lv.1 (+1.50) · Protect Fire Lv.1 (+0.50) · Exp Lv.1 (+1.00) · ",
-      "rarity": 4,
-      "first_seen": 1779831369
-    },
-    {
-      "id": "Firesoul Tabard|12,000,000|Spell Healing Lv.1 (+0.50) · Mana Leech Lv.1 (+0.2",
-      "name": "Firesoul Tabard",
-      "meta": "Armors · 1x",
-      "price": "12,000,000",
-      "attrs": "Spell Healing Lv.1 (+0.50) · Mana Leech Lv.1 (+0.20) · Exp Lv.1 (+1.00) · HP Regen Lv.1 (+0.08) · ",
       "rarity": 4,
       "first_seen": 1779831369
     }
