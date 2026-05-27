@@ -1,0 +1,51 @@
+name: Atualizar Dados Realtime
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  realtime:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Rodar scraper (sem fetch_chars)
+        env:
+          FETCH_CHARS: "false"
+        run: python main.py
+
+      - name: Rodar death tracker
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python death_tracker.py
+
+      - name: Rodar market tracker
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+        run: python market_tracker.py
+
+      - name: Salvar arquivos no repositório
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add guild_data.json market_snapshot.json death_snapshot.json
+          git diff --cached --quiet || git commit -m "chore: atualizar dados realtime [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase origin main
+          git push
