@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/05/2026 às 20:54 (Brasília)",
+  "updated_at": "27/05/2026 às 20:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -30,7 +30,7 @@
     },
     {
       "name": "Jotabringer",
-      "level": 962,
+      "level": 963,
       "resets": 42,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -137,7 +137,7 @@
     },
     {
       "name": "Wrathbringer",
-      "level": 1092,
+      "level": 1093,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Boingbringer",
-      "level": 1730,
+      "level": 1731,
       "resets": 27,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -296,7 +296,7 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 1456,
+      "level": 1457,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -985,7 +985,7 @@
     },
     {
       "name": "Heroes Baiak",
-      "level": 951,
+      "level": 977,
       "resets": 17,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1495,7 +1495,7 @@
     },
     {
       "name": "Lula",
-      "level": 1050,
+      "level": 1049,
       "resets": 39,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2094,7 +2094,7 @@
     },
     {
       "name": "Ritoff Elite",
-      "level": 929,
+      "level": 930,
       "resets": 26,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2725,7 +2725,781 @@
       ]
     }
   ],
-  "enemy_guilds": [],
+  "enemy_guilds": [
+    {
+      "name": "MentaliTY",
+      "total_members": 85,
+      "online_count": 56,
+      "offline_count": 29,
+      "members": [
+        {
+          "name": "Sauron Knight",
+          "level": 1608,
+          "resets": 31,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Maguinn Returns",
+          "level": 1181,
+          "resets": 37,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Punish Claude",
+          "level": 1317,
+          "resets": 35,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Aletropg Ed",
+          "level": 1293,
+          "resets": 22,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Banca",
+          "level": 1331,
+          "resets": 13,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Bellatrix Lestrange",
+          "level": 1173,
+          "resets": 10,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Bonox",
+          "level": 1056,
+          "resets": 26,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Calveludo",
+          "level": 951,
+          "resets": 13,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Carlos Star",
+          "level": 907,
+          "resets": 12,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
+          "level": 1164,
+          "resets": 37,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Crowley",
+          "level": 1284,
+          "resets": 18,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Cuffy Dido",
+          "level": 836,
+          "resets": 22,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Daann",
+          "level": 1178,
+          "resets": 20,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Darkzao Knight",
+          "level": 2000,
+          "resets": 62,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Deruz",
+          "level": 934,
+          "resets": 19,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Despair",
+          "level": 942,
+          "resets": 15,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Doczz",
+          "level": 828,
+          "resets": 21,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Druidao Damassa",
+          "level": 662,
+          "resets": 10,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Ehotk",
+          "level": 799,
+          "resets": 26,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Fazendeiro Ricaria",
+          "level": 1247,
+          "resets": 26,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Fpo",
+          "level": 1360,
+          "resets": 11,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Frozen Throne",
+          "level": 832,
+          "resets": 24,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Gakom",
+          "level": 1005,
+          "resets": 11,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Guizzera Overlord",
+          "level": 828,
+          "resets": 5,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Guns",
+          "level": 1063,
+          "resets": 2,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Highlander",
+          "level": 821,
+          "resets": 22,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Holyhet",
+          "level": 1021,
+          "resets": 14,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Imprudent Mage",
+          "level": 999,
+          "resets": 4,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Imprudent Monk",
+          "level": 1432,
+          "resets": 10,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Incrivel Monk",
+          "level": 1380,
+          "resets": 37,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Its Gui",
+          "level": 1034,
+          "resets": 15,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Joga Preda",
+          "level": 535,
+          "resets": 14,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Jovi Baiakera",
+          "level": 945,
+          "resets": 11,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Kawik",
+          "level": 1201,
+          "resets": 37,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Keelzera",
+          "level": 923,
+          "resets": 19,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "King Poring",
+          "level": 898,
+          "resets": 49,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Krajj",
+          "level": 972,
+          "resets": 26,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "kronosnk",
+          "level": 841,
+          "resets": 17,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Kudo",
+          "level": 941,
+          "resets": 16,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Leozin Rei Delas",
+          "level": 775,
+          "resets": 24,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Ljxiv",
+          "level": 845,
+          "resets": 13,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Loke",
+          "level": 1335,
+          "resets": 36,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Loks",
+          "level": 1114,
+          "resets": 10,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Lucasmonot",
+          "level": 819,
+          "resets": 2,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Maggty Vaqueiro",
+          "level": 1126,
+          "resets": 17,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Makita",
+          "level": 969,
+          "resets": 17,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Matola Punch On",
+          "level": 1455,
+          "resets": 4,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Mendes",
+          "level": 831,
+          "resets": 32,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Mr Donald Trump",
+          "level": 786,
+          "resets": 30,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "na yeon",
+          "level": 1055,
+          "resets": 10,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Nagato Paladin",
+          "level": 1121,
+          "resets": 13,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Necromancer",
+          "level": 1050,
+          "resets": 12,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Nidiozera",
+          "level": 1204,
+          "resets": 15,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Pablaodocapao",
+          "level": 883,
+          "resets": 8,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Pala De Sandalia",
+          "level": 990,
+          "resets": 1,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Pallysupremofoda",
+          "level": 313,
+          "resets": 13,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Parmegiana",
+          "level": 761,
+          "resets": 4,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Pelegolas",
+          "level": 726,
+          "resets": 14,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Peteleko",
+          "level": 975,
+          "resets": 15,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Potez",
+          "level": 911,
+          "resets": 19,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Qiiso Camisadez",
+          "level": 749,
+          "resets": 17,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Rafa Baguncinha",
+          "level": 1092,
+          "resets": 27,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Regent Thragg",
+          "level": 1004,
+          "resets": 4,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Rei Dfzera",
+          "level": 1026,
+          "resets": 8,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Roxupano",
+          "level": 837,
+          "resets": 6,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Ryxz",
+          "level": 1250,
+          "resets": 10,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Sauron Fubazord",
+          "level": 1926,
+          "resets": 50,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Sinixtro",
+          "level": 1003,
+          "resets": 13,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Spvitu Rusty",
+          "level": 1363,
+          "resets": 6,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Tadala De Cinco",
+          "level": 1004,
+          "resets": 16,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Tankmode",
+          "level": 848,
+          "resets": 11,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Thutz",
+          "level": 956,
+          "resets": 14,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Tomapedrada",
+          "level": 1213,
+          "resets": 22,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Tremqchia",
+          "level": 981,
+          "resets": 14,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Trickera",
+          "level": 893,
+          "resets": 17,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Tururu",
+          "level": 1607,
+          "resets": 31,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Uga Man",
+          "level": 1104,
+          "resets": 12,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Vegas",
+          "level": 167,
+          "resets": 9,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Vitordlpz",
+          "level": 704,
+          "resets": 18,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Void Pugilista",
+          "level": 1467,
+          "resets": 31,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Voltoks",
+          "level": 601,
+          "resets": 19,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Walace Owns",
+          "level": 922,
+          "resets": 20,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Wiill",
+          "level": 636,
+          "resets": 10,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Xddx",
+          "level": 973,
+          "resets": 14,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Ynhaca Purah",
+          "level": 630,
+          "resets": 35,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        }
+      ]
+    }
+  ],
   "resets_today": [
     {
       "name": "Gokuu",
@@ -3168,7 +3942,296 @@
       "online": true
     }
   ],
-  "enemy_resets_today": [],
+  "enemy_resets_today": [
+    {
+      "name": "Ehotk",
+      "resets_total": 26,
+      "resets_today": 11,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "King Poring",
+      "resets_total": 49,
+      "resets_today": 4,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Cuffy Dido",
+      "resets_total": 22,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Frozen Throne",
+      "resets_total": 24,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Leozin Rei Delas",
+      "resets_total": 24,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Loks",
+      "resets_total": 10,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Maguinn Returns",
+      "resets_total": 37,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Bonox",
+      "resets_total": 26,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Calveludo",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Deruz",
+      "resets_total": 19,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Despair",
+      "resets_total": 15,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Doczz",
+      "resets_total": 21,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Druidao Damassa",
+      "resets_total": 10,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Highlander",
+      "resets_total": 22,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Holyhet",
+      "resets_total": 14,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Joga Preda",
+      "resets_total": 14,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Kawik",
+      "resets_total": 37,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Keelzera",
+      "resets_total": 19,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Krajj",
+      "resets_total": 26,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "kronosnk",
+      "resets_total": 17,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Ljxiv",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Loke",
+      "resets_total": 36,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Makita",
+      "resets_total": 17,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Mendes",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Mr Donald Trump",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Pallysupremofoda",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Potez",
+      "resets_total": 19,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Roxupano",
+      "resets_total": 6,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Tadala De Cinco",
+      "resets_total": 16,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Vegas",
+      "resets_total": 9,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Vitordlpz",
+      "resets_total": 18,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Voltoks",
+      "resets_total": 19,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Walace Owns",
+      "resets_total": 20,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Wiill",
+      "resets_total": 10,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Xddx",
+      "resets_total": 14,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Ynhaca Purah",
+      "resets_total": 35,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    }
+  ],
   "highscores": {
     "resets": {
       "name": "Resets",
@@ -3638,7 +4701,7 @@
         },
         {
           "name": "Boingbringer",
-          "value": 1730,
+          "value": 1731,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3662,7 +4725,7 @@
         },
         {
           "name": "Brunao Rei Denovo",
-          "value": 1456,
+          "value": 1457,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3704,7 +4767,7 @@
         },
         {
           "name": "Wrathbringer",
-          "value": 1092,
+          "value": 1093,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3722,7 +4785,7 @@
         },
         {
           "name": "Lula",
-          "value": 1050,
+          "value": 1049,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3793,6 +4856,12 @@
           "online": true
         },
         {
+          "name": "Heroes Baiak",
+          "value": 977,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Judas",
           "value": 974,
           "vocation": "Royal Paladin",
@@ -3812,7 +4881,7 @@
         },
         {
           "name": "Jotabringer",
-          "value": 962,
+          "value": 963,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3835,12 +4904,6 @@
           "online": false
         },
         {
-          "name": "Heroes Baiak",
-          "value": 951,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Timeless",
           "value": 943,
           "vocation": "Royal Paladin",
@@ -3860,7 +4923,7 @@
         },
         {
           "name": "Ritoff Elite",
-          "value": 929,
+          "value": 930,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4138,9 +5201,9 @@
         },
         {
           "name": "Darkzao Knight",
-          "value": 7,
-          "kills_today": 1,
-          "kills_week": 7
+          "value": 8,
+          "kills_today": 2,
+          "kills_week": 8
         },
         {
           "name": "Aletropg Ed",
@@ -4184,17 +5247,17 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "27/05/2026 às 20:54 (Brasília)",
+    "updated_at": "27/05/2026 às 20:55 (Brasília)",
     "kills_total": 190,
-    "deaths_total": 108,
+    "deaths_total": 109,
     "kills_today": 10,
-    "deaths_today": 6,
+    "deaths_today": 7,
     "kills_week": 63,
-    "deaths_week": 29,
-    "kd_total": 1.76,
-    "kd_today": 1.67,
-    "kd_week": 2.17,
-    "streak_days": 6,
+    "deaths_week": 30,
+    "kd_total": 1.74,
+    "kd_today": 1.43,
+    "kd_week": 2.1,
+    "streak_days": 0,
     "top_my_killers": [
       {
         "name": "Wrathbringer",
@@ -4278,9 +5341,9 @@
       },
       {
         "name": "Darkzao Knight",
-        "kills": 7,
-        "kills_today": 1,
-        "kills_week": 7
+        "kills": 8,
+        "kills_today": 2,
+        "kills_week": 8
       },
       {
         "name": "Aletropg Ed",
@@ -4325,6 +5388,10 @@
         8
       ],
       [
+        "Lula",
+        6
+      ],
+      [
         "Hozuk",
         6
       ],
@@ -4339,10 +5406,6 @@
       [
         "Niju",
         6
-      ],
-      [
-        "Lula",
-        5
       ],
       [
         "End Zeus",
@@ -4404,6 +5467,16 @@
       ]
     ],
     "war_log": [
+      {
+        "time": "May 27, 2026 20:54",
+        "player": "Lula",
+        "level": 1050,
+        "killedBy": "Darkzao Knight",
+        "maiorDano": "Maguinn Returns",
+        "world": "Baiak",
+        "isPvp": true,
+        "type": "death"
+      },
       {
         "time": "May 27, 2026 20:50",
         "player": "Mr Donald Trump",
@@ -5388,16 +6461,6 @@
         "time": "May 20, 2026 10:50",
         "player": "Diegao Barba",
         "level": 686,
-        "killedBy": "Maguinn Returns",
-        "maiorDano": "",
-        "world": "Baiak",
-        "isPvp": true,
-        "type": "death"
-      },
-      {
-        "time": "May 20, 2026 10:43",
-        "player": "Magabela",
-        "level": 1046,
         "killedBy": "Maguinn Returns",
         "maiorDano": "",
         "world": "Baiak",
@@ -7121,6 +8184,15 @@
     ],
     "all_deaths": [
       {
+        "time": "May 27, 2026 20:54",
+        "player": "Lula",
+        "level": 1050,
+        "killedBy": "Darkzao Knight",
+        "maiorDano": "Maguinn Returns",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "May 27, 2026 20:47",
         "player": "Lukitas Brokenzada",
         "level": 790,
@@ -8096,6 +9168,15 @@
   },
   "deaths_global": [
     {
+      "time": "May 27, 2026 20:54",
+      "player": "Lula",
+      "level": 1050,
+      "killedBy": "Darkzao Knight",
+      "maiorDano": "Maguinn Returns",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "May 27, 2026 20:47",
       "player": "Lukitas Brokenzada",
       "level": 790,
@@ -8226,69 +9307,6 @@
       "player": "Ritoff Elite",
       "level": 1608,
       "killedBy": "Darkzao Knight",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 22:25",
-      "player": "Primobolan e Trembo",
-      "level": 1078,
-      "killedBy": "Jotabringer",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 22:24",
-      "player": "Primobolan e Trembo",
-      "level": 1080,
-      "killedBy": "Jotabringer",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 11:19",
-      "player": "End Zeus",
-      "level": 947,
-      "killedBy": "Darkzao Knight",
-      "maiorDano": "Maguinn Returns",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 11:18",
-      "player": "VukVuk",
-      "level": 1418,
-      "killedBy": "Darkzao Knight",
-      "maiorDano": "Maguinn Returns",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 11:16",
-      "player": "Baduff",
-      "level": 1005,
-      "killedBy": "Maguinn Returns",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 00:46",
-      "player": "Imperador",
-      "level": 471,
-      "killedBy": "Salles On Amonot",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "May 24, 2026 00:21",
-      "player": "Parkert",
-      "level": 781,
-      "killedBy": "Lula",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -23341,7 +24359,93 @@
       ]
     },
     "enemy_resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Sauron Knight": 31,
+        "Maguinn Returns": 37,
+        "Punish Claude": 35,
+        "Aletropg Ed": 22,
+        "Banca": 13,
+        "Bellatrix Lestrange": 10,
+        "Bonox": 26,
+        "Calveludo": 13,
+        "Carlos Star": 12,
+        "Cetoprofeno Intramuscular": 37,
+        "Crowley": 18,
+        "Cuffy Dido": 22,
+        "Daann": 20,
+        "Darkzao Knight": 62,
+        "Deruz": 19,
+        "Despair": 15,
+        "Doczz": 21,
+        "Druidao Damassa": 10,
+        "Ehotk": 26,
+        "Fazendeiro Ricaria": 26,
+        "Fpo": 11,
+        "Frozen Throne": 24,
+        "Gakom": 11,
+        "Guizzera Overlord": 5,
+        "Guns": 2,
+        "Highlander": 22,
+        "Holyhet": 14,
+        "Imprudent Mage": 4,
+        "Imprudent Monk": 10,
+        "Incrivel Monk": 37,
+        "Its Gui": 15,
+        "Joga Preda": 14,
+        "Jovi Baiakera": 11,
+        "Kawik": 37,
+        "Keelzera": 19,
+        "King Poring": 49,
+        "Krajj": 26,
+        "kronosnk": 17,
+        "Kudo": 16,
+        "Leozin Rei Delas": 24,
+        "Ljxiv": 13,
+        "Loke": 36,
+        "Loks": 10,
+        "Lucasmonot": 2,
+        "Maggty Vaqueiro": 17,
+        "Makita": 17,
+        "Matola Punch On": 4,
+        "Mendes": 32,
+        "Mr Donald Trump": 30,
+        "na yeon": 10,
+        "Nagato Paladin": 13,
+        "Necromancer": 12,
+        "Nidiozera": 15,
+        "Pablaodocapao": 8,
+        "Pala De Sandalia": 1,
+        "Pallysupremofoda": 13,
+        "Parmegiana": 4,
+        "Pelegolas": 14,
+        "Peteleko": 15,
+        "Potez": 19,
+        "Qiiso Camisadez": 17,
+        "Rafa Baguncinha": 27,
+        "Regent Thragg": 4,
+        "Rei Dfzera": 8,
+        "Roxupano": 6,
+        "Ryxz": 10,
+        "Sauron Fubazord": 50,
+        "Sinixtro": 13,
+        "Spvitu Rusty": 6,
+        "Tadala De Cinco": 16,
+        "Tankmode": 11,
+        "Thutz": 14,
+        "Tomapedrada": 22,
+        "Tremqchia": 14,
+        "Trickera": 17,
+        "Tururu": 31,
+        "Uga Man": 12,
+        "Vegas": 9,
+        "Vitordlpz": 18,
+        "Void Pugilista": 31,
+        "Voltoks": 19,
+        "Walace Owns": 20,
+        "Wiill": 10,
+        "Xddx": 14,
+        "Ynhaca Purah": 35
+      },
       "snapshots": {
         "2026-05-25-20": {
           "Sauron Knight": 31,
@@ -27362,7 +28466,93 @@
           "Xddx": 14,
           "Ynhaca Purah": 35
         },
-        "2026-05-27-20": {}
+        "2026-05-27-20": {
+          "Sauron Knight": 31,
+          "Maguinn Returns": 37,
+          "Punish Claude": 35,
+          "Aletropg Ed": 22,
+          "Banca": 13,
+          "Bellatrix Lestrange": 10,
+          "Bonox": 26,
+          "Calveludo": 13,
+          "Carlos Star": 12,
+          "Cetoprofeno Intramuscular": 37,
+          "Crowley": 18,
+          "Cuffy Dido": 22,
+          "Daann": 20,
+          "Darkzao Knight": 62,
+          "Deruz": 19,
+          "Despair": 15,
+          "Doczz": 21,
+          "Druidao Damassa": 10,
+          "Ehotk": 26,
+          "Fazendeiro Ricaria": 26,
+          "Fpo": 11,
+          "Frozen Throne": 24,
+          "Gakom": 11,
+          "Guizzera Overlord": 5,
+          "Guns": 2,
+          "Highlander": 22,
+          "Holyhet": 14,
+          "Imprudent Mage": 4,
+          "Imprudent Monk": 10,
+          "Incrivel Monk": 37,
+          "Its Gui": 15,
+          "Joga Preda": 14,
+          "Jovi Baiakera": 11,
+          "Kawik": 37,
+          "Keelzera": 19,
+          "King Poring": 49,
+          "Krajj": 26,
+          "kronosnk": 17,
+          "Kudo": 16,
+          "Leozin Rei Delas": 24,
+          "Ljxiv": 13,
+          "Loke": 36,
+          "Loks": 10,
+          "Lucasmonot": 2,
+          "Maggty Vaqueiro": 17,
+          "Makita": 17,
+          "Matola Punch On": 4,
+          "Mendes": 32,
+          "Mr Donald Trump": 30,
+          "na yeon": 10,
+          "Nagato Paladin": 13,
+          "Necromancer": 12,
+          "Nidiozera": 15,
+          "Pablaodocapao": 8,
+          "Pala De Sandalia": 1,
+          "Pallysupremofoda": 13,
+          "Parmegiana": 4,
+          "Pelegolas": 14,
+          "Peteleko": 15,
+          "Potez": 19,
+          "Qiiso Camisadez": 17,
+          "Rafa Baguncinha": 27,
+          "Regent Thragg": 4,
+          "Rei Dfzera": 8,
+          "Roxupano": 6,
+          "Ryxz": 10,
+          "Sauron Fubazord": 50,
+          "Sinixtro": 13,
+          "Spvitu Rusty": 6,
+          "Tadala De Cinco": 16,
+          "Tankmode": 11,
+          "Thutz": 14,
+          "Tomapedrada": 22,
+          "Tremqchia": 14,
+          "Trickera": 17,
+          "Tururu": 31,
+          "Uga Man": 12,
+          "Vegas": 9,
+          "Vitordlpz": 18,
+          "Void Pugilista": 31,
+          "Voltoks": 19,
+          "Walace Owns": 20,
+          "Wiill": 10,
+          "Xddx": 14,
+          "Ynhaca Purah": 35
+        }
       },
       "events": [
         {
@@ -28110,864 +29300,184 @@
       ]
     },
     "members": {
-      "last_member_list": [],
-      "changes_log": [
-        {
-          "name": "Frozen Throne",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Spvitu Rusty",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Guizzera Overlord",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sauron Knight",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Regent Thragg",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Incrivel Monk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Calveludo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Punish Claude",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Carlos Star",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "kronosnk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Despair",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Vegas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Uga Man",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Matola Punch On",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Fazendeiro Ricaria",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Qiiso Camisadez",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Aletropg Ed",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Krajj",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Mendes",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Cuffy Dido",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Voltoks",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Nagato Paladin",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tankmode",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Loks",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Walace Owns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Kawik",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Peteleko",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Rei Dfzera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Leozin Rei Delas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Necromancer",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Potez",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pala De Sandalia",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pallysupremofoda",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Crowley",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Guns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Imprudent Monk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Bonox",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tremqchia",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Xddx",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ljxiv",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Its Gui",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pablaodocapao",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Deruz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Nidiozera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Darkzao Knight",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Makita",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Trickera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Kudo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Maguinn Returns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Maggty Vaqueiro",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Joga Preda",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "King Poring",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Bellatrix Lestrange",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tadala De Cinco",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pelegolas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Vitordlpz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tomapedrada",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Lucasmonot",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Fpo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Wiill",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Loke",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ryxz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Banca",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Imprudent Mage",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Daann",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Druidao Damassa",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Doczz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sinixtro",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "na yeon",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Keelzera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Void Pugilista",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ynhaca Purah",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Jovi Baiakera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Highlander",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Mr Donald Trump",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Holyhet",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tururu",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Thutz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Parmegiana",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Rafa Baguncinha",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sauron Fubazord",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Gakom",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Roxupano",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        }
+      "last_member_list": [
+        "kronosnk",
+        "Pelegolas",
+        "Peteleko",
+        "Bonox",
+        "Fazendeiro Ricaria",
+        "Lucasmonot",
+        "Thutz",
+        "Incrivel Monk",
+        "Tadala De Cinco",
+        "Guns",
+        "Darkzao Knight",
+        "Daann",
+        "Tremqchia",
+        "Kudo",
+        "Nagato Paladin",
+        "Nidiozera",
+        "Ljxiv",
+        "Qiiso Camisadez",
+        "Tururu",
+        "Pallysupremofoda",
+        "Pablaodocapao",
+        "Ynhaca Purah",
+        "Void Pugilista",
+        "Sinixtro",
+        "Cuffy Dido",
+        "Gakom",
+        "Crowley",
+        "Rei Dfzera",
+        "Roxupano",
+        "Guizzera Overlord",
+        "Mr Donald Trump",
+        "Spvitu Rusty",
+        "Ryxz",
+        "Vegas",
+        "Krajj",
+        "Fpo",
+        "Imprudent Mage",
+        "Bellatrix Lestrange",
+        "Ehotk",
+        "King Poring",
+        "Pala De Sandalia",
+        "Calveludo",
+        "Druidao Damassa",
+        "Aletropg Ed",
+        "Doczz",
+        "Potez",
+        "Loke",
+        "Frozen Throne",
+        "Makita",
+        "Imprudent Monk",
+        "Loks",
+        "Wiill",
+        "Uga Man",
+        "Maggty Vaqueiro",
+        "Voltoks",
+        "Tomapedrada",
+        "Parmegiana",
+        "Necromancer",
+        "Walace Owns",
+        "Maguinn Returns",
+        "Highlander",
+        "Its Gui",
+        "Cetoprofeno Intramuscular",
+        "Regent Thragg",
+        "Holyhet",
+        "Tankmode",
+        "Kawik",
+        "Deruz",
+        "Matola Punch On",
+        "Banca",
+        "Keelzera",
+        "Joga Preda",
+        "Jovi Baiakera",
+        "Punish Claude",
+        "Sauron Knight",
+        "Carlos Star",
+        "Vitordlpz",
+        "Xddx",
+        "na yeon",
+        "Rafa Baguncinha",
+        "Trickera",
+        "Leozin Rei Delas",
+        "Despair",
+        "Sauron Fubazord",
+        "Mendes"
       ],
-      "recent_changes": [
-        {
-          "name": "Frozen Throne",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Spvitu Rusty",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Guizzera Overlord",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sauron Knight",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Regent Thragg",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Incrivel Monk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Calveludo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Punish Claude",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Carlos Star",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "kronosnk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Despair",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Vegas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Uga Man",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Matola Punch On",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Fazendeiro Ricaria",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Qiiso Camisadez",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Aletropg Ed",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Krajj",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Mendes",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Cuffy Dido",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Voltoks",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Nagato Paladin",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tankmode",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Loks",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Walace Owns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Kawik",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Peteleko",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Rei Dfzera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Leozin Rei Delas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Necromancer",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Potez",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pala De Sandalia",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pallysupremofoda",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Crowley",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Guns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Imprudent Monk",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Bonox",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tremqchia",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Xddx",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ljxiv",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Its Gui",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pablaodocapao",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Deruz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Nidiozera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Darkzao Knight",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Makita",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Trickera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Kudo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Maguinn Returns",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Maggty Vaqueiro",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Joga Preda",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "King Poring",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Bellatrix Lestrange",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tadala De Cinco",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Pelegolas",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Vitordlpz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tomapedrada",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Lucasmonot",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Fpo",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Wiill",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Loke",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ryxz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Banca",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Imprudent Mage",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Daann",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Druidao Damassa",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Doczz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sinixtro",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "na yeon",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Keelzera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Void Pugilista",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Ynhaca Purah",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Jovi Baiakera",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Highlander",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Mr Donald Trump",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Holyhet",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Tururu",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Thutz",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Parmegiana",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Rafa Baguncinha",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Sauron Fubazord",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Gakom",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        },
-        {
-          "name": "Roxupano",
-          "type": "left",
-          "timestamp": "27/05/2026 às 20:54 (Brasília)"
-        }
-      ]
+      "changes_log": [],
+      "recent_changes": []
     },
     "hunted": {
-      "last_enemy_list": [],
+      "last_enemy_list": [
+        "kronosnk",
+        "Pelegolas",
+        "Peteleko",
+        "Bonox",
+        "Fazendeiro Ricaria",
+        "Lucasmonot",
+        "Thutz",
+        "Incrivel Monk",
+        "Tadala De Cinco",
+        "Guns",
+        "Darkzao Knight",
+        "Daann",
+        "Tremqchia",
+        "Kudo",
+        "Nagato Paladin",
+        "Nidiozera",
+        "Ljxiv",
+        "Qiiso Camisadez",
+        "Tururu",
+        "Pallysupremofoda",
+        "Pablaodocapao",
+        "Ynhaca Purah",
+        "Void Pugilista",
+        "Sinixtro",
+        "Cuffy Dido",
+        "Gakom",
+        "Crowley",
+        "Rei Dfzera",
+        "Roxupano",
+        "Guizzera Overlord",
+        "Mr Donald Trump",
+        "Spvitu Rusty",
+        "Ryxz",
+        "Vegas",
+        "Krajj",
+        "Fpo",
+        "Imprudent Mage",
+        "Bellatrix Lestrange",
+        "Ehotk",
+        "King Poring",
+        "Pala De Sandalia",
+        "Calveludo",
+        "Druidao Damassa",
+        "Aletropg Ed",
+        "Doczz",
+        "Potez",
+        "Loke",
+        "Frozen Throne",
+        "Makita",
+        "Imprudent Monk",
+        "Loks",
+        "Wiill",
+        "Uga Man",
+        "Maggty Vaqueiro",
+        "Voltoks",
+        "Tomapedrada",
+        "Parmegiana",
+        "Necromancer",
+        "Walace Owns",
+        "Maguinn Returns",
+        "Highlander",
+        "Its Gui",
+        "Cetoprofeno Intramuscular",
+        "Regent Thragg",
+        "Holyhet",
+        "Tankmode",
+        "Kawik",
+        "Deruz",
+        "Matola Punch On",
+        "Banca",
+        "Keelzera",
+        "Joga Preda",
+        "Jovi Baiakera",
+        "Punish Claude",
+        "Sauron Knight",
+        "Carlos Star",
+        "Vitordlpz",
+        "Xddx",
+        "na yeon",
+        "Rafa Baguncinha",
+        "Trickera",
+        "Leozin Rei Delas",
+        "Despair",
+        "Sauron Fubazord",
+        "Mendes"
+      ],
       "hunted": {
         "Leogolas": {
           "name": "Leogolas",
@@ -29227,694 +29737,17 @@
     },
     "enemy_guild": {
       "guild": "MentaliTY",
-      "num_members": 0,
-      "total_current": 0,
-      "resets_today": 0,
+      "num_members": 85,
+      "total_current": 1562,
+      "resets_today": 53,
       "resets_week": 0,
       "resets_month": 0,
-      "resets_lifetime": 0,
-      "avg_per_player": 0
+      "resets_lifetime": 93,
+      "avg_per_player": 18.4
     }
   },
-  "recent_changes": [
-    {
-      "name": "Frozen Throne",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Spvitu Rusty",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Guizzera Overlord",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Sauron Knight",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Regent Thragg",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Incrivel Monk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Calveludo",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Punish Claude",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Carlos Star",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "kronosnk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Despair",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Vegas",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Uga Man",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Matola Punch On",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Fazendeiro Ricaria",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Qiiso Camisadez",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Aletropg Ed",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Krajj",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Mendes",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Voltoks",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Nagato Paladin",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tankmode",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Loks",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Walace Owns",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Kawik",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Peteleko",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Rei Dfzera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Leozin Rei Delas",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Necromancer",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Potez",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pala De Sandalia",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pallysupremofoda",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Crowley",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Guns",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Imprudent Monk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Bonox",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tremqchia",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Xddx",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ljxiv",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Its Gui",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pablaodocapao",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Nidiozera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Darkzao Knight",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Makita",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Trickera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Kudo",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Maguinn Returns",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Maggty Vaqueiro",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Joga Preda",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "King Poring",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Bellatrix Lestrange",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tadala De Cinco",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pelegolas",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Vitordlpz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tomapedrada",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Lucasmonot",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Fpo",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Wiill",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Loke",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ryxz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Banca",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Imprudent Mage",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Daann",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Druidao Damassa",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Doczz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Sinixtro",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "na yeon",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Keelzera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Void Pugilista",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ynhaca Purah",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Jovi Baiakera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Highlander",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Mr Donald Trump",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Holyhet",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tururu",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Thutz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Parmegiana",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Rafa Baguncinha",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Sauron Fubazord",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Gakom",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Roxupano",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    }
-  ],
-  "changes_log": [
-    {
-      "name": "Guns",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Imprudent Monk",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Bonox",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tremqchia",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Xddx",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ljxiv",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Its Gui",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pablaodocapao",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Nidiozera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Darkzao Knight",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Makita",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Trickera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Kudo",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Maguinn Returns",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Maggty Vaqueiro",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Joga Preda",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "King Poring",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Bellatrix Lestrange",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tadala De Cinco",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Pelegolas",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Vitordlpz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tomapedrada",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Lucasmonot",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Fpo",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Wiill",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Loke",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ryxz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Banca",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Imprudent Mage",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Daann",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Druidao Damassa",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Doczz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Sinixtro",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "na yeon",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Keelzera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Void Pugilista",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Ynhaca Purah",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Jovi Baiakera",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Highlander",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Mr Donald Trump",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Holyhet",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Tururu",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Thutz",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Parmegiana",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Rafa Baguncinha",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Sauron Fubazord",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Gakom",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    },
-    {
-      "name": "Roxupano",
-      "type": "left",
-      "timestamp": "27/05/2026 às 20:54 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
+  "changes_log": [],
   "hunted_list": [
     {
       "name": "Darkzao Knight",
@@ -30058,7 +29891,5 @@
       "source": "auto"
     }
   ],
-  "errors": [
-    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
-  ]
+  "errors": []
 }
