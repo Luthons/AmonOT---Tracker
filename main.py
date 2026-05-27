@@ -170,6 +170,13 @@ def run():
     print("\n── [4/7] Stats individuais ──")
     char_stats = []
 
+    # Permite override via variável de ambiente FETCH_CHARS=false (usado no workflow realtime)
+    env_fetch = os.environ.get("FETCH_CHARS", "").lower()
+    if env_fetch == "false":
+        cfg["fetch_chars"] = False
+    elif env_fetch == "true":
+        cfg["fetch_chars"] = True
+
     if cfg.get("fetch_chars") and my_members:
         try:
             char_stats = fetch_all_characters(my_members, delay=0.4)
