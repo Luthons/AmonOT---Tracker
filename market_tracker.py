@@ -11,8 +11,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Configuração ──────────────────────────────────────────────────────────────
-DISCORD_TOKEN   = os.environ.get("DISCORD_BOT_TOKEN", "")
-DISCORD_USER_ID = os.environ.get("DISCORD_USER_ID", "")
+DISCORD_TOKEN    = os.environ.get("DISCORD_BOT_TOKEN", "")
+DISCORD_USER_IDS = [uid.strip() for uid in os.environ.get("DISCORD_USER_ID", "").split(",") if uid.strip()]
 SUPABASE_URL    = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY    = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
@@ -207,10 +207,8 @@ def run():
         return
 
     snapshot   = load_snapshot()
-    dm_channel = get_dm_channel(DISCORD_USER_ID)
-
-    if not dm_channel:
-        print("[market] ❌ não foi possível abrir DM")
+    if not DISCORD_USER_IDS:
+        print("[market] ⚠ nenhum DISCORD_USER_ID configurado")
         return
 
     now_ts = int(time.time())
@@ -228,8 +226,10 @@ def run():
             item["first_seen"] = now_ts
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
             embed = build_embed_new(item, rarity_info)
-            send_dm(dm_channel, embed)
-            time.sleep(0.5)
+            for uid in DISCORD_USER_IDS:
+                ch = get_dm_channel(uid)
+                if ch: send_dm(ch, embed)
+                time.sleep(0.3)
 
         # Itens removidos
         removed_items = [item for iid, item in prev_ids.items() if iid not in curr_ids]
@@ -238,8 +238,10 @@ def run():
             minutes    = max(1, (now_ts - first_seen) // 60)
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
             embed = build_embed_removed(item, rarity_info, minutes)
-            send_dm(dm_channel, embed)
-            time.sleep(0.5)
+            for uid in DISCORD_USER_IDS:
+                ch = get_dm_channel(uid)
+                if ch: send_dm(ch, embed)
+                time.sleep(0.3)
 
         # Preserva first_seen e salva imediatamente no Supabase
         for item in items:
