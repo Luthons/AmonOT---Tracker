@@ -42,13 +42,15 @@ def run():
             reset_map[name.lower()] = {"name": name, "resets": resets}
 
     # Também cruza com highscores se disponível
-    for h in guild_data.get("highscores", []):
-        name   = (h.get("name") or "").strip()
-        resets = h.get("resets", 0)
-        if name and name.lower() not in reset_map:
-            reset_map[name.lower()] = {"name": name, "resets": resets}
-        elif name and resets > 0:
-            reset_map[name.lower()]["resets"] = resets
+    highscores = guild_data.get("highscores", {})
+    if isinstance(highscores, dict):
+        for entry in highscores.get("resets", {}).get("entries", []):
+            name   = (entry.get("name") or "").strip()
+            resets = entry.get("value", 0)
+            if name and name.lower() not in reset_map:
+                reset_map[name.lower()] = {"name": name, "resets": resets}
+            elif name and resets > 0:
+                reset_map[name.lower()]["resets"] = resets
 
     if not reset_map:
         print("[sync_chars] nenhum membro encontrado no guild_data.json")
