@@ -1,7 +1,7 @@
 """
 market_tracker.py
 Monitora o market do AmonOT e envia DM no Discord quando novos itens aparecem.
-Roda junto com o scraper principal via GitHub Actions.
+Usa Supabase para persistir o snapshot — sem dependência do git.
 """
 
 import json
@@ -11,31 +11,77 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Configuração ──────────────────────────────────────────────────────────────
-DISCORD_TOKEN   = os.environ.get("DISCORD_BOT_TOKEN", "")   # GitHub Secret
-DISCORD_USER_ID = os.environ.get("DISCORD_USER_ID", "")     # GitHub Secret
+DISCORD_TOKEN   = os.environ.get("DISCORD_BOT_TOKEN", "")
+DISCORD_USER_ID = os.environ.get("DISCORD_USER_ID", "")
+SUPABASE_URL    = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY    = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 MARKET_URLS = [
-    {"rarity": 3, "label": "Epic",       "color": 0xB06FE8, "emoji": "🟣"},
-    {"rarity": 4, "label": "Legendary",  "color": 0xE8A030, "emoji": "🟠"},
-    {"rarity": 5, "label": "Mythical",   "color": 0xE84040, "emoji": "🔴"},
+    {"rarity": 3, "label": "Epic",      "color": 0xB06FE8, "emoji": "🟣"},
+    {"rarity": 4, "label": "Legendary", "color": 0xE8A030, "emoji": "🟠"},
+    {"rarity": 5, "label": "Mythical",  "color": 0xE84040, "emoji": "🔴"},
 ]
 
-BASE_URL     = "https://amonot.online/index.php?page=market&name=&sale=all&slot=&tier=&world=Baiak&rarity={rarity}"
-SNAPSHOT_PATH = "market_snapshot.json"
+BASE_URL = "https://amonot.online/index.php?page=market&name=&sale=all&slot=&tier=&world=Baiak&rarity={rarity}"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
+SUPA_HEADERS = {
+    "apikey":        SUPABASE_KEY,
+    "Authorization": f"Bearer {SUPABASE_KEY}",
+    "Content-Type":  "application/json",
+    "Prefer":        "resolution=merge-duplicates",
+}
+
+
+# ── Supabase Snapshot ─────────────────────────────────────────────────────────
+
+def load_snapshot() -> dict:
+    """Carrega snapshot do Supabase. Retorna dict {rarity_str: [items]}."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("[market] ⚠ Supabase não configurado, usando snapshot vazio")
+        return {}
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/market_snapshot",
+            headers=SUPA_HEADERS,
+            timeout=10,
+        )
+        if r.status_code != 200:
+            print(f"[market] erro ao carregar snapshot: {r.status_code}")
+            return {}
+        rows = r.json()
+        return {str(row["rarity"]): row["items"] for row in rows}
+    except Exception as e:
+        print(f"[market] erro ao carregar snapshot: {e}")
+        return {}
+
+
+def save_snapshot_rarity(rarity: int, items: list):
+    """Salva snapshot de uma raridade no Supabase (upsert)."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return
+    try:
+        r = requests.post(
+            f"{SUPABASE_URL}/rest/v1/market_snapshot",
+            headers={**SUPA_HEADERS, "Prefer": "resolution=merge-duplicates,return=minimal"},
+            json={"rarity": rarity, "items": items, "updated_at": __import__("datetime").datetime.utcnow().isoformat()},
+            timeout=10,
+        )
+        if r.status_code not in (200, 201, 204):
+            print(f"[market] erro ao salvar snapshot rarity {rarity}: {r.status_code} {r.text[:100]}")
+    except Exception as e:
+        print(f"[market] erro ao salvar snapshot: {e}")
+
 
 # ── Scraping ──────────────────────────────────────────────────────────────────
 
 def fetch_market(rarity: int) -> list:
-    """Busca itens do market para uma raridade específica."""
     url = BASE_URL.format(rarity=rarity)
     print(f"[market] buscando rarity {rarity}: {url}")
-
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         if r.status_code != 200:
@@ -57,72 +103,35 @@ def fetch_market(rarity: int) -> list:
         if not name_el:
             continue
 
-        # Remove filhos (como spans de raridade) e pega só o texto direto
         name = name_el.get_text(separator=" ", strip=True)
-        # Remove sufixos de raridade colados ao nome
         for rarity_label in ["Mythical", "Legendary", "Epic", "Rare", "Uncommon", "Common"]:
             if name.endswith(rarity_label):
                 name = name[:-len(rarity_label)].strip()
                 break
 
-        meta = meta_el.get_text(strip=True) if meta_el else ""
-
-        # Preço — usa só o mkt-total para evitar duplicação com mkt-unit
+        meta  = meta_el.get_text(strip=True) if meta_el else ""
         price = "?"
         if price_el:
             total_el = price_el.select_one(".mkt-total")
-            if total_el:
-                price = total_el.get_text(strip=True)
-            else:
-                price = price_el.get_text(strip=True)
+            price = total_el.get_text(strip=True) if total_el else price_el.get_text(strip=True)
 
-        # Extrai atributos do title ou do conteúdo
         attrs_text = ""
         if attrs_el:
             attrs_text = attrs_el.get("title", "") or attrs_el.get_text(" ", strip=True)
 
-        # Monta ID único para o item (nome + preço + attrs)
         item_id = f"{name}|{price}|{attrs_text[:50]}"
-
-        items.append({
-            "id":     item_id,
-            "name":   name,
-            "meta":   meta,
-            "price":  price,
-            "attrs":  attrs_text,
-            "rarity": rarity,
-        })
+        items.append({"id": item_id, "name": name, "meta": meta, "price": price, "attrs": attrs_text, "rarity": rarity})
 
     print(f"[market] {len(items)} itens encontrados (rarity {rarity})")
     return items
 
 
-# ── Snapshot ──────────────────────────────────────────────────────────────────
-
-def load_snapshot() -> dict:
-    try:
-        with open(SNAPSHOT_PATH, encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("[market] nenhum snapshot anterior, iniciando do zero")
-        return {}
-
-
-def save_snapshot(data: dict):
-    with open(SNAPSHOT_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-
 # ── Discord ───────────────────────────────────────────────────────────────────
 
 def get_dm_channel(user_id: str) -> str | None:
-    """Abre ou obtém o canal de DM com o usuário."""
     r = requests.post(
         "https://discord.com/api/v10/users/@me/channels",
-        headers={
-            "Authorization": f"Bot {DISCORD_TOKEN}",
-            "Content-Type": "application/json",
-        },
+        headers={"Authorization": f"Bot {DISCORD_TOKEN}", "Content-Type": "application/json"},
         json={"recipient_id": user_id},
         timeout=10,
     )
@@ -133,14 +142,10 @@ def get_dm_channel(user_id: str) -> str | None:
 
 
 def send_dm(channel_id: str, embed: dict):
-    """Envia uma mensagem embed no canal de DM com retry em rate limit."""
     for attempt in range(3):
         r = requests.post(
             f"https://discord.com/api/v10/channels/{channel_id}/messages",
-            headers={
-                "Authorization": f"Bot {DISCORD_TOKEN}",
-                "Content-Type": "application/json",
-            },
+            headers={"Authorization": f"Bot {DISCORD_TOKEN}", "Content-Type": "application/json"},
             json={"embeds": [embed]},
             timeout=10,
         )
@@ -157,8 +162,6 @@ def send_dm(channel_id: str, embed: dict):
 
 
 def build_embed_new(item: dict, rarity_info: dict) -> dict:
-    """Monta o embed de novo item."""
-    # Formata atributos
     attrs_lines = ""
     if item["attrs"]:
         attrs = [a.strip() for a in item["attrs"].replace("·", "\n").split("\n") if a.strip()]
@@ -176,23 +179,22 @@ def build_embed_new(item: dict, rarity_info: dict) -> dict:
             {"name": "📦 Item",  "value": item["name"],  "inline": True},
             {"name": "💰 Preço", "value": item["price"], "inline": True},
         ],
-        "footer": {"text": "AmonOT Market Tracker · Baiak"},
+        "footer":    {"text": "AmonOT Market Tracker · Baiak"},
         "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
     }
 
 
 def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
-    """Monta o embed de item removido."""
     return {
         "title":       f"❌ Item saiu do Market — {rarity_info['label']}",
         "description": f"**{item['name']}** não está mais disponível.",
         "color":       0x555555,
         "fields": [
-            {"name": "📦 Item",          "value": item["name"],  "inline": True},
-            {"name": "💰 Preço era",     "value": item["price"], "inline": True},
-            {"name": "⏱️ Ficou disponível", "value": f"~{minutes} minutos", "inline": True},
+            {"name": "📦 Item",              "value": item["name"],        "inline": True},
+            {"name": "💰 Preço era",         "value": item["price"],       "inline": True},
+            {"name": "⏱️ Ficou disponível",  "value": f"~{minutes} minutos", "inline": True},
         ],
-        "footer": {"text": "AmonOT Market Tracker · Baiak"},
+        "footer":    {"text": "AmonOT Market Tracker · Baiak"},
         "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
     }
 
@@ -204,14 +206,13 @@ def run():
         print("[market] ⚠ DISCORD_BOT_TOKEN ou DISCORD_USER_ID não configurados")
         return
 
-    snapshot = load_snapshot()
+    snapshot   = load_snapshot()
     dm_channel = get_dm_channel(DISCORD_USER_ID)
 
     if not dm_channel:
         print("[market] ❌ não foi possível abrir DM")
         return
 
-    new_snapshot = {}
     now_ts = int(time.time())
 
     for rarity_info in MARKET_URLS:
@@ -226,10 +227,9 @@ def run():
         for item in new_items:
             item["first_seen"] = now_ts
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
-            if dm_channel:
-                embed = build_embed_new(item, rarity_info)
-                send_dm(dm_channel, embed)
-                time.sleep(0.5)
+            embed = build_embed_new(item, rarity_info)
+            send_dm(dm_channel, embed)
+            time.sleep(0.5)
 
         # Itens removidos
         removed_items = [item for iid, item in prev_ids.items() if iid not in curr_ids]
@@ -237,23 +237,21 @@ def run():
             first_seen = item.get("first_seen", now_ts)
             minutes    = max(1, (now_ts - first_seen) // 60)
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
-            if dm_channel:
-                embed = build_embed_removed(item, rarity_info, minutes)
-                send_dm(dm_channel, embed)
-                time.sleep(0.5)
+            embed = build_embed_removed(item, rarity_info, minutes)
+            send_dm(dm_channel, embed)
+            time.sleep(0.5)
 
-        # Mantém first_seen dos itens que continuam
+        # Preserva first_seen e salva imediatamente no Supabase
         for item in items:
             if item["id"] in prev_ids:
                 item["first_seen"] = prev_ids[item["id"]].get("first_seen", now_ts)
             else:
                 item["first_seen"] = now_ts
 
-        new_snapshot[str(rarity)] = items
+        save_snapshot_rarity(rarity, items)
         print(f"[market] {label}: {len(new_items)} novos | {len(removed_items)} removidos")
 
-    save_snapshot(new_snapshot)
-    print("[market] ✅ snapshot salvo")
+    print("[market] ✅ concluído")
 
 
 if __name__ == "__main__":
