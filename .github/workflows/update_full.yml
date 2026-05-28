@@ -29,6 +29,12 @@ jobs:
           FETCH_CHARS: "true"
         run: python main.py
 
+      - name: Sincronizar resets dos personagens no Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python sync_characters.py
+
       - name: Salvar arquivos no repositório
         run: |
           git config user.name  "github-actions[bot]"
