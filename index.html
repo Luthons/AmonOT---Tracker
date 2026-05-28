@@ -3526,6 +3526,23 @@ function closeVoteBtn(btn){
   closeVote(vid);
 }
 
+async function deleteVote(voteId){
+  if(getRole() !== 'admin') return;
+  if(!confirm('Deletar esta votação permanentemente? Esta ação não pode ser desfeita.')) return;
+  try {
+    await supaFetch('vote_responses?vote_id=eq.'+voteId, null, 'DELETE');
+    await supaFetch('votes?id=eq.'+voteId, null, 'DELETE');
+    loadVotes();
+  } catch(e){
+    alert('Erro ao deletar: '+e.message);
+  }
+}
+
+function deleteVoteBtn(btn){
+  var vid = btn.dataset.vid;
+  deleteVote(vid);
+}
+
 async function loadVotes(){
   var cont = document.getElementById('votes-content');
   if(!cont) return;
@@ -3619,6 +3636,7 @@ async function loadVotes(){
       }
 
       var closeBtn = (!isClosed && canManageVotes()) ? '<button class="vote-btn close-btn" data-vid="'+v.id+'" onclick="closeVoteBtn(this)">Encerrar</button>' : '';
+      var deleteBtn = (getRole() === 'admin') ? '<button class="vote-btn close-btn" data-vid="'+v.id+'" onclick="deleteVoteBtn(this)" style="border-color:#888;color:var(--color-text-secondary,#888)">Deletar</button>' : '';
       var expStr = exp.toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'});
 
       return '<div class="vote-card'+(isClosed?' closed':'')+'">'
@@ -3629,7 +3647,7 @@ async function loadVotes(){
         +'<div class="vote-type-label">'+typeLabel+' · '+uniqueVoters+' participante'+(uniqueVoters!==1?'s':'')+'</div>'
         + optsHtml
         +'<div class="vote-meta">Encerra em: '+expStr+'</div>'
-        + (closeBtn ? '<div class="vote-actions">'+closeBtn+'</div>' : '')
+        + ((closeBtn||deleteBtn) ? '<div class="vote-actions">'+closeBtn+deleteBtn+'</div>' : '')
         +'</div>';
     }).join('');
 
