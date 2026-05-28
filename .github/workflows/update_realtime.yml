@@ -43,6 +43,13 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python market_tracker.py
 
+      - name: Rodar lembrete de eventos
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python event_reminder.py
+
       - name: Salvar arquivos no repositório
         run: |
           git config user.name  "github-actions[bot]"
