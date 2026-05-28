@@ -528,6 +528,14 @@ footer span{color:var(--gold-dim)}
 .vote-option-input input{accent-color:var(--gold-light);width:16px;height:16px;cursor:pointer}
 .vote-option-input label{font-size:.85rem;color:var(--text);cursor:pointer}
 .vote-empty{color:var(--text-dim);font-style:italic;padding:20px 0}
+
+/* ── ADMINISTRAÇÃO ───────────────────────────────────────────── */
+.admin-table{width:100%;border-collapse:collapse}
+.admin-table th{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:left;padding:8px 12px;border-bottom:1px solid var(--border);white-space:nowrap}
+.admin-table td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.04);font-size:.85rem;color:var(--text);vertical-align:middle}
+.admin-table tr:hover td{background:rgba(255,255,255,.02)}
+.admin-edit-btn{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--border-gold);background:transparent;color:var(--gold-dim);cursor:pointer;transition:all .2s}
+.admin-edit-btn:hover{background:rgba(201,168,76,.1);color:var(--gold-light)}
 </style>
 </head>
 <body>
@@ -559,6 +567,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('votes')" id="nav-votes" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
       Votações
+    </button>
+    <button class="nav-item" onclick="navigate('admin')" id="nav-admin" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Administração
     </button>
   </div>
 
@@ -1315,6 +1327,39 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-admin">
+  <div class="cwrap">
+    <div class="page-title">🛡 Administração</div>
+    <div class="page-desc">Gerencie os membros cadastrados no site — cargo e nome de exibição.</div>
+    <div class="page-divider"></div>
+    <div id="admin-search-wrap" style="margin-bottom:16px">
+      <input class="field-input" type="text" id="admin-search" placeholder="Buscar por nome ou personagem..." oninput="adminFilter()" style="max-width:360px">
+    </div>
+    <div id="admin-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Administração · Lowly People</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: EDITAR MEMBRO ══ -->
+<div class="modal-overlay hidden" id="modal-edit-member">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-edit-member')">✕</button>
+    <div class="modal-title">✏️ Editar Membro</div>
+    <input type="hidden" id="em-profile-id">
+    <input type="hidden" id="em-target-role">
+    <div class="field-row">
+      <label class="field-label">Nome de Exibição</label>
+      <input class="field-input" type="text" id="em-display-name">
+    </div>
+    <div class="field-row" id="em-role-row">
+      <label class="field-label">Cargo</label>
+      <select class="field-input" id="em-role"></select>
+    </div>
+    <button class="modal-btn" onclick="submitEditMember()">Salvar</button>
+    <div id="em-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1414,6 +1459,7 @@ function _navigate(page){
   if(page==='announcements') loadAnnouncements();
   if(page==='heatmap') hmInit();
   if(page==='votes') loadVotes();
+  if(page==='admin') loadAdminData();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -2859,6 +2905,8 @@ function updateAuthUI(){
     if(annNav) annNav.style.display = 'flex';
     var votesNav = document.getElementById('nav-votes');
     if(votesNav) votesNav.style.display = 'flex';
+    var adminNav = document.getElementById('nav-admin');
+    if(adminNav) adminNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var btnNewAnn = document.getElementById('btn-new-announcement');
     if(btnNewAnn) btnNewAnn.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'inline-block' : 'none';
   } else {
@@ -2872,6 +2920,8 @@ function updateAuthUI(){
     if(annNav) annNav.style.display = 'none';
     var votesNav = document.getElementById('nav-votes');
     if(votesNav) votesNav.style.display = 'none';
+    var adminNav = document.getElementById('nav-admin');
+    if(adminNav) adminNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
       _navigate('guild');
@@ -3619,6 +3669,176 @@ async function loadVotes(){
 
   } catch(e){
     cont.innerHTML = '<div style="color:var(--red)">Erro ao carregar votações: '+e.message+'</div>';
+  }
+}
+
+
+// ─── ADMINISTRAÇÃO ─────────────────────────────────────────────
+var adminProfiles = [];
+
+var ROLE_HIERARCHY = ['membro','veterano','vice','lider','admin'];
+
+function canManageMembers(){
+  return ['admin','lider','vice'].includes(getRole());
+}
+
+function canEditTarget(targetRole){
+  var myRole = getRole();
+  var myIdx  = ROLE_HIERARCHY.indexOf(myRole);
+  var tgtIdx = ROLE_HIERARCHY.indexOf(targetRole);
+  // Pode editar se cargo do alvo é inferior OU igual (mas igual só display_name)
+  return myIdx >= tgtIdx;
+}
+
+function canChangeRole(targetRole){
+  var myRole = getRole();
+  var myIdx  = ROLE_HIERARCHY.indexOf(myRole);
+  var tgtIdx = ROLE_HIERARCHY.indexOf(targetRole);
+  // Pode alterar cargo apenas se o alvo tem cargo INFERIOR
+  return myIdx > tgtIdx;
+}
+
+function getRoleOptions(targetRole){
+  var myRole = getRole();
+  var myIdx  = ROLE_HIERARCHY.indexOf(myRole);
+  // Pode promover até o próprio nível
+  return ROLE_HIERARCHY.filter(function(r){
+    return ROLE_HIERARCHY.indexOf(r) <= myIdx;
+  }).reverse();
+}
+
+var adminAllProfiles = [];
+
+async function loadAdminData(){
+  var cont = document.getElementById('admin-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  try {
+    var {data: profiles} = await supaFetch('profiles', {
+      select: 'id,display_name,role,google_id',
+      order:  'role.desc,display_name.asc',
+      limit:  '200',
+    });
+
+    // Busca personagens de cada perfil
+    var {data: chars} = await supaFetch('characters', {
+      select: 'profile_id,name',
+      limit:  '500',
+    });
+
+    var charMap = {};
+    (chars||[]).forEach(function(c){
+      if(!charMap[c.profile_id]) charMap[c.profile_id] = [];
+      charMap[c.profile_id].push(c.name);
+    });
+
+    adminAllProfiles = (profiles||[]).map(function(p){
+      return {...p, chars: (charMap[p.id]||[]).join(', ')};
+    });
+
+    adminRenderTable(adminAllProfiles);
+  } catch(e) {
+    cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
+}
+
+function adminFilter(){
+  var q = (document.getElementById('admin-search').value||'').toLowerCase();
+  if(!q){ adminRenderTable(adminAllProfiles); return; }
+  var filtered = adminAllProfiles.filter(function(p){
+    return (p.display_name||'').toLowerCase().includes(q) ||
+           (p.chars||'').toLowerCase().includes(q);
+  });
+  adminRenderTable(filtered);
+}
+
+function adminRenderTable(profiles){
+  var cont = document.getElementById('admin-content');
+  if(!cont) return;
+
+  if(!profiles.length){
+    cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhum membro encontrado.</div>';
+    return;
+  }
+
+  var rows = profiles.map(function(p){
+    var roleBadge = '<span class="auth-role-badge '+(p.role||'member')+'">'+(ROLE_LABELS[p.role]||'Membro')+'</span>';
+    var canEdit   = canEditTarget(p.role||'membro');
+    var editBtn   = canEdit
+      ? '<button class="admin-edit-btn" data-id="'+p.id+'" data-name="'+(p.display_name||'')+'" data-role="'+(p.role||'membro')+'" onclick="openEditMember(this)">Editar</button>'
+      : '<span style="color:var(--text-dim);font-size:.75rem">—</span>';
+
+    return '<tr>'
+      +'<td>'+(p.display_name||'—')+'</td>'
+      +'<td style="color:var(--text-dim);font-size:.8rem">'+(p.chars||'—')+'</td>'
+      +'<td>'+roleBadge+'</td>'
+      +'<td>'+editBtn+'</td>'
+      +'</tr>';
+  }).join('');
+
+  cont.innerHTML = '<table class="admin-table">'
+    +'<thead><tr><th>Nome</th><th>Personagens</th><th>Cargo</th><th></th></tr></thead>'
+    +'<tbody>'+rows+'</tbody>'
+    +'</table>';
+}
+
+function openEditMember(btn){
+  var id          = btn.dataset.id;
+  var displayName = btn.dataset.name;
+  var targetRole  = btn.dataset.role || 'membro';
+
+  document.getElementById('em-profile-id').value   = id;
+  document.getElementById('em-target-role').value  = targetRole;
+  document.getElementById('em-display-name').value = displayName;
+  document.getElementById('em-status').innerHTML   = '';
+
+  // Role select — só mostra se pode alterar cargo
+  var roleRow = document.getElementById('em-role-row');
+  var roleEl  = document.getElementById('em-role');
+
+  if(canChangeRole(targetRole)){
+    roleRow.style.display = '';
+    var options = getRoleOptions(targetRole);
+    roleEl.innerHTML = options.map(function(r){
+      return '<option value="'+r+'" '+(r===targetRole?'selected':'')+'>'+( ROLE_LABELS[r]||r)+'</option>';
+    }).join('');
+  } else {
+    roleRow.style.display = 'none';
+  }
+
+  showModal('modal-edit-member');
+}
+
+async function submitEditMember(){
+  var id          = document.getElementById('em-profile-id').value;
+  var displayName = document.getElementById('em-display-name').value.trim();
+  var targetRole  = document.getElementById('em-target-role').value;
+  var newRole     = document.getElementById('em-role').value;
+  var status      = document.getElementById('em-status');
+
+  if(!displayName){ status.innerHTML='<span style="color:var(--red)">Nome obrigatório.</span>'; return; }
+
+  status.innerHTML = '<span style="color:var(--text-dim)">Salvando...</span>';
+
+  var body = {display_name: displayName};
+  if(canChangeRole(targetRole) && newRole) body.role = newRole;
+
+  try {
+    await supaFetch('profiles?id=eq.'+id, null, 'PATCH', body);
+    status.innerHTML = '<span style="color:var(--online)">✅ Salvo!</span>';
+    // Atualiza local
+    var p = adminAllProfiles.find(function(x){ return x.id === id; });
+    if(p){
+      p.display_name = displayName;
+      if(body.role) p.role = body.role;
+    }
+    setTimeout(function(){
+      closeModal('modal-edit-member');
+      adminRenderTable(adminAllProfiles);
+    }, 1000);
+  } catch(e) {
+    status.innerHTML = '<span style="color:var(--red)">Erro: '+e.message+'</span>';
   }
 }
 
