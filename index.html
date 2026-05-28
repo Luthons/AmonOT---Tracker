@@ -2464,9 +2464,6 @@ function upUpdate(){
 upUpdate();
 
 // ─── CALENDÁRIO ────────────────────────────────────────
-var SHEETS_ID      = '1WMRVrB0JN2nGr8guQF2TjTfXta91s_ZjvzL2KBBJiTQ';
-var APPS_SCRIPT_URL= 'https://script.google.com/macros/s/AKfycbx-XxURYj7NT7sTfb0IrqIn24cHmCpxji_jDK6L9m6qzTV0QonfosogLfqSULkvgMC5wA/exec';
-
 var calEvents      = [];
 var calJoins       = {};
 var calYear        = new Date().getFullYear();
@@ -2487,67 +2484,30 @@ var MONTHS_PT = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','
 
 async function loadCalendarData(){
   try {
-    // Busca eventos do Google Sheets via API pública
-    var url = `https://docs.google.com/spreadsheets/d/${SHEETS_ID}/gviz/tq?tqx=out:json&sheet=eventos`;
-    var r   = await fetch(url);
-    var txt = await r.text();
-    // Remove o wrapper google.visualization.Query.setResponse(...)
-    var json = JSON.parse(txt.replace(/^[^(]+\(/, '').replace(/\);?\s*$/, ''));
-    var rows = json.table.rows || [];
-
-    calEvents = rows.map(function(row, i){
-      var c = row.c || [];
-      var id   = c[0]?.v !== null && c[0]?.v !== undefined ? String(c[0].v) : String(i+1);
-      var tipo = (c[1]?.v || '').toLowerCase().trim();
-      var nome = c[2]?.v || '';
-      var data = c[3]?.v || '';
-      var hora = c[4]?.f || c[4]?.v || '';
-      var desc = c[5]?.v || '';
-      var vagas= parseInt(c[6]?.v) || 0;
-
-      // Data vem como string "Date(2026,4,26)" — mês começa em 0
-      var dateStr = '';
-      var dataRaw = c[3]?.v || '';
-      if(typeof dataRaw === 'string' && dataRaw.includes('Date(')){
-        var match = dataRaw.match(/Date\((\d+),(\d+),(\d+)/);
-        if(match){
-          dateStr = `${match[1]}-${String(parseInt(match[2])+1).padStart(2,'0')}-${String(match[3]).padStart(2,'0')}`;
-        }
-      } else if(c[3]?.f){
-        dateStr = c[3].f; // usa o formato já pronto "2026-05-26"
-      } else {
-        dateStr = String(dataRaw);
-      }
-
-      // Hora vem como "Date(1899,11,30,22,0,0)" — usa o campo formatado .f
-      var horaRaw = c[4]?.f || '';
-      if(!horaRaw && c[4]?.v){
-        var hv = c[4].v;
-        if(typeof hv === 'string' && hv.includes('Date(')){
-          var hm = hv.match(/Date\(\d+,\d+,\d+,(\d+),(\d+)/);
-          if(hm) horaRaw = `${String(hm[1]).padStart(2,'0')}:${String(hm[2]).padStart(2,'0')}`;
-        }
-      }
-
-      return {id, tipo, nome, data: dateStr, hora: horaRaw, desc: String(desc||''), vagas};
-    }).filter(e => e.nome && e.data);
+    // Busca eventos do Supabase
+    var {data: events} = await supaFetch('calendar_events', {order: 'data.asc,hora.asc', limit: '200'});
+    calEvents = (events||[]).map(function(e){
+      return {
+        id:      e.id,
+        tipo:    (e.tipo||'').toLowerCase().trim(),
+        nome:    e.nome||'',
+        data:    e.data||'',
+        hora:    (e.hora||'').substring(0,5),
+        desc:    e.descricao||'',
+        vagas:   e.vagas||0,
+        resets:  e.resets||0,
+        share:   e.share||null,
+      };
+    }).filter(function(e){ return e.nome && e.data; });
 
     // Busca joins
-    var url2 = `https://docs.google.com/spreadsheets/d/${SHEETS_ID}/gviz/tq?tqx=out:json&sheet=joins`;
-    var r2   = await fetch(url2);
-    var txt2 = await r2.text();
-    var json2= JSON.parse(txt2.replace(/^[^(]+\(/, '').replace(/\);?\s*$/, ''));
-    var rows2= json2.table.rows || [];
-
+    var {data: joins} = await supaFetch('calendar_joins', {select: 'evento_id,player_name', limit: '1000'});
     calJoins = {};
-    rows2.forEach(function(row){
-      var c = row.c || [];
-      var evId    = String(c[0]?.v || '');
-      var player  = c[1]?.v || '';
-      if(!evId) return;
+    (joins||[]).forEach(function(j){
+      var evId = j.evento_id;
       if(!calJoins[evId]) calJoins[evId] = {count:0, players:[]};
       calJoins[evId].count++;
-      if(player) calJoins[evId].players.push(player);
+      if(j.player_name) calJoins[evId].players.push(j.player_name);
     });
 
     renderCalendar();
@@ -2661,10 +2621,13 @@ function calSelectDay(dateStr){
       ${(ev.share && canCreateEvents() && (tipo==='boss'||tipo==='hunt')) ? `<div style="font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold-light);margin-bottom:10px;background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);padding:5px 10px;display:inline-block">⚔ Min: ${ev.share.min} | Max: ${ev.share.max}</div>` : ''}
       <div class="event-card-footer">
         <span class="event-joins"><strong>${vagasInfo}</strong>${ev.vagas > 0 ? ` · ${ev.vagas} vagas` : ''}</span>
-        <button class="join-btn" onclick="openJoin('${ev.id}','${ev.nome.replace(/'/g,'')}')"
-          ${ev.vagas > 0 && joins >= ev.vagas ? 'disabled' : ''}>
-          ${ev.vagas > 0 && joins >= ev.vagas ? 'Vagas esgotadas' : 'Confirmar Presença'}
-        </button>
+        <div style="display:flex;gap:6px;align-items:center">
+          ${canCreateEvents() ? `<button class="join-btn" style="border-color:var(--red);color:var(--red);background:rgba(201,80,80,.06)" onclick="deleteCalEvent('${ev.id}')">Deletar</button>` : ''}
+          <button class="join-btn" onclick="openJoin('${ev.id}','${ev.nome.replace(/'/g,'')}')"
+            ${ev.vagas > 0 && joins >= ev.vagas ? 'disabled' : ''}>
+            ${ev.vagas > 0 && joins >= ev.vagas ? 'Vagas esgotadas' : 'Confirmar Presença'}
+          </button>
+        </div>
       </div>
       ${playerList}
     </div>`;
@@ -2732,26 +2695,20 @@ async function submitJoin(){
   status.textContent='Confirmando...';status.className='modal-status ok';
 
   try {
-    var r = await fetch(APPS_SCRIPT_URL, {
-      method: 'POST',
-      body: JSON.stringify({action: 'join', evento_id: joinEventId, player_name: charName}),
+    await supaFetch('calendar_joins', null, 'POST', {
+      evento_id:   joinEventId,
+      player_name: charName,
+      profile_id:  currentProfile ? currentProfile.id : null,
     });
-    var data = await r.json();
-    if(data.ok){
-      // Atualiza contador local
-      if(!calJoins[joinEventId]) calJoins[joinEventId] = {count:0, players:[]};
-      calJoins[joinEventId].count++;
-      calJoins[joinEventId].players.push(charName);
-      status.textContent = '✅ Presença confirmada!';
-      status.className   = 'modal-status ok';
-      if(calSelectedDay) calSelectDay(calSelectedDay);
-      setTimeout(()=>closeModal('modal-join'), 1500);
-    } else {
-      status.textContent = 'Erro: ' + (data.error||'tente novamente');
-      status.className   = 'modal-status err';
-    }
+    if(!calJoins[joinEventId]) calJoins[joinEventId] = {count:0, players:[]};
+    calJoins[joinEventId].count++;
+    calJoins[joinEventId].players.push(charName);
+    status.textContent = '✅ Presença confirmada!';
+    status.className   = 'modal-status ok';
+    if(calSelectedDay) calSelectDay(calSelectedDay);
+    setTimeout(()=>closeModal('modal-join'), 1500);
   } catch(e) {
-    status.textContent = 'Erro de conexão.';
+    status.textContent = 'Erro: ' + e.message;
     status.className   = 'modal-status err';
   }
 }
@@ -2785,28 +2742,37 @@ async function submitCreateEvent(){
   status.textContent='Salvando...';status.className='modal-status ok';
 
   try{
-    console.log('[createEvent] iniciando fetch...');
-    var r = await fetch(APPS_SCRIPT_URL,{
-      method:'POST',
-      body: JSON.stringify({action:'create_event', tipo, nome, data, hora, descricao:desc, vagas, resets, share}),
+    var {data: d} = await supaFetch('calendar_events', null, 'POST', {
+      tipo, nome, data, hora,
+      descricao: desc,
+      vagas,
+      resets: resets||null,
+      share:  share||null,
+      created_by: currentProfile ? currentProfile.id : null,
     });
-    console.log('[createEvent] fetch respondeu, status:', r.status);
-    var d = await r.json();
-    console.log('[createEvent] resposta JSON:', d);
-    if(d.ok){
-      status.textContent='✅ Evento criado!';
-      status.className='modal-status ok';
-      // Adiciona localmente
-      calEvents.push({id:String(d.id||Date.now()), tipo, nome, data, hora, desc, vagas, resets, share});
-      renderCalendar();
-      setTimeout(()=>{closeModal('modal-create-event');document.getElementById('ce-nome').value='';},1200);
-    } else {
-      status.textContent='Erro: '+(d.error||'tente novamente');
-      status.className='modal-status err';
-    }
+    var newEvent = Array.isArray(d) ? d[0] : d;
+    status.textContent='✅ Evento criado!';
+    status.className='modal-status ok';
+    calEvents.push({id: newEvent.id, tipo, nome, data, hora, desc, vagas, resets, share});
+    renderCalendar();
+    setTimeout(()=>{closeModal('modal-create-event');document.getElementById('ce-nome').value='';},1200);
   }catch(e){
-    status.textContent='Erro de conexão.';
+    status.textContent='Erro: '+e.message;
     status.className='modal-status err';
+  }
+}
+
+async function deleteCalEvent(eventId){
+  if(!canCreateEvents()) return;
+  if(!confirm('Deletar este evento? Os joins também serão removidos.')) return;
+  try {
+    await supaFetch('calendar_events?id=eq.'+eventId, null, 'DELETE');
+    calEvents = calEvents.filter(function(e){ return e.id !== eventId; });
+    delete calJoins[eventId];
+    renderCalendar();
+    if(calSelectedDay) calSelectDay(calSelectedDay);
+  } catch(e) {
+    alert('Erro ao deletar evento: '+e.message);
   }
 }
 
