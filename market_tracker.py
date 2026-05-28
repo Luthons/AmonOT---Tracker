@@ -202,7 +202,7 @@ def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def run():
-    if not DISCORD_TOKEN or not DISCORD_USER_ID:
+    if not DISCORD_TOKEN or not DISCORD_USER_IDS:
         print("[market] ⚠ DISCORD_BOT_TOKEN ou DISCORD_USER_ID não configurados")
         return
 
