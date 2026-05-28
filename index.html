@@ -1128,9 +1128,15 @@ footer span{color:var(--gold-dim)}
         <label class="field-label">Seus resets (opcional)</label>
         <input class="field-input" type="number" id="ce-resets" min="0" value="" placeholder="Ex: 20" oninput="ceUpdateSharePreview()">
         <div id="ce-share-preview" style="margin-top:6px;font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold-light);display:none"></div>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem;margin-top:8px" id="ce-join-as-participant-wrap" style="display:none">
-          <input type="checkbox" id="ce-join-as-participant"> Criar como participante
-        </label>
+        <div id="ce-join-as-participant-wrap" style="display:none;margin-top:8px">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
+            <input type="checkbox" id="ce-join-as-participant" onchange="ceOnJoinAsParticipantChange()"> Criar como participante
+          </label>
+          <div id="ce-participant-char-row" style="display:none;margin-top:8px">
+            <label class="field-label">Personagem que vai participar</label>
+            <select class="field-input" id="ce-participant-char"></select>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -2966,19 +2972,20 @@ async function submitCreateEvent(){
 
     // Criar como participante
     if(joinAsP && currentProfile){
-      var myChars = (currentProfile.characters||[]);
-      var charName = myChars.length > 0 ? myChars[0].name : currentProfile.display_name;
-      await supaFetch('calendar_joins', null, 'POST', {
-        evento_id:   newEvent.id,
-        player_name: charName,
-        profile_id:  currentProfile.id,
-        resets:      resets,
-      });
-      if(!calJoins[newEvent.id]) calJoins[newEvent.id] = {count:0, players:[], resets:{}};
-      calJoins[newEvent.id].count++;
-      calJoins[newEvent.id].players.push(charName);
-      calJoins[newEvent.id].resets = calJoins[newEvent.id].resets || {};
-      calJoins[newEvent.id].resets[charName] = resets;
+      var charName = (document.getElementById('ce-participant-char')?.value || '').trim();
+      if(charName){
+        await supaFetch('calendar_joins', null, 'POST', {
+          evento_id:   newEvent.id,
+          player_name: charName,
+          profile_id:  currentProfile.id,
+          resets:      resets,
+        });
+        if(!calJoins[newEvent.id]) calJoins[newEvent.id] = {count:0, players:[], resets:{}};
+        calJoins[newEvent.id].count++;
+        calJoins[newEvent.id].players.push(charName);
+        calJoins[newEvent.id].resets = calJoins[newEvent.id].resets || {};
+        calJoins[newEvent.id].resets[charName] = resets;
+      }
     }
     renderCalendar();
     setTimeout(()=>{closeModal('modal-create-event');document.getElementById('ce-nome').value='';},1200);
@@ -3632,17 +3639,40 @@ function ceOnNoShareChange() {
 }
 
 function ceUpdateSharePreview() {
-  var preview = document.getElementById('ce-share-preview');
+  var preview  = document.getElementById('ce-share-preview');
   var resetsEl = document.getElementById('ce-resets');
   var joinWrap = document.getElementById('ce-join-as-participant-wrap');
   if (!preview || !resetsEl) return;
   var val = resetsEl.value;
-  if(joinWrap) joinWrap.style.display = val ? '' : 'none';
+  if(joinWrap) {
+    joinWrap.style.display = val ? '' : 'none';
+    if(!val) {
+      var charRow = document.getElementById('ce-participant-char-row');
+      var joinChk = document.getElementById('ce-join-as-participant');
+      if(charRow) charRow.style.display = 'none';
+      if(joinChk) joinChk.checked = false;
+    }
+  }
   if (!val) { preview.style.display = 'none'; return; }
   var share = calcShare(val);
   if (!share) { preview.style.display = 'none'; return; }
   preview.style.display = '';
   preview.textContent = '⚔ Min: ' + share.min + ' | Max: ' + share.max;
+}
+
+async function ceOnJoinAsParticipantChange() {
+  var checked = document.getElementById('ce-join-as-participant').checked;
+  var charRow = document.getElementById('ce-participant-char-row');
+  var charSel = document.getElementById('ce-participant-char');
+  if(!charRow || !charSel) return;
+  charRow.style.display = checked ? '' : 'none';
+  if(checked && currentProfile) {
+    var {data: chars} = await supaFetch('characters', {profile_id: 'eq.'+currentProfile.id});
+    charSel.innerHTML = (chars||[]).map(function(c){
+      return '<option value="'+c.name+'">'+c.name+' ('+c.resets+' resets)</option>';
+    }).join('');
+    if(!charSel.innerHTML) charSel.innerHTML = '<option value="">Nenhum personagem cadastrado</option>';
+  }
 }
 
 
