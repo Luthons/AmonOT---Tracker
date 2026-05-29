@@ -2302,7 +2302,7 @@ function renderChanges(){
 // ─── LOAD DATA ─────────────────────────────────────────
 async function loadData(){
   try{
-    var resp=await fetch('guild_data.json?_='+Date.now());
+    var resp=await fetch('https://raw.githubusercontent.com/Luthons/AmonOT---Tracker/main/guild_data.json?_='+Date.now());
     if(!resp.ok)throw new Error('HTTP '+resp.status);
     var data=await resp.json();
 
@@ -4087,6 +4087,5 @@ async function submitEditMember(){
 }
 
 </script>
-  <!-- test -->
 </body>
 </html>
