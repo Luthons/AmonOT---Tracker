@@ -17,9 +17,6 @@ jobs:
 
       - name: Push index.html para AmonOT-Frontend
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           # Clona o repositório de frontend
           git clone https://x-access-token:${{ secrets.FRONTEND_DEPLOY_TOKEN }}@github.com/Luthons/AmonOT-Frontend.git frontend_repo
 
@@ -28,6 +25,8 @@ jobs:
 
           # Commit e push
           cd frontend_repo
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html
           git diff --cached --quiet || git commit -m "deploy: atualizar index.html [${{ github.event.inputs.reason }}] [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
