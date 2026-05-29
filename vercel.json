@@ -2,5 +2,5 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "ignoreCommand": "git log -1 --pretty=%B | grep -q '\\[skip vercel\\]' && exit 0 || exit 1"
+  "ignoreCommand": "! git diff HEAD~1 --name-only | grep -q 'index.html'"
 }
