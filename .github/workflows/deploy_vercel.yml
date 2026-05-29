@@ -1,0 +1,19 @@
+name: Deploy no Vercel
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Motivo do deploy (opcional)'
+        required: false
+        default: 'Deploy manual'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disparar deploy no Vercel
+        run: |
+          echo "Iniciando deploy: ${{ github.event.inputs.reason }}"
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_QILaxpNGzjDLuUQRR2jKQHM8o7Sz/47NPwowmva"
+          echo "Deploy disparado com sucesso!"
