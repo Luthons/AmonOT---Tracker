@@ -1,49 +1,94 @@
 """
 death_tracker.py
 Detecta mortes novas dos membros da Lowly People e notifica no Discord.
-- Canal da guilda: todas as mortes PvP
-- DM do player: notifica o dono do personagem (se cadastrado no Supabase)
-Roda junto com o scraper via GitHub Actions.
+Usa Supabase para persistir o snapshot — sem dependência do git.
 """
 
 import json
 import os
 import time
 import requests
+from pywebpush import webpush, WebPushException
 
 # ── Configuração ──────────────────────────────────────────────────────────────
 DISCORD_TOKEN      = os.environ.get("DISCORD_BOT_TOKEN", "")
 DISCORD_CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "")
-DISCORD_USER_ID    = os.environ.get("DISCORD_USER_ID", "")
 SUPABASE_URL       = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY       = os.environ.get("SUPABASE_SERVICE_KEY", "")
-
-SNAPSHOT_PATH = "death_snapshot.json"
 
 HEADERS_DS = {
     "Authorization": f"Bot {DISCORD_TOKEN}",
     "Content-Type":  "application/json",
 }
 
+SUPA_HEADERS = {
+    "apikey":        SUPABASE_KEY,
+    "Authorization": f"Bearer {SUPABASE_KEY}",
+    "Content-Type":  "application/json",
+}
 
-# ── Snapshot ──────────────────────────────────────────────────────────────────
+VAPID_PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----
+MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgPiCH0W+G48FvoemQ
+4ljD94Oq6039qq/WoDO0yyr8rYuhRANCAAS9ElooYxOvtqR2GlV6yD2t0W6H+C0g
+89yKwzfmgRjS+VO+zpQUl3yuoOLfWhC8phukE2Oy64GL3lKQJ549WqhH
+-----END PRIVATE KEY-----"""
+
+VAPID_CLAIMS = {"sub": "mailto:lowlypeople@guild.gg"}
+
+
+# ── Supabase Snapshot ─────────────────────────────────────────────────────────
 
 def load_snapshot() -> set:
-    """Carrega o conjunto de chaves de mortes já notificadas."""
+    """Carrega IDs de mortes já notificadas do Supabase."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("[death_tracker] ⚠ Supabase não configurado, snapshot vazio")
+        return set()
     try:
-        with open(SNAPSHOT_PATH, encoding="utf-8") as f:
-            data = json.load(f)
-            return set(data.get("notified_keys", []))
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("[death_tracker] nenhum snapshot anterior, iniciando do zero")
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/death_snapshot",
+            headers=SUPA_HEADERS,
+            params={"select": "id", "limit": "2000", "order": "notified_at.desc"},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            print(f"[death_tracker] erro ao carregar snapshot: {r.status_code}")
+            return set()
+        return {row["id"] for row in r.json()}
+    except Exception as e:
+        print(f"[death_tracker] erro ao carregar snapshot: {e}")
         return set()
 
 
-def save_snapshot(keys: set):
-    # Mantém apenas as últimas 2000 chaves para não crescer infinitamente
-    keys_list = list(keys)[-2000:]
-    with open(SNAPSHOT_PATH, "w", encoding="utf-8") as f:
-        json.dump({"notified_keys": keys_list}, f, ensure_ascii=False)
+def save_to_snapshot(key: str):
+    """Salva um ID de morte no Supabase imediatamente após notificar."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return
+    try:
+        requests.post(
+            f"{SUPABASE_URL}/rest/v1/death_snapshot",
+            headers={**SUPA_HEADERS, "Prefer": "resolution=ignore-duplicates,return=minimal"},
+            json={"id": key},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"[death_tracker] erro ao salvar snapshot: {e}")
+
+
+def cleanup_snapshot():
+    """Remove entradas antigas (> 7 dias) para não crescer infinitamente."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return
+    try:
+        from datetime import datetime, timedelta
+        cutoff = (datetime.utcnow() - timedelta(days=7)).isoformat()
+        requests.delete(
+            f"{SUPABASE_URL}/rest/v1/death_snapshot",
+            headers=SUPA_HEADERS,
+            params={"notified_at": f"lt.{cutoff}"},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"[death_tracker] erro ao limpar snapshot: {e}")
 
 
 def event_key(death: dict) -> str:
@@ -53,7 +98,6 @@ def event_key(death: dict) -> str:
 # ── Discord ───────────────────────────────────────────────────────────────────
 
 def send_channel_message(embed: dict, mention_everyone: bool = False) -> bool:
-    """Envia mensagem embed no canal da guilda."""
     if not DISCORD_CHANNEL_ID:
         print("[death_tracker] DISCORD_CHANNEL_ID não configurado")
         return False
@@ -82,7 +126,6 @@ def send_channel_message(embed: dict, mention_everyone: bool = False) -> bool:
 
 
 def get_dm_channel(user_id: str) -> str | None:
-    """Abre ou obtém o canal de DM com o usuário."""
     r = requests.post(
         "https://discord.com/api/v10/users/@me/channels",
         headers=HEADERS_DS,
@@ -96,7 +139,6 @@ def get_dm_channel(user_id: str) -> str | None:
 
 
 def send_dm(user_id: str, embed: dict) -> bool:
-    """Envia DM para um usuário do Discord."""
     channel_id = get_dm_channel(user_id)
     if not channel_id:
         return False
@@ -119,29 +161,72 @@ def send_dm(user_id: str, embed: dict) -> bool:
     return False
 
 
+# ── Push Notifications ───────────────────────────────────────────────────────
+
+def get_push_subscriptions(profile_id: str) -> list:
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/push_subscriptions",
+            headers=SUPA_HEADERS,
+            params={"profile_id": f"eq.{profile_id}", "select": "subscription"},
+            timeout=10,
+        )
+        if r.status_code == 200:
+            return [row["subscription"] for row in r.json()]
+        return []
+    except Exception as e:
+        print(f"[death_tracker] erro ao buscar push subs: {e}")
+        return []
+
+
+def send_push_notification(subscription: dict, death: dict, is_enemy: bool) -> bool:
+    if not VAPID_PRIVATE_KEY:
+        return False
+    try:
+        import json as _json
+        payload = _json.dumps({
+            "title": "💀 Você foi morto!",
+            "body":  f"Morto por {death['killedBy']} às {death['time']}",
+            "tag":   f"death-{death['player']}-{death['time']}",
+            "url":   "https://amon-ot-tracker.vercel.app",
+            "icon":  "https://amon-ot-tracker.vercel.app/icon-192.png",
+        })
+        webpush(
+            subscription_info=subscription,
+            data=payload,
+            vapid_private_key=VAPID_PRIVATE_KEY,
+            vapid_claims=VAPID_CLAIMS,
+        )
+        return True
+    except WebPushException as e:
+        print(f"[death_tracker] push error: {e}")
+        return False
+    except Exception as e:
+        print(f"[death_tracker] push error: {e}")
+        return False
+
+
 # ── Embeds ────────────────────────────────────────────────────────────────────
 
 def build_embed(death: dict, is_enemy: bool) -> dict:
-    """Monta o embed de notificação de morte."""
-    color   = 0xC95050 if is_enemy else 0x5A5040
-    title   = "⚔️ Morte PvP — Inimigo" if is_enemy else "💀 Morte PvP"
+    color      = 0xC95050 if is_enemy else 0x5A5040
+    title      = "⚔️ Morte PvP — Inimigo" if is_enemy else "💀 Morte PvP"
     killer_url = f"https://amonot.online/characters?name={requests.utils.quote(death['killedBy'])}"
     player_url = f"https://amonot.online/characters?name={requests.utils.quote(death['player'])}"
 
     return {
-        "title":       title,
-        "color":       color,
+        "title": title,
+        "color": color,
         "fields": [
-            {"name": "Aliado",   "value": f"[{death['player']}]({player_url})",    "inline": True},
-            {"name": "Morto por","value": f"[{death['killedBy']}]({killer_url})",  "inline": True},
-            {"name": "Horário",  "value": death["time"],                            "inline": False},
+            {"name": "Aliado",    "value": f"[{death['player']}]({player_url})",   "inline": True},
+            {"name": "Morto por", "value": f"[{death['killedBy']}]({killer_url})", "inline": True},
+            {"name": "Horário",   "value": death["time"],                           "inline": False},
         ],
         "footer": {"text": "Lowly People · Death Tracker"},
     }
 
 
 def build_embed_dm(death: dict, is_enemy: bool) -> dict:
-    """Monta o embed de DM para o dono do personagem."""
     color      = 0xC95050 if is_enemy else 0x5A5040
     killer_url = f"https://amonot.online/characters?name={requests.utils.quote(death['killedBy'])}"
     alert      = "⚠️ Você foi morto por um **inimigo conhecido**!" if is_enemy else "Você foi morto em PvP."
@@ -160,17 +245,27 @@ def build_embed_dm(death: dict, is_enemy: bool) -> dict:
 
 # ── Supabase lookup ───────────────────────────────────────────────────────────
 
-def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str) -> tuple[str | None, bool]:
-    """Busca o Discord ID e preferência de DM do dono de um personagem no Supabase.
-    Retorna (discord_id, death_dm_enabled)."""
+def get_profile_id_for_char(char_name: str) -> str | None:
     try:
-        # Busca o personagem
         r = requests.get(
-            f"{supabase_url}/rest/v1/characters",
-            headers={
-                "apikey":        supabase_key,
-                "Authorization": f"Bearer {supabase_key}",
-            },
+            f"{SUPABASE_URL}/rest/v1/characters",
+            headers=SUPA_HEADERS,
+            params={"name": f"ilike.{char_name}", "select": "profile_id"},
+            timeout=10,
+        )
+        if r.status_code == 200 and r.json():
+            return r.json()[0].get("profile_id")
+        return None
+    except Exception as e:
+        print(f"[death_tracker] erro ao buscar profile_id: {e}")
+        return None
+
+
+def get_discord_id_for_char(char_name: str) -> tuple[str | None, bool]:
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/characters",
+            headers=SUPA_HEADERS,
             params={"name": f"ilike.{char_name}", "select": "profile_id"},
             timeout=10,
         )
@@ -179,20 +274,16 @@ def get_discord_id_for_char(char_name: str, supabase_url: str, supabase_key: str
 
         profile_id = r.json()[0]["profile_id"]
 
-        # Busca o perfil com discord_id e death_dm
         r2 = requests.get(
-            f"{supabase_url}/rest/v1/profiles",
-            headers={
-                "apikey":        supabase_key,
-                "Authorization": f"Bearer {supabase_key}",
-            },
+            f"{SUPABASE_URL}/rest/v1/profiles",
+            headers=SUPA_HEADERS,
             params={"id": f"eq.{profile_id}", "select": "discord_id,death_dm"},
             timeout=10,
         )
         if r2.status_code != 200 or not r2.json():
             return None, True
 
-        profile = r2.json()[0]
+        profile  = r2.json()[0]
         death_dm = profile.get("death_dm", True)
         if death_dm is None:
             death_dm = True
@@ -211,7 +302,6 @@ def run():
         print("[death_tracker] ⚠ DISCORD_BOT_TOKEN não configurado")
         return
 
-    # Carrega guild_data.json
     try:
         with open("guild_data.json", encoding="utf-8") as f:
             guild_data = json.load(f)
@@ -224,7 +314,6 @@ def run():
         print("[death_tracker] nenhuma morte global encontrada")
         return
 
-    # Monta set de inimigos
     enemy_set = set()
     for eg in guild_data.get("enemy_guilds", []):
         for m in eg.get("members", []):
@@ -241,17 +330,18 @@ def run():
         is_enemy = death["killedBy"].lower() in enemy_set
         embed    = build_embed(death, is_enemy)
 
-        # Envia no canal da guilda
         canal_ok = send_channel_message(embed, mention_everyone=True)
         if canal_ok:
             print(f"[death_tracker] ✅ canal: {death['player']} morto por {death['killedBy']}")
             new_count += 1
+            # Salva imediatamente no Supabase — antes de qualquer outro run
+            save_to_snapshot(key)
+            notified.add(key)
         else:
             print(f"[death_tracker] ❌ falha canal: {death['player']}")
 
-        # Tenta mandar DM para o dono do personagem
         if SUPABASE_URL and SUPABASE_KEY:
-            discord_id, death_dm_enabled = get_discord_id_for_char(death["player"], SUPABASE_URL, SUPABASE_KEY)
+            discord_id, death_dm_enabled = get_discord_id_for_char(death["player"])
             if discord_id and death_dm_enabled:
                 embed_dm = build_embed_dm(death, is_enemy)
                 if send_dm(discord_id, embed_dm):
@@ -263,10 +353,20 @@ def run():
             else:
                 print(f"[death_tracker] ℹ {death['player']} sem discord_id cadastrado")
 
-        notified.add(key)
-        time.sleep(0.5)  # evita rate limit
+            # Push notification
+            profile_id = get_profile_id_for_char(death["player"])
+            if profile_id:
+                subs = get_push_subscriptions(profile_id)
+                for sub in subs:
+                    if send_push_notification(sub, death, is_enemy):
+                        print(f"[death_tracker] ✅ Push: {death['player']}")
+                    else:
+                        print(f"[death_tracker] ❌ Push falhou: {death['player']}")
 
-    save_snapshot(notified)
+        time.sleep(0.5)
+
+    # Limpeza semanal de entradas antigas
+    cleanup_snapshot()
     print(f"[death_tracker] ✅ {new_count} novas mortes notificadas")
 
 
