@@ -1,0 +1,34 @@
+name: Deploy Frontend
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Motivo do deploy (opcional)'
+        required: false
+        default: 'Deploy manual'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositório principal
+        uses: actions/checkout@v4
+
+      - name: Push index.html para AmonOT-Frontend
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Clona o repositório de frontend
+          git clone https://x-access-token:${{ secrets.FRONTEND_DEPLOY_TOKEN }}@github.com/Luthons/AmonOT-Frontend.git frontend_repo
+
+          # Copia o index.html
+          cp index.html frontend_repo/index.html
+
+          # Commit e push
+          cd frontend_repo
+          git add index.html
+          git diff --cached --quiet || git commit -m "deploy: atualizar index.html [${{ github.event.inputs.reason }}] [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+          echo "✅ Deploy disparado com sucesso!"
