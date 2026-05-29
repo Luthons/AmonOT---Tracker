@@ -130,6 +130,32 @@ def get_dm_channel(user_id: str) -> str | None:
     return None
 
 
+def already_sent(evento_id: str, profile_id: str) -> bool:
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/event_reminders_sent",
+            headers=SUPA_HEADERS,
+            params={"evento_id": f"eq.{evento_id}", "profile_id": f"eq.{profile_id}", "select": "evento_id"},
+            timeout=10,
+        )
+        return r.status_code == 200 and len(r.json()) > 0
+    except Exception as e:
+        print(f"[reminder] erro ao checar reminder: {e}")
+        return False
+
+
+def mark_sent(evento_id: str, profile_id: str):
+    try:
+        requests.post(
+            f"{SUPABASE_URL}/rest/v1/event_reminders_sent",
+            headers={**SUPA_HEADERS, "Prefer": "resolution=ignore-duplicates,return=minimal"},
+            json={"evento_id": evento_id, "profile_id": profile_id},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"[reminder] erro ao marcar reminder: {e}")
+
+
 def send_dm(user_id: str, embed: dict) -> bool:
     channel_id = get_dm_channel(user_id)
     if not channel_id:
@@ -224,8 +250,16 @@ def run():
                 print(f"[reminder] ℹ {player_name} sem discord_id")
                 continue
 
+            # Verifica se já enviou lembrete para esse evento+perfil
+            pid = join.get("profile_id")
+            if pid and already_sent(event["id"], pid):
+                print(f"[reminder] ℹ já notificado: {player_name}")
+                continue
+
             if send_dm(discord_id, embed):
                 print(f"[reminder] ✅ DM enviada: {player_name}")
+                if pid:
+                    mark_sent(event["id"], pid)
             else:
                 print(f"[reminder] ❌ falha DM: {player_name}")
 
