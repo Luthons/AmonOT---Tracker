@@ -1,6 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "ignoreCommand": "! git diff HEAD~5 --name-only | grep -q 'index.html'"
+  ]
 }
