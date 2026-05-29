@@ -15,5 +15,5 @@ jobs:
       - name: Disparar deploy no Vercel
         run: |
           echo "Iniciando deploy: ${{ github.event.inputs.reason }}"
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_QILaxpNGzjDLuUQRR2jKQHM8o7Sz/47NPwowmva"
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_QILaxpNGzjDLuUQRR2jKQHM8o7Sz/x59AtyM8SW"
           echo "Deploy disparado com sucesso!"
