@@ -3328,13 +3328,23 @@ async function openProfile(){
       <input type="hidden" id="prof-char-resets-hidden">
     </div>
     <div class="field-row">
-      <label class="field-label">Notificações de Morte (DM)</label>
+      <label class="field-label">Notificações de Morte (DM Discord)</label>
       <div style="display:flex;align-items:center;gap:12px;padding:10px 0">
         <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
           <input type="checkbox" id="prof-death-dm" style="width:16px;height:16px;cursor:pointer" ${currentProfile.death_dm !== false ? 'checked' : ''}>
-          <span style="font-size:.9rem;color:var(--text-dim)">Receber DM quando meu personagem for morto em PvP</span>
+          <span style="font-size:.9rem;color:var(--text-dim)">Receber DM no Discord quando meu personagem for morto em PvP</span>
         </label>
       </div>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Notificações de Morte (Push Browser)</label>
+      <div style="display:flex;align-items:center;gap:12px;padding:10px 0">
+        <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+          <input type="checkbox" id="prof-push-notif" style="width:16px;height:16px;cursor:pointer" onchange="togglePushNotifications(this)">
+          <span style="font-size:.9rem;color:var(--text-dim)">Receber notificação no browser quando meu personagem for morto em PvP</span>
+        </label>
+      </div>
+      <div id="prof-push-status" style="font-size:.75rem;color:var(--text-dim);margin-top:4px"></div>
     </div>
     <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar</button>
     <div id="profile-status" class="modal-status"></div>
@@ -3343,6 +3353,14 @@ async function openProfile(){
   // Mostra botão de gerar convite só para admin
   var invSection = document.getElementById('modal-invite-section');
   invSection.style.display = canGenerateInvite() ? 'block' : 'none';
+
+  // Checa status do push notification
+  checkPushStatus().then(function(active){
+    var pushChk = document.getElementById('prof-push-notif');
+    var pushSt  = document.getElementById('prof-push-status');
+    if(pushChk) pushChk.checked = active;
+    if(pushSt)  pushSt.textContent = active ? '✅ Ativado neste dispositivo' : '';
+  });
 
   showModal('modal-profile');
 }
@@ -4083,6 +4101,104 @@ async function submitEditMember(){
     }, 1000);
   } catch(e) {
     status.innerHTML = '<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+
+// ─── PUSH NOTIFICATIONS ────────────────────────────────────────
+var VAPID_PUBLIC_KEY = 'BL0SWihjE6-2pHYaVXrIPa3Rbof4LSDz3IrDN-aBGNL5U77OlBSXfK6g4t9aELymG6QTY7LrgYveUpAnnj1aqEc';
+
+function urlBase64ToUint8Array(base64String) {
+  var padding = '='.repeat((4 - base64String.length % 4) % 4);
+  var base64  = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+  var raw     = window.atob(base64);
+  var output  = new Uint8Array(raw.length);
+  for(var i = 0; i < raw.length; ++i) output[i] = raw.charCodeAt(i);
+  return output;
+}
+
+async function registerPushNotifications() {
+  if(!('serviceWorker' in navigator) || !('PushManager' in window)) {
+    console.log('[push] não suportado neste browser');
+    return false;
+  }
+  if(!currentProfile) return false;
+
+  try {
+    // Registra o service worker
+    var reg = await navigator.serviceWorker.register('/sw.js');
+    await navigator.serviceWorker.ready;
+
+    // Verifica permissão
+    var permission = await Notification.requestPermission();
+    if(permission !== 'granted') {
+      console.log('[push] permissão negada');
+      return false;
+    }
+
+    // Cria subscription
+    var subscription = await reg.pushManager.subscribe({
+      userVisibleOnly:      true,
+      applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+    });
+
+    // Salva no Supabase
+    await supaFetch('push_subscriptions', null, 'POST', {
+      profile_id:   currentProfile.id,
+      subscription: subscription.toJSON(),
+    });
+
+    console.log('[push] subscription salva com sucesso');
+    return true;
+  } catch(e) {
+    console.error('[push] erro:', e);
+    return false;
+  }
+}
+
+async function unregisterPushNotifications() {
+  if(!('serviceWorker' in navigator)) return;
+  try {
+    var reg = await navigator.serviceWorker.getRegistration('/sw.js');
+    if(!reg) return;
+    var sub = await reg.pushManager.getSubscription();
+    if(sub) {
+      // Remove do Supabase
+      var endpoint = sub.endpoint;
+      await supaFetch('push_subscriptions?profile_id=eq.'+currentProfile.id, null, 'DELETE');
+      await sub.unsubscribe();
+    }
+    console.log('[push] notificações desativadas');
+  } catch(e) {
+    console.error('[push] erro ao desativar:', e);
+  }
+}
+
+async function checkPushStatus() {
+  if(!('serviceWorker' in navigator) || !('PushManager' in window)) return false;
+  try {
+    var reg = await navigator.serviceWorker.getRegistration('/sw.js');
+    if(!reg) return false;
+    var sub = await reg.pushManager.getSubscription();
+    return !!sub;
+  } catch(e) { return false; }
+}
+
+async function togglePushNotifications(checkbox) {
+  var statusEl = document.getElementById('prof-push-status');
+  if(checkbox.checked) {
+    if(statusEl) statusEl.textContent = 'Ativando...';
+    var ok = await registerPushNotifications();
+    if(ok) {
+      if(statusEl) statusEl.textContent = '✅ Notificações ativadas neste dispositivo';
+    } else {
+      checkbox.checked = false;
+      if(statusEl) statusEl.textContent = '❌ Não foi possível ativar. Verifique as permissões do browser.';
+    }
+  } else {
+    if(statusEl) statusEl.textContent = 'Desativando...';
+    await unregisterPushNotifications();
+    if(statusEl) statusEl.textContent = 'Notificações desativadas neste dispositivo';
   }
 }
 
