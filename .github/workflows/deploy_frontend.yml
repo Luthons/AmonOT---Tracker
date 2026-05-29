@@ -23,12 +23,13 @@ jobs:
           # Copia os arquivos do frontend
           cp index.html frontend_repo/index.html
           cp sw.js frontend_repo/sw.js
+          cp vercel.json frontend_repo/vercel.json
 
           # Commit e push
           cd frontend_repo
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html sw.js
+          git add index.html sw.js vercel.json
           git diff --cached --quiet || git commit -m "deploy: atualizar index.html [${{ github.event.inputs.reason }}] [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
           echo "✅ Deploy disparado com sucesso!"
