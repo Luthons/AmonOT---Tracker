@@ -5626,7 +5626,26 @@ function openCreateRaffleModal(requestId, itemName, rarity, attributes, suggestP
   document.getElementById('cr-item-name').value    = itemName||'';
   document.getElementById('cr-rarity').value       = rarity||'Epic';
   crOnRarityChange();
-  document.getElementById('cr-attributes').value   = attributes||'';
+  // Pre-fill attributes from request if provided
+  if(attributes){
+    setTimeout(function(){
+      // Parse "Attack Lv.2 (+2.00%) · Defense Lv.1 (+2)" format
+      var parts = attributes.split('·').map(function(p){ return p.trim(); }).filter(Boolean);
+      parts.forEach(function(part){
+        var m = part.match(/^(.+?)\s+Lv\.(\d+)/);
+        if(!m) return;
+        var attrName = m[1].trim();
+        var lv = parseInt(m[2]);
+        // Check the checkbox
+        var chkId = 'cr-chk-'+attrName.replace(/ /g,'-');
+        var chk = document.getElementById(chkId);
+        if(chk){ chk.checked=true; crSelectedAttrs[attrName]=lv; }
+      });
+      var maxLevel = RARITY_MAX_LEVEL[document.getElementById('cr-rarity').value]||12;
+      crBuildLevelSelectors(maxLevel);
+      crUpdatePreview();
+    }, 100);
+  }
   document.getElementById('cr-price').value        = suggestPrice||'';
   document.getElementById('cr-total').value        = suggestQty||'';
   document.getElementById('cr-max-per-player').value = '1';
