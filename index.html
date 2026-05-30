@@ -741,6 +741,10 @@ footer span{color:var(--gold-dim)}
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"/><path d="M13 19l2-2"/><path d="M16 13l2 2"/><path d="m6 6 4.5 4.5"/><path d="m10 10 4 4"/><path d="M21.5 21.5 18 18"/></svg>
       ⚔ War Tracker
     </button>
+    <button class="nav-item" onclick="navigate('kill_ranking')" id="nav-kill_ranking">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      Kill Ranking
+    </button>
     <button class="nav-item" onclick="navigate('deaths_global')" id="nav-deaths_global">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       Deaths Global
@@ -1655,6 +1659,34 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-kill_ranking">
+  <div class="cwrap">
+    <div class="page-title">⭐ Kill Ranking</div>
+    <div class="page-desc">Ranking de kills da Lowly People contra inimigos. Pontuação baseada na diferença de resets entre killer e vítima.</div>
+    <div class="page-divider"></div>
+
+    <div class="hm-tabs">
+      <button class="hm-tab active" id="kr-tab-all"     onclick="krSetTab('all',this)">Geral</button>
+      <button class="hm-tab"        id="kr-tab-month"   onclick="krSetTab('month',this)">Último Mês</button>
+      <button class="hm-tab"        id="kr-tab-week"    onclick="krSetTab('week',this)">Última Semana</button>
+      <button class="hm-tab"        id="kr-tab-day"     onclick="krSetTab('day',this)">Hoje</button>
+    </div>
+
+    <div id="kill-ranking-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+
+    <div class="page-divider" style="margin-top:28px"></div>
+    <div style="font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold-dim);letter-spacing:.08em;margin-bottom:14px">TABELA DE PONTUAÇÃO</div>
+    <div style="font-size:.8rem;color:var(--text-dim);line-height:1.8">
+      <div>• Vítima com menos de 30 resets → <strong style="color:var(--text)">1 ponto base</strong></div>
+      <div>• Vítima com 30+ resets → <strong style="color:var(--text)">(resets - 30) + 1 pontos base</strong></div>
+      <div>• Killer com menos de 30 resets → <strong style="color:var(--gold-light)">pontos dobrados</strong></div>
+      <div>• Maior dano (membro LP) → <strong style="color:var(--text)">2 pontos de participação</strong></div>
+    </div>
+
+    <footer>Kill Ranking · Atualizado a cada minuto</footer>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1756,6 +1788,7 @@ function _navigate(page){
   if(page==='votes') loadVotes();
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
+  if(page==='kill_ranking') loadKillRanking();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -4932,6 +4965,85 @@ async function loadMarketHistory() {
           +'</tr>';
       }).join('')
       +'</tbody></table>';
+  } catch(e) {
+    cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
+}
+
+
+// ─── KILL RANKING ──────────────────────────────────────────────
+var krCurrentTab = 'all';
+
+function krSetTab(tab, btn) {
+  document.querySelectorAll('#page-kill_ranking .hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+  krCurrentTab = tab;
+  loadKillRanking();
+}
+
+async function loadKillRanking() {
+  var cont = document.getElementById('kill-ranking-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  try {
+    var now     = new Date();
+    var params  = {select: 'killer,points,is_assist,kill_time,victim,killer_resets,victim_resets', limit: '2000'};
+
+    if(krCurrentTab === 'day'){
+      // Dia começa às 22h de ontem (horário Brasília = UTC-3)
+      var dayStart = new Date(now);
+      dayStart.setUTCHours(dayStart.getUTCHours() - (dayStart.getUTCHours() < 1 ? 27 : 3));
+      var h = new Date(dayStart);
+      h.setUTCHours(h.getUTCHours() - (h.getUTCHours() % 24 === 0 ? 2 : h.getUTCHours() % 24), 0, 0, 0);
+      // Simpler: use last 24h
+      var since = new Date(now.getTime() - 24*60*60*1000).toISOString();
+      params['kill_time'] = 'gte.'+since;
+    } else if(krCurrentTab === 'week'){
+      var since = new Date(now.getTime() - 7*24*60*60*1000).toISOString();
+      params['kill_time'] = 'gte.'+since;
+    } else if(krCurrentTab === 'month'){
+      var since = new Date(now.getTime() - 30*24*60*60*1000).toISOString();
+      params['kill_time'] = 'gte.'+since;
+    }
+
+    var {data: rows} = await supaFetch('kill_rankings', params);
+    if(!rows || !rows.length){
+      cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhuma kill registrada neste período.</div>';
+      return;
+    }
+
+    // Agrega por killer
+    var rankMap = {};
+    rows.forEach(function(row){
+      var key = row.killer;
+      if(!rankMap[key]) rankMap[key] = {killer: key, points: 0, kills: 0, assists: 0};
+      rankMap[key].points += row.points;
+      if(row.is_assist) rankMap[key].assists++;
+      else rankMap[key].kills++;
+    });
+
+    var ranked = Object.values(rankMap).sort(function(a,b){ return b.points - a.points; });
+
+    var html = '<table class="admin-table">'
+      +'<thead><tr><th>#</th><th>Player</th><th>Pontos</th><th>Kills</th><th>Assists</th></tr></thead>'
+      +'<tbody>';
+
+    ranked.forEach(function(r, i){
+      var medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : (i+1)+'.';
+      var highlight = i < 3 ? 'color:var(--gold-light)' : '';
+      html += '<tr>'
+        +'<td style="font-size:.8rem;'+highlight+'">'+medal+'</td>'
+        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+highlight+'">'+r.killer+'</td>'
+        +'<td style="font-size:.9rem;font-weight:600;color:var(--gold-light)">'+r.points+'</td>'
+        +'<td style="color:var(--red);font-size:.82rem">'+r.kills+'</td>'
+        +'<td style="color:var(--text-dim);font-size:.82rem">'+r.assists+'</td>'
+        +'</tr>';
+    });
+
+    html += '</tbody></table>';
+    cont.innerHTML = html;
+
   } catch(e) {
     cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
   }
