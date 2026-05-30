@@ -1555,6 +1555,14 @@ footer span{color:var(--gold-dim)}
     <div class="page-desc">Itens disponíveis no market agora, cruzados com a base de dados do Tibia.</div>
     <div class="page-divider"></div>
 
+    <!-- Abas -->
+    <div class="hm-tabs" style="margin-bottom:20px">
+      <button class="hm-tab active" id="mkt-tab-live" onclick="mktSetTab('live',this)">Disponíveis Agora</button>
+      <button class="hm-tab" id="mkt-tab-history" onclick="mktSetTab('history',this)">Histórico</button>
+    </div>
+
+    <!-- Painel: Disponíveis -->
+    <div id="mkt-panel-live">
     <!-- Filtros -->
     <div class="mkt-filters">
       <div class="mkt-filter-group">
@@ -1623,6 +1631,26 @@ footer span{color:var(--gold-dim)}
     </div>
 
     <div id="market-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    </div><!-- /mkt-panel-live -->
+
+    <!-- Painel: Histórico -->
+    <div id="mkt-panel-history" style="display:none">
+      <div style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center">
+        <div class="mkt-filter-btns">
+          <button class="mkt-filter-btn active" data-rarity="all" onclick="mktHistoryFilter(this,'rarity')">Todas</button>
+          <button class="mkt-filter-btn mythical" data-rarity="5" onclick="mktHistoryFilter(this,'rarity')">Mythical</button>
+          <button class="mkt-filter-btn legendary" data-rarity="4" onclick="mktHistoryFilter(this,'rarity')">Legendary</button>
+          <button class="mkt-filter-btn epic" data-rarity="3" onclick="mktHistoryFilter(this,'rarity')">Epic</button>
+        </div>
+        <div class="mkt-filter-btns">
+          <button class="mkt-filter-btn active" data-event="all" onclick="mktHistoryFilter(this,'event')">Todos</button>
+          <button class="mkt-filter-btn" data-event="entered" onclick="mktHistoryFilter(this,'event')" style="color:var(--online);border-color:rgba(93,191,110,.3)">Entradas</button>
+          <button class="mkt-filter-btn" data-event="left" onclick="mktHistoryFilter(this,'event')" style="color:var(--red);border-color:rgba(201,80,80,.3)">Saídas</button>
+        </div>
+      </div>
+      <div id="mkt-history-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    </div>
+
     <footer>Market · Atualizado a cada minuto</footer>
   </div>
 </div>
@@ -4841,6 +4869,72 @@ function updateDmSummary(){
   if(!dmConfig.categories.includes('all')) parts.push('Cat: '+dmConfig.categories.join(', '));
   if(dmConfig.attrs.length) parts.push('Attr: '+dmConfig.attrs.slice(0,3).join(', ')+(dmConfig.attrs.length>3?'...':''));
   el.textContent = parts.length ? '⚙ '+parts.join(' · ') : 'Recebendo DM de todos os itens';
+}
+
+
+// ─── MARKET HISTÓRICO ──────────────────────────────────────────
+var mktHistoryRarityFilter = 'all';
+var mktHistoryEventFilter  = 'all';
+
+function mktSetTab(tab, btn) {
+  document.querySelectorAll('.hm-tabs .hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+  document.getElementById('mkt-panel-live').style.display    = tab === 'live'    ? '' : 'none';
+  document.getElementById('mkt-panel-history').style.display = tab === 'history' ? '' : 'none';
+  if(tab === 'history') loadMarketHistory();
+}
+
+function mktHistoryFilter(btn, type) {
+  var parent = btn.parentElement;
+  parent.querySelectorAll('.mkt-filter-btn').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  if(type === 'rarity') mktHistoryRarityFilter = btn.dataset.rarity;
+  if(type === 'event')  mktHistoryEventFilter  = btn.dataset.event;
+  loadMarketHistory();
+}
+
+async function loadMarketHistory() {
+  var cont = document.getElementById('mkt-history-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  try {
+    var params = {order: 'created_at.desc', limit: '200'};
+    if(mktHistoryRarityFilter !== 'all') params.rarity = 'eq.'+mktHistoryRarityFilter;
+    if(mktHistoryEventFilter !== 'all')  params.event  = 'eq.'+mktHistoryEventFilter;
+
+    var {data: rows} = await supaFetch('market_history', params);
+    if(!rows || !rows.length){
+      cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhum registro encontrado.</div>';
+      return;
+    }
+
+    var RARITY_LABELS = {3:'Epic',4:'Legendary',5:'Mythical'};
+    var RARITY_CLASS  = {3:'epic',4:'legendary',5:'mythical'};
+
+    cont.innerHTML = '<table class="admin-table" style="min-width:600px">'
+      +'<thead><tr>'
+      +'<th>Item</th><th>Raridade</th><th>Preço</th><th>Evento</th><th>Duração</th><th>Data</th>'
+      +'</tr></thead><tbody>'
+      + rows.map(function(row){
+        var rarClass  = RARITY_CLASS[row.rarity]  || '';
+        var rarLabel  = RARITY_LABELS[row.rarity] || row.rarity;
+        var eventIcon = row.event === 'entered' ? '<span style="color:var(--online)">▲ Entrou</span>' : '<span style="color:var(--red)">▼ Saiu</span>';
+        var duration  = row.duration_minutes ? row.duration_minutes + ' min' : '—';
+        var date      = new Date(row.created_at).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo', day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+        return '<tr>'
+          +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+row.name+'</td>'
+          +'<td><span class="mkt-tag '+rarClass+'" style="font-size:.65rem">'+rarLabel+'</span></td>'
+          +'<td style="color:var(--gold-light)">'+( row.price||'—')+'</td>'
+          +'<td>'+eventIcon+'</td>'
+          +'<td style="color:var(--text-dim);font-size:.8rem">'+duration+'</td>'
+          +'<td style="color:var(--text-dim);font-size:.75rem">'+date+'</td>'
+          +'</tr>';
+      }).join('')
+      +'</tbody></table>';
+  } catch(e) {
+    cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
 }
 
 </script>
