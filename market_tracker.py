@@ -201,6 +201,80 @@ def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def get_item_vocations(item_name: str) -> list:
+    """Busca vocações do item no Supabase items_db."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return ['all']
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/items_db",
+            headers=SUPA_HEADERS,
+            params={"name": f"ilike.{item_name}", "select": "vocations", "limit": "1"},
+            timeout=10,
+        )
+        if r.status_code == 200 and r.json():
+            return r.json()[0].get("vocations", ["all"])
+        return ['all']
+    except Exception as e:
+        print(f"[market] erro ao buscar vocações: {e}")
+        return ['all']
+
+
+def get_profile_id_for_discord(discord_user_id: str) -> str | None:
+    """Busca profile_id pelo discord_id."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return None
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/profiles",
+            headers=SUPA_HEADERS,
+            params={"discord_id": f"eq.{discord_user_id}", "select": "id"},
+            timeout=10,
+        )
+        if r.status_code == 200 and r.json():
+            return r.json()[0].get("id")
+        return None
+    except Exception as e:
+        print(f"[market] erro ao buscar profile: {e}")
+        return None
+
+
+def get_user_market_prefs(profile_id: str) -> list:
+    """Busca preferências de DM de market do usuário."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return ['all']
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/notification_settings",
+            headers=SUPA_HEADERS,
+            params={"profile_id": f"eq.{profile_id}", "select": "market_dm_vocations"},
+            timeout=10,
+        )
+        if r.status_code == 200 and r.json():
+            return r.json()[0].get("market_dm_vocations") or ['all']
+        return ['all']
+    except Exception as e:
+        print(f"[market] erro ao buscar prefs: {e}")
+        return ['all']
+
+
+def should_notify_user(discord_user_id: str, item_name: str) -> bool:
+    """Verifica se o usuário deve receber DM para este item."""
+    profile_id = get_profile_id_for_discord(discord_user_id)
+    if not profile_id:
+        return True  # sem perfil cadastrado, envia sempre
+
+    user_prefs = get_user_market_prefs(profile_id)
+    if 'all' in user_prefs:
+        return True  # quer receber tudo
+
+    item_vocs = get_item_vocations(item_name)
+    if 'all' in item_vocs:
+        return True  # item é para todas as vocações
+
+    return bool(set(user_prefs) & set(item_vocs))
+
+
 def run():
     if not DISCORD_TOKEN or not DISCORD_USER_IDS:
         print("[market] ⚠ DISCORD_BOT_TOKEN ou DISCORD_USER_ID não configurados")
@@ -227,6 +301,9 @@ def run():
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
             embed = build_embed_new(item, rarity_info)
             for uid in DISCORD_USER_IDS:
+                if not should_notify_user(uid, item["name"]):
+                    print(f"[market] ℹ {uid} não quer notificação para {item['name']} (vocação)")
+                    continue
                 ch = get_dm_channel(uid)
                 if ch: send_dm(ch, embed)
                 time.sleep(0.3)
@@ -239,6 +316,8 @@ def run():
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
             embed = build_embed_removed(item, rarity_info, minutes)
             for uid in DISCORD_USER_IDS:
+                if not should_notify_user(uid, item["name"]):
+                    continue
                 ch = get_dm_channel(uid)
                 if ch: send_dm(ch, embed)
                 time.sleep(0.3)
