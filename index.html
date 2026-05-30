@@ -1871,6 +1871,21 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ MODAL: DEFINIR GANHADOR ══ -->
+<div class="modal-overlay hidden" id="modal-set-winner">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-set-winner')">✕</button>
+    <div class="modal-title">🏆 Definir Ganhador</div>
+    <input type="hidden" id="sw-raffle-id">
+    <div class="field-row">
+      <label class="field-label">Nome do ganhador (personagem)</label>
+      <input class="field-input" type="text" id="sw-winner" placeholder="Ex: Elder Luthons">
+    </div>
+    <button class="modal-btn" onclick="submitSetWinner()">Salvar</button>
+    <div id="sw-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -5412,7 +5427,10 @@ async function loadRaffles(){
         +'<div class="raffle-actions">'
         +(canBuy ? '<button class="vote-btn voted" data-rid="'+r.id+'" data-price="'+r.price_per_ticket+'" data-max="'+(r.max_per_player-myQty)+'" onclick="openBuyTicket(this)">🎟 Comprar Ticket</button>' : '')
         +(isStaff && r.status==='open' ? '<button class="vote-btn close-btn" data-rid="'+r.id+'" onclick="closeRaffleBtn(this)">Encerrar</button>' : '')
+        +(isStaff && r.status!=='open' && !r.winner ? '<button class="vote-btn" style="border-color:var(--online);color:var(--online)" data-rid="'+r.id+'" onclick="openSetWinnerModal(this)">🏆 Definir Ganhador</button>' : '')
+        +(isStaff && r.winner ? '<span style="font-size:.78rem;color:var(--online)">🏆 '+r.winner+'</span>' : '')
         +(isStaff ? '<button class="vote-btn" data-rid="'+r.id+'" data-name="'+r.item_name+'" onclick="openTicketControlModal(this)">📋 Controle</button>' : '')
+        +(isStaff ? '<button class="vote-btn close-btn" style="border-color:#666;color:#666" data-rid="'+r.id+'" onclick="deleteRaffleBtn(this)">🗑 Deletar</button>' : '')
         +'</div>'
         +'</div>';
     }).join('');
@@ -6005,6 +6023,40 @@ function crGetAttributesString(){
     var suffix = attr && attr.flat ? '' : '%';
     return attrName+' Lv.'+lv+' (+'+valStr+suffix+')';
   }).join(' · ');
+}
+
+
+// ─── RAFFLE EXTRA ACTIONS ──────────────────────────────────────
+async function deleteRaffleBtn(btn){
+  if(!confirm('Deletar esta rifa permanentemente? Todos os tickets também serão removidos.')) return;
+  var rid = btn.dataset.rid;
+  try {
+    await supaFetch('raffle_tickets?raffle_id=eq.'+rid, null, 'DELETE');
+    await supaFetch('raffles?id=eq.'+rid, null, 'DELETE');
+    loadRaffles();
+  } catch(e){ alert('Erro ao deletar: '+e.message); }
+}
+
+function openSetWinnerModal(btn){
+  var rid = btn.dataset.rid;
+  document.getElementById('sw-raffle-id').value = rid;
+  document.getElementById('sw-winner').value    = '';
+  document.getElementById('sw-status').innerHTML = '';
+  showModal('modal-set-winner');
+}
+
+async function submitSetWinner(){
+  var rid    = document.getElementById('sw-raffle-id').value;
+  var winner = document.getElementById('sw-winner').value.trim();
+  var status = document.getElementById('sw-status');
+  if(!winner){ status.innerHTML='<span style="color:var(--red)">Nome obrigatório.</span>'; return; }
+  try {
+    await supaFetch('raffles?id=eq.'+rid, null, 'PATCH', {winner: winner});
+    status.innerHTML='<span style="color:var(--online)">✅ Ganhador definido!</span>';
+    setTimeout(function(){ closeModal('modal-set-winner'); loadRaffles(); }, 1200);
+  } catch(e){
+    status.innerHTML='<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
 }
 
 </script>
