@@ -1672,6 +1672,7 @@ footer span{color:var(--gold-dim)}
       <button class="hm-tab"        id="kr-tab-day"     onclick="krSetTab('day',this)">Hoje</button>
     </div>
 
+    <div id="kr-filter-wrap"></div>
     <div id="kill-ranking-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
 
     <div class="page-divider" style="margin-top:28px"></div>
@@ -1788,7 +1789,7 @@ function _navigate(page){
   if(page==='votes') loadVotes();
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
-  if(page==='kill_ranking') loadKillRanking();
+  if(page==='kill_ranking'){ krRenderFilters(); loadKillRanking(); }
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -4972,13 +4973,72 @@ async function loadMarketHistory() {
 
 
 // ─── KILL RANKING ──────────────────────────────────────────────
-var krCurrentTab = 'all';
+var krCurrentTab   = 'all';
+var krSelectedMonth = null; // 'YYYY-MM'
+var krSelectedWeek  = null; // 'YYYY-WW' (year + week number, sunday-based)
 
 function krSetTab(tab, btn) {
   document.querySelectorAll('#page-kill_ranking .hm-tab').forEach(function(t){ t.classList.remove('active'); });
   btn.classList.add('active');
   krCurrentTab = tab;
+  krRenderFilters();
   loadKillRanking();
+}
+
+function krRenderFilters() {
+  var wrap = document.getElementById('kr-filter-wrap');
+  if(!wrap) return;
+
+  if(krCurrentTab === 'month') {
+    // Build last 12 months
+    var now = new Date();
+    var options = '';
+    for(var i = 1; i <= 12; i++) {
+      var d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      var val = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+      var label = d.toLocaleString('pt-BR', {month:'long', year:'numeric'});
+      var sel = (!krSelectedMonth && i===1) || krSelectedMonth===val ? 'selected' : '';
+      options += '<option value="'+val+'" '+sel+'>'+label+'</option>';
+    }
+    if(!krSelectedMonth) {
+      var d0 = new Date(now.getFullYear(), now.getMonth()-1, 1);
+      krSelectedMonth = d0.getFullYear()+'-'+String(d0.getMonth()+1).padStart(2,'0');
+    }
+    wrap.innerHTML = '<select class="field-input" style="max-width:220px;margin-bottom:16px" onchange="krSelectedMonth=this.value;loadKillRanking()">'+options+'</select>';
+
+  } else if(krCurrentTab === 'week') {
+    // Build last 12 weeks (sunday to saturday)
+    var now = new Date();
+    var options = '';
+    // Find last completed saturday
+    var day = now.getDay(); // 0=sun,6=sat
+    var lastSat = new Date(now);
+    lastSat.setDate(now.getDate() - ((day + 1) % 7) - 1 + (day === 6 ? 0 : 0));
+    // Actually: last saturday = today - ((day+1)%7) if day!=6, else today
+    var daysToLastSat = day === 6 ? 0 : day + 1;
+    lastSat = new Date(now.getTime() - daysToLastSat * 86400000);
+    lastSat.setHours(23,59,59,0);
+
+    for(var i = 0; i < 12; i++) {
+      var sat = new Date(lastSat.getTime() - i*7*86400000);
+      var sun = new Date(sat.getTime() - 6*86400000);
+      sat.setHours(23,59,59,0);
+      sun.setHours(0,0,0,0);
+      var val = sun.toISOString().slice(0,10)+'|'+sat.toISOString().slice(0,10);
+      var label = sun.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' – '+sat.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+      var sel = (!krSelectedWeek && i===0) || krSelectedWeek===val ? 'selected' : '';
+      options += '<option value="'+val+'" '+sel+'>'+label+'</option>';
+    }
+    if(!krSelectedWeek) {
+      var sat0 = new Date(lastSat);
+      var sun0 = new Date(sat0.getTime() - 6*86400000);
+      krSelectedWeek = sun0.toISOString().slice(0,10)+'|'+sat0.toISOString().slice(0,10);
+    }
+    wrap.innerHTML = '<select class="field-input" style="max-width:260px;margin-bottom:16px" onchange="krSelectedWeek=this.value;loadKillRanking()">'+options+'</select>';
+
+  } else {
+    wrap.innerHTML = '';
+  }
 }
 
 async function loadKillRanking() {
@@ -4987,24 +5047,35 @@ async function loadKillRanking() {
   cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
 
   try {
-    var now     = new Date();
-    var params  = {select: 'killer,points,is_assist,kill_time,victim,killer_resets,victim_resets', limit: '2000'};
+    var params = {select: 'killer,points,is_assist,kill_time', limit: '5000'};
+    var now    = new Date();
 
-    if(krCurrentTab === 'day'){
-      // Dia começa às 22h de ontem (horário Brasília = UTC-3)
-      var dayStart = new Date(now);
-      dayStart.setUTCHours(dayStart.getUTCHours() - (dayStart.getUTCHours() < 1 ? 27 : 3));
-      var h = new Date(dayStart);
-      h.setUTCHours(h.getUTCHours() - (h.getUTCHours() % 24 === 0 ? 2 : h.getUTCHours() % 24), 0, 0, 0);
-      // Simpler: use last 24h
-      var since = new Date(now.getTime() - 24*60*60*1000).toISOString();
-      params['kill_time'] = 'gte.'+since;
-    } else if(krCurrentTab === 'week'){
-      var since = new Date(now.getTime() - 7*24*60*60*1000).toISOString();
-      params['kill_time'] = 'gte.'+since;
-    } else if(krCurrentTab === 'month'){
-      var since = new Date(now.getTime() - 30*24*60*60*1000).toISOString();
-      params['kill_time'] = 'gte.'+since;
+    if(krCurrentTab === 'day') {
+      // Dia atual começa às 22h de ontem (Brasília = UTC-3)
+      var brtNow = new Date(now.getTime() - 3*60*60*1000);
+      var h = brtNow.getUTCHours();
+      var dayStartBrt = new Date(brtNow);
+      if(h < 22) dayStartBrt.setUTCDate(dayStartBrt.getUTCDate()-1);
+      dayStartBrt.setUTCHours(22,0,0,0);
+      var dayStartUTC = new Date(dayStartBrt.getTime() + 3*60*60*1000);
+      params['kill_time'] = 'gte.'+dayStartUTC.toISOString();
+
+    } else if(krCurrentTab === 'week' && krSelectedWeek) {
+      var parts = krSelectedWeek.split('|');
+      params['kill_time'] = 'gte.'+parts[0]+'T00:00:00-03:00';
+      params['kill_time_lte'] = parts[1]+'T23:59:59-03:00';
+      // Supabase needs separate params
+      delete params['kill_time_lte'];
+      params['kill_time'] = 'gte.'+new Date(parts[0]+'T03:00:00Z').toISOString();
+      params['and'] = '(kill_time.lte.'+new Date(parts[1]+'T02:59:59Z').toISOString()+')';
+
+    } else if(krCurrentTab === 'month' && krSelectedMonth) {
+      var y = parseInt(krSelectedMonth.split('-')[0]);
+      var m = parseInt(krSelectedMonth.split('-')[1]);
+      var start = new Date(Date.UTC(y, m-1, 1, 3, 0, 0)); // 00h Brasília = 03h UTC
+      var end   = new Date(Date.UTC(y, m,   1, 2, 59, 59));
+      params['kill_time'] = 'gte.'+start.toISOString();
+      params['and'] = '(kill_time.lte.'+end.toISOString()+')';
     }
 
     var {data: rows} = await supaFetch('kill_rankings', params);
@@ -5031,10 +5102,10 @@ async function loadKillRanking() {
 
     ranked.forEach(function(r, i){
       var medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : (i+1)+'.';
-      var highlight = i < 3 ? 'color:var(--gold-light)' : '';
+      var hl    = i < 3 ? 'color:var(--gold-light)' : '';
       html += '<tr>'
-        +'<td style="font-size:.8rem;'+highlight+'">'+medal+'</td>'
-        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+highlight+'">'+r.killer+'</td>'
+        +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
+        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'">'+r.killer+'</td>'
         +'<td style="font-size:.9rem;font-weight:600;color:var(--gold-light)">'+r.points+'</td>'
         +'<td style="color:var(--red);font-size:.82rem">'+r.kills+'</td>'
         +'<td style="color:var(--text-dim);font-size:.82rem">'+r.assists+'</td>'
