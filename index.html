@@ -645,6 +645,15 @@ footer span{color:var(--gold-dim)}
 .mkt-tag.voc-all{background:rgba(255,255,255,.04);color:var(--text-dim);border:1px solid var(--border)}
 .mkt-tag.cat{background:rgba(255,255,255,.04);color:var(--text-dim);border:1px solid var(--border)}
 .mkt-empty{color:var(--text-dim);font-style:italic;padding:20px 0;text-align:center}
+
+/* ── MARKET POPUP ─────────────────────────────────────────────── */
+.mkt-popup{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:400;display:flex;align-items:center;justify-content:center}
+.mkt-popup.hidden{display:none}
+.mkt-popup-box{background:var(--bg2);border:1px solid var(--border-gold);padding:20px 22px;max-width:500px;width:90vw;max-height:80vh;overflow-y:auto}
+.mkt-popup-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.mkt-attr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.mkt-attr-chk{display:flex;align-items:center;gap:7px;cursor:pointer;font-size:.8rem;color:var(--text)}
+.mkt-attr-chk input{accent-color:var(--gold-light);width:14px;height:14px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -1552,6 +1561,49 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn" data-value="sorcerer">Sorcerer</button>
           <button class="mkt-filter-btn" data-value="druid">Druid</button>
           <button class="mkt-filter-btn" data-value="monk">Monk</button>
+        </div>
+      </div>
+      <div class="mkt-filter-group">
+        <label class="field-label">Categoria</label>
+        <div class="mkt-filter-btns" id="mkt-cat-filter">
+          <button class="mkt-filter-btn active" data-value="all">Todas</button>
+          <button class="mkt-filter-btn" data-value="helmet">Capacete</button>
+          <button class="mkt-filter-btn" data-value="armor">Armadura</button>
+          <button class="mkt-filter-btn" data-value="legs">Calças</button>
+          <button class="mkt-filter-btn" data-value="boots">Botas</button>
+          <button class="mkt-filter-btn" data-value="shield">Escudo</button>
+          <button class="mkt-filter-btn" data-value="quiver">Aljava</button>
+          <button class="mkt-filter-btn" data-value="spellbook">Spellbook</button>
+          <button class="mkt-filter-btn" data-value="axe">Machado</button>
+          <button class="mkt-filter-btn" data-value="club">Clava</button>
+          <button class="mkt-filter-btn" data-value="sword">Espada</button>
+          <button class="mkt-filter-btn" data-value="wand">Wand</button>
+          <button class="mkt-filter-btn" data-value="rod">Rod</button>
+          <button class="mkt-filter-btn" data-value="fist">Punho</button>
+          <button class="mkt-filter-btn" data-value="bow">Arco</button>
+          <button class="mkt-filter-btn" data-value="crossbow">Besta</button>
+          <button class="mkt-filter-btn" data-value="throwable">Arremessável</button>
+        </div>
+      </div>
+      <div class="mkt-filter-group">
+        <label class="field-label">Atributos</label>
+        <button class="mkt-filter-btn" id="mkt-attr-btn" onclick="openMktAttrPopup()">🔍 Filtrar por Atributo <span id="mkt-attr-count"></span></button>
+      </div>
+    </div>
+
+    <!-- Popup de atributos -->
+    <div id="mkt-attr-popup" class="mkt-popup hidden">
+      <div class="mkt-popup-box">
+        <div class="mkt-popup-header">
+          <span style="font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.08em">Filtrar por Atributo</span>
+          <button class="modal-close" style="position:static;font-size:1rem" onclick="closeMktAttrPopup()">✕</button>
+        </div>
+        <div style="font-size:.72rem;color:var(--text-dim);margin-bottom:12px">⚠ Exibe itens que contenham <strong>pelo menos um</strong> dos atributos selecionados.</div>
+        <div class="mkt-attr-grid" id="mkt-attr-grid"></div>
+        <div style="display:flex;gap:8px;margin-top:14px">
+          <button class="mkt-filter-btn active" onclick="mktAttrSelectAll()">Selecionar todos</button>
+          <button class="mkt-filter-btn" onclick="mktAttrClearAll()">Limpar</button>
+          <button class="modal-btn" style="margin:0;padding:7px 18px;font-size:.7rem" onclick="closeMktAttrPopup()">Aplicar</button>
         </div>
       </div>
     </div>
@@ -3490,27 +3542,100 @@ async function openProfile(){
       </div>
       <div id="prof-push-status" style="font-size:.75rem;color:var(--text-dim);margin-top:4px"></div>
     </div>
-    <div class="field-row" id="prof-market-dm-row">
-      <label class="field-label">DM de Market — Vocações</label>
-      <div style="display:flex;flex-direction:column;gap:6px;margin-top:6px">
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-all" style="width:16px;height:16px"> Todos os itens
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-knight" style="width:16px;height:16px"> Knight
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-paladin" style="width:16px;height:16px"> Paladin
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-sorcerer" style="width:16px;height:16px"> Sorcerer
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-druid" style="width:16px;height:16px"> Druid
-        </label>
-        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem">
-          <input type="checkbox" id="prof-mkt-monk" style="width:16px;height:16px"> Monk
-        </label>
+    <div class="field-row">
+      <label class="field-label">Notificações de Market</label>
+      <button class="mkt-filter-btn active" style="margin-top:8px" onclick="openDmConfigPopup()">⚙ Configurar DM de Market</button>
+      <div id="prof-dm-summary" style="font-size:.72rem;color:var(--text-dim);margin-top:6px"></div>
+    </div>
+
+    <!-- Popup configurar DM -->
+    <div id="dm-config-popup" class="mkt-popup hidden">
+      <div class="mkt-popup-box" style="max-width:520px">
+        <div class="mkt-popup-header">
+          <span style="font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.08em">⚙ Configurar DM de Market</span>
+          <button class="modal-close" style="position:static;font-size:1rem" onclick="closeDmConfigPopup()">✕</button>
+        </div>
+
+        <div class="field-row" style="margin-bottom:14px">
+          <label class="field-label">Raridade</label>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-all" value="all" onchange="dmRarityChanged(this)"> Todas</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-5" value="5" onchange="dmRarityChanged(this)"> Mythical</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-4" value="4" onchange="dmRarityChanged(this)"> Legendary</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-3" value="3" onchange="dmRarityChanged(this)"> Epic</label>
+          </div>
+        </div>
+
+        <div class="field-row" style="margin-bottom:14px">
+          <label class="field-label">Vocação</label>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-all" value="all"> Todas</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-knight" value="knight"> Knight</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-paladin" value="paladin"> Paladin</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-sorcerer" value="sorcerer"> Sorcerer</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-druid" value="druid"> Druid</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-voc-monk" value="monk"> Monk</label>
+          </div>
+        </div>
+
+        <div class="field-row" style="margin-bottom:14px">
+          <label class="field-label">Categoria</label>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-all" value="all"> Todas</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-helmet" value="helmet"> Capacete</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-armor" value="armor"> Armadura</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-legs" value="legs"> Calças</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-boots" value="boots"> Botas</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-shield" value="shield"> Escudo</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-quiver" value="quiver"> Aljava</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-spellbook" value="spellbook"> Spellbook</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-axe" value="axe"> Machado</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-club" value="club"> Clava</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-sword" value="sword"> Espada</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-wand" value="wand"> Wand</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-rod" value="rod"> Rod</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-fist" value="fist"> Punho</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-bow" value="bow"> Arco</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-throwable" value="throwable"> Arremessável</label>
+          </div>
+        </div>
+
+        <div class="field-row" style="margin-bottom:14px">
+          <label class="field-label">Atributos</label>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-bottom:8px">⚠ Receberá DM de itens que contenham <strong>pelo menos um</strong> dos atributos selecionados.</div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px">            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-armor" value="Armor"> Armor</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-attack" value="Attack"> Attack</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-attack-speed" value="Attack Speed"> Attack Speed</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-crit-chance" value="Crit Chance"> Crit Chance</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-crit-damage" value="Crit Damage"> Crit Damage</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-defense" value="Defense"> Defense</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-execute" value="Execute"> Execute</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-exp" value="Exp"> Exp</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-frenzy" value="Frenzy"> Frenzy</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-hp-regen" value="HP Regen"> HP Regen</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-life-leech" value="Life Leech"> Life Leech</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-loot" value="Loot"> Loot</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-mp-regen" value="MP Regen"> MP Regen</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-mana-leech" value="Mana Leech"> Mana Leech</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-max-hp" value="Max HP"> Max HP</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-max-mana" value="Max Mana"> Max Mana</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-onslaught" value="Onslaught"> Onslaught</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-all" value="Protect All"> Protect All</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-death" value="Protect Death"> Protect Death</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-earth" value="Protect Earth"> Protect Earth</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-energy" value="Protect Energy"> Protect Energy</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-fire" value="Protect Fire"> Protect Fire</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-holy" value="Protect Holy"> Protect Holy</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-protect-ice" value="Protect Ice"> Protect Ice</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-spell-damage" value="Spell Damage"> Spell Damage</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-spell-healing" value="Spell Healing"> Spell Healing</label>          </div>
+        </div>
+
+        <div style="display:flex;gap:8px;margin-top:14px;justify-content:flex-end">
+          <button class="mkt-filter-btn" onclick="closeDmConfigPopup()">Cancelar</button>
+          <button class="modal-btn" style="margin:0;padding:7px 18px;font-size:.7rem" onclick="saveDmConfig()">Salvar</button>
+        </div>
       </div>
     </div>
     <button class="modal-btn secondary" onclick="saveProfile()" style="margin-bottom:6px">Salvar</button>
@@ -3529,14 +3654,16 @@ async function openProfile(){
     if(pushSt)  pushSt.textContent = active ? '✅ Ativado neste dispositivo' : '';
   });
 
-  // Carrega preferências de DM de Market
+  // Carrega configurações de DM de Market
   supaFetch('notification_settings', {profile_id: 'eq.'+currentProfile.id}).then(function(resp){
     var notif = (resp.data && resp.data[0]) || {};
-    var mktVocs = notif.market_dm_vocations || ['all'];
-    ['all','knight','paladin','sorcerer','druid','monk'].forEach(function(v){
-      var el = document.getElementById('prof-mkt-'+v);
-      if(el) el.checked = mktVocs.includes(v);
-    });
+    dmConfig = {
+      rarities:   notif.market_dm_rarities   || ['all'],
+      vocations:  notif.market_dm_vocations  || ['all'],
+      categories: notif.market_dm_categories || ['all'],
+      attrs:      notif.market_dm_attrs      || [],
+    };
+    updateDmSummary();
   });
 
   showModal('modal-profile');
@@ -3599,17 +3726,9 @@ async function saveProfile(){
       death_dm:         deathDm,
     });
 
-    var mktVocs = [];
-    ['all','knight','paladin','sorcerer','druid','monk'].forEach(function(v){
-      var el = document.getElementById('prof-mkt-'+v);
-      if(el && el.checked) mktVocs.push(v);
-    });
-    if(!mktVocs.length) mktVocs = ['all'];
-
     await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
-      death_dm:              deathDm,
-      market_dm_vocations:   mktVocs,
-      updated_at:            new Date().toISOString(),
+      death_dm:   deathDm,
+      updated_at: new Date().toISOString(),
     });
 
     currentProfile.discord_username = discord;
@@ -4393,6 +4512,45 @@ var marketSnapshot  = null;
 var itemsDB         = {};
 var mktFilterRarity = 'all';
 var mktFilterVoc    = 'all';
+var mktFilterCat    = 'all';
+var mktFilterAttrs  = []; // vazio = todos
+
+var MKT_ATTRS = ['Armor', 'Attack', 'Attack Speed', 'Crit Chance', 'Crit Damage', 'Defense', 'Execute', 'Exp', 'Frenzy', 'HP Regen', 'Life Leech', 'Loot', 'MP Regen', 'Mana Leech', 'Max HP', 'Max Mana', 'Onslaught', 'Protect All', 'Protect Death', 'Protect Earth', 'Protect Energy', 'Protect Fire', 'Protect Holy', 'Protect Ice', 'Spell Damage', 'Spell Healing'];
+
+function openMktAttrPopup(){
+  // Build grid if empty
+  var grid = document.getElementById('mkt-attr-grid');
+  if(!grid.innerHTML){
+    grid.innerHTML = MKT_ATTRS.map(function(a){
+      var checked = mktFilterAttrs.includes(a) ? 'checked' : '';
+      return '<label class="mkt-attr-chk"><input type="checkbox" value="'+a+'" '+checked+' onchange="mktAttrChanged()"> '+a+'</label>';
+    }).join('');
+  }
+  document.getElementById('mkt-attr-popup').classList.remove('hidden');
+}
+
+function closeMktAttrPopup(){
+  document.getElementById('mkt-attr-popup').classList.add('hidden');
+  renderMarket();
+}
+
+function mktAttrChanged(){
+  mktFilterAttrs = Array.from(document.querySelectorAll('#mkt-attr-grid input:checked')).map(function(el){ return el.value; });
+  var countEl = document.getElementById('mkt-attr-count');
+  if(countEl) countEl.textContent = mktFilterAttrs.length ? '('+mktFilterAttrs.length+')' : '';
+  var btn = document.getElementById('mkt-attr-btn');
+  if(btn) btn.classList.toggle('active', mktFilterAttrs.length > 0);
+}
+
+function mktAttrSelectAll(){
+  document.querySelectorAll('#mkt-attr-grid input').forEach(function(el){ el.checked = true; });
+  mktAttrChanged();
+}
+
+function mktAttrClearAll(){
+  document.querySelectorAll('#mkt-attr-grid input').forEach(function(el){ el.checked = false; });
+  mktAttrChanged();
+}
 
 var RARITY_LABELS = {3: 'Epic', 4: 'Legendary', 5: 'Mythical'};
 var RARITY_CLASS  = {3: 'epic', 4: 'legendary', 5: 'mythical'};
@@ -4437,6 +4595,14 @@ async function loadMarketData() {
         renderMarket();
       });
     });
+    document.querySelectorAll('#mkt-cat-filter .mkt-filter-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        document.querySelectorAll('#mkt-cat-filter .mkt-filter-btn').forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        mktFilterCat = btn.dataset.value;
+        renderMarket();
+      });
+    });
 
     renderMarket();
   } catch(e) {
@@ -4455,15 +4621,34 @@ function renderMarket() {
   RARITIES.forEach(function(rarity){
     var items = (marketSnapshot[String(rarity)] || []);
 
-    // Filtra por vocação e cruza com items_db
+    // Filtra por vocação, categoria e atributos cruzando com items_db
     var filtered = items.map(function(item){
       var dbItem = itemsDB[item.name.toLowerCase()];
       return {market: item, db: dbItem || null};
     }).filter(function(entry){
-      if(mktFilterVoc === 'all') return true;
-      if(!entry.db) return mktFilterVoc === 'all'; // sem info de voc, só mostra se filtro=all
-      var vocs = entry.db.vocations || [];
-      return vocs.includes(mktFilterVoc) || vocs.includes('all');
+      var db   = entry.db;
+      var item = entry.market;
+
+      // Filtro de vocação
+      if(mktFilterVoc !== 'all'){
+        if(!db) return false;
+        var vocs = db.vocations || [];
+        if(!vocs.includes(mktFilterVoc) && !vocs.includes('all')) return false;
+      }
+
+      // Filtro de categoria
+      if(mktFilterCat !== 'all'){
+        if(!db || db.category !== mktFilterCat) return false;
+      }
+
+      // Filtro de atributos (OR)
+      if(mktFilterAttrs.length > 0){
+        var attrs = item.attrs || '';
+        var hasAttr = mktFilterAttrs.some(function(a){ return attrs.toLowerCase().includes(a.toLowerCase()); });
+        if(!hasAttr) return false;
+      }
+
+      return true;
     });
 
     // Ordena alfabeticamente
@@ -4514,6 +4699,106 @@ function renderMarket() {
     return;
   }
   cont.innerHTML = html;
+}
+
+
+// ─── DM CONFIG POPUP ───────────────────────────────────────────
+var dmConfig = {rarities: ['all'], vocations: ['all'], categories: ['all'], attrs: []};
+
+function openDmConfigPopup(){
+  // Load current config into checkboxes
+  ['all','5','4','3'].forEach(function(v){
+    var el = document.getElementById('dm-rarity-'+v);
+    if(el) el.checked = dmConfig.rarities.includes(v);
+  });
+  ['all','knight','paladin','sorcerer','druid','monk'].forEach(function(v){
+    var el = document.getElementById('dm-voc-'+v);
+    if(el) el.checked = dmConfig.vocations.includes(v);
+  });
+  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable'].forEach(function(v){
+    var el = document.getElementById('dm-cat-'+v);
+    if(el) el.checked = dmConfig.categories.includes(v);
+  });
+  MKT_ATTRS.forEach(function(a){
+    var id = 'dm-attr-'+a.toLowerCase().replace(/ /g,'-');
+    var el = document.getElementById(id);
+    if(el) el.checked = dmConfig.attrs.includes(a);
+  });
+  document.getElementById('dm-config-popup').classList.remove('hidden');
+}
+
+function closeDmConfigPopup(){
+  document.getElementById('dm-config-popup').classList.add('hidden');
+}
+
+function dmRarityChanged(chk){
+  // If "Todas" is checked, uncheck others and vice versa
+  if(chk.value === 'all' && chk.checked){
+    ['5','4','3'].forEach(function(v){
+      var el = document.getElementById('dm-rarity-'+v);
+      if(el) el.checked = false;
+    });
+  } else if(chk.value !== 'all' && chk.checked){
+    var allEl = document.getElementById('dm-rarity-all');
+    if(allEl) allEl.checked = false;
+  }
+}
+
+async function saveDmConfig(){
+  // Collect values
+  var rarities = [];
+  ['all','5','4','3'].forEach(function(v){
+    var el = document.getElementById('dm-rarity-'+v);
+    if(el && el.checked) rarities.push(v);
+  });
+  if(!rarities.length) rarities = ['all'];
+
+  var vocations = [];
+  ['all','knight','paladin','sorcerer','druid','monk'].forEach(function(v){
+    var el = document.getElementById('dm-voc-'+v);
+    if(el && el.checked) vocations.push(v);
+  });
+  if(!vocations.length) vocations = ['all'];
+
+  var categories = [];
+  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable'].forEach(function(v){
+    var el = document.getElementById('dm-cat-'+v);
+    if(el && el.checked) categories.push(v);
+  });
+  if(!categories.length) categories = ['all'];
+
+  var attrs = [];
+  MKT_ATTRS.forEach(function(a){
+    var id = 'dm-attr-'+a.toLowerCase().replace(/ /g,'-');
+    var el = document.getElementById(id);
+    if(el && el.checked) attrs.push(a);
+  });
+
+  dmConfig = {rarities, vocations, categories, attrs};
+
+  try {
+    await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
+      market_dm_rarities:   rarities,
+      market_dm_vocations:  vocations,
+      market_dm_categories: categories,
+      market_dm_attrs:      attrs,
+    });
+    closeDmConfigPopup();
+    updateDmSummary();
+  } catch(e) {
+    alert('Erro ao salvar: '+e.message);
+  }
+}
+
+function updateDmSummary(){
+  var el = document.getElementById('prof-dm-summary');
+  if(!el) return;
+  var parts = [];
+  if(!dmConfig.rarities.includes('all')) parts.push('Raridade: '+dmConfig.rarities.map(function(r){ return r==='5'?'Mythical':r==='4'?'Legendary':'Epic'; }).join(', '));
+  if(!dmConfig.vocations.includes('all')) parts.push('Voc: '+dmConfig.vocations.join(', '));
+  if(!dmConfig.categories.includes('all')) parts.push('Cat: '+dmConfig.categories.join(', '));
+  if(dmConfig.attrs.length) parts.push('Attr: '+dmConfig.attrs.slice(0,3).join(', ')+(dmConfig.attrs.length>3?'...':''));
+  el.textContent = parts.length ? '⚙ '+parts.join(' · ') : 'Recebendo DM de todos os itens';
 }
 
 </script>
