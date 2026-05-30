@@ -1754,7 +1754,7 @@ footer span{color:var(--gold-dim)}
     </div>
     <div class="field-row">
       <label class="field-label">Raridade</label>
-      <select class="field-input" id="rr-rarity">
+      <select class="field-input" id="rr-rarity" onchange="rrOnRarityChange()">
         <option value="Common">Common</option>
         <option value="Uncommon">Uncommon</option>
         <option value="Rare">Rare</option>
@@ -1763,9 +1763,11 @@ footer span{color:var(--gold-dim)}
         <option value="Mythical">Mythical</option>
       </select>
     </div>
-    <div class="field-row" id="rr-attrs-row">
-      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem">(obrigatório para Uncommon+)</span></label>
-      <textarea class="field-input" id="rr-attributes" rows="3" placeholder="Ex: Attack Lv.1 (+1.00) · Crit Chance Lv.1 (+0.50)" style="resize:vertical"></textarea>
+    <div class="field-row" id="rr-attrs-row" style="display:none">
+      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="rr-attrs-hint"></span></label>
+      <div id="rr-attr-checkboxes" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:8px"></div>
+      <div id="rr-attr-levels" style="margin-top:14px"></div>
+      <div id="rr-attr-preview" style="margin-top:10px;font-size:.75rem;color:var(--gold-light);min-height:20px"></div>
     </div>
     <button class="modal-btn" onclick="submitRaffleRequest()">Enviar Solicitação</button>
     <div id="rr-status" style="margin-top:10px;font-size:.8rem"></div>
@@ -5565,6 +5567,8 @@ async function submitBuyTicket(){
 async function openRequestRaffleModal(){
   if(!currentProfile){ showModal('modal-login'); return; }
   document.getElementById('rr-status').innerHTML='';
+  document.getElementById('rr-attrs-row').style.display='none';
+  rrSelectedAttrs = {};
   var {data:chars} = await supaFetch('characters', {profile_id:'eq.'+currentProfile.id});
   var sel = document.getElementById('rr-char');
   sel.innerHTML = (chars||[]).map(function(c){ return '<option value="'+c.name+'">'+c.name+'</option>'; }).join('');
@@ -5575,12 +5579,14 @@ async function submitRaffleRequest(){
   var charName   = document.getElementById('rr-char').value;
   var itemName   = document.getElementById('rr-item-name').value.trim();
   var rarity     = document.getElementById('rr-rarity').value;
-  var attributes = document.getElementById('rr-attributes').value.trim();
+  var attributes = rrGetAttributesString();
   var status     = document.getElementById('rr-status');
-  var needsAttrs = ['Uncommon','Rare','Epic','Legendary','Mythical'].includes(rarity);
+  var maxAttrs   = RARITY_MAX_ATTRS[rarity]||0;
+  var selected   = Object.keys(rrSelectedAttrs).length;
+  var needsAttrs = maxAttrs > 0;
 
   if(!itemName){ status.innerHTML='<span style="color:var(--red)">Nome do item obrigatório.</span>'; return; }
-  if(needsAttrs && !attributes){ status.innerHTML='<span style="color:var(--red)">Atributos obrigatórios para '+rarity+'.</span>'; return; }
+  if(needsAttrs && selected === 0){ status.innerHTML='<span style="color:var(--red)">Selecione pelo menos 1 atributo para '+rarity+'.</span>'; return; }
 
   status.innerHTML='<span style="color:var(--text-dim)">Enviando...</span>';
   try {
@@ -5753,6 +5759,123 @@ async function openTicketControlModal(btn){
         +'</tr>';
     }).join('')
     +'</tbody></table>';
+}
+
+
+// ─── RAFFLE REQUEST ATTR SYSTEM ────────────────────────────────
+var RAFFLE_ATTRS = [{"name": "Armor", "base": 1.0, "flat": true}, {"name": "Attack", "base": 1.0, "flat": false}, {"name": "Attack Speed", "base": 0.35, "flat": false}, {"name": "Crit Chance", "base": 0.35, "flat": false}, {"name": "Crit Damage", "base": 1.5, "flat": false}, {"name": "Defense", "base": 2.0, "flat": true}, {"name": "Execute", "base": 0.25, "flat": false}, {"name": "Exp", "base": 1.0, "flat": false}, {"name": "Frenzy", "base": 0.25, "flat": false}, {"name": "HP Regen", "base": 0.08, "flat": false}, {"name": "Life Leech", "base": 0.2, "flat": false}, {"name": "Loot", "base": 1.0, "flat": false}, {"name": "MP Regen", "base": 0.08, "flat": false}, {"name": "Mana Leech", "base": 0.2, "flat": false}, {"name": "Max HP", "base": 0.5, "flat": false}, {"name": "Max Mana", "base": 0.5, "flat": false}, {"name": "Onslaught", "base": 0.1, "flat": false}, {"name": "Protect All", "base": 0.17, "flat": false}, {"name": "Protect Death", "base": 0.5, "flat": false}, {"name": "Protect Earth", "base": 0.5, "flat": false}, {"name": "Protect Energy", "base": 0.5, "flat": false}, {"name": "Protect Fire", "base": 0.5, "flat": false}, {"name": "Protect Holy", "base": 0.5, "flat": false}, {"name": "Protect Ice", "base": 0.5, "flat": false}, {"name": "Spell Damage", "base": 0.5, "flat": false}, {"name": "Spell Healing", "base": 0.5, "flat": false}];
+var RARITY_MAX_ATTRS  = {Common:0,Uncommon:1,Rare:2,Epic:3,Legendary:4,Mythical:5};
+var RARITY_MAX_LEVEL  = {Common:0,Uncommon:4,Rare:6,Epic:8,Legendary:10,Mythical:12};
+var rrSelectedAttrs   = {}; // {attrName: level}
+
+function rrOnRarityChange(){
+  var rarity = document.getElementById('rr-rarity').value;
+  var maxAttrs = RARITY_MAX_ATTRS[rarity]||0;
+  var maxLevel = RARITY_MAX_LEVEL[rarity]||0;
+  var row      = document.getElementById('rr-attrs-row');
+  var hint     = document.getElementById('rr-attrs-hint');
+
+  if(maxAttrs === 0){
+    row.style.display = 'none';
+    rrSelectedAttrs = {};
+    return;
+  }
+
+  row.style.display = '';
+  hint.textContent  = '(selecione até '+maxAttrs+' · máx Lv.'+maxLevel+')';
+  rrSelectedAttrs   = {};
+  rrBuildCheckboxes(maxAttrs, maxLevel);
+  rrUpdatePreview();
+}
+
+function rrBuildCheckboxes(maxAttrs, maxLevel){
+  var grid = document.getElementById('rr-attr-checkboxes');
+  grid.innerHTML = RAFFLE_ATTRS.map(function(a){
+    var id = 'rr-chk-'+a.name.replace(/ /g,'-');
+    return '<label class="mkt-attr-chk">'
+      +'<input type="checkbox" id="'+id+'" value="'+a.name+'" onchange="rrAttrChanged(this,'+maxAttrs+','+maxLevel+')">'
+      +' '+a.name
+      +'</label>';
+  }).join('');
+  document.getElementById('rr-attr-levels').innerHTML = '';
+}
+
+function rrAttrChanged(chk, maxAttrs, maxLevel){
+  var checked = Array.from(document.querySelectorAll('#rr-attr-checkboxes input:checked')).map(function(el){ return el.value; });
+
+  if(chk.checked && checked.length > maxAttrs){
+    chk.checked = false;
+    return;
+  }
+
+  if(!chk.checked){
+    delete rrSelectedAttrs[chk.value];
+  } else {
+    rrSelectedAttrs[chk.value] = 1; // default Lv.1
+  }
+
+  rrBuildLevelSelectors(maxLevel);
+  rrUpdatePreview();
+}
+
+function rrBuildLevelSelectors(maxLevel){
+  var cont = document.getElementById('rr-attr-levels');
+  var selected = Object.keys(rrSelectedAttrs);
+  if(!selected.length){ cont.innerHTML=''; return; }
+
+  cont.innerHTML = selected.map(function(attrName){
+    var attr  = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var curLv = rrSelectedAttrs[attrName]||1;
+    var opts  = '';
+    for(var i=1;i<=maxLevel;i++){
+      var val   = attr ? (i*attr.base) : i;
+      var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+      var suffix = attr && attr.flat ? '' : '%';
+      opts += '<option value="'+i+'" '+(i===curLv?'selected':'')+'>Lv.'+i+' (+'+valStr+suffix+')</option>';
+    }
+    return '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">'
+      +'<span style="font-size:.82rem;color:var(--text);min-width:110px">'+attrName+'</span>'
+      +'<select class="field-input" style="flex:1;padding:5px 8px" data-attr="'+attrName+'" onchange="rrLevelChangedEl(this)">'+opts+'</select>'
+      +'</div>';
+  }).join('');
+}
+
+function rrLevelChangedEl(el){
+  rrLevelChanged(el.dataset.attr, el.value);
+}
+
+function rrLevelChanged(attrName, level){
+  rrSelectedAttrs[attrName] = parseInt(level);
+  rrUpdatePreview();
+}
+
+function rrUpdatePreview(){
+  var prev = document.getElementById('rr-attr-preview');
+  var selected = Object.keys(rrSelectedAttrs);
+  if(!selected.length){ prev.textContent=''; return; }
+
+  var parts = selected.map(function(attrName){
+    var lv   = rrSelectedAttrs[attrName]||1;
+    var attr = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var val  = attr ? (lv*attr.base) : lv;
+    var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+    var suffix = attr && attr.flat ? '' : '%';
+    return attrName+' Lv.'+lv+' (+'+valStr+suffix+')';
+  });
+
+  prev.textContent = '📋 '+parts.join(' · ');
+}
+
+function rrGetAttributesString(){
+  var selected = Object.keys(rrSelectedAttrs);
+  return selected.map(function(attrName){
+    var lv   = rrSelectedAttrs[attrName]||1;
+    var attr = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var val  = attr ? (lv*attr.base) : lv;
+    var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+    var suffix = attr && attr.flat ? '' : '%';
+    return attrName+' Lv.'+lv+' (+'+valStr+suffix+')';
+  }).join(' · ');
 }
 
 </script>
