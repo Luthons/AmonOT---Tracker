@@ -455,7 +455,7 @@ footer span{color:var(--gold-dim)}
 .auth-role-badge.member{color:var(--text-dim);border-color:var(--border)}
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px}
 .modal-overlay.hidden{display:none}
-.modal{background:var(--bg2);border:1px solid var(--border-gold);padding:28px;max-width:480px;width:100%;position:relative;max-height:90vh;overflow-y:auto}
+.modal{background:var(--bg2);border:1px solid var(--border-gold);padding:28px;max-width:480px;width:100%;position:relative;max-height:90vh;overflow-y:auto}.modal-box{background:var(--bg2);border:1px solid var(--border-gold);padding:24px 22px;max-width:500px;width:90vw;max-height:85vh;overflow-y:auto;position:relative}
 .modal h2{font-family:'Cinzel',serif;font-size:1.1rem;color:var(--gold-light);margin-bottom:6px}
 .modal p{font-size:.9rem;color:var(--text-dim);margin-bottom:20px;line-height:1.5}
 .modal-close{position:absolute;top:12px;right:14px;background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:1.2rem;line-height:1}
@@ -1768,6 +1768,16 @@ footer span{color:var(--gold-dim)}
       <div id="raffle-attr-checkboxes" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:8px"></div>
       <div id="raffle-attr-levels" style="margin-top:14px"></div>
       <div id="raffle-attr-preview" style="margin-top:10px;font-size:.75rem;color:var(--gold-light);min-height:20px"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div class="field-row">
+        <label class="field-label">Sugestão — Preço/ticket (gp)</label>
+        <input class="field-input" type="number" id="raffle-suggest-price" min="1" placeholder="Ex: 1000000">
+      </div>
+      <div class="field-row">
+        <label class="field-label">Sugestão — Total de tickets</label>
+        <input class="field-input" type="number" id="raffle-suggest-qty" min="1" placeholder="Ex: 50">
+      </div>
     </div>
     <button class="modal-btn" onclick="submitRaffleRequest()">Enviar Solicitação</button>
     <div id="raffle-req-status" style="margin-top:10px;font-size:.8rem"></div>
@@ -5592,12 +5602,16 @@ async function submitRaffleRequest(){
 
   status.innerHTML='<span style="color:var(--text-dim)">Enviando...</span>';
   try {
+    var suggestPrice = parseInt(document.getElementById('raffle-suggest-price').value)||null;
+    var suggestQty   = parseInt(document.getElementById('raffle-suggest-qty').value)||null;
     await supaFetch('raffle_requests', null, 'POST', {
-      profile_id: currentProfile.id,
-      char_name:  charName,
-      item_name:  itemName,
-      rarity:     rarity,
-      attributes: attributes||null,
+      profile_id:     currentProfile.id,
+      char_name:      charName,
+      item_name:      itemName,
+      rarity:         rarity,
+      attributes:     attributes||null,
+      suggest_price:  suggestPrice,
+      suggest_qty:    suggestQty,
     });
     status.innerHTML='<span style="color:var(--online)">✅ Solicitação enviada! A staff será notificada.</span>';
     setTimeout(function(){ closeModal('modal-request-raffle'); }, 2000);
@@ -5606,15 +5620,15 @@ async function submitRaffleRequest(){
   }
 }
 
-function openCreateRaffleModal(requestId, itemName, rarity, attributes){
+function openCreateRaffleModal(requestId, itemName, rarity, attributes, suggestPrice, suggestQty){
   crSelectedAttrs = {};
   document.getElementById('cr-request-id').value   = requestId||'';
   document.getElementById('cr-item-name').value    = itemName||'';
   document.getElementById('cr-rarity').value       = rarity||'Epic';
   crOnRarityChange();
   document.getElementById('cr-attributes').value   = attributes||'';
-  document.getElementById('cr-price').value        = '';
-  document.getElementById('cr-total').value        = '';
+  document.getElementById('cr-price').value        = suggestPrice||'';
+  document.getElementById('cr-total').value        = suggestQty||'';
   document.getElementById('cr-max-per-player').value = '1';
   document.getElementById('cr-status').innerHTML   = '';
   showModal('modal-create-raffle');
@@ -5677,7 +5691,7 @@ async function openRaffleRequestsModal(){
         : '<span class="vote-badge closed" style="font-size:.6rem">Recusada</span>';
 
     var actions = r.status==='pending' ? '<div style="display:flex;gap:6px;margin-top:10px">'
-      +'<button class="admin-edit-btn" style="color:var(--online);border-color:rgba(93,191,110,.3)" data-rid="'+r.id+'" data-name="'+encodeURIComponent(r.item_name)+'" data-rarity="'+r.rarity+'" data-attrs="'+encodeURIComponent(r.attributes||'')+'" onclick="approveRequestBtn(this)">Criar Rifa</button>'
+          +'<button class="admin-edit-btn" style="color:var(--online);border-color:rgba(93,191,110,.3)" data-rid="'+r.id+'" data-name="'+encodeURIComponent(r.item_name)+'" data-rarity="'+r.rarity+'" data-attrs="'+encodeURIComponent(r.attributes||'')+'" data-price="'+( r.suggest_price||'')+'" data-qty="'+( r.suggest_qty||'')+'" onclick="approveRequestBtn(this)">Criar Rifa</button>'
       +'<button class="admin-edit-btn" style="color:var(--red);border-color:rgba(201,80,80,.3)" data-rid="'+r.id+'" onclick="rejectRequestBtn(this)">Recusar</button>'
       +'</div>' : '';
 
@@ -5696,16 +5710,16 @@ async function openRaffleRequestsModal(){
 }
 
 function approveRequestBtn(btn){
-  approveRequest(btn.dataset.rid, decodeURIComponent(btn.dataset.name), btn.dataset.rarity, decodeURIComponent(btn.dataset.attrs));
+  approveRequest(btn.dataset.rid, decodeURIComponent(btn.dataset.name), btn.dataset.rarity, decodeURIComponent(btn.dataset.attrs), btn.dataset.price||'', btn.dataset.qty||'');
 }
 
 function rejectRequestBtn(btn){
   rejectRequest(btn.dataset.rid);
 }
 
-function approveRequest(requestId, itemName, rarity, attributes){
+function approveRequest(requestId, itemName, rarity, attributes, suggestPrice, suggestQty){
   closeModal('modal-raffle-requests');
-  openCreateRaffleModal(requestId, itemName, rarity, attributes);
+  openCreateRaffleModal(requestId, itemName, rarity, attributes, suggestPrice, suggestQty);
 }
 
 async function rejectRequest(requestId){
