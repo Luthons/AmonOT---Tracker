@@ -1415,7 +1415,7 @@ footer span{color:var(--gold-dim)}
 <div class="page" id="page-inactive">
   <div class="cwrap">
     <div class="page-title">😴 Membros Inativos</div>
-    <div class="page-desc">Membros que não logam há mais de 7 dias. Visível apenas para liderança.</div>
+    <div class="page-desc">Membros que não logam há mais de 3 dias. Visível apenas para liderança.</div>
     <div class="page-divider"></div>
     <div class="info-callout" id="inactive-summary"></div>
     <div class="table-wrap" id="inactive-table-wrap">
@@ -2591,7 +2591,7 @@ function renderInactive(){
   var summary = document.getElementById('inactive-summary');
   if(!tbody) return;
 
-  var INACTIVE_DAYS = 7;
+  var INACTIVE_DAYS = 3;
   var now = new Date();
 
   var inactive = allMembers.map(function(m){
