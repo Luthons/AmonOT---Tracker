@@ -654,6 +654,23 @@ footer span{color:var(--gold-dim)}
 .mkt-attr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
 .mkt-attr-chk{display:flex;align-items:center;gap:7px;cursor:pointer;font-size:.8rem;color:var(--text)}
 .mkt-attr-chk input{accent-color:var(--gold-light);width:14px;height:14px;cursor:pointer}
+
+/* ── RIFAS ───────────────────────────────────────────────────── */
+.raffle-card{background:var(--bg2);border:1px solid var(--border);padding:18px 20px;margin-bottom:14px;position:relative}
+.raffle-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+.raffle-card-title{font-family:'Cinzel',serif;font-size:.95rem;color:var(--text)}
+.raffle-card-attrs{font-size:.75rem;color:var(--text-dim);margin-bottom:10px;line-height:1.6}
+.raffle-progress-bg{height:8px;background:var(--border);border-radius:4px;margin:10px 0 6px;overflow:hidden}
+.raffle-progress-fill{height:100%;border-radius:4px;background:var(--gold-dim);transition:width .3s}
+.raffle-progress-fill.full{background:var(--online)}
+.raffle-meta{font-size:.75rem;color:var(--text-dim);display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+.raffle-actions{display:flex;gap:8px;flex-wrap:wrap}
+.raffle-ticket-table{width:100%;border-collapse:collapse;margin-top:12px}
+.raffle-ticket-table th{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);padding:6px 10px;border-bottom:1px solid var(--border);text-align:left}
+.raffle-ticket-table td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.04);font-size:.82rem}
+.status-pending{color:var(--gold-dim)}
+.status-paid{color:var(--online)}
+.status-cancelled{color:var(--red)}
 </style>
 </head>
 <body>
@@ -700,6 +717,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('votes')" id="nav-votes" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
       Votações
+    </button>
+    <button class="nav-item" onclick="navigate('raffles')" id="nav-raffles" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 7h7l-5.5 4 2 7L12 16l-5.5 4 2-7L3 9h7z"/></svg>
+      Rifas
     </button>
     <button class="nav-item" onclick="navigate('admin')" id="nav-admin" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -1688,6 +1709,154 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-raffles">
+  <div class="cwrap">
+    <div class="page-title">🎟 Rifas</div>
+    <div class="page-desc">Rifas de itens da Lowly People. Sorteios realizados no Discord com compartilhamento de tela.</div>
+    <div class="page-divider"></div>
+
+    <div style="background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);padding:10px 14px;margin-bottom:20px;font-size:.8rem;color:var(--gold-dim)">
+      ⚠️ Os sorteios são realizados <strong>no Discord com compartilhamento de tela</strong>. O pagamento dos tickets é combinado diretamente com a staff.
+    </div>
+
+    <!-- Botões de ação -->
+    <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap">
+      <button class="modal-btn secondary" onclick="openRequestRaffleModal()" id="btn-request-raffle" style="display:none">+ Solicitar Rifa</button>
+      <button class="modal-btn" onclick="openCreateRaffleModal()" id="btn-create-raffle" style="display:none">+ Criar Rifa</button>
+      <button class="mkt-filter-btn" onclick="openRaffleRequestsModal()" id="btn-raffle-requests" style="display:none">📋 Solicitações Pendentes <span id="raffle-requests-badge"></span></button>
+    </div>
+
+    <!-- Abas -->
+    <div class="hm-tabs" style="margin-bottom:20px">
+      <button class="hm-tab active" id="raffle-tab-open" onclick="raffleSetTab('open',this)">Abertas</button>
+      <button class="hm-tab" id="raffle-tab-closed" onclick="raffleSetTab('closed',this)">Encerradas</button>
+      <button class="hm-tab" id="raffle-tab-mytix" onclick="raffleSetTab('mytix',this)">Meus Tickets</button>
+      <button class="hm-tab" id="raffle-tab-control" onclick="raffleSetTab('control',this)" style="display:none">Controle de Pagamentos</button>
+    </div>
+
+    <div id="raffles-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>Rifas · Lowly People</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: SOLICITAR RIFA ══ -->
+<div class="modal-overlay hidden" id="modal-request-raffle">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-request-raffle')">✕</button>
+    <div class="modal-title">🎟 Solicitar Rifa</div>
+    <div class="field-row">
+      <label class="field-label">Personagem</label>
+      <select class="field-input" id="rr-char"></select>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Nome do Item</label>
+      <input class="field-input" type="text" id="rr-item-name" placeholder="Ex: Sanguine Bow">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Raridade</label>
+      <select class="field-input" id="rr-rarity">
+        <option value="Common">Common</option>
+        <option value="Uncommon">Uncommon</option>
+        <option value="Rare">Rare</option>
+        <option value="Epic">Epic</option>
+        <option value="Legendary">Legendary</option>
+        <option value="Mythical">Mythical</option>
+      </select>
+    </div>
+    <div class="field-row" id="rr-attrs-row">
+      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem">(obrigatório para Uncommon+)</span></label>
+      <textarea class="field-input" id="rr-attributes" rows="3" placeholder="Ex: Attack Lv.1 (+1.00) · Crit Chance Lv.1 (+0.50)" style="resize:vertical"></textarea>
+    </div>
+    <button class="modal-btn" onclick="submitRaffleRequest()">Enviar Solicitação</button>
+    <div id="rr-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: CRIAR RIFA (STAFF) ══ -->
+<div class="modal-overlay hidden" id="modal-create-raffle">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-create-raffle')">✕</button>
+    <div class="modal-title">🎟 Criar Rifa</div>
+    <input type="hidden" id="cr-request-id">
+    <div class="field-row">
+      <label class="field-label">Item</label>
+      <input class="field-input" type="text" id="cr-item-name" placeholder="Nome do item">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Raridade</label>
+      <select class="field-input" id="cr-rarity">
+        <option value="Common">Common</option>
+        <option value="Uncommon">Uncommon</option>
+        <option value="Rare">Rare</option>
+        <option value="Epic">Epic</option>
+        <option value="Legendary">Legendary</option>
+        <option value="Mythical">Mythical</option>
+      </select>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Atributos</label>
+      <textarea class="field-input" id="cr-attributes" rows="2" style="resize:vertical"></textarea>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div class="field-row">
+        <label class="field-label">Preço por ticket (gp)</label>
+        <input class="field-input" type="number" id="cr-price" min="1" placeholder="Ex: 1000000">
+      </div>
+      <div class="field-row">
+        <label class="field-label">Total de tickets</label>
+        <input class="field-input" type="number" id="cr-total" min="1" placeholder="Ex: 50">
+      </div>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Limite por player</label>
+      <input class="field-input" type="number" id="cr-max-per-player" min="1" value="1">
+    </div>
+    <button class="modal-btn" onclick="submitCreateRaffle()">Criar Rifa</button>
+    <div id="cr-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: SOLICITAÇÕES PENDENTES ══ -->
+<div class="modal-overlay hidden" id="modal-raffle-requests">
+  <div class="modal-box" style="max-width:600px">
+    <button class="modal-close" onclick="closeModal('modal-raffle-requests')">✕</button>
+    <div class="modal-title">📋 Solicitações de Rifa</div>
+    <div id="raffle-requests-content"><div style="color:var(--text-dim)">Carregando...</div></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: COMPRAR TICKET ══ -->
+<div class="modal-overlay hidden" id="modal-buy-ticket">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-buy-ticket')">✕</button>
+    <div class="modal-title">🎟 Comprar Ticket</div>
+    <input type="hidden" id="bt-raffle-id">
+    <input type="hidden" id="bt-price">
+    <input type="hidden" id="bt-max">
+    <div class="field-row">
+      <label class="field-label">Personagem</label>
+      <select class="field-input" id="bt-char"></select>
+    </div>
+    <div class="field-row">
+      <label class="field-label">Quantidade de tickets</label>
+      <input class="field-input" type="number" id="bt-qty" min="1" value="1" oninput="btUpdateTotal()">
+      <div id="bt-total" style="margin-top:6px;font-size:.8rem;color:var(--gold-light)"></div>
+    </div>
+    <div style="font-size:.75rem;color:var(--text-dim);margin:10px 0">⚠️ O pagamento deve ser combinado com a staff no Discord. Seu ticket ficará pendente até a confirmação do pagamento.</div>
+    <button class="modal-btn" onclick="submitBuyTicket()">Confirmar Solicitação</button>
+    <div id="bt-status" style="margin-top:10px;font-size:.8rem"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: CONTROLE DE TICKETS ══ -->
+<div class="modal-overlay hidden" id="modal-ticket-control">
+  <div class="modal-box" style="max-width:700px">
+    <button class="modal-close" onclick="closeModal('modal-ticket-control')">✕</button>
+    <div class="modal-title" id="tc-title">Controle de Tickets</div>
+    <div id="ticket-control-content"><div style="color:var(--text-dim)">Carregando...</div></div>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1787,6 +1956,7 @@ function _navigate(page){
   if(page==='announcements') loadAnnouncements();
   if(page==='heatmap') hmInit();
   if(page==='votes') loadVotes();
+  if(page==='raffles') loadRaffles();
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
   if(page==='kill_ranking'){ krRenderFilters(); loadKillRanking(); }
@@ -3395,6 +3565,8 @@ function updateAuthUI(){
     if(annNav) annNav.style.display = 'flex';
     var votesNav = document.getElementById('nav-votes');
     if(votesNav) votesNav.style.display = 'flex';
+    var rafflesNav = document.getElementById('nav-raffles');
+    if(rafflesNav) rafflesNav.style.display = 'flex';
     var adminNav = document.getElementById('nav-admin');
     if(adminNav) adminNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var marketNav = document.getElementById('nav-market');
@@ -3418,6 +3590,8 @@ function updateAuthUI(){
     if(annNav) annNav.style.display = 'none';
     var votesNav = document.getElementById('nav-votes');
     if(votesNav) votesNav.style.display = 'none';
+    var rafflesNav = document.getElementById('nav-raffles');
+    if(rafflesNav) rafflesNav.style.display = 'none';
     var adminNav = document.getElementById('nav-admin');
     if(adminNav) adminNav.style.display = 'none';
     var marketNav = document.getElementById('nav-market');
@@ -5118,6 +5292,467 @@ async function loadKillRanking() {
   } catch(e) {
     cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
   }
+}
+
+
+// ─── RIFAS ─────────────────────────────────────────────────────
+var raffleCurrentTab = 'open';
+var RARITY_COLORS = {
+  'Common':'#aaa','Uncommon':'#5dbf6e','Rare':'#4488ff',
+  'Epic':'#8855cc','Legendary':'#e87830','Mythical':'#c95050'
+};
+
+function canManageRaffles(){ return ['admin','lider','vice'].includes(getRole()); }
+
+function raffleSetTab(tab, btn){
+  document.querySelectorAll('#page-raffles .hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+  raffleCurrentTab = tab;
+  loadRaffles();
+}
+
+async function loadRaffles(){
+  var cont = document.getElementById('raffles-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  // Show/hide buttons
+  var isStaff = canManageRaffles();
+  document.getElementById('btn-request-raffle').style.display = currentProfile ? 'inline-flex' : 'none';
+  document.getElementById('btn-create-raffle').style.display  = isStaff ? 'inline-flex' : 'none';
+  document.getElementById('btn-raffle-requests').style.display = isStaff ? 'inline-flex' : 'none';
+  var tabControl = document.getElementById('raffle-tab-control');
+  if(tabControl) tabControl.style.display = isStaff ? '' : 'none';
+
+  // Load pending requests count for badge
+  if(isStaff){
+    supaFetch('raffle_requests', {status:'eq.pending', select:'id'}).then(function(r){
+      var badge = document.getElementById('raffle-requests-badge');
+      var count = (r.data||[]).length;
+      if(badge) badge.textContent = count > 0 ? ' ('+count+')' : '';
+    });
+  }
+
+  try {
+    if(raffleCurrentTab === 'control'){
+      await loadTicketControl();
+      return;
+    }
+
+    if(raffleCurrentTab === 'mytix'){
+      await loadMyTickets();
+      return;
+    }
+
+    var status = raffleCurrentTab === 'open' ? 'eq.open' : 'in.(closed,cancelled)';
+    var {data: raffles} = await supaFetch('raffles', {status: status, order: 'created_at.desc', limit: '50'});
+
+    if(!raffles || !raffles.length){
+      cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhuma rifa encontrada.</div>';
+      return;
+    }
+
+    // Load tickets for each raffle
+    var raffleIds = raffles.map(function(r){ return r.id; });
+    var {data: allTickets} = await supaFetch('raffle_tickets', {
+      raffle_id: 'in.('+raffleIds.join(',')+')',
+      select: 'raffle_id,quantity,status,profile_id'
+    });
+
+    var ticketMap = {};
+    (allTickets||[]).forEach(function(t){
+      if(!ticketMap[t.raffle_id]) ticketMap[t.raffle_id] = {paid:0, pending:0};
+      if(t.status === 'paid')    ticketMap[t.raffle_id].paid    += t.quantity;
+      if(t.status === 'pending') ticketMap[t.raffle_id].pending += t.quantity;
+    });
+
+    cont.innerHTML = raffles.map(function(r){
+      var tc      = ticketMap[r.id] || {paid:0, pending:0};
+      var sold    = tc.paid;
+      var pending = tc.pending;
+      var pct     = Math.round(sold / r.total_tickets * 100);
+      var color   = RARITY_COLORS[r.rarity] || '#aaa';
+      var isFull  = sold >= r.total_tickets;
+
+      var myTickets = currentProfile ? (allTickets||[]).filter(function(t){ return t.raffle_id===r.id && t.profile_id===currentProfile.id; }) : [];
+      var myQty = myTickets.reduce(function(s,t){ return s + t.quantity; }, 0);
+      var canBuy = currentProfile && r.status==='open' && !isFull && myQty < r.max_per_player;
+
+      return '<div class="raffle-card">'
+        +'<div class="raffle-card-header">'
+        +'<div>'
+        +'<div class="raffle-card-title">'+r.item_name+'</div>'
+        +'<span class="mkt-tag" style="background:'+color+'20;color:'+color+';border-color:'+color+'40;margin-top:4px;display:inline-block">'+r.rarity+'</span>'
+        +'</div>'
+        +(r.status==='open' ? '<span class="vote-badge open">Aberta</span>' : '<span class="vote-badge closed">'+r.status+'</span>')
+        +'</div>'
+        +(r.attributes ? '<div class="raffle-card-attrs">'+r.attributes+'</div>' : '')
+        +'<div class="raffle-progress-bg"><div class="raffle-progress-fill'+(isFull?' full':'')+'" style="width:'+pct+'%"></div></div>'
+        +'<div class="raffle-meta">'
+        +'<span>🎟 '+sold+'/'+r.total_tickets+' tickets vendidos</span>'
+        +(pending > 0 ? '<span style="color:var(--gold-dim)">⏳ '+pending+' pendentes</span>' : '')
+        +'<span>💰 '+Number(r.price_per_ticket).toLocaleString('pt-BR')+' gp/ticket</span>'
+        +'<span>👤 Máx. '+r.max_per_player+' por player</span>'
+        +(myQty > 0 ? '<span style="color:var(--online)">✅ Você tem '+myQty+' ticket'+(myQty>1?'s':'')+'</span>' : '')
+        +'</div>'
+        +'<div class="raffle-actions">'
+        +(canBuy ? '<button class="vote-btn voted" data-rid="'+r.id+'" data-price="'+r.price_per_ticket+'" data-max="'+(r.max_per_player-myQty)+'" onclick="openBuyTicket(this)">🎟 Comprar Ticket</button>' : '')
+        +(isStaff && r.status==='open' ? '<button class="vote-btn close-btn" data-rid="'+r.id+'" onclick="closeRaffleBtn(this)">Encerrar</button>' : '')
+        +(isStaff ? '<button class="vote-btn" data-rid="'+r.id+'" data-name="'+r.item_name+'" onclick="openTicketControlModal(this)">📋 Controle</button>' : '')
+        +'</div>'
+        +'</div>';
+    }).join('');
+
+  } catch(e) {
+    cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
+}
+
+async function loadMyTickets(){
+  var cont = document.getElementById('raffles-content');
+  if(!currentProfile){ cont.innerHTML = '<div style="color:var(--text-dim)">Faça login para ver seus tickets.</div>'; return; }
+  var {data: tickets} = await supaFetch('raffle_tickets', {profile_id:'eq.'+currentProfile.id, order:'created_at.desc', select:'*'});
+  if(!tickets||!tickets.length){ cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Você não tem tickets.</div>'; return; }
+  var raffleIds = [...new Set(tickets.map(function(t){ return t.raffle_id; }))];
+  var {data: raffles} = await supaFetch('raffles', {id:'in.('+raffleIds.join(',')+')', select:'id,item_name,rarity,price_per_ticket,status'});
+  var raffleMap = {};
+  (raffles||[]).forEach(function(r){ raffleMap[r.id]=r; });
+
+  cont.innerHTML = '<table class="raffle-ticket-table"><thead><tr><th>Item</th><th>Tickets</th><th>Total</th><th>Status</th></tr></thead><tbody>'
+    + tickets.map(function(t){
+      var r = raffleMap[t.raffle_id] || {};
+      var statusClass = 'status-'+t.status;
+      var statusLabel = t.status==='paid'?'✅ Pago':t.status==='pending'?'⏳ Pendente':'❌ Cancelado';
+      return '<tr>'
+        +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+(r.item_name||'—')+'</td>'
+        +'<td>'+t.quantity+'</td>'
+        +'<td style="color:var(--gold-light)">'+Number(t.total_price).toLocaleString('pt-BR')+' gp</td>'
+        +'<td class="'+statusClass+'">'+statusLabel+'</td>'
+        +'</tr>';
+    }).join('')
+    +'</tbody></table>';
+}
+
+async function loadTicketControl(){
+  var cont = document.getElementById('raffles-content');
+  var {data: tickets} = await supaFetch('raffle_tickets', {order:'created_at.desc', select:'*', limit:'500'});
+  var {data: raffles} = await supaFetch('raffles', {select:'id,item_name', limit:'100'});
+  var raffleMap = {};
+  (raffles||[]).forEach(function(r){ raffleMap[r.id]=r; });
+  var {data: profiles} = await supaFetch('profiles', {select:'id,display_name', limit:'200'});
+  var profileMap = {};
+  (profiles||[]).forEach(function(p){ profileMap[p.id]=p.display_name; });
+
+  if(!tickets||!tickets.length){ cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhum ticket registrado.</div>'; return; }
+
+  cont.innerHTML = '<table class="raffle-ticket-table"><thead><tr><th>Item</th><th>Player</th><th>Personagem</th><th>Qtd</th><th>Total</th><th>Status</th><th></th></tr></thead><tbody>'
+    + tickets.map(function(t){
+      var r = raffleMap[t.raffle_id] || {};
+      var playerName = profileMap[t.profile_id] || t.profile_id;
+      var statusLabel = t.status==='paid'?'✅ Pago':t.status==='pending'?'⏳ Pendente':'❌ Cancelado';
+      var statusClass = 'status-'+t.status;
+      var confirmBtn = t.status==='pending'
+        ? '<button class="admin-edit-btn" style="font-size:.6rem;color:var(--online);border-color:rgba(93,191,110,.3)" data-tid="'+t.id+'" onclick="confirmTicketPayment(this)">Confirmar</button>'
+        : '';
+      var cancelBtn = t.status!=='cancelled'
+        ? '<button class="admin-edit-btn" style="font-size:.6rem;color:var(--red);border-color:rgba(201,80,80,.3)" data-tid="'+t.id+'" onclick="cancelTicketBtn(this)">Cancelar</button>'
+        : '';
+      return '<tr>'
+        +'<td style="font-size:.78rem">'+(r.item_name||'—')+'</td>'
+        +'<td style="font-size:.78rem">'+playerName+'</td>'
+        +'<td style="font-size:.78rem">'+t.char_name+'</td>'
+        +'<td>'+t.quantity+'</td>'
+        +'<td style="color:var(--gold-light);font-size:.78rem">'+Number(t.total_price).toLocaleString('pt-BR')+'</td>'
+        +'<td class="'+statusClass+'">'+statusLabel+'</td>'
+        +'<td style="display:flex;gap:4px">'+confirmBtn+cancelBtn+'</td>'
+        +'</tr>';
+    }).join('')
+    +'</tbody></table>';
+}
+
+async function confirmTicketPayment(btn){
+  var tid = btn.dataset.tid;
+  try {
+    await supaFetch('raffle_tickets?id=eq.'+tid, null, 'PATCH', {status:'paid', confirmed_by: currentProfile.id, confirmed_at: new Date().toISOString()});
+    loadRaffles();
+    // Check if raffle is now full
+    checkRaffleFull(tid);
+  } catch(e){ alert('Erro: '+e.message); }
+}
+
+async function cancelTicketBtn(btn){
+  if(!confirm('Cancelar este ticket?')) return;
+  var tid = btn.dataset.tid;
+  try {
+    await supaFetch('raffle_tickets?id=eq.'+tid, null, 'PATCH', {status:'cancelled'});
+    loadRaffles();
+  } catch(e){ alert('Erro: '+e.message); }
+}
+
+async function checkRaffleFull(ticketId){
+  // Get raffle for this ticket
+  var {data: tickets} = await supaFetch('raffle_tickets', {id:'eq.'+ticketId, select:'raffle_id'});
+  if(!tickets||!tickets[0]) return;
+  var raffleId = tickets[0].raffle_id;
+  var {data: raffle} = await supaFetch('raffles', {id:'eq.'+raffleId, select:'id,total_tickets,item_name'});
+  if(!raffle||!raffle[0]) return;
+  var {data: paidTickets} = await supaFetch('raffle_tickets', {raffle_id:'eq.'+raffleId, status:'eq.paid', select:'quantity'});
+  var paidTotal = (paidTickets||[]).reduce(function(s,t){ return s+t.quantity; }, 0);
+  if(paidTotal >= raffle[0].total_tickets){
+    // Notify via bot — will be handled by backend
+    console.log('[raffle] '+raffle[0].item_name+' está cheia! Notificando staff...');
+  }
+}
+
+async function closeRaffleBtn(btn){
+  if(!confirm('Encerrar esta rifa?')) return;
+  var rid = btn.dataset.rid;
+  try {
+    await supaFetch('raffles?id=eq.'+rid, null, 'PATCH', {status:'closed', closed_at: new Date().toISOString()});
+    loadRaffles();
+  } catch(e){ alert('Erro: '+e.message); }
+}
+
+async function openBuyTicket(btn){
+  if(!currentProfile){ showModal('modal-login'); return; }
+  document.getElementById('bt-raffle-id').value = btn.dataset.rid;
+  document.getElementById('bt-price').value     = btn.dataset.price;
+  document.getElementById('bt-max').value       = btn.dataset.max;
+  document.getElementById('bt-qty').value       = '1';
+  document.getElementById('bt-qty').max         = btn.dataset.max;
+  document.getElementById('bt-status').innerHTML = '';
+  btUpdateTotal();
+  // Load chars
+  var {data:chars} = await supaFetch('characters', {profile_id:'eq.'+currentProfile.id});
+  var sel = document.getElementById('bt-char');
+  sel.innerHTML = (chars||[]).map(function(c){ return '<option value="'+c.name+'">'+c.name+'</option>'; }).join('');
+  showModal('modal-buy-ticket');
+}
+
+function btUpdateTotal(){
+  var qty   = parseInt(document.getElementById('bt-qty').value)||1;
+  var price = parseInt(document.getElementById('bt-price').value)||0;
+  var total = document.getElementById('bt-total');
+  if(total) total.textContent = 'Total: '+Number(qty*price).toLocaleString('pt-BR')+' gp';
+}
+
+async function submitBuyTicket(){
+  var raffleId  = document.getElementById('bt-raffle-id').value;
+  var qty       = parseInt(document.getElementById('bt-qty').value)||1;
+  var price     = parseInt(document.getElementById('bt-price').value)||0;
+  var charName  = document.getElementById('bt-char').value;
+  var maxAllowed= parseInt(document.getElementById('bt-max').value)||1;
+  var status    = document.getElementById('bt-status');
+
+  if(qty < 1 || qty > maxAllowed){ status.innerHTML='<span style="color:var(--red)">Quantidade inválida.</span>'; return; }
+  status.innerHTML='<span style="color:var(--text-dim)">Processando...</span>';
+  try {
+    await supaFetch('raffle_tickets', null, 'POST', {
+      raffle_id:   raffleId,
+      profile_id:  currentProfile.id,
+      char_name:   charName,
+      quantity:    qty,
+      total_price: qty * price,
+      status:      'pending',
+    });
+    status.innerHTML='<span style="color:var(--online)">✅ Solicitação enviada! Combine o pagamento com a staff no Discord.</span>';
+    setTimeout(function(){ closeModal('modal-buy-ticket'); loadRaffles(); }, 2000);
+  } catch(e){
+    status.innerHTML='<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+async function openRequestRaffleModal(){
+  if(!currentProfile){ showModal('modal-login'); return; }
+  document.getElementById('rr-status').innerHTML='';
+  var {data:chars} = await supaFetch('characters', {profile_id:'eq.'+currentProfile.id});
+  var sel = document.getElementById('rr-char');
+  sel.innerHTML = (chars||[]).map(function(c){ return '<option value="'+c.name+'">'+c.name+'</option>'; }).join('');
+  showModal('modal-request-raffle');
+}
+
+async function submitRaffleRequest(){
+  var charName   = document.getElementById('rr-char').value;
+  var itemName   = document.getElementById('rr-item-name').value.trim();
+  var rarity     = document.getElementById('rr-rarity').value;
+  var attributes = document.getElementById('rr-attributes').value.trim();
+  var status     = document.getElementById('rr-status');
+  var needsAttrs = ['Uncommon','Rare','Epic','Legendary','Mythical'].includes(rarity);
+
+  if(!itemName){ status.innerHTML='<span style="color:var(--red)">Nome do item obrigatório.</span>'; return; }
+  if(needsAttrs && !attributes){ status.innerHTML='<span style="color:var(--red)">Atributos obrigatórios para '+rarity+'.</span>'; return; }
+
+  status.innerHTML='<span style="color:var(--text-dim)">Enviando...</span>';
+  try {
+    await supaFetch('raffle_requests', null, 'POST', {
+      profile_id: currentProfile.id,
+      char_name:  charName,
+      item_name:  itemName,
+      rarity:     rarity,
+      attributes: attributes||null,
+    });
+    status.innerHTML='<span style="color:var(--online)">✅ Solicitação enviada! A staff será notificada.</span>';
+    setTimeout(function(){ closeModal('modal-request-raffle'); }, 2000);
+  } catch(e){
+    status.innerHTML='<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+function openCreateRaffleModal(requestId, itemName, rarity, attributes){
+  document.getElementById('cr-request-id').value   = requestId||'';
+  document.getElementById('cr-item-name').value    = itemName||'';
+  document.getElementById('cr-rarity').value       = rarity||'Epic';
+  document.getElementById('cr-attributes').value   = attributes||'';
+  document.getElementById('cr-price').value        = '';
+  document.getElementById('cr-total').value        = '';
+  document.getElementById('cr-max-per-player').value = '1';
+  document.getElementById('cr-status').innerHTML   = '';
+  showModal('modal-create-raffle');
+}
+
+async function submitCreateRaffle(){
+  var requestId    = document.getElementById('cr-request-id').value;
+  var itemName     = document.getElementById('cr-item-name').value.trim();
+  var rarity       = document.getElementById('cr-rarity').value;
+  var attributes   = document.getElementById('cr-attributes').value.trim();
+  var price        = parseInt(document.getElementById('cr-price').value)||0;
+  var total        = parseInt(document.getElementById('cr-total').value)||0;
+  var maxPerPlayer = parseInt(document.getElementById('cr-max-per-player').value)||1;
+  var status       = document.getElementById('cr-status');
+
+  if(!itemName){ status.innerHTML='<span style="color:var(--red)">Nome obrigatório.</span>'; return; }
+  if(!price||price<1){ status.innerHTML='<span style="color:var(--red)">Preço inválido.</span>'; return; }
+  if(!total||total<1){ status.innerHTML='<span style="color:var(--red)">Total de tickets inválido.</span>'; return; }
+
+  status.innerHTML='<span style="color:var(--text-dim)">Criando...</span>';
+  try {
+    await supaFetch('raffles', null, 'POST', {
+      request_id:      requestId||null,
+      item_name:       itemName,
+      rarity:          rarity,
+      attributes:      attributes||null,
+      price_per_ticket: price,
+      total_tickets:   total,
+      max_per_player:  maxPerPlayer,
+      created_by:      currentProfile.id,
+    });
+    if(requestId){
+      await supaFetch('raffle_requests?id=eq.'+requestId, null, 'PATCH', {status:'approved'});
+    }
+    status.innerHTML='<span style="color:var(--online)">✅ Rifa criada!</span>';
+    setTimeout(function(){ closeModal('modal-create-raffle'); loadRaffles(); }, 1200);
+  } catch(e){
+    status.innerHTML='<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+async function openRaffleRequestsModal(){
+  showModal('modal-raffle-requests');
+  var cont = document.getElementById('raffle-requests-content');
+  cont.innerHTML = '<div style="color:var(--text-dim)">Carregando...</div>';
+  var {data: reqs} = await supaFetch('raffle_requests', {order:'created_at.desc', limit:'50'});
+  var {data: profiles} = await supaFetch('profiles', {select:'id,display_name', limit:'200'});
+  var profileMap = {};
+  (profiles||[]).forEach(function(p){ profileMap[p.id]=p.display_name; });
+
+  if(!reqs||!reqs.length){ cont.innerHTML='<div style="color:var(--text-dim)">Nenhuma solicitação.</div>'; return; }
+
+  cont.innerHTML = reqs.map(function(r){
+    var playerName = profileMap[r.profile_id]||r.profile_id;
+    var color = RARITY_COLORS[r.rarity]||'#aaa';
+    var statusBadge = r.status==='pending'
+      ? '<span class="vote-badge open" style="font-size:.6rem">Pendente</span>'
+      : r.status==='approved'
+        ? '<span class="vote-badge" style="color:var(--online);border-color:rgba(93,191,110,.3);font-size:.6rem">Aprovada</span>'
+        : '<span class="vote-badge closed" style="font-size:.6rem">Recusada</span>';
+
+    var actions = r.status==='pending' ? '<div style="display:flex;gap:6px;margin-top:10px">'
+      +'<button class="admin-edit-btn" style="color:var(--online);border-color:rgba(93,191,110,.3)" data-rid="'+r.id+'" data-name="'+encodeURIComponent(r.item_name)+'" data-rarity="'+r.rarity+'" data-attrs="'+encodeURIComponent(r.attributes||'')+'" onclick="approveRequestBtn(this)">Criar Rifa</button>'
+      +'<button class="admin-edit-btn" style="color:var(--red);border-color:rgba(201,80,80,.3)" data-rid="'+r.id+'" onclick="rejectRequestBtn(this)">Recusar</button>'
+      +'</div>' : '';
+
+    return '<div style="background:var(--bg3);border:1px solid var(--border);padding:12px 14px;margin-bottom:10px">'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'
+      +'<span style="font-family:Cinzel,serif;font-size:.85rem">'+r.item_name+'</span>'
+      +statusBadge
+      +'</div>'
+      +'<div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px">'
+      +'<span style="color:'+color+'">'+r.rarity+'</span> · '+playerName+' ('+r.char_name+') · '+new Date(r.created_at).toLocaleDateString('pt-BR')
+      +'</div>'
+      +(r.attributes ? '<div style="font-size:.72rem;color:var(--text-dim)">'+r.attributes+'</div>' : '')
+      + actions
+      +'</div>';
+  }).join('');
+}
+
+function approveRequestBtn(btn){
+  approveRequest(btn.dataset.rid, decodeURIComponent(btn.dataset.name), btn.dataset.rarity, decodeURIComponent(btn.dataset.attrs));
+}
+
+function rejectRequestBtn(btn){
+  rejectRequest(btn.dataset.rid);
+}
+
+function approveRequest(requestId, itemName, rarity, attributes){
+  closeModal('modal-raffle-requests');
+  openCreateRaffleModal(requestId, itemName, rarity, attributes);
+}
+
+async function rejectRequest(requestId){
+  if(!confirm('Recusar esta solicitação?')) return;
+  try {
+    await supaFetch('raffle_requests?id=eq.'+requestId, null, 'PATCH', {status:'rejected'});
+    openRaffleRequestsModal();
+  } catch(e){ alert('Erro: '+e.message); }
+}
+
+async function confirmAndReloadControl(btn){
+  await confirmTicketPayment(btn);
+  var rid  = btn.dataset.rid;
+  var name = btn.dataset.name;
+  var fakeBtn = {dataset:{rid:rid, name:name}};
+  openTicketControlModal(fakeBtn);
+}
+
+async function openTicketControlModal(btn){
+  var rid  = btn.dataset.rid;
+  var name = btn.dataset.name;
+  document.getElementById('tc-title').textContent = 'Controle — '+name;
+  showModal('modal-ticket-control');
+  var cont = document.getElementById('ticket-control-content');
+  cont.innerHTML = '<div style="color:var(--text-dim)">Carregando...</div>';
+  var {data: tickets} = await supaFetch('raffle_tickets', {raffle_id:'eq.'+rid, order:'created_at.desc', select:'*'});
+  var {data: profiles} = await supaFetch('profiles', {select:'id,display_name', limit:'200'});
+  var profileMap = {};
+  (profiles||[]).forEach(function(p){ profileMap[p.id]=p.display_name; });
+
+  if(!tickets||!tickets.length){ cont.innerHTML='<div style="color:var(--text-dim)">Nenhum ticket.</div>'; return; }
+
+  var total = tickets.reduce(function(s,t){ return s+t.total_price; },0);
+  var paid  = tickets.filter(function(t){ return t.status==='paid'; }).reduce(function(s,t){ return s+t.total_price; },0);
+
+  cont.innerHTML = '<div style="display:flex;gap:20px;margin-bottom:14px;font-size:.8rem">'
+    +'<span>Total arrecadado: <strong style="color:var(--gold-light)">'+Number(paid).toLocaleString('pt-BR')+' gp</strong></span>'
+    +'<span style="color:var(--text-dim)">Potencial: '+Number(total).toLocaleString('pt-BR')+' gp</span>'
+    +'</div>'
+    +'<table class="raffle-ticket-table"><thead><tr><th>Player</th><th>Personagem</th><th>Qtd</th><th>Total</th><th>Status</th><th></th></tr></thead><tbody>'
+    + tickets.map(function(t){
+      var playerName = profileMap[t.profile_id]||t.profile_id;
+      var statusLabel = t.status==='paid'?'✅ Pago':t.status==='pending'?'⏳ Pendente':'❌ Cancelado';
+      var statusClass = 'status-'+t.status;
+      var confirmBtn = t.status==='pending'
+        ? '<button class="admin-edit-btn" style="font-size:.6rem;color:var(--online);border-color:rgba(93,191,110,.3)" data-tid="'+t.id+'" data-rid="'+rid+'" data-name="'+name+'" onclick="confirmAndReloadControl(this)">Confirmar</button>'
+        : '';
+      return '<tr>'
+        +'<td style="font-size:.78rem">'+playerName+'</td>'
+        +'<td style="font-size:.78rem">'+t.char_name+'</td>'
+        +'<td>'+t.quantity+'</td>'
+        +'<td style="color:var(--gold-light);font-size:.78rem">'+Number(t.total_price).toLocaleString('pt-BR')+'</td>'
+        +'<td class="'+statusClass+'">'+statusLabel+'</td>'
+        +'<td>'+confirmBtn+'</td>'
+        +'</tr>';
+    }).join('')
+    +'</tbody></table>';
 }
 
 </script>
