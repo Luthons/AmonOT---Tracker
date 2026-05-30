@@ -56,6 +56,13 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python kill_ranking.py
 
+      - name: Notificações de Rifas
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python raffle_notifier.py
+
       - name: Salvar arquivos no repositório
         run: |
           git config user.name  "github-actions[bot]"
