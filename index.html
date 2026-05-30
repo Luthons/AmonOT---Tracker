@@ -1746,15 +1746,15 @@ footer span{color:var(--gold-dim)}
     <div class="modal-title">🎟 Solicitar Rifa</div>
     <div class="field-row">
       <label class="field-label">Personagem</label>
-      <select class="field-input" id="rr-char"></select>
+      <select class="field-input" id="raffle-char"></select>
     </div>
     <div class="field-row">
       <label class="field-label">Nome do Item</label>
-      <input class="field-input" type="text" id="rr-item-name" placeholder="Ex: Sanguine Bow">
+      <input class="field-input" type="text" id="raffle-item-name" placeholder="Ex: Sanguine Bow">
     </div>
     <div class="field-row">
       <label class="field-label">Raridade</label>
-      <select class="field-input" id="rr-rarity" onchange="rrOnRarityChange()">
+      <select class="field-input" id="raffle-rarity" onchange="rrOnRarityChange()">
         <option value="Common">Common</option>
         <option value="Uncommon">Uncommon</option>
         <option value="Rare">Rare</option>
@@ -1763,14 +1763,14 @@ footer span{color:var(--gold-dim)}
         <option value="Mythical">Mythical</option>
       </select>
     </div>
-    <div class="field-row" id="rr-attrs-row" style="display:none">
-      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="rr-attrs-hint"></span></label>
-      <div id="rr-attr-checkboxes" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:8px"></div>
-      <div id="rr-attr-levels" style="margin-top:14px"></div>
-      <div id="rr-attr-preview" style="margin-top:10px;font-size:.75rem;color:var(--gold-light);min-height:20px"></div>
+    <div class="field-row" id="raffle-attrs-row" style="display:none">
+      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="raffle-attrs-hint"></span></label>
+      <div id="raffle-attr-checkboxes" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:8px"></div>
+      <div id="raffle-attr-levels" style="margin-top:14px"></div>
+      <div id="raffle-attr-preview" style="margin-top:10px;font-size:.75rem;color:var(--gold-light);min-height:20px"></div>
     </div>
     <button class="modal-btn" onclick="submitRaffleRequest()">Enviar Solicitação</button>
-    <div id="rr-status" style="margin-top:10px;font-size:.8rem"></div>
+    <div id="raffle-req-status" style="margin-top:10px;font-size:.8rem"></div>
   </div>
 </div>
 
@@ -1786,7 +1786,7 @@ footer span{color:var(--gold-dim)}
     </div>
     <div class="field-row">
       <label class="field-label">Raridade</label>
-      <select class="field-input" id="cr-rarity">
+      <select class="field-input" id="cr-rarity" onchange="crOnRarityChange()">
         <option value="Common">Common</option>
         <option value="Uncommon">Uncommon</option>
         <option value="Rare">Rare</option>
@@ -1795,9 +1795,11 @@ footer span{color:var(--gold-dim)}
         <option value="Mythical">Mythical</option>
       </select>
     </div>
-    <div class="field-row">
-      <label class="field-label">Atributos</label>
-      <textarea class="field-input" id="cr-attributes" rows="2" style="resize:vertical"></textarea>
+    <div class="field-row" id="cr-attrs-row" style="display:none">
+      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="cr-attrs-hint"></span></label>
+      <div id="cr-attr-checkboxes" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:8px"></div>
+      <div id="cr-attr-levels" style="margin-top:14px"></div>
+      <div id="cr-attr-preview" style="margin-top:10px;font-size:.75rem;color:var(--gold-light);min-height:20px"></div>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
       <div class="field-row">
@@ -2932,16 +2934,16 @@ function buildRRAttrs(){
   });
 }
 function rrToggleAttr(id){
-  var rarity=parseInt(document.getElementById('rr-rarity').value);var locks=parseInt(document.getElementById('rr-locks').value)||0;var freeSlots=rarity-locks;
+  var rarity=parseInt(document.getElementById('raffle-rarity').value);var locks=parseInt(document.getElementById('rr-locks').value)||0;var freeSlots=rarity-locks;
   var idx=rrSelected.indexOf(id);if(idx>=0){rrSelected.splice(idx,1);}else{if(rrSelected.length>=freeSlots)return;rrSelected.push(id);}
   rrRefreshCards();rrUpdate();
 }
 function rrRefreshCards(){
-  var rarity=parseInt(document.getElementById('rr-rarity').value);var locks=parseInt(document.getElementById('rr-locks').value)||0;var freeSlots=rarity-locks;
+  var rarity=parseInt(document.getElementById('raffle-rarity').value);var locks=parseInt(document.getElementById('rr-locks').value)||0;var freeSlots=rarity-locks;
   RR_ATTRS.forEach(function(attr){var card=document.getElementById('rr-card-'+attr.id);if(!card)return;var sel=rrSelected.includes(attr.id);card.classList.toggle('selected',sel);card.classList.toggle('disabled',!sel&&rrSelected.length>=freeSlots);});
 }
 function rrUpdate(){
-  var rarity=parseInt(document.getElementById('rr-rarity').value);var tries=parseInt(document.getElementById('rr-tries').value)||1;var tokenVal=parseFloat(document.getElementById('rr-token-val').value)||0;
+  var rarity=parseInt(document.getElementById('raffle-rarity').value);var tries=parseInt(document.getElementById('rr-tries').value)||1;var tokenVal=parseFloat(document.getElementById('rr-token-val').value)||0;
   var lockSel=document.getElementById('rr-locks');var curLock=parseInt(lockSel.value)||0;lockSel.innerHTML='';
   for(var i=0;i<rarity;i++){var opt=document.createElement('option');opt.value=i;opt.textContent=i===0?'0 slots travados':i+' slot'+(i>1?'s':'')+' travado'+(i>1?'s':'');if(i===curLock)opt.selected=true;lockSel.appendChild(opt);}
   var locks=parseInt(lockSel.value)||0;var freeSlots=rarity-locks;while(rrSelected.length>freeSlots)rrSelected.pop();rrRefreshCards();
@@ -5566,8 +5568,8 @@ async function submitBuyTicket(){
 
 async function openRequestRaffleModal(){
   if(!currentProfile){ showModal('modal-login'); return; }
-  document.getElementById('rr-status').innerHTML='';
-  document.getElementById('rr-attrs-row').style.display='none';
+  document.getElementById('raffle-req-status').innerHTML='';
+  document.getElementById('raffle-attrs-row').style.display='none';
   rrSelectedAttrs = {};
   var {data:chars} = await supaFetch('characters', {profile_id:'eq.'+currentProfile.id});
   var sel = document.getElementById('rr-char');
@@ -5576,11 +5578,11 @@ async function openRequestRaffleModal(){
 }
 
 async function submitRaffleRequest(){
-  var charName   = document.getElementById('rr-char').value;
-  var itemName   = document.getElementById('rr-item-name').value.trim();
-  var rarity     = document.getElementById('rr-rarity').value;
+  var charName   = document.getElementById('raffle-char').value;
+  var itemName   = document.getElementById('raffle-item-name').value.trim();
+  var rarity     = document.getElementById('raffle-rarity').value;
   var attributes = rrGetAttributesString();
-  var status     = document.getElementById('rr-status');
+  var status     = document.getElementById('raffle-req-status');
   var maxAttrs   = RARITY_MAX_ATTRS[rarity]||0;
   var selected   = Object.keys(rrSelectedAttrs).length;
   var needsAttrs = maxAttrs > 0;
@@ -5605,9 +5607,11 @@ async function submitRaffleRequest(){
 }
 
 function openCreateRaffleModal(requestId, itemName, rarity, attributes){
+  crSelectedAttrs = {};
   document.getElementById('cr-request-id').value   = requestId||'';
   document.getElementById('cr-item-name').value    = itemName||'';
   document.getElementById('cr-rarity').value       = rarity||'Epic';
+  crOnRarityChange();
   document.getElementById('cr-attributes').value   = attributes||'';
   document.getElementById('cr-price').value        = '';
   document.getElementById('cr-total').value        = '';
@@ -5620,7 +5624,7 @@ async function submitCreateRaffle(){
   var requestId    = document.getElementById('cr-request-id').value;
   var itemName     = document.getElementById('cr-item-name').value.trim();
   var rarity       = document.getElementById('cr-rarity').value;
-  var attributes   = document.getElementById('cr-attributes').value.trim();
+  var attributes   = crGetAttributesString();
   var price        = parseInt(document.getElementById('cr-price').value)||0;
   var total        = parseInt(document.getElementById('cr-total').value)||0;
   var maxPerPlayer = parseInt(document.getElementById('cr-max-per-player').value)||1;
@@ -5769,11 +5773,11 @@ var RARITY_MAX_LEVEL  = {Common:0,Uncommon:4,Rare:6,Epic:8,Legendary:10,Mythical
 var rrSelectedAttrs   = {}; // {attrName: level}
 
 function rrOnRarityChange(){
-  var rarity = document.getElementById('rr-rarity').value;
+  var rarity = document.getElementById('raffle-rarity').value;
   var maxAttrs = RARITY_MAX_ATTRS[rarity]||0;
   var maxLevel = RARITY_MAX_LEVEL[rarity]||0;
-  var row      = document.getElementById('rr-attrs-row');
-  var hint     = document.getElementById('rr-attrs-hint');
+  var row      = document.getElementById('raffle-attrs-row');
+  var hint     = document.getElementById('raffle-attrs-hint');
 
   if(maxAttrs === 0){
     row.style.display = 'none';
@@ -5789,7 +5793,7 @@ function rrOnRarityChange(){
 }
 
 function rrBuildCheckboxes(maxAttrs, maxLevel){
-  var grid = document.getElementById('rr-attr-checkboxes');
+  var grid = document.getElementById('raffle-attr-checkboxes');
   grid.innerHTML = RAFFLE_ATTRS.map(function(a){
     var id = 'rr-chk-'+a.name.replace(/ /g,'-');
     return '<label class="mkt-attr-chk">'
@@ -5797,11 +5801,11 @@ function rrBuildCheckboxes(maxAttrs, maxLevel){
       +' '+a.name
       +'</label>';
   }).join('');
-  document.getElementById('rr-attr-levels').innerHTML = '';
+  document.getElementById('raffle-attr-levels').innerHTML = '';
 }
 
 function rrAttrChanged(chk, maxAttrs, maxLevel){
-  var checked = Array.from(document.querySelectorAll('#rr-attr-checkboxes input:checked')).map(function(el){ return el.value; });
+  var checked = Array.from(document.querySelectorAll('#raffle-attr-checkboxes input:checked')).map(function(el){ return el.value; });
 
   if(chk.checked && checked.length > maxAttrs){
     chk.checked = false;
@@ -5819,7 +5823,7 @@ function rrAttrChanged(chk, maxAttrs, maxLevel){
 }
 
 function rrBuildLevelSelectors(maxLevel){
-  var cont = document.getElementById('rr-attr-levels');
+  var cont = document.getElementById('raffle-attr-levels');
   var selected = Object.keys(rrSelectedAttrs);
   if(!selected.length){ cont.innerHTML=''; return; }
 
@@ -5850,7 +5854,7 @@ function rrLevelChanged(attrName, level){
 }
 
 function rrUpdatePreview(){
-  var prev = document.getElementById('rr-attr-preview');
+  var prev = document.getElementById('raffle-attr-preview');
   var selected = Object.keys(rrSelectedAttrs);
   if(!selected.length){ prev.textContent=''; return; }
 
@@ -5870,6 +5874,98 @@ function rrGetAttributesString(){
   var selected = Object.keys(rrSelectedAttrs);
   return selected.map(function(attrName){
     var lv   = rrSelectedAttrs[attrName]||1;
+    var attr = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var val  = attr ? (lv*attr.base) : lv;
+    var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+    var suffix = attr && attr.flat ? '' : '%';
+    return attrName+' Lv.'+lv+' (+'+valStr+suffix+')';
+  }).join(' · ');
+}
+
+
+// ─── CREATE RAFFLE ATTR SYSTEM ─────────────────────────────────
+var crSelectedAttrs = {};
+
+function crOnRarityChange(){
+  var rarity   = document.getElementById('cr-rarity').value;
+  var maxAttrs = RARITY_MAX_ATTRS[rarity]||0;
+  var maxLevel = RARITY_MAX_LEVEL[rarity]||0;
+  var row      = document.getElementById('cr-attrs-row');
+  var hint     = document.getElementById('cr-attrs-hint');
+  crSelectedAttrs = {};
+  if(maxAttrs === 0){ row.style.display='none'; return; }
+  row.style.display='';
+  hint.textContent='(selecione até '+maxAttrs+' · máx Lv.'+maxLevel+')';
+  crBuildCheckboxes(maxAttrs, maxLevel);
+  crUpdatePreview();
+}
+
+function crBuildCheckboxes(maxAttrs, maxLevel){
+  var grid = document.getElementById('cr-attr-checkboxes');
+  grid.innerHTML = RAFFLE_ATTRS.map(function(a){
+    var id = 'cr-chk-'+a.name.replace(/ /g,'-');
+    return '<label class="mkt-attr-chk">'
+      +'<input type="checkbox" id="'+id+'" value="'+a.name+'" data-max-attrs="'+maxAttrs+'" data-max-level="'+maxLevel+'" onchange="crAttrChanged(this)">'
+      +' '+a.name+'</label>';
+  }).join('');
+  document.getElementById('cr-attr-levels').innerHTML='';
+}
+
+function crAttrChanged(chk){
+  var maxAttrs = parseInt(chk.dataset.maxAttrs)||0;
+  var maxLevel = parseInt(chk.dataset.maxLevel)||0;
+  var checked  = Array.from(document.querySelectorAll('#cr-attr-checkboxes input:checked')).map(function(el){ return el.value; });
+  if(chk.checked && checked.length > maxAttrs){ chk.checked=false; return; }
+  if(!chk.checked) delete crSelectedAttrs[chk.value];
+  else crSelectedAttrs[chk.value] = 1;
+  crBuildLevelSelectors(maxLevel);
+  crUpdatePreview();
+}
+
+function crBuildLevelSelectors(maxLevel){
+  var cont     = document.getElementById('cr-attr-levels');
+  var selected = Object.keys(crSelectedAttrs);
+  if(!selected.length){ cont.innerHTML=''; return; }
+  cont.innerHTML = selected.map(function(attrName){
+    var attr  = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var curLv = crSelectedAttrs[attrName]||1;
+    var opts  = '';
+    for(var i=1;i<=maxLevel;i++){
+      var val    = attr ? (i*attr.base) : i;
+      var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+      var suffix = attr && attr.flat ? '' : '%';
+      opts += '<option value="'+i+'" '+(i===curLv?'selected':'')+'>Lv.'+i+' (+'+valStr+suffix+')</option>';
+    }
+    return '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">'
+      +'<span style="font-size:.82rem;color:var(--text);min-width:110px">'+attrName+'</span>'
+      +'<select class="field-input" style="flex:1;padding:5px 8px" data-attr="'+attrName+'" onchange="crLevelChangedEl(this)">'+opts+'</select>'
+      +'</div>';
+  }).join('');
+}
+
+function crLevelChangedEl(el){
+  crSelectedAttrs[el.dataset.attr] = parseInt(el.value);
+  crUpdatePreview();
+}
+
+function crUpdatePreview(){
+  var prev = document.getElementById('cr-attr-preview');
+  var selected = Object.keys(crSelectedAttrs);
+  if(!selected.length){ if(prev) prev.textContent=''; return; }
+  var parts = selected.map(function(attrName){
+    var lv   = crSelectedAttrs[attrName]||1;
+    var attr = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
+    var val  = attr ? (lv*attr.base) : lv;
+    var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
+    var suffix = attr && attr.flat ? '' : '%';
+    return attrName+' Lv.'+lv+' (+'+valStr+suffix+')';
+  });
+  if(prev) prev.textContent='📋 '+parts.join(' · ');
+}
+
+function crGetAttributesString(){
+  return Object.keys(crSelectedAttrs).map(function(attrName){
+    var lv   = crSelectedAttrs[attrName]||1;
     var attr = RAFFLE_ATTRS.find(function(a){ return a.name===attrName; });
     var val  = attr ? (lv*attr.base) : lv;
     var valStr = attr && attr.flat ? val.toFixed(0) : val.toFixed(2);
