@@ -24,12 +24,13 @@ jobs:
           cp index.html frontend_repo/index.html
           cp sw.js frontend_repo/sw.js
           cp vercel.json frontend_repo/vercel.json
+          [ -f logo.png ] && cp logo.png frontend_repo/logo.png || true
 
           # Commit e push
           cd frontend_repo
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html sw.js vercel.json
+          git add index.html sw.js vercel.json logo.png 2>/dev/null || git add index.html sw.js vercel.json
           git diff --cached --quiet || git commit -m "deploy: atualizar index.html [${{ github.event.inputs.reason }}] [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
           echo "✅ Deploy disparado com sucesso!"
