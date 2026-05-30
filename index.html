@@ -3336,7 +3336,7 @@ function updateAuthUI(){
     var adminNav = document.getElementById('nav-admin');
     if(adminNav) adminNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var marketNav = document.getElementById('nav-market');
-    if(marketNav) marketNav.style.display = currentProfile.role === 'admin' ? 'flex' : 'none';
+    if(marketNav) marketNav.style.display = ['admin','lider','vice','veterano'].includes(currentProfile.role) ? 'flex' : 'none';
     var btnNewAnn = document.getElementById('btn-new-announcement');
     if(btnNewAnn) btnNewAnn.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'inline-block' : 'none';
   } else {
