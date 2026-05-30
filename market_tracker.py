@@ -306,6 +306,30 @@ def should_notify_user(discord_user_id: str, item_name: str, rarity: int, item_a
     return True
 
 
+def save_market_history(item: dict, rarity: int, event: str, duration_minutes: int = None):
+    """Salva entrada/saída de item no histórico do Supabase."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return
+    try:
+        payload = {
+            "name":    item["name"],
+            "rarity":  rarity,
+            "price":   item.get("price", ""),
+            "attrs":   item.get("attrs", ""),
+            "event":   event,
+        }
+        if duration_minutes is not None:
+            payload["duration_minutes"] = duration_minutes
+        requests.post(
+            f"{SUPABASE_URL}/rest/v1/market_history",
+            headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
+            json=payload,
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"[market] erro ao salvar histórico: {e}")
+
+
 def run():
     if not DISCORD_TOKEN or not DISCORD_USER_IDS:
         print("[market] ⚠ DISCORD_BOT_TOKEN ou DISCORD_USER_ID não configurados")
@@ -330,6 +354,7 @@ def run():
         for item in new_items:
             item["first_seen"] = now_ts
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
+            save_market_history(item, rarity, "entered")
             embed = build_embed_new(item, rarity_info)
             for uid in DISCORD_USER_IDS:
                 if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
@@ -345,6 +370,7 @@ def run():
             first_seen = item.get("first_seen", now_ts)
             minutes    = max(1, (now_ts - first_seen) // 60)
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
+            save_market_history(item, rarity, "left", minutes)
             embed = build_embed_removed(item, rarity_info, minutes)
             for uid in DISCORD_USER_IDS:
                 if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
