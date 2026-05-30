@@ -5572,7 +5572,7 @@ async function openRequestRaffleModal(){
   document.getElementById('raffle-attrs-row').style.display='none';
   rrSelectedAttrs = {};
   var {data:chars} = await supaFetch('characters', {profile_id:'eq.'+currentProfile.id});
-  var sel = document.getElementById('rr-char');
+  var sel = document.getElementById('raffle-char');
   sel.innerHTML = (chars||[]).map(function(c){ return '<option value="'+c.name+'">'+c.name+'</option>'; }).join('');
   showModal('modal-request-raffle');
 }
