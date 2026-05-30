@@ -3728,6 +3728,10 @@ function renderRegChars(){
 }
 
 async function submitRegister(){
+  // Se houver texto no campo que ainda não foi adicionado, adiciona automaticamente
+  var pendingName = document.getElementById('reg-char-name') && document.getElementById('reg-char-name').value.trim();
+  if(pendingName) addCharToForm();
+
   var invite  = document.getElementById('reg-invite').value.trim().toUpperCase();
   var discord = document.getElementById('reg-discord').value.trim();
   var status  = document.getElementById('register-status');
