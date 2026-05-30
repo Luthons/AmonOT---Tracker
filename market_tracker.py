@@ -239,40 +239,71 @@ def get_profile_id_for_discord(discord_user_id: str) -> str | None:
         return None
 
 
-def get_user_market_prefs(profile_id: str) -> list:
+def get_user_market_prefs(profile_id: str) -> dict:
     """Busca preferências de DM de market do usuário."""
+    default = {'rarities': ['all'], 'vocations': ['all'], 'categories': ['all'], 'attrs': []}
     if not SUPABASE_URL or not SUPABASE_KEY:
-        return ['all']
+        return default
     try:
         r = requests.get(
             f"{SUPABASE_URL}/rest/v1/notification_settings",
             headers=SUPA_HEADERS,
-            params={"profile_id": f"eq.{profile_id}", "select": "market_dm_vocations"},
+            params={"profile_id": f"eq.{profile_id}", "select": "market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs"},
             timeout=10,
         )
         if r.status_code == 200 and r.json():
-            return r.json()[0].get("market_dm_vocations") or ['all']
-        return ['all']
+            row = r.json()[0]
+            return {
+                'rarities':   row.get("market_dm_rarities")   or ['all'],
+                'vocations':  row.get("market_dm_vocations")  or ['all'],
+                'categories': row.get("market_dm_categories") or ['all'],
+                'attrs':      row.get("market_dm_attrs")      or [],
+            }
+        return default
     except Exception as e:
         print(f"[market] erro ao buscar prefs: {e}")
-        return ['all']
+        return default
 
 
-def should_notify_user(discord_user_id: str, item_name: str) -> bool:
+def should_notify_user(discord_user_id: str, item_name: str, rarity: int, item_attrs: str) -> bool:
     """Verifica se o usuário deve receber DM para este item."""
     profile_id = get_profile_id_for_discord(discord_user_id)
     if not profile_id:
         return True  # sem perfil cadastrado, envia sempre
 
-    user_prefs = get_user_market_prefs(profile_id)
-    if 'all' in user_prefs:
-        return True  # quer receber tudo
+    prefs = get_user_market_prefs(profile_id)
 
-    item_vocs = get_item_vocations(item_name)
-    if 'all' in item_vocs:
-        return True  # item é para todas as vocações
+    # Filtro de raridade
+    if 'all' not in prefs['rarities']:
+        if str(rarity) not in prefs['rarities']:
+            return False
 
-    return bool(set(user_prefs) & set(item_vocs))
+    # Filtro de vocação
+    if 'all' not in prefs['vocations']:
+        item_vocs = get_item_vocations(item_name)
+        if 'all' not in item_vocs and not bool(set(prefs['vocations']) & set(item_vocs)):
+            return False
+
+    # Filtro de categoria
+    if 'all' not in prefs['categories']:
+        item_cat = ''
+        if SUPABASE_URL and SUPABASE_KEY:
+            try:
+                r = requests.get(f"{SUPABASE_URL}/rest/v1/items_db", headers=SUPA_HEADERS,
+                    params={"name": f"ilike.{item_name}", "select": "category", "limit": "1"}, timeout=10)
+                if r.status_code == 200 and r.json():
+                    item_cat = r.json()[0].get("category", "")
+            except: pass
+        if item_cat not in prefs['categories']:
+            return False
+
+    # Filtro de atributos (OR)
+    if prefs['attrs']:
+        attrs_lower = item_attrs.lower()
+        if not any(a.lower() in attrs_lower for a in prefs['attrs']):
+            return False
+
+    return True
 
 
 def run():
@@ -301,7 +332,7 @@ def run():
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
             embed = build_embed_new(item, rarity_info)
             for uid in DISCORD_USER_IDS:
-                if not should_notify_user(uid, item["name"]):
+                if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
                     print(f"[market] ℹ {uid} não quer notificação para {item['name']} (vocação)")
                     continue
                 ch = get_dm_channel(uid)
@@ -316,7 +347,7 @@ def run():
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
             embed = build_embed_removed(item, rarity_info, minutes)
             for uid in DISCORD_USER_IDS:
-                if not should_notify_user(uid, item["name"]):
+                if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
                     continue
                 ch = get_dm_channel(uid)
                 if ch: send_dm(ch, embed)
