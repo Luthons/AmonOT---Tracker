@@ -10,6 +10,28 @@ Uso:
 import json
 import os
 import traceback
+import requests
+
+
+def get_enemy_guilds_from_supabase() -> list:
+    """Busca lista de guildas inimigas do Supabase."""
+    url = os.environ.get('SUPABASE_URL', '')
+    key = os.environ.get('SUPABASE_SERVICE_KEY', '')
+    if not url or not key:
+        return []
+    try:
+        r = requests.get(
+            f"{url}/rest/v1/enemy_guilds",
+            headers={'apikey': key, 'Authorization': f'Bearer {key}'},
+            params={'select': 'name', 'limit': '50'},
+            timeout=10,
+        )
+        if r.status_code == 200:
+            return [row['name'] for row in r.json()]
+        return []
+    except Exception as e:
+        print(f'[main] erro ao buscar guildas do Supabase: {e}')
+        return []
 from datetime import datetime, timezone, timedelta
 
 # ── Módulos ───────────────────────────────────────────────────────────────────
@@ -89,7 +111,13 @@ def run():
     previous = load_previous(OUTPUT_PATH)
 
     my_guild     = cfg["my_guild"]
-    enemy_guilds = cfg["enemy_guilds"]
+    # Busca guildas inimigas do Supabase (fallback para config.json)
+    enemy_guilds = get_enemy_guilds_from_supabase()
+    if not enemy_guilds:
+        enemy_guilds = cfg.get("enemy_guilds", [])
+        print(f"[main] usando enemy_guilds do config.json: {enemy_guilds}")
+    else:
+        print(f"[main] guildas inimigas do Supabase: {enemy_guilds}")
     world        = cfg["world"]
     pages        = cfg["deaths_pages"]
 
