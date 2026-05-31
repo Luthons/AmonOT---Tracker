@@ -23,22 +23,27 @@ SUPA_HEADERS = {
 
 # ── Cálculo de pontos ─────────────────────────────────────────────────────────
 
-def calc_points(killer_resets: int, victim_resets: int) -> int:
+def calc_points(killer_resets: int, victim_resets: int, is_hunted: bool = False, is_bonus: bool = False) -> int:
     """
     Lógica de pontuação:
     - Vítima < 30 resets → 1 ponto base
     - Vítima >= 30 resets → (victim_resets - 30) + 1 pontos base
     - Killer < 30 resets → dobra os pontos
+    - Vítima na hunted list → dobra os pontos
+    - Vítima na lista bônus → dobra os pontos
+    Multiplicadores acumulam.
     """
     if victim_resets < 30:
         base = 1
     else:
         base = (victim_resets - 30) + 1
 
-    if killer_resets < 30:
-        base *= 2
+    mult = 1
+    if killer_resets < 30: mult *= 2
+    if is_hunted:           mult *= 2
+    if is_bonus:            mult *= 2
 
-    return base
+    return base * mult
 
 
 # ── Supabase helpers ──────────────────────────────────────────────────────────
@@ -120,6 +125,12 @@ def fetch_player_resets_from_site(name: str) -> int:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def get_bonus_list() -> set:
+    """Busca a lista de personagens com pontos bônus.""""
+    rows = supa_get("kill_bonus_list", {"select": "char_name"})
+    return {r["char_name"].lower() for r in rows}
+
+
 def run():
     if not SUPABASE_URL or not SUPABASE_KEY:
         print("[kill_ranking] ⚠ Supabase não configurado")
@@ -156,6 +167,10 @@ def run():
 
     # Enemy set (guild + hunted)
     enemy_names = set(enemy_map.keys()) | hunted_list
+
+    # Busca lista bônus do Supabase
+    bonus_list = get_bonus_list()
+    print(f"[kill_ranking] {len(bonus_list)} personagens na lista bônus")
 
     # Processa kills do histórico
     kills = guild_data.get("war_history", {}).get("all_kills", [])
@@ -195,7 +210,9 @@ def run():
             victim_resets = fetch_player_resets_from_site(victim)
 
         # Calcula pontos da kill principal
-        points = calc_points(killer_resets, victim_resets)
+        is_hunted = victim.lower() in hunted_list
+        is_bonus  = victim.lower() in bonus_list
+        points = calc_points(killer_resets, victim_resets, is_hunted, is_bonus)
 
         # Converte kill_time para ISO
         try:
