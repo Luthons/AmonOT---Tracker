@@ -3210,7 +3210,7 @@ function calSelectDay(dateStr){
       <div class="event-card-footer">
         <span class="event-joins"><strong>${vagasInfo}</strong>${ev.vagas > 0 ? ` · ${ev.vagas} vagas` : ''}</span>
         <div style="display:flex;gap:6px;align-items:center">
-          ${canCreateEvents() ? `<button class="join-btn" style="border-color:var(--red);color:var(--red);background:rgba(201,80,80,.06)" onclick="deleteCalEvent('${ev.id}')">Deletar</button>` : ''}
+          ${(canCreateEvents() && (getRole() !== 'veterano' || ev.created_by === (currentProfile && currentProfile.id))) ? `<button class="join-btn" style="border-color:var(--red);color:var(--red);background:rgba(201,80,80,.06)" onclick="deleteCalEvent('${ev.id}')">Deletar</button>` : ''}
           <button class="join-btn" onclick="openJoin('${ev.id}','${ev.nome.replace(/'/g,'')}')"
             ${ev.vagas > 0 && joins >= ev.vagas ? 'disabled' : ''}>
             ${ev.vagas > 0 && joins >= ev.vagas ? 'Vagas esgotadas' : 'Confirmar Presença'}
@@ -3337,13 +3337,31 @@ async function submitJoin(){
 
   // Validação de share obrigatório
   if(shareReq && joinResets > 0){
-    var existing  = calJoins[joinEventId];
-    if(existing && Object.keys(existing.resets||{}).length > 0){
-      var testResets = Object.assign({}, existing.resets, {[charName]: joinResets});
-      var testJoins  = {resets: testResets};
-      var realShare  = calcRealShare(testJoins);
-      if(!realShare){
-        status.textContent = '❌ Seus resets são incompatíveis com o range atual do grupo.';
+    var existing = calJoins[joinEventId];
+    var existingResets = (existing && existing.resets) ? existing.resets : {};
+    var myShare = calcShare(joinResets);
+
+    if(!myShare){
+      status.textContent = '❌ Resets inválidos.';
+      status.className = 'modal-status err';
+      return;
+    }
+
+    if(Object.keys(existingResets).length > 0){
+      // Calcula range atual do grupo (sem o novo jogador)
+      var currentShare = calcRealShare({resets: existingResets});
+      if(currentShare){
+        // Novo jogador precisa estar dentro do range atual
+        if(joinResets < currentShare.min || joinResets > currentShare.max){
+          status.textContent = '❌ Seus resets ('+joinResets+') estão fora do range atual do grupo (Min: '+currentShare.min+' | Max: '+currentShare.max+').';
+          status.className = 'modal-status err';
+          return;
+        }
+      }
+    } else if(ev.share){
+      // Sem participantes ainda — verifica contra o range do evento
+      if(joinResets < ev.share.min || joinResets > ev.share.max){
+        status.textContent = '❌ Seus resets ('+joinResets+') estão fora do range do evento (Min: '+ev.share.min+' | Max: '+ev.share.max+').';
         status.className = 'modal-status err';
         return;
       }
@@ -3464,6 +3482,14 @@ async function submitCreateEvent(){
 
 async function deleteCalEvent(eventId){
   if(!canCreateEvents()) return;
+  // Veterano só pode deletar eventos que criou
+  if(getRole() === 'veterano'){
+    var ev = calEvents.find(function(e){ return e.id === eventId; });
+    if(!ev || ev.created_by !== (currentProfile && currentProfile.id)){
+      alert('Você só pode deletar eventos que criou.');
+      return;
+    }
+  }
   if(!confirm('Deletar este evento? Os joins também serão removidos.')) return;
   try {
     await supaFetch('calendar_events?id=eq.'+eventId, null, 'DELETE');
