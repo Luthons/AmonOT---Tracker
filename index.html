@@ -6250,7 +6250,7 @@ async function loadKDA(){
   try {
     // Build time params
     var now    = new Date();
-    var kParams = {select:'killer,is_assist,kill_time', limit:'5000'};
+    var kParams = {select:'killer,victim,victim_resets,points,is_assist,kill_time', limit:'5000'};
     var dParams = {select:'player,time,killedBy', limit:'5000'};
 
     if(kdaCurrentTab === 'day'){
@@ -6320,11 +6320,72 @@ async function loadKDA(){
       kdaMap[name].deaths++;
     });
 
-    // Apply player filter
-    var rows = Object.entries(kdaMap).filter(function(e){
-      if(!playerFilter) return true;
-      return e[0].toLowerCase().includes(playerFilter);
-    }).map(function(e){
+    // If specific player filtered — show 3 detail tables
+    if(playerFilter && playerFilter.length >= 2){
+      // Find exact or partial match kills
+      var playerKills   = kills.filter(function(k){ return !k.is_assist && k.killer.toLowerCase().includes(playerFilter); });
+      var playerAssists = kills.filter(function(k){ return  k.is_assist && k.killer.toLowerCase().includes(playerFilter); });
+      var playerDeaths  = filteredDeaths.filter(function(d){ return d.player.toLowerCase().includes(playerFilter); });
+
+      var fmtDate = function(iso){ try{ return new Date(iso).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); }catch(e){ return iso||''; } };
+      var fmtDeathDate = function(str){ var dt = parseDeathDate(str); return dt ? dt.toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}) : str; };
+
+      var html = '';
+
+      // Kills table
+      html += '<div style="font-family:Cinzel,serif;font-size:.75rem;letter-spacing:.1em;color:var(--online);margin-bottom:10px;margin-top:4px">⚔ KILLS ('+playerKills.length+')</div>';
+      if(playerKills.length){
+        html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Pontos</th><th>Data</th></tr></thead><tbody>'
+          + playerKills.map(function(k){
+            return '<tr>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+k.victim+'</td>'
+              +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
+              +'<td style="color:var(--gold-light);font-weight:600">'+k.points+'</td>'
+              +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
+              +'</tr>';
+          }).join('')
+          +'</tbody></table>';
+      } else {
+        html += '<div style="color:var(--text-dim);font-size:.8rem;margin-bottom:24px">Nenhuma kill no período.</div>';
+      }
+
+      // Deaths table
+      html += '<div style="font-family:Cinzel,serif;font-size:.75rem;letter-spacing:.1em;color:var(--red);margin-bottom:10px">💀 DEATHS ('+playerDeaths.length+')</div>';
+      if(playerDeaths.length){
+        html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Morto por</th><th>Data</th></tr></thead><tbody>'
+          + playerDeaths.map(function(d){
+            return '<tr>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+d.killedBy+'</td>'
+              +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDeathDate(d.time)+'</td>'
+              +'</tr>';
+          }).join('')
+          +'</tbody></table>';
+      } else {
+        html += '<div style="color:var(--text-dim);font-size:.8rem;margin-bottom:24px">Nenhuma death no período.</div>';
+      }
+
+      // Assists table
+      html += '<div style="font-family:Cinzel,serif;font-size:.75rem;letter-spacing:.1em;color:var(--text-dim);margin-bottom:10px">🤝 ASSISTS ('+playerAssists.length+')</div>';
+      if(playerAssists.length){
+        html += '<table class="admin-table"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Data</th></tr></thead><tbody>'
+          + playerAssists.map(function(k){
+            return '<tr>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+k.victim+'</td>'
+              +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
+              +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
+              +'</tr>';
+          }).join('')
+          +'</tbody></table>';
+      } else {
+        html += '<div style="color:var(--text-dim);font-size:.8rem">Nenhum assist no período.</div>';
+      }
+
+      cont.innerHTML = html;
+      return;
+    }
+
+    // No player filter — show ranking
+    var rows = Object.entries(kdaMap).map(function(e){
       var p = e[1];
       var kda = ((p.kills + p.assists) / Math.max(p.deaths, 1));
       return {player: e[0], kills: p.kills, deaths: p.deaths, assists: p.assists, kda: kda};
