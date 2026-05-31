@@ -140,7 +140,7 @@ def run():
     hunted = supa_get("hunted_list", {"select": "id,name"})
     print(f"[nick_tracker] verificando {len(hunted)} players na hunted list...")
     for h in hunted:
-        check_and_update("hunted_list", "name", h["name"], h["id"])
+        check_and_update("hunted_list", "name", h["name"], h["id"], update_resets=True)
         time.sleep(1)  # respeita rate limit
 
     # 2. Bonus list
