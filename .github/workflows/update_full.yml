@@ -27,6 +27,8 @@ jobs:
       - name: Rodar scraper completo (com fetch_chars)
         env:
           FETCH_CHARS: "true"
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python main.py
 
       - name: Tracker de mudanças de nick
