@@ -91,25 +91,44 @@ def get_character_info(name: str) -> dict:
         return {}
 
 
-def check_and_update(table: str, name_field: str, player_name: str, record_id: str):
+def get_player_resets_from_site(name: str) -> int | None:
+    """Busca resets de um player diretamente na página do amonOT."""
+    try:
+        url = AMONOT_CHAR_URL.format(requests.utils.quote(name))
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            return None
+        soup = BeautifulSoup(r.text, "html.parser")
+        import re
+        text = soup.get_text()
+        m = re.search(r'(\d+)\s*[Rr]eset', text)
+        return int(m.group(1)) if m else None
+    except:
+        return None
+
+
+def check_and_update(table: str, name_field: str, player_name: str, record_id: str, update_resets: bool = False):
     """Verifica se o player mudou de nick e atualiza se necessário."""
     info = get_character_info(player_name)
     if not info:
         return
 
     current = info.get("current_name")
-    former  = info.get("former_names", [])
+    update_body = {}
 
-    # Se o nome atual retornado é diferente do que temos
-    # (significa que buscamos pelo nome antigo mas o personagem tem nome novo)
+    # Nick change
     if current and current.lower() != player_name.lower():
-        # O player mudou de nick
         print(f"[nick_tracker] 🔄 Nick change: '{player_name}' → '{current}'")
-        supa_patch(table, {"id": f"eq.{record_id}"}, {name_field: current})
-        return
+        update_body[name_field] = current
 
-    # Se o nome que buscamos aparece como "nome anterior" de outro personagem
-    # isso é tratado na busca reversa abaixo
+    # Update resets if requested (for bonus list)
+    if update_resets:
+        resets = info.get("resets")
+        if resets is not None:
+            update_body["resets"] = resets
+
+    if update_body:
+        supa_patch(table, {"id": f"eq.{record_id}"}, update_body)
 
 
 def run():
@@ -128,7 +147,7 @@ def run():
     bonus = supa_get("kill_bonus_list", {"select": "id,char_name"})
     print(f"[nick_tracker] verificando {len(bonus)} players na lista bônus...")
     for b in bonus:
-        check_and_update("kill_bonus_list", "char_name", b["char_name"], b["id"])
+        check_and_update("kill_bonus_list", "char_name", b["char_name"], b["id"], update_resets=True)
         time.sleep(1)
 
     # 3. Guild inimiga — atualiza no guild_data.json via scraper (já feito pelo main.py)
