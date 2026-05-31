@@ -2023,6 +2023,7 @@ function _navigate(page){
     if(bonusTab) bonusTab.style.display = ['admin','lider','vice'].includes(getRole()) ? '' : 'none';
   }
   if(page==='kda'){ kdaRenderFilters(); loadKDA(); }
+  if(page==='hunted') loadHunted();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -2683,9 +2684,17 @@ function getEnemyStatus(name){
 }
 
 function getEnemyResets(name){
-  var m=allEnemyMembers.find(function(e){return e.name.toLowerCase()===name.toLowerCase()});
-  if(!m)return null;
-  return m.resets;
+  var nameLower = name.toLowerCase();
+  // Check enemy guild members
+  var m = allEnemyMembers.find(function(e){return e.name.toLowerCase()===nameLower;});
+  if(m) return m.resets;
+  // Check war rankings for resets info
+  var gd = window._guildData;
+  if(gd && gd.war_rankings){
+    var wr = gd.war_rankings.find && gd.war_rankings.find(function(r){return r.name && r.name.toLowerCase()===nameLower;});
+    if(wr && wr.resets != null) return wr.resets;
+  }
+  return null;
 }
 
 async function loadHunted(){
