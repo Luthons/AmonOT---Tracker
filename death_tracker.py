@@ -369,6 +369,65 @@ def run():
     cleanup_snapshot()
     print(f"[death_tracker] ✅ {new_count} novas mortes notificadas")
 
+    # Verifica hunted list automática
+    check_auto_hunted(guild_data)
+
+
+def check_auto_hunted(guild_data: dict):
+    """Verifica jogadores externos com 2+ kills em membros LP e adiciona à hunted list."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return
+
+    # Monta set de membros LP
+    lp_members = {m["name"].lower() for m in guild_data.get("members", [])}
+
+    # Conta kills por killer externo
+    kill_counts = {}
+    for death in guild_data.get("deaths_global", []):
+        if not death.get("isPvp"):
+            continue
+        player  = death.get("player", "").lower()
+        killer  = death.get("killedBy", "")
+        if not player or not killer:
+            continue
+        # Só conta se vítima é LP e killer não é LP
+        if player not in lp_members:
+            continue
+        if killer.lower() in lp_members:
+            continue
+        kill_counts[killer] = kill_counts.get(killer, 0) + 1
+
+    # Busca hunted list atual
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/hunted_list",
+            headers=SUPA_HEADERS,
+            params={"select": "name"},
+            timeout=10,
+        )
+        existing = {row["name"].lower() for row in (r.json() if r.status_code == 200 else [])}
+    except:
+        existing = set()
+
+    # Adiciona quem tem 2+ kills e não está na lista
+    for killer, count in kill_counts.items():
+        if count >= 2 and killer.lower() not in existing:
+            try:
+                requests.post(
+                    f"{SUPABASE_URL}/rest/v1/hunted_list",
+                    headers={**SUPA_HEADERS, "Prefer": "resolution=ignore-duplicates,return=minimal"},
+                    json={
+                        "name":     killer,
+                        "reason":   f"Matou {count} membro(s) LP (auto-detectado)",
+                        "added_by": "Sistema",
+                        "source":   "auto",
+                    },
+                    timeout=10,
+                )
+                print(f"[death_tracker] ⚠ {killer} adicionado à hunted list ({count} kills)")
+            except Exception as e:
+                print(f"[death_tracker] erro ao adicionar hunted: {e}")
+
 
 if __name__ == "__main__":
     run()
