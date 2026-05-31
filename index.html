@@ -2126,14 +2126,8 @@ async function supaFetch(table, params, method='GET', body=null){
   var url = SUPABASE_URL + '/rest/v1/' + table;
   if(params) url += '?' + new URLSearchParams(params).toString();
   // Usa JWT do usuário logado quando disponível — necessário para RLS funcionar
-  var token = SUPABASE_ANON_KEY;
-  try {
-    if(typeof _supa !== 'undefined' && _supa) {
-      var sess = await _supa.auth.getSession();
-      if(sess && sess.data && sess.data.session && sess.data.session.access_token)
-        token = sess.data.session.access_token;
-    }
-  } catch(e) { /* fallback para anon key */ }
+  // Token é cacheado para evitar múltiplos getSession() em sequência travarem o fluxo
+  var token = supaFetch._cachedToken || SUPABASE_ANON_KEY;
   var headers = {
     'apikey': SUPABASE_ANON_KEY,
     'Authorization': 'Bearer ' + token,
@@ -2143,6 +2137,19 @@ async function supaFetch(table, params, method='GET', body=null){
   var opts = {method, headers};
   if(body) opts.body = JSON.stringify(body);
   var r = await fetch(url, opts);
+  // Se 401, tenta renovar token uma vez e repetir
+  if(r.status === 401){
+    try {
+      var sess = await _supa.auth.getSession();
+      if(sess && sess.data && sess.data.session && sess.data.session.access_token){
+        token = sess.data.session.access_token;
+        supaFetch._cachedToken = token;
+        headers['Authorization'] = 'Bearer ' + token;
+        opts.headers = headers;
+        r = await fetch(url, opts);
+      }
+    } catch(e) { /* mantém resposta 401 original */ }
+  }
   if(!r.ok){
     var err = await r.text();
     throw new Error(err);
@@ -3735,6 +3742,7 @@ async function initAuth(){
   var session = sessionResult && sessionResult.data && sessionResult.data.session;
   if(session){
     currentUser = session.user;
+    if(session.access_token) supaFetch._cachedToken = session.access_token;
     hideLoginScreen();
     await loadProfile();
   } else {
@@ -3744,11 +3752,13 @@ async function initAuth(){
   _supa.auth.onAuthStateChange(async(event, session)=>{
     if(event==='SIGNED_IN'&&session){
       currentUser = session.user;
+      if(session.access_token) supaFetch._cachedToken = session.access_token;
       hideLoginScreen();
       await loadProfile();
     } else if(event==='SIGNED_OUT'){
       currentUser    = null;
       currentProfile = null;
+      supaFetch._cachedToken = null;
       updateAuthUI();
       showLoginScreen();
     }
@@ -3952,6 +3962,15 @@ async function submitRegister(){
   status.textContent='Verificando código...';status.className='modal-status ok';
 
   try {
+    // Garante que temos o token mais recente antes de qualquer chamada
+    if(typeof _supa !== 'undefined' && _supa){
+      try {
+        var sess = await _supa.auth.getSession();
+        if(sess?.data?.session?.access_token)
+          supaFetch._cachedToken = sess.data.session.access_token;
+      } catch(e){ /* mantém token cacheado */ }
+    }
+
     // Verifica código de convite
     var {data:codes} = await supaFetch('invite_codes', {
       code: 'eq.'+invite,
@@ -3963,6 +3982,8 @@ async function submitRegister(){
       status.textContent='Código inválido ou expirado.';status.className='modal-status err';return;
     }
     var code = codes[0];
+
+    status.textContent='Criando perfil...';status.className='modal-status ok';
 
     // Cria perfil
     var {data:profiles} = await supaFetch('profiles', null, 'POST', {
