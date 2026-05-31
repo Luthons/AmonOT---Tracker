@@ -250,7 +250,12 @@ def run():
         if ok:
             print(f"[kill_ranking] ✅ {len(batch)} registros inseridos ({processed} kills)")
         else:
-            print(f"[kill_ranking] ❌ erro ao inserir")
+            # Try inserting one by one to find the problematic record
+            print(f"[kill_ranking] ❌ erro no lote, tentando um por um...")
+            for record in batch:
+                ok2 = supa_post("kill_rankings", [record])
+                if not ok2:
+                    print(f"[kill_ranking] ❌ falhou: {record}")
     else:
         print(f"[kill_ranking] ℹ nenhuma kill nova para processar ({skipped} ignoradas)")
 
