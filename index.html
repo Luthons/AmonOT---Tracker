@@ -6425,7 +6425,9 @@ async function loadBonusList(){
     html += '<table class="admin-table"><thead><tr><th>Personagem</th><th>Resets</th><th>Status</th><th>Adicionado em</th>'+(isStaff?'<th></th>':'')+'</tr></thead><tbody>'
       + bonus.map(function(b){
         var date = new Date(b.created_at).toLocaleDateString('pt-BR');
+        // Try enemy members first, fallback to Supabase stored resets
         var resets = getEnemyResets(b.char_name);
+        if(resets == null && b.resets != null) resets = b.resets;
         var online = getEnemyStatus(b.char_name);
         var resetsHtml = resets != null ? resets+' rr' : '<span style="color:var(--text-dim)">—</span>';
         var statusHtml = online===true ? '<span style="color:var(--online);font-size:.75rem">● Online</span>'
