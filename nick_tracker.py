@@ -50,7 +50,14 @@ def supa_patch(table, params, body):
             headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
             params=params, json=body, timeout=10,
         )
-        return r.status_code in (200, 204)
+        if r.status_code not in (200, 204):
+            print(f"[nick_tracker] PATCH {table} status={r.status_code} params={params} body={body}")
+            try:
+                print(f"[nick_tracker] PATCH erro: {r.json()}")
+            except Exception:
+                print(f"[nick_tracker] PATCH resposta: {r.text[:200]}")
+            return False
+        return True
     except Exception as e:
         print(f"[nick_tracker] erro PATCH: {e}")
         return False
@@ -75,16 +82,19 @@ def fetch_character_info(name: str) -> dict:
         soup = BeautifulSoup(r.text, "html.parser")
 
         # ── Caso 1: nick mudou — página "Você quis dizer?" ────────────────────
-        # Estrutura: div.characters-table > a[href*="?name=Novo+Nome"]
-        # Há dois div.page-card-body na página (form de busca + resultado),
-        # então buscamos direto na div.characters-table para não depender do pai.
+        # Estrutura: div.page-card-body > label "Nomes Anteriores" + div.characters-table > a
+        #
+        # CUIDADO: div.characters-table também aparece em páginas de guilda
+        # (quando o personagem não existe e o site sugere membros da guilda).
+        # O discriminador obrigatório é o texto "Nomes Anteriores" no elemento pai.
         char_table = soup.find("div", class_="characters-table")
         if char_table:
-            if True:
+            parent_text = char_table.parent.get_text(separator=" ", strip=True)
+            is_nick_change = "Nomes Anteriores" in parent_text or "Former Names" in parent_text
+            if is_nick_change:
                 link = char_table.find("a", href=True)
                 if link:
                     href = link["href"]
-                    # Extrai o nome do query param: /characters?name=Leozin+Rei+Delas
                     parsed = urlparse(href)
                     qs = parse_qs(parsed.query)
                     new_name_list = qs.get("name", [])
@@ -93,6 +103,8 @@ def fetch_character_info(name: str) -> dict:
                         if new_name.lower() != name.lower():
                             print(f"[nick_tracker] 🔄 '{name}' → '{new_name}'")
                             return {"changed": True, "new_name": new_name, "resets": None}
+            else:
+                print(f"[nick_tracker] ⚠ '{name}': characters-table sem 'Nomes Anteriores' — personagem não encontrado")
 
         # ── Caso 2: ficha normal — extrai resets ─────────────────────────────
         details = {}
@@ -165,7 +177,7 @@ def update_kill_rankings(old_name: str, new_name: str):
 
 # ── Lógica principal por player ───────────────────────────────────────────────
 
-def check_player(table: str, name_field: str, player_name: str, record_id: str):
+def check_player(table: str, name_field: str, player_name: str):
     info = fetch_character_info(player_name)
 
     if info.get("not_found"):
@@ -173,22 +185,17 @@ def check_player(table: str, name_field: str, player_name: str, record_id: str):
 
     if info.get("changed"):
         new_name = info["new_name"]
-        update_body = {name_field: new_name}
-
-        ok = supa_patch(table, {"id": f"eq.{record_id}"}, update_body)
+        # Filtra pelo nome atual (mais confiável que id em caso de inconsistência)
+        ok = supa_patch(table, {name_field: f"eq.{player_name}"}, {name_field: new_name})
         if ok:
             print(f"[nick_tracker] ✅ {table}: '{player_name}' → '{new_name}'")
-            # Preserva histórico de kills/deaths
             update_kill_rankings(player_name, new_name)
         else:
             print(f"[nick_tracker] ❌ falha ao atualizar '{player_name}' em {table}")
     else:
-        # Sem mudança de nick — atualiza resets se vieram
-        update_body = {}
+        # Sem mudança — atualiza resets se vieram
         if info.get("resets") is not None:
-            update_body["resets"] = info["resets"]
-        if update_body:
-            supa_patch(table, {"id": f"eq.{record_id}"}, update_body)
+            supa_patch(table, {name_field: f"eq.{player_name}"}, {"resets": info["resets"]})
         print(f"[nick_tracker] ✓ '{player_name}': sem mudança (resets={info.get('resets', '?')})")
 
 
@@ -203,14 +210,14 @@ def run():
     hunted = supa_get("hunted_list", {"select": "id,name"})
     print(f"[nick_tracker] verificando {len(hunted)} players na hunted list...")
     for h in hunted:
-        check_player("hunted_list", "name", h["name"], h["id"])
+        check_player("hunted_list", "name", h["name"])
         time.sleep(0.7)
 
     # Bonus list
     bonus = supa_get("kill_bonus_list", {"select": "id,char_name"})
     print(f"[nick_tracker] verificando {len(bonus)} players na lista bônus...")
     for b in bonus:
-        check_player("kill_bonus_list", "char_name", b["char_name"], b["id"])
+        check_player("kill_bonus_list", "char_name", b["char_name"])
         time.sleep(0.7)
 
     print("[nick_tracker] ✅ verificação concluída")
