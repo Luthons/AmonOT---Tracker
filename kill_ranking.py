@@ -158,12 +158,10 @@ def run():
     # Monta set de nomes de membros LP (para validar killedBy e maiorDano)
     lp_members = set(members_map.keys())
 
-    # Monta hunted list
-    hunted_list = set()
-    for h in guild_data.get("hunted_list", []):
-        name = (h.get("name") or h if isinstance(h, str) else "").lower()
-        if name:
-            hunted_list.add(name)
+    # Monta hunted list do Supabase
+    hunted_rows = supa_get("hunted_list", {"select": "name"})
+    hunted_list = {r["name"].lower() for r in hunted_rows}
+    print(f"[kill_ranking] {len(hunted_list)} players na hunted list")
 
     # Enemy set (guild + hunted)
     enemy_names = set(enemy_map.keys()) | hunted_list
