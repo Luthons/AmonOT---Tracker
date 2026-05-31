@@ -1,11 +1,10 @@
 """
 nick_tracker.py
-Detecta mudanças de nick em players das listas (hunted, bonus, guild inimiga)
-buscando a página de personagens do amonOT e verificando "Nomes Anteriores".
+Detecta mudanças de nick em players das listas (hunted, bonus)
+usando o mesmo characters.py do scraper principal.
 Roda junto com o update_full (a cada 30min).
 """
 
-import json
 import os
 import time
 import requests
@@ -20,8 +19,10 @@ SUPA_HEADERS = {
     "Content-Type":  "application/json",
 }
 
-AMONOT_CHAR_URL = "https://amonot.online/characters?name={}"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
+    "Accept-Language": "pt-BR,pt;q=0.9",
+}
 
 
 def supa_get(table, params):
@@ -46,86 +47,74 @@ def supa_patch(table, params, body):
         return False
 
 
-def get_character_info(name: str) -> dict:
-    """Busca info do personagem no amonOT: nome atual e nomes anteriores."""
+def fetch_character_info(name: str) -> dict:
+    """Busca info do personagem usando o mesmo padrão do characters.py."""
+    url = f"https://amonot.online/characters?name={requests.utils.quote(name)}"
     try:
-        url = AMONOT_CHAR_URL.format(requests.utils.quote(name))
         r = requests.get(url, headers=HEADERS, timeout=15)
         if r.status_code != 200:
             return {}
 
         soup = BeautifulSoup(r.text, "html.parser")
+        details = {}
+        for row in soup.select(".char-detail-row"):
+            label = row.select_one(".char-detail-label")
+            value = row.select_one(".char-detail-value")
+            if label and value:
+                details[label.get_text(strip=True)] = value.get_text(strip=True)
+
+        former_names_raw = details.get("Nomes Anteriores", details.get("Former Names", ""))
+        former_names = [n.strip() for n in former_names_raw.split(",") if n.strip()] if former_names_raw else []
+
+        try:
+            resets = int(details.get("Resets", "0"))
+        except:
+            resets = None
+
+        # Extract current name from page title/header
+        import re
+        current_name = None
+        # Look for "Resultados para" in page text
         text = soup.get_text(separator="\n")
-        lines = [l.strip() for l in text.split("\n") if l.strip()]
+        m = re.search(r'Resultados para[^\n]*"([^"]+)"', text)
+        if m:
+            current_name = m.group(1)
 
-        result = {"current_name": None, "former_names": [], "resets": None}
-
-        # Find "Resultados para" line to get current name
-        for i, line in enumerate(lines):
-            if "Resultados para" in line:
-                # Extract name from quotes
-                import re
-                m = re.search(r'"(.+?)"', line)
-                if m:
-                    result["current_name"] = m.group(1)
-
-            # Find "Nomes Anteriores" section
-            if "Nomes Anteriores" in line and i + 1 < len(lines):
-                # Next lines are former names until empty or next section
-                for j in range(i + 1, min(i + 10, len(lines))):
-                    next_line = lines[j]
-                    if not next_line or any(k in next_line for k in ["Reset", "Level", "Guild", "Vocation", "Status"]):
-                        break
-                    result["former_names"].append(next_line)
-
-            # Find resets
-            if "resets" in line.lower() and i > 0:
-                import re
-                m = re.search(r"(\d+)\s*reset", line, re.IGNORECASE)
-                if m:
-                    result["resets"] = int(m.group(1))
-
-        return result
+        return {
+            "current_name":  current_name,
+            "former_names":  former_names,
+            "resets":        resets,
+        }
     except Exception as e:
         print(f"[nick_tracker] erro ao buscar {name}: {e}")
         return {}
 
 
-def get_player_resets_from_site(name: str) -> int | None:
-    """Busca resets de um player diretamente na página do amonOT."""
-    try:
-        url = AMONOT_CHAR_URL.format(requests.utils.quote(name))
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            return None
-        soup = BeautifulSoup(r.text, "html.parser")
-        import re
-        text = soup.get_text()
-        m = re.search(r'(\d+)\s*[Rr]eset', text)
-        return int(m.group(1)) if m else None
-    except:
-        return None
-
-
-def check_and_update(table: str, name_field: str, player_name: str, record_id: str, update_resets: bool = False):
-    """Verifica se o player mudou de nick e atualiza se necessário."""
-    info = get_character_info(player_name)
+def check_player(table: str, name_field: str, player_name: str, record_id: str, update_resets: bool = False):
+    """Verifica nick change e atualiza resets se necessário."""
+    info = fetch_character_info(player_name)
     if not info:
         return
 
-    current = info.get("current_name")
     update_body = {}
 
-    # Nick change
-    if current and current.lower() != player_name.lower():
-        print(f"[nick_tracker] 🔄 Nick change: '{player_name}' → '{current}'")
-        update_body[name_field] = current
+    # Nick change: se o nome que buscamos aparece como nome anterior
+    # significa que o personagem mudou para um nome novo
+    current = info.get("current_name")
+    former  = info.get("former_names", [])
 
-    # Update resets if requested (for bonus list)
-    if update_resets:
-        resets = info.get("resets")
-        if resets is not None:
-            update_body["resets"] = resets
+    if current and current.lower() != player_name.lower():
+        # O nome atual retornado é diferente do que temos — mudou de nick
+        print(f"[nick_tracker] 🔄 {player_name} → {current}")
+        update_body[name_field] = current
+    elif former and any(f.lower() == player_name.lower() for f in former):
+        # O nome que temos está na lista de nomes anteriores
+        # Isso não deveria acontecer na busca direta, mas por segurança
+        print(f"[nick_tracker] ⚠ {player_name} aparece como nome anterior (inconsistência)")
+
+    # Atualiza resets se solicitado
+    if update_resets and info.get("resets") is not None:
+        update_body["resets"] = info["resets"]
 
     if update_body:
         supa_patch(table, {"id": f"eq.{record_id}"}, update_body)
@@ -140,27 +129,15 @@ def run():
     hunted = supa_get("hunted_list", {"select": "id,name"})
     print(f"[nick_tracker] verificando {len(hunted)} players na hunted list...")
     for h in hunted:
-        check_and_update("hunted_list", "name", h["name"], h["id"], update_resets=True)
-        time.sleep(1)  # respeita rate limit
+        check_player("hunted_list", "name", h["name"], h["id"], update_resets=True)
+        time.sleep(0.5)
 
     # 2. Bonus list
     bonus = supa_get("kill_bonus_list", {"select": "id,char_name"})
     print(f"[nick_tracker] verificando {len(bonus)} players na lista bônus...")
     for b in bonus:
-        check_and_update("kill_bonus_list", "char_name", b["char_name"], b["id"], update_resets=True)
-        time.sleep(1)
-
-    # 3. Guild inimiga — atualiza no guild_data.json via scraper (já feito pelo main.py)
-    # Aqui apenas logamos mudanças detectadas
-    try:
-        with open("guild_data.json", encoding="utf-8") as f:
-            guild_data = json.load(f)
-        enemy_members = []
-        for eg in guild_data.get("enemy_guilds", []):
-            enemy_members.extend(eg.get("members", []))
-        print(f"[nick_tracker] {len(enemy_members)} membros inimigos (atualizados pelo scraper)")
-    except Exception as e:
-        print(f"[nick_tracker] erro ao ler guild_data: {e}")
+        check_player("kill_bonus_list", "char_name", b["char_name"], b["id"], update_resets=True)
+        time.sleep(0.5)
 
     print("[nick_tracker] ✅ verificação concluída")
 
