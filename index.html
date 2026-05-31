@@ -2720,6 +2720,11 @@ async function loadHunted(){
     var icon = isManual ? '⚠' : '🔍';
     var onlineStatus = getEnemyStatus(h.name);
     var resets = getEnemyResets(h.name);
+    // Fallback to stored resets if not in enemy members
+    if(resets == null && h.resets != null) resets = h.resets;
+    var onlineStored = h.online;
+    if(onlineStatus === null && onlineStored !== null) onlineStatus = onlineStored;
+
     var statusHtml = '';
     if(onlineStatus===true)       statusHtml='<span class="dot online" style="margin-left:8px"></span><span class="status-text online" style="font-size:.78rem">Online</span>';
     else if(onlineStatus===false) statusHtml='<span class="dot offline" style="margin-left:8px"></span><span class="status-text offline" style="font-size:.78rem">Offline</span>';
@@ -6433,8 +6438,9 @@ async function loadBonusList(){
         var statusHtml = online===true ? '<span style="color:var(--online);font-size:.75rem">● Online</span>'
           : online===false ? '<span style="color:var(--text-dim);font-size:.75rem">○ Offline</span>'
           : '<span style="color:var(--text-dim);font-size:.75rem">—</span>';
+        var bUrl = 'https://amonot.online/characters?name='+encodeURIComponent(b.char_name);
         return '<tr>'
-          +'<td style="font-family:Cinzel,serif;font-size:.82rem">'+b.char_name+'</td>'
+          +'<td style="font-family:Cinzel,serif;font-size:.82rem"><a href="'+bUrl+'" target="_blank" rel="noopener" style="color:var(--text)">'+b.char_name+'</a></td>'
           +'<td style="color:var(--gold-dim);font-size:.8rem">'+resetsHtml+'</td>'
           +'<td>'+statusHtml+'</td>'
           +'<td style="color:var(--text-dim);font-size:.78rem">'+date+'</td>'
