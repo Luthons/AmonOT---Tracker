@@ -2693,7 +2693,7 @@ async function loadHunted(){
   if(!cont) return;
 
   // Show add form for staff
-  var isStaff = ['admin','lider','vice'].includes(getRole());
+  var isStaff = ['admin','lider','vice'].includes(currentProfile && currentProfile.role || '');
   var formWrap = document.getElementById('hunted-form-wrap');
   if(formWrap) formWrap.style.display = isStaff ? 'block' : 'none';
 
@@ -6413,11 +6413,19 @@ async function loadBonusList(){
   if(!bonus || !bonus.length){
     html += '<div style="color:var(--text-dim);font-style:italic">Nenhum personagem na lista.</div>';
   } else {
-    html += '<table class="admin-table"><thead><tr><th>Personagem</th><th>Adicionado em</th>'+(isStaff?'<th></th>':'')+'</tr></thead><tbody>'
+    html += '<table class="admin-table"><thead><tr><th>Personagem</th><th>Resets</th><th>Status</th><th>Adicionado em</th>'+(isStaff?'<th></th>':'')+'</tr></thead><tbody>'
       + bonus.map(function(b){
         var date = new Date(b.created_at).toLocaleDateString('pt-BR');
+        var resets = getEnemyResets(b.char_name);
+        var online = getEnemyStatus(b.char_name);
+        var resetsHtml = resets != null ? resets+' rr' : '<span style="color:var(--text-dim)">—</span>';
+        var statusHtml = online===true ? '<span style="color:var(--online);font-size:.75rem">● Online</span>'
+          : online===false ? '<span style="color:var(--text-dim);font-size:.75rem">○ Offline</span>'
+          : '<span style="color:var(--text-dim);font-size:.75rem">—</span>';
         return '<tr>'
           +'<td style="font-family:Cinzel,serif;font-size:.82rem">'+b.char_name+'</td>'
+          +'<td style="color:var(--gold-dim);font-size:.8rem">'+resetsHtml+'</td>'
+          +'<td>'+statusHtml+'</td>'
           +'<td style="color:var(--text-dim);font-size:.78rem">'+date+'</td>'
           +(isStaff ? '<td><button class="admin-edit-btn" style="color:var(--red);border-color:rgba(201,80,80,.3);font-size:.6rem" data-id="'+b.id+'" onclick="removeBonusChar(this)">Remover</button></td>' : '')
           +'</tr>';
