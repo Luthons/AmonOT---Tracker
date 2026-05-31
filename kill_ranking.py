@@ -126,7 +126,7 @@ def fetch_player_resets_from_site(name: str) -> int:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def get_bonus_list() -> set:
-    """Busca a lista de personagens com pontos bônus.""""
+    """Busca a lista de personagens com pontos bonus."""
     rows = supa_get("kill_bonus_list", {"select": "char_name"})
     return {r["char_name"].lower() for r in rows}
 
