@@ -43,6 +43,19 @@ def supa_get(table, params):
         return []
 
 
+def supa_delete(table, params):
+    try:
+        r = requests.delete(
+            f"{SUPABASE_URL}/rest/v1/{table}",
+            headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
+            params=params, timeout=10,
+        )
+        return r.status_code in (200, 204)
+    except Exception as e:
+        print(f"[nick_tracker] erro DELETE: {e}")
+        return False
+
+
 def supa_patch(table, params, body):
     try:
         r = requests.patch(
@@ -51,6 +64,10 @@ def supa_patch(table, params, body):
             params=params, json=body, timeout=10,
         )
         if r.status_code not in (200, 204):
+            # 409 = novo nome já existe na tabela como entrada separada
+            # Solução: deletar o registro antigo (o novo já está lá)
+            if r.status_code == 409:
+                return "duplicate"
             print(f"[nick_tracker] PATCH {table} status={r.status_code} params={params} body={body}")
             try:
                 print(f"[nick_tracker] PATCH erro: {r.json()}")
@@ -104,7 +121,9 @@ def fetch_character_info(name: str) -> dict:
                             print(f"[nick_tracker] 🔄 '{name}' → '{new_name}'")
                             return {"changed": True, "new_name": new_name, "resets": None}
             else:
-                print(f"[nick_tracker] ⚠ '{name}': characters-table sem 'Nomes Anteriores' — personagem não encontrado")
+                # characters-table presente mas sem "Nomes Anteriores" = busca fuzzy do site
+                # O personagem existe com outro nome similar — não é mudança de nick rastreável
+                pass
 
         # ── Caso 2: ficha normal — extrai resets ─────────────────────────────
         details = {}
@@ -185,9 +204,15 @@ def check_player(table: str, name_field: str, player_name: str):
 
     if info.get("changed"):
         new_name = info["new_name"]
-        # Filtra pelo nome atual (mais confiável que id em caso de inconsistência)
-        ok = supa_patch(table, {name_field: f"eq.{player_name}"}, {name_field: new_name})
-        if ok:
+        result = supa_patch(table, {name_field: f"eq.{player_name}"}, {name_field: new_name})
+        if result == "duplicate":
+            # Novo nome já existe como entrada separada — deleta o registro antigo
+            ok = supa_delete(table, {name_field: f"eq.{player_name}"})
+            if ok:
+                print(f"[nick_tracker] ✅ {table}: '{player_name}' removido ('{new_name}' já estava na lista)")
+            else:
+                print(f"[nick_tracker] ❌ falha ao remover duplicata '{player_name}' em {table}")
+        elif result:
             print(f"[nick_tracker] ✅ {table}: '{player_name}' → '{new_name}'")
             update_kill_rankings(player_name, new_name)
         else:
