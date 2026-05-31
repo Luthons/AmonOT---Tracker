@@ -1704,6 +1704,7 @@ footer span{color:var(--gold-dim)}
       <button class="hm-tab"        id="kr-tab-month"   onclick="krSetTab('month',this)">Último Mês</button>
       <button class="hm-tab"        id="kr-tab-week"    onclick="krSetTab('week',this)">Última Semana</button>
       <button class="hm-tab"        id="kr-tab-day"     onclick="krSetTab('day',this)">Hoje</button>
+      <button class="hm-tab"        id="kr-tab-bonus"   onclick="krSetTab('bonus',this)" style="display:none">⭐ Lista Bônus</button>
     </div>
 
     <div id="kr-filter-wrap"></div>
@@ -2034,7 +2035,12 @@ function _navigate(page){
   if(page==='raffles') loadRaffles();
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
-  if(page==='kill_ranking'){ krRenderFilters(); loadKillRanking(); }
+  if(page==='kill_ranking'){
+    krRenderFilters();
+    loadKillRanking();
+    var bonusTab = document.getElementById('kr-tab-bonus');
+    if(bonusTab) bonusTab.style.display = ['admin','lider','vice'].includes(getRole()) ? '' : 'none';
+  }
   if(page==='kda'){ kdaRenderFilters(); loadKDA(); }
 }
 
@@ -5276,6 +5282,7 @@ function krSetTab(tab, btn) {
   document.querySelectorAll('#page-kill_ranking .hm-tab').forEach(function(t){ t.classList.remove('active'); });
   btn.classList.add('active');
   krCurrentTab = tab;
+  if(tab === 'bonus') { loadBonusList(); return; }
   krRenderFilters();
   loadKillRanking();
 }
@@ -6417,6 +6424,67 @@ async function loadKDA(){
   } catch(e){
     cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
   }
+}
+
+
+// ─── KILL BONUS LIST ───────────────────────────────────────────
+async function loadBonusList(){
+  var cont = document.getElementById('kill-ranking-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim)">Carregando...</div>';
+
+  var {data: bonus} = await supaFetch('kill_bonus_list', {order:'char_name.asc', limit:'200'});
+  var isStaff = ['admin','lider','vice'].includes(getRole());
+
+  var html = '<div style="margin-bottom:16px">';
+  if(isStaff){
+    html += '<div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap">'
+      +'<input class="field-input" type="text" id="bonus-char-input" placeholder="Nome do personagem..." style="max-width:280px">'
+      +'<button class="modal-btn" style="padding:7px 16px;font-size:.7rem" onclick="addBonusChar()">+ Adicionar</button>'
+      +'</div>';
+  }
+
+  html += '<div style="font-size:.78rem;color:var(--text-dim);margin-bottom:14px">⭐ Personagens nesta lista geram o dobro de pontos quando eliminados.</div>';
+
+  if(!bonus || !bonus.length){
+    html += '<div style="color:var(--text-dim);font-style:italic">Nenhum personagem na lista.</div>';
+  } else {
+    html += '<table class="admin-table"><thead><tr><th>Personagem</th><th>Adicionado em</th>'+(isStaff?'<th></th>':'')+'</tr></thead><tbody>'
+      + bonus.map(function(b){
+        var date = new Date(b.created_at).toLocaleDateString('pt-BR');
+        return '<tr>'
+          +'<td style="font-family:Cinzel,serif;font-size:.82rem">'+b.char_name+'</td>'
+          +'<td style="color:var(--text-dim);font-size:.78rem">'+date+'</td>'
+          +(isStaff ? '<td><button class="admin-edit-btn" style="color:var(--red);border-color:rgba(201,80,80,.3);font-size:.6rem" data-id="'+b.id+'" onclick="removeBonusChar(this)">Remover</button></td>' : '')
+          +'</tr>';
+      }).join('')
+      +'</tbody></table>';
+  }
+  html += '</div>';
+  cont.innerHTML = html;
+}
+
+async function addBonusChar(){
+  var input = document.getElementById('bonus-char-input');
+  var name  = (input?.value||'').trim();
+  if(!name){ alert('Digite o nome do personagem.'); return; }
+  try {
+    await supaFetch('kill_bonus_list', null, 'POST', {
+      char_name: name,
+      added_by:  currentProfile?.id,
+    });
+    input.value = '';
+    loadBonusList();
+  } catch(e){ alert('Erro: '+e.message); }
+}
+
+async function removeBonusChar(btn){
+  if(!confirm('Remover este personagem da lista bônus?')) return;
+  var id = btn.dataset.id;
+  try {
+    await supaFetch('kill_bonus_list?id=eq.'+id, null, 'DELETE');
+    loadBonusList();
+  } catch(e){ alert('Erro: '+e.message); }
 }
 
 </script>
