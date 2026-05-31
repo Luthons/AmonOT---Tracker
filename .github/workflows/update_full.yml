@@ -29,6 +29,12 @@ jobs:
           FETCH_CHARS: "true"
         run: python main.py
 
+      - name: Tracker de mudanças de nick
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python nick_tracker.py
+
       - name: Sincronizar resets dos personagens no Supabase
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
