@@ -2,5 +2,28 @@
   "rewrites": [
     { "source": "/sw.js", "destination": "/sw.js" },
     { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate" },
+        { "key": "Pragma",        "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate" },
+        { "key": "Pragma",        "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate" },
+        { "key": "Pragma",        "value": "no-cache" }
+      ]
+    }
   ]
 }
