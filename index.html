@@ -766,6 +766,10 @@ footer span{color:var(--gold-dim)}
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
       Kill Ranking
     </button>
+    <button class="nav-item" onclick="navigate('kda')" id="nav-kda">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+      KDA
+    </button>
     <button class="nav-item" onclick="navigate('deaths_global')" id="nav-deaths_global">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       Deaths Global
@@ -1895,6 +1899,39 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<div class="page" id="page-kda">
+  <div class="cwrap">
+    <div class="page-title">📊 KDA</div>
+    <div class="page-desc">Ranking de KDA dos membros da Lowly People. KDA = (Kills + Assists) / max(Deaths, 1)</div>
+    <div class="page-divider"></div>
+
+    <div class="hm-tabs">
+      <button class="hm-tab active" id="kda-tab-all"   onclick="kdaSetTab('all',this)">Geral</button>
+      <button class="hm-tab" id="kda-tab-month"        onclick="kdaSetTab('month',this)">Último Mês</button>
+      <button class="hm-tab" id="kda-tab-week"         onclick="kdaSetTab('week',this)">Última Semana</button>
+      <button class="hm-tab" id="kda-tab-day"          onclick="kdaSetTab('day',this)">Hoje</button>
+    </div>
+
+    <div id="kda-filter-wrap"></div>
+
+    <div class="deaths-filter" style="margin-bottom:16px">
+      <span class="deaths-filter-label">De</span>
+      <input class="deaths-date-input" type="date" id="kda-from">
+      <span class="deaths-filter-label">Até</span>
+      <input class="deaths-date-input" type="date" id="kda-to">
+      <input class="deaths-date-input" type="text" id="kda-player" placeholder="Player..." style="width:130px" oninput="kdaShowAutocomplete()" autocomplete="off">
+      <div id="kda-autocomplete" style="position:relative;display:inline-block">
+        <div id="kda-autocomplete-list" style="display:none;position:absolute;top:100%;left:0;background:var(--bg3);border:1px solid var(--border-gold);z-index:100;min-width:180px;max-height:200px;overflow-y:auto"></div>
+      </div>
+      <button class="deaths-apply-btn" onclick="loadKDA()">Filtrar</button>
+      <button class="deaths-apply-btn" onclick="kdaResetFilter()">Limpar</button>
+    </div>
+
+    <div id="kda-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    <footer>KDA · Atualizado a cada minuto</footer>
+  </div>
+</div>
+
 <!-- ══ MODAL: LOGIN ══ -->
 <div class="modal-overlay hidden" id="modal-login">
   <div class="modal">
@@ -1998,6 +2035,7 @@ function _navigate(page){
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
   if(page==='kill_ranking'){ krRenderFilters(); loadKillRanking(); }
+  if(page==='kda'){ kdaRenderFilters(); loadKDA(); }
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -3643,7 +3681,7 @@ function updateAuthUI(){
     var marketNav = document.getElementById('nav-market');
     if(marketNav) marketNav.style.display = ['admin','lider','vice','veterano','membro'].includes(currentProfile.role) ? 'flex' : 'none';
     // Hide war/guild data from novato
-    ['nav-war','nav-kill_ranking','nav-deaths_global','nav-enemy_guild','nav-hunted','nav-changes','nav-heatmap'].forEach(function(id){
+    ['nav-war','nav-kill_ranking','nav-kda','nav-deaths_global','nav-enemy_guild','nav-hunted','nav-changes','nav-heatmap'].forEach(function(id){
       var el = document.getElementById(id);
       if(el && isNovato) el.style.display = 'none';
     });
@@ -6110,6 +6148,213 @@ async function submitSetWinner(){
     setTimeout(function(){ closeModal('modal-set-winner'); loadRaffles(); }, 1200);
   } catch(e){
     status.innerHTML='<span style="color:var(--red)">Erro: '+e.message+'</span>';
+  }
+}
+
+
+// ─── KDA ───────────────────────────────────────────────────────
+var kdaCurrentTab = 'all';
+var kdaSelectedMonth = null;
+var kdaSelectedWeek  = null;
+
+function kdaSetTab(tab, btn){
+  document.querySelectorAll('#page-kda .hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+  kdaCurrentTab = tab;
+  kdaRenderFilters();
+  loadKDA();
+}
+
+function kdaRenderFilters(){
+  var wrap = document.getElementById('kda-filter-wrap');
+  if(!wrap) return;
+
+  if(kdaCurrentTab === 'month'){
+    var now = new Date();
+    var options = '';
+    for(var i=1;i<=12;i++){
+      var d = new Date(now.getFullYear(), now.getMonth()-i, 1);
+      var val = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+      var label = d.toLocaleString('pt-BR',{month:'long',year:'numeric'});
+      var sel = (!kdaSelectedMonth && i===1)||kdaSelectedMonth===val?'selected':'';
+      options += '<option value="'+val+'" '+sel+'>'+label+'</option>';
+    }
+    if(!kdaSelectedMonth){
+      var d0 = new Date(now.getFullYear(), now.getMonth()-1, 1);
+      kdaSelectedMonth = d0.getFullYear()+'-'+String(d0.getMonth()+1).padStart(2,'0');
+    }
+    wrap.innerHTML = '<select class="field-input" style="max-width:220px;margin-bottom:12px" onchange="kdaSelectedMonth=this.value;loadKDA()">'+options+'</select>';
+  } else if(kdaCurrentTab === 'week'){
+    var now = new Date();
+    var options = '';
+    var day = now.getDay();
+    var daysToLastSat = day===6?0:day+1;
+    var lastSat = new Date(now.getTime()-daysToLastSat*86400000);
+    lastSat.setHours(23,59,59,0);
+    for(var i=0;i<12;i++){
+      var sat = new Date(lastSat.getTime()-i*7*86400000);
+      var sun = new Date(sat.getTime()-6*86400000);
+      sat.setHours(23,59,59,0); sun.setHours(0,0,0,0);
+      var val = sun.toISOString().slice(0,10)+'|'+sat.toISOString().slice(0,10);
+      var label = sun.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' – '+sat.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+      var sel = (!kdaSelectedWeek&&i===0)||kdaSelectedWeek===val?'selected':'';
+      options += '<option value="'+val+'" '+sel+'>'+label+'</option>';
+    }
+    if(!kdaSelectedWeek){
+      var sat0 = new Date(lastSat);
+      var sun0 = new Date(sat0.getTime()-6*86400000);
+      kdaSelectedWeek = sun0.toISOString().slice(0,10)+'|'+sat0.toISOString().slice(0,10);
+    }
+    wrap.innerHTML = '<select class="field-input" style="max-width:260px;margin-bottom:12px" onchange="kdaSelectedWeek=this.value;loadKDA()">'+options+'</select>';
+  } else {
+    wrap.innerHTML = '';
+  }
+}
+
+function kdaShowAutocomplete(){
+  var q = (document.getElementById('kda-player').value||'').toLowerCase();
+  var list = document.getElementById('kda-autocomplete-list');
+  if(!q||q.length<2){ list.style.display='none'; return; }
+  var members = (window._guildData && window._guildData.members)||[];
+  var matches = members.filter(function(m){ return m.name.toLowerCase().includes(q); }).slice(0,8);
+  if(!matches.length){ list.style.display='none'; return; }
+  list.innerHTML = matches.map(function(m){
+    return '<div style="padding:6px 10px;cursor:pointer;font-size:.8rem;border-bottom:1px solid var(--border)" data-name="'+m.name+'" onmousedown="kdaSelectPlayer(this.dataset.name)" onmouseover="this.style.background=\'var(--bg4)\'" onmouseout="this.style.background=\'\'">'+m.name+'</div>';
+  }).join('');
+  list.style.display='block';
+}
+
+function kdaSelectPlayer(name){
+  document.getElementById('kda-player').value = name;
+  document.getElementById('kda-autocomplete-list').style.display='none';
+  loadKDA();
+}
+
+function kdaResetFilter(){
+  document.getElementById('kda-from').value = '';
+  document.getElementById('kda-to').value   = '';
+  document.getElementById('kda-player').value = '';
+  document.getElementById('kda-autocomplete-list').style.display='none';
+  loadKDA();
+}
+
+async function loadKDA(){
+  var cont = document.getElementById('kda-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  var playerFilter = (document.getElementById('kda-player')?.value||'').toLowerCase().trim();
+  var fromFilter   = document.getElementById('kda-from')?.value||'';
+  var toFilter     = document.getElementById('kda-to')?.value||'';
+
+  try {
+    // Build time params
+    var now    = new Date();
+    var kParams = {select:'killer,is_assist,kill_time', limit:'5000'};
+    var dParams = {select:'player,time,killedBy', limit:'5000'};
+
+    if(kdaCurrentTab === 'day'){
+      var brtNow = new Date(now.getTime()-3*60*60*1000);
+      var h = brtNow.getUTCHours();
+      var dayStart = new Date(brtNow);
+      if(h<22) dayStart.setUTCDate(dayStart.getUTCDate()-1);
+      dayStart.setUTCHours(22,0,0,0);
+      var dayStartUTC = new Date(dayStart.getTime()+3*60*60*1000);
+      kParams['kill_time'] = 'gte.'+dayStartUTC.toISOString();
+    } else if(kdaCurrentTab === 'week' && kdaSelectedWeek){
+      var parts = kdaSelectedWeek.split('|');
+      kParams['kill_time'] = 'gte.'+new Date(parts[0]+'T03:00:00Z').toISOString();
+      kParams['and'] = '(kill_time.lte.'+new Date(parts[1]+'T02:59:59Z').toISOString()+')';
+    } else if(kdaCurrentTab === 'month' && kdaSelectedMonth){
+      var y = parseInt(kdaSelectedMonth.split('-')[0]);
+      var m = parseInt(kdaSelectedMonth.split('-')[1]);
+      var start = new Date(Date.UTC(y,m-1,1,3,0,0));
+      var end   = new Date(Date.UTC(y,m,1,2,59,59));
+      kParams['kill_time'] = 'gte.'+start.toISOString();
+      kParams['and'] = '(kill_time.lte.'+end.toISOString()+')';
+    }
+
+    // Fetch kills and deaths in parallel
+    var [killRes, deathRes] = await Promise.all([
+      supaFetch('kill_rankings', kParams),
+      supaFetch('kill_rankings', {select:'victim,kill_time', limit:'5000', ...(kParams['kill_time']?{'kill_time':kParams['kill_time']}:{}), ...(kParams['and']?{'and':kParams['and']}:{})})
+    ]);
+
+    var kills   = killRes.data || [];
+
+    // Get deaths from deaths_global (already loaded in memory)
+    var allDeaths = (window._guildData && window._guildData.deaths_global)||[];
+
+    // Build member names set
+    var members = (window._guildData && window._guildData.members)||[];
+    var memberNames = new Set(members.map(function(m){ return m.name.toLowerCase(); }));
+
+    // Filter deaths by date if needed
+    var filteredDeaths = allDeaths.filter(function(d){
+      if(!d.isPvp) return false;
+      if(!memberNames.has(d.player.toLowerCase())) return false;
+      if(fromFilter || toFilter){
+        var dt = parseDeathDate(d.time);
+        if(dt){
+          var ds = dt.toISOString().split('T')[0];
+          if(fromFilter && ds < fromFilter) return false;
+          if(toFilter   && ds > toFilter)   return false;
+        }
+      }
+      return true;
+    });
+
+    // Aggregate KDA per player
+    var kdaMap = {};
+
+    kills.forEach(function(k){
+      var name = k.killer;
+      if(!kdaMap[name]) kdaMap[name]={kills:0,deaths:0,assists:0};
+      if(k.is_assist) kdaMap[name].assists++;
+      else kdaMap[name].kills++;
+    });
+
+    filteredDeaths.forEach(function(d){
+      var name = d.player;
+      if(!kdaMap[name]) kdaMap[name]={kills:0,deaths:0,assists:0};
+      kdaMap[name].deaths++;
+    });
+
+    // Apply player filter
+    var rows = Object.entries(kdaMap).filter(function(e){
+      if(!playerFilter) return true;
+      return e[0].toLowerCase().includes(playerFilter);
+    }).map(function(e){
+      var p = e[1];
+      var kda = ((p.kills + p.assists) / Math.max(p.deaths, 1));
+      return {player: e[0], kills: p.kills, deaths: p.deaths, assists: p.assists, kda: kda};
+    }).sort(function(a,b){ return b.kda - a.kda; });
+
+    if(!rows.length){
+      cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhum dado encontrado.</div>';
+      return;
+    }
+
+    cont.innerHTML = '<table class="admin-table">'
+      +'<thead><tr><th>#</th><th>Player</th><th>KDA</th><th>Kills</th><th>Deaths</th><th>Assists</th></tr></thead>'
+      +'<tbody>'
+      + rows.map(function(r, i){
+        var medal = i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1)+'.';
+        var hl = i<3?'color:var(--gold-light)':'';
+        var kdaColor = r.kda >= 2 ? 'var(--online)' : r.kda >= 1 ? 'var(--gold-light)' : 'var(--red)';
+        return '<tr>'
+          +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
+          +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'">'+r.player+'</td>'
+          +'<td style="font-weight:600;color:'+kdaColor+'">'+r.kda.toFixed(2)+'</td>'
+          +'<td style="color:var(--online);font-size:.82rem">'+r.kills+'</td>'
+          +'<td style="color:var(--red);font-size:.82rem">'+r.deaths+'</td>'
+          +'<td style="color:var(--text-dim);font-size:.82rem">'+r.assists+'</td>'
+          +'</tr>';
+      }).join('')
+      +'</tbody></table>';
+
+  } catch(e){
+    cont.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
   }
 }
 
