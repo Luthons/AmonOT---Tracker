@@ -922,6 +922,7 @@ footer span{color:var(--gold-dim)}
       <input class="deaths-date-input" type="date" id="dg-from">
       <span class="deaths-filter-label">Até</span>
       <input class="deaths-date-input" type="date" id="dg-to">
+      <input class="deaths-date-input" type="text" id="dg-player" placeholder="Player..." style="width:130px">
       <button class="deaths-apply-btn" onclick="renderDeathsGlobal()">Filtrar</button>
       <button class="deaths-apply-btn" onclick="dgResetFilter()">Limpar</button>
       <span style="font-family:'Cinzel',serif;font-size:.62rem;color:var(--text-dim);margin-left:auto" id="dg-count"></span>
@@ -2217,6 +2218,8 @@ var enemyNamesSet = new Set();
 function dgResetFilter(){
   document.getElementById('dg-from').value = '';
   document.getElementById('dg-to').value   = '';
+  var playerEl = document.getElementById('dg-player');
+  if(playerEl) playerEl.value = '';
   renderDeathsGlobal();
 }
 
@@ -2226,10 +2229,12 @@ function parseDeathDate(timeStr){
 }
 
 function renderDeathsGlobal(){
-  var from = document.getElementById('dg-from').value;
-  var to   = document.getElementById('dg-to').value;
+  var from   = document.getElementById('dg-from').value;
+  var to     = document.getElementById('dg-to').value;
+  var player = (document.getElementById('dg-player')?.value || '').toLowerCase().trim();
 
   var filtered = deathsGlobal.filter(function(d){
+    if(player && d.player.toLowerCase().indexOf(player) === -1) return false;
     if(!from && !to) return true;
     var dt = parseDeathDate(d.time);
     if(!dt) return true;
