@@ -1406,6 +1406,10 @@ footer span{color:var(--gold-dim)}
         <span class="field-label" style="margin:0">Fixar aviso no topo</span>
       </label>
     </div>
+    <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem;margin-bottom:12px">
+      <input type="checkbox" id="ann-notify-discord" style="width:16px;height:16px">
+      Notificar @everyone no Discord
+    </label>
     <button class="modal-btn" id="btn-submit-announcement">Publicar Aviso</button>
     <div id="ann-status" class="modal-status"></div>
   </div>
@@ -1536,6 +1540,10 @@ footer span{color:var(--gold-dim)}
       <label class="field-label">Encerra em</label>
       <input class="field-input" type="datetime-local" id="nv-expires">
     </div>
+    <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem;margin-bottom:12px">
+      <input type="checkbox" id="nv-notify-discord" style="width:16px;height:16px">
+      Notificar @everyone no Discord
+    </label>
     <button class="modal-btn" onclick="submitNewVote()">Criar Votação</button>
     <div id="nv-status" style="margin-top:10px;font-size:.8rem"></div>
   </div>
@@ -2549,6 +2557,7 @@ async function deleteAnnouncement(id){
 }
 
 async function submitAnnouncement(){
+  var notifyDiscord = document.getElementById('ann-notify-discord')?.checked || false;
   var title   = document.getElementById('ann-title').value.trim();
   var content = document.getElementById('ann-content').value.trim();
   var pinned  = document.getElementById('ann-pinned').checked;
@@ -2567,6 +2576,7 @@ async function submitAnnouncement(){
     pinned,
     created_by: currentProfile.id,
     expires_at: expires,
+    discord_notify: notifyDiscord,
   });
 
   if(error){
@@ -3613,19 +3623,25 @@ function updateAuthUI(){
     if(fpBtn){ fpBtn.classList.add('logged'); }
     if(fpName){ fpName.textContent = currentProfile.display_name || currentUser.email; }
     if(fpBadge){ fpBadge.style.display='inline-block'; fpBadge.className='auth-role-badge '+(currentProfile.role||'member'); fpBadge.textContent=ROLE_LABELS[currentProfile.role]||'Membro'; }
-    if(calNav) calNav.style.display = 'flex';
+    var isNovato = currentProfile.role === 'novato';
+    if(calNav) calNav.style.display = isNovato ? 'none' : 'flex';
     var inactiveNav = document.getElementById('nav-inactive');
     if(inactiveNav) inactiveNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var annNav = document.getElementById('nav-announcements');
-    if(annNav) annNav.style.display = 'flex';
+    if(annNav) annNav.style.display = isNovato ? 'none' : 'flex';
     var votesNav = document.getElementById('nav-votes');
-    if(votesNav) votesNav.style.display = 'flex';
+    if(votesNav) votesNav.style.display = isNovato ? 'none' : 'flex';
     var rafflesNav = document.getElementById('nav-raffles');
     if(rafflesNav) rafflesNav.style.display = 'flex';
     var adminNav = document.getElementById('nav-admin');
     if(adminNav) adminNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     var marketNav = document.getElementById('nav-market');
-    if(marketNav) marketNav.style.display = ['admin','lider','vice','veterano'].includes(currentProfile.role) ? 'flex' : 'none';
+    if(marketNav) marketNav.style.display = ['admin','lider','vice','veterano','membro'].includes(currentProfile.role) ? 'flex' : 'none';
+    // Hide war/guild data from novato
+    ['nav-war','nav-kill_ranking','nav-deaths_global','nav-enemy_guild','nav-hunted','nav-changes','nav-heatmap'].forEach(function(id){
+      var el = document.getElementById(id);
+      if(el && isNovato) el.style.display = 'none';
+    });
     var btnNewAnn = document.getElementById('btn-new-announcement');
     if(btnNewAnn) btnNewAnn.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'inline-block' : 'none';
   } else {
@@ -3786,7 +3802,8 @@ async function submitRegister(){
       email:            currentUser.email,
       display_name:     currentUser.user_metadata?.full_name || currentUser.email,
       discord_username: discord,
-      role:             'member',
+      role:             'novato',
+      novato_since:     new Date().toISOString(),
     });
 
     var profile = Array.isArray(profiles) ? profiles[0] : profiles;
@@ -4361,6 +4378,7 @@ function openNewVoteModal(){
 }
 
 async function submitNewVote(){
+  var notifyDiscordVote = document.getElementById('nv-notify-discord')?.checked || false;
   var title   = document.getElementById('nv-title').value.trim();
   var type    = document.getElementById('nv-type').value;
   var expires = document.getElementById('nv-expires').value;
@@ -4386,6 +4404,7 @@ async function submitNewVote(){
       options,
       created_by: currentProfile.id,
       expires_at: new Date(expires).toISOString(),
+      discord_notify: notifyDiscordVote,
     });
     if(error) throw new Error(error);
     status.innerHTML = '<span style="color:var(--online)">Votação criada!</span>';
@@ -4579,7 +4598,7 @@ async function loadVotes(){
 // ─── ADMINISTRAÇÃO ─────────────────────────────────────────────
 var adminProfiles = [];
 
-var ROLE_HIERARCHY = ['membro','veterano','vice','lider','admin'];
+var ROLE_HIERARCHY = ['novato','membro','veterano','vice','lider','admin'];
 
 function canManageMembers(){
   return ['admin','lider','vice'].includes(getRole());
