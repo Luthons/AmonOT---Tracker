@@ -2870,17 +2870,25 @@ async function loadData(){
     window._hmAllDeaths = (data.war_history||{}).all_deaths || [];
     renderWar();
 
-    // Enemy guild
+    // Enemy guilds — concatena membros de todas as guildas
     var enemyGuilds=data.enemy_guilds||[];
     if(enemyGuilds.length){
       var eg=enemyGuilds[0];
-      var eName=eg.name||'Inimigo';
+      var eName=enemyGuilds.map(function(g){ return g.name||''; }).filter(Boolean).join(' + ');
       document.getElementById('enemy-page-title').textContent='⚔ '+eName;
-      document.getElementById('enemy-stat-total').textContent=eg.total_members||0;
-      document.getElementById('enemy-stat-online').textContent=eg.online_count||0;
-      document.getElementById('enemy-stat-offline').textContent=eg.offline_count||0;
+      // Soma totais de todas as guildas
+      var totalM=0, totalOn=0, totalOff=0;
+      allEnemyMembers=[];
+      enemyGuilds.forEach(function(g){
+        totalM   += g.total_members||0;
+        totalOn  += g.online_count||0;
+        totalOff += g.offline_count||0;
+        allEnemyMembers = allEnemyMembers.concat(g.members||[]);
+      });
+      document.getElementById('enemy-stat-total').textContent=totalM;
+      document.getElementById('enemy-stat-online').textContent=totalOn;
+      document.getElementById('enemy-stat-offline').textContent=totalOff;
       document.getElementById('enemy-stats').style.display='grid';
-      allEnemyMembers=eg.members||[];
       renderEnemyTable();
     }
 
