@@ -1867,7 +1867,11 @@ footer span{color:var(--gold-dim)}
     <div class="page-title">🏠 Mercado da Guilda</div>
     <div class="page-desc">Compre e venda itens diretamente entre membros da Lowly People.</div>
     <div class="page-divider"></div>
-    <div style="display:flex;justify-content:flex-end;margin-bottom:16px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+      <div class="hm-tabs" style="margin-bottom:0">
+        <button class="hm-tab active" id="shop-market-tab-active"   onclick="shopSetTab('market','active',this)">Ativos</button>
+        <button class="hm-tab"        id="shop-market-tab-history"  onclick="shopSetTab('market','history',this)">Histórico</button>
+      </div>
       <button class="btn" id="btn-new-market-listing" onclick="openShopModal('market')" style="display:none">+ Novo Anúncio</button>
     </div>
     <div id="guild-market-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
@@ -1881,7 +1885,11 @@ footer span{color:var(--gold-dim)}
     <div class="page-title">🎪 Bazar da Guilda</div>
     <div class="page-desc">Itens segunda linha a preço baixo ou gratuitos para equipar os makers da guilda.</div>
     <div class="page-divider"></div>
-    <div style="display:flex;justify-content:flex-end;margin-bottom:16px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+      <div class="hm-tabs" style="margin-bottom:0">
+        <button class="hm-tab active" id="shop-bazar-tab-active"   onclick="shopSetTab('bazar','active',this)">Ativos</button>
+        <button class="hm-tab"        id="shop-bazar-tab-history"  onclick="shopSetTab('bazar','history',this)">Histórico</button>
+      </div>
       <button class="btn" id="btn-new-bazar-listing" onclick="openShopModal('bazar')" style="display:none">+ Novo Anúncio</button>
     </div>
     <div id="guild-bazar-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
@@ -6869,9 +6877,34 @@ var _shopCurrentType  = 'market'; // 'market' | 'bazar'
 var _shopInterestId   = null;     // id do anúncio sendo contestado
 var _shopAttrCount    = 0;        // controle de linhas de atributo no modal
 
+// ── Tabs ─────────────────────────────────────────────────────────
+
+var _shopCurrentTab    = { market: 'active', bazar: 'active' };
+var _shopHistoryFilter = { market: '', bazar: '' };
+
+function shopSetTab(type, tab, btn){
+  _shopCurrentTab[type] = tab;
+  var prefix = 'shop-' + type + '-tab-';
+  ['active','history'].forEach(function(t){
+    var el = document.getElementById(prefix + t);
+    if(el) el.classList.toggle('active', t === tab);
+  });
+  loadGuildShop(type, tab);
+}
+
 // ── Navegação ────────────────────────────────────────────────────
 
-function loadGuildShop(type){
+function loadGuildShop(type, tab){
+  tab = tab || _shopCurrentTab[type] || 'active';
+  _shopCurrentTab[type] = tab;
+  if(tab === 'history'){
+    loadGuildShopHistory(type);
+  } else {
+    loadGuildShopActive(type);
+  }
+}
+
+function loadGuildShopActive(type){
   var cont = document.getElementById(type === 'market' ? 'guild-market-content' : 'guild-bazar-content');
   if(!cont) return;
   cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
@@ -6887,12 +6920,157 @@ function loadGuildShop(type){
       cont.innerHTML = '<div class="shop-empty">Nenhum anúncio disponível no momento.</div>';
       return;
     }
-    cont.innerHTML = '<div class="shop-grid">' + items.map(function(item){
-      return renderShopCard(item);
-    }).join('') + '</div>';
+    cont.innerHTML = '<div class="shop-grid">' + items.map(renderShopCard).join('') + '</div>';
   }).catch(function(e){
     cont.innerHTML = '<div style="color:var(--red)">Erro ao carregar: ' + e.message + '</div>';
   });
+}
+
+// ── Histórico ────────────────────────────────────────────────────
+
+function loadGuildShopHistory(type){
+  var cont = document.getElementById(type === 'market' ? 'guild-market-content' : 'guild-bazar-content');
+  if(!cont) return;
+
+  var filterVal = _shopHistoryFilter[type] || '';
+
+  cont.innerHTML = ''
+    + '<div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center">'
+    +   '<input class="field-input" type="text" id="shop-history-filter-' + type + '" placeholder="Filtrar por item..." value="' + escHtml(filterVal) + '" onkeydown="if(event.key===\'Enter\')shopHistorySearch(\'' + type + '\')" style="max-width:260px">'
+    +   '<button class="btn" style="font-size:.7rem;padding:6px 12px" onclick="shopHistorySearch(\'' + type + '\')">Buscar</button>'
+    +   (filterVal ? '<button class="btn" style="font-size:.7rem;padding:6px 12px;border-color:var(--text-dim);color:var(--text-dim)" onclick="shopHistoryClear(\'' + type + '\')">Limpar</button>' : '')
+    + '</div>'
+    + '<div id="shop-history-results-' + type + '"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>';
+
+  var params = {
+    type:   'eq.' + type,
+    status: 'neq.active',
+    order:  'closed_at.desc',
+    select: '*',
+    limit:  '200',
+  };
+  if(filterVal) params['item_name'] = 'ilike.*' + filterVal + '*';
+
+  supaFetch('guild_shop', params).then(function(res){
+    var resultCont = document.getElementById('shop-history-results-' + type);
+    if(!resultCont) return;
+    var items = res.data || [];
+    if(!items.length){
+      resultCont.innerHTML = '<div class="shop-empty">Nenhum item no histórico' + (filterVal ? ' para "' + escHtml(filterVal) + '"' : '') + '.</div>';
+      return;
+    }
+    resultCont.innerHTML = renderShopHistory(items, filterVal);
+  }).catch(function(e){
+    var resultCont = document.getElementById('shop-history-results-' + type);
+    if(resultCont) resultCont.innerHTML = '<div style="color:var(--red)">Erro: ' + e.message + '</div>';
+  });
+}
+
+function shopHistorySearch(type){
+  var el = document.getElementById('shop-history-filter-' + type);
+  _shopHistoryFilter[type] = el ? el.value.trim() : '';
+  loadGuildShopHistory(type);
+}
+
+function shopHistoryClear(type){
+  _shopHistoryFilter[type] = '';
+  loadGuildShopHistory(type);
+}
+
+var SHOP_REASON_LABEL = {
+  'sold':             '✅ Vendido',
+  'removed_by_owner': '👤 Removido pelo dono',
+  'removed_by_staff': '🛡️ Removido pela staff',
+};
+var SHOP_REASON_COLOR = {
+  'sold':             'var(--online)',
+  'removed_by_owner': 'var(--text-dim)',
+  'removed_by_staff': 'var(--red)',
+};
+
+function renderShopHistory(items, filterVal){
+  var html = '';
+
+  // Stats — aparece quando há filtro por item
+  if(filterVal){
+    var soldItems = items.filter(function(i){ return i.close_reason === 'sold' && i.unit_price > 0; });
+    var countByReason = {};
+    items.forEach(function(i){
+      var r = i.close_reason || 'sold';
+      countByReason[r] = (countByReason[r] || 0) + 1;
+    });
+    var reasonSummary = Object.keys(countByReason).map(function(r){
+      return '<span style="color:' + (SHOP_REASON_COLOR[r] || 'var(--text-dim)') + '">'
+        + (SHOP_REASON_LABEL[r] || r) + ': <strong>' + countByReason[r] + '</strong></span>';
+    }).join(' &nbsp;·&nbsp; ');
+
+    html += '<div style="background:var(--bg3);border:1px solid var(--border-gold);border-radius:6px;padding:14px 18px;margin-bottom:16px">'
+      + '<div style="font-family:\'Cinzel\',serif;font-size:.75rem;color:var(--gold-light);margin-bottom:10px;letter-spacing:.08em">📊 ' + escHtml(filterVal.toUpperCase()) + '</div>';
+
+    if(soldItems.length){
+      var prices = soldItems.map(function(i){ return i.unit_price; });
+      var avg    = Math.round(prices.reduce(function(a,b){ return a+b; }, 0) / prices.length);
+      var minP   = Math.min.apply(null, prices);
+      var maxP   = Math.max.apply(null, prices);
+      html += '<div style="display:flex;flex-wrap:wrap;gap:20px;margin-bottom:10px">'
+        + '<div><div style="font-size:.65rem;color:var(--text-dim);margin-bottom:2px">Preço Médio</div><div style="font-family:\'Cinzel\',serif;color:var(--gold-light)">' + avg.toLocaleString('pt-BR') + ' gp</div></div>'
+        + '<div><div style="font-size:.65rem;color:var(--text-dim);margin-bottom:2px">Mínimo</div><div style="font-family:\'Cinzel\',serif;color:var(--text)">' + minP.toLocaleString('pt-BR') + ' gp</div></div>'
+        + '<div><div style="font-size:.65rem;color:var(--text-dim);margin-bottom:2px">Máximo</div><div style="font-family:\'Cinzel\',serif;color:var(--text)">' + maxP.toLocaleString('pt-BR') + ' gp</div></div>'
+        + '<div><div style="font-size:.65rem;color:var(--text-dim);margin-bottom:2px">Vendas</div><div style="font-family:\'Cinzel\',serif;color:var(--text)">' + soldItems.length + '</div></div>'
+        + '</div>';
+    }
+
+    html += '<div style="font-size:.75rem">' + reasonSummary + '</div></div>';
+  }
+
+  // Cards do histórico
+  html += '<div style="display:flex;flex-direction:column;gap:10px">'
+    + items.map(function(item){
+        var rarClass  = shopRarityClass(item.rarity);
+        var rarBadge  = item.rarity
+          ? '<span class="rarity-badge rarity-' + item.rarity.toLowerCase() + '" style="margin-bottom:0;font-size:.55rem">' + item.rarity + '</span>'
+          : '';
+        var priceStr  = item.unit_price > 0 ? item.unit_price.toLocaleString('pt-BR') + ' gp' : 'Gratuito';
+        var totalStr  = (item.unit_price > 0 && item.quantity > 1)
+          ? 'Total: ' + (item.unit_price * item.quantity).toLocaleString('pt-BR') + ' gp'
+          : '';
+        var reason    = item.close_reason || 'sold';
+        var reasonLbl = SHOP_REASON_LABEL[reason] || reason;
+        var reasonClr = SHOP_REASON_COLOR[reason] || 'var(--text-dim)';
+        var closedAt  = item.closed_at
+          ? new Date(item.closed_at).toLocaleDateString('pt-BR') + ' ' + new Date(item.closed_at).toLocaleTimeString('pt-BR', {hour:'2-digit',minute:'2-digit'})
+          : '—';
+        var attrsHtml = '';
+        if(item.attributes && item.attributes.length){
+          attrsHtml = '<div class="shop-card-attrs" style="margin-top:4px">'
+            + item.attributes.map(function(a){ return '⚡ ' + a.name + ' +' + a.value + (a.flat ? '' : '%'); }).join(' · ')
+            + '</div>';
+        }
+
+        return '<div class="shop-card ' + rarClass + '" style="opacity:.85">'
+          + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap">'
+          +   '<div>'
+          +     (rarBadge ? '<div class="shop-card-meta" style="margin-bottom:4px">' + rarBadge + '</div>' : '')
+          +     '<div class="shop-card-name">' + escHtml(item.item_name)
+          +       (item.quantity > 1 ? ' <span style="color:var(--text-dim);font-size:.8rem">x' + item.quantity + '</span>' : '')
+          +     '</div>'
+          +     '<div class="shop-card-meta" style="margin-top:4px">'
+          +       '<span class="shop-card-price">' + priceStr + '</span>'
+          +       (totalStr ? '<span class="shop-card-total">' + totalStr + '</span>' : '')
+          +     '</div>'
+          +     attrsHtml
+          +   '</div>'
+          +   '<div style="text-align:right;flex-shrink:0">'
+          +     '<div style="font-size:.75rem;font-weight:600;color:' + reasonClr + '">' + reasonLbl + '</div>'
+          +     '<div style="font-size:.68rem;color:var(--text-dim);margin-top:2px">' + closedAt + '</div>'
+          +   '</div>'
+          + '</div>'
+          + '<div class="shop-card-seller" style="margin-top:6px;border-top:1px solid var(--border);padding-top:6px">👤 ' + escHtml(item.seller_name) + '</div>'
+          + '</div>';
+      }).join('')
+    + '</div>';
+
+  return html;
 }
 
 // ── Renderização do card ─────────────────────────────────────────
@@ -7149,16 +7327,31 @@ async function submitShopListing(){
 async function markShopSold(id, type){
   if(!confirm('Marcar este anúncio como vendido?')) return;
   try {
-    await supaFetch('guild_shop?id=eq.' + id, null, 'PATCH', { status: 'sold' });
+    await supaFetch('guild_shop?id=eq.' + id, null, 'PATCH', {
+      status:       'sold',
+      close_reason: 'sold',
+      closed_at:    new Date().toISOString(),
+    });
     loadGuildShop(type);
   } catch(e){ alert('Erro: ' + e.message); }
 }
 
 async function deleteShopListing(id, type){
   if(!confirm('Remover este anúncio?')) return;
+  var isStaff = currentProfile && ['admin','lider','vice'].includes(currentProfile.role);
+  var isMine  = false;
   try {
-    await supaFetch('guild_shop?id=eq.' + id, null, 'DELETE');
-    loadGuildShop(type);
+    var {data} = await supaFetch('guild_shop', {id: 'eq.'+id, select: 'seller_profile_id'});
+    if(data && data[0]) isMine = data[0].seller_profile_id === currentProfile.id;
+  } catch(e){}
+  var reason = (isStaff && !isMine) ? 'removed_by_staff' : 'removed_by_owner';
+  try {
+    await supaFetch('guild_shop?id=eq.' + id, null, 'PATCH', {
+      status:       'closed',
+      close_reason: reason,
+      closed_at:    new Date().toISOString(),
+    });
+    loadGuildShop(type, _shopCurrentTab[type] || 'active');
   } catch(e){ alert('Erro: ' + e.message); }
 }
 
