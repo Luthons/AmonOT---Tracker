@@ -740,6 +740,8 @@ footer span{color:var(--gold-dim)}
 .shop-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:8px}
 .shop-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;position:relative;transition:border-color .2s}
 .shop-card:hover{border-color:var(--border-gold)}
+.player-link{cursor:pointer;text-decoration:underline;text-decoration-color:rgba(201,168,76,.35);text-underline-offset:2px}
+.player-link:hover{color:var(--gold-light)!important}
 .shop-card.rarity-common{border-left:3px solid #404040}
 .shop-card.rarity-uncommon{border-left:3px solid #2d5a2d}
 .shop-card.rarity-rare{border-left:3px solid #1e4a70}
@@ -1978,6 +1980,13 @@ footer span{color:var(--gold-dim)}
 
     </div>
     <footer>Informações · Lowly People</footer>
+  </div>
+</div>
+
+<!-- ══ MODAL: PERFIL DO PLAYER ══ -->
+<div class="modal-overlay hidden" id="modal-player-profile">
+  <div class="modal-box" style="max-width:620px;max-height:85vh;display:flex;flex-direction:column;padding:0;overflow:hidden">
+    <div id="player-profile-content" style="overflow-y:auto;flex:1;padding:24px"></div>
   </div>
 </div>
 
@@ -5803,7 +5812,7 @@ async function loadKillRanking() {
       var hl    = i < 3 ? 'color:var(--gold-light)' : '';
       html += '<tr>'
         +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
-        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'">'+r.killer+'</td>'
+        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" onclick="openPlayerProfile(this.dataset.name)" data-name="'+r.killer+'">'+r.killer+'</span></td>'
         +'<td style="font-size:.9rem;font-weight:600;color:var(--gold-light)">'+r.points+'</td>'
         +'<td style="color:var(--red);font-size:.82rem">'+r.kills+'</td>'
         +'<td style="color:var(--text-dim);font-size:.82rem">'+r.assists+'</td>'
@@ -6741,7 +6750,7 @@ async function loadKDA(){
         html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Pontos</th><th>Data</th></tr></thead><tbody>'
           + playerKills.map(function(k){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+k.victim+'</td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span></td>'
               +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
               +'<td style="color:var(--gold-light);font-weight:600">'+k.points+'</td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
@@ -6758,7 +6767,7 @@ async function loadKDA(){
         html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Morto por</th><th>Data</th></tr></thead><tbody>'
           + playerDeaths.map(function(d){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+d.killedBy+'</td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+d.killedBy+'" onclick="openPlayerProfile(this.dataset.name)">'+d.killedBy+'</span></td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDeathDate(d.time)+'</td>'
               +'</tr>';
           }).join('')
@@ -6773,7 +6782,7 @@ async function loadKDA(){
         html += '<table class="admin-table"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Data</th></tr></thead><tbody>'
           + playerAssists.map(function(k){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem">'+k.victim+'</td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span></td>'
               +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
               +'</tr>';
@@ -6808,7 +6817,7 @@ async function loadKDA(){
         var kdaColor = r.kda >= 2 ? 'var(--online)' : r.kda >= 1 ? 'var(--gold-light)' : 'var(--red)';
         return '<tr>'
           +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
-          +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'">'+r.player+'</td>'
+          +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" data-name="'+r.player+'" onclick="openPlayerProfile(this.dataset.name)">'+r.player+'</span></td>'
           +'<td style="font-weight:600;color:'+kdaColor+'">'+r.kda.toFixed(2)+'</td>'
           +'<td style="color:var(--online);font-size:.82rem">'+r.kills+'</td>'
           +'<td style="color:var(--red);font-size:.82rem">'+r.deaths+'</td>'
@@ -7628,9 +7637,9 @@ function renderKillFeedRow(kill){
   html += '<div style="display:flex;align-items:center;gap:10px;flex:1;min-width:0">';
   html +=   '<span style="font-size:1rem;flex-shrink:0">' + icon + '</span>';
   html +=   '<div style="min-width:0">';
-  html +=     '<span style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.killer) + '</span>';
+  html +=     '<span class="player-link" data-name="' + escHtml(kill.killer) + '" onclick="openPlayerProfile(this.dataset.name)" style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.killer) + '</span>';
   html +=     '<span style="color:var(--text-dim);font-size:.75rem;margin:0 6px">' + verb + '</span>';
-  html +=     '<span style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.victim) + '</span>';
+  html +=     '<span class="player-link" data-name="' + escHtml(kill.victim) + '" onclick="openPlayerProfile(this.dataset.name)" style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.victim) + '</span>';
   html +=     ' ' + label;
   html +=   '</div>';
   html += '</div>';
@@ -7645,7 +7654,205 @@ function renderKillFeedRow(kill){
 
 
 // ══════════════════════════════════════════════════════════════════
-//  ACTIVITY LOG
+//  PERFIL PÚBLICO DO PLAYER
+// ══════════════════════════════════════════════════════════════════
+
+async function openPlayerProfile(playerName){
+  var cont = document.getElementById('player-profile-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic;padding:20px 0">Carregando perfil...</div>';
+  showModal('modal-player-profile');
+
+  try {
+    // Busca paralela de todos os dados
+    var [profileRes, killsRes, deathsRes, calRes, shopRes] = await Promise.all([
+      // Perfil + personagens
+      supaFetch('profiles', {
+        select:       'id,display_name,role,novato_since,created_at',
+        display_name: 'eq.' + playerName,
+        limit:        '1',
+      }),
+      // Kills (como killer, excluindo assists)
+      supaFetch('kill_rankings', {
+        killer:    'eq.' + playerName,
+        is_assist: 'eq.false',
+        select:    'victim,victim_resets,points,kill_time',
+        order:     'kill_time.desc',
+        limit:     '200',
+      }),
+      // Deaths (como vítima)
+      supaFetch('kill_rankings', {
+        victim: 'eq.' + playerName,
+        select: 'killer,killer_resets,points,kill_time',
+        order:  'kill_time.desc',
+        limit:  '200',
+      }),
+      // Calendário
+      supaFetch('calendar_joins', {
+        player_name: 'eq.' + playerName,
+        select:      'evento_id,resets',
+        limit:       '100',
+      }),
+      // Anúncios ativos no shop
+      supaFetch('guild_shop', {
+        seller_name: 'eq.' + playerName,
+        status:      'eq.active',
+        select:      'id,type,listing_type,item_name,quantity,unit_price,rarity',
+        order:       'created_at.desc',
+      }),
+    ]);
+
+    var profile  = (profileRes.data  || [])[0] || null;
+    var kills    = killsRes.data   || [];
+    var deaths   = deathsRes.data  || [];
+    var calJoins = calRes.data     || [];
+    var shopItems= shopRes.data    || [];
+
+    // Assists separados
+    var assistsRes = await supaFetch('kill_rankings', {
+      killer:    'eq.' + playerName,
+      is_assist: 'eq.true',
+      select:    'victim,kill_time',
+      limit:     '200',
+    });
+    var assists = assistsRes.data || [];
+
+    cont.innerHTML = renderPlayerProfile(playerName, profile, kills, deaths, assists, calJoins, shopItems);
+
+  } catch(e){
+    cont.innerHTML = '<div style="color:var(--red);padding:20px 0">Erro ao carregar perfil: ' + e.message + '</div>';
+  }
+}
+
+function renderPlayerProfile(name, profile, kills, deaths, assists, calJoins, shopItems){
+  var ROLE_LABELS = {novato:'Novato', membro:'Membro', veterano:'Veterano', vice:'Vice-Líder', lider:'Líder', admin:'Admin'};
+  var ROLE_COLORS = {novato:'var(--text-dim)', membro:'var(--text)', veterano:'#5ab0e8', vice:'#b06fe8', lider:'#e8a030', admin:'#e84040'};
+
+  var totalKillPts = kills.reduce(function(s,k){ return s + k.points; }, 0);
+  var totalAssistPts = assists.length * 2;
+  var kda = kills.length / Math.max(deaths.length, 1);
+
+  // ── Header ──────────────────────────────────────────────────────
+  var roleLabel = profile ? (ROLE_LABELS[profile.role] || profile.role) : 'Não cadastrado';
+  var roleColor = profile ? (ROLE_COLORS[profile.role] || 'var(--text-dim)') : 'var(--text-dim)';
+  var since = profile
+    ? new Date(profile.created_at).toLocaleDateString('pt-BR')
+    : '—';
+
+  var html = '<button class="modal-close" onclick="closeModal(\'modal-player-profile\')" style="position:absolute;top:12px;right:12px">✕</button>';
+
+  html += '<div style="margin-bottom:20px">';
+  html +=   '<div style="font-family:\'Cinzel\',serif;font-size:1.1rem;color:var(--gold-light);margin-bottom:6px">' + escHtml(name) + '</div>';
+  html +=   '<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">';
+  html +=     '<span style="font-size:.75rem;color:' + roleColor + ';border:1px solid ' + roleColor + ';padding:2px 10px;border-radius:10px;font-family:\'Cinzel\',serif">' + roleLabel + '</span>';
+  if(profile){
+    html += '<span style="font-size:.72rem;color:var(--text-dim)">Membro desde ' + since + '</span>';
+  }
+  html +=   '</div>';
+  html += '</div>';
+
+  // ── Stats ────────────────────────────────────────────────────────
+  var stats = [
+    {label: 'Kills',    value: kills.length},
+    {label: 'Deaths',   value: deaths.length},
+    {label: 'Assists',  value: assists.length},
+    {label: 'KDA',      value: kda.toFixed(2)},
+    {label: 'Pts Kills',value: totalKillPts.toLocaleString('pt-BR')},
+    {label: 'Pts Assist',value: totalAssistPts},
+  ];
+
+  html += '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px">';
+  stats.forEach(function(s){
+    html += '<div style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:10px 14px;text-align:center">';
+    html +=   '<div style="font-family:\'Cinzel\',serif;font-size:.95rem;color:var(--gold-light)">' + s.value + '</div>';
+    html +=   '<div style="font-size:.65rem;color:var(--text-dim);margin-top:2px">' + s.label + '</div>';
+    html += '</div>';
+  });
+  html += '</div>';
+
+  // ── Últimas kills ────────────────────────────────────────────────
+  html += profileSection('Últimas Kills', kills.length === 0);
+  if(kills.length){
+    html += '<div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:20px">';
+    kills.slice(0,10).forEach(function(k){
+      var dt = profileFmtDate(k.kill_time);
+      html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid var(--border);font-size:.78rem;flex-wrap:wrap;gap:4px">';
+      html +=   '<span style="color:var(--text)">⚔️ ' + escHtml(k.victim) + ' <span style="color:var(--text-dim);font-size:.7rem">(' + k.victim_resets + 'rr)</span></span>';
+      html +=   '<span style="display:flex;gap:10px;align-items:center">';
+      html +=     '<span style="color:var(--online);font-family:\'Cinzel\',serif;font-size:.75rem">+' + k.points + ' pts</span>';
+      html +=     '<span style="color:var(--text-dim);font-size:.68rem">' + dt + '</span>';
+      html +=   '</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+    if(kills.length > 10) html += '<div style="font-size:.72rem;color:var(--text-dim);margin-bottom:20px">+ ' + (kills.length-10) + ' kills anteriores</div>';
+  } else {
+    html += '<div style="color:var(--text-dim);font-size:.78rem;margin-bottom:20px">Nenhuma kill registrada.</div>';
+  }
+
+  // ── Últimas deaths ───────────────────────────────────────────────
+  html += profileSection('Últimas Deaths', deaths.length === 0);
+  if(deaths.length){
+    html += '<div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:20px">';
+    deaths.slice(0,10).forEach(function(d){
+      var dt = profileFmtDate(d.kill_time);
+      html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid var(--border);font-size:.78rem;flex-wrap:wrap;gap:4px">';
+      html +=   '<span style="color:var(--text)">💀 ' + escHtml(d.killer) + ' <span style="color:var(--text-dim);font-size:.7rem">(' + d.killer_resets + 'rr)</span></span>';
+      html +=   '<span style="color:var(--text-dim);font-size:.68rem">' + dt + '</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+    if(deaths.length > 10) html += '<div style="font-size:.72rem;color:var(--text-dim);margin-bottom:20px">+ ' + (deaths.length-10) + ' deaths anteriores</div>';
+  } else {
+    html += '<div style="color:var(--text-dim);font-size:.78rem;margin-bottom:20px">Nenhuma death registrada.</div>';
+  }
+
+  // ── Calendário ───────────────────────────────────────────────────
+  html += profileSection('Participação em Eventos', calJoins.length === 0);
+  if(calJoins.length){
+    html += '<div style="font-size:.78rem;color:var(--text-dim);margin-bottom:20px">' + calJoins.length + ' evento' + (calJoins.length>1?'s':'') + ' registrado' + (calJoins.length>1?'s':'') + '.</div>';
+  } else {
+    html += '<div style="color:var(--text-dim);font-size:.78rem;margin-bottom:20px">Nenhum evento.</div>';
+  }
+
+  // ── Anúncios ativos ──────────────────────────────────────────────
+  html += profileSection('Anúncios Ativos', shopItems.length === 0);
+  if(shopItems.length){
+    html += '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:20px">';
+    shopItems.forEach(function(item){
+      var isBuy    = item.listing_type === 'buy';
+      var priceStr = item.unit_price > 0 ? item.unit_price.toLocaleString('pt-BR') + ' gp' : (isBuy ? 'A combinar' : 'Gratuito');
+      var section  = item.type === 'market' ? 'Mercado' : 'Bazar';
+      var typeLbl  = isBuy ? 'Procuro' : 'Vendo';
+      html += '<div style="background:var(--bg3);border:1px solid var(--border);border-radius:5px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.78rem">';
+      html +=   '<span style="color:var(--text)">' + escHtml(item.item_name) + (item.quantity>1?' x'+item.quantity:'') + '</span>';
+      html +=   '<span style="display:flex;gap:8px;align-items:center;flex-shrink:0">';
+      html +=     '<span style="color:var(--text-dim);font-size:.68rem">' + section + ' · ' + typeLbl + '</span>';
+      html +=     '<span style="color:var(--gold-light);font-family:\'Cinzel\',serif;font-size:.75rem">' + priceStr + '</span>';
+      html +=   '</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+  } else {
+    html += '<div style="color:var(--text-dim);font-size:.78rem;margin-bottom:20px">Nenhum anúncio ativo.</div>';
+  }
+
+  return html;
+}
+
+function profileSection(title, empty){
+  var color = empty ? 'var(--text-dim)' : 'var(--gold-light)';
+  return '<div style="font-family:\'Cinzel\',serif;font-size:.72rem;color:' + color + ';letter-spacing:.08em;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--border)">' + title.toUpperCase() + '</div>';
+}
+
+function profileFmtDate(iso){
+  try {
+    var d = new Date(iso);
+    return d.toLocaleDateString('pt-BR') + ' ' + d.toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'});
+  } catch(e){ return iso; }
+}
+
+
 // ══════════════════════════════════════════════════════════════════
 
 var LOG_CATEGORY_LABELS = {
