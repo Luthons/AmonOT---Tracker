@@ -5257,9 +5257,13 @@ async function loadMarketData() {
   cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
 
   try {
-    // Carrega snapshot do market
-    var r1 = await fetch('https://raw.githubusercontent.com/Luthons/AmonOT---Tracker/main/market_snapshot.json?_='+Date.now());
-    marketSnapshot = await r1.json();
+    // Carrega snapshot do market direto do Supabase (fonte de verdade)
+    // Evita dessincronização com o market_snapshot.json do GitHub
+    var {data: snapshotRows} = await supaFetch('market_snapshot', {select: 'rarity,items,updated_at'});
+    marketSnapshot = {};
+    (snapshotRows || []).forEach(function(row){
+      marketSnapshot[String(row.rarity)] = row.items || [];
+    });
 
     // Carrega items_db do Supabase
     var {data: dbItems} = await supaFetch('items_db', {select: 'name,category,vocations,level_req', limit: '2000'});
