@@ -1878,8 +1878,9 @@ footer span{color:var(--gold-dim)}
     <div class="page-divider"></div>
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
       <div class="hm-tabs" style="margin-bottom:0">
-        <button class="hm-tab active" id="shop-market-tab-active"   onclick="shopSetTab('market','active',this)">Ativos</button>
-        <button class="hm-tab"        id="shop-market-tab-history"  onclick="shopSetTab('market','history',this)">Histórico</button>
+        <button class="hm-tab active" id="shop-market-tab-sell"    onclick="shopSetTab('market','sell',this)">Venda</button>
+        <button class="hm-tab"        id="shop-market-tab-buy"     onclick="shopSetTab('market','buy',this)">Compra</button>
+        <button class="hm-tab"        id="shop-market-tab-history" onclick="shopSetTab('market','history',this)">Histórico</button>
       </div>
       <button class="btn" id="btn-new-market-listing" onclick="openShopModal('market')" style="display:none">+ Novo Anúncio</button>
     </div>
@@ -1896,8 +1897,9 @@ footer span{color:var(--gold-dim)}
     <div class="page-divider"></div>
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
       <div class="hm-tabs" style="margin-bottom:0">
-        <button class="hm-tab active" id="shop-bazar-tab-active"   onclick="shopSetTab('bazar','active',this)">Ativos</button>
-        <button class="hm-tab"        id="shop-bazar-tab-history"  onclick="shopSetTab('bazar','history',this)">Histórico</button>
+        <button class="hm-tab active" id="shop-bazar-tab-sell"    onclick="shopSetTab('bazar','sell',this)">Venda</button>
+        <button class="hm-tab"        id="shop-bazar-tab-buy"     onclick="shopSetTab('bazar','buy',this)">Compra</button>
+        <button class="hm-tab"        id="shop-bazar-tab-history" onclick="shopSetTab('bazar','history',this)">Histórico</button>
       </div>
       <button class="btn" id="btn-new-bazar-listing" onclick="openShopModal('bazar')" style="display:none">+ Novo Anúncio</button>
     </div>
@@ -1959,11 +1961,12 @@ footer span{color:var(--gold-dim)}
 <div class="modal-overlay hidden" id="modal-shop-listing">
   <div class="modal-box" style="max-width:520px">
     <button class="modal-close" onclick="closeModal('modal-shop-listing')">✕</button>
-    <h2 id="shop-modal-title">🏠 Novo Anúncio</h2>
+    <h2 id="shop-modal-title">Novo Anúncio</h2>
+    <input type="hidden" id="shop-listing-type" value="sell">
 
     <div class="field-row">
-      <label class="field-label">Nome do Item *</label>
-      <input class="field-input" type="text" id="shop-item-name" placeholder="Ex: Boss Token, Dragonbone Sword...">
+      <label class="field-label" id="shop-item-label">Nome do Item *</label>
+      <input class="field-input" type="text" id="shop-item-name" placeholder="Ex: Boss Token, Sanguine Legs...">
     </div>
 
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
@@ -1972,15 +1975,15 @@ footer span{color:var(--gold-dim)}
         <input class="field-input" type="number" id="shop-qty" min="1" value="1" oninput="shopUpdateTotal()">
       </div>
       <div class="field-row">
-        <label class="field-label">Valor Unitário (gp)</label>
-        <input class="field-input" type="number" id="shop-unit-price" min="0" value="0" placeholder="0 = Gratuito" oninput="shopUpdateTotal()">
+        <label class="field-label" id="shop-price-label">Valor Unitário (gp)</label>
+        <input class="field-input" type="number" id="shop-unit-price" min="0" value="0" id="shop-price-label-hint" placeholder="0 = Gratuito" oninput="shopUpdateTotal()">
       </div>
     </div>
 
     <div id="shop-total-preview" style="display:none;background:var(--bg3);border:1px solid var(--border-gold);border-radius:6px;padding:10px 14px;margin-bottom:12px;font-family:'Cinzel',serif;font-size:.85rem;color:var(--gold-light);text-align:center"></div>
 
     <div class="field-row">
-      <label class="field-label">Raridade <span style="color:var(--text-dim);font-size:.75rem">(opcional)</span></label>
+      <label class="field-label" id="shop-rarity-label">Raridade <span style="color:var(--text-dim);font-size:.75rem">(opcional)</span></label>
       <select class="field-input" id="shop-rarity" onchange="shopRarityChanged()">
         <option value="">— Sem raridade —</option>
         <option value="Common">Common</option>
@@ -1993,17 +1996,17 @@ footer span{color:var(--gold-dim)}
     </div>
 
     <div id="shop-attrs-section" style="display:none">
-      <label class="field-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="shop-attrs-hint"></span></label>
+      <label class="field-label" id="shop-attrs-label">Atributos <span style="color:var(--text-dim);font-size:.75rem" id="shop-attrs-hint"></span></label>
       <div id="shop-attr-rows" style="margin-top:8px;display:flex;flex-direction:column;gap:8px"></div>
       <button class="btn" id="shop-add-attr-btn" onclick="shopAddAttr()" style="margin-top:8px;font-size:.7rem;padding:5px 12px">+ Atributo</button>
     </div>
 
     <div class="field-row" style="margin-top:12px">
       <label class="field-label">Observação <span style="color:var(--text-dim);font-size:.75rem">(opcional)</span></label>
-      <textarea class="field-input" id="shop-description" rows="2" placeholder="Ex: Item +5, sem uso..." style="resize:vertical"></textarea>
+      <textarea class="field-input" id="shop-description" rows="2" placeholder="Ex: precisa ter pelo menos Lv.2 em Attack..." style="resize:vertical"></textarea>
     </div>
 
-    <button class="modal-btn" onclick="submitShopListing()">Publicar Anúncio</button>
+    <button class="modal-btn" onclick="submitShopListing()" id="shop-submit-btn">Publicar Anúncio</button>
     <div id="shop-listing-status" class="modal-status"></div>
   </div>
 </div>
@@ -2012,7 +2015,7 @@ footer span{color:var(--gold-dim)}
 <div class="modal-overlay hidden" id="modal-shop-interest">
   <div class="modal-box" style="max-width:420px">
     <button class="modal-close" onclick="closeModal('modal-shop-interest')">✕</button>
-    <h2>💬 Demonstrar Interesse</h2>
+    <h2 id="shop-interest-title">Demonstrar Interesse</h2>
     <div id="shop-interest-item-info" style="background:var(--bg3);border:1px solid var(--border-gold);border-radius:6px;padding:12px;margin-bottom:16px;font-size:.85rem"></div>
     <div class="field-row">
       <label class="field-label">Sua mensagem / oferta</label>
@@ -2306,8 +2309,8 @@ function _navigate(page){
   if(page==='raffles') loadRaffles();
   if(page==='admin') loadAdminData();
   if(page==='market') loadMarketData();
-  if(page==='guild_market') loadGuildShop('market');
-  if(page==='guild_bazar')  loadGuildShop('bazar');
+  if(page==='guild_market') loadGuildShop('market', 'sell');
+  if(page==='guild_bazar')  loadGuildShop('bazar', 'sell');
   if(page==='info') { /* página estática, nada a carregar */ }
   if(page==='kill_ranking'){
     krRenderFilters();
@@ -6943,48 +6946,65 @@ var _shopAttrCount    = 0;        // controle de linhas de atributo no modal
 
 // ── Tabs ─────────────────────────────────────────────────────────
 
-var _shopCurrentTab    = { market: 'active', bazar: 'active' };
+var _shopCurrentTab    = { market: 'sell', bazar: 'sell' };
 var _shopHistoryFilter = { market: '', bazar: '' };
 
 function shopSetTab(type, tab, btn){
   _shopCurrentTab[type] = tab;
   var prefix = 'shop-' + type + '-tab-';
-  ['active','history'].forEach(function(t){
+  ['sell','buy','history'].forEach(function(t){
     var el = document.getElementById(prefix + t);
     if(el) el.classList.toggle('active', t === tab);
   });
+  // Atualiza label do botão de novo anúncio
+  var btnId = 'btn-new-' + type + '-listing';
+  var btnEl = document.getElementById(btnId);
+  if(btnEl){
+    if(tab === 'history'){
+      btnEl.style.display = 'none';
+    } else {
+      btnEl.style.display = currentProfile && currentProfile.role !== 'novato' ? 'inline-block' : 'none';
+      btnEl.textContent   = tab === 'buy' ? '+ Nova Oferta de Compra' : '+ Novo Anúncio';
+      btnEl.onclick       = function(){ openShopModal(type, tab); };
+    }
+  }
   loadGuildShop(type, tab);
 }
 
 // ── Navegação ────────────────────────────────────────────────────
 
 function loadGuildShop(type, tab){
-  tab = tab || _shopCurrentTab[type] || 'active';
+  tab = tab || _shopCurrentTab[type] || 'sell';
   _shopCurrentTab[type] = tab;
   if(tab === 'history'){
     loadGuildShopHistory(type);
   } else {
-    loadGuildShopActive(type);
+    loadGuildShopActive(type, tab); // tab = 'sell' | 'buy'
   }
 }
 
-function loadGuildShopActive(type){
+function loadGuildShopActive(type, listingType){
+  listingType = listingType || 'sell';
   var cont = document.getElementById(type === 'market' ? 'guild-market-content' : 'guild-bazar-content');
   if(!cont) return;
   cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
 
   supaFetch('guild_shop', {
-    type:   'eq.' + type,
-    status: 'eq.active',
-    order:  'created_at.desc',
-    select: '*',
+    type:         'eq.' + type,
+    listing_type: 'eq.' + listingType,
+    status:       'eq.active',
+    order:        'created_at.desc',
+    select:       '*',
   }).then(function(res){
     var items = res.data || [];
+    var emptyMsg = listingType === 'buy'
+      ? 'Nenhuma oferta de compra no momento.'
+      : 'Nenhum anúncio disponível no momento.';
     if(!items.length){
-      cont.innerHTML = '<div class="shop-empty">Nenhum anúncio disponível no momento.</div>';
+      cont.innerHTML = '<div class="shop-empty">' + emptyMsg + '</div>';
       return;
     }
-    cont.innerHTML = '<div class="shop-grid">' + items.map(renderShopCard).join('') + '</div>';
+    cont.innerHTML = '<div class="shop-grid">' + items.map(function(i){ return renderShopCard(i); }).join('') + '</div>';
   }).catch(function(e){
     cont.innerHTML = '<div style="color:var(--red)">Erro ao carregar: ' + e.message + '</div>';
   });
@@ -7094,6 +7114,9 @@ function renderShopHistory(items, filterVal){
         var rarBadge  = item.rarity
           ? '<span class="rarity-badge rarity-' + item.rarity.toLowerCase() + '" style="margin-bottom:0;font-size:.55rem">' + item.rarity + '</span>'
           : '';
+        var listingBadge = item.listing_type === 'buy'
+          ? '<span style="font-size:.58rem;font-family:\'Cinzel\',serif;background:rgba(232,160,48,.15);border:1px solid rgba(232,160,48,.4);color:#e8a030;padding:2px 6px;border-radius:10px">COMPRA</span>'
+          : '<span style="font-size:.58rem;font-family:\'Cinzel\',serif;background:rgba(90,176,232,.1);border:1px solid rgba(90,176,232,.3);color:#5ab0e8;padding:2px 6px;border-radius:10px">VENDA</span>';
         var priceStr  = item.unit_price > 0 ? item.unit_price.toLocaleString('pt-BR') + ' gp' : 'Gratuito';
         var totalStr  = (item.unit_price > 0 && item.quantity > 1)
           ? 'Total: ' + (item.unit_price * item.quantity).toLocaleString('pt-BR') + ' gp'
@@ -7114,7 +7137,7 @@ function renderShopHistory(items, filterVal){
         return '<div class="shop-card ' + rarClass + '" style="opacity:.85">'
           + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap">'
           +   '<div>'
-          +     (rarBadge ? '<div class="shop-card-meta" style="margin-bottom:4px">' + rarBadge + '</div>' : '')
+          +     (rarBadge || listingBadge ? '<div class="shop-card-meta" style="margin-bottom:4px;gap:5px">' + rarBadge + listingBadge + '</div>' : '')
           +     '<div class="shop-card-name">' + escHtml(item.item_name)
           +       (item.quantity > 1 ? ' <span style="color:var(--text-dim);font-size:.8rem">x' + item.quantity + '</span>' : '')
           +     '</div>'
@@ -7150,56 +7173,49 @@ function shopRarityClass(rarity){
 }
 
 function renderShopCard(item){
-  var rarClass  = shopRarityClass(item.rarity);
-  var rarColor  = item.rarity ? SHOP_RARITY_COLORS[item.rarity] || '#aaa' : '';
-  var rarBadge  = item.rarity
-    ? '<span class="rarity-badge rarity-' + item.rarity.toLowerCase() + '" style="margin-bottom:0">' + item.rarity + '</span>'
+  var isBuy    = item.listing_type === 'buy';
+  var rarClass = shopRarityClass(item.rarity);
+  var rarBadge = item.rarity
+    ? '<span class="rarity-badge rarity-' + item.rarity.toLowerCase() + '" style="margin-bottom:0">' + item.rarity + (isBuy ? '+' : '') + '</span>'
     : '';
-
+  var typeBadge = isBuy
+    ? '<span style="font-size:.6rem;font-family:\'Cinzel\',serif;background:rgba(232,160,48,.15);border:1px solid rgba(232,160,48,.4);color:#e8a030;padding:2px 8px;border-radius:10px;letter-spacing:.06em">PROCURO</span>'
+    : '';
   var priceStr = item.unit_price > 0
     ? item.unit_price.toLocaleString('pt-BR') + ' gp'
-    : '<span style="color:var(--online)">Gratuito</span>';
-
+    : isBuy
+      ? '<span style="color:var(--text-dim)">A combinar</span>'
+      : '<span style="color:var(--online)">Gratuito</span>';
   var totalStr = (item.unit_price > 0 && item.quantity > 1)
     ? '<span class="shop-card-total">Total: ' + (item.unit_price * item.quantity).toLocaleString('pt-BR') + ' gp</span>'
     : '';
-
+  var priceLabel = isBuy ? '<span style="color:var(--text-dim);font-size:.72rem">Oferta: </span>' : '';
   var attrsHtml = '';
   if(item.attributes && item.attributes.length){
     attrsHtml = '<div class="shop-card-attrs">'
-      + item.attributes.map(function(a){
-          return '⚡ ' + a.name + ' +' + a.value + (a.flat ? '' : '%');
-        }).join(' &nbsp;·&nbsp; ')
+      + (isBuy ? '<span style="color:var(--text-dim);font-size:.68rem">Desejados: </span>' : '')
+      + item.attributes.map(function(a){ return '⚡ ' + a.name + ' +' + a.value + (a.flat ? '' : '%'); }).join(' &nbsp;·&nbsp; ')
       + '</div>';
   }
-
-  var descHtml = item.description
-    ? '<div class="shop-card-desc">' + item.description + '</div>'
-    : '';
-
+  var descHtml = item.description ? '<div class="shop-card-desc">' + escHtml(item.description) + '</div>' : '';
   var isMine  = currentProfile && currentProfile.id === item.seller_profile_id;
   var isStaff = currentProfile && ['admin','lider','vice'].includes(currentProfile.role);
-
   var actionBtns = '';
   if(currentProfile && !isMine){
-    actionBtns += '<button class="btn" style="font-size:.68rem;padding:5px 10px" onclick="openShopInterest(\'' + item.id + '\',\'' + escHtml(item.item_name) + '\',\'' + escHtml(item.seller_name) + '\')">💬 Tenho Interesse</button>';
+    var intLabel = isBuy ? 'Tenho esse item' : 'Tenho Interesse';
+    actionBtns += '<button class="btn" style="font-size:.68rem;padding:5px 10px" onclick="openShopInterest(\'' + item.id + '\',\'' + escHtml(item.item_name) + '\',\'' + escHtml(item.seller_name) + '\',\'' + (item.listing_type||'sell') + '\')">' + intLabel + '</button>';
   }
   if(isMine || isStaff){
-    actionBtns += '<button class="btn" style="font-size:.68rem;padding:5px 10px;border-color:var(--red);color:var(--red)" onclick="markShopSold(\'' + item.id + '\',\'' + item.type + '\')">✓ Marcar Vendido</button>';
+    var soldLabel = isBuy ? '✓ Marcar Comprado' : '✓ Marcar Vendido';
+    actionBtns += '<button class="btn" style="font-size:.68rem;padding:5px 10px;border-color:var(--red);color:var(--red)" onclick="markShopSold(\'' + item.id + '\',\'' + item.type + '\')">' + soldLabel + '</button>';
     actionBtns += '<button class="btn" style="font-size:.68rem;padding:5px 10px;border-color:var(--text-dim);color:var(--text-dim)" onclick="deleteShopListing(\'' + item.id + '\',\'' + item.type + '\')">✕ Remover</button>';
   }
-
   var date = new Date(item.created_at).toLocaleDateString('pt-BR');
-
   return '<div class="shop-card ' + rarClass + '">'
-    + '<div class="shop-card-meta">' + rarBadge + '</div>'
+    + '<div class="shop-card-meta" style="gap:6px">' + rarBadge + typeBadge + '</div>'
     + '<div class="shop-card-name">' + escHtml(item.item_name) + (item.quantity > 1 ? ' <span style="color:var(--text-dim);font-size:.8rem">x' + item.quantity + '</span>' : '') + '</div>'
-    + '<div class="shop-card-meta">'
-    +   '<span class="shop-card-price">' + priceStr + '</span>'
-    +   totalStr
-    + '</div>'
-    + attrsHtml
-    + descHtml
+    + '<div class="shop-card-meta">' + priceLabel + '<span class="shop-card-price">' + priceStr + '</span>' + totalStr + '</div>'
+    + attrsHtml + descHtml
     + '<div class="shop-card-seller" style="margin-top:4px">👤 ' + escHtml(item.seller_name) + ' · ' + date + '</div>'
     + (actionBtns ? '<div class="shop-card-actions">' + actionBtns + '</div>' : '')
     + '</div>';
@@ -7211,10 +7227,29 @@ function escHtml(str){
 
 // ── Modal de criação ─────────────────────────────────────────────
 
-function openShopModal(type){
+function openShopModal(type, listingType){
+  listingType = listingType || 'sell';
   _shopCurrentType = type;
   _shopAttrCount   = 0;
-  document.getElementById('shop-modal-title').textContent = type === 'market' ? '🏠 Novo Anúncio — Mercado' : '🎪 Novo Anúncio — Bazar';
+
+  var isBuy    = listingType === 'buy';
+  var typeName = type === 'market' ? 'Mercado' : 'Bazar';
+
+  document.getElementById('shop-modal-title').textContent  = isBuy
+    ? 'Nova Oferta de Compra — ' + typeName
+    : 'Novo Anúncio de Venda — ' + typeName;
+  document.getElementById('shop-listing-type').value       = listingType;
+  document.getElementById('shop-item-label').textContent   = isBuy ? 'Item Procurado *' : 'Nome do Item *';
+  document.getElementById('shop-item-name').placeholder    = isBuy ? 'Ex: Sanguine Legs, Boss Token...' : 'Ex: Boss Token, Dragonbone Sword...';
+  document.getElementById('shop-price-label').textContent  = isBuy ? 'Oferta (gp)' : 'Valor Unitário (gp)';
+  document.getElementById('shop-unit-price').placeholder   = isBuy ? '0 = A combinar' : '0 = Gratuito';
+  document.getElementById('shop-rarity-label').innerHTML   = (isBuy ? 'Raridade Mínima ' : 'Raridade ') + '<span style="color:var(--text-dim);font-size:.75rem">(opcional)</span>';
+  document.getElementById('shop-attrs-label').childNodes[0].textContent = isBuy ? 'Atributos Desejados ' : 'Atributos ';
+  document.getElementById('shop-description').placeholder  = isBuy
+    ? 'Ex: precisa ter pelo menos Lv.2 em Attack...'
+    : 'Ex: Item +5, sem uso...';
+  document.getElementById('shop-submit-btn').textContent   = isBuy ? 'Publicar Oferta de Compra' : 'Publicar Anúncio';
+
   document.getElementById('shop-item-name').value   = '';
   document.getElementById('shop-qty').value          = '1';
   document.getElementById('shop-unit-price').value   = '0';
@@ -7370,6 +7405,7 @@ async function submitShopListing(){
   try {
     await supaFetch('guild_shop', null, 'POST', {
       type:              _shopCurrentType,
+      listing_type:      document.getElementById('shop-listing-type').value || 'sell',
       seller_profile_id: currentProfile.id,
       seller_name:       currentProfile.display_name,
       item_name:         itemName,
@@ -7426,11 +7462,17 @@ async function deleteShopListing(id, type){
 
 // ── Modal de interesse ───────────────────────────────────────────
 
-function openShopInterest(shopId, itemName, sellerName){
+function openShopInterest(shopId, itemName, sellerName, listingType){
   _shopInterestId = shopId;
+  var isBuy = listingType === 'buy';
+  document.getElementById('shop-interest-title').textContent = isBuy ? 'Tenho esse item' : 'Demonstrar Interesse';
   document.getElementById('shop-interest-item-info').innerHTML =
     '<strong>' + escHtml(itemName) + '</strong><br>'
-    + '<span style="color:var(--text-dim);font-size:.8rem">Anunciado por ' + escHtml(sellerName) + '</span>';
+    + '<span style="color:var(--text-dim);font-size:.8rem">'
+    + (isBuy ? 'Procurado por ' : 'Anunciado por ') + escHtml(sellerName) + '</span>';
+  document.getElementById('shop-interest-msg').placeholder = isBuy
+    ? 'Ex: Tenho esse item, posso negociar...'
+    : 'Ex: Tenho interesse, posso pagar X gp...';
   document.getElementById('shop-interest-msg').value = '';
   document.getElementById('shop-interest-status').textContent = '';
   showModal('modal-shop-interest');
