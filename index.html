@@ -1661,7 +1661,7 @@ footer span{color:var(--gold-dim)}
     <div class="hm-tabs" style="margin-bottom:20px">
       <button class="hm-tab active" id="admin-tab-members" onclick="adminSetTab('members',this)">Membros</button>
       <button class="hm-tab" id="admin-tab-guilds" onclick="adminSetTab('guilds',this)">Guildas Inimigas</button>
-      <button class="hm-tab" id="admin-tab-log" onclick="adminSetTab('log',this)">Log de Atividades</button>
+      <button class="hm-tab" id="admin-tab-log" onclick="adminSetTab('log',this)" style="display:none">Log de Atividades</button>
     </div>
 
     <!-- Membros -->
@@ -4044,6 +4044,8 @@ function updateAuthUI(){
     if(rafflesNav) rafflesNav.style.display = 'flex';
     var adminNav = document.getElementById('nav-admin');
     if(adminNav) adminNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
+    var logTab = document.getElementById('admin-tab-log');
+    if(logTab) logTab.style.display = currentProfile.role === 'admin' ? 'inline-block' : 'none';
     var marketNav = document.getElementById('nav-market');
     if(marketNav) marketNav.style.display = ['admin','lider','vice','veterano','membro'].includes(currentProfile.role) ? 'flex' : 'none';
     var gMarketNav = document.getElementById('nav-guild_market');
