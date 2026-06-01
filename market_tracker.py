@@ -297,10 +297,11 @@ def should_notify_user(discord_user_id: str, item_name: str, rarity: int, item_a
         if item_cat not in prefs['categories']:
             return False
 
-    # Filtro de atributos (OR)
+    # Filtro de atributos (OR) — match exato por nome do atributo
+    # Usa "NomeAttr Lv." para não confundir "Attack" com "Attack Speed"
     if prefs['attrs']:
         attrs_lower = item_attrs.lower()
-        if not any(a.lower() in attrs_lower for a in prefs['attrs']):
+        if not any(a.lower() + ' lv.' in attrs_lower for a in prefs['attrs']):
             return False
 
     return True
