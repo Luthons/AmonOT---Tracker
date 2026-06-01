@@ -7521,9 +7521,22 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '2026.06.01';
+var WHATS_NEW_VERSION = '2026.06.02';
 
 var WHATS_NEW_CHANGELOG = [
+  {
+    date: '02/06/2026',
+    items: [
+      {
+        type: 'new', title: 'Ofertas de Compra — Mercado e Bazar',
+        desc: 'Nova aba "Compra" no Mercado e no Bazar da Guilda. Crie uma oferta indicando o item que procura, quantidade, valor oferecido, raridade mínima e atributos desejados. Quem tiver o item clica em "Tenho esse item" e o dono da oferta recebe uma DM no Discord.',
+      },
+      {
+        type: 'improvement', title: 'Histórico com badge de tipo',
+        desc: 'O histórico agora diferencia visualmente anúncios de Venda e Compra com badges coloridos em cada card.',
+      },
+    ],
+  },
   {
     date: '01/06/2026',
     items: [
