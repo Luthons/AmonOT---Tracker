@@ -4556,7 +4556,7 @@ async function generateInvite(){
   btn.textContent = 'Gerando...';
 
   var code    = 'LP-' + Math.random().toString(36).substring(2,6).toUpperCase() + '-' + Math.random().toString(36).substring(2,6).toUpperCase();
-  var expires = new Date(Date.now() + 2*60*60*1000).toISOString();
+  var expires = new Date(Date.now() + 24*60*60*1000).toISOString();
 
   try {
     await supaFetch('invite_codes', null, 'POST', {
@@ -8265,12 +8265,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.15';
+var WHATS_NEW_VERSION = '1.6.16';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'improvement', title: 'Notificações de Market — automático',
+        desc: 'Qualquer membro com Discord ID cadastrado no perfil agora recebe notificações de market automaticamente, sem precisar ser adicionado manualmente. Configure suas preferências de raridade, vocação e atributos no Market para filtrar o que quer receber.',
+      },
       {
         type: 'improvement', title: 'Perfil do Player — Posição no Ranking',
         desc: 'O perfil público agora mostra a posição do player no Kill Ranking geral, com destaque em ouro para #1, prata para top 3 e bronze para top 10.',
