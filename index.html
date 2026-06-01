@@ -3855,6 +3855,7 @@ async function submitCreateEvent(){
       created_by: currentProfile ? currentProfile.id : null,
     });
     var newEvent = Array.isArray(d) ? d[0] : d;
+    logActivity('Evento criado: ' + nome + ' (' + tipo + ') em ' + data, 'calendar', {nome: nome, tipo: tipo, data: data, hora: hora});
     status.textContent='✅ Evento criado!';
     status.className='modal-status ok';
     calEvents.push({id: newEvent.id, tipo, nome, data, hora, desc, vagas, resets, share, noShare, shareReq, groupSize});
@@ -3897,6 +3898,8 @@ async function deleteCalEvent(eventId){
   if(!confirm('Deletar este evento? Os joins também serão removidos.')) return;
   try {
     await supaFetch('calendar_events?id=eq.'+eventId, null, 'DELETE');
+    var evDel = calEvents.find(function(e){ return e.id === eventId; });
+    if(evDel) logActivity('Evento deletado: ' + evDel.nome + ' (' + evDel.tipo + ')', 'calendar', {nome: evDel.nome, tipo: evDel.tipo, data: evDel.data});
     calEvents = calEvents.filter(function(e){ return e.id !== eventId; });
     delete calJoins[eventId];
     renderCalendar();
@@ -6139,6 +6142,7 @@ async function submitRaffleRequest(){
       suggest_price:  suggestPrice,
       suggest_qty:    suggestQty,
     });
+    logActivity('Rifa solicitada: ' + itemName + ' (' + rarity + ')', 'raffle', {item: itemName, rarity: rarity});
     status.innerHTML='<span style="color:var(--online)">✅ Solicitação enviada! A staff será notificada.</span>';
     setTimeout(function(){ closeModal('modal-request-raffle'); }, 2000);
   } catch(e){
@@ -6208,6 +6212,7 @@ async function submitCreateRaffle(){
     if(requestId){
       await supaFetch('raffle_requests?id=eq.'+requestId, null, 'PATCH', {status:'approved'});
     }
+    logActivity('Rifa criada: ' + itemName + ' (' + rarity + ') — ' + total + ' tickets a ' + price + ' gp', 'raffle', {item: itemName, rarity: rarity, price: price, total: total});
     status.innerHTML='<span style="color:var(--online)">✅ Rifa criada!</span>';
     setTimeout(function(){ closeModal('modal-create-raffle'); loadRaffles(); }, 1200);
   } catch(e){
@@ -6271,6 +6276,7 @@ async function rejectRequest(requestId){
   if(!confirm('Recusar esta solicitação?')) return;
   try {
     await supaFetch('raffle_requests?id=eq.'+requestId, null, 'PATCH', {status:'rejected'});
+    logActivity('Solicitação de rifa recusada (id: ' + requestId + ')', 'raffle', {request_id: requestId});
     openRaffleRequestsModal();
   } catch(e){ alert('Erro: '+e.message); }
 }
@@ -6560,6 +6566,7 @@ async function submitSetWinner(){
   if(!winner){ status.innerHTML='<span style="color:var(--red)">Nome obrigatório.</span>'; return; }
   try {
     await supaFetch('raffles?id=eq.'+rid, null, 'PATCH', {winner: winner});
+    logActivity('Ganhador da rifa definido: ' + winner, 'raffle', {raffle_id: rid, winner: winner});
     status.innerHTML='<span style="color:var(--online)">✅ Ganhador definido!</span>';
     setTimeout(function(){ closeModal('modal-set-winner'); loadRaffles(); }, 1200);
   } catch(e){
@@ -7668,15 +7675,12 @@ async function openPlayerProfile(playerName){
   showModal('modal-player-profile');
 
   try {
-    // Busca paralela de todos os dados
-    var [profileRes, killsRes, deathsRes, calRes, shopRes] = await Promise.all([
-      // Perfil + personagens
+    var [profileRes, killsRes, deathsRes, calRes, shopRes, rankingRes] = await Promise.all([
       supaFetch('profiles', {
         select:       'id,display_name,role,novato_since,created_at',
         display_name: 'eq.' + playerName,
         limit:        '1',
       }),
-      // Kills (como killer, excluindo assists)
       supaFetch('kill_rankings', {
         killer:    'eq.' + playerName,
         is_assist: 'eq.false',
@@ -7684,33 +7688,47 @@ async function openPlayerProfile(playerName){
         order:     'kill_time.desc',
         limit:     '200',
       }),
-      // Deaths (como vítima)
       supaFetch('kill_rankings', {
         victim: 'eq.' + playerName,
         select: 'killer,killer_resets,points,kill_time',
         order:  'kill_time.desc',
         limit:  '200',
       }),
-      // Calendário
       supaFetch('calendar_joins', {
         player_name: 'eq.' + playerName,
         select:      'evento_id,resets',
         limit:       '100',
       }),
-      // Anúncios ativos no shop
       supaFetch('guild_shop', {
         seller_name: 'eq.' + playerName,
         status:      'eq.active',
         select:      'id,type,listing_type,item_name,quantity,unit_price,rarity',
         order:       'created_at.desc',
       }),
+      // Ranking geral — agrega pontos por killer para calcular posição
+      supaFetch('kill_rankings', {
+        is_assist: 'eq.false',
+        select:    'killer,points',
+        limit:     '5000',
+      }),
     ]);
 
-    var profile  = (profileRes.data  || [])[0] || null;
-    var kills    = killsRes.data   || [];
-    var deaths   = deathsRes.data  || [];
-    var calJoins = calRes.data     || [];
-    var shopItems= shopRes.data    || [];
+    var profile   = (profileRes.data  || [])[0] || null;
+    var kills     = killsRes.data     || [];
+    var deaths    = deathsRes.data    || [];
+    var calJoins  = calRes.data       || [];
+    var shopItems = shopRes.data      || [];
+    var allKills  = rankingRes.data   || [];
+
+    // Calcula posição no ranking geral
+    var ptsMap = {};
+    allKills.forEach(function(k){
+      ptsMap[k.killer] = (ptsMap[k.killer] || 0) + k.points;
+    });
+    var sorted   = Object.keys(ptsMap).sort(function(a,b){ return ptsMap[b]-ptsMap[a]; });
+    var rankPos  = sorted.indexOf(playerName) + 1;
+    var rankTotal= sorted.length;
+    var rankPts  = ptsMap[playerName] || 0;
 
     // Assists separados
     var assistsRes = await supaFetch('kill_rankings', {
@@ -7721,14 +7739,14 @@ async function openPlayerProfile(playerName){
     });
     var assists = assistsRes.data || [];
 
-    cont.innerHTML = renderPlayerProfile(playerName, profile, kills, deaths, assists, calJoins, shopItems);
+    cont.innerHTML = renderPlayerProfile(playerName, profile, kills, deaths, assists, calJoins, shopItems, rankPos, rankTotal, rankPts);
 
   } catch(e){
     cont.innerHTML = '<div style="color:var(--red);padding:20px 0">Erro ao carregar perfil: ' + e.message + '</div>';
   }
 }
 
-function renderPlayerProfile(name, profile, kills, deaths, assists, calJoins, shopItems){
+function renderPlayerProfile(name, profile, kills, deaths, assists, calJoins, shopItems, rankPos, rankTotal, rankPts){
   var ROLE_LABELS = {novato:'Novato', membro:'Membro', veterano:'Veterano', vice:'Vice-Líder', lider:'Líder', admin:'Admin'};
   var ROLE_COLORS = {novato:'var(--text-dim)', membro:'var(--text)', veterano:'#5ab0e8', vice:'#b06fe8', lider:'#e8a030', admin:'#e84040'};
 
@@ -7752,17 +7770,21 @@ function renderPlayerProfile(name, profile, kills, deaths, assists, calJoins, sh
   if(profile){
     html += '<span style="font-size:.72rem;color:var(--text-dim)">Membro desde ' + since + '</span>';
   }
+  if(rankPos && rankPos > 0){
+    var rankColor = rankPos === 1 ? '#ffd700' : rankPos <= 3 ? '#c0c0c0' : rankPos <= 10 ? '#e8a030' : 'var(--text-dim)';
+    html += '<span style="font-size:.72rem;color:' + rankColor + ';font-family:\'Cinzel\',serif">#' + rankPos + ' no Kill Ranking</span>';
+  }
   html +=   '</div>';
   html += '</div>';
 
   // ── Stats ────────────────────────────────────────────────────────
   var stats = [
-    {label: 'Kills',    value: kills.length},
-    {label: 'Deaths',   value: deaths.length},
-    {label: 'Assists',  value: assists.length},
-    {label: 'KDA',      value: kda.toFixed(2)},
-    {label: 'Pts Kills',value: totalKillPts.toLocaleString('pt-BR')},
-    {label: 'Pts Assist',value: totalAssistPts},
+    {label: 'Kills',      value: kills.length},
+    {label: 'Deaths',     value: deaths.length},
+    {label: 'Assists',    value: assists.length},
+    {label: 'KDA',        value: kda.toFixed(2)},
+    {label: 'Pts Kills',  value: (rankPts||totalKillPts).toLocaleString('pt-BR')},
+    {label: 'Ranking',    value: rankPos ? '#' + rankPos + ' / ' + rankTotal : '—'},
   ];
 
   html += '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px">';
@@ -8243,12 +8265,20 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.14';
+var WHATS_NEW_VERSION = '1.6.15';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'improvement', title: 'Perfil do Player — Posição no Ranking',
+        desc: 'O perfil público agora mostra a posição do player no Kill Ranking geral, com destaque em ouro para #1, prata para top 3 e bronze para top 10.',
+      },
+      {
+        type: 'improvement', title: 'Log de Atividades — Rifas e Calendário',
+        desc: 'O Log de Atividades agora registra ações de rifas (solicitação, criação, recusa, ganhador) e calendário (evento criado, evento deletado).',
+      },
       {
         type: 'new', title: 'Exportar Kill Ranking como imagem',
         desc: 'Botão "Exportar" na página de Kill Ranking gera um PNG do ranking atual com o período selecionado — mesmo visual do KDA, com destaque para top 3 e URL do painel no rodapé.',
