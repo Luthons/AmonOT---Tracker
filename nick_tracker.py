@@ -16,6 +16,7 @@ import time
 import requests
 from urllib.parse import quote, urlparse, parse_qs
 from bs4 import BeautifulSoup
+from activity_log import log as alog
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
@@ -215,6 +216,12 @@ def check_player(table: str, name_field: str, player_name: str):
         elif result:
             print(f"[nick_tracker] ✅ {table}: '{player_name}' → '{new_name}'")
             update_kill_rankings(player_name, new_name)
+            alog(
+                actor    = "Sistema",
+                action   = f"Nick atualizado: {player_name} \u2192 {new_name}",
+                category = "nick",
+                details  = {"old_name": player_name, "new_name": new_name, "table": table},
+            )
         else:
             print(f"[nick_tracker] ❌ falha ao atualizar '{player_name}' em {table}")
     else:

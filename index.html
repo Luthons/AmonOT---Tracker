@@ -1661,6 +1661,7 @@ footer span{color:var(--gold-dim)}
     <div class="hm-tabs" style="margin-bottom:20px">
       <button class="hm-tab active" id="admin-tab-members" onclick="adminSetTab('members',this)">Membros</button>
       <button class="hm-tab" id="admin-tab-guilds" onclick="adminSetTab('guilds',this)">Guildas Inimigas</button>
+      <button class="hm-tab" id="admin-tab-log" onclick="adminSetTab('log',this)">Log de Atividades</button>
     </div>
 
     <!-- Membros -->
@@ -1680,6 +1681,28 @@ footer span{color:var(--gold-dim)}
       <div style="font-size:.78rem;color:var(--text-dim);margin-bottom:16px">⚠ Use o nome exato da guilda como aparece no amonOT. O scraper usará essa lista para monitorar membros, resets e status.</div>
       <div id="enemy-guilds-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
     </div>
+    <!-- Log de Atividades -->
+    <div id="admin-panel-log" style="display:none">
+      <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center">
+        <select class="field-input" id="log-filter-category" onchange="loadActivityLog(true)" style="max-width:180px;font-size:.78rem">
+          <option value="">Todas as categorias</option>
+          <option value="hunted">Hunted List</option>
+          <option value="bonus">Lista Bônus</option>
+          <option value="nick">Nick Tracker</option>
+          <option value="death">Mortes</option>
+          <option value="shop">Mercado / Bazar</option>
+          <option value="raffle">Rifas</option>
+          <option value="calendar">Calendário</option>
+          <option value="admin">Administração</option>
+          <option value="invite">Convites</option>
+          <option value="enemy_guild">Guildas Inimigas</option>
+        </select>
+        <input class="field-input" type="text" id="log-filter-actor" placeholder="Filtrar por usuário..." oninput="loadActivityLog(true)" style="max-width:200px;font-size:.78rem">
+        <button class="btn" style="font-size:.7rem;padding:6px 12px" onclick="loadActivityLog(true)">Atualizar</button>
+      </div>
+      <div id="activity-log-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    </div>
+
     <footer>Administração · Lowly People</footer>
   </div>
 </div>
@@ -3068,6 +3091,7 @@ async function huntedAdd(){
     });
     document.getElementById('hunted-name').value   = '';
     document.getElementById('hunted-reason').value = '';
+    logActivity('Adicionado à Hunted List: ' + name + (reason ? ' — ' + reason : ''), 'hunted', {name: name, reason: reason});
     status.textContent = '✅ '+name+' adicionado!';
     status.style.color = 'var(--online)';
     loadHunted();
@@ -3079,9 +3103,11 @@ async function huntedAdd(){
 
 async function huntedRemove(btn){
   if(!confirm('Remover este player da hunted list?')) return;
-  var id = btn.dataset.id;
+  var id   = btn.dataset.id;
+  var name = btn.dataset.name || id;
   try {
     await supaFetch('hunted_list?id=eq.'+id, null, 'DELETE');
+    logActivity('Removido da Hunted List: ' + name, 'hunted', {name: name});
     loadHunted();
   } catch(e){ alert('Erro: '+e.message); }
 }
@@ -4229,6 +4255,7 @@ async function submitRegister(){
     await supaFetch('invite_codes?id=eq.'+code.id, null, 'PATCH', {
       used_by: profile.id, used_at: new Date().toISOString()
     });
+    logActivity('Conta criada com convite: ' + displayName, 'invite', {display_name: displayName, invite_code: invite});
 
     // Cria configurações de notificação padrão
     await supaFetch('notification_settings', null, 'POST', {profile_id: profile.id});
@@ -4519,6 +4546,7 @@ async function generateInvite(){
       created_by: currentProfile.id,
       expires_at: expires,
     });
+    logActivity('Código de convite gerado: ' + code, 'invite', {code: code, expires_at: expires});
 
     btn.disabled = false;
     btn.textContent = 'Gerar Código (válido por 2h)';
@@ -6850,6 +6878,7 @@ async function addBonusChar(){
       char_name: name,
       added_by:  currentProfile?.id,
     });
+    logActivity('Adicionado à Lista Bônus: ' + name, 'bonus', {name: name});
     input.value = '';
     loadBonusList();
   } catch(e){ alert('Erro: '+e.message); }
@@ -6857,9 +6886,11 @@ async function addBonusChar(){
 
 async function removeBonusChar(btn){
   if(!confirm('Remover este personagem da lista bônus?')) return;
-  var id = btn.dataset.id;
+  var id   = btn.dataset.id;
+  var name = btn.dataset.name || id;
   try {
     await supaFetch('kill_bonus_list?id=eq.'+id, null, 'DELETE');
+    logActivity('Removido da Lista Bônus: ' + name, 'bonus', {name: name});
     loadBonusList();
   } catch(e){ alert('Erro: '+e.message); }
 }
@@ -6871,6 +6902,8 @@ function adminSetTab(tab, btn){
   btn.classList.add('active');
   document.getElementById('admin-panel-members').style.display = tab === 'members' ? '' : 'none';
   document.getElementById('admin-panel-guilds').style.display  = tab === 'guilds'  ? '' : 'none';
+  document.getElementById('admin-panel-log').style.display     = tab === 'log'     ? '' : 'none';
+  if(tab === 'log') loadActivityLog(true);
   if(tab === 'guilds') loadEnemyGuilds();
   if(tab === 'members') loadAdminData();
 }
@@ -6908,6 +6941,7 @@ async function addEnemyGuild(){
       name:     name,
       added_by: currentProfile?.display_name || 'Staff',
     });
+    logActivity('Guilda inimiga adicionada: ' + name, 'enemy_guild', {name: name});
     input.value = '';
     loadEnemyGuilds();
   } catch(e){ alert('Erro: '+e.message); }
@@ -6918,6 +6952,7 @@ async function removeEnemyGuild(btn){
   var id = btn.dataset.id;
   try {
     await supaFetch('enemy_guilds?id=eq.'+id, null, 'DELETE');
+    logActivity('Guilda inimiga removida (id: ' + id + ')', 'enemy_guild', {id: id});
     loadEnemyGuilds();
   } catch(e){ alert('Erro: '+e.message); }
 }
@@ -7419,6 +7454,8 @@ async function submitShopListing(){
       status:            'active',
     });
 
+    var lt = document.getElementById('shop-listing-type').value || 'sell';
+    logActivity((lt==='buy'?'Oferta de compra criada':'Anuncio criado') + ': ' + itemName, 'shop', {item: itemName, type: _shopCurrentType, listing_type: lt, price: unitPrice});
     status.textContent = '✅ Anúncio publicado!'; status.className = 'modal-status ok';
     setTimeout(function(){
       closeModal('modal-shop-listing');
@@ -7439,6 +7476,7 @@ async function markShopSold(id, type){
       close_reason: 'sold',
       closed_at:    new Date().toISOString(),
     });
+    logActivity('Item marcado como vendido/comprado (id: ' + id + ')', 'shop', {shop_id: id, type: type});
     loadGuildShop(type);
   } catch(e){ alert('Erro: ' + e.message); }
 }
@@ -7458,7 +7496,8 @@ async function deleteShopListing(id, type){
       close_reason: reason,
       closed_at:    new Date().toISOString(),
     });
-    loadGuildShop(type, _shopCurrentTab[type] || 'active');
+    logActivity('Anuncio removido (' + reason + ')', 'shop', {shop_id: id, reason: reason, type: type});
+    loadGuildShop(type, _shopCurrentTab[type] || 'sell');
   } catch(e){ alert('Erro: ' + e.message); }
 }
 
@@ -7597,6 +7636,127 @@ function renderKillFeedRow(kill){
   html +=   '<span style="font-size:.72rem;color:var(--text-dim)">' + kill.killer_resets + 'rr → ' + kill.victim_resets + 'rr</span>';
   html +=   '<span style="font-family:\'Cinzel\',serif;font-size:.8rem;color:' + ptsColor + ';min-width:32px;text-align:right">' + pts + ' pts</span>';
   html +=   '<span style="font-size:.68rem;color:var(--text-dim);min-width:110px;text-align:right">' + killDt + '</span>';
+  html += '</div>';
+  html += '</div>';
+  return html;
+}
+
+
+// ══════════════════════════════════════════════════════════════════
+//  ACTIVITY LOG
+// ══════════════════════════════════════════════════════════════════
+
+var LOG_CATEGORY_LABELS = {
+  hunted:      'Hunted List',
+  bonus:       'Lista Bônus',
+  nick:        'Nick Tracker',
+  death:       'Mortes',
+  shop:        'Mercado / Bazar',
+  raffle:      'Rifas',
+  calendar:    'Calendário',
+  admin:       'Administração',
+  invite:      'Convites',
+  enemy_guild: 'Guildas Inimigas',
+};
+
+var LOG_CATEGORY_COLORS = {
+  hunted:      '#e84040',
+  bonus:       '#e8a030',
+  nick:        '#5ab0e8',
+  death:       '#c95050',
+  shop:        '#6ec96e',
+  raffle:      '#b06fe8',
+  calendar:    '#5ab0e8',
+  admin:       '#e8a030',
+  invite:      '#a0a0a0',
+  enemy_guild: '#e84040',
+};
+
+// Helper: registra log no Supabase via supaFetch
+function logActivity(action, category, details){
+  if(!currentProfile) return;
+  supaFetch('activity_log', null, 'POST', {
+    actor:    currentProfile.display_name,
+    action:   action,
+    category: category,
+    details:  details || {},
+  }).catch(function(){});  // silencioso — log nunca deve quebrar a UI
+}
+
+// Carregamento do log
+var _logOffset    = 0;
+var _logPageSize  = 50;
+
+function loadActivityLog(reset){
+  var cont = document.getElementById('activity-log-content');
+  if(!cont) return;
+
+  if(reset){
+    _logOffset = 0;
+    cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+  }
+
+  var category = (document.getElementById('log-filter-category') || {}).value || '';
+  var actor    = ((document.getElementById('log-filter-actor') || {}).value || '').trim();
+
+  var params = {
+    order:  'created_at.desc',
+    select: 'id,created_at,actor,action,category,details',
+    limit:  String(_logPageSize),
+    offset: String(_logOffset),
+  };
+  if(category) params['category'] = 'eq.' + category;
+  if(actor)    params['actor']    = 'ilike.*' + actor + '*';
+
+  supaFetch('activity_log', params).then(function(res){
+    var rows = res.data || [];
+
+    if(reset){
+      if(!rows.length){
+        cont.innerHTML = '<div class="shop-empty">Nenhum registro encontrado.</div>';
+        return;
+      }
+      cont.innerHTML = '<div id="log-list" style="border:1px solid var(--border);border-radius:6px;overflow:hidden"></div><div id="log-more"></div>';
+    }
+
+    var list = document.getElementById('log-list');
+    var more = document.getElementById('log-more');
+    if(!list) return;
+
+    list.innerHTML += rows.map(renderLogRow).join('');
+    _logOffset += rows.length;
+
+    if(more){
+      if(rows.length < _logPageSize){
+        more.innerHTML = '<div style="text-align:center;color:var(--text-dim);font-size:.75rem;padding:12px 0">Fim do log.</div>';
+      } else {
+        more.innerHTML = '<div style="text-align:center;padding:12px 0"><button class="btn" style="font-size:.72rem;padding:7px 18px" onclick="loadActivityLog(false)">Carregar mais</button></div>';
+      }
+    }
+  }).catch(function(e){
+    cont.innerHTML = '<div style="color:var(--red)">Erro: ' + e.message + '</div>';
+  });
+}
+
+function renderLogRow(row){
+  var catLabel = LOG_CATEGORY_LABELS[row.category] || row.category;
+  var catColor = LOG_CATEGORY_COLORS[row.category] || 'var(--text-dim)';
+  var dt = '';
+  try {
+    var d = new Date(row.created_at);
+    dt = d.toLocaleDateString('pt-BR') + ' ' + d.toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'});
+  } catch(e){ dt = row.created_at; }
+
+  var html = '<div style="display:flex;align-items:flex-start;gap:12px;padding:10px 14px;border-bottom:1px solid var(--border);flex-wrap:wrap">';
+  html += '<div style="flex-shrink:0;margin-top:2px">';
+  html +=   '<span style="font-size:.6rem;font-family:\'Cinzel\',serif;background:rgba(0,0,0,.3);border:1px solid ' + catColor + ';color:' + catColor + ';padding:2px 7px;border-radius:10px;white-space:nowrap">' + catLabel + '</span>';
+  html += '</div>';
+  html += '<div style="flex:1;min-width:0">';
+  html +=   '<div style="font-size:.8rem;color:var(--text);line-height:1.4">' + escHtml(row.action) + '</div>';
+  html +=   '<div style="font-size:.7rem;color:var(--text-dim);margin-top:3px">';
+  html +=     '<span style="color:var(--gold-dim)">' + escHtml(row.actor) + '</span>';
+  html +=     ' · ' + dt;
+  html +=   '</div>';
   html += '</div>';
   html += '</div>';
   return html;

@@ -9,6 +9,7 @@ import os
 import time
 import requests
 from pywebpush import webpush, WebPushException
+from activity_log import log as alog
 
 # ── Configuração ──────────────────────────────────────────────────────────────
 DISCORD_TOKEN      = os.environ.get("DISCORD_BOT_TOKEN", "")
@@ -425,6 +426,12 @@ def check_auto_hunted(guild_data: dict):
                     timeout=10,
                 )
                 print(f"[death_tracker] ⚠ {killer} adicionado à hunted list ({count} kills)")
+                alog(
+                    actor    = "Sistema",
+                    action   = f"{killer} adicionado à Hunted List automaticamente ({count} kills em membros LP)",
+                    category = "hunted",
+                    details  = {"player": killer, "kill_count": count, "source": "auto"},
+                )
             except Exception as e:
                 print(f"[death_tracker] erro ao adicionar hunted: {e}")
 
