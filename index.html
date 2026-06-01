@@ -5404,10 +5404,13 @@ function renderMarket() {
         if(!db || db.category !== mktFilterCat) return false;
       }
 
-      // Filtro de atributos (OR)
+      // Filtro de atributos (OR entre si) — match exato por nome do atributo
+      // Usa "NomeAttr Lv." para não confundir "Attack" com "Attack Speed"
       if(mktFilterAttrs.length > 0){
         var attrs = item.attrs || '';
-        var hasAttr = mktFilterAttrs.some(function(a){ return attrs.toLowerCase().includes(a.toLowerCase()); });
+        var hasAttr = mktFilterAttrs.some(function(a){
+          return attrs.toLowerCase().includes(a.toLowerCase() + ' lv.');
+        });
         if(!hasAttr) return false;
       }
 
