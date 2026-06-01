@@ -7615,12 +7615,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.9';
+var WHATS_NEW_VERSION = '1.6.10';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'Feed de Kills',
+        desc: 'Nova aba no Kill Ranking com feed cronológico de todas as kills da LP. Mostra killer, vítima, resets de ambos, pontos e horário. Carregamento paginado de 20 em 20. Kills também disparam @everyone em canal dedicado no Discord.',
+      },
       {
         type: 'new', title: 'Ofertas de Compra — Mercado e Bazar',
         desc: 'Nova aba "Compra" no Mercado e no Bazar da Guilda. Crie uma oferta indicando o item que procura, quantidade, valor oferecido, raridade mínima e atributos desejados. Quem tiver o item clica em "Tenho esse item" e o dono da oferta recebe uma DM no Discord.',
