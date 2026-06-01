@@ -7521,40 +7521,51 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '2026.06.02';
+var WHATS_NEW_VERSION = '1.6.9';
 
 var WHATS_NEW_CHANGELOG = [
   {
-    date: '02/06/2026',
+    date: '01/06/2026',
     items: [
       {
         type: 'new', title: 'Ofertas de Compra — Mercado e Bazar',
         desc: 'Nova aba "Compra" no Mercado e no Bazar da Guilda. Crie uma oferta indicando o item que procura, quantidade, valor oferecido, raridade mínima e atributos desejados. Quem tiver o item clica em "Tenho esse item" e o dono da oferta recebe uma DM no Discord.',
       },
       {
-        type: 'improvement', title: 'Histórico com badge de tipo',
-        desc: 'O histórico agora diferencia visualmente anúncios de Venda e Compra com badges coloridos em cada card.',
+        type: 'new', title: 'Histórico do Guild Shop',
+        desc: 'Aba de Histórico no Mercado e no Bazar com todos os itens encerrados. Cada card mostra o motivo de encerramento (Vendido, Removido pelo dono ou Removido pela staff). Filtro por nome de item com estatísticas de preço médio, mínimo e máximo.',
       },
-    ],
-  },
-  {
-    date: '01/06/2026',
-    items: [
       {
         type: 'new', title: 'Mercado da Guilda',
-        desc: 'Anuncie itens para venda entre membros. Suporte a raridade, atributos calculados automaticamente (igual às rifas) e notificação via DM no Discord para o vendedor quando alguém demonstra interesse.',
+        desc: 'Anuncie itens para venda entre membros. Suporte a raridade, atributos calculados automaticamente e notificação via DM no Discord para o vendedor quando alguém demonstra interesse.',
       },
       {
         type: 'new', title: 'Bazar da Guilda',
-        desc: 'Igual ao Mercado, mas focado em itens segunda linha a preço baixo ou gratuitos para equipar makers. Cada aba tem histórico de itens encerrados com estatísticas de preço médio, mínimo e máximo por item.',
+        desc: 'Focado em equipar os makers. Coloque itens segunda linha a preço baixo ou gratuitos. Mesma mecânica do Mercado, com histórico separado.',
+      },
+      {
+        type: 'new', title: 'What\'s New',
+        desc: 'Popup de novidades que aparece automaticamente ao logar, uma vez por dia ou quando há uma nova versão. Changelog completo com dropdown por feature.',
       },
       {
         type: 'new', title: 'Aba de Informações',
-        desc: 'Guia passo a passo para configurar o Discord ID e liberar DMs do bot - necessário para receber todas as notificações.',
+        desc: 'Guia passo a passo de como ativar o Modo Desenvolvedor no Discord para pegar o seu ID, e como liberar DMs do bot — necessário para receber todas as notificações.',
       },
       {
-        type: 'fix', title: 'Market - itens fantasma',
+        type: 'fix', title: 'Market — itens fantasma',
         desc: 'Dados do Market agora são lidos diretamente do Supabase em vez do arquivo JSON do GitHub, eliminando itens que ficavam presos mesmo após sair do market oficial.',
+      },
+      {
+        type: 'new', title: 'Nick Tracker',
+        desc: 'Detecção automática de mudança de nick em jogadores da Hunted List e Lista Bonus a cada 30 minutos. Todo o histórico de kills e deaths é preservado ao renomear.',
+      },
+      {
+        type: 'fix', title: 'Criação de contas',
+        desc: 'Corrigido travamento no fluxo de cadastro com código de convite que deixava a tela presa em "Verificando código...".',
+      },
+      {
+        type: 'fix', title: 'Cache entre abas',
+        desc: 'Corrigido bug que deixava a tela em branco ao abrir o site em uma nova aba sem dar F5.',
       },
     ],
   },
