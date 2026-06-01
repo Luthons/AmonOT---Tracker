@@ -123,7 +123,7 @@ def check_pending_interests():
     shop_ids = list(set(i["shop_id"] for i in interests))
     shops = supa_get("guild_shop", {
         "id":     f"in.({','.join(shop_ids)})",
-        "select": "id,type,item_name,quantity,unit_price,rarity,seller_profile_id,seller_name",
+        "select": "id,type,listing_type,item_name,quantity,unit_price,rarity,seller_profile_id,seller_name",
     })
     shop_map = {s["id"]: s for s in shops}
 
@@ -151,17 +151,25 @@ def check_pending_interests():
             continue
 
         # Monta embed
+        is_buy   = shop.get('listing_type') == 'buy'
         section  = TYPE_LABELS.get(shop["type"], "Guild Shop")
         color    = RARITY_COLORS.get(shop.get("rarity"), 0xC9A84C)
         price    = shop["unit_price"]
         qty      = shop["quantity"]
-        price_str = f"{price:,} gp" if price > 0 else "Gratuito"
+        price_str = f"{price:,} gp" if price > 0 else ("A combinar" if is_buy else "Gratuito")
         total_str = f"{price * qty:,} gp" if price > 0 and qty > 1 else ""
 
+        if is_buy:
+            title = f"🛍️ Alguém tem o item que você procura — {section}"
+            desc  = f"**{interest['buyer_name']}** diz ter o item que você está procurando."
+        else:
+            title = f"🛒 Novo Interesse no seu Anúncio — {section}"
+            desc  = f"**{interest['buyer_name']}** demonstrou interesse no seu item."
+
         fields = [
-            {"name": "📦 Item",      "value": shop["item_name"], "inline": True},
-            {"name": "🔢 Qtd",       "value": str(qty),          "inline": True},
-            {"name": "💰 Preço",     "value": price_str,         "inline": True},
+            {"name": "📦 Item",  "value": shop["item_name"], "inline": True},
+            {"name": "🔢 Qtd",   "value": str(qty),          "inline": True},
+            {"name": "💰 " + ("Oferta" if is_buy else "Preço"), "value": price_str, "inline": True},
         ]
         if total_str:
             fields.append({"name": "💰 Total", "value": total_str, "inline": True})
@@ -171,8 +179,8 @@ def check_pending_interests():
             fields.append({"name": "💬 Mensagem", "value": interest["message"], "inline": False})
 
         embed = {
-            "title":       f"🛒 Novo Interesse no seu Anúncio — {section}",
-            "description": f"**{interest['buyer_name']}** demonstrou interesse no seu item.",
+            "title":       title,
+            "description": desc,
             "color":       color,
             "fields":      fields,
             "footer":      {"text": "Lowly People · Guild Shop — Entre em contato com o interessado no jogo."},
