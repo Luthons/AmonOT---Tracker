@@ -75,21 +75,6 @@ def save_to_snapshot(key: str):
         print(f"[death_tracker] erro ao salvar snapshot: {e}")
 
 
-def cleanup_snapshot():
-    """Remove entradas antigas (> 7 dias) para não crescer infinitamente."""
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return
-    try:
-        from datetime import datetime, timedelta
-        cutoff = (datetime.utcnow() - timedelta(days=7)).isoformat()
-        requests.delete(
-            f"{SUPABASE_URL}/rest/v1/death_snapshot",
-            headers=SUPA_HEADERS,
-            params={"notified_at": f"lt.{cutoff}"},
-            timeout=10,
-        )
-    except Exception as e:
-        print(f"[death_tracker] erro ao limpar snapshot: {e}")
 
 
 def event_key(death: dict) -> str:
@@ -366,8 +351,6 @@ def run():
 
         time.sleep(0.5)
 
-    # Limpeza semanal de entradas antigas
-    cleanup_snapshot()
     print(f"[death_tracker] ✅ {new_count} novas mortes notificadas")
 
     # Verifica hunted list automática
