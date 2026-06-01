@@ -60,15 +60,18 @@ def load_snapshot() -> set:
         return set()
 
 
-def save_to_snapshot(key: str):
+def save_to_snapshot(key: str, victim: str = None, killer: str = None):
     """Salva um ID de morte no Supabase imediatamente após notificar."""
     if not SUPABASE_URL or not SUPABASE_KEY:
         return
     try:
+        payload = {"id": key}
+        if victim: payload["victim"] = victim
+        if killer: payload["killer"] = killer
         requests.post(
             f"{SUPABASE_URL}/rest/v1/death_snapshot",
             headers={**SUPA_HEADERS, "Prefer": "resolution=ignore-duplicates,return=minimal"},
-            json={"id": key},
+            json=payload,
             timeout=10,
         )
     except Exception as e:
@@ -321,7 +324,7 @@ def run():
             print(f"[death_tracker] ✅ canal: {death['player']} morto por {death['killedBy']}")
             new_count += 1
             # Salva imediatamente no Supabase — antes de qualquer outro run
-            save_to_snapshot(key)
+            save_to_snapshot(key, victim=death.get("player"), killer=death.get("killedBy"))
             notified.add(key)
         else:
             print(f"[death_tracker] ❌ falha canal: {death['player']}")
