@@ -7984,12 +7984,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.10';
+var WHATS_NEW_VERSION = '1.6.12';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'Perfil Público do Player',
+        desc: 'Clique em qualquer nome sublinhado no Kill Ranking, Feed de Kills ou KDA para abrir o perfil completo do player: cargo, stats de kills/deaths/assists/KDA, histórico recente, participação em eventos e anúncios ativos no Mercado e Bazar.',
+      },
       {
         type: 'new', title: 'Feed de Kills',
         desc: 'Nova aba no Kill Ranking com feed cronológico de todas as kills da LP. Mostra killer, vítima, resets de ambos, pontos e horário. Carregamento paginado de 20 em 20. Kills também disparam @everyone em canal dedicado no Discord.',
