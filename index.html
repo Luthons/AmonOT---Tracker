@@ -2233,6 +2233,7 @@ footer span{color:var(--gold-dim)}
       </div>
       <button class="deaths-apply-btn" onclick="loadKDA()">Filtrar</button>
       <button class="deaths-apply-btn" onclick="kdaResetFilter()">Limpar</button>
+      <button class="deaths-apply-btn" onclick="exportKDAImage()" id="kda-export-btn" style="background:rgba(201,168,76,.15);border-color:var(--border-gold);color:var(--gold-light)">⬇ Exportar</button>
     </div>
 
     <div id="kda-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
@@ -7854,6 +7855,135 @@ function profileFmtDate(iso){
 
 
 // ══════════════════════════════════════════════════════════════════
+//  EXPORTAR KDA COMO IMAGEM
+// ══════════════════════════════════════════════════════════════════
+
+function exportKDAImage(){
+  var cont = document.getElementById('kda-content');
+  if(!cont){ alert('Nenhum dado para exportar.'); return; }
+  var table = cont.querySelector('table');
+  if(!table){ alert('Nenhum ranking visível. Aplique um filtro primeiro.'); return; }
+
+  var ths     = table.querySelectorAll('thead th');
+  var headers = Array.from(ths).map(function(th){ return th.textContent.trim(); });
+  var rows    = [];
+  table.querySelectorAll('tbody tr').forEach(function(tr){
+    rows.push(Array.from(tr.querySelectorAll('td')).map(function(td){ return td.textContent.trim(); }));
+  });
+  if(!rows.length){ alert('Nenhum dado para exportar.'); return; }
+
+  var PAD     = 28;
+  var ROW_H   = 36;
+  var HDR_H   = 50;
+  var TTL_H   = 68;
+  var FTR_H   = 38;
+  var COLS    = [44, 200, 76, 68, 68, 76];
+  var totalW  = COLS.reduce(function(a,b){ return a+b; }, 0) + PAD*2;
+  var totalH  = TTL_H + HDR_H + rows.length*ROW_H + FTR_H + PAD;
+
+  var canvas  = document.createElement('canvas');
+  var S       = 2;
+  canvas.width  = totalW * S;
+  canvas.height = totalH * S;
+  var ctx = canvas.getContext('2d');
+  ctx.scale(S, S);
+
+  // Fundo
+  ctx.fillStyle = '#0d0b08';
+  ctx.fillRect(0, 0, totalW, totalH);
+  ctx.strokeStyle = 'rgba(201,168,76,.25)';
+  ctx.lineWidth = 1;
+  ctx.strokeRect(1, 1, totalW-2, totalH-2);
+
+  // Título
+  ctx.fillStyle = '#c9a84c';
+  ctx.font = 'bold 17px serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('LOWLY PEOPLE', PAD, 30);
+
+  var tabLabel = '';
+  document.querySelectorAll('#page-kda .hm-tab').forEach(function(t){
+    if(t.classList.contains('active')) tabLabel = t.textContent.trim();
+  });
+  var pf = (document.getElementById('kda-player')?.value||'').trim();
+  ctx.fillStyle = 'rgba(201,168,76,.55)';
+  ctx.font = '12px sans-serif';
+  ctx.fillText('KDA Ranking ' + (tabLabel?'— '+tabLabel:'') + (pf?' · '+pf:''), PAD, 50);
+
+  ctx.fillStyle = 'rgba(201,168,76,.35)';
+  ctx.font = '11px sans-serif';
+  ctx.textAlign = 'right';
+  ctx.fillText(new Date().toLocaleDateString('pt-BR'), totalW-PAD, 30);
+
+  ctx.fillStyle = 'rgba(201,168,76,.12)';
+  ctx.fillRect(PAD, TTL_H-6, totalW-PAD*2, 1);
+
+  // Header
+  ctx.fillStyle = 'rgba(201,168,76,.07)';
+  ctx.fillRect(PAD, TTL_H, totalW-PAD*2, HDR_H);
+  ctx.fillStyle = '#c9a84c';
+  ctx.font = 'bold 10px sans-serif';
+  ctx.textAlign = 'left';
+  var hx = PAD;
+  headers.forEach(function(h, i){
+    ctx.fillText(h.toUpperCase(), hx + (i===0?COLS[i]/2-ctx.measureText(h.toUpperCase()).width/2:10), TTL_H+HDR_H/2+4);
+    if(i < headers.length-1){
+      ctx.fillStyle = 'rgba(201,168,76,.12)';
+      ctx.fillRect(hx+COLS[i], TTL_H+8, 1, HDR_H-16);
+      ctx.fillStyle = '#c9a84c';
+    }
+    hx += COLS[i];
+  });
+
+  // Rows
+  rows.forEach(function(row, ri){
+    var ry = TTL_H + HDR_H + ri*ROW_H;
+    if(ri%2===0){ ctx.fillStyle='rgba(255,255,255,.018)'; ctx.fillRect(PAD,ry,totalW-PAD*2,ROW_H); }
+    var hlBg = ri===0?'rgba(255,215,0,.07)':ri===1?'rgba(192,192,192,.05)':ri===2?'rgba(205,127,50,.05)':null;
+    if(hlBg){ ctx.fillStyle=hlBg; ctx.fillRect(PAD,ry,totalW-PAD*2,ROW_H); }
+    ctx.fillStyle='rgba(255,255,255,.03)';
+    ctx.fillRect(PAD,ry+ROW_H-1,totalW-PAD*2,1);
+
+    var cx = PAD;
+    row.forEach(function(cell, ci){
+      var w = COLS[ci]||76;
+      if(ci===0){
+        ctx.fillStyle = ri===0?'#ffd700':ri===1?'#c0c0c0':ri===2?'#cd7f32':'rgba(201,168,76,.4)';
+        ctx.font='bold 12px sans-serif'; ctx.textAlign='center';
+      } else if(ci===1){
+        ctx.fillStyle=ri<3?'#e8dcc8':'#b0a090'; ctx.font='13px serif'; ctx.textAlign='left';
+      } else if(ci===2){
+        var v=parseFloat(cell); ctx.fillStyle=v>=3?'#e8a030':v>=1.5?'#5ab0e8':'#888';
+        ctx.font='bold 11px sans-serif'; ctx.textAlign='left';
+      } else {
+        ctx.fillStyle='rgba(184,168,152,.65)'; ctx.font='11px sans-serif'; ctx.textAlign='left';
+      }
+      var tx = ci===0 ? cx+w/2 : cx+10;
+      var txt = cell;
+      var maxW = w-14;
+      while(ctx.measureText(txt).width>maxW&&txt.length>2) txt=txt.slice(0,-1);
+      if(txt!==cell) txt+='…';
+      ctx.fillText(txt, tx, ry+ROW_H/2+4);
+      cx+=w;
+    });
+  });
+
+  // Footer
+  var fy = TTL_H+HDR_H+rows.length*ROW_H+10;
+  ctx.fillStyle='rgba(201,168,76,.1)'; ctx.fillRect(PAD,fy,totalW-PAD*2,1);
+  ctx.fillStyle='rgba(201,168,76,.28)'; ctx.font='10px sans-serif'; ctx.textAlign='center';
+  ctx.fillText('amon-ot-tracker.vercel.app', totalW/2, fy+22);
+
+  // Download
+  canvas.toBlob(function(blob){
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a');
+    a.href=url; a.download='kda-lowly-people-'+new Date().toISOString().slice(0,10)+'.png';
+    a.click(); URL.revokeObjectURL(url);
+  },'image/png');
+}
+
+// ══════════════════════════════════════════════════════════════════
 
 var LOG_CATEGORY_LABELS = {
   hunted:      'Hunted List',
@@ -7984,12 +8114,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.12';
+var WHATS_NEW_VERSION = '1.6.13';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'Exportar KDA como imagem',
+        desc: 'Botão "Exportar" na página de KDA gera um PNG do ranking atual com visual no estilo do site — fundo escuro, destaque para top 3, URL do painel no rodapé. Pronto para compartilhar no Discord.',
+      },
       {
         type: 'new', title: 'Perfil Público do Player',
         desc: 'Clique em qualquer nome sublinhado no Kill Ranking, Feed de Kills ou KDA para abrir o perfil completo do player: cargo, stats de kills/deaths/assists/KDA, histórico recente, participação em eventos e anúncios ativos no Mercado e Bazar.',
