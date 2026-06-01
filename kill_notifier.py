@@ -153,9 +153,7 @@ def run():
 
     for kill in kills:
         embed   = build_embed(kill)
-        content = "@everyone" if not kill.get("is_assist") else ""
-
-        ok = send_message(KILLS_CHANNEL_ID, content, embed)
+        ok = send_message(KILLS_CHANNEL_ID, "", embed)
         if ok:
             print(f"[kill_notifier] ✅ {kill['killer']} → {kill['victim']} ({kill.get('points')} pts)")
         else:
