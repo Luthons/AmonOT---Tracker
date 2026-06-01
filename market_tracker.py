@@ -12,7 +12,6 @@ from bs4 import BeautifulSoup
 
 # ── Configuração ──────────────────────────────────────────────────────────────
 DISCORD_TOKEN    = os.environ.get("DISCORD_BOT_TOKEN", "")
-DISCORD_USER_IDS = [uid.strip() for uid in os.environ.get("DISCORD_USER_ID", "").split(",") if uid.strip()]
 SUPABASE_URL    = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY    = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
@@ -239,6 +238,25 @@ def get_profile_id_for_discord(discord_user_id: str) -> str | None:
         return None
 
 
+def get_all_discord_ids() -> list:
+    """Busca todos os discord_ids cadastrados em profiles."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return []
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/profiles",
+            headers=SUPA_HEADERS,
+            params={"discord_id": "not.is.null", "select": "discord_id"},
+            timeout=10,
+        )
+        if r.status_code == 200:
+            return [p["discord_id"] for p in r.json() if p.get("discord_id","").strip()]
+        return []
+    except Exception as e:
+        print(f"[market] erro ao buscar discord_ids: {e}")
+        return []
+
+
 def get_user_market_prefs(profile_id: str) -> dict:
     """Busca preferências de DM de market do usuário."""
     default = {'rarities': ['all'], 'vocations': ['all'], 'categories': ['all'], 'attrs': []}
@@ -332,14 +350,20 @@ def save_market_history(item: dict, rarity: int, event: str, duration_minutes: i
 
 
 def run():
-    if not DISCORD_TOKEN or not DISCORD_USER_IDS:
-        print("[market] ⚠ DISCORD_BOT_TOKEN ou DISCORD_USER_ID não configurados")
+    if not DISCORD_TOKEN:
+        print("[market] ⚠ DISCORD_BOT_TOKEN não configurado")
         return
 
-    snapshot   = load_snapshot()
-    if not DISCORD_USER_IDS:
-        print("[market] ⚠ nenhum DISCORD_USER_ID configurado")
+    # Busca todos os usuários com discord_id cadastrado no Supabase
+    # (substitui a lista hardcoded do secret DISCORD_USER_ID)
+    discord_ids = get_all_discord_ids()
+    if not discord_ids:
+        print("[market] ⚠ nenhum discord_id cadastrado no Supabase")
         return
+
+    print(f"[market] {len(discord_ids)} usuários com discord_id cadastrado")
+
+    snapshot = load_snapshot()
 
     now_ts = int(time.time())
 
@@ -357,9 +381,9 @@ def run():
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
             save_market_history(item, rarity, "entered")
             embed = build_embed_new(item, rarity_info)
-            for uid in DISCORD_USER_IDS:
+            for uid in discord_ids:
                 if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
-                    print(f"[market] ℹ {uid} não quer notificação para {item['name']} (vocação)")
+                    print(f"[market] ℹ {uid} não quer notificação para {item['name']} (preferências)")
                     continue
                 ch = get_dm_channel(uid)
                 if ch: send_dm(ch, embed)
@@ -373,7 +397,7 @@ def run():
             print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
             save_market_history(item, rarity, "left", minutes)
             embed = build_embed_removed(item, rarity_info, minutes)
-            for uid in DISCORD_USER_IDS:
+            for uid in discord_ids:
                 if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
                     continue
                 ch = get_dm_channel(uid)
