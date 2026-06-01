@@ -1821,6 +1821,7 @@ footer span{color:var(--gold-dim)}
       <button class="hm-tab"        id="kr-tab-month"   onclick="krSetTab('month',this)">Último Mês</button>
       <button class="hm-tab"        id="kr-tab-week"    onclick="krSetTab('week',this)">Última Semana</button>
       <button class="hm-tab"        id="kr-tab-day"     onclick="krSetTab('day',this)">Hoje</button>
+      <button class="hm-tab"        id="kr-tab-feed"    onclick="krSetTab('feed',this)">Feed de Kills</button>
       <button class="hm-tab"        id="kr-tab-bonus"   onclick="krSetTab('bonus',this)" style="display:none">⭐ Lista Bônus</button>
     </div>
 
@@ -5647,6 +5648,7 @@ function krSetTab(tab, btn) {
   btn.classList.add('active');
   krCurrentTab = tab;
   if(tab === 'bonus') { loadBonusList(); return; }
+  if(tab === 'feed')  { loadKillFeed(true); return; }
   krRenderFilters();
   loadKillRanking();
 }
@@ -7508,6 +7510,98 @@ async function submitShopInterest(){
     status.className = 'modal-status err';
   }
 }
+
+// ══════════════════════════════════════════════════════════════════
+//  KILL FEED
+// ══════════════════════════════════════════════════════════════════
+
+var _killFeedOffset = 0;
+var _killFeedPageSize = 20;
+
+function loadKillFeed(reset){
+  var cont = document.getElementById('kill-ranking-content');
+  var filterWrap = document.getElementById('kr-filter-wrap');
+  if(filterWrap) filterWrap.innerHTML = '';
+  if(!cont) return;
+
+  if(reset){
+    _killFeedOffset = 0;
+    cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+  }
+
+  supaFetch('kill_rankings', {
+    order:      'kill_time.desc',
+    select:     'killer,victim,killer_resets,victim_resets,points,is_assist,kill_time',
+    limit:      String(_killFeedPageSize),
+    offset:     String(_killFeedOffset),
+  }).then(function(res){
+    var kills = res.data || [];
+
+    if(reset){
+      if(!kills.length){
+        cont.innerHTML = '<div class="shop-empty">Nenhuma kill registrada ainda.</div>';
+        return;
+      }
+      cont.innerHTML = '<div id="kill-feed-list"></div><div id="kill-feed-more"></div>';
+    }
+
+    var list = document.getElementById('kill-feed-list');
+    var more = document.getElementById('kill-feed-more');
+    if(!list) return;
+
+    list.innerHTML += kills.map(renderKillFeedRow).join('');
+    _killFeedOffset += kills.length;
+
+    if(more){
+      if(kills.length < _killFeedPageSize){
+        more.innerHTML = '<div style="text-align:center;color:var(--text-dim);font-size:.75rem;padding:16px 0">Todas as kills carregadas.</div>';
+      } else {
+        more.innerHTML = '<div style="text-align:center;padding:16px 0"><button class="btn" style="font-size:.72rem;padding:7px 18px" onclick="loadKillFeed(false)">Carregar mais</button></div>';
+      }
+    }
+  }).catch(function(e){
+    cont.innerHTML = '<div style="color:var(--red)">Erro: ' + e.message + '</div>';
+  });
+}
+
+function renderKillFeedRow(kill){
+  var isAssist  = kill.is_assist;
+  var pts       = kill.points;
+  var killDt    = '';
+  try {
+    var d = new Date(kill.kill_time);
+    killDt = d.toLocaleDateString('pt-BR') + ' ' + d.toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'});
+  } catch(e){ killDt = kill.kill_time; }
+
+  var ptsColor = 'var(--text-dim)';
+  if(pts >= 50)      ptsColor = '#e8a030';
+  else if(pts >= 20) ptsColor = '#b06fe8';
+  else if(pts >= 10) ptsColor = '#5ab0e8';
+  else if(!isAssist) ptsColor = 'var(--online)';
+
+  var icon  = isAssist ? '🤝' : '⚔️';
+  var label = isAssist ? '<span style="color:var(--text-dim);font-size:.72rem">assist</span>' : '';
+  var verb  = isAssist ? 'assistiu em' : 'matou';
+
+  var html = '<div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--border);gap:12px;flex-wrap:wrap">';
+  html += '<div style="display:flex;align-items:center;gap:10px;flex:1;min-width:0">';
+  html +=   '<span style="font-size:1rem;flex-shrink:0">' + icon + '</span>';
+  html +=   '<div style="min-width:0">';
+  html +=     '<span style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.killer) + '</span>';
+  html +=     '<span style="color:var(--text-dim);font-size:.75rem;margin:0 6px">' + verb + '</span>';
+  html +=     '<span style="font-family:\'Cinzel\',serif;font-size:.82rem;color:var(--text)">' + escHtml(kill.victim) + '</span>';
+  html +=     ' ' + label;
+  html +=   '</div>';
+  html += '</div>';
+  html += '<div style="display:flex;align-items:center;gap:16px;flex-shrink:0">';
+  html +=   '<span style="font-size:.72rem;color:var(--text-dim)">' + kill.killer_resets + 'rr → ' + kill.victim_resets + 'rr</span>';
+  html +=   '<span style="font-family:\'Cinzel\',serif;font-size:.8rem;color:' + ptsColor + ';min-width:32px;text-align:right">' + pts + ' pts</span>';
+  html +=   '<span style="font-size:.68rem;color:var(--text-dim);min-width:110px;text-align:right">' + killDt + '</span>';
+  html += '</div>';
+  html += '</div>';
+  return html;
+}
+
 
 async function adminDeleteShopHistory(id, type){
   if(!confirm('Apagar permanentemente este registro do histórico?')) return;
