@@ -1,15 +1,15 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/06/2026 às 19:41 (Brasília)",
+  "updated_at": "02/06/2026 às 19:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 81,
-  "online_count": 55,
-  "offline_count": 26,
+  "online_count": 54,
+  "offline_count": 27,
   "members": [
     {
       "name": "Brunaobringer",
-      "level": 860,
+      "level": 861,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Jotabringer",
-      "level": 545,
+      "level": 571,
       "resets": 46,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -100,7 +100,7 @@
         {
           "resets": 46,
           "gained": 1,
-          "timestamp": "02/06/2026 às 19:41 (Brasília)"
+          "timestamp": "02/06/2026 às 19:42 (Brasília)"
         }
       ]
     },
@@ -452,7 +452,7 @@
     },
     {
       "name": "Bilade",
-      "level": 924,
+      "level": 925,
       "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -534,7 +534,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 13,
@@ -707,7 +707,7 @@
     },
     {
       "name": "Deus",
-      "level": 837,
+      "level": 838,
       "resets": 33,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1241,7 +1241,7 @@
     },
     {
       "name": "Gizao",
-      "level": 817,
+      "level": 818,
       "resets": 26,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1312,7 +1312,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1114,
+      "level": 1115,
       "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1531,7 +1531,7 @@
     },
     {
       "name": "Hozuk",
-      "level": 911,
+      "level": 914,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3079,7 +3079,7 @@
     },
     {
       "name": "Salles",
-      "level": 1017,
+      "level": 1018,
       "resets": 22,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3395,7 +3395,7 @@
     },
     {
       "name": "Vitinho Rei Delas",
-      "level": 613,
+      "level": 614,
       "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3830,7 +3830,7 @@
         },
         {
           "name": "Feijao Baiakeironato",
-          "level": 1582,
+          "level": 1583,
           "resets": 37,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -3965,7 +3965,7 @@
         },
         {
           "name": "Leozin Rei Delas",
-          "level": 621,
+          "level": 624,
           "resets": 28,
           "vocation": "Elite Knight",
           "nick": "",
@@ -4109,7 +4109,7 @@
         },
         {
           "name": "Poring",
-          "level": 817,
+          "level": 818,
           "resets": 42,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -4361,7 +4361,7 @@
         },
         {
           "name": "Ynhaca Purah",
-          "level": 1833,
+          "level": 1834,
           "resets": 40,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -4377,7 +4377,39 @@
       "name": "Loks",
       "resets_total": 18,
       "resets_today": 2,
-      "resets_week": 10,
+      "resets_week": 6,
+      "vocation": "Exalted Monk",
+      "online": false
+    },
+    {
+      "name": "End Thor",
+      "resets_total": 29,
+      "resets_today": 2,
+      "resets_week": 6,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Hozuk",
+      "resets_total": 43,
+      "resets_today": 2,
+      "resets_week": 7,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Pestinha",
+      "resets_total": 19,
+      "resets_today": 2,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Brunaobringer",
+      "resets_total": 49,
+      "resets_today": 1,
+      "resets_week": 4,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -4474,6 +4506,14 @@
       "resets_total": 19,
       "resets_today": 1,
       "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Zest",
+      "resets_total": 16,
+      "resets_today": 1,
+      "resets_week": 11,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -5240,6 +5280,448 @@
       "online": true
     }
   ],
+  "enemy_resets_today": [
+    {
+      "name": "Loks",
+      "resets_total": 18,
+      "resets_today": 2,
+      "resets_week": 10,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Poring",
+      "resets_total": 42,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
+      "name": "Punish Claude",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Calveludo",
+      "resets_total": 17,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Cuffy Dido",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 9,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Fazendeiro Ricaria",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Hao Asakura",
+      "resets_total": 11,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Incrivel Monk",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
+      "name": "Jovi Baiakera",
+      "resets_total": 16,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Kawik",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "King Poring",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Leozin Rei Delas",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Maggty Vaqueiro",
+      "resets_total": 19,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Tankmode",
+      "resets_total": 12,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "Thutz",
+      "resets_total": 18,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Tremqchia",
+      "resets_total": 22,
+      "resets_today": 1,
+      "resets_week": 8,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Trickera",
+      "resets_total": 20,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Maguinn Returns",
+      "resets_total": 37,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Banca",
+      "resets_total": 16,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Crowley",
+      "resets_total": 21,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "Daann",
+      "resets_total": 21,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Despair",
+      "resets_total": 17,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Druidao Damassa",
+      "resets_total": 13,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Fpo",
+      "resets_total": 13,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Its Gui",
+      "resets_total": 19,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Joga Preda",
+      "resets_total": 19,
+      "resets_today": 0,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Keelzera",
+      "resets_total": 26,
+      "resets_today": 0,
+      "resets_week": 8,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Krajj",
+      "resets_total": 27,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "kronosnk",
+      "resets_total": 20,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Kudo",
+      "resets_total": 20,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Ljxiv",
+      "resets_total": 16,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Loke",
+      "resets_total": 40,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Mendes",
+      "resets_total": 32,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Mr Donald Trump",
+      "resets_total": 32,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Nagato Paladin",
+      "resets_total": 17,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Necromancer",
+      "resets_total": 14,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Nidiozera",
+      "resets_total": 16,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Pablaodocapao",
+      "resets_total": 10,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": false
+    },
+    {
+      "name": "Pallysupremofoda",
+      "resets_total": 16,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Potez",
+      "resets_total": 20,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Rafa Baguncinha",
+      "resets_total": 28,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Regent Thragg",
+      "resets_total": 5,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Rei Dfzera",
+      "resets_total": 9,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Roxupano",
+      "resets_total": 6,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Ryxz",
+      "resets_total": 11,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Sinixtro",
+      "resets_total": 14,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Tadala De Cinco",
+      "resets_total": 20,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Tururu",
+      "resets_total": 32,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Vegas",
+      "resets_total": 10,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Vitordlpz",
+      "resets_total": 23,
+      "resets_today": 0,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Void Pugilista",
+      "resets_total": 32,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
+      "name": "Voltoks",
+      "resets_total": 21,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Walace Owns",
+      "resets_total": 26,
+      "resets_today": 0,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Wiill",
+      "resets_total": 13,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Ynhaca Purah",
+      "resets_total": 40,
+      "resets_today": 0,
+      "resets_week": 6,
+      "vocation": "Master Sorcerer",
+      "online": true
+    }
+  ],
   "highscores": {
     "resets": {
       "name": "Resets",
@@ -5495,7 +5977,7 @@
           "name": "Charles",
           "value": 23,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Salles",
@@ -5919,7 +6401,7 @@
         },
         {
           "name": "Gokuu",
-          "value": 1114,
+          "value": 1115,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5961,7 +6443,7 @@
         },
         {
           "name": "Salles",
-          "value": 1017,
+          "value": 1018,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6014,16 +6496,16 @@
           "online": true
         },
         {
+          "name": "Bilade",
+          "value": 925,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Erva Doce",
           "value": 925,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Bilade",
-          "value": 924,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Sabour Ms",
@@ -6033,7 +6515,7 @@
         },
         {
           "name": "Hozuk",
-          "value": 911,
+          "value": 914,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6053,11 +6535,11 @@
           "name": "Charles",
           "value": 865,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Brunaobringer",
-          "value": 860,
+          "value": 861,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6075,7 +6557,7 @@
         },
         {
           "name": "Deus",
-          "value": 837,
+          "value": 838,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6129,7 +6611,7 @@
         },
         {
           "name": "Gizao",
-          "value": 817,
+          "value": 818,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6201,13 +6683,13 @@
         },
         {
           "name": "Vitinho Rei Delas",
-          "value": 613,
+          "value": 614,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Jotabringer",
-          "value": 545,
+          "value": 571,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -6573,7 +7055,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire",
-    "updated_at": "02/06/2026 às 19:41 (Brasília)",
+    "updated_at": "02/06/2026 às 19:42 (Brasília)",
     "kills_total": 339,
     "deaths_total": 292,
     "kills_today": 57,
@@ -31182,7 +31664,7 @@
           "name": "Jotabringer",
           "resets": 46,
           "gained": 1,
-          "timestamp": "02/06/2026 às 19:41 (Brasília)",
+          "timestamp": "02/06/2026 às 19:42 (Brasília)",
           "hour_key": "2026-06-02-19"
         }
       ]
@@ -48477,82 +48959,82 @@
     },
     "members": {
       "last_member_list": [
-        "Tururu",
-        "Leozin Rei Delas",
         "Pallysupremofoda",
-        "Krajj",
-        "Poring",
-        "Sinixtro",
-        "Tankmode",
-        "Wiill",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Incrivel Monk",
-        "Crowley",
-        "Punish Claude",
-        "Loks",
-        "Tremqchia",
-        "Ynhaca Purah",
-        "Calveludo",
-        "Dan De Ek",
-        "Joga Preda",
-        "Nidiozera",
-        "Trickera",
         "kronosnk",
-        "Potez",
-        "Kudo",
-        "Parmegiana",
-        "Rafa Baguncinha",
-        "Red",
-        "Vitordlpz",
-        "Feijao Baiakeironato",
-        "Its Gui",
-        "Tadala De Cinco",
-        "Qiiso Camisadez",
-        "Banca",
-        "Voltoks",
-        "Guizzera Overlord",
-        "Hao Asakura",
-        "Daann",
-        "Roxupano",
-        "Thutz",
-        "Wee Dz",
-        "Void Pugilista",
-        "Kawik",
-        "Guns",
-        "Keelzera",
-        "Rei Dfzera",
-        "Soullking",
-        "Maguinn Returns",
-        "Darkzao Knight",
-        "Pelegolas",
-        "Sauron Fubazord",
-        "Twitch Yagoodz",
-        "Spvitu Rusty",
-        "Necromancer",
-        "Vegas",
-        "Lucasmonot",
-        "Carlos Star",
-        "Pala De Sandalia",
-        "Maggty Vaqueiro",
-        "Loke",
-        "Fazendeiro Ricaria",
-        "Jovi Baiakera",
-        "Fpo",
-        "Walace Owns",
-        "Mendes",
-        "Sauron Knight",
-        "Regent Thragg",
-        "Pablaodocapao",
-        "Nagato Paladin",
-        "Bellatrix Lestrange",
-        "Ryxz",
-        "Despair",
         "Ljxiv",
+        "Pala De Sandalia",
+        "Hao Asakura",
+        "Cetoprofeno Intramuscular",
+        "Loks",
+        "Sauron Fubazord",
+        "Ynhaca Purah",
+        "Sauron Knight",
+        "Dan De Ek",
+        "Guns",
+        "Roxupano",
+        "Spvitu Rusty",
+        "Voltoks",
+        "Wee Dz",
+        "Krajj",
+        "Wiill",
+        "Lucasmonot",
+        "Poring",
+        "Qiiso Camisadez",
+        "Its Gui",
+        "Regent Thragg",
+        "Banca",
+        "Despair",
+        "Kudo",
+        "Maguinn Returns",
+        "Kawik",
         "Mr Donald Trump",
+        "Vitordlpz",
+        "Tadala De Cinco",
+        "Jovi Baiakera",
+        "Pelegolas",
+        "Thutz",
+        "Vegas",
+        "Sinixtro",
+        "Daann",
+        "Leozin Rei Delas",
+        "Red",
+        "Necromancer",
+        "Ryxz",
+        "Tremqchia",
+        "Druidao Damassa",
+        "Guizzera Overlord",
+        "Bellatrix Lestrange",
+        "Cuffy Dido",
+        "Carlos Star",
+        "Joga Preda",
+        "Potez",
+        "Parmegiana",
         "Royal Sniper",
+        "Tankmode",
+        "Trickera",
+        "Crowley",
+        "Calveludo",
+        "Darkzao Knight",
+        "Keelzera",
+        "Tururu",
+        "Nagato Paladin",
+        "Twitch Yagoodz",
+        "Feijao Baiakeironato",
+        "Nidiozera",
+        "Void Pugilista",
+        "Pablaodocapao",
+        "Rei Dfzera",
         "King Poring",
-        "Druidao Damassa"
+        "Soullking",
+        "Loke",
+        "Maggty Vaqueiro",
+        "Rafa Baguncinha",
+        "Walace Owns",
+        "Punish Claude",
+        "Mendes",
+        "Incrivel Monk",
+        "Fpo",
+        "Fazendeiro Ricaria"
       ],
       "changes_log": [
         {
@@ -49060,82 +49542,82 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Tururu",
-        "Leozin Rei Delas",
         "Pallysupremofoda",
-        "Krajj",
-        "Poring",
-        "Sinixtro",
-        "Tankmode",
-        "Wiill",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Incrivel Monk",
-        "Crowley",
-        "Punish Claude",
-        "Loks",
-        "Tremqchia",
-        "Ynhaca Purah",
-        "Calveludo",
-        "Dan De Ek",
-        "Joga Preda",
-        "Nidiozera",
-        "Trickera",
         "kronosnk",
-        "Potez",
-        "Kudo",
-        "Parmegiana",
-        "Rafa Baguncinha",
-        "Red",
-        "Vitordlpz",
-        "Feijao Baiakeironato",
-        "Its Gui",
-        "Tadala De Cinco",
-        "Qiiso Camisadez",
-        "Banca",
-        "Voltoks",
-        "Guizzera Overlord",
-        "Hao Asakura",
-        "Daann",
-        "Roxupano",
-        "Thutz",
-        "Wee Dz",
-        "Void Pugilista",
-        "Kawik",
-        "Guns",
-        "Keelzera",
-        "Rei Dfzera",
-        "Soullking",
-        "Maguinn Returns",
-        "Darkzao Knight",
-        "Pelegolas",
-        "Sauron Fubazord",
-        "Twitch Yagoodz",
-        "Spvitu Rusty",
-        "Necromancer",
-        "Vegas",
-        "Lucasmonot",
-        "Carlos Star",
-        "Pala De Sandalia",
-        "Maggty Vaqueiro",
-        "Loke",
-        "Fazendeiro Ricaria",
-        "Jovi Baiakera",
-        "Fpo",
-        "Walace Owns",
-        "Mendes",
-        "Sauron Knight",
-        "Regent Thragg",
-        "Pablaodocapao",
-        "Nagato Paladin",
-        "Bellatrix Lestrange",
-        "Ryxz",
-        "Despair",
         "Ljxiv",
+        "Pala De Sandalia",
+        "Hao Asakura",
+        "Cetoprofeno Intramuscular",
+        "Loks",
+        "Sauron Fubazord",
+        "Ynhaca Purah",
+        "Sauron Knight",
+        "Dan De Ek",
+        "Guns",
+        "Roxupano",
+        "Spvitu Rusty",
+        "Voltoks",
+        "Wee Dz",
+        "Krajj",
+        "Wiill",
+        "Lucasmonot",
+        "Poring",
+        "Qiiso Camisadez",
+        "Its Gui",
+        "Regent Thragg",
+        "Banca",
+        "Despair",
+        "Kudo",
+        "Maguinn Returns",
+        "Kawik",
         "Mr Donald Trump",
+        "Vitordlpz",
+        "Tadala De Cinco",
+        "Jovi Baiakera",
+        "Pelegolas",
+        "Thutz",
+        "Vegas",
+        "Sinixtro",
+        "Daann",
+        "Leozin Rei Delas",
+        "Red",
+        "Necromancer",
+        "Ryxz",
+        "Tremqchia",
+        "Druidao Damassa",
+        "Guizzera Overlord",
+        "Bellatrix Lestrange",
+        "Cuffy Dido",
+        "Carlos Star",
+        "Joga Preda",
+        "Potez",
+        "Parmegiana",
         "Royal Sniper",
+        "Tankmode",
+        "Trickera",
+        "Crowley",
+        "Calveludo",
+        "Darkzao Knight",
+        "Keelzera",
+        "Tururu",
+        "Nagato Paladin",
+        "Twitch Yagoodz",
+        "Feijao Baiakeironato",
+        "Nidiozera",
+        "Void Pugilista",
+        "Pablaodocapao",
+        "Rei Dfzera",
         "King Poring",
-        "Druidao Damassa"
+        "Soullking",
+        "Loke",
+        "Maggty Vaqueiro",
+        "Rafa Baguncinha",
+        "Walace Owns",
+        "Punish Claude",
+        "Mendes",
+        "Incrivel Monk",
+        "Fpo",
+        "Fazendeiro Ricaria"
       ],
       "hunted": {
         "Leogolas": {
