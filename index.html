@@ -4541,6 +4541,26 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-attr-spell-healing" value="Spell Healing"> Spell Healing</label>          </div>
         </div>
 
+        <!-- Whitelist -->
+        <div style="margin-top:16px;border-top:1px solid var(--border);padding-top:14px">
+          <div style="font-size:.72rem;color:var(--gold-light);font-family:'Cinzel',serif;margin-bottom:8px">WHITELIST <span style="color:var(--text-dim);font-size:.65rem;font-family:sans-serif">(notifica APENAS esses itens)</span></div>
+          <div style="display:flex;gap:6px;margin-bottom:6px">
+            <input class="field-input" type="text" id="dm-whitelist-input" placeholder="Nome do item..." style="font-size:.75rem;flex:1" oninput="dmListInputChanged('whitelist')">
+            <button class="btn" style="font-size:.68rem;padding:5px 10px;flex-shrink:0" onclick="dmAddListItem('whitelist')">+ Add</button>
+          </div>
+          <div id="dm-whitelist-tags" style="display:flex;flex-wrap:wrap;gap:4px;min-height:20px"></div>
+        </div>
+
+        <!-- Blacklist -->
+        <div style="margin-top:12px">
+          <div style="font-size:.72rem;color:var(--red);font-family:'Cinzel',serif;margin-bottom:8px">BLACKLIST <span style="color:var(--text-dim);font-size:.65rem;font-family:sans-serif">(nunca notifica esses itens)</span></div>
+          <div style="display:flex;gap:6px;margin-bottom:6px">
+            <input class="field-input" type="text" id="dm-blacklist-input" placeholder="Nome do item..." style="font-size:.75rem;flex:1" oninput="dmListInputChanged('blacklist')">
+            <button class="btn" style="font-size:.68rem;padding:5px 10px;flex-shrink:0" onclick="dmAddListItem('blacklist')">+ Add</button>
+          </div>
+          <div id="dm-blacklist-tags" style="display:flex;flex-wrap:wrap;gap:4px;min-height:20px"></div>
+        </div>
+
         <div style="display:flex;gap:8px;margin-top:14px;justify-content:flex-end">
           <button class="mkt-filter-btn" onclick="closeDmConfigPopup()">Cancelar</button>
           <button class="modal-btn" style="margin:0;padding:7px 18px;font-size:.7rem" onclick="saveDmConfig()">Salvar</button>
@@ -4571,6 +4591,8 @@ async function openProfile(){
       vocations:  notif.market_dm_vocations  || ['all'],
       categories: notif.market_dm_categories || ['all'],
       attrs:      notif.market_dm_attrs      || [],
+      blacklist:  notif.market_dm_blacklist  || [],
+      whitelist:  notif.market_dm_whitelist  || [],
     };
     updateDmSummary();
   });
@@ -5622,7 +5644,7 @@ function renderMarket() {
 
 
 // ─── DM CONFIG POPUP ───────────────────────────────────────────
-var dmConfig = {rarities: ['all'], vocations: ['all'], categories: ['all'], attrs: []};
+var dmConfig = {rarities: ['all'], vocations: ['all'], categories: ['all'], attrs: [], blacklist: [], whitelist: []};
 
 function openDmConfigPopup(){
   // Load current config into checkboxes
@@ -5643,6 +5665,10 @@ function openDmConfigPopup(){
     var el = document.getElementById(id);
     if(el) el.checked = dmConfig.attrs.includes(a);
   });
+  renderDmListTags('whitelist', dmConfig.whitelist || []);
+  renderDmListTags('blacklist', dmConfig.blacklist || []);
+  dmListInputChanged('whitelist');
+  dmListInputChanged('blacklist');
   document.getElementById('dm-config-popup').classList.remove('hidden');
 }
 
@@ -5693,7 +5719,10 @@ async function saveDmConfig(){
     if(el && el.checked) attrs.push(a);
   });
 
-  dmConfig = {rarities, vocations, categories, attrs};
+  dmConfig = {rarities, vocations, categories, attrs,
+    blacklist: (dmConfig.blacklist || []),
+    whitelist: (dmConfig.whitelist || []),
+  };
 
   try {
     await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
@@ -5701,6 +5730,8 @@ async function saveDmConfig(){
       market_dm_vocations:  vocations,
       market_dm_categories: categories,
       market_dm_attrs:      attrs,
+      market_dm_blacklist:  dmConfig.blacklist,
+      market_dm_whitelist:  dmConfig.whitelist,
     });
     closeDmConfigPopup();
     updateDmSummary();
@@ -5717,6 +5748,8 @@ function updateDmSummary(){
   if(!dmConfig.vocations.includes('all')) parts.push('Voc: '+dmConfig.vocations.join(', '));
   if(!dmConfig.categories.includes('all')) parts.push('Cat: '+dmConfig.categories.join(', '));
   if(dmConfig.attrs.length) parts.push('Attr: '+dmConfig.attrs.slice(0,3).join(', ')+(dmConfig.attrs.length>3?'...':''));
+  if(dmConfig.whitelist && dmConfig.whitelist.length) parts.push('✅ Whitelist: '+dmConfig.whitelist.length+' item(s)');
+  if(dmConfig.blacklist && dmConfig.blacklist.length) parts.push('🚫 Blacklist: '+dmConfig.blacklist.length+' item(s)');
   el.textContent = parts.length ? '⚙ '+parts.join(' · ') : 'Recebendo DM de todos os itens';
 }
 
@@ -8255,6 +8288,56 @@ function exportKDAImage(){
 
 // ══════════════════════════════════════════════════════════════════
 
+// ── DM Config — Blacklist / Whitelist ─────────────────────────────────────────
+
+function dmListInputChanged(type){
+  var wl = dmConfig.whitelist || [];
+  var bl = dmConfig.blacklist || [];
+  var wlInput = document.getElementById('dm-whitelist-input');
+  var blInput = document.getElementById('dm-blacklist-input');
+  var wlBtn   = wlInput ? wlInput.nextElementSibling : null;
+  var blBtn   = blInput ? blInput.nextElementSibling : null;
+  var wlLocked = bl.length > 0;
+  var blLocked = wl.length > 0;
+  if(wlInput){ wlInput.disabled = wlLocked; wlInput.style.opacity = wlLocked ? '.4' : '1'; }
+  if(wlBtn)  { wlBtn.disabled   = wlLocked; wlBtn.style.opacity   = wlLocked ? '.4' : '1'; }
+  if(blInput){ blInput.disabled = blLocked; blInput.style.opacity = blLocked ? '.4' : '1'; }
+  if(blBtn)  { blBtn.disabled   = blLocked; blBtn.style.opacity   = blLocked ? '.4' : '1'; }
+}
+
+function dmAddListItem(type){
+  var input = document.getElementById('dm-' + type + '-input');
+  if(!input) return;
+  var val = input.value.trim();
+  if(!val) return;
+  var list = dmConfig[type] || [];
+  if(!list.map(function(x){ return x.toLowerCase(); }).includes(val.toLowerCase())){
+    list.push(val);
+    dmConfig[type] = list;
+  }
+  input.value = '';
+  renderDmListTags(type, dmConfig[type]);
+  dmListInputChanged(type);
+}
+
+function dmRemoveListItem(type, val){
+  dmConfig[type] = (dmConfig[type] || []).filter(function(x){ return x.toLowerCase() !== val.toLowerCase(); });
+  renderDmListTags(type, dmConfig[type]);
+  dmListInputChanged(type);
+}
+
+function renderDmListTags(type, list){
+  var cont = document.getElementById('dm-' + type + '-tags');
+  if(!cont) return;
+  var color = type === 'whitelist' ? 'var(--online)' : 'var(--red)';
+  cont.innerHTML = (list || []).map(function(item){
+    return '<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(0,0,0,.3);border:1px solid ' + color + ';color:' + color + ';border-radius:10px;padding:2px 8px;font-size:.68rem">'
+      + escHtml(item)
+      + '<button onclick="dmRemoveListItem(\'' + type + '\',\'' + escHtml(item) + '\')" style="background:none;border:none;color:' + color + ';cursor:pointer;font-size:.8rem;padding:0;margin-left:2px">✕</button>'
+      + '</span>';
+  }).join('');
+}
+
 var LOG_CATEGORY_LABELS = {
   hunted:      'Hunted List',
   bonus:       'Lista Bônus',
@@ -8384,9 +8467,13 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.23';
+var WHATS_NEW_VERSION = '1.6.24';
 
 var WHATS_NEW_CHANGELOG = [
+      {
+        type: 'new', title: 'Notificações Market — Blacklist e Whitelist',
+        desc: 'Nas preferências de DM do Market agora é possível configurar uma Whitelist (recebe DM apenas desses itens) ou uma Blacklist (nunca recebe DM desses itens). Os dois campos se bloqueiam mutuamente.',
+      },
   {
     date: '01/06/2026',
     items: [
