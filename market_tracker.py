@@ -371,13 +371,28 @@ def run():
         rarity   = rarity_info["rarity"]
         label    = rarity_info["label"]
         items    = fetch_market(rarity)
+
+        # Se fetch retornou vazio, assume falha de rede — não processa nem atualiza snapshot
+        if not items:
+            print(f"[market] ⚠ {label}: fetch retornou vazio, pulando (possível falha de rede)")
+            continue
+
         prev_ids = {v["id"]: v for v in snapshot.get(str(rarity), [])}
         curr_ids = {item["id"]: item for item in items}
+
+        # Preserva first_seen
+        for item in items:
+            if item["id"] in prev_ids:
+                item["first_seen"] = prev_ids[item["id"]].get("first_seen", now_ts)
+            else:
+                item["first_seen"] = now_ts
+
+        # Salva snapshot ANTES de notificar — evita DM duplicada se script falhar no meio
+        save_snapshot_rarity(rarity, items)
 
         # Itens novos
         new_items = [item for iid, item in curr_ids.items() if iid not in prev_ids]
         for item in new_items:
-            item["first_seen"] = now_ts
             print(f"[market] 🆕 novo item: {item['name']} ({label})")
             save_market_history(item, rarity, "entered")
             embed = build_embed_new(item, rarity_info)
@@ -404,14 +419,6 @@ def run():
                 if ch: send_dm(ch, embed)
                 time.sleep(0.3)
 
-        # Preserva first_seen e salva imediatamente no Supabase
-        for item in items:
-            if item["id"] in prev_ids:
-                item["first_seen"] = prev_ids[item["id"]].get("first_seen", now_ts)
-            else:
-                item["first_seen"] = now_ts
-
-        save_snapshot_rarity(rarity, items)
         print(f"[market] {label}: {len(new_items)} novos | {len(removed_items)} removidos")
 
     print("[market] ✅ concluído")
