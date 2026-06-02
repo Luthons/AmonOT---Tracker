@@ -16,9 +16,11 @@ SUPABASE_URL    = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY    = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 MARKET_URLS = [
-    {"rarity": 3, "label": "Epic",      "color": 0xB06FE8, "emoji": "🟣"},
-    {"rarity": 4, "label": "Legendary", "color": 0xE8A030, "emoji": "🟠"},
-    {"rarity": 5, "label": "Mythical",  "color": 0xE84040, "emoji": "🔴"},
+    {"rarity": 1, "label": "Uncommon", "color": 0x6EC96E, "emoji": "🟢"},
+    {"rarity": 2, "label": "Rare",     "color": 0x5AB0E8, "emoji": "🔵"},
+    {"rarity": 3, "label": "Epic",     "color": 0xB06FE8, "emoji": "🟣"},
+    {"rarity": 4, "label": "Legendary","color": 0xE8A030, "emoji": "🟠"},
+    {"rarity": 5, "label": "Mythical", "color": 0xE84040, "emoji": "🔴"},
 ]
 
 BASE_URL = "https://amonot.online/index.php?page=market&name=&sale=all&slot=&tier=&world=Baiak&rarity={rarity}"
