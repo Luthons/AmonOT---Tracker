@@ -8265,12 +8265,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.16';
+var WHATS_NEW_VERSION = '1.6.17';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'fix', title: 'Market — DM duplicada e histórico zerando',
+        desc: 'Corrigidos dois bugs: o snapshot agora é salvo antes de enviar as DMs, evitando notificações duplicadas caso o script falhe no meio. Além disso, se o site do amonOT retornar vazio por instabilidade, o market tracker ignora o ciclo sem resetar o histórico.',
+      },
       {
         type: 'improvement', title: 'Notificações de Market — automático',
         desc: 'Qualquer membro com Discord ID cadastrado no perfil agora recebe notificações de market automaticamente, sem precisar ser adicionado manualmente. Configure suas preferências de raridade, vocação e atributos no Market para filtrar o que quer receber.',
