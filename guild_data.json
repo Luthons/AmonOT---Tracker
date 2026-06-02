@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/06/2026 às 20:35 (Brasília)",
+  "updated_at": "02/06/2026 às 20:36 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 81,
@@ -50,7 +50,7 @@
     },
     {
       "name": "Jotabringer",
-      "level": 866,
+      "level": 867,
       "resets": 46,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -106,7 +106,7 @@
     },
     {
       "name": "Royal Luthons",
-      "level": 626,
+      "level": 629,
       "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -324,7 +324,7 @@
     },
     {
       "name": "Boingbringer",
-      "level": 1326,
+      "level": 1327,
       "resets": 29,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -621,7 +621,7 @@
     },
     {
       "name": "Deca com Testo",
-      "level": 1226,
+      "level": 1227,
       "resets": 32,
       "vocation": "Elite Knight",
       "nick": "",
@@ -717,7 +717,7 @@
     },
     {
       "name": "Deus",
-      "level": 888,
+      "level": 889,
       "resets": 33,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2161,7 +2161,7 @@
     },
     {
       "name": "Lula",
-      "level": 1004,
+      "level": 1005,
       "resets": 42,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3089,7 +3089,7 @@
     },
     {
       "name": "Salles",
-      "level": 519,
+      "level": 530,
       "resets": 23,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3231,7 +3231,7 @@
     },
     {
       "name": "Sorczin",
-      "level": 770,
+      "level": 771,
       "resets": 13,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3394,8 +3394,8 @@
     },
     {
       "name": "Uga Uga",
-      "level": 1331,
-      "resets": 27,
+      "level": 8,
+      "resets": 28,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -3405,12 +3405,17 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "31/05/2026 às 16:08 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "02/06/2026 às 20:36 (Brasília)"
         }
       ]
     },
     {
       "name": "Vitinho Rei Delas",
-      "level": 680,
+      "level": 682,
       "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3496,7 +3501,7 @@
     },
     {
       "name": "VukVuk",
-      "level": 705,
+      "level": 711,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3622,7 +3627,7 @@
     },
     {
       "name": "Zest",
-      "level": 938,
+      "level": 939,
       "resets": 16,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3787,7 +3792,7 @@
         },
         {
           "name": "Cuffy Dido",
-          "level": 808,
+          "level": 809,
           "resets": 29,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -3841,7 +3846,7 @@
         },
         {
           "name": "Feijao Baiakeironato",
-          "level": 1590,
+          "level": 1591,
           "resets": 37,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -3886,7 +3891,7 @@
         },
         {
           "name": "Incrivel Monk",
-          "level": 897,
+          "level": 898,
           "resets": 41,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -3976,7 +3981,7 @@
         },
         {
           "name": "Leozin Rei Delas",
-          "level": 720,
+          "level": 721,
           "resets": 28,
           "vocation": "Elite Knight",
           "nick": "",
@@ -4120,7 +4125,7 @@
         },
         {
           "name": "Poring",
-          "level": 882,
+          "level": 883,
           "resets": 42,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -4147,7 +4152,7 @@
         },
         {
           "name": "Rafa Baguncinha",
-          "level": 1362,
+          "level": 1363,
           "resets": 28,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -4273,7 +4278,7 @@
         },
         {
           "name": "Tremqchia",
-          "level": 952,
+          "level": 953,
           "resets": 22,
           "vocation": "Elite Knight",
           "nick": "",
@@ -4621,6 +4626,14 @@
       "resets_today": 1,
       "resets_week": 4,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Uga Uga",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -5422,6 +5435,12 @@
           "online": false
         },
         {
+          "name": "Uga Uga",
+          "value": 28,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 27,
           "vocation": "Master Sorcerer",
@@ -5441,12 +5460,6 @@
         },
         {
           "name": "Ritoff Elite",
-          "value": 27,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Uga Uga",
           "value": 27,
           "vocation": "Elite Knight",
           "online": true
@@ -5842,14 +5855,8 @@
           "online": true
         },
         {
-          "name": "Uga Uga",
-          "value": 1331,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Boingbringer",
-          "value": 1326,
+          "value": 1327,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5873,7 +5880,7 @@
         },
         {
           "name": "Deca com Testo",
-          "value": 1226,
+          "value": 1227,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5969,7 +5976,7 @@
         },
         {
           "name": "Lula",
-          "value": 1004,
+          "value": 1005,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -6017,7 +6024,7 @@
         },
         {
           "name": "Zest",
-          "value": 938,
+          "value": 939,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6040,6 +6047,12 @@
           "online": false
         },
         {
+          "name": "Deus",
+          "value": 889,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Campin",
           "value": 888,
           "vocation": "Master Sorcerer",
@@ -6052,12 +6065,6 @@
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 888,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Brunaobringer",
           "value": 880,
           "vocation": "Elder Druid",
@@ -6065,7 +6072,7 @@
         },
         {
           "name": "Jotabringer",
-          "value": 866,
+          "value": 867,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -6149,7 +6156,7 @@
         },
         {
           "name": "Sorczin",
-          "value": 770,
+          "value": 771,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6163,6 +6170,12 @@
           "name": "Leojigsaw",
           "value": 732,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "VukVuk",
+          "value": 711,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6203,19 +6216,19 @@
         },
         {
           "name": "Vitinho Rei Delas",
-          "value": 680,
+          "value": 682,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "VukVuk",
-          "value": 672,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Apreciador De Casadas",
           "value": 665,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Royal Luthons",
+          "value": 629,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6239,13 +6252,7 @@
         },
         {
           "name": "Salles",
-          "value": 519,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Salles",
-          "value": 509,
+          "value": 530,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6611,7 +6618,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire",
-    "updated_at": "02/06/2026 às 20:35 (Brasília)",
+    "updated_at": "02/06/2026 às 20:36 (Brasília)",
     "kills_total": 339,
     "deaths_total": 292,
     "kills_today": 57,
@@ -14588,7 +14595,7 @@
         "Tio Bringer": 21,
         "Tsuru": 25,
         "Uga Man": 12,
-        "Uga Uga": 27,
+        "Uga Uga": 28,
         "Vitinho Rei Delas": 27,
         "VukVuk": 44,
         "Zannk": 14,
@@ -26864,7 +26871,7 @@
           "Tio Bringer": 21,
           "Tsuru": 25,
           "Uga Man": 12,
-          "Uga Uga": 27,
+          "Uga Uga": 28,
           "Vitinho Rei Delas": 27,
           "VukVuk": 44,
           "Zannk": 14,
@@ -31176,6 +31183,13 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "02/06/2026 às 20:35 (Brasília)",
+          "hour_key": "2026-06-02-20"
+        },
+        {
+          "name": "Uga Uga",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "02/06/2026 às 20:36 (Brasília)",
           "hour_key": "2026-06-02-20"
         }
       ]
@@ -48460,81 +48474,81 @@
     },
     "members": {
       "last_member_list": [
-        "Its Gui",
-        "Nagato Paladin",
-        "Qiiso Camisadez",
-        "Rafa Baguncinha",
+        "Sauron Fubazord",
+        "Ljxiv",
         "Soullking",
-        "Leozin Rei Delas",
-        "Despair",
-        "Punish Claude",
-        "Pala De Sandalia",
-        "Carlos Star",
-        "Tadala De Cinco",
+        "Crowley",
         "Mr Donald Trump",
-        "Thutz",
-        "Joga Preda",
-        "Krajj",
-        "Kudo",
-        "Guizzera Overlord",
-        "Fpo",
+        "Rafa Baguncinha",
+        "Cuffy Dido",
+        "Fazendeiro Ricaria",
+        "King Poring",
+        "Mendes",
+        "Red",
+        "Void Pugilista",
         "Ryxz",
         "Nidiozera",
-        "Banca",
-        "Jovi Baiakera",
-        "Loks",
-        "Void Pugilista",
-        "Maguinn Returns",
-        "Cetoprofeno Intramuscular",
+        "Spvitu Rusty",
         "Daann",
-        "Cuffy Dido",
-        "Vegas",
-        "Wiill",
-        "Pallysupremofoda",
-        "Sauron Knight",
-        "Tremqchia",
+        "Hao Asakura",
+        "Punish Claude",
+        "kronosnk",
         "Calveludo",
-        "Walace Owns",
-        "Ljxiv",
-        "Sinixtro",
-        "Roxupano",
-        "Voltoks",
-        "Fazendeiro Ricaria",
-        "Kawik",
-        "Keelzera",
-        "Rei Dfzera",
-        "Poring",
         "Guns",
-        "King Poring",
         "Potez",
         "Tankmode",
-        "Trickera",
-        "Ynhaca Purah",
-        "Pablaodocapao",
-        "kronosnk",
-        "Feijao Baiakeironato",
-        "Mendes",
-        "Druidao Damassa",
-        "Hao Asakura",
-        "Pelegolas",
-        "Crowley",
-        "Maggty Vaqueiro",
-        "Lucasmonot",
-        "Sauron Fubazord",
-        "Tururu",
-        "Red",
-        "Vitordlpz",
+        "Sinixtro",
+        "Kawik",
+        "Loks",
+        "Fpo",
         "Regent Thragg",
-        "Dan De Ek",
+        "Carlos Star",
+        "Vitordlpz",
+        "Nagato Paladin",
+        "Ynhaca Purah",
+        "Krajj",
+        "Leozin Rei Delas",
         "Loke",
-        "Necromancer",
+        "Roxupano",
+        "Keelzera",
+        "Poring",
+        "Druidao Damassa",
+        "Pelegolas",
+        "Thutz",
+        "Vegas",
+        "Jovi Baiakera",
+        "Dan De Ek",
+        "Pala De Sandalia",
+        "Maguinn Returns",
+        "Tadala De Cinco",
+        "Tremqchia",
+        "Tururu",
+        "Despair",
         "Wee Dz",
+        "Maggty Vaqueiro",
+        "Walace Owns",
+        "Wiill",
+        "Joga Preda",
+        "Pallysupremofoda",
         "Bellatrix Lestrange",
-        "Incrivel Monk",
-        "Parmegiana",
+        "Voltoks",
+        "Feijao Baiakeironato",
+        "Qiiso Camisadez",
         "Royal Sniper",
-        "Spvitu Rusty",
-        "Twitch Yagoodz"
+        "Guizzera Overlord",
+        "Sauron Knight",
+        "Banca",
+        "Cetoprofeno Intramuscular",
+        "Pablaodocapao",
+        "Its Gui",
+        "Twitch Yagoodz",
+        "Rei Dfzera",
+        "Lucasmonot",
+        "Trickera",
+        "Necromancer",
+        "Parmegiana",
+        "Kudo",
+        "Incrivel Monk"
       ],
       "changes_log": [
         {
@@ -49043,91 +49057,85 @@
           "timestamp": "02/06/2026 às 20:35 (Brasília)"
         }
       ],
-      "recent_changes": [
-        {
-          "name": "Darkzao Knight",
-          "type": "left",
-          "timestamp": "02/06/2026 às 20:35 (Brasília)"
-        }
-      ]
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Its Gui",
-        "Nagato Paladin",
-        "Qiiso Camisadez",
-        "Rafa Baguncinha",
+        "Sauron Fubazord",
+        "Ljxiv",
         "Soullking",
-        "Leozin Rei Delas",
-        "Despair",
-        "Punish Claude",
-        "Pala De Sandalia",
-        "Carlos Star",
-        "Tadala De Cinco",
+        "Crowley",
         "Mr Donald Trump",
-        "Thutz",
-        "Joga Preda",
-        "Krajj",
-        "Kudo",
-        "Guizzera Overlord",
-        "Fpo",
+        "Rafa Baguncinha",
+        "Cuffy Dido",
+        "Fazendeiro Ricaria",
+        "King Poring",
+        "Mendes",
+        "Red",
+        "Void Pugilista",
         "Ryxz",
         "Nidiozera",
-        "Banca",
-        "Jovi Baiakera",
-        "Loks",
-        "Void Pugilista",
-        "Maguinn Returns",
-        "Cetoprofeno Intramuscular",
+        "Spvitu Rusty",
         "Daann",
-        "Cuffy Dido",
-        "Vegas",
-        "Wiill",
-        "Pallysupremofoda",
-        "Sauron Knight",
-        "Tremqchia",
+        "Hao Asakura",
+        "Punish Claude",
+        "kronosnk",
         "Calveludo",
-        "Walace Owns",
-        "Ljxiv",
-        "Sinixtro",
-        "Roxupano",
-        "Voltoks",
-        "Fazendeiro Ricaria",
-        "Kawik",
-        "Keelzera",
-        "Rei Dfzera",
-        "Poring",
         "Guns",
-        "King Poring",
         "Potez",
         "Tankmode",
-        "Trickera",
-        "Ynhaca Purah",
-        "Pablaodocapao",
-        "kronosnk",
-        "Feijao Baiakeironato",
-        "Mendes",
-        "Druidao Damassa",
-        "Hao Asakura",
-        "Pelegolas",
-        "Crowley",
-        "Maggty Vaqueiro",
-        "Lucasmonot",
-        "Sauron Fubazord",
-        "Tururu",
-        "Red",
-        "Vitordlpz",
+        "Sinixtro",
+        "Kawik",
+        "Loks",
+        "Fpo",
         "Regent Thragg",
-        "Dan De Ek",
+        "Carlos Star",
+        "Vitordlpz",
+        "Nagato Paladin",
+        "Ynhaca Purah",
+        "Krajj",
+        "Leozin Rei Delas",
         "Loke",
-        "Necromancer",
+        "Roxupano",
+        "Keelzera",
+        "Poring",
+        "Druidao Damassa",
+        "Pelegolas",
+        "Thutz",
+        "Vegas",
+        "Jovi Baiakera",
+        "Dan De Ek",
+        "Pala De Sandalia",
+        "Maguinn Returns",
+        "Tadala De Cinco",
+        "Tremqchia",
+        "Tururu",
+        "Despair",
         "Wee Dz",
+        "Maggty Vaqueiro",
+        "Walace Owns",
+        "Wiill",
+        "Joga Preda",
+        "Pallysupremofoda",
         "Bellatrix Lestrange",
-        "Incrivel Monk",
-        "Parmegiana",
+        "Voltoks",
+        "Feijao Baiakeironato",
+        "Qiiso Camisadez",
         "Royal Sniper",
-        "Spvitu Rusty",
-        "Twitch Yagoodz"
+        "Guizzera Overlord",
+        "Sauron Knight",
+        "Banca",
+        "Cetoprofeno Intramuscular",
+        "Pablaodocapao",
+        "Its Gui",
+        "Twitch Yagoodz",
+        "Rei Dfzera",
+        "Lucasmonot",
+        "Trickera",
+        "Necromancer",
+        "Parmegiana",
+        "Kudo",
+        "Incrivel Monk"
       ],
       "hunted": {
         "Leogolas": {
@@ -49547,8 +49555,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 81,
-      "total_current": 1823,
-      "resets_today": 37,
+      "total_current": 1824,
+      "resets_today": 38,
       "resets_week": 232,
       "resets_month": 0,
       "resets_lifetime": 232,
@@ -49565,13 +49573,7 @@
       "avg_per_player": 21.7
     }
   },
-  "recent_changes": [
-    {
-      "name": "Darkzao Knight",
-      "type": "left",
-      "timestamp": "02/06/2026 às 20:35 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
   "changes_log": [
     {
       "name": "Sinixtro",
