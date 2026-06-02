@@ -2,7 +2,7 @@ name: Atualizar Dados Completo
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # A cada 30 minutos
+    - cron: '*/15 * * * *'  # A cada 15 minutos
   workflow_dispatch:
 
 permissions:
@@ -42,6 +42,13 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python sync_characters.py
+
+      - name: Market Tracker completo (todas as páginas — DM de saída)
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python market_tracker_full.py
 
       - name: Salvar arquivos no repositório
         run: |
