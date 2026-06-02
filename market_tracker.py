@@ -82,7 +82,7 @@ def load_users_cache() -> dict:
     # 2. Todas as notification_settings de uma vez
     settings_rows = supa_get("notification_settings", {
         "profile_id": f"in.({','.join(profile_ids)})",
-        "select":     "profile_id,market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs",
+        "select":     "profile_id,market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs,market_dm_blacklist,market_dm_whitelist",
     })
     settings_map = {row["profile_id"]: row for row in settings_rows}
 
@@ -91,6 +91,8 @@ def load_users_cache() -> dict:
         "vocations":  ["all"],
         "categories": ["all"],
         "attrs":      [],
+        "blacklist":  [],
+        "whitelist":  [],
     }
 
     cache = {}
@@ -105,6 +107,8 @@ def load_users_cache() -> dict:
             "vocations":  row.get("market_dm_vocations")  or ["all"],
             "categories": row.get("market_dm_categories") or ["all"],
             "attrs":      row.get("market_dm_attrs")      or [],
+            "blacklist":  [x.lower() for x in (row.get("market_dm_blacklist") or [])],
+            "whitelist":  [x.lower() for x in (row.get("market_dm_whitelist") or [])],
         }
 
     print(f"[market] cache carregado: {len(cache)} usuários")
@@ -133,7 +137,27 @@ def should_notify(prefs: dict, rarity: int, item_name: str, item_attrs: str, ite
     """
     Verifica se o usuário deve receber DM para este item.
     Usa apenas dicionários em memória — zero queries ao Supabase.
+
+    Prioridade:
+      1. Whitelist preenchida → notifica APENAS itens da lista (ignora outros filtros, exceto raridade)
+      2. Blacklist preenchida → bloqueia itens da lista
+      3. Filtros normais (raridade, vocação, categoria, atributos)
     """
+    name_lower = item_name.lower()
+
+    # Whitelist — se preenchida, só notifica itens da lista
+    if prefs["whitelist"]:
+        if name_lower not in prefs["whitelist"]:
+            return False
+        # Ainda verifica raridade mesmo com whitelist
+        if "all" not in prefs["rarities"] and str(rarity) not in prefs["rarities"]:
+            return False
+        return True
+
+    # Blacklist — bloqueia itens específicos
+    if name_lower in prefs["blacklist"]:
+        return False
+
     # Filtro de raridade
     if "all" not in prefs["rarities"]:
         if str(rarity) not in prefs["rarities"]:
@@ -141,19 +165,19 @@ def should_notify(prefs: dict, rarity: int, item_name: str, item_attrs: str, ite
 
     # Filtro de vocação
     if "all" not in prefs["vocations"]:
-        db_item = items_db.get(item_name.lower())
+        db_item = items_db.get(name_lower)
         item_vocs = db_item["vocations"] if db_item else ["all"]
         if "all" not in item_vocs and not set(prefs["vocations"]) & set(item_vocs):
             return False
 
     # Filtro de categoria
     if "all" not in prefs["categories"]:
-        db_item = items_db.get(item_name.lower())
+        db_item = items_db.get(name_lower)
         item_cat = db_item["category"] if db_item else ""
         if item_cat not in prefs["categories"]:
             return False
 
-    # Filtro de atributos (OR) — match exato por nome do atributo
+    # Filtro de atributos (OR)
     if prefs["attrs"]:
         attrs_lower = item_attrs.lower()
         if not any(a.lower() + " lv." in attrs_lower for a in prefs["attrs"]):
