@@ -149,8 +149,8 @@ def compute_war_stats(all_kills: list, all_deaths: list, my_guild: str, enemy_gu
         enemy_deaths_by_player[p] = enemy_deaths_by_player.get(p, 0) + 1
 
     # Ordena rankings
-    top_my_killers     = sorted(my_killers.values(),      key=lambda x: x["kills"], reverse=True)[:10]
-    top_enemy_killers  = sorted(enemy_killers.values(),   key=lambda x: x["kills"], reverse=True)[:10]
+    top_my_killers     = sorted(my_killers.values(),      key=lambda x: x["kills"], reverse=True)
+    top_enemy_killers  = sorted(enemy_killers.values(),   key=lambda x: x["kills"], reverse=True)
 
     # War log (feed de eventos recentes — últimos 100 eventos misturados e ordenados)
     war_log = []
