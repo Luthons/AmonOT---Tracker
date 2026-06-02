@@ -81,50 +81,64 @@ def save_snapshot_rarity(rarity: int, items: list):
 # ── Scraping ──────────────────────────────────────────────────────────────────
 
 def fetch_market(rarity: int) -> list:
-    url = BASE_URL.format(rarity=rarity)
-    print(f"[market] buscando rarity {rarity}: {url}")
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            print(f"[market] HTTP {r.status_code}")
-            return []
-    except Exception as e:
-        print(f"[market] erro: {e}")
-        return []
+    all_items = []
+    page = 1
 
-    soup  = BeautifulSoup(r.text, "html.parser")
-    items = []
-
-    for row in soup.select(".mkt-row"):
-        name_el  = row.select_one(".mkt-name")
-        meta_el  = row.select_one(".mkt-meta")
-        attrs_el = row.select_one(".mkt-attrs")
-        price_el = row.select_one(".mkt-price")
-
-        if not name_el:
-            continue
-
-        name = name_el.get_text(separator=" ", strip=True)
-        for rarity_label in ["Mythical", "Legendary", "Epic", "Rare", "Uncommon", "Common"]:
-            if name.endswith(rarity_label):
-                name = name[:-len(rarity_label)].strip()
+    while True:
+        url = BASE_URL.format(rarity=rarity) + f"&p={page}"
+        print(f"[market] buscando rarity {rarity} página {page}: {url}")
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            if r.status_code != 200:
+                print(f"[market] HTTP {r.status_code}")
                 break
+        except Exception as e:
+            print(f"[market] erro: {e}")
+            break
 
-        meta  = meta_el.get_text(strip=True) if meta_el else ""
-        price = "?"
-        if price_el:
-            total_el = price_el.select_one(".mkt-total")
-            price = total_el.get_text(strip=True) if total_el else price_el.get_text(strip=True)
+        soup  = BeautifulSoup(r.text, "html.parser")
+        rows  = soup.select(".mkt-row")
 
-        attrs_text = ""
-        if attrs_el:
-            attrs_text = attrs_el.get("title", "") or attrs_el.get_text(" ", strip=True)
+        if not rows:
+            break  # Sem itens = última página
 
-        item_id = f"{name}|{price}|{attrs_text[:50]}"
-        items.append({"id": item_id, "name": name, "meta": meta, "price": price, "attrs": attrs_text, "rarity": rarity})
+        for row in rows:
+            name_el  = row.select_one(".mkt-name")
+            meta_el  = row.select_one(".mkt-meta")
+            attrs_el = row.select_one(".mkt-attrs")
+            price_el = row.select_one(".mkt-price")
 
-    print(f"[market] {len(items)} itens encontrados (rarity {rarity})")
-    return items
+            if not name_el:
+                continue
+
+            name = name_el.get_text(separator=" ", strip=True)
+            for rarity_label in ["Mythical", "Legendary", "Epic", "Rare", "Uncommon", "Common"]:
+                if name.endswith(rarity_label):
+                    name = name[:-len(rarity_label)].strip()
+                    break
+
+            meta  = meta_el.get_text(strip=True) if meta_el else ""
+            price = "?"
+            if price_el:
+                total_el = price_el.select_one(".mkt-total")
+                price = total_el.get_text(strip=True) if total_el else price_el.get_text(strip=True)
+
+            attrs_text = ""
+            if attrs_el:
+                attrs_text = attrs_el.get("title", "") or attrs_el.get_text(" ", strip=True)
+
+            item_id = f"{name}|{price}|{attrs_text[:50]}"
+            all_items.append({"id": item_id, "name": name, "meta": meta, "price": price, "attrs": attrs_text, "rarity": rarity})
+
+        # Se retornou menos de 50, é a última página
+        if len(rows) < 50:
+            break
+
+        page += 1
+        time.sleep(0.5)  # Respeita o servidor entre páginas
+
+    print(f"[market] {len(all_items)} itens encontrados (rarity {rarity}, {page} página(s))")
+    return all_items
 
 
 # ── Discord ───────────────────────────────────────────────────────────────────
