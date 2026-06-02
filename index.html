@@ -8379,12 +8379,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.19';
+var WHATS_NEW_VERSION = '1.6.20';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'fix', title: 'KDA — Deaths zeradas',
+        desc: 'Corrigido bug onde a coluna de Deaths aparecia como zero para todos os players no KDA. As deaths agora são carregadas corretamente e o filtro de período (dia/semana/mês) também é aplicado nelas.',
+      },
       {
         type: 'new', title: 'War Tracker — Ranking Diário e Semanal',
         desc: 'Novas abas "Semana" e "Hoje" no War Tracker mostram o ranking de kills do período com TODOS os players que mataram, não só o top 10. Ideal para acompanhar quem está mais ativo na guerra no dia.',
