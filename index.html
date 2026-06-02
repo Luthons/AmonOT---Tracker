@@ -1077,6 +1077,12 @@ footer span{color:var(--gold-dim)}
     <div class="page-desc" id="war-subtitle">Kill/Death tracker atualizado a cada hora. Apenas abates entre membros das duas guilds.</div>
     <div class="page-divider" style="background:linear-gradient(90deg,var(--red),transparent)"></div>
 
+    <div class="hm-tabs" style="margin-bottom:20px">
+      <button class="hm-tab active" id="war-tab-total"  onclick="warSetTab('total',this)">Total</button>
+      <button class="hm-tab"        id="war-tab-week"   onclick="warSetTab('week',this)">Semana</button>
+      <button class="hm-tab"        id="war-tab-today"  onclick="warSetTab('today',this)">Hoje</button>
+    </div>
+
     <div class="war-scoreboard">
       <div class="war-side lp">
         <div class="war-guild-name lp">Lowly People</div>
@@ -1113,6 +1119,26 @@ footer span{color:var(--gold-dim)}
           <th style="text-align:right">Semana</th><th style="text-align:right">Hoje</th>
         </tr></thead>
         <tbody id="war-enemy-table"></tbody></table>
+      </div>
+    </div>
+
+    <!-- Tabelas de Semana e Hoje — todos os players -->
+    <div id="war-period-tables" style="display:none">
+      <div class="war-tables">
+        <div class="war-table-wrap">
+          <div class="war-table-title lp" id="war-period-lp-title">🗡 Lowly People</div>
+          <table class="rank-table"><thead><tr>
+            <th>#</th><th>Membro</th><th style="text-align:right">Kills</th>
+          </tr></thead>
+          <tbody id="war-period-lp-table"></tbody></table>
+        </div>
+        <div class="war-table-wrap">
+          <div class="war-table-title enemy" id="war-period-enemy-title">💀 Inimigo</div>
+          <table class="rank-table"><thead><tr>
+            <th>#</th><th>Membro</th><th style="text-align:right">Kills</th>
+          </tr></thead>
+          <tbody id="war-period-enemy-table"></tbody></table>
+        </div>
       </div>
     </div>
 
@@ -2651,7 +2677,64 @@ function renderDeathsGlobal(){
 }
 
 // ─── WAR ───────────────────────────────────────────────
-var warData={};
+var _warCurrentTab = 'total';
+
+function warSetTab(tab, btn){
+  _warCurrentTab = tab;
+  document.querySelectorAll('#page-war .hm-tab').forEach(function(t){ t.classList.remove('active'); });
+  btn.classList.add('active');
+
+  var mainTables   = document.querySelector('.war-tables');
+  var periodTables = document.getElementById('war-period-tables');
+
+  if(tab === 'total'){
+    if(mainTables)   mainTables.style.display   = '';
+    if(periodTables) periodTables.style.display = 'none';
+  } else {
+    if(mainTables)   mainTables.style.display   = 'none';
+    if(periodTables) periodTables.style.display = '';
+    renderWarPeriod(tab);
+  }
+}
+
+function renderWarPeriod(tab){
+  var w = warData;
+  if(!w || !w.my_guild) return;
+
+  var field      = tab === 'today' ? 'kills_today' : 'kills_week';
+  var periodLabel= tab === 'today' ? 'Hoje' : 'Semana';
+  var enemyName  = w.enemy_guild || 'Inimigo';
+
+  document.getElementById('war-period-lp-title').textContent    = '🗡 Lowly People — ' + periodLabel;
+  document.getElementById('war-period-enemy-title').textContent  = '💀 ' + enemyName + ' — ' + periodLabel;
+
+  // Ordena todos os killers pelo período, filtrando quem não matou nada
+  var lpKillers = (w.top_my_killers || [])
+    .filter(function(e){ return (e[field] || 0) > 0; })
+    .sort(function(a,b){ return (b[field]||0) - (a[field]||0); });
+
+  var enKillers = (w.top_enemy_killers || [])
+    .filter(function(e){ return (e[field] || 0) > 0; })
+    .sort(function(a,b){ return (b[field]||0) - (a[field]||0); });
+
+  function renderRows(killers, color){
+    if(!killers.length) return '<tr><td colspan="3" class="empty">Nenhum abate registrado.</td></tr>';
+    return killers.map(function(e, i){
+      var url = 'https://amonot.online/characters?name=' + encodeURIComponent(e.name);
+      var rc  = i===0?'gold':i===1?'silver':i===2?'bronze':'';
+      return '<tr>'
+        + '<td class="rank-num ' + rc + '">#' + (i+1) + '</td>'
+        + '<td class="rank-name"><a href="' + url + '" target="_blank" rel="noopener" style="color:' + color + '">' + e.name + '</a></td>'
+        + '<td class="rank-val">' + (e[field]||0) + '</td>'
+        + '</tr>';
+    }).join('');
+  }
+
+  document.getElementById('war-period-lp-table').innerHTML    = renderRows(lpKillers,    'var(--online)');
+  document.getElementById('war-period-enemy-table').innerHTML = renderRows(enKillers,    'var(--red)');
+}
+
+
 function renderWar(){
   var w=warData;
   if(!w||!w.my_guild)return;
@@ -8277,12 +8360,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.18';
+var WHATS_NEW_VERSION = '1.6.19';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'War Tracker — Ranking Diário e Semanal',
+        desc: 'Novas abas "Semana" e "Hoje" no War Tracker mostram o ranking de kills do período com TODOS os players que mataram, não só o top 10. Ideal para acompanhar quem está mais ativo na guerra no dia.',
+      },
       {
         type: 'new', title: 'Market — Rare e Uncommon',
         desc: 'O Market agora exibe e notifica itens Rare (2 atributos) e Uncommon (1 atributo), além dos já existentes Epic, Legendary e Mythical. Filtros, histórico e preferências de DM atualizados para incluir as novas raridades.',
