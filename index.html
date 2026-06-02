@@ -8384,12 +8384,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.22';
+var WHATS_NEW_VERSION = '1.6.23';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'fix', title: 'Market — Paginação completa',
+        desc: 'O market tracker agora busca todas as páginas de cada raridade, não apenas as primeiras 50. Itens de Arco, Besta, Amuleto, Anel e outros que estavam na página 2 em diante agora aparecem corretamente nos filtros.',
+      },
       {
         type: 'fix', title: 'Market — Rare e Uncommon não apareciam no filtro Todas',
         desc: 'Corrigido bug onde ao selecionar "Todas" na raridade, apenas Epic/Legendary/Mythical eram exibidos. Rare e Uncommon agora aparecem corretamente.',
