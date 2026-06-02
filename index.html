@@ -8467,9 +8467,13 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.24';
+var WHATS_NEW_VERSION = '1.6.25';
 
 var WHATS_NEW_CHANGELOG = [
+      {
+        type: 'improvement', title: 'Notificações Market — Otimização de performance',
+        desc: 'O sistema de notificações do market foi reestruturado. Novos itens são detectados em até 1 minuto. Itens que saíram do market são notificados a cada 15 minutos. Elimina os travamentos e delays anteriores.',
+      },
       {
         type: 'new', title: 'Notificações Market — Blacklist e Whitelist',
         desc: 'Nas preferências de DM do Market agora é possível configurar uma Whitelist (recebe DM apenas desses itens) ou uma Blacklist (nunca recebe DM desses itens). Os dois campos se bloqueiam mutuamente.',
