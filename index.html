@@ -5530,7 +5530,7 @@ function renderMarket() {
   var cont = document.getElementById('market-content');
   if(!cont || !marketSnapshot) return;
 
-  var RARITIES = mktFilterRarity === 'all' ? [5,4,3] : [parseInt(mktFilterRarity)];
+  var RARITIES = mktFilterRarity === 'all' ? [5,4,3,2,1] : [parseInt(mktFilterRarity)];
   var html = '';
   var total = 0;
 
@@ -8384,12 +8384,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.21';
+var WHATS_NEW_VERSION = '1.6.22';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'fix', title: 'Market — Rare e Uncommon não apareciam no filtro Todas',
+        desc: 'Corrigido bug onde ao selecionar "Todas" na raridade, apenas Epic/Legendary/Mythical eram exibidos. Rare e Uncommon agora aparecem corretamente.',
+      },
       {
         type: 'new', title: 'Market — Filtros de Amuleto/Colar e Anel',
         desc: 'Adicionados 139 novos itens ao banco (81 amuletos/colares e 58 anéis). Os filtros de categoria do Market e as preferências de DM agora incluem Amuleto/Colar e Anel.',
