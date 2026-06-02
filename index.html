@@ -3264,6 +3264,9 @@ async function loadData(){
     document.getElementById('table-wrap').style.display='block';
     sortBy('rank');
 
+    // Expõe dados globalmente para uso em outras funções (ex: KDA)
+    window._guildData = data;
+
     // Ranking
     guildHighscores=data.highscores||{};
     renderRanking();
@@ -6811,8 +6814,24 @@ async function loadKDA(){
     var filteredDeaths = allDeaths.filter(function(d){
       if(!d.isPvp) return false;
       if(!memberNames.has(d.player.toLowerCase())) return false;
+
+      var dt = parseDeathDate(d.time);
+
+      // Filtro por tab (dia/semana/mês) — mesmo critério das kills
+      if(kParams['kill_time']){
+        if(!dt) return false;
+        var dtISO = dt.toISOString();
+        var gte = kParams['kill_time'].replace('gte.','');
+        if(dtISO < gte) return false;
+        // Filtro de fim (semana/mês)
+        if(kParams['and']){
+          var lte = kParams['and'].match(/lte\.([^)]+)/);
+          if(lte && dtISO > lte[1]) return false;
+        }
+      }
+
+      // Filtro manual de data
       if(fromFilter || toFilter){
-        var dt = parseDeathDate(d.time);
         if(dt){
           var ds = dt.toISOString().split('T')[0];
           if(fromFilter && ds < fromFilter) return false;
