@@ -697,16 +697,22 @@ footer span{color:var(--gold-dim)}
 .mkt-filter-btn.mythical.active{border-color:#c95050;color:#c95050;background:rgba(201,80,80,.08)}
 .mkt-filter-btn.legendary.active{border-color:#e87830;color:#e87830;background:rgba(232,120,48,.08)}
 .mkt-filter-btn.epic.active{border-color:#8855cc;color:#8855cc;background:rgba(136,85,204,.08)}
+.mkt-filter-btn.rare.active{border-color:#5ab0e8;color:#5ab0e8;background:rgba(90,176,232,.08)}
+.mkt-filter-btn.uncommon.active{border-color:#6ec96e;color:#6ec96e;background:rgba(110,201,110,.08)}
 .mkt-rarity-section{margin-bottom:28px}
 .mkt-rarity-title{font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding:8px 0;margin-bottom:14px;border-bottom:1px solid var(--border)}
 .mkt-rarity-title.mythical{color:#c95050;border-color:rgba(201,80,80,.3)}
 .mkt-rarity-title.legendary{color:#e87830;border-color:rgba(232,120,48,.3)}
 .mkt-rarity-title.epic{color:#8855cc;border-color:rgba(136,85,204,.3)}
+.mkt-rarity-title.rare{color:#5ab0e8;border-color:rgba(90,176,232,.3)}
+.mkt-rarity-title.uncommon{color:#6ec96e;border-color:rgba(110,201,110,.3)}
 .mkt-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .mkt-card{background:var(--bg2);border:1px solid var(--border);padding:14px 16px;position:relative}
 .mkt-card.mythical{border-color:rgba(201,80,80,.3)}
 .mkt-card.legendary{border-color:rgba(232,120,48,.3)}
 .mkt-card.epic{border-color:rgba(136,85,204,.3)}
+.mkt-card.rare{border-color:rgba(90,176,232,.3)}
+.mkt-card.uncommon{border-color:rgba(110,201,110,.3)}
 .mkt-card-name{font-family:'Cinzel',serif;font-size:.85rem;color:var(--text);margin-bottom:6px}
 .mkt-card-price{font-size:.9rem;color:var(--gold-light);font-weight:600;margin-bottom:8px}
 .mkt-card-attrs{font-size:.72rem;color:var(--text-dim);margin-bottom:8px;line-height:1.5}
@@ -1752,6 +1758,8 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn mythical" data-value="5">Mythical</button>
           <button class="mkt-filter-btn legendary" data-value="4">Legendary</button>
           <button class="mkt-filter-btn epic" data-value="3">Epic</button>
+          <button class="mkt-filter-btn rare" data-value="2">Rare</button>
+          <button class="mkt-filter-btn uncommon" data-value="1">Uncommon</button>
         </div>
       </div>
       <div class="mkt-filter-group">
@@ -1821,6 +1829,8 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn mythical" data-rarity="5" onclick="mktHistoryFilter(this,'rarity')">Mythical</button>
           <button class="mkt-filter-btn legendary" data-rarity="4" onclick="mktHistoryFilter(this,'rarity')">Legendary</button>
           <button class="mkt-filter-btn epic" data-rarity="3" onclick="mktHistoryFilter(this,'rarity')">Epic</button>
+          <button class="mkt-filter-btn rare" data-rarity="2" onclick="mktHistoryFilter(this,'rarity')">Rare</button>
+          <button class="mkt-filter-btn uncommon" data-rarity="1" onclick="mktHistoryFilter(this,'rarity')">Uncommon</button>
         </div>
         <div class="mkt-filter-btns">
           <button class="mkt-filter-btn active" data-event="all" onclick="mktHistoryFilter(this,'event')">Todos</button>
@@ -4369,6 +4379,8 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-5" value="5" onchange="dmRarityChanged(this)"> Mythical</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-4" value="4" onchange="dmRarityChanged(this)"> Legendary</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-3" value="3" onchange="dmRarityChanged(this)"> Epic</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-2" value="2" onchange="dmRarityChanged(this)"> Rare</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-1" value="1" onchange="dmRarityChanged(this)"> Uncommon</label>
           </div>
         </div>
 
@@ -5361,7 +5373,7 @@ function mktAttrClearAll(){
   mktAttrChanged();
 }
 
-var RARITY_LABELS = {3: 'Epic', 4: 'Legendary', 5: 'Mythical'};
+var RARITY_LABELS = {1: 'Uncommon', 2: 'Rare', 3: 'Epic', 4: 'Legendary', 5: 'Mythical'};
 var RARITY_CLASS  = {3: 'epic', 4: 'legendary', 5: 'mythical'};
 var CAT_LABELS = {
   helmet:'Capacete', armor:'Armadura', legs:'Calças', boots:'Botas',
@@ -5610,7 +5622,7 @@ function updateDmSummary(){
   var el = document.getElementById('prof-dm-summary');
   if(!el) return;
   var parts = [];
-  if(!dmConfig.rarities.includes('all')) parts.push('Raridade: '+dmConfig.rarities.map(function(r){ return r==='5'?'Mythical':r==='4'?'Legendary':'Epic'; }).join(', '));
+  if(!dmConfig.rarities.includes('all')) parts.push('Raridade: '+dmConfig.rarities.map(function(r){ return {1:'Uncommon',2:'Rare',3:'Epic',4:'Legendary',5:'Mythical'}[r]||r; }).join(', '));
   if(!dmConfig.vocations.includes('all')) parts.push('Voc: '+dmConfig.vocations.join(', '));
   if(!dmConfig.categories.includes('all')) parts.push('Cat: '+dmConfig.categories.join(', '));
   if(dmConfig.attrs.length) parts.push('Attr: '+dmConfig.attrs.slice(0,3).join(', ')+(dmConfig.attrs.length>3?'...':''));
@@ -5655,7 +5667,7 @@ async function loadMarketHistory() {
       return;
     }
 
-    var RARITY_LABELS = {3:'Epic',4:'Legendary',5:'Mythical'};
+    var RARITY_LABELS = {1:'Uncommon',2:'Rare',3:'Epic',4:'Legendary',5:'Mythical'};
     var RARITY_CLASS  = {3:'epic',4:'legendary',5:'mythical'};
 
     cont.innerHTML = '<table class="admin-table" style="min-width:600px">'
@@ -8265,12 +8277,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.17';
+var WHATS_NEW_VERSION = '1.6.18';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'Market — Rare e Uncommon',
+        desc: 'O Market agora exibe e notifica itens Rare (2 atributos) e Uncommon (1 atributo), além dos já existentes Epic, Legendary e Mythical. Filtros, histórico e preferências de DM atualizados para incluir as novas raridades.',
+      },
       {
         type: 'fix', title: 'Market — DM duplicada e histórico zerando',
         desc: 'Corrigidos dois bugs: o snapshot agora é salvo antes de enviar as DMs, evitando notificações duplicadas caso o script falhe no meio. Além disso, se o site do amonOT retornar vazio por instabilidade, o market tracker ignora o ciclo sem resetar o histórico.',
