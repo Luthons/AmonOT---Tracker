@@ -2,18 +2,22 @@
 market_tracker.py
 Monitora o market do AmonOT e envia DM no Discord quando novos itens aparecem.
 Usa Supabase para persistir o snapshot — sem dependência do git.
+
+Otimização de performance:
+  - Preferências de todos os usuários são carregadas UMA VEZ no início do run
+  - items_db é carregado UMA VEZ no início do run
+  - Resultado: 3 queries ao Supabase por run, independente de qtd de itens/usuários
 """
 
-import json
 import os
 import time
 import requests
 from bs4 import BeautifulSoup
 
 # ── Configuração ──────────────────────────────────────────────────────────────
-DISCORD_TOKEN    = os.environ.get("DISCORD_BOT_TOKEN", "")
-SUPABASE_URL    = os.environ.get("SUPABASE_URL", "")
-SUPABASE_KEY    = os.environ.get("SUPABASE_SERVICE_KEY", "")
+DISCORD_TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
+SUPABASE_URL  = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY  = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 MARKET_URLS = [
     {"rarity": 1, "label": "Uncommon", "color": 0x6EC96E, "emoji": "🟢"},
@@ -26,7 +30,7 @@ MARKET_URLS = [
 BASE_URL = "https://amonot.online/index.php?page=market&name=&sale=all&slot=&tier=&world=Baiak&rarity={rarity}"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
+    "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
@@ -38,12 +42,130 @@ SUPA_HEADERS = {
 }
 
 
-# ── Supabase Snapshot ─────────────────────────────────────────────────────────
+# ── Supabase helpers ──────────────────────────────────────────────────────────
+
+def supa_get(table: str, params: dict) -> list:
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/{table}",
+            headers=SUPA_HEADERS,
+            params=params,
+            timeout=10,
+        )
+        return r.json() if r.status_code == 200 else []
+    except Exception as e:
+        print(f"[market] erro GET {table}: {e}")
+        return []
+
+
+# ── Cache — carregado UMA VEZ no início do run ────────────────────────────────
+
+def load_users_cache() -> dict:
+    """
+    Carrega todos os usuários com discord_id e suas preferências de uma vez.
+    Retorna: { discord_id: { rarities, vocations, categories, attrs, profile_id } }
+    """
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return {}
+
+    # 1. Todos os profiles com discord_id
+    profiles = supa_get("profiles", {
+        "discord_id": "not.is.null",
+        "select":     "id,discord_id",
+    })
+    if not profiles:
+        return {}
+
+    profile_ids = [p["id"] for p in profiles]
+    id_to_discord = {p["id"]: p["discord_id"] for p in profiles}
+
+    # 2. Todas as notification_settings de uma vez
+    settings_rows = supa_get("notification_settings", {
+        "profile_id": f"in.({','.join(profile_ids)})",
+        "select":     "profile_id,market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs",
+    })
+    settings_map = {row["profile_id"]: row for row in settings_rows}
+
+    default_prefs = {
+        "rarities":   ["all"],
+        "vocations":  ["all"],
+        "categories": ["all"],
+        "attrs":      [],
+    }
+
+    cache = {}
+    for p in profiles:
+        discord_id = p["discord_id"]
+        if not discord_id or not discord_id.strip():
+            continue
+        row = settings_map.get(p["id"], {})
+        cache[discord_id] = {
+            "profile_id": p["id"],
+            "rarities":   row.get("market_dm_rarities")   or ["all"],
+            "vocations":  row.get("market_dm_vocations")  or ["all"],
+            "categories": row.get("market_dm_categories") or ["all"],
+            "attrs":      row.get("market_dm_attrs")      or [],
+        }
+
+    print(f"[market] cache carregado: {len(cache)} usuários")
+    return cache
+
+
+def load_items_db_cache() -> dict:
+    """
+    Carrega items_db completo de uma vez.
+    Retorna: { item_name_lower: { category, vocations } }
+    """
+    rows = supa_get("items_db", {"select": "name,category,vocations", "limit": "3000"})
+    cache = {}
+    for row in rows:
+        cache[row["name"].lower()] = {
+            "category":  row.get("category", ""),
+            "vocations": row.get("vocations") or ["all"],
+        }
+    print(f"[market] items_db cache: {len(cache)} itens")
+    return cache
+
+
+# ── Lógica de notificação (usa cache, zero queries) ───────────────────────────
+
+def should_notify(prefs: dict, rarity: int, item_name: str, item_attrs: str, items_db: dict) -> bool:
+    """
+    Verifica se o usuário deve receber DM para este item.
+    Usa apenas dicionários em memória — zero queries ao Supabase.
+    """
+    # Filtro de raridade
+    if "all" not in prefs["rarities"]:
+        if str(rarity) not in prefs["rarities"]:
+            return False
+
+    # Filtro de vocação
+    if "all" not in prefs["vocations"]:
+        db_item = items_db.get(item_name.lower())
+        item_vocs = db_item["vocations"] if db_item else ["all"]
+        if "all" not in item_vocs and not set(prefs["vocations"]) & set(item_vocs):
+            return False
+
+    # Filtro de categoria
+    if "all" not in prefs["categories"]:
+        db_item = items_db.get(item_name.lower())
+        item_cat = db_item["category"] if db_item else ""
+        if item_cat not in prefs["categories"]:
+            return False
+
+    # Filtro de atributos (OR) — match exato por nome do atributo
+    if prefs["attrs"]:
+        attrs_lower = item_attrs.lower()
+        if not any(a.lower() + " lv." in attrs_lower for a in prefs["attrs"]):
+            return False
+
+    return True
+
+
+# ── Snapshot ──────────────────────────────────────────────────────────────────
 
 def load_snapshot() -> dict:
-    """Carrega snapshot do Supabase. Retorna dict {rarity_str: [items]}."""
     if not SUPABASE_URL or not SUPABASE_KEY:
-        print("[market] ⚠ Supabase não configurado, usando snapshot vazio")
         return {}
     try:
         r = requests.get(
@@ -52,28 +174,26 @@ def load_snapshot() -> dict:
             timeout=10,
         )
         if r.status_code != 200:
-            print(f"[market] erro ao carregar snapshot: {r.status_code}")
             return {}
-        rows = r.json()
-        return {str(row["rarity"]): row["items"] for row in rows}
+        return {str(row["rarity"]): row["items"] for row in r.json()}
     except Exception as e:
         print(f"[market] erro ao carregar snapshot: {e}")
         return {}
 
 
 def save_snapshot_rarity(rarity: int, items: list):
-    """Salva snapshot de uma raridade no Supabase (upsert)."""
     if not SUPABASE_URL or not SUPABASE_KEY:
         return
     try:
+        import datetime
         r = requests.post(
             f"{SUPABASE_URL}/rest/v1/market_snapshot",
             headers={**SUPA_HEADERS, "Prefer": "resolution=merge-duplicates,return=minimal"},
-            json={"rarity": rarity, "items": items, "updated_at": __import__("datetime").datetime.utcnow().isoformat()},
+            json={"rarity": rarity, "items": items, "updated_at": datetime.datetime.utcnow().isoformat()},
             timeout=10,
         )
         if r.status_code not in (200, 201, 204):
-            print(f"[market] erro ao salvar snapshot rarity {rarity}: {r.status_code} {r.text[:100]}")
+            print(f"[market] erro ao salvar snapshot rarity {rarity}: {r.status_code}")
     except Exception as e:
         print(f"[market] erro ao salvar snapshot: {e}")
 
@@ -83,10 +203,11 @@ def save_snapshot_rarity(rarity: int, items: list):
 def fetch_market(rarity: int) -> list:
     all_items = []
     page = 1
+    MAX_PAGES = 20
 
-    while True:
+    while page <= MAX_PAGES:
         url = BASE_URL.format(rarity=rarity) + f"&p={page}"
-        print(f"[market] buscando rarity {rarity} página {page}: {url}")
+        print(f"[market] buscando rarity {rarity} página {page}")
         try:
             r = requests.get(url, headers=HEADERS, timeout=15)
             if r.status_code != 200:
@@ -96,11 +217,11 @@ def fetch_market(rarity: int) -> list:
             print(f"[market] erro: {e}")
             break
 
-        soup  = BeautifulSoup(r.text, "html.parser")
-        rows  = soup.select(".mkt-row")
+        soup = BeautifulSoup(r.text, "html.parser")
+        rows = soup.select(".mkt-row")
 
         if not rows:
-            break  # Sem itens = última página
+            break
 
         for row in rows:
             name_el  = row.select_one(".mkt-name")
@@ -130,14 +251,13 @@ def fetch_market(rarity: int) -> list:
             item_id = f"{name}|{price}|{attrs_text[:50]}"
             all_items.append({"id": item_id, "name": name, "meta": meta, "price": price, "attrs": attrs_text, "rarity": rarity})
 
-        # Se retornou menos de 50, é a última página
         if len(rows) < 50:
             break
 
         page += 1
-        time.sleep(0.5)  # Respeita o servidor entre páginas
+        time.sleep(0.3)
 
-    print(f"[market] {len(all_items)} itens encontrados (rarity {rarity}, {page} página(s))")
+    print(f"[market] {len(all_items)} itens (rarity {rarity}, {page} pág.)")
     return all_items
 
 
@@ -157,7 +277,7 @@ def get_dm_channel(user_id: str) -> str | None:
 
 
 def send_dm(channel_id: str, embed: dict):
-    for attempt in range(3):
+    for _ in range(3):
         r = requests.post(
             f"https://discord.com/api/v10/channels/{channel_id}/messages",
             headers={"Authorization": f"Bot {DISCORD_TOKEN}", "Content-Type": "application/json"},
@@ -171,21 +291,20 @@ def send_dm(channel_id: str, embed: dict):
             print(f"[discord] rate limit — aguardando {retry_after}s")
             time.sleep(retry_after + 0.1)
         else:
-            print(f"[discord] erro ao enviar mensagem: {r.status_code} {r.text}")
+            print(f"[discord] erro ao enviar: {r.status_code} {r.text}")
             return False
     return False
 
 
 def build_embed_new(item: dict, rarity_info: dict) -> dict:
+    import datetime
     attrs_lines = ""
     if item["attrs"]:
         attrs = [a.strip() for a in item["attrs"].replace("·", "\n").split("\n") if a.strip()]
         attrs_lines = "\n".join(f"• {a}" for a in attrs[:8])
-
     description = f"**{item['meta']}**\n" if item["meta"] else ""
     if attrs_lines:
         description += f"\n📊 **Atributos:**\n{attrs_lines}"
-
     return {
         "title":       f"{rarity_info['emoji']} Novo item no Market! — {rarity_info['label']}",
         "description": description,
@@ -195,163 +314,36 @@ def build_embed_new(item: dict, rarity_info: dict) -> dict:
             {"name": "💰 Preço", "value": item["price"], "inline": True},
         ],
         "footer":    {"text": "AmonOT Market Tracker · Baiak"},
-        "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
+        "timestamp": datetime.datetime.utcnow().isoformat(),
     }
 
 
 def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
+    import datetime
     return {
         "title":       f"❌ Item saiu do Market — {rarity_info['label']}",
         "description": f"**{item['name']}** não está mais disponível.",
         "color":       0x555555,
         "fields": [
-            {"name": "📦 Item",              "value": item["name"],        "inline": True},
-            {"name": "💰 Preço era",         "value": item["price"],       "inline": True},
-            {"name": "⏱️ Ficou disponível",  "value": f"~{minutes} minutos", "inline": True},
+            {"name": "📦 Item",             "value": item["name"],          "inline": True},
+            {"name": "💰 Preço era",        "value": item["price"],         "inline": True},
+            {"name": "⏱️ Ficou disponível", "value": f"~{minutes} minutos", "inline": True},
         ],
         "footer":    {"text": "AmonOT Market Tracker · Baiak"},
-        "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
+        "timestamp": datetime.datetime.utcnow().isoformat(),
     }
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
-def get_item_vocations(item_name: str) -> list:
-    """Busca vocações do item no Supabase items_db."""
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return ['all']
-    try:
-        r = requests.get(
-            f"{SUPABASE_URL}/rest/v1/items_db",
-            headers=SUPA_HEADERS,
-            params={"name": f"ilike.{item_name}", "select": "vocations", "limit": "1"},
-            timeout=10,
-        )
-        if r.status_code == 200 and r.json():
-            return r.json()[0].get("vocations", ["all"])
-        return ['all']
-    except Exception as e:
-        print(f"[market] erro ao buscar vocações: {e}")
-        return ['all']
-
-
-def get_profile_id_for_discord(discord_user_id: str) -> str | None:
-    """Busca profile_id pelo discord_id."""
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return None
-    try:
-        r = requests.get(
-            f"{SUPABASE_URL}/rest/v1/profiles",
-            headers=SUPA_HEADERS,
-            params={"discord_id": f"eq.{discord_user_id}", "select": "id"},
-            timeout=10,
-        )
-        if r.status_code == 200 and r.json():
-            return r.json()[0].get("id")
-        return None
-    except Exception as e:
-        print(f"[market] erro ao buscar profile: {e}")
-        return None
-
-
-def get_all_discord_ids() -> list:
-    """Busca todos os discord_ids cadastrados em profiles."""
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return []
-    try:
-        r = requests.get(
-            f"{SUPABASE_URL}/rest/v1/profiles",
-            headers=SUPA_HEADERS,
-            params={"discord_id": "not.is.null", "select": "discord_id"},
-            timeout=10,
-        )
-        if r.status_code == 200:
-            return [p["discord_id"] for p in r.json() if p.get("discord_id","").strip()]
-        return []
-    except Exception as e:
-        print(f"[market] erro ao buscar discord_ids: {e}")
-        return []
-
-
-def get_user_market_prefs(profile_id: str) -> dict:
-    """Busca preferências de DM de market do usuário."""
-    default = {'rarities': ['all'], 'vocations': ['all'], 'categories': ['all'], 'attrs': []}
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return default
-    try:
-        r = requests.get(
-            f"{SUPABASE_URL}/rest/v1/notification_settings",
-            headers=SUPA_HEADERS,
-            params={"profile_id": f"eq.{profile_id}", "select": "market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs"},
-            timeout=10,
-        )
-        if r.status_code == 200 and r.json():
-            row = r.json()[0]
-            return {
-                'rarities':   row.get("market_dm_rarities")   or ['all'],
-                'vocations':  row.get("market_dm_vocations")  or ['all'],
-                'categories': row.get("market_dm_categories") or ['all'],
-                'attrs':      row.get("market_dm_attrs")      or [],
-            }
-        return default
-    except Exception as e:
-        print(f"[market] erro ao buscar prefs: {e}")
-        return default
-
-
-def should_notify_user(discord_user_id: str, item_name: str, rarity: int, item_attrs: str) -> bool:
-    """Verifica se o usuário deve receber DM para este item."""
-    profile_id = get_profile_id_for_discord(discord_user_id)
-    if not profile_id:
-        return True  # sem perfil cadastrado, envia sempre
-
-    prefs = get_user_market_prefs(profile_id)
-
-    # Filtro de raridade
-    if 'all' not in prefs['rarities']:
-        if str(rarity) not in prefs['rarities']:
-            return False
-
-    # Filtro de vocação
-    if 'all' not in prefs['vocations']:
-        item_vocs = get_item_vocations(item_name)
-        if 'all' not in item_vocs and not bool(set(prefs['vocations']) & set(item_vocs)):
-            return False
-
-    # Filtro de categoria
-    if 'all' not in prefs['categories']:
-        item_cat = ''
-        if SUPABASE_URL and SUPABASE_KEY:
-            try:
-                r = requests.get(f"{SUPABASE_URL}/rest/v1/items_db", headers=SUPA_HEADERS,
-                    params={"name": f"ilike.{item_name}", "select": "category", "limit": "1"}, timeout=10)
-                if r.status_code == 200 and r.json():
-                    item_cat = r.json()[0].get("category", "")
-            except: pass
-        if item_cat not in prefs['categories']:
-            return False
-
-    # Filtro de atributos (OR) — match exato por nome do atributo
-    # Usa "NomeAttr Lv." para não confundir "Attack" com "Attack Speed"
-    if prefs['attrs']:
-        attrs_lower = item_attrs.lower()
-        if not any(a.lower() + ' lv.' in attrs_lower for a in prefs['attrs']):
-            return False
-
-    return True
-
-
 def save_market_history(item: dict, rarity: int, event: str, duration_minutes: int = None):
-    """Salva entrada/saída de item no histórico do Supabase."""
     if not SUPABASE_URL or not SUPABASE_KEY:
         return
     try:
         payload = {
-            "name":    item["name"],
-            "rarity":  rarity,
-            "price":   item.get("price", ""),
-            "attrs":   item.get("attrs", ""),
-            "event":   event,
+            "name":   item["name"],
+            "rarity": rarity,
+            "price":  item.get("price", ""),
+            "attrs":  item.get("attrs", ""),
+            "event":  event,
         }
         if duration_minutes is not None:
             payload["duration_minutes"] = duration_minutes
@@ -365,32 +357,33 @@ def save_market_history(item: dict, rarity: int, event: str, duration_minutes: i
         print(f"[market] erro ao salvar histórico: {e}")
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def run():
     if not DISCORD_TOKEN:
         print("[market] ⚠ DISCORD_BOT_TOKEN não configurado")
         return
-
-    # Busca todos os usuários com discord_id cadastrado no Supabase
-    # (substitui a lista hardcoded do secret DISCORD_USER_ID)
-    discord_ids = get_all_discord_ids()
-    if not discord_ids:
-        print("[market] ⚠ nenhum discord_id cadastrado no Supabase")
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("[market] ⚠ Supabase não configurado")
         return
 
-    print(f"[market] {len(discord_ids)} usuários com discord_id cadastrado")
+    # Carrega TUDO em cache de uma vez — 3 queries totais para o run inteiro
+    users_cache = load_users_cache()
+    if not users_cache:
+        print("[market] ⚠ nenhum usuário com discord_id cadastrado")
+        return
 
-    snapshot = load_snapshot()
-
-    now_ts = int(time.time())
+    items_db    = load_items_db_cache()
+    snapshot    = load_snapshot()
+    now_ts      = int(time.time())
 
     for rarity_info in MARKET_URLS:
-        rarity   = rarity_info["rarity"]
-        label    = rarity_info["label"]
-        items    = fetch_market(rarity)
+        rarity = rarity_info["rarity"]
+        label  = rarity_info["label"]
+        items  = fetch_market(rarity)
 
-        # Se fetch retornou vazio, assume falha de rede — não processa nem atualiza snapshot
         if not items:
-            print(f"[market] ⚠ {label}: fetch retornou vazio, pulando (possível falha de rede)")
+            print(f"[market] ⚠ {label}: fetch vazio, pulando")
             continue
 
         prev_ids = {v["id"]: v for v in snapshot.get(str(rarity), [])}
@@ -398,41 +391,38 @@ def run():
 
         # Preserva first_seen
         for item in items:
-            if item["id"] in prev_ids:
-                item["first_seen"] = prev_ids[item["id"]].get("first_seen", now_ts)
-            else:
-                item["first_seen"] = now_ts
+            item["first_seen"] = prev_ids[item["id"]].get("first_seen", now_ts) if item["id"] in prev_ids else now_ts
 
-        # Salva snapshot ANTES de notificar — evita DM duplicada se script falhar no meio
+        # Salva snapshot ANTES de notificar
         save_snapshot_rarity(rarity, items)
 
         # Itens novos
         new_items = [item for iid, item in curr_ids.items() if iid not in prev_ids]
         for item in new_items:
-            print(f"[market] 🆕 novo item: {item['name']} ({label})")
+            print(f"[market] 🆕 {item['name']} ({label})")
             save_market_history(item, rarity, "entered")
             embed = build_embed_new(item, rarity_info)
-            for uid in discord_ids:
-                if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
-                    print(f"[market] ℹ {uid} não quer notificação para {item['name']} (preferências)")
+            for discord_id, prefs in users_cache.items():
+                if not should_notify(prefs, rarity, item["name"], item.get("attrs", ""), items_db):
                     continue
-                ch = get_dm_channel(uid)
-                if ch: send_dm(ch, embed)
+                ch = get_dm_channel(discord_id)
+                if ch:
+                    send_dm(ch, embed)
                 time.sleep(0.3)
 
         # Itens removidos
         removed_items = [item for iid, item in prev_ids.items() if iid not in curr_ids]
         for item in removed_items:
-            first_seen = item.get("first_seen", now_ts)
-            minutes    = max(1, (now_ts - first_seen) // 60)
-            print(f"[market] ❌ item removido: {item['name']} ({label}) — ficou {minutes} min")
+            minutes = max(1, (now_ts - item.get("first_seen", now_ts)) // 60)
+            print(f"[market] ❌ {item['name']} ({label}) — {minutes} min")
             save_market_history(item, rarity, "left", minutes)
             embed = build_embed_removed(item, rarity_info, minutes)
-            for uid in discord_ids:
-                if not should_notify_user(uid, item["name"], rarity, item.get("attrs","")):
+            for discord_id, prefs in users_cache.items():
+                if not should_notify(prefs, rarity, item["name"], item.get("attrs", ""), items_db):
                     continue
-                ch = get_dm_channel(uid)
-                if ch: send_dm(ch, embed)
+                ch = get_dm_channel(discord_id)
+                if ch:
+                    send_dm(ch, embed)
                 time.sleep(0.3)
 
         print(f"[market] {label}: {len(new_items)} novos | {len(removed_items)} removidos")
