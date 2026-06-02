@@ -1818,6 +1818,8 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn" data-value="fist">Punho</button>
           <button class="mkt-filter-btn" data-value="bow">Arco</button>
           <button class="mkt-filter-btn" data-value="crossbow">Besta</button>
+          <button class="mkt-filter-btn" data-value="Amuleto/Colar">Amuleto/Colar</button>
+          <button class="mkt-filter-btn" data-value="Anel">Anel</button>
           <button class="mkt-filter-btn" data-value="throwable">Arremessável</button>
         </div>
       </div>
@@ -4500,6 +4502,9 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-rod" value="rod"> Rod</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-fist" value="fist"> Punho</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-bow" value="bow"> Arco</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-amulet" value="Amuleto/Colar"> Amuleto/Colar</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-ring" value="Anel"> Anel</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-throwable" value="throwable"> Arremessável</label>
           </div>
@@ -8379,12 +8384,16 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.20';
+var WHATS_NEW_VERSION = '1.6.21';
 
 var WHATS_NEW_CHANGELOG = [
   {
     date: '01/06/2026',
     items: [
+      {
+        type: 'new', title: 'Market — Filtros de Amuleto/Colar e Anel',
+        desc: 'Adicionados 139 novos itens ao banco (81 amuletos/colares e 58 anéis). Os filtros de categoria do Market e as preferências de DM agora incluem Amuleto/Colar e Anel.',
+      },
       {
         type: 'fix', title: 'KDA — Deaths zeradas',
         desc: 'Corrigido bug onde a coluna de Deaths aparecia como zero para todos os players no KDA. As deaths agora são carregadas corretamente e o filtro de período (dia/semana/mês) também é aplicado nelas.',
