@@ -127,41 +127,6 @@ def save_snapshot_new_items(rarity: int, new_items: list, existing_snapshot: dic
         print(f"[market_rt] erro ao atualizar snapshot: {e}")
 
 
-
-    url = BASE_URL.format(rarity=rarity) + "&p=1"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            return []
-    except Exception as e:
-        print(f"[market_rt] erro fetch: {e}")
-        return []
-
-    soup  = BeautifulSoup(r.text, "html.parser")
-    items = []
-    for row in soup.select(".mkt-row"):
-        name_el  = row.select_one(".mkt-name")
-        attrs_el = row.select_one(".mkt-attrs")
-        price_el = row.select_one(".mkt-price")
-        if not name_el:
-            continue
-        name = name_el.get_text(separator=" ", strip=True)
-        for lbl in ["Mythical","Legendary","Epic","Rare","Uncommon","Common"]:
-            if name.endswith(lbl):
-                name = name[:-len(lbl)].strip()
-                break
-        price = "?"
-        if price_el:
-            total_el = price_el.select_one(".mkt-total")
-            price = total_el.get_text(strip=True) if total_el else price_el.get_text(strip=True)
-        attrs_text = ""
-        if attrs_el:
-            attrs_text = attrs_el.get("title","") or attrs_el.get_text(" ", strip=True)
-        item_id = f"{name}|{price}|{attrs_text[:50]}"
-        items.append({"id": item_id, "name": name, "price": price, "attrs": attrs_text})
-    return items
-
-
 def fetch_page1(rarity: int) -> list:
     url = BASE_URL.format(rarity=rarity) + "&p=1"
     try:
