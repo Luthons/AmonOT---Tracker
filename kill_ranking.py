@@ -58,6 +58,7 @@ def supa_get(table: str, params: dict) -> list:
         )
         if r.status_code == 200:
             return r.json()
+        print(f"[kill_ranking] GET {table} falhou {r.status_code}: {r.text[:300]}")
         return []
     except Exception as e:
         print(f"[kill_ranking] erro Supabase GET: {e}")
@@ -72,7 +73,11 @@ def supa_post(table: str, payload) -> bool:
             json=payload,
             timeout=10,
         )
-        return r.status_code in (200, 201, 204)
+        if r.status_code in (200, 201, 204):
+            return True
+        # Log do erro real do Supabase/Postgres para diagnóstico
+        print(f"[kill_ranking] POST {table} falhou {r.status_code}: {r.text[:500]}")
+        return False
     except Exception as e:
         print(f"[kill_ranking] erro Supabase POST: {e}")
         return False
@@ -107,7 +112,6 @@ def fetch_player_resets_from_site(name: str) -> int:
         if r.status_code != 200:
             return 0
         soup = BeautifulSoup(r.text, "html.parser")
-        # Procura o campo de resets na página
         for el in soup.find_all(string=True):
             if "resets" in el.lower():
                 import re
@@ -118,6 +122,16 @@ def fetch_player_resets_from_site(name: str) -> int:
     except Exception as e:
         print(f"[kill_ranking] erro ao buscar resets de {name}: {e}")
         return 0
+
+
+def parse_kill_time(kill_time: str) -> str:
+    """Converte kill_time para ISO 8601 com timezone de Brasília. Retorna a string original em caso de erro."""
+    try:
+        dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
+        dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
+        return dt.isoformat()
+    except Exception:
+        return kill_time
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -195,13 +209,8 @@ def run():
             skipped += 1
             continue
 
-        # Converte kill_time para ISO antes de tudo
-        try:
-            dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
-            dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
-            kill_time_iso = dt.isoformat()
-        except:
-            kill_time_iso = kill_time
+        # Converte kill_time para ISO uma única vez
+        kill_time_iso = parse_kill_time(kill_time)
 
         # Verifica se já processou (em memória, sem query)
         if (killer, victim, kill_time_iso) in processed_cache:
@@ -220,14 +229,6 @@ def run():
         is_hunted = victim.lower() in hunted_list
         is_bonus  = victim.lower() in bonus_list
         points = calc_points(killer_resets, victim_resets, is_hunted, is_bonus)
-
-        # Converte kill_time para ISO
-        try:
-            dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
-            dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
-            kill_time_iso = dt.isoformat()
-        except:
-            kill_time_iso = kill_time
 
         batch.append({
             "killer":        killer,
@@ -255,16 +256,13 @@ def run():
 
     # Insere em lote
     if batch:
+        print(f"[kill_ranking] tentando inserir lote de {len(batch)} registros ({processed} kills)...")
         ok = supa_post("kill_rankings", batch)
         if ok:
             print(f"[kill_ranking] ✅ {len(batch)} registros inseridos ({processed} kills)")
         else:
-            # Try inserting one by one to find the problematic record
-            print(f"[kill_ranking] ❌ erro no lote, tentando um por um...")
-            for record in batch:
-                ok2 = supa_post("kill_rankings", [record])
-                if not ok2:
-                    print(f"[kill_ranking] ❌ falhou: {record}")
+            print(f"[kill_ranking] ❌ lote falhou (ver erro acima). Abortando — NÃO tentando um por um para evitar timeout.")
+            print(f"[kill_ranking] ℹ Verifique o erro do Supabase acima e corrija a constraint antes de re-rodar.")
     else:
         print(f"[kill_ranking] ℹ nenhuma kill nova para processar ({skipped} ignoradas)")
 
