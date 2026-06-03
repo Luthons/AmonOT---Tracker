@@ -1818,8 +1818,8 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn" data-value="fist">Punho</button>
           <button class="mkt-filter-btn" data-value="bow">Arco</button>
           <button class="mkt-filter-btn" data-value="crossbow">Besta</button>
-          <button class="mkt-filter-btn" data-value="Amuleto/Colar">Amuleto/Colar</button>
-          <button class="mkt-filter-btn" data-value="Anel">Anel</button>
+          <button class="mkt-filter-btn" data-value="amuleto/colar">Amuleto/Colar</button>
+          <button class="mkt-filter-btn" data-value="anel">Anel</button>
           <button class="mkt-filter-btn" data-value="throwable">Arremessável</button>
         </div>
       </div>
@@ -4503,8 +4503,8 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-fist" value="fist"> Punho</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-bow" value="bow"> Arco</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
-            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-amulet" value="Amuleto/Colar"> Amuleto/Colar</label>
-            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-ring" value="Anel"> Anel</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-amulet" value="amuleto/colar"> Amuleto/Colar</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-ring" value="anel"> Anel</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-throwable" value="throwable"> Arremessável</label>
           </div>
         </div>
@@ -5491,7 +5491,7 @@ var CAT_LABELS = {
   helmet:'Capacete', armor:'Armadura', legs:'Calças', boots:'Botas',
   shield:'Escudo', quiver:'Aljava', spellbook:'Spellbook', axe:'Machado',
   club:'Clava', sword:'Espada', wand:'Wand', rod:'Rod', fist:'Punho',
-  throwable:'Arremessável', crossbow:'Besta', bow:'Arco'
+  throwable:'Arremessável', crossbow:'Besta', bow:'Arco', anel:'Anel', 'amuleto/colar':'Amuleto/Colar', extra:'Extra'
 };
 
 async function loadMarketData() {
@@ -5512,7 +5512,11 @@ async function loadMarketData() {
     var {data: dbItems} = await supaFetch('items_db', {select: 'name,category,vocations,level_req', limit: '2000'});
     itemsDB = {};
     (dbItems||[]).forEach(function(item){
-      itemsDB[item.name.toLowerCase()] = item;
+      var nameLower = item.name.toLowerCase();
+      itemsDB[nameLower] = item;
+      // Registra também o nome base sem sufixo de tier (T1-T10)
+      var base = nameLower.replace(/\s+t\d{1,2}$/, '').trim();
+      if(base !== nameLower) itemsDB[base] = itemsDB[base] || item;
     });
 
     // Setup filtros
@@ -8466,7 +8470,7 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.26';
+var WHATS_NEW_VERSION = '1.6.27';
 
 var WHATS_NEW_CHANGELOG = [
       {
