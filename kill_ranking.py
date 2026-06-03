@@ -75,7 +75,6 @@ def supa_post(table: str, payload) -> bool:
         )
         if r.status_code in (200, 201, 204):
             return True
-        # Log do erro real do Supabase/Postgres para diagnóstico
         print(f"[kill_ranking] POST {table} falhou {r.status_code}: {r.text[:500]}")
         return False
     except Exception as e:
@@ -83,13 +82,56 @@ def supa_post(table: str, payload) -> bool:
         return False
 
 
+def parse_kill_time(kill_time: str) -> str:
+    """
+    Converte kill_time para ISO 8601 em UTC.
+    O site exibe horários em Brasília (UTC-3), então somamos 3h para obter UTC.
+    Retorna a string original em caso de erro.
+
+    Exemplo: "May 31, 2026 23:56" → "2026-06-01T02:56:00+00:00"
+
+    IMPORTANTE: o Postgres armazena timestamptz sempre em UTC e normaliza
+    qualquer timezone recebido. Salvar em UTC garante que o cache bata com
+    o que o banco retorna, evitando re-inserções por mismatch de timezone.
+    """
+    try:
+        dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
+        # Interpreta como Brasília (UTC-3) e converte para UTC
+        dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
+        dt = dt.astimezone(timezone.utc)
+        return dt.isoformat()
+    except Exception:
+        return kill_time
+
+
+def normalize_to_utc(kill_time_str: str) -> str:
+    """
+    Normaliza qualquer string ISO 8601 com timezone para UTC.
+    Necessário para comparar o cache (que vem do banco em UTC +00:00)
+    com os valores gerados pelo parse_kill_time.
+    Retorna a string original se não conseguir parsear.
+    """
+    try:
+        dt = datetime.fromisoformat(kill_time_str)
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(timezone.utc)
+        return dt.isoformat()
+    except Exception:
+        return kill_time_str
+
+
 def load_processed_cache() -> set:
-    """Carrega todas as kills já processadas de uma vez. Retorna set de (killer, victim, kill_time)."""
+    """
+    Carrega todas as kills já processadas de uma vez.
+    Retorna set de (killer, victim, kill_time_utc) com timestamps normalizados para UTC,
+    garantindo que a comparação com parse_kill_time() funcione independente do formato
+    em que os registros foram originalmente inseridos.
+    """
     rows = supa_get("kill_rankings", {
         "select": "killer,victim,kill_time",
         "limit":  "10000",
     })
-    return {(r["killer"], r["victim"], r["kill_time"]) for r in rows}
+    return {(r["killer"], r["victim"], normalize_to_utc(r["kill_time"])) for r in rows}
 
 
 def get_member_resets(name: str, members_map: dict) -> int:
@@ -122,16 +164,6 @@ def fetch_player_resets_from_site(name: str) -> int:
     except Exception as e:
         print(f"[kill_ranking] erro ao buscar resets de {name}: {e}")
         return 0
-
-
-def parse_kill_time(kill_time: str) -> str:
-    """Converte kill_time para ISO 8601 com timezone de Brasília. Retorna a string original em caso de erro."""
-    try:
-        dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
-        dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
-        return dt.isoformat()
-    except Exception:
-        return kill_time
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -209,7 +241,7 @@ def run():
             skipped += 1
             continue
 
-        # Converte kill_time para ISO uma única vez
+        # Converte kill_time para UTC uma única vez
         kill_time_iso = parse_kill_time(kill_time)
 
         # Verifica se já processou (em memória, sem query)
