@@ -77,7 +77,15 @@ def load_users_cache() -> dict:
 
 def load_items_db_cache() -> dict:
     rows = supa_get("items_db", {"select": "name,category,vocations", "limit": "3000"})
-    return {row["name"].lower(): {"category": row.get("category",""), "vocations": row.get("vocations") or ["all"]} for row in rows}
+    return {
+        row["name"].lower(): {
+            "category":  row.get("category", ""),
+            # Trata lista vazia como ["all"] — itens sem vocação cadastrada
+            # não devem bloquear DMs de usuários com filtro de vocação específica
+            "vocations": row.get("vocations") or ["all"],
+        }
+        for row in rows
+    }
 
 
 def load_snapshot() -> dict:
@@ -91,14 +99,13 @@ def load_snapshot() -> dict:
         return {}
 
 
-def save_snapshot_new_items(rarity: int, new_items: list, existing_snapshot: dict):
+def save_snapshot_new_items(rarity: int, new_items: list):
     """
     Adiciona os itens novos ao snapshot existente.
     NÃO sobrescreve — apenas acrescenta para evitar re-notificação.
     """
     try:
         import datetime
-        # Busca snapshot atual completo dessa raridade
         r = requests.get(
             f"{SUPABASE_URL}/rest/v1/market_snapshot",
             headers=SUPA_HEADERS,
@@ -109,7 +116,6 @@ def save_snapshot_new_items(rarity: int, new_items: list, existing_snapshot: dic
         if r.status_code == 200 and r.json():
             current_items = r.json()[0].get("items") or []
 
-        # Adiciona apenas os novos (que ainda não estão lá)
         current_ids = {item["id"] for item in current_items}
         to_add = [item for item in new_items if item["id"] not in current_ids]
         if not to_add:
@@ -146,7 +152,7 @@ def fetch_page1(rarity: int) -> list:
         if not name_el:
             continue
         name = name_el.get_text(separator=" ", strip=True)
-        for lbl in ["Mythical","Legendary","Epic","Rare","Uncommon","Common"]:
+        for lbl in ["Mythical", "Legendary", "Epic", "Rare", "Uncommon", "Common"]:
             if name.endswith(lbl):
                 name = name[:-len(lbl)].strip()
                 break
@@ -156,7 +162,7 @@ def fetch_page1(rarity: int) -> list:
             price = total_el.get_text(strip=True) if total_el else price_el.get_text(strip=True)
         attrs_text = ""
         if attrs_el:
-            attrs_text = attrs_el.get("title","") or attrs_el.get_text(" ", strip=True)
+            attrs_text = attrs_el.get("title", "") or attrs_el.get_text(" ", strip=True)
         item_id = f"{name}|{price}|{attrs_text[:50]}"
         items.append({"id": item_id, "name": name, "price": price, "attrs": attrs_text})
     return items
@@ -176,6 +182,7 @@ def should_notify(prefs: dict, rarity: int, item_name: str, item_attrs: str, ite
         return False
     if "all" not in prefs["vocations"]:
         db = items_db.get(name_lower)
+        # db["vocations"] já vem normalizado como ["all"] quando vazio (via load_items_db_cache)
         vocs = db["vocations"] if db else ["all"]
         if "all" not in vocs and not set(prefs["vocations"]) & set(vocs):
             return False
@@ -195,7 +202,8 @@ def get_dm_channel(user_id: str) -> str | None:
     r = requests.post(
         "https://discord.com/api/v10/users/@me/channels",
         headers={"Authorization": f"Bot {DISCORD_TOKEN}", "Content-Type": "application/json"},
-        json={"recipient_id": user_id}, timeout=10,
+        json={"recipient_id": user_id},
+        timeout=10,
     )
     if r.status_code in (200, 201):
         return r.json()["id"]
@@ -208,7 +216,8 @@ def send_dm(channel_id: str, embed: dict):
         r = requests.post(
             f"https://discord.com/api/v10/channels/{channel_id}/messages",
             headers={"Authorization": f"Bot {DISCORD_TOKEN}", "Content-Type": "application/json"},
-            json={"embeds": [embed]}, timeout=10,
+            json={"embeds": [embed]},
+            timeout=10,
         )
         if r.status_code in (200, 201):
             return True
@@ -223,7 +232,7 @@ def build_embed_new(item: dict, rarity_info: dict) -> dict:
     import datetime
     attrs_lines = ""
     if item["attrs"]:
-        attrs = [a.strip() for a in item["attrs"].replace("·","\n").split("\n") if a.strip()]
+        attrs = [a.strip() for a in item["attrs"].replace("·", "\n").split("\n") if a.strip()]
         attrs_lines = "\n".join(f"• {a}" for a in attrs[:8])
     description = f"\n📊 **Atributos:**\n{attrs_lines}" if attrs_lines else ""
     return {
@@ -261,7 +270,7 @@ def run():
             print(f"[market_rt] ⚠ {label}: fetch vazio, pulando")
             continue
 
-        prev_ids = snapshot.get(str(rarity), {})
+        prev_ids  = snapshot.get(str(rarity), {})
         new_items = [item for item in items if item["id"] not in prev_ids]
 
         if not new_items:
@@ -273,7 +282,7 @@ def run():
             print(f"[market_rt] 🆕 {item['name']} ({label})")
             embed = build_embed_new(item, rarity_info)
             for discord_id, prefs in users_cache.items():
-                if not should_notify(prefs, rarity, item["name"], item.get("attrs",""), items_db):
+                if not should_notify(prefs, rarity, item["name"], item.get("attrs", ""), items_db):
                     continue
                 ch = get_dm_channel(discord_id)
                 if ch:
@@ -281,7 +290,7 @@ def run():
                 time.sleep(0.3)
 
         # Salva itens novos no snapshot para não re-notificar na próxima run
-        save_snapshot_new_items(rarity, new_items, snapshot)
+        save_snapshot_new_items(rarity, new_items)
 
     print("[market_rt] ✅ concluído")
 
