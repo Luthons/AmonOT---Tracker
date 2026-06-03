@@ -91,7 +91,43 @@ def load_snapshot() -> dict:
         return {}
 
 
-def fetch_page1(rarity: int) -> list:
+def save_snapshot_new_items(rarity: int, new_items: list, existing_snapshot: dict):
+    """
+    Adiciona os itens novos ao snapshot existente.
+    NÃO sobrescreve — apenas acrescenta para evitar re-notificação.
+    """
+    try:
+        import datetime
+        # Busca snapshot atual completo dessa raridade
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/market_snapshot",
+            headers=SUPA_HEADERS,
+            params={"rarity": f"eq.{rarity}", "select": "items"},
+            timeout=10,
+        )
+        current_items = []
+        if r.status_code == 200 and r.json():
+            current_items = r.json()[0].get("items") or []
+
+        # Adiciona apenas os novos (que ainda não estão lá)
+        current_ids = {item["id"] for item in current_items}
+        to_add = [item for item in new_items if item["id"] not in current_ids]
+        if not to_add:
+            return
+
+        merged = current_items + to_add
+        requests.post(
+            f"{SUPABASE_URL}/rest/v1/market_snapshot",
+            headers={**SUPA_HEADERS, "Prefer": "resolution=merge-duplicates,return=minimal"},
+            json={"rarity": rarity, "items": merged, "updated_at": datetime.datetime.utcnow().isoformat()},
+            timeout=10,
+        )
+        print(f"[market_rt] snapshot atualizado: +{len(to_add)} itens (rarity {rarity})")
+    except Exception as e:
+        print(f"[market_rt] erro ao atualizar snapshot: {e}")
+
+
+
     url = BASE_URL.format(rarity=rarity) + "&p=1"
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
@@ -243,6 +279,9 @@ def run():
                 if ch:
                     send_dm(ch, embed)
                 time.sleep(0.3)
+
+        # Salva itens novos no snapshot para não re-notificar na próxima run
+        save_snapshot_new_items(rarity, new_items, snapshot)
 
     print("[market_rt] ✅ concluído")
 
