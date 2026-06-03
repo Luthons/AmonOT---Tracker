@@ -77,15 +77,25 @@ def load_users_cache() -> dict:
 
 def load_items_db_cache() -> dict:
     rows = supa_get("items_db", {"select": "name,category,vocations", "limit": "3000"})
-    return {
-        row["name"].lower(): {
+    cache = {}
+    for row in rows:
+        entry = {
             "category":  row.get("category", ""),
             # Trata lista vazia como ["all"] — itens sem vocação cadastrada
             # não devem bloquear DMs de usuários com filtro de vocação específica
             "vocations": row.get("vocations") or ["all"],
         }
-        for row in rows
-    }
+        name_lower = row["name"].lower()
+        cache[name_lower] = entry
+
+        # Registra também o nome base sem sufixo de tier (T1–T10)
+        # Ex: "Soulshanks T1" → também indexado como "soulshanks"
+        import re
+        base = re.sub(r"\s+t\d{1,2}$", "", name_lower, flags=re.IGNORECASE).strip()
+        if base != name_lower:
+            cache.setdefault(base, entry)
+
+    return cache
 
 
 def load_snapshot() -> dict:
