@@ -195,6 +195,14 @@ def run():
             skipped += 1
             continue
 
+        # Converte kill_time para ISO antes de tudo
+        try:
+            dt = datetime.strptime(kill_time.strip(), "%b %d, %Y %H:%M")
+            dt = dt.replace(tzinfo=timezone(timedelta(hours=-3)))
+            kill_time_iso = dt.isoformat()
+        except:
+            kill_time_iso = kill_time
+
         # Verifica se já processou (em memória, sem query)
         if (killer, victim, kill_time_iso) in processed_cache:
             skipped += 1
