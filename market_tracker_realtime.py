@@ -191,7 +191,7 @@ def build_embed_new(item: dict, rarity_info: dict) -> dict:
         attrs_lines = "\n".join(f"• {a}" for a in attrs[:8])
     description = f"\n📊 **Atributos:**\n{attrs_lines}" if attrs_lines else ""
     return {
-        "title":       f"{rarity_info['emoji']} Novo item no Market! — {rarity_info['label']}",
+        "title":       f"Novo Item — {rarity_info['label']} — {item['name']}",
         "description": description,
         "color":       rarity_info["color"],
         "fields": [

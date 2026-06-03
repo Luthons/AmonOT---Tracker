@@ -223,7 +223,7 @@ def send_dm(channel_id: str, embed: dict):
 
 def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
     return {
-        "title":       f"❌ Item saiu do Market — {rarity_info['label']}",
+        "title":       f"Item Saiu — {rarity_info['label']} — {item['name']}",
         "description": f"**{item['name']}** não está mais disponível.",
         "color":       0x555555,
         "fields": [

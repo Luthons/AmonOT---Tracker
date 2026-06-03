@@ -4505,7 +4505,6 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-amulet" value="Amuleto/Colar"> Amuleto/Colar</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-ring" value="Anel"> Anel</label>
-            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-crossbow" value="crossbow"> Besta</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-throwable" value="throwable"> Arremessável</label>
           </div>
         </div>
@@ -8467,9 +8466,13 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.25';
+var WHATS_NEW_VERSION = '1.6.26';
 
 var WHATS_NEW_CHANGELOG = [
+      {
+        type: 'improvement', title: 'Notificações Market — Nome do item na DM',
+        desc: 'As DMs do market agora exibem o nome do item diretamente no título da notificação. Ex: "Novo Item — Legendary — Sanguine Legs".',
+      },
       {
         type: 'improvement', title: 'Notificações Market — Otimização de performance',
         desc: 'O sistema de notificações do market foi reestruturado. Novos itens são detectados em até 1 minuto. Itens que saíram do market são notificados a cada 15 minutos. Elimina os travamentos e delays anteriores.',
