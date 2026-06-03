@@ -78,16 +78,13 @@ def supa_post(table: str, payload) -> bool:
         return False
 
 
-def already_processed(killer: str, victim: str, kill_time: str) -> bool:
-    """Verifica se essa kill já foi processada."""
+def load_processed_cache() -> set:
+    """Carrega todas as kills já processadas de uma vez. Retorna set de (killer, victim, kill_time)."""
     rows = supa_get("kill_rankings", {
-        "killer":    f"eq.{killer}",
-        "victim":    f"eq.{victim}",
-        "kill_time": f"eq.{kill_time}",
-        "select":    "id",
-        "limit":     "1",
+        "select": "killer,victim,kill_time",
+        "limit":  "10000",
     })
-    return len(rows) > 0
+    return {(r["killer"], r["victim"], r["kill_time"]) for r in rows}
 
 
 def get_member_resets(name: str, members_map: dict) -> int:
@@ -178,6 +175,10 @@ def run():
     skipped   = 0
     batch     = []
 
+    # Carrega kills já processadas de uma vez — zero queries por kill
+    processed_cache = load_processed_cache()
+    print(f"[kill_ranking] {len(processed_cache)} kills já no banco")
+
     for kill in kills:
         victim    = kill.get("player", "")
         killer    = kill.get("killedBy", "")
@@ -194,8 +195,8 @@ def run():
             skipped += 1
             continue
 
-        # Verifica se já processou
-        if already_processed(killer, victim, kill_time):
+        # Verifica se já processou (em memória, sem query)
+        if (killer, victim, kill_time_iso) in processed_cache:
             skipped += 1
             continue
 
