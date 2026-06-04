@@ -5572,9 +5572,11 @@ function renderMarket() {
 
       // Filtro de vocação
       if(mktFilterVoc !== 'all'){
-        if(!db) return false;
-        var vocs = db.vocations || [];
-        if(!vocs.includes(mktFilterVoc) && !vocs.includes('all')) return false;
+        if(db){
+          var vocs = db.vocations || [];
+          if(!vocs.includes(mktFilterVoc) && !vocs.includes('all')) return false;
+        }
+        // sem db: exibe normalmente (não bloqueia)
       }
 
       // Filtro de categoria
