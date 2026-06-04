@@ -8528,6 +8528,9 @@ var WHATS_NEW_CHANGELOG = [
       },
     ],
   },
+  {
+    date: '01/06/2026',
+    items: [
       {
         type: 'improvement', title: 'Notificações Market — Nome do item na DM',
         desc: 'As DMs do market agora exibem o nome do item diretamente no título da notificação. Ex: "Novo Item — Legendary — Sanguine Legs".',
@@ -8540,9 +8543,6 @@ var WHATS_NEW_CHANGELOG = [
         type: 'new', title: 'Notificações Market — Blacklist e Whitelist',
         desc: 'Nas preferências de DM do Market agora é possível configurar uma Whitelist (recebe DM apenas desses itens) ou uma Blacklist (nunca recebe DM desses itens). Os dois campos se bloqueiam mutuamente.',
       },
-  {
-    date: '01/06/2026',
-    items: [
       {
         type: 'fix', title: 'Market — Paginação completa',
         desc: 'O market tracker agora busca todas as páginas de cada raridade, não apenas as primeiras 50. Itens de Arco, Besta, Amuleto, Anel e outros que estavam na página 2 em diante agora aparecem corretamente nos filtros.',
@@ -8717,13 +8717,9 @@ var TYPE_ICON = { new: '🆕', fix: '🐛', improvement: '⚡' };
 var TYPE_LABEL = { new: 'Novo', fix: 'Correção', improvement: 'Melhoria' };
 
 function checkWhatsNew(){
-  if(!currentProfile) return; // só para logados
-  var stored = localStorage.getItem('lp_wn_version');
-  var storedDate = localStorage.getItem('lp_wn_date');
-  var today = new Date().toISOString().slice(0,10);
-  var isNewVersion = stored !== WHATS_NEW_VERSION;
-  var isNewDay = storedDate !== today;
-  if(isNewVersion || isNewDay){
+  if(!currentProfile) return;
+  var storedVersion = localStorage.getItem('lp_wn_version');
+  if(storedVersion !== WHATS_NEW_VERSION){
     showWhatsNew();
   }
 }
