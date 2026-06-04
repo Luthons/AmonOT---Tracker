@@ -5508,8 +5508,21 @@ async function loadMarketData() {
       marketSnapshot[String(row.rarity)] = row.items || [];
     });
 
-    // Carrega items_db do Supabase
-    var {data: dbItems} = await supaFetch('items_db', {select: 'name,category,vocations,level_req', limit: '2000'});
+    // Carrega items_db do Supabase em lotes para superar limite de 1000 por request
+    let dbItems = [];
+    let page = 0;
+    const pageSize = 1000;
+    while(true) {
+      var {data: batch} = await supaFetch('items_db', {
+        select: 'name,category,vocations,level_req',
+        limit: String(pageSize),
+        offset: String(page * pageSize)
+      });
+      if(!batch || !batch.length) break;
+      dbItems = dbItems.concat(batch);
+      if(batch.length < pageSize) break;
+      page++;
+    }
     itemsDB = {};
     (dbItems||[]).forEach(function(item){
       var nameLower = item.name.toLowerCase();
