@@ -1821,6 +1821,7 @@ footer span{color:var(--gold-dim)}
           <button class="mkt-filter-btn" data-value="amuleto/colar">Amuleto/Colar</button>
           <button class="mkt-filter-btn" data-value="anel">Anel</button>
           <button class="mkt-filter-btn" data-value="throwable">Arremessável</button>
+          <button class="mkt-filter-btn" data-value="extra">Extra</button>
         </div>
       </div>
       <div class="mkt-filter-group">
@@ -4506,6 +4507,7 @@ async function openProfile(){
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-amulet" value="amuleto/colar"> Amuleto/Colar</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-ring" value="anel"> Anel</label>
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-throwable" value="throwable"> Arremessável</label>
+            <label class="mkt-attr-chk"><input type="checkbox" id="dm-cat-extra" value="extra"> Extra Slot</label>
           </div>
         </div>
 
@@ -5674,7 +5676,7 @@ function openDmConfigPopup(){
     var el = document.getElementById('dm-voc-'+v);
     if(el) el.checked = dmConfig.vocations.includes(v);
   });
-  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable'].forEach(function(v){
+  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable','extra'].forEach(function(v){
     var el = document.getElementById('dm-cat-'+v);
     if(el) el.checked = dmConfig.categories.includes(v);
   });
@@ -5724,7 +5726,7 @@ async function saveDmConfig(){
   if(!vocations.length) vocations = ['all'];
 
   var categories = [];
-  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable'].forEach(function(v){
+  ['all','helmet','armor','legs','boots','shield','quiver','spellbook','axe','club','sword','wand','rod','fist','bow','crossbow','throwable','extra'].forEach(function(v){
     var el = document.getElementById('dm-cat-'+v);
     if(el && el.checked) categories.push(v);
   });
