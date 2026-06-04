@@ -8500,9 +8500,34 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.27';
+var WHATS_NEW_VERSION = '1.6.28';
 
 var WHATS_NEW_CHANGELOG = [
+  {
+    date: '04/06/2026',
+    items: [
+      {
+        type: 'fix',
+        title: 'Market — Filtros de Arco, Besta, Anel, Amuleto e Arremessável',
+        desc: 'Corrigido bug onde itens sem entrada no items_db eram bloqueados mesmo com filtro "Todas" ativo. Arco, Besta, Anel, Amuleto/Colar e Arremessável agora aparecem corretamente.',
+      },
+      {
+        type: 'fix',
+        title: 'Market — Paginação do items_db',
+        desc: 'Corrigido bug onde apenas ~991 dos 1248 itens eram carregados devido ao limite padrão do Supabase. O carregamento agora é feito em lotes de 1000 garantindo que todos os itens sejam carregados.',
+      },
+      {
+        type: 'new',
+        title: 'Market — Filtro Extra Slot',
+        desc: 'Adicionado filtro de categoria Extra Slot no market. 50 novos itens cadastrados no banco incluindo tochas, lanternas, esferas, estátuas e outros itens de slot extra.',
+      },
+      {
+        type: 'new',
+        title: 'Market — Toggle de DM de saída',
+        desc: 'Nova opção nas configurações de DM do Market para desativar notificações de itens que saíram do market, mantendo apenas DMs de novos itens disponíveis.',
+      },
+    ],
+  },
       {
         type: 'improvement', title: 'Notificações Market — Nome do item na DM',
         desc: 'As DMs do market agora exibem o nome do item diretamente no título da notificação. Ex: "Novo Item — Legendary — Sanguine Legs".',
