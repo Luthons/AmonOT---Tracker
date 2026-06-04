@@ -56,7 +56,7 @@ def load_users_cache() -> dict:
     profile_ids = [p["id"] for p in profiles]
     settings_rows = supa_get("notification_settings", {
         "profile_id": f"in.({','.join(profile_ids)})",
-        "select":     "profile_id,market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs,market_dm_blacklist,market_dm_whitelist",
+        "select":     "profile_id,market_dm_rarities,market_dm_vocations,market_dm_categories,market_dm_attrs,market_dm_blacklist,market_dm_whitelist,market_dm_notify_left",
     })
     settings_map = {row["profile_id"]: row for row in settings_rows}
     cache = {}
@@ -70,8 +70,9 @@ def load_users_cache() -> dict:
             "vocations":  row.get("market_dm_vocations")  or ["all"],
             "categories": row.get("market_dm_categories") or ["all"],
             "attrs":      row.get("market_dm_attrs")      or [],
-            "blacklist":  [x.lower() for x in (row.get("market_dm_blacklist") or [])],
-            "whitelist":  [x.lower() for x in (row.get("market_dm_whitelist") or [])],
+            "blacklist":    [x.lower() for x in (row.get("market_dm_blacklist") or [])],
+            "whitelist":    [x.lower() for x in (row.get("market_dm_whitelist") or [])],
+            "notify_left":  row.get("market_dm_notify_left", True),
         }
     print(f"[market_full] cache: {len(cache)} usuários")
     return cache
@@ -337,6 +338,8 @@ def run():
             save_market_history(item, rarity, "left", minutes)
             embed = build_embed_removed(item, rarity_info, minutes)
             for discord_id, prefs in users_cache.items():
+                if not prefs.get("notify_left", True):
+                    continue
                 if not should_notify(prefs, rarity, item["name"], item.get("attrs", ""), items_db):
                     continue
                 ch = get_dm_channel(discord_id)

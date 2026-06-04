@@ -4462,6 +4462,10 @@ async function openProfile(){
         </div>
 
         <div class="field-row" style="margin-bottom:14px">
+          <label class="mkt-attr-chk"><input type="checkbox" id="dm-notify-left"> Notificar quando item SAIR do market</label>
+        </div>
+
+        <div class="field-row" style="margin-bottom:14px">
           <label class="field-label">Raridade</label>
           <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
             <label class="mkt-attr-chk"><input type="checkbox" id="dm-rarity-all" value="all" onchange="dmRarityChanged(this)"> Todas</label>
@@ -4588,12 +4592,13 @@ async function openProfile(){
   supaFetch('notification_settings', {profile_id: 'eq.'+currentProfile.id}).then(function(resp){
     var notif = (resp.data && resp.data[0]) || {};
     dmConfig = {
-      rarities:   notif.market_dm_rarities   || ['all'],
-      vocations:  notif.market_dm_vocations  || ['all'],
-      categories: notif.market_dm_categories || ['all'],
-      attrs:      notif.market_dm_attrs      || [],
-      blacklist:  notif.market_dm_blacklist  || [],
-      whitelist:  notif.market_dm_whitelist  || [],
+      rarities:    notif.market_dm_rarities   || ['all'],
+      vocations:   notif.market_dm_vocations  || ['all'],
+      categories:  notif.market_dm_categories || ['all'],
+      attrs:       notif.market_dm_attrs      || [],
+      blacklist:   notif.market_dm_blacklist  || [],
+      whitelist:   notif.market_dm_whitelist  || [],
+      notify_left: notif.market_dm_notify_left ?? true,
     };
     updateDmSummary();
   });
@@ -5664,7 +5669,7 @@ function renderMarket() {
 
 
 // ─── DM CONFIG POPUP ───────────────────────────────────────────
-var dmConfig = {rarities: ['all'], vocations: ['all'], categories: ['all'], attrs: [], blacklist: [], whitelist: []};
+var dmConfig = {rarities: ['all'], vocations: ['all'], categories: ['all'], attrs: [], blacklist: [], whitelist: [], notify_left: true};
 
 function openDmConfigPopup(){
   // Load current config into checkboxes
@@ -5689,6 +5694,8 @@ function openDmConfigPopup(){
   renderDmListTags('blacklist', dmConfig.blacklist || []);
   dmListInputChanged('whitelist');
   dmListInputChanged('blacklist');
+  var notifyLeftEl = document.getElementById('dm-notify-left');
+  if(notifyLeftEl) notifyLeftEl.checked = dmConfig.notify_left !== false;
   document.getElementById('dm-config-popup').classList.remove('hidden');
 }
 
@@ -5739,19 +5746,24 @@ async function saveDmConfig(){
     if(el && el.checked) attrs.push(a);
   });
 
+  var notifyLeftEl = document.getElementById('dm-notify-left');
+  var notify_left = notifyLeftEl ? notifyLeftEl.checked : true;
+
   dmConfig = {rarities, vocations, categories, attrs,
-    blacklist: (dmConfig.blacklist || []),
-    whitelist: (dmConfig.whitelist || []),
+    blacklist:   (dmConfig.blacklist || []),
+    whitelist:   (dmConfig.whitelist || []),
+    notify_left: notify_left,
   };
 
   try {
     await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
-      market_dm_rarities:   rarities,
-      market_dm_vocations:  vocations,
-      market_dm_categories: categories,
-      market_dm_attrs:      attrs,
-      market_dm_blacklist:  dmConfig.blacklist,
-      market_dm_whitelist:  dmConfig.whitelist,
+      market_dm_rarities:    rarities,
+      market_dm_vocations:   vocations,
+      market_dm_categories:  categories,
+      market_dm_attrs:       attrs,
+      market_dm_blacklist:   dmConfig.blacklist,
+      market_dm_whitelist:   dmConfig.whitelist,
+      market_dm_notify_left: notify_left,
     });
     closeDmConfigPopup();
     updateDmSummary();
@@ -5770,6 +5782,7 @@ function updateDmSummary(){
   if(dmConfig.attrs.length) parts.push('Attr: '+dmConfig.attrs.slice(0,3).join(', ')+(dmConfig.attrs.length>3?'...':''));
   if(dmConfig.whitelist && dmConfig.whitelist.length) parts.push('✅ Whitelist: '+dmConfig.whitelist.length+' item(s)');
   if(dmConfig.blacklist && dmConfig.blacklist.length) parts.push('🚫 Blacklist: '+dmConfig.blacklist.length+' item(s)');
+  parts.push('Saídas: '+(dmConfig.notify_left !== false ? 'ativadas' : 'desativadas'));
   el.textContent = parts.length ? '⚙ '+parts.join(' · ') : 'Recebendo DM de todos os itens';
 }
 
