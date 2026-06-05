@@ -2004,6 +2004,7 @@ footer span{color:var(--gold-dim)}
     <div class="hm-tabs" style="margin-bottom:24px">
       <button class="hm-tab active" id="hunt-tab-new"     onclick="huntSetTab('new',this)">Nova Sessão</button>
       <button class="hm-tab"        id="hunt-tab-history" onclick="huntSetTab('history',this)">Histórico</button>
+      <button class="hm-tab"        id="hunt-tab-report"  onclick="huntSetTab('report',this)">Relatório</button>
     </div>
 
     <!-- ── Nova Sessão ── -->
@@ -2026,6 +2027,20 @@ footer span{color:var(--gold-dim)}
         <input type="date" id="hunt-history-date" class="hunt-textarea" style="min-height:unset;width:auto;padding:6px 10px" onchange="loadHuntHistory()">
       </div>
       <div id="hunt-history-list"><div style="color:var(--text-dim);font-style:italic">Selecione uma data para ver as sessões.</div></div>
+    </div>
+
+    <!-- ── Relatório ── -->
+    <div id="hunt-panel-report" style="display:none">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:20px">
+        <div class="hm-tabs" style="margin-bottom:0">
+          <button class="hm-tab active" id="hunt-rpt-today" onclick="huntReportSetPeriod('today',this)">Hoje</button>
+          <button class="hm-tab"        id="hunt-rpt-week"  onclick="huntReportSetPeriod('week',this)">Semana</button>
+          <button class="hm-tab"        id="hunt-rpt-month" onclick="huntReportSetPeriod('month',this)">Mês</button>
+        </div>
+        <select id="hunt-rpt-week-sel"  style="display:none;background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);padding:6px 10px;font-family:'Cinzel',serif;font-size:.7rem" onchange="loadHuntReport()"></select>
+        <select id="hunt-rpt-month-sel" style="display:none;background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);padding:6px 10px;font-family:'Cinzel',serif;font-size:.7rem" onchange="loadHuntReport()"></select>
+      </div>
+      <div id="hunt-report-content"></div>
     </div>
 
     <footer>Participações · Lowly People</footer>
@@ -4225,7 +4240,7 @@ function updateAuthUI(){
     var gBazarNav = document.getElementById('nav-guild_bazar');
     if(gBazarNav) gBazarNav.style.display = isNovato ? 'none' : 'flex';
     var huntNav = document.getElementById('nav-hunt');
-    if(huntNav) huntNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
+    if(huntNav) huntNav.style.display = isNovato ? 'none' : 'flex';
     // Botões de novo anúncio — visíveis para membro+
     var btnMkt = document.getElementById('btn-new-market-listing');
     if(btnMkt) btnMkt.style.display = isNovato ? 'none' : 'inline-block';
@@ -8868,10 +8883,12 @@ function loadHuntPage(){
 }
 
 function huntSetTab(tab, el){
-  document.querySelectorAll('#page-hunt .hm-tab').forEach(function(b){ b.classList.remove('active'); });
+  document.querySelectorAll('#page-hunt > .cwrap > .hm-tabs .hm-tab').forEach(function(b){ b.classList.remove('active'); });
   if(el) el.classList.add('active');
   document.getElementById('hunt-panel-new').style.display     = tab === 'new'     ? 'block' : 'none';
   document.getElementById('hunt-panel-history').style.display = tab === 'history' ? 'block' : 'none';
+  document.getElementById('hunt-panel-report').style.display  = tab === 'report'  ? 'block' : 'none';
+  if(tab === 'report') huntReportSetPeriod('today', document.getElementById('hunt-rpt-today'));
 }
 
 function parsePartyHunt(text) {
@@ -8983,7 +9000,8 @@ function analyzeHunt(){
     +'</div>';
 
   preview.innerHTML = meta + _huntTableHTML(huntParsed.players);
-  saveBtn.style.display = 'inline-block';
+  var canSave = ['admin','lider','vice'].includes(currentProfile && currentProfile.role);
+  saveBtn.style.display = canSave ? 'inline-block' : 'none';
 }
 
 async function saveHuntSession(){
@@ -9061,6 +9079,150 @@ async function deleteHuntSession(id, i){
     }
   } catch(e) {
     alert('Erro ao remover: '+e.message);
+  }
+}
+
+// ── Relatório ─────────────────────────────────────────────────
+var huntRptPeriod = 'today';
+
+function getServerDayRange() {
+  var now = new Date();
+  var brt = new Date(now.getTime() - 3*60*60*1000);
+  var h = brt.getUTCHours();
+  var serverDay = new Date(brt);
+  if(h < 22) serverDay.setUTCDate(serverDay.getUTCDate() - 1);
+  serverDay.setUTCHours(22, 0, 0, 0);
+  var start = new Date(serverDay.getTime() + 3*60*60*1000);
+  var end   = new Date(start.getTime() + 24*60*60*1000);
+  return { start: start.toISOString(), end: end.toISOString() };
+}
+
+function _huntBuildWeekOptions(sel) {
+  // Semanas Mon–Sun, últimas 8 fechadas
+  var now = new Date();
+  var day = now.getDay(); // 0=Dom
+  // Último domingo fechado: se hoje é dom, ele ainda está em andamento → volta 7 dias
+  var daysToLastSun = day === 0 ? 7 : day;
+  var lastSun = new Date(now.getTime() - daysToLastSun * 86400000);
+  lastSun.setHours(0,0,0,0);
+  for(var i = 0; i < 8; i++) {
+    var sun = new Date(lastSun.getTime() - i * 7 * 86400000);
+    var mon = new Date(sun.getTime() - 6 * 86400000);
+    var monStr = mon.toISOString().slice(0,10);
+    var sunStr = sun.toISOString().slice(0,10);
+    var label = mon.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})
+              + ' – ' + sun.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+    var opt = document.createElement('option');
+    opt.value = monStr+'|'+sunStr;
+    opt.textContent = label;
+    sel.appendChild(opt);
+  }
+}
+
+function _huntBuildMonthOptions(sel) {
+  var MONTHS = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+  var now = new Date();
+  var y = now.getFullYear();
+  var m = now.getMonth(); // mês atual (0-indexed)
+  for(var i = 0; i < 6; i++) {
+    m--; if(m < 0){ m = 11; y--; }
+    var firstDay = y+'-'+String(m+1).padStart(2,'0')+'-01';
+    var lastDay  = new Date(y, m+1, 0).toISOString().slice(0,10);
+    var opt = document.createElement('option');
+    opt.value = firstDay+'|'+lastDay;
+    opt.textContent = MONTHS[m]+'/'+y;
+    sel.appendChild(opt);
+  }
+}
+
+function huntReportSetPeriod(period, el) {
+  huntRptPeriod = period;
+  document.querySelectorAll('#hunt-panel-report .hm-tab').forEach(function(b){ b.classList.remove('active'); });
+  if(el) el.classList.add('active');
+  var weekSel  = document.getElementById('hunt-rpt-week-sel');
+  var monthSel = document.getElementById('hunt-rpt-month-sel');
+  weekSel.style.display  = period === 'week'  ? 'inline-block' : 'none';
+  monthSel.style.display = period === 'month' ? 'inline-block' : 'none';
+  if(period === 'week'  && !weekSel.options.length)  _huntBuildWeekOptions(weekSel);
+  if(period === 'month' && !monthSel.options.length) _huntBuildMonthOptions(monthSel);
+  loadHuntReport();
+}
+
+async function loadHuntReport() {
+  var content = document.getElementById('hunt-report-content');
+  if(!content) return;
+  content.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  var startDate, endDate;
+  if(huntRptPeriod === 'today') {
+    var range = getServerDayRange();
+    // Converte timestamps UTC para datas BRT (session_date vem do clipboard em horário local)
+    startDate = new Date(new Date(range.start).getTime() - 3*60*60*1000).toISOString().slice(0,10);
+    endDate   = new Date(new Date(range.end).getTime()   - 3*60*60*1000 - 1000).toISOString().slice(0,10);
+  } else if(huntRptPeriod === 'week') {
+    var val = document.getElementById('hunt-rpt-week-sel').value;
+    if(!val){ content.innerHTML = '<div style="color:var(--text-dim)">Selecione uma semana.</div>'; return; }
+    var p = val.split('|'); startDate = p[0]; endDate = p[1];
+  } else {
+    var val = document.getElementById('hunt-rpt-month-sel').value;
+    if(!val){ content.innerHTML = '<div style="color:var(--text-dim)">Selecione um mês.</div>'; return; }
+    var p = val.split('|'); startDate = p[0]; endDate = p[1];
+  }
+
+  try {
+    var params = {
+      select: 'session_date,players',
+      session_date: 'gte.'+startDate,
+      and: '(session_date.lte.'+endDate+')',
+      order: 'session_date.asc',
+      limit: '500',
+    };
+    var {data: sessions} = await supaFetch('hunt_sessions', params);
+    sessions = sessions || [];
+
+    if(!sessions.length) {
+      content.innerHTML = '<div style="color:var(--text-dim);font-style:italic;padding:24px 0">Nenhuma sessão registrada neste período.</div>';
+      return;
+    }
+
+    var counts = {};
+    sessions.forEach(function(s) {
+      (s.players||[]).forEach(function(p) {
+        counts[p.name] = (counts[p.name]||0) + 1;
+      });
+    });
+
+    var sorted = Object.keys(counts)
+      .map(function(n){ return {name:n, count:counts[n]}; })
+      .sort(function(a,b){ return b.count - a.count; });
+    var max = sorted.length ? sorted[0].count : 1;
+
+    var rows = sorted.map(function(entry, idx) {
+      var member = isGuildMember(entry.name);
+      var barColor = member ? 'var(--gold-light)' : 'rgba(255,255,255,.18)';
+      var pct = Math.round((entry.count / max) * 100);
+      var nameCell = member
+        ? '<span class="hunt-member">'+entry.name+' 🛡</span>'
+        : entry.name;
+      var bar = '<div class="hunt-bar-wrap" style="min-width:120px">'
+              + '<div class="hunt-bar-fill" style="width:'+pct+'%;background:'+barColor+'"></div>'
+              + '</div>';
+      return '<tr>'
+        +'<td style="color:var(--text-dim);font-size:.75rem">#'+(idx+1)+'</td>'
+        +'<td>'+nameCell+'</td>'
+        +'<td style="text-align:center;font-family:\'Cinzel\',serif;color:var(--gold-light)">'+entry.count+'</td>'
+        +'<td>'+bar+'</td>'
+        +'</tr>';
+    }).join('');
+
+    content.innerHTML = '<div style="font-size:.72rem;color:var(--text-dim);margin-bottom:12px">'
+      +sessions.length+' sessão(ões) · '+sorted.length+' jogador(es) único(s)</div>'
+      +'<table class="hunt-table">'
+      +'<thead><tr><th>#</th><th>Jogador</th><th style="text-align:center">Participações</th><th>Frequência</th></tr></thead>'
+      +'<tbody>'+rows+'</tbody>'
+      +'</table>';
+  } catch(e) {
+    content.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
   }
 }
 
