@@ -8576,9 +8576,34 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.28';
+var WHATS_NEW_VERSION = '1.6.29';
 
 var WHATS_NEW_CHANGELOG = [
+  {
+    date: '04/06/2026',
+    items: [
+      {
+        type: 'new',
+        title: 'Aba Participações — Parser de Party Hunt',
+        desc: 'Nova aba "Participações" com parser do clipboard do Party Hunt Analytics do Tibia. Cola o log da sessão, visualiza dano, healing, loot, supplies e saldo de cada jogador ordenado por dano. Membros da guilda destacados em verde com ícone 🛡. Salvar sessão liberado para vice+.',
+      },
+      {
+        type: 'new',
+        title: 'Participações — Histórico de Sessões',
+        desc: 'Sub-aba Histórico permite consultar sessões por data. Seleciona o dia e carrega todas as sessões registradas com hora, duração e número de jogadores. Clica para expandir e ver a tabela completa de dano.',
+      },
+      {
+        type: 'new',
+        title: 'Participações — Relatório de Participações',
+        desc: 'Sub-aba Relatório mostra quantas vezes cada jogador participou de sessões no período. Filtros: Hoje (reset às 22h do servidor), Semana (segunda a domingo, semanas fechadas) e Mês (meses fechados). Membros da guilda destacados com barra de progresso dourada.',
+      },
+      {
+        type: 'improvement',
+        title: 'Participações — Acesso ampliado',
+        desc: 'A aba Participações agora é visível para todos os cargos. O botão Salvar Sessão permanece restrito a vice+.',
+      },
+    ],
+  },
   {
     date: '04/06/2026',
     items: [
