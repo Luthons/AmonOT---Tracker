@@ -771,6 +771,20 @@ footer span{color:var(--gold-dim)}
 .raffle-progress-bg{height:8px;background:var(--border);border-radius:4px;margin:10px 0 6px;overflow:hidden}
 .raffle-progress-fill{height:100%;border-radius:4px;background:var(--gold-dim);transition:width .3s}
 .raffle-progress-fill.full{background:var(--online)}
+/* ── PARTICIPAÇÕES (HUNT) ────────────────────────────────────── */
+.hunt-textarea{width:100%;min-height:180px;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-size:.8rem;font-family:monospace;padding:12px;resize:vertical;box-sizing:border-box;border-radius:3px;outline:none;transition:border-color .2s}
+.hunt-textarea:focus{border-color:var(--border-gold)}
+.hunt-table{width:100%;border-collapse:collapse;margin-top:16px}
+.hunt-table th{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:left;padding:8px 12px;border-bottom:1px solid var(--border);white-space:nowrap}
+.hunt-table td{padding:9px 12px;border-bottom:1px solid rgba(255,255,255,.04);font-size:.82rem;color:var(--text);vertical-align:middle}
+.hunt-table tr:hover td{background:rgba(255,255,255,.02)}
+.hunt-bar-wrap{height:7px;background:var(--bg4);border-radius:3px;min-width:80px}
+.hunt-bar-fill{height:100%;border-radius:3px;background:var(--gold-dim);transition:width .3s}
+.hunt-member{color:var(--green)!important}
+.hunt-session-item{background:var(--bg2);border:1px solid var(--border);border-radius:5px;padding:12px 16px;margin-bottom:10px;cursor:pointer;transition:border-color .2s}
+.hunt-session-item:hover{border-color:var(--border-gold)}
+.hunt-session-item.open{border-color:var(--border-gold);border-bottom-left-radius:0;border-bottom-right-radius:0}
+.hunt-session-detail{background:var(--bg2);border:1px solid var(--border-gold);border-top:none;border-radius:0 0 5px 5px;padding:12px 16px;margin-bottom:10px;overflow-x:auto}
 .raffle-meta{font-size:.75rem;color:var(--text-dim);display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px}
 .raffle-actions{display:flex;gap:8px;flex-wrap:wrap}
 .raffle-ticket-table{width:100%;border-collapse:collapse;margin-top:12px}
@@ -845,6 +859,10 @@ footer span{color:var(--gold-dim)}
     <button class="nav-item" onclick="navigate('guild_bazar')" id="nav-guild_bazar" style="display:none">
       <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
       Bazar da Guilda
+    </button>
+    <button class="nav-item" onclick="navigate('hunt')" id="nav-hunt" style="display:none">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 7h7l-5.5 4 2 7L12 16l-5.5 4 2-7L3 9h7z"/><circle cx="12" cy="12" r="3"/></svg>
+      Participações
     </button>
   </div>
 
@@ -1976,6 +1994,44 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ PARTICIPAÇÕES ══ -->
+<div class="page" id="page-hunt">
+  <div class="cwrap">
+    <div class="page-title">⚔ Participações</div>
+    <div class="page-desc">Registro de sessões de hunt da guilda.</div>
+    <div class="page-divider"></div>
+
+    <div class="hm-tabs" style="margin-bottom:24px">
+      <button class="hm-tab active" id="hunt-tab-new"     onclick="huntSetTab('new',this)">Nova Sessão</button>
+      <button class="hm-tab"        id="hunt-tab-history" onclick="huntSetTab('history',this)">Histórico</button>
+    </div>
+
+    <!-- ── Nova Sessão ── -->
+    <div id="hunt-panel-new">
+      <div style="max-width:720px">
+        <label class="field-label" style="display:block;margin-bottom:8px">Cole o clipboard do Party Hunt Analytics</label>
+        <textarea id="hunt-input" class="hunt-textarea" placeholder="Session data: From 2024-01-15, 18:00:00 to 2024-01-15, 20:00:00&#10;Session: 02:00h&#10;..."></textarea>
+        <div style="display:flex;gap:10px;margin-top:10px">
+          <button class="btn" onclick="analyzeHunt()">🔍 Analisar</button>
+          <button class="btn" id="hunt-save-btn" style="display:none" onclick="saveHuntSession()">💾 Salvar Sessão</button>
+        </div>
+      </div>
+      <div id="hunt-preview"></div>
+    </div>
+
+    <!-- ── Histórico ── -->
+    <div id="hunt-panel-history" style="display:none">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
+        <label class="field-label">Data</label>
+        <input type="date" id="hunt-history-date" class="hunt-textarea" style="min-height:unset;width:auto;padding:6px 10px" onchange="loadHuntHistory()">
+      </div>
+      <div id="hunt-history-list"><div style="color:var(--text-dim);font-style:italic">Selecione uma data para ver as sessões.</div></div>
+    </div>
+
+    <footer>Participações · Lowly People</footer>
+  </div>
+</div>
+
 <!-- ══ PÁGINA: INFORMAÇÕES ══ -->
 <div class="page" id="page-info">
   <div class="cwrap">
@@ -2396,6 +2452,7 @@ function _navigate(page){
   }
   if(page==='kda'){ kdaRenderFilters(); loadKDA(); }
   if(page==='hunted') loadHunted();
+  if(page==='hunt') loadHuntPage();
 }
 
 // ─── SUPABASE FETCH HELPER ─────────────────────────────
@@ -4167,6 +4224,8 @@ function updateAuthUI(){
     if(gMarketNav) gMarketNav.style.display = isNovato ? 'none' : 'flex';
     var gBazarNav = document.getElementById('nav-guild_bazar');
     if(gBazarNav) gBazarNav.style.display = isNovato ? 'none' : 'flex';
+    var huntNav = document.getElementById('nav-hunt');
+    if(huntNav) huntNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     // Botões de novo anúncio — visíveis para membro+
     var btnMkt = document.getElementById('btn-new-market-listing');
     if(btnMkt) btnMkt.style.display = isNovato ? 'none' : 'inline-block';
@@ -4206,6 +4265,8 @@ function updateAuthUI(){
     if(gMarketNav) gMarketNav.style.display = 'none';
     var gBazarNav = document.getElementById('nav-guild_bazar');
     if(gBazarNav) gBazarNav.style.display = 'none';
+    var huntNav = document.getElementById('nav-hunt');
+    if(huntNav) huntNav.style.display = 'none';
     // Se estava na página do calendário, redireciona para guild
     if(document.getElementById('page-calendar')?.classList.contains('active')){
       _navigate('guild');
@@ -8793,6 +8854,185 @@ function closeWhatsNew(){
   if(modal) modal.remove();
   localStorage.setItem('lp_wn_version', WHATS_NEW_VERSION);
   localStorage.setItem('lp_wn_date', new Date().toISOString().slice(0,10));
+}
+
+
+// ══════════════════════════════════════════════════════════════════
+//  PARTICIPAÇÕES — Hunt Session Tracker
+// ══════════════════════════════════════════════════════════════════
+
+var huntParsed = null; // resultado atual do parsePartyHunt
+
+function loadHuntPage(){
+  // nothing to preload — panels are driven by user actions
+}
+
+function huntSetTab(tab, el){
+  document.querySelectorAll('#page-hunt .hm-tab').forEach(function(b){ b.classList.remove('active'); });
+  if(el) el.classList.add('active');
+  document.getElementById('hunt-panel-new').style.display     = tab === 'new'     ? 'block' : 'none';
+  document.getElementById('hunt-panel-history').style.display = tab === 'history' ? 'block' : 'none';
+}
+
+function parsePartyHunt(text) {
+  var session = { date: null, duration: null, players: [] };
+  var dateMatch = text.match(/From (\d{4}-\d{2}-\d{2})/);
+  if(dateMatch) session.date = dateMatch[1];
+  var durMatch = text.match(/Session:\s*([\d:]+h)/);
+  if(durMatch) session.duration = durMatch[1];
+  var playerBlocks = text.split(/\n(?=[A-Z][^\n]+:\n)/);
+  playerBlocks.forEach(function(block) {
+    var nameMatch = block.match(/^([^\n:]+):/);
+    var damage   = block.match(/Damage:\s*([\d,]+)/);
+    var healing  = block.match(/Healing:\s*([\d,]+)/);
+    var loot     = block.match(/Loot:\s*([\d,]+)/);
+    var supplies = block.match(/Supplies:\s*([\d,]+)/);
+    var balance  = block.match(/Balance:\s*(-?[\d,]+)/);
+    if(nameMatch && damage) {
+      var parse = function(s){ return parseInt((s||'0').replace(/,/g,'')) || 0; };
+      session.players.push({
+        name:     nameMatch[1].trim(),
+        damage:   parse(damage[1]),
+        healing:  parse(healing  ? healing[1]  : '0'),
+        loot:     parse(loot     ? loot[1]     : '0'),
+        supplies: parse(supplies ? supplies[1] : '0'),
+        balance:  parse(balance  ? balance[1]  : '0'),
+      });
+    }
+  });
+  return session;
+}
+
+function _fmtGold(n){
+  if(!n && n !== 0) return '—';
+  return n.toLocaleString('pt-BR');
+}
+
+function _huntTableHTML(players){
+  var totalDmg = players.reduce(function(s,p){ return s + p.damage; }, 0);
+  var sorted = players.slice().sort(function(a,b){ return b.damage - a.damage; });
+  var memberNames = (allMembers || []).map(function(m){ return (m.name||'').toLowerCase(); });
+
+  var rows = sorted.map(function(p){
+    var pct = totalDmg ? ((p.damage / totalDmg) * 100).toFixed(1) : '0.0';
+    var isMember = memberNames.includes(p.name.toLowerCase());
+    var nameCell = isMember
+      ? '<span class="hunt-member">'+p.name+'</span>'
+      : p.name;
+    var bar = '<div class="hunt-bar-wrap"><div class="hunt-bar-fill" style="width:'+pct+'%"></div></div>';
+    return '<tr>'
+      +'<td>'+nameCell+'</td>'
+      +'<td>'+_fmtGold(p.damage)+'</td>'
+      +'<td style="min-width:110px">'+pct+'% '+bar+'</td>'
+      +'<td>'+_fmtGold(p.healing)+'</td>'
+      +'<td>'+_fmtGold(p.loot)+'</td>'
+      +'<td>'+_fmtGold(p.supplies)+'</td>'
+      +'<td>'+_fmtGold(p.balance)+'</td>'
+      +'</tr>';
+  }).join('');
+
+  return '<table class="hunt-table">'
+    +'<thead><tr>'
+    +'<th>Jogador</th><th>Dano</th><th>% Dano</th>'
+    +'<th>Healing</th><th>Loot</th><th>Supplies</th><th>Saldo</th>'
+    +'</tr></thead>'
+    +'<tbody>'+rows+'</tbody>'
+    +'</table>';
+}
+
+function analyzeHunt(){
+  var text = (document.getElementById('hunt-input').value || '').trim();
+  var preview = document.getElementById('hunt-preview');
+  var saveBtn = document.getElementById('hunt-save-btn');
+  if(!text){ preview.innerHTML = '<div style="color:var(--red);margin-top:12px">Cole o texto do Party Hunt primeiro.</div>'; return; }
+
+  huntParsed = parsePartyHunt(text);
+  if(!huntParsed.players.length){
+    preview.innerHTML = '<div style="color:var(--red);margin-top:12px">Nenhum jogador encontrado. Verifique o formato do clipboard.</div>';
+    saveBtn.style.display = 'none';
+    return;
+  }
+
+  var meta = '<div style="display:flex;gap:20px;flex-wrap:wrap;margin:16px 0 8px;font-size:.8rem;color:var(--text-dim)">'
+    +'<span>📅 Data: <strong style="color:var(--text)">'+(huntParsed.date||'—')+'</strong></span>'
+    +'<span>⏱ Duração: <strong style="color:var(--text)">'+(huntParsed.duration||'—')+'</strong></span>'
+    +'<span>👥 Jogadores: <strong style="color:var(--text)">'+huntParsed.players.length+'</strong></span>'
+    +'</div>';
+
+  preview.innerHTML = meta + _huntTableHTML(huntParsed.players);
+  saveBtn.style.display = 'inline-block';
+}
+
+async function saveHuntSession(){
+  if(!huntParsed || !huntParsed.players.length){ alert('Analise uma sessão primeiro.'); return; }
+  if(!currentProfile){ alert('Você precisa estar logado.'); return; }
+
+  var btn = document.getElementById('hunt-save-btn');
+  btn.disabled = true;
+  btn.textContent = 'Salvando...';
+  try {
+    await supaFetch('hunt_sessions', null, 'POST', {
+      submitted_by:     currentProfile.id,
+      session_date:     huntParsed.date,
+      session_duration: huntParsed.duration,
+      raw_log:          document.getElementById('hunt-input').value.trim(),
+      players:          huntParsed.players,
+    });
+    btn.textContent = '✔ Salvo!';
+    setTimeout(function(){ btn.textContent = '💾 Salvar Sessão'; btn.disabled = false; }, 2000);
+  } catch(e) {
+    alert('Erro ao salvar: '+e.message);
+    btn.textContent = '💾 Salvar Sessão';
+    btn.disabled = false;
+  }
+}
+
+async function loadHuntHistory(){
+  var dateVal = document.getElementById('hunt-history-date').value;
+  var listEl  = document.getElementById('hunt-history-list');
+  if(!dateVal){ listEl.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Selecione uma data.</div>'; return; }
+
+  listEl.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+  try {
+    var {data: sessions} = await supaFetch('hunt_sessions', {
+      session_date: 'eq.'+dateVal,
+      order: 'created_at.asc',
+      limit: '50',
+    });
+    if(!sessions || !sessions.length){
+      listEl.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhuma sessão registrada nesta data.</div>';
+      return;
+    }
+    listEl.innerHTML = sessions.map(function(s, i){
+      var time = s.created_at ? s.created_at.slice(11,16) : '—';
+      var nPlayers = (s.players||[]).length;
+      return '<div class="hunt-session-item" id="hunt-s-'+i+'" onclick="toggleHuntSession('+i+','+JSON.stringify(s).replace(/"/g,'&quot;')+')">'
+        +'<div style="display:flex;align-items:center;justify-content:space-between">'
+        +'<span style="font-family:\'Cinzel\',serif;font-size:.78rem;color:var(--gold-light)">'+time+' UTC</span>'
+        +'<span style="font-size:.75rem;color:var(--text-dim)">'+s.session_duration+' · '+nPlayers+' jogadores</span>'
+        +'<span style="font-size:.75rem;color:var(--text-dim)">▼</span>'
+        +'</div>'
+        +'</div>'
+        +'<div class="hunt-session-detail" id="hunt-detail-'+i+'" style="display:none"></div>';
+    }).join('');
+  } catch(e) {
+    listEl.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
+}
+
+function toggleHuntSession(i, s){
+  var item   = document.getElementById('hunt-s-'+i);
+  var detail = document.getElementById('hunt-detail-'+i);
+  if(!item || !detail) return;
+  var isOpen = detail.style.display !== 'none';
+  if(isOpen){
+    detail.style.display = 'none';
+    item.classList.remove('open');
+  } else {
+    detail.innerHTML = _huntTableHTML(s.players || []);
+    detail.style.display = 'block';
+    item.classList.add('open');
+  }
 }
 
 </script>
