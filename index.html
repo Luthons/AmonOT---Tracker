@@ -8908,16 +8908,21 @@ function _fmtGold(n){
   return n.toLocaleString('pt-BR');
 }
 
+function isGuildMember(playerName){
+  var lower = playerName.toLowerCase();
+  if(allMembers && allMembers.some(function(m){ return (m.name||'').toLowerCase() === lower; })) return true;
+  return false;
+}
+
 function _huntTableHTML(players){
   var totalDmg = players.reduce(function(s,p){ return s + p.damage; }, 0);
   var sorted = players.slice().sort(function(a,b){ return b.damage - a.damage; });
-  var memberNames = (allMembers || []).map(function(m){ return (m.name||'').toLowerCase(); });
 
   var rows = sorted.map(function(p){
     var pct = totalDmg ? ((p.damage / totalDmg) * 100).toFixed(1) : '0.0';
-    var isMember = memberNames.includes(p.name.toLowerCase());
-    var nameCell = isMember
-      ? '<span class="hunt-member">'+p.name+'</span>'
+    var member = isGuildMember(p.name);
+    var nameCell = member
+      ? '<span class="hunt-member">🛡 '+p.name+'</span>'
       : p.name;
     var bar = '<div class="hunt-bar-wrap"><div class="hunt-bar-fill" style="width:'+pct+'%"></div></div>';
     return '<tr>'
