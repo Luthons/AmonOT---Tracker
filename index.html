@@ -8876,30 +8876,48 @@ function huntSetTab(tab, el){
 
 function parsePartyHunt(text) {
   var session = { date: null, duration: null, players: [] };
+
   var dateMatch = text.match(/From (\d{4}-\d{2}-\d{2})/);
   if(dateMatch) session.date = dateMatch[1];
+
   var durMatch = text.match(/Session:\s*([\d:]+h)/);
   if(durMatch) session.duration = durMatch[1];
-  var playerBlocks = text.split(/\n(?=[A-Z][^\n]+:\n)/);
-  playerBlocks.forEach(function(block) {
-    var nameMatch = block.match(/^([^\n:]+):/);
-    var damage   = block.match(/Damage:\s*([\d,]+)/);
-    var healing  = block.match(/Healing:\s*([\d,]+)/);
-    var loot     = block.match(/Loot:\s*([\d,]+)/);
-    var supplies = block.match(/Supplies:\s*([\d,]+)/);
-    var balance  = block.match(/Balance:\s*(-?[\d,]+)/);
-    if(nameMatch && damage) {
-      var parse = function(s){ return parseInt((s||'0').replace(/,/g,'')) || 0; };
-      session.players.push({
-        name:     nameMatch[1].trim(),
-        damage:   parse(damage[1]),
-        healing:  parse(healing  ? healing[1]  : '0'),
-        loot:     parse(loot     ? loot[1]     : '0'),
-        supplies: parse(supplies ? supplies[1] : '0'),
-        balance:  parse(balance  ? balance[1]  : '0'),
-      });
+
+  var lines = text.split('\n');
+  var currentPlayer = null;
+  var skipPrefixes = ['session data','session:','loot type:','loot:','supplies:','balance:'];
+
+  for(var i = 0; i < lines.length; i++){
+    var line = lines[i];
+    var trimmed = line.trim();
+    if(!trimmed) continue;
+
+    var isIndented = line.startsWith('\t') || line.startsWith('    ');
+
+    if(!isIndented){
+      var lower = trimmed.toLowerCase();
+      var isHeader = skipPrefixes.some(function(p){ return lower.startsWith(p); });
+      if(isHeader) continue;
+
+      var name = trimmed.replace(/\s*\(Leader\)/i,'').replace(/\s*\(Líder\)/i,'').trim();
+      currentPlayer = { name: name, damage: 0, healing: 0, loot: 0, supplies: 0, balance: 0 };
+      session.players.push(currentPlayer);
+
+    } else if(currentPlayer){
+      var dmg  = trimmed.match(/^Damage:\s*([\d,]+)/i);
+      var heal = trimmed.match(/^Healing:\s*([\d,]+)/i);
+      var loot = trimmed.match(/^Loot:\s*([\d,]+)/i);
+      var sup  = trimmed.match(/^Supplies:\s*([\d,]+)/i);
+      var bal  = trimmed.match(/^Balance:\s*(-?[\d,]+)/i);
+      var parse = function(s){ return parseInt((s||'0').replace(/,/g,'')); };
+      if(dmg)  currentPlayer.damage   = parse(dmg[1]);
+      if(heal) currentPlayer.healing  = parse(heal[1]);
+      if(loot) currentPlayer.loot     = parse(loot[1]);
+      if(sup)  currentPlayer.supplies = parse(sup[1]);
+      if(bal)  currentPlayer.balance  = parse(bal[1]);
     }
-  });
+  }
+
   return session;
 }
 
