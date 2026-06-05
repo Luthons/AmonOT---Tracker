@@ -9003,20 +9003,41 @@ async function loadHuntHistory(){
       listEl.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhuma sessão registrada nesta data.</div>';
       return;
     }
+    var canDelete = ['admin','lider'].includes(currentProfile && currentProfile.role);
     listEl.innerHTML = sessions.map(function(s, i){
       var time = s.created_at ? s.created_at.slice(11,16) : '—';
       var nPlayers = (s.players||[]).length;
+      var delBtn = canDelete
+        ? '<button onclick="event.stopPropagation();deleteHuntSession(\''+s.id+'\','+i+')" style="font-family:\'Cinzel\',serif;font-size:.6rem;letter-spacing:.06em;padding:3px 10px;border:1px solid rgba(201,80,80,.4);background:transparent;color:#c95050;cursor:pointer;border-radius:2px;transition:all .2s" onmouseover="this.style.background=\'rgba(201,80,80,.12)\'" onmouseout="this.style.background=\'transparent\'">Remover</button>'
+        : '';
       return '<div class="hunt-session-item" id="hunt-s-'+i+'" onclick="toggleHuntSession('+i+','+JSON.stringify(s).replace(/"/g,'&quot;')+')">'
-        +'<div style="display:flex;align-items:center;justify-content:space-between">'
+        +'<div style="display:flex;align-items:center;justify-content:space-between;gap:8px">'
         +'<span style="font-family:\'Cinzel\',serif;font-size:.78rem;color:var(--gold-light)">'+time+' UTC</span>'
         +'<span style="font-size:.75rem;color:var(--text-dim)">'+s.session_duration+' · '+nPlayers+' jogadores</span>'
-        +'<span style="font-size:.75rem;color:var(--text-dim)">▼</span>'
+        +'<span style="display:flex;align-items:center;gap:8px">'+delBtn+'<span style="font-size:.75rem;color:var(--text-dim)">▼</span></span>'
         +'</div>'
         +'</div>'
         +'<div class="hunt-session-detail" id="hunt-detail-'+i+'" style="display:none"></div>';
     }).join('');
   } catch(e) {
     listEl.innerHTML = '<div style="color:var(--red)">Erro: '+e.message+'</div>';
+  }
+}
+
+async function deleteHuntSession(id, i){
+  if(!confirm('Remover esta sessão? A ação não pode ser desfeita.')) return;
+  try {
+    await supaFetch('hunt_sessions?id=eq.'+id, null, 'DELETE');
+    var item   = document.getElementById('hunt-s-'+i);
+    var detail = document.getElementById('hunt-detail-'+i);
+    if(item)   item.remove();
+    if(detail) detail.remove();
+    var listEl = document.getElementById('hunt-history-list');
+    if(listEl && !listEl.querySelector('.hunt-session-item')){
+      listEl.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhuma sessão registrada nesta data.</div>';
+    }
+  } catch(e) {
+    alert('Erro ao remover: '+e.message);
   }
 }
 
