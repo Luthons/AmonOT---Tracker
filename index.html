@@ -8968,10 +8968,26 @@ function _fmtGold(n){
   return n.toLocaleString('pt-BR');
 }
 
+var VOC_SHORT = {
+  'knight':'EK', 'paladin':'RP', 'sorcerer':'MS', 'druid':'ED', 'monk':'MK'
+};
+
 function isGuildMember(playerName){
   var lower = playerName.toLowerCase();
   if(allMembers && allMembers.some(function(m){ return (m.name||'').toLowerCase() === lower; })) return true;
   return false;
+}
+
+function getPlayerInfo(playerName){
+  if(!allMembers) return { vocation: '—', resets: '—' };
+  var found = allMembers.find(function(m){
+    return (m.name||'').toLowerCase() === playerName.toLowerCase();
+  });
+  if(!found) return { vocation: '—', resets: '—' };
+  return {
+    vocation: found.vocation || '—',
+    resets:   found.resets !== undefined ? found.resets : '—',
+  };
 }
 
 function _huntTableHTML(players){
@@ -8981,12 +8997,16 @@ function _huntTableHTML(players){
   var rows = sorted.map(function(p){
     var pct = totalDmg ? ((p.damage / totalDmg) * 100).toFixed(1) : '0.0';
     var member = isGuildMember(p.name);
+    var info = getPlayerInfo(p.name);
+    var vocShort = VOC_SHORT[(info.vocation||'').toLowerCase()] || info.vocation;
     var nameCell = member
       ? '<span class="hunt-member">🛡 '+p.name+'</span>'
       : p.name;
     var bar = '<div class="hunt-bar-wrap"><div class="hunt-bar-fill" style="width:'+pct+'%"></div></div>';
     return '<tr>'
       +'<td>'+nameCell+'</td>'
+      +'<td style="color:var(--text-dim);font-size:.78rem">'+vocShort+'</td>'
+      +'<td style="color:var(--text-dim);font-size:.78rem;text-align:center">'+info.resets+'</td>'
       +'<td>'+_fmtGold(p.damage)+'</td>'
       +'<td style="min-width:110px">'+pct+'% '+bar+'</td>'
       +'<td>'+_fmtGold(p.healing)+'</td>'
@@ -8998,7 +9018,7 @@ function _huntTableHTML(players){
 
   return '<table class="hunt-table">'
     +'<thead><tr>'
-    +'<th>Jogador</th><th>Dano</th><th>% Dano</th>'
+    +'<th>Jogador</th><th>Classe</th><th style="text-align:center">Resets</th><th>Dano</th><th>% Dano</th>'
     +'<th>Healing</th><th>Loot</th><th>Supplies</th><th>Saldo</th>'
     +'</tr></thead>'
     +'<tbody>'+rows+'</tbody>'
@@ -9224,6 +9244,8 @@ async function loadHuntReport() {
 
     var rows = sorted.map(function(entry, idx) {
       var member = isGuildMember(entry.name);
+      var info = getPlayerInfo(entry.name);
+      var vocShort = VOC_SHORT[(info.vocation||'').toLowerCase()] || info.vocation;
       var barColor = member ? 'var(--gold-light)' : 'rgba(255,255,255,.18)';
       var pct = Math.round((entry.count / max) * 100);
       var nameCell = member
@@ -9235,6 +9257,8 @@ async function loadHuntReport() {
       return '<tr>'
         +'<td style="color:var(--text-dim);font-size:.75rem">#'+(idx+1)+'</td>'
         +'<td>'+nameCell+'</td>'
+        +'<td style="color:var(--text-dim);font-size:.78rem">'+vocShort+'</td>'
+        +'<td style="color:var(--text-dim);font-size:.78rem;text-align:center">'+info.resets+'</td>'
         +'<td style="text-align:center;font-family:\'Cinzel\',serif;color:var(--gold-light)">'+entry.count+'</td>'
         +'<td>'+bar+'</td>'
         +'</tr>';
@@ -9243,7 +9267,7 @@ async function loadHuntReport() {
     content.innerHTML = '<div style="font-size:.72rem;color:var(--text-dim);margin-bottom:12px">'
       +sessions.length+' sessão(ões) · '+sorted.length+' jogador(es) único(s)</div>'
       +'<table class="hunt-table">'
-      +'<thead><tr><th>#</th><th>Jogador</th><th style="text-align:center">Participações</th><th>Frequência</th></tr></thead>'
+      +'<thead><tr><th>#</th><th>Jogador</th><th>Classe</th><th style="text-align:center">Resets</th><th style="text-align:center">Participações</th><th>Frequência</th></tr></thead>'
       +'<tbody>'+rows+'</tbody>'
       +'</table>';
   } catch(e) {
