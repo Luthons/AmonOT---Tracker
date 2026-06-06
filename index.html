@@ -4240,7 +4240,7 @@ function updateAuthUI(){
     var gBazarNav = document.getElementById('nav-guild_bazar');
     if(gBazarNav) gBazarNav.style.display = isNovato ? 'none' : 'flex';
     var huntNav = document.getElementById('nav-hunt');
-    if(huntNav) huntNav.style.display = isNovato ? 'none' : 'flex';
+    if(huntNav) huntNav.style.display = ['admin','lider','vice'].includes(currentProfile.role) ? 'flex' : 'none';
     // Botões de novo anúncio — visíveis para membro+
     var btnMkt = document.getElementById('btn-new-market-listing');
     if(btnMkt) btnMkt.style.display = isNovato ? 'none' : 'inline-block';
@@ -8904,7 +8904,10 @@ function closeWhatsNew(){
 var huntParsed = null; // resultado atual do parsePartyHunt
 
 function loadHuntPage(){
-  // nothing to preload — panels are driven by user actions
+  if(!['admin','lider','vice'].includes(currentProfile && currentProfile.role)){
+    navigate('guild');
+    return;
+  }
 }
 
 function huntSetTab(tab, el){
