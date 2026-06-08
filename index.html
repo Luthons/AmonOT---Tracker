@@ -1721,6 +1721,7 @@ footer span{color:var(--gold-dim)}
       <button class="hm-tab active" id="admin-tab-members" onclick="adminSetTab('members',this)">Membros</button>
       <button class="hm-tab" id="admin-tab-guilds" onclick="adminSetTab('guilds',this)">Guildas Inimigas</button>
       <button class="hm-tab" id="admin-tab-log" onclick="adminSetTab('log',this)" style="display:none">Log de Atividades</button>
+      <button class="hm-tab" id="admin-tab-groups" onclick="adminSetTab('groups',this)">Grupos</button>
     </div>
 
     <!-- Membros -->
@@ -1740,6 +1741,9 @@ footer span{color:var(--gold-dim)}
       <div style="font-size:.78rem;color:var(--text-dim);margin-bottom:16px">⚠ Use o nome exato da guilda como aparece no amonOT. O scraper usará essa lista para monitorar membros, resets e status.</div>
       <div id="enemy-guilds-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
     </div>
+    <!-- Grupos -->
+    <div id="admin-panel-groups" style="display:none"></div>
+
     <!-- Log de Atividades -->
     <div id="admin-panel-log" style="display:none">
       <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center">
@@ -7249,6 +7253,111 @@ async function removeBonusChar(btn){
 }
 
 
+// ─── GRUPOS / PREFERÊNCIAS ─────────────────────────────────────
+var PREF_LABELS = {pvp:'PvP', pve:'PvE', expeditions:'Expeditions', boss:'Boss', quests:'Quests'};
+var PREF_COLORS = {pvp:'var(--red)', pve:'var(--online)', expeditions:'#5ab0e8', boss:'#e87830', quests:'#b06fe8'};
+var _adminGroupsProfiles = [];
+var _adminGroupsCharMap  = {};
+
+async function loadAdminGroups() {
+  var cont = document.getElementById('admin-panel-groups');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  var {data: profiles} = await supaFetch('profiles', {
+    select: 'id,display_name,role,game_preferences',
+    order:  'display_name.asc',
+    limit:  '200',
+  });
+  var {data: chars} = await supaFetch('characters', {
+    select: 'profile_id,name,resets',
+    limit:  '500',
+  });
+
+  var charMap = {};
+  (chars||[]).forEach(function(c){
+    if(!charMap[c.profile_id]) charMap[c.profile_id] = [];
+    charMap[c.profile_id].push(c);
+  });
+
+  _adminGroupsProfiles = profiles || [];
+  _adminGroupsCharMap  = charMap;
+  renderAdminGroups('all');
+}
+
+function renderAdminGroups(activeFilter) {
+  var cont = document.getElementById('admin-panel-groups');
+  if(!cont) return;
+
+  var profiles = _adminGroupsProfiles;
+  var charMap  = _adminGroupsCharMap;
+
+  // Contagens por preferência (todos os perfis)
+  var prefCounts = {pvp:0, pve:0, expeditions:0, boss:0, quests:0};
+  profiles.forEach(function(p){
+    (p.game_preferences||[]).forEach(function(pref){
+      if(prefCounts[pref] !== undefined) prefCounts[pref]++;
+    });
+  });
+
+  // Filtros
+  var filterBtns = ['all','pvp','pve','expeditions','boss','quests'].map(function(f){
+    var label = f === 'all' ? 'Todos' : PREF_LABELS[f];
+    var active = f === activeFilter ? ' active' : '';
+    return '<button class="mkt-filter-btn'+active+'" onclick="renderAdminGroups(\''+f+'\')">'+label+'</button>';
+  }).join('');
+
+  // Separar com e sem preferências
+  var withPrefs    = profiles.filter(function(p){ return p.game_preferences && p.game_preferences.length; });
+  var withoutPrefs = profiles.filter(function(p){ return !p.game_preferences || !p.game_preferences.length; });
+
+  // Aplicar filtro
+  var filtered = activeFilter === 'all'
+    ? withPrefs
+    : withPrefs.filter(function(p){ return (p.game_preferences||[]).includes(activeFilter); });
+
+  // Contagem do sumário
+  var summaryParts = [filtered.length + ' membro(s)'];
+  if(activeFilter === 'all'){
+    Object.keys(prefCounts).forEach(function(pref){
+      if(prefCounts[pref]) summaryParts.push(prefCounts[pref]+' '+PREF_LABELS[pref]);
+    });
+  }
+
+  function buildRow(p) {
+    var pChars   = charMap[p.id] || [];
+    var maxReset = pChars.length ? Math.max.apply(null, pChars.map(function(c){ return c.resets||0; })) : '—';
+    var charNames = pChars.map(function(c){ return c.name; }).join(', ') || '—';
+    var roleLabel = ROLE_LABELS[p.role] || p.role || '—';
+    var badges = (p.game_preferences||[]).map(function(pref){
+      return '<span class="gp-badge '+pref+'">'+(PREF_LABELS[pref]||pref)+'</span>';
+    }).join('');
+    return '<tr>'
+      +'<td>'+(p.display_name||'—')+'</td>'
+      +'<td style="font-size:.78rem;color:var(--text-dim)">'+charNames+'</td>'
+      +'<td style="text-align:center">'+maxReset+'</td>'
+      +'<td><span class="auth-role-badge '+p.role+'" style="font-size:.6rem">'+roleLabel+'</span></td>'
+      +'<td>'+badges+'</td>'
+      +'</tr>';
+  }
+
+  var mainRows = filtered.map(buildRow).join('');
+
+  var noPrefsSection = '';
+  if(activeFilter === 'all' && withoutPrefs.length){
+    var noPrefsRows = withoutPrefs.map(buildRow).join('');
+    noPrefsSection = '<tr><td colspan="5" style="padding:16px 12px 6px;font-size:.75rem;color:var(--red);font-family:\'Cinzel\',serif;letter-spacing:.08em">⚠ Sem preferências definidas</td></tr>'
+      + noPrefsRows;
+  }
+
+  cont.innerHTML = '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px">' + filterBtns + '</div>'
+    + '<div style="font-size:.72rem;color:var(--text-dim);margin-bottom:12px">'+summaryParts.join(' · ')+'</div>'
+    + '<table class="admin-table">'
+    + '<thead><tr><th>Nome</th><th>Personagens</th><th style="text-align:center">Resets</th><th>Cargo</th><th>Preferências</th></tr></thead>'
+    + '<tbody>' + mainRows + noPrefsSection + '</tbody>'
+    + '</table>';
+}
+
 // ─── ENEMY GUILDS ADMIN ────────────────────────────────────────
 function adminSetTab(tab, btn){
   document.querySelectorAll('#page-admin .hm-tab').forEach(function(t){ t.classList.remove('active'); });
@@ -7256,9 +7365,11 @@ function adminSetTab(tab, btn){
   document.getElementById('admin-panel-members').style.display = tab === 'members' ? '' : 'none';
   document.getElementById('admin-panel-guilds').style.display  = tab === 'guilds'  ? '' : 'none';
   document.getElementById('admin-panel-log').style.display     = tab === 'log'     ? '' : 'none';
-  if(tab === 'log') loadActivityLog(true);
-  if(tab === 'guilds') loadEnemyGuilds();
+  document.getElementById('admin-panel-groups').style.display  = tab === 'groups'  ? '' : 'none';
+  if(tab === 'log')     loadActivityLog(true);
+  if(tab === 'guilds')  loadEnemyGuilds();
   if(tab === 'members') loadAdminData();
+  if(tab === 'groups')  loadAdminGroups();
 }
 
 async function loadEnemyGuilds(){
