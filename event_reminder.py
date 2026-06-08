@@ -209,6 +209,83 @@ def build_embed(event: dict) -> dict:
     }
 
 
+# ── Notificação por preferência de jogo ───────────────────────────────────────
+
+def notify_new_events():
+    """
+    Busca eventos criados nas últimas 2 horas com notify_groups não vazio
+    e envia DM para membros que têm pelo menos uma das preferências do evento.
+    Usa event_notify_sent para não reenviar.
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+
+    events = supa_get("calendar_events", {
+        "created_at": f"gte.{cutoff}",
+        "select": "*",
+    })
+    events = [e for e in events if e.get("notify_groups")]
+
+    if not events:
+        return
+
+    profiles = supa_get("profiles", {
+        "select": "id,discord_id,game_preferences,display_name",
+        "limit": "500",
+    })
+
+    for event in events:
+        notify_groups = event.get("notify_groups", [])
+        event_id = event["id"]
+
+        targets = [
+            p for p in profiles
+            if p.get("discord_id")
+            and any(g in (p.get("game_preferences") or []) for g in notify_groups)
+        ]
+
+        print(f"[reminder] novo evento '{event['nome']}' → {len(targets)} membro(s) a notificar")
+
+        embed = {
+            "title": f"📅 Novo Evento — {event['nome']}",
+            "description": "Um novo evento foi criado no calendário da guilda!",
+            "color": 0xC9A84C,
+            "fields": [
+                {"name": "📅 Data",  "value": event.get("data", ""),             "inline": True},
+                {"name": "⏰ Hora",  "value": (event.get("hora", "") or "")[:5], "inline": True},
+                {"name": "📋 Tipo",  "value": (event.get("tipo", "") or "").capitalize(), "inline": True},
+            ],
+            "footer": {"text": "Lowly People · Calendário da Guilda"},
+        }
+        if event.get("descricao"):
+            embed["fields"].append({"name": "📝 Descrição", "value": event["descricao"], "inline": False})
+
+        for profile in targets:
+            pid        = profile["id"]
+            discord_id = profile["discord_id"]
+
+            sent = supa_get("event_notify_sent", {
+                "evento_id":  f"eq.{event_id}",
+                "profile_id": f"eq.{pid}",
+                "select":     "evento_id",
+            })
+            if sent:
+                continue
+
+            if send_dm(discord_id, embed):
+                try:
+                    requests.post(
+                        f"{SUPABASE_URL}/rest/v1/event_notify_sent",
+                        headers={**SUPA_HEADERS, "Prefer": "resolution=ignore-duplicates,return=minimal"},
+                        json={"evento_id": event_id, "profile_id": pid},
+                        timeout=10,
+                    )
+                    print(f"[reminder] ✅ DM novo evento → {profile.get('display_name', '?')}")
+                except Exception as e:
+                    print(f"[reminder] erro mark sent: {e}")
+
+            time.sleep(0.3)
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def run():
@@ -264,6 +341,8 @@ def run():
                 print(f"[reminder] ❌ falha DM: {player_name}")
 
             time.sleep(0.3)
+
+    notify_new_events()
 
 
 if __name__ == "__main__":

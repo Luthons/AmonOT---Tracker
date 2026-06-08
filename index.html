@@ -1480,6 +1480,16 @@ footer span{color:var(--gold-dim)}
       <input class="field-input" type="number" id="ce-vagas" min="0" value="0">
     </div>
 
+    <div class="field-row">
+      <label class="field-label">Notificar por DM <span style="color:var(--text-dim);font-size:.75rem">(opcional — notifica membros com essas preferências)</span></label>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px">
+        <label class="mkt-attr-chk"><input type="checkbox" id="ce-notify-pvp" value="pvp"> PvP</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ce-notify-pve" value="pve"> PvE</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ce-notify-expeditions" value="expeditions"> Expeditions</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ce-notify-boss" value="boss"> Boss</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ce-notify-quests" value="quests"> Quests</label>
+      </div>
+    </div>
     <button class="modal-btn" id="btn-submit-create-event">Criar Evento</button>
     <div id="ce-status" class="modal-status"></div>
   </div>
@@ -1573,6 +1583,16 @@ footer span{color:var(--gold-dim)}
       <input type="checkbox" id="ann-notify-discord" style="width:16px;height:16px">
       Notificar @everyone no Discord
     </label>
+    <div class="field-row">
+      <label class="field-label">Notificar por DM <span style="color:var(--text-dim);font-size:.75rem">(opcional — notifica membros com essas preferências)</span></label>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px">
+        <label class="mkt-attr-chk"><input type="checkbox" id="ann-notify-pvp" value="pvp"> PvP</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ann-notify-pve" value="pve"> PvE</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ann-notify-expeditions" value="expeditions"> Expeditions</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ann-notify-boss" value="boss"> Boss</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="ann-notify-quests" value="quests"> Quests</label>
+      </div>
+    </div>
     <button class="modal-btn" id="btn-submit-announcement">Publicar Aviso</button>
     <div id="ann-status" class="modal-status"></div>
   </div>
@@ -3140,6 +3160,8 @@ async function deleteAnnouncement(id){
 
 async function submitAnnouncement(){
   var notifyDiscord = document.getElementById('ann-notify-discord')?.checked || false;
+  var notifyGroups  = ['pvp','pve','expeditions','boss','quests']
+    .filter(function(g){ return document.getElementById('ann-notify-'+g)?.checked; });
   var title   = document.getElementById('ann-title').value.trim();
   var content = document.getElementById('ann-content').value.trim();
   var pinned  = document.getElementById('ann-pinned').checked;
@@ -3156,9 +3178,10 @@ async function submitAnnouncement(){
     title,
     content,
     pinned,
-    created_by: currentProfile.id,
-    expires_at: expires,
+    created_by:     currentProfile.id,
+    expires_at:     expires,
     discord_notify: notifyDiscord,
+    notify_groups:  notifyGroups,
   });
 
   if(error){
@@ -4032,6 +4055,8 @@ async function submitCreateEvent(){
   var noShare    = isBossHunt && (document.getElementById('ce-no-share')?.checked || false);
   var shareReq   = isBossHunt && !noShare && (document.getElementById('ce-share-required')?.checked || false);
   var joinAsP    = isBossHunt && resets > 0 && (document.getElementById('ce-join-as-participant')?.checked || false);
+  var notifyGroups = ['pvp','pve','expeditions','boss','quests']
+    .filter(function(g){ return document.getElementById('ce-notify-'+g)?.checked; });
 
   // Group size
   var groupSizeEl = document.getElementById('ce-group-size');
@@ -4066,7 +4091,8 @@ async function submitCreateEvent(){
       no_share:       noShare,
       share_required: shareReq,
       group_size:     isBossHunt ? groupSize : null,
-      created_by: currentProfile ? currentProfile.id : null,
+      created_by:     currentProfile ? currentProfile.id : null,
+      notify_groups:  notifyGroups,
     });
     var newEvent = Array.isArray(d) ? d[0] : d;
     logActivity('Evento criado: ' + nome + ' (' + tipo + ') em ' + data, 'calendar', {nome: nome, tipo: tipo, data: data, hora: hora});
