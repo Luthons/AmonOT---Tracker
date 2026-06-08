@@ -771,6 +771,13 @@ footer span{color:var(--gold-dim)}
 .raffle-progress-bg{height:8px;background:var(--border);border-radius:4px;margin:10px 0 6px;overflow:hidden}
 .raffle-progress-fill{height:100%;border-radius:4px;background:var(--gold-dim);transition:width .3s}
 .raffle-progress-fill.full{background:var(--online)}
+/* ── PREFERÊNCIAS DE JOGO ────────────────────────────────────── */
+.gp-badge{display:inline-block;font-size:.65rem;font-family:'Cinzel',serif;letter-spacing:.06em;padding:2px 9px;border-radius:2px;border:1px solid;margin-right:4px;margin-bottom:4px}
+.gp-badge.pvp{color:var(--red);border-color:rgba(201,80,80,.45);background:rgba(201,80,80,.08)}
+.gp-badge.pve{color:var(--online);border-color:rgba(93,191,110,.4);background:rgba(93,191,110,.07)}
+.gp-badge.expeditions{color:#5ab0e8;border-color:rgba(90,176,232,.4);background:rgba(90,176,232,.07)}
+.gp-badge.boss{color:#e87830;border-color:rgba(232,120,48,.4);background:rgba(232,120,48,.07)}
+.gp-badge.quests{color:#b06fe8;border-color:rgba(176,111,232,.4);background:rgba(176,111,232,.07)}
 /* ── PARTICIPAÇÕES (HUNT) ────────────────────────────────────── */
 .hunt-textarea{width:100%;min-height:180px;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-size:.8rem;font-family:monospace;padding:12px;resize:vertical;box-sizing:border-box;border-radius:3px;outline:none;transition:border-color .2s}
 .hunt-textarea:focus{border-color:var(--border-gold)}
@@ -2393,8 +2400,38 @@ footer span{color:var(--gold-dim)}
       </div>
       <div style="font-size:.75rem;color:var(--text-dim);margin-top:4px">Os resets são preenchidos automaticamente se o personagem estiver na guilda.</div>
     </div>
+    <div class="field-row">
+      <label class="field-label">Preferências de Jogo *</label>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px">
+        <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-pvp" value="pvp"> PvP</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-pve" value="pve"> PvE</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-expeditions" value="expeditions"> Expeditions</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-boss" value="boss"> Boss</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-quests" value="quests"> Quests</label>
+      </div>
+    </div>
     <button class="modal-btn" onclick="submitRegister()">Finalizar Cadastro</button>
     <div id="register-status" class="modal-status"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: PREFERÊNCIAS DE JOGO (obrigatório) ══ -->
+<div class="modal-overlay hidden" id="modal-game-preferences" style="z-index:600">
+  <div class="modal">
+    <h2>🎮 Suas Preferências de Jogo</h2>
+    <p>Selecione as atividades que você tem interesse em participar na guilda. Você pode alterar isso depois no seu perfil.</p>
+    <div class="field-row">
+      <label class="field-label">Atividades de interesse *</label>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px">
+        <label class="mkt-attr-chk"><input type="checkbox" id="gp-pvp" value="pvp"> PvP</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="gp-pve" value="pve"> PvE</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="gp-expeditions" value="expeditions"> Expeditions</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="gp-boss" value="boss"> Boss</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="gp-quests" value="quests"> Quests</label>
+      </div>
+    </div>
+    <button class="modal-btn" onclick="submitGamePreferences()" style="margin-top:16px">Salvar</button>
+    <div id="gp-status" class="modal-status"></div>
   </div>
 </div>
 
@@ -4190,8 +4227,14 @@ async function loadProfile(){
       updateAuthUI();
       updateCalendarUI();
       closeModal('modal-login');
-      // Popup de novidades — 1x por dia ou quando versão nova
-      setTimeout(checkWhatsNew, 800);
+      // Modal obrigatório de preferências para quem ainda não preencheu
+      var prefs = currentProfile.game_preferences;
+      if(!prefs || !prefs.length){
+        showModal('modal-game-preferences');
+      } else {
+        // Popup de novidades — somente se as preferências já foram preenchidas
+        setTimeout(checkWhatsNew, 800);
+      }
     } else {
       showModal('modal-register');
     }
@@ -4393,8 +4436,13 @@ async function submitRegister(){
   var discord = document.getElementById('reg-discord').value.trim();
   var status  = document.getElementById('register-status');
 
+  var regGamePrefs = ['pvp','pve','expeditions','boss','quests'].filter(function(v){
+    var el = document.getElementById('reg-gp-'+v); return el && el.checked;
+  });
+
   if(!invite){status.textContent='Código de convite obrigatório.';status.className='modal-status err';return}
   if(!discord){status.textContent='Username do Discord obrigatório.';status.className='modal-status err';return}
+  if(!regGamePrefs.length){status.textContent='Selecione ao menos uma preferência de jogo.';status.className='modal-status err';return}
 
   status.textContent='Verificando código...';status.className='modal-status ok';
 
@@ -4430,6 +4478,7 @@ async function submitRegister(){
       discord_username: discord,
       role:             'novato',
       novato_since:     new Date().toISOString(),
+      game_preferences: regGamePrefs,
     });
 
     var profile = Array.isArray(profiles) ? profiles[0] : profiles;
@@ -4503,6 +4552,21 @@ async function openProfile(){
         <button class="btn" style="padding:8px 12px" onclick="addCharToProfile()">+</button>
       </div>
       <input type="hidden" id="prof-char-resets-hidden">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Preferências de Jogo</label>
+      <div style="margin-top:6px;margin-bottom:8px">
+        ${(currentProfile.game_preferences||[]).map(function(p){
+          return '<span class="gp-badge '+p+'">'+(p==='pvp'?'PvP':p==='pve'?'PvE':p.charAt(0).toUpperCase()+p.slice(1))+'</span>';
+        }).join('')||'<span style="color:var(--text-dim);font-size:.8rem">Nenhuma preferência definida</span>'}
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px">
+        <label class="mkt-attr-chk"><input type="checkbox" id="prof-gp-pvp" value="pvp" ${(currentProfile.game_preferences||[]).includes('pvp')?'checked':''}> PvP</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="prof-gp-pve" value="pve" ${(currentProfile.game_preferences||[]).includes('pve')?'checked':''}> PvE</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="prof-gp-expeditions" value="expeditions" ${(currentProfile.game_preferences||[]).includes('expeditions')?'checked':''}> Expeditions</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="prof-gp-boss" value="boss" ${(currentProfile.game_preferences||[]).includes('boss')?'checked':''}> Boss</label>
+        <label class="mkt-attr-chk"><input type="checkbox" id="prof-gp-quests" value="quests" ${(currentProfile.game_preferences||[]).includes('quests')?'checked':''}> Quests</label>
+      </div>
     </div>
     <div class="field-row">
       <label class="field-label">Notificações de Morte (DM Discord)</label>
@@ -4731,12 +4795,17 @@ async function saveProfile(){
   var discordId  = document.getElementById('prof-discord-id').value.trim();
   var deathDm    = document.getElementById('prof-death-dm').checked;
   var status     = document.getElementById('profile-status');
+  var gamePrefs  = ['pvp','pve','expeditions','boss','quests'].filter(function(v){
+    var el = document.getElementById('prof-gp-'+v);
+    return el && el.checked;
+  });
 
   try {
     await supaFetch('profiles?id=eq.'+currentProfile.id, null, 'PATCH', {
-      discord_username: discord,
-      discord_id:       discordId || null,
-      death_dm:         deathDm,
+      discord_username:  discord,
+      discord_id:        discordId || null,
+      death_dm:          deathDm,
+      game_preferences:  gamePrefs,
     });
 
     await supaFetch('notification_settings?profile_id=eq.'+currentProfile.id, null, 'PATCH', {
@@ -4744,9 +4813,10 @@ async function saveProfile(){
       updated_at: new Date().toISOString(),
     });
 
-    currentProfile.discord_username = discord;
-    currentProfile.discord_id       = discordId;
-    currentProfile.death_dm         = deathDm;
+    currentProfile.discord_username  = discord;
+    currentProfile.discord_id        = discordId;
+    currentProfile.death_dm          = deathDm;
+    currentProfile.game_preferences  = gamePrefs;
     status.textContent='Salvo!';
     status.className='modal-status ok';
   } catch(e) {
@@ -8886,6 +8956,31 @@ function wnToggle(uid){
     el.style.maxHeight = '400px';
     el.style.padding   = '10px 14px';
     if(arrow) arrow.style.transform = 'rotate(180deg)';
+  }
+}
+
+async function submitGamePreferences(){
+  var selected = ['pvp','pve','expeditions','boss','quests'].filter(function(v){
+    var el = document.getElementById('gp-'+v); return el && el.checked;
+  });
+  var status = document.getElementById('gp-status');
+  if(!selected.length){
+    status.textContent = 'Selecione ao menos uma preferência.';
+    status.className = 'modal-status err';
+    return;
+  }
+  status.textContent = 'Salvando...'; status.className = 'modal-status ok';
+  try {
+    await supaFetch('profiles?id=eq.'+currentProfile.id, null, 'PATCH', {
+      game_preferences: selected,
+    });
+    currentProfile.game_preferences = selected;
+    closeModal('modal-game-preferences');
+    status.textContent = '';
+    setTimeout(checkWhatsNew, 400);
+  } catch(e) {
+    status.textContent = 'Erro: '+e.message;
+    status.className = 'modal-status err';
   }
 }
 
