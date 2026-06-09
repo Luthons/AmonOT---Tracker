@@ -415,7 +415,7 @@
     },
     {
       "name": "Affey",
-      "level": 801,
+      "level": 802,
       "resets": 14,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -436,7 +436,7 @@
     },
     {
       "name": "Apreciador De Casadas",
-      "level": 556,
+      "level": 562,
       "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -584,7 +584,7 @@
     },
     {
       "name": "Bilade",
-      "level": 1014,
+      "level": 1015,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -712,7 +712,7 @@
     },
     {
       "name": "Charles",
-      "level": 582,
+      "level": 586,
       "resets": 24,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "Ed farm",
-      "level": 1500,
+      "level": 1501,
       "resets": 39,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1316,7 +1316,7 @@
     },
     {
       "name": "End Thor",
-      "level": 1061,
+      "level": 1062,
       "resets": 33,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1397,7 +1397,7 @@
     },
     {
       "name": "End Zeus",
-      "level": 633,
+      "level": 637,
       "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1838,7 +1838,7 @@
     },
     {
       "name": "Haony",
-      "level": 572,
+      "level": 582,
       "resets": 33,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2242,7 +2242,7 @@
     },
     {
       "name": "Judas",
-      "level": 1000,
+      "level": 1001,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2618,7 +2618,7 @@
     },
     {
       "name": "Loke",
-      "level": 637,
+      "level": 641,
       "resets": 43,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2628,7 +2628,7 @@
     },
     {
       "name": "Loks",
-      "level": 1245,
+      "level": 1246,
       "resets": 26,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4679,7 +4679,7 @@
     },
     {
       "name": "Zest",
-      "level": 1035,
+      "level": 1036,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4983,7 +4983,7 @@
         },
         {
           "name": "Pittao teensina",
-          "level": 699,
+          "level": 701,
           "resets": 30,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -6336,7 +6336,7 @@
         },
         {
           "name": "Ed farm",
-          "value": 1500,
+          "value": 1501,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6420,7 +6420,7 @@
         },
         {
           "name": "Loks",
-          "value": 1245,
+          "value": 1246,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6486,7 +6486,7 @@
         },
         {
           "name": "End Thor",
-          "value": 1061,
+          "value": 1062,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6504,7 +6504,7 @@
         },
         {
           "name": "Zest",
-          "value": 1035,
+          "value": 1036,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6534,7 +6534,13 @@
         },
         {
           "name": "Bilade",
-          "value": 1014,
+          "value": 1015,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Judas",
+          "value": 1001,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6542,12 +6548,6 @@
           "name": "Nao Curo",
           "value": 1001,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Judas",
-          "value": 1000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6702,7 +6702,7 @@
         },
         {
           "name": "Affey",
-          "value": 801,
+          "value": 802,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6738,31 +6738,31 @@
         },
         {
           "name": "Loke",
-          "value": 637,
+          "value": 641,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "End Zeus",
-          "value": 633,
+          "value": 637,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
           "name": "Charles",
-          "value": 582,
+          "value": 586,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
           "name": "Haony",
-          "value": 572,
+          "value": 582,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Apreciador De Casadas",
-          "value": 556,
+          "value": 562,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -16360,6 +16360,114 @@
       "player": "Dmonick",
       "level": 1195,
       "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 02:44",
+      "player": "Lilian Faithkeeper",
+      "level": 1390,
+      "killedBy": "Calveludo",
+      "maiorDano": "Dont Bica",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 00:32",
+      "player": "Rp Terror",
+      "level": 1217,
+      "killedBy": "Calveludo",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 00:31",
+      "player": "Imperador Ek",
+      "level": 2004,
+      "killedBy": "Calveludo",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 23:44",
+      "player": "Gizao",
+      "level": 1092,
+      "killedBy": "Dont Bica",
+      "maiorDano": "Ragekemi",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 20:56",
+      "player": "Ynhaca Purah",
+      "level": 999,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 20:46",
+      "player": "Ynhaca Purah",
+      "level": 994,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 20:45",
+      "player": "Ynhaca Purah",
+      "level": 995,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 19:49",
+      "player": "Ynhaca Purah",
+      "level": 992,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 19:36",
+      "player": "Maguinn Returns",
+      "level": 1829,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 19:33",
+      "player": "Ed farm",
+      "level": 1645,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 18:44",
+      "player": "Dmonick",
+      "level": 1031,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 07, 2026 04:33",
+      "player": "Hao Asakura",
+      "level": 713,
+      "killedBy": "Gizao",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -57244,33 +57352,33 @@
     },
     "members": {
       "last_member_list": [
-        "Gbr Originall",
         "Jovi Baiakera",
-        "Old Jovizera",
-        "Calveludo",
-        "Highlander",
-        "Poring",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "We Edz",
         "Ragekemi",
-        "Osted Dragon",
-        "Papumzada",
-        "Tururu",
+        "Highlander",
+        "Cetoprofeno Intramuscular",
+        "Dont Bica",
         "Android Dezessete",
+        "Lee Br",
+        "Giga",
+        "Arroz Cadela",
+        "We Edz",
+        "Tururu",
+        "Gbr Originall",
+        "Wake Wake",
+        "Scizor",
+        "Calveludo",
+        "Poring",
         "Sabor Knight",
         "Deruz",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Ehotk",
         "JhonzinMilgrau",
-        "Scizor",
-        "Lee Br",
+        "Ehotk",
         "Royal Sniper",
+        "Osted Dragon",
+        "Boltadao",
         "Pittao teensina",
-        "Giga",
-        "Frozen Throne"
+        "Papumzada",
+        "Frozen Throne",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -57826,115 +57934,145 @@
         {
           "name": "Spvitu Rusty",
           "type": "left",
+          "timestamp": "08/06/2026 às 23:57 (Brasília)"
+        },
+        {
+          "name": "Jovi Baiakera",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Leozin Rei Delas",
-          "type": "left",
+          "name": "Ragekemi",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Daann",
-          "type": "left",
+          "name": "Highlander",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Druidao Damassa",
-          "type": "left",
+          "name": "Cetoprofeno Intramuscular",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Pablaodocapao",
-          "type": "left",
+          "name": "Dont Bica",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Trickera",
-          "type": "left",
+          "name": "Android Dezessete",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Maggty Vaqueiro",
-          "type": "left",
+          "name": "Lee Br",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Vitordlpz",
-          "type": "left",
+          "name": "Giga",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Wee Dz",
-          "type": "left",
+          "name": "Arroz Cadela",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Cecil Damon",
-          "type": "left",
+          "name": "We Edz",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Guns",
-          "type": "left",
+          "name": "Tururu",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Krajj",
-          "type": "left",
+          "name": "Gbr Originall",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Pallysupremofoda",
-          "type": "left",
+          "name": "Wake Wake",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Xddx",
-          "type": "left",
+          "name": "Scizor",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Cuffy Dido",
-          "type": "left",
+          "name": "Calveludo",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Carlos Star",
-          "type": "left",
+          "name": "Poring",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Tadala De Cinco",
-          "type": "left",
+          "name": "Sabor Knight",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Banca",
-          "type": "left",
+          "name": "Deruz",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Tankmode",
-          "type": "left",
+          "name": "JhonzinMilgrau",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Its Gui",
-          "type": "left",
+          "name": "Ehotk",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Kawik",
-          "type": "left",
+          "name": "Royal Sniper",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Rei Dfzera",
-          "type": "left",
+          "name": "Osted Dragon",
+          "type": "joined",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Parmegiana",
+          "name": "Boltadao",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pittao teensina",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Papumzada",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Frozen Throne",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Old Jovizera",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Lucasmonot",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -57944,169 +58082,7 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Fpo",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Qiiso Camisadez",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Voltoks",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "kronosnk",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Keelzera",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Joga Preda",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Pala De Sandalia",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        }
-      ],
-      "recent_changes": [
-        {
-          "name": "Ljxiv",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Lucasmonot",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Fazendeiro Ricaria",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Wiill",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Feijao Baiakeironato",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Sauron Knight",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Pelegolas",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Vegas",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Sauron Fubazord",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Incrivel Monk",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Dan De Ek",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Nagato Paladin",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Sinixtro",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Regent Thragg",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Guizzera Overlord",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Mendes",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Wewz Weerterz Weszlew",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Kudo",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Necromancer",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Walace Owns",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Void Pugilista",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Potez",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Roxupano",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Nidiozera",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Tremqchia",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Crowley",
+          "name": "Daann",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -58116,72 +58092,42 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Leozin Rei Delas",
+          "name": "Incrivel Monk",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Daann",
+          "name": "Feijao Baiakeironato",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Druidao Damassa",
+          "name": "Ljxiv",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Pablaodocapao",
+          "name": "Necromancer",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Trickera",
+          "name": "Fazendeiro Ricaria",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Maggty Vaqueiro",
+          "name": "kronosnk",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Vitordlpz",
+          "name": "Roxupano",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Wee Dz",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Cecil Damon",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Guns",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Krajj",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Pallysupremofoda",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Xddx",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Cuffy Dido",
+          "name": "Dan De Ek",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -58191,22 +58137,77 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Tadala De Cinco",
+          "name": "Void Pugilista",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Banca",
+          "name": "Wee Dz",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Tankmode",
+          "name": "Fpo",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Its Gui",
+          "name": "Krajj",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wiill",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Xddx",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Joga Preda",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Mendes",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Vitordlpz",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Keelzera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Walace Owns",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Guns",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tremqchia",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Guizzera Overlord",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Nagato Paladin",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -58221,22 +58222,37 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
+          "name": "Sauron Knight",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tadala De Cinco",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Crowley",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pala De Sandalia",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Banca",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
           "name": "Parmegiana",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Ryxz",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Fpo",
-          "type": "left",
-          "timestamp": "08/06/2026 às 23:59 (Brasília)"
-        },
-        {
-          "name": "Qiiso Camisadez",
+          "name": "Regent Thragg",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -58246,12 +58262,329 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
+          "name": "Sauron Fubazord",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Kudo",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Nidiozera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Vegas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Maggty Vaqueiro",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pablaodocapao",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pelegolas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pallysupremofoda",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Sinixtro",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Cecil Damon",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Leozin Rei Delas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Qiiso Camisadez",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Its Gui",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Trickera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wewz Weerterz Weszlew",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Potez",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tankmode",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Druidao Damassa",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Cuffy Dido",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        }
+      ],
+      "recent_changes": [
+        {
+          "name": "Jovi Baiakera",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Ragekemi",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Highlander",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Dont Bica",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Android Dezessete",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Lee Br",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Giga",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Arroz Cadela",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "We Edz",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tururu",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Gbr Originall",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wake Wake",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Scizor",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Calveludo",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Poring",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Sabor Knight",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Deruz",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "JhonzinMilgrau",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Ehotk",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Royal Sniper",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Osted Dragon",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Boltadao",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pittao teensina",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Papumzada",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Frozen Throne",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Old Jovizera",
+          "type": "joined",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Lucasmonot",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Ryxz",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Daann",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Spvitu Rusty",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Incrivel Monk",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Feijao Baiakeironato",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Ljxiv",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Necromancer",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Fazendeiro Ricaria",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
           "name": "kronosnk",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
-          "name": "Keelzera",
+          "name": "Roxupano",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Dan De Ek",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Carlos Star",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Void Pugilista",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wee Dz",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Fpo",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Krajj",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wiill",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Xddx",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
@@ -58261,7 +58594,187 @@
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         },
         {
+          "name": "Mendes",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Vitordlpz",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Keelzera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Walace Owns",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Guns",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tremqchia",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Guizzera Overlord",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Nagato Paladin",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Kawik",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Rei Dfzera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Sauron Knight",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tadala De Cinco",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Crowley",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
           "name": "Pala De Sandalia",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Banca",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Parmegiana",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Regent Thragg",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Voltoks",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Sauron Fubazord",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Kudo",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Nidiozera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Vegas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Maggty Vaqueiro",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pablaodocapao",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pelegolas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Pallysupremofoda",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Sinixtro",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Cecil Damon",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Leozin Rei Delas",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Qiiso Camisadez",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Its Gui",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Trickera",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Wewz Weerterz Weszlew",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Potez",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Tankmode",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Druidao Damassa",
+          "type": "left",
+          "timestamp": "08/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "name": "Cuffy Dido",
           "type": "left",
           "timestamp": "08/06/2026 às 23:59 (Brasília)"
         }
@@ -58269,33 +58782,33 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Gbr Originall",
         "Jovi Baiakera",
-        "Old Jovizera",
-        "Calveludo",
-        "Highlander",
-        "Poring",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "We Edz",
         "Ragekemi",
-        "Osted Dragon",
-        "Papumzada",
-        "Tururu",
+        "Highlander",
+        "Cetoprofeno Intramuscular",
+        "Dont Bica",
         "Android Dezessete",
+        "Lee Br",
+        "Giga",
+        "Arroz Cadela",
+        "We Edz",
+        "Tururu",
+        "Gbr Originall",
+        "Wake Wake",
+        "Scizor",
+        "Calveludo",
+        "Poring",
         "Sabor Knight",
         "Deruz",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Ehotk",
         "JhonzinMilgrau",
-        "Scizor",
-        "Lee Br",
+        "Ehotk",
         "Royal Sniper",
+        "Osted Dragon",
+        "Boltadao",
         "Pittao teensina",
-        "Giga",
-        "Frozen Throne"
+        "Papumzada",
+        "Frozen Throne",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -58843,8 +59356,138 @@
   },
   "recent_changes": [
     {
-      "name": "Ljxiv",
-      "type": "left",
+      "name": "Jovi Baiakera",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Ragekemi",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Highlander",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Cetoprofeno Intramuscular",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Dont Bica",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Android Dezessete",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Lee Br",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Giga",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Arroz Cadela",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "We Edz",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tururu",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Gbr Originall",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Wake Wake",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Scizor",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Calveludo",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Poring",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Sabor Knight",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Deruz",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "JhonzinMilgrau",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Ehotk",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Royal Sniper",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Osted Dragon",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Boltadao",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pittao teensina",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Papumzada",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Frozen Throne",
+      "type": "joined",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Old Jovizera",
+      "type": "joined",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
@@ -58853,12 +59496,22 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Fazendeiro Ricaria",
+      "name": "Ryxz",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Wiill",
+      "name": "Daann",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Spvitu Rusty",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Incrivel Monk",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -58868,7 +59521,192 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
+      "name": "Ljxiv",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Necromancer",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Fazendeiro Ricaria",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "kronosnk",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Roxupano",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Dan De Ek",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Carlos Star",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Void Pugilista",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Wee Dz",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Fpo",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Krajj",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Wiill",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Xddx",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Joga Preda",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Mendes",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Vitordlpz",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Keelzera",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Walace Owns",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Guns",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tremqchia",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Guizzera Overlord",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Nagato Paladin",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Kawik",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Rei Dfzera",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
       "name": "Sauron Knight",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tadala De Cinco",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Crowley",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pala De Sandalia",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Banca",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Parmegiana",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Regent Thragg",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Voltoks",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Sauron Fubazord",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Kudo",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Nidiozera",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Vegas",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Maggty Vaqueiro",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pablaodocapao",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -58878,27 +59716,7 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Vegas",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Sauron Fubazord",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Incrivel Monk",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Dan De Ek",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Nagato Paladin",
+      "name": "Pallysupremofoda",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -58908,72 +59726,7 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Regent Thragg",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Guizzera Overlord",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Mendes",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Wewz Weerterz Weszlew",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Kudo",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Necromancer",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Walace Owns",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Void Pugilista",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Potez",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Roxupano",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Nidiozera",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Tremqchia",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Crowley",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Spvitu Rusty",
+      "name": "Cecil Damon",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -58983,87 +59736,7 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Daann",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Druidao Damassa",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Pablaodocapao",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Trickera",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Maggty Vaqueiro",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Vitordlpz",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Wee Dz",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Cecil Damon",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Guns",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Krajj",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Pallysupremofoda",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Xddx",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Carlos Star",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Tadala De Cinco",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Banca",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Tankmode",
+      "name": "Qiiso Camisadez",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -59073,134 +59746,49 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Kawik",
+      "name": "Trickera",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Rei Dfzera",
+      "name": "Wewz Weerterz Weszlew",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Parmegiana",
+      "name": "Potez",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Ryxz",
+      "name": "Tankmode",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Fpo",
+      "name": "Druidao Damassa",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Qiiso Camisadez",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Voltoks",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "kronosnk",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Keelzera",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Joga Preda",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Pala De Sandalia",
+      "name": "Cuffy Dido",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     }
   ],
   "changes_log": [
     {
-      "name": "Vegas",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Sauron Fubazord",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Incrivel Monk",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Dan De Ek",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Nagato Paladin",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Sinixtro",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Regent Thragg",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Guizzera Overlord",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Mendes",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Wewz Weerterz Weszlew",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Kudo",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
       "name": "Necromancer",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Walace Owns",
+      "name": "Fazendeiro Ricaria",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Void Pugilista",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Potez",
+      "name": "kronosnk",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -59210,92 +59798,7 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Nidiozera",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Tremqchia",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Crowley",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Spvitu Rusty",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Leozin Rei Delas",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Daann",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Druidao Damassa",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Pablaodocapao",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Trickera",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Maggty Vaqueiro",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Vitordlpz",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Wee Dz",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Cecil Damon",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Guns",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Krajj",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Pallysupremofoda",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Xddx",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
+      "name": "Dan De Ek",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -59305,22 +59808,77 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Tadala De Cinco",
+      "name": "Void Pugilista",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Banca",
+      "name": "Wee Dz",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Tankmode",
+      "name": "Fpo",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Its Gui",
+      "name": "Krajj",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Wiill",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Xddx",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Joga Preda",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Mendes",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Vitordlpz",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Keelzera",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Walace Owns",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Guns",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tremqchia",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Guizzera Overlord",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Nagato Paladin",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -59335,22 +59893,37 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
+      "name": "Sauron Knight",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tadala De Cinco",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Crowley",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pala De Sandalia",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Banca",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
       "name": "Parmegiana",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Ryxz",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Fpo",
-      "type": "left",
-      "timestamp": "08/06/2026 às 23:59 (Brasília)"
-    },
-    {
-      "name": "Qiiso Camisadez",
+      "name": "Regent Thragg",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
@@ -59360,22 +59933,97 @@
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "kronosnk",
+      "name": "Sauron Fubazord",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Keelzera",
+      "name": "Kudo",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Joga Preda",
+      "name": "Nidiozera",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     },
     {
-      "name": "Pala De Sandalia",
+      "name": "Vegas",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Maggty Vaqueiro",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pablaodocapao",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pelegolas",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Pallysupremofoda",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Sinixtro",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Cecil Damon",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Leozin Rei Delas",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Qiiso Camisadez",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Its Gui",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Trickera",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Wewz Weerterz Weszlew",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Potez",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Tankmode",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Druidao Damassa",
+      "type": "left",
+      "timestamp": "08/06/2026 às 23:59 (Brasília)"
+    },
+    {
+      "name": "Cuffy Dido",
       "type": "left",
       "timestamp": "08/06/2026 às 23:59 (Brasília)"
     }
@@ -59663,6 +60311,6 @@
   ],
   "errors": [
     "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
-    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
+    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros."
   ]
 }
