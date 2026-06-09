@@ -123,6 +123,27 @@ def get_telegram_id_from_username(username: str) -> int | None:
     pass  # será preenchido via /start
 
 
+def notify_telegram_all(message: str):
+    """Envia DM no Telegram para todos os usuários com telegram_id cadastrado."""
+    if not TELEGRAM_TOKEN:
+        return
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/profiles?select=telegram_id&telegram_id=not.is.null",
+            headers=SUPA_HEADERS,
+            timeout=10,
+        )
+        profiles = r.json()
+        print(f"[telegram] disparando DM para {len(profiles)} usuários")
+        for p in profiles:
+            tid = p.get("telegram_id")
+            if tid:
+                send_telegram_dm(tid, message)
+                time.sleep(0.1)
+    except Exception as e:
+        print(f"[telegram] erro notify_all: {e}")
+
+
 # ── Notificação por preferência de jogo ───────────────────────────────────────
 
 def notify_new_announcements_dm():
@@ -233,6 +254,7 @@ def run():
         if discord_ok or telegram_ok:
             supa_patch("announcements", {"id": f"eq.{ann['id']}"}, {"discord_sent": True})
             print(f"[discord_notifier] ✅ Aviso enviado: {ann['title']}")
+            notify_telegram_all(f"📢 <b>Aviso da Guilda — Lowly People</b>\n\n{ann.get('content', '')}")
         time.sleep(0.5)
 
     # Verifica votações com discord_notify=true e discord_sent=false
