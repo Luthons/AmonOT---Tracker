@@ -3238,13 +3238,18 @@ async function loadInativos(){
     var cutoff = new Date();
     cutoff.setDate(cutoff.getDate() - 3);
     var cutoffStr = cutoff.toISOString();
-    var {data: chars} = await supaFetch('characters', {
-      select: 'name,last_seen,resets,is_main,profile_id,profiles(display_name)',
-      or: 'last_seen.is.null,last_seen.lt.' + cutoffStr,
-      order: 'last_seen.asc.nullsfirst',
+
+    var {data: oldChars} = await supaFetch('characters', {
+      select:     'name,last_seen,resets,is_main,profile_id,profiles(display_name)',
+      last_seen:  'lt.' + cutoffStr,
+      order:      'last_seen.asc',
+    });
+    var {data: nullChars} = await supaFetch('characters', {
+      select:    'name,last_seen,resets,is_main,profile_id,profiles(display_name)',
+      last_seen: 'is.null',
     });
 
-    chars = chars || [];
+    var chars = [...(oldChars||[]), ...(nullChars||[])];
     var now = new Date();
 
     if(summary) summary.innerHTML = '<strong>'+chars.length+'</strong> personagem'
