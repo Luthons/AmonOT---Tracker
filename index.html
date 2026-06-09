@@ -1602,23 +1602,23 @@ footer span{color:var(--gold-dim)}
 <div class="page" id="page-inactive">
   <div class="cwrap">
     <div class="page-title">😴 Membros Inativos</div>
-    <div class="page-desc">Membros que não logam há mais de 3 dias. Visível apenas para liderança.</div>
+    <div class="page-desc">Personagens sem login há mais de 3 dias. Visível apenas para liderança.</div>
     <div class="page-divider"></div>
     <div class="info-callout" id="inactive-summary"></div>
     <div class="table-wrap" id="inactive-table-wrap">
       <table>
         <thead><tr>
-          <th>Nome</th>
-          <th>Cargo</th>
+          <th>Personagem</th>
+          <th>Dono</th>
+          <th>Vocação</th>
+          <th>Resets</th>
           <th>Último Login</th>
           <th>Dias Inativo</th>
-          <th>Resets</th>
-          <th>Vocação</th>
         </tr></thead>
         <tbody id="inactive-tbody"></tbody>
       </table>
     </div>
-    <footer>Inativos · Baseado no último login registrado no servidor</footer>
+    <footer>Inativos · Baseado em last_seen da tabela characters</footer>
   </div>
 </div>
 
@@ -2517,7 +2517,7 @@ function _navigate(page){
   if(isMob())_closeSidebarMobile();
   if(page==='calendar') loadCalendarData();
   if(page==='deaths_global') renderDeathsGlobal();
-  if(page==='inactive') renderInactive();
+  if(page==='inactive') loadInativos();
   if(page==='announcements') loadAnnouncements();
   if(page==='heatmap') hmInit();
   if(page==='votes') loadVotes();
@@ -3226,50 +3226,57 @@ async function submitAnnouncement(){
 }
 
 // ─── INATIVOS ──────────────────────────────────────────
-function renderInactive(){
+async function loadInativos(){
+  if(!['admin','lider','vice'].includes(getRole())) return;
   var tbody   = document.getElementById('inactive-tbody');
   var summary = document.getElementById('inactive-summary');
   if(!tbody) return;
 
-  var INACTIVE_DAYS = 3;
-  var now = new Date();
+  tbody.innerHTML = '<tr><td colspan="6" style="color:var(--text-dim);font-style:italic;text-align:center">Carregando...</td></tr>';
+  if(summary) summary.innerHTML = '';
 
-  var inactive = allMembers.map(function(m){
-    if(!m.last_login) return null;
-    // Formato: "26/05/2026 às 10:30 (Brasília)" ou "May 26, 2026"
-    var dateStr = m.last_login.replace(/\s*\(.*\)/, '').trim();
-    var dt = new Date(dateStr);
-    if(isNaN(dt.getTime())){
-      // Tenta formato pt-BR dd/mm/yyyy
-      var parts = dateStr.match(/(\d{2})\/(\d{2})\/(\d{4})/);
-      if(parts) dt = new Date(`${parts[3]}-${parts[2]}-${parts[1]}`);
+  try {
+    var cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 3);
+    var cutoffStr = cutoff.toISOString();
+    var {data: chars} = await supaFetch('characters', {
+      select: 'name,last_seen,resets,vocation,profile_id,is_main,profiles(display_name)',
+      or: 'last_seen.is.null,last_seen.lt.' + cutoffStr,
+      order: 'last_seen.asc.nullsfirst',
+    });
+
+    chars = chars || [];
+    var now = new Date();
+
+    if(summary) summary.innerHTML = '<strong>'+chars.length+'</strong> personagem'
+      +(chars.length!==1?'s':'')+' inativo'+(chars.length!==1?'s':'')+' (sem logar há mais de 3 dias).';
+
+    if(!chars.length){
+      tbody.innerHTML = '<tr><td colspan="6" class="empty">Nenhum personagem inativo no momento.</td></tr>';
+      return;
     }
-    if(isNaN(dt.getTime())) return null;
-    var days = Math.floor((now - dt) / (1000 * 60 * 60 * 24));
-    if(days < INACTIVE_DAYS) return null;
-    return {...m, days_inactive: days, last_login_dt: dt};
-  }).filter(Boolean).sort(function(a,b){ return b.days_inactive - a.days_inactive; });
 
-  if(summary) summary.innerHTML = `<strong>${inactive.length}</strong> membro${inactive.length!==1?'s':''} inativo${inactive.length!==1?'s':''} (sem logar há mais de ${INACTIVE_DAYS} dias).`;
-
-  if(!inactive.length){
-    tbody.innerHTML = '<tr><td colspan="6" class="empty">Nenhum membro inativo no momento.</td></tr>';
-    return;
+    tbody.innerHTML = chars.map(function(c){
+      var days = c.last_seen ? Math.floor((now - new Date(c.last_seen)) / 86400000) : null;
+      var daysColor = days === null ? 'var(--text-dim)' : days > 7 ? 'var(--red)' : 'var(--gold-light)';
+      var daysLabel = days !== null ? days+'d' : '—';
+      var lastSeenLabel = c.last_seen
+        ? new Date(c.last_seen).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'})
+        : '<span style="color:var(--text-dim);font-style:italic">Nunca registrado</span>';
+      var owner = (c.profiles && c.profiles.display_name) || '—';
+      var url = 'https://amonot.online/characters?name=' + encodeURIComponent(c.name);
+      return '<tr>'
+        + '<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+c.name+'</a>'+mainBadge(c.name)+'</td>'
+        + '<td style="color:var(--text-dim);font-size:.85rem">'+owner+'</td>'
+        + '<td class="td-voc">'+(c.vocation||'—')+'</td>'
+        + '<td class="td-num">'+(c.resets||0)+'</td>'
+        + '<td style="color:var(--text-dim);font-size:.82rem">'+lastSeenLabel+'</td>'
+        + '<td style="font-family:Cinzel,serif;font-size:.9rem;font-weight:700;color:'+daysColor+'">'+daysLabel+'</td>'
+        + '</tr>';
+    }).join('');
+  } catch(e) {
+    if(tbody) tbody.innerHTML = '<tr><td colspan="6" style="color:var(--red)">Erro: '+e.message+'</td></tr>';
   }
-
-  tbody.innerHTML = inactive.map(function(m){
-    var url  = 'https://amonot.online/characters?name=' + encodeURIComponent(m.name);
-    var rank = m.guild_rank || m.rank || 'Member';
-    var daysColor = m.days_inactive >= 30 ? 'var(--red)' : m.days_inactive >= 14 ? '#e87830' : 'var(--gold-dim)';
-    return '<tr>'
-      + '<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+m.name+'</a></td>'
-      + '<td><span class="badge-rank '+badgeClass(rank)+'">'+rank+'</span></td>'
-      + '<td style="color:var(--text-dim);font-size:.88rem">'+m.last_login+'</td>'
-      + '<td style="font-family:Cinzel,serif;font-size:.9rem;font-weight:700;color:'+daysColor+'">'+m.days_inactive+'d</td>'
-      + '<td class="td-num">'+m.resets+'</td>'
-      + '<td class="td-voc">'+(m.vocation||'—')+'</td>'
-      + '</tr>';
-  }).join('');
 }
 
 // ─── HUNTED LIST ───────────────────────────────────────
