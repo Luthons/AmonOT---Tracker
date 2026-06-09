@@ -7,6 +7,7 @@ Retorna: level, resets, vocation, skills, last_login, guild_rank
 import time
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
@@ -98,6 +99,30 @@ def fetch_character(name: str) -> dict:
         "guild_rank":   guild_rank,
         "former_names": former_names,
     }
+
+
+def fetch_last_seen(char_name: str) -> str | None:
+    """
+    Busca a página do personagem e extrai o Último Login.
+    Retorna string ISO 8601 (sem timezone) ou None.
+    Formato esperado na página: "Jun 08, 2026, 21:11:42"
+    """
+    url = f"https://amonot.online/index.php?page=characters&name={requests.utils.quote(char_name)}"
+    try:
+        r = requests.get(url, timeout=10, headers=HEADERS)
+        soup = BeautifulSoup(r.text, "html.parser")
+        for label in soup.select("span.char-detail-label"):
+            if "Último Login" in label.text or "Last Login" in label.text:
+                value = label.find_next_sibling("span", class_="char-detail-value")
+                if value:
+                    raw = value.text.strip()
+                    try:
+                        dt = datetime.strptime(raw, "%b %d, %Y, %H:%M:%S")
+                        return dt.strftime("%Y-%m-%dT%H:%M:%S")
+                    except Exception:
+                        return None
+    except Exception:
+        return None
 
 
 def fetch_all_characters(members: list, delay: float = DELAY_BETWEEN_REQUESTS) -> list:

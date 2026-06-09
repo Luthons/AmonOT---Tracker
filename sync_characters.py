@@ -7,7 +7,9 @@ Roda junto com o update_full para manter os perfis atualizados.
 
 import json
 import os
+import time
 import requests
+from characters import fetch_last_seen
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
@@ -84,27 +86,36 @@ def run():
         char_id    = char.get("id")
         old_resets = char.get("resets", 0) or 0
 
+        patch_body = {}
+
+        # Verifica mudança de resets
         match = reset_map.get(char_name.lower())
-        if not match:
+        if match and match["resets"] != old_resets:
+            patch_body["resets"] = match["resets"]
+
+        # Busca last_seen da página do personagem
+        last_seen = fetch_last_seen(char_name)
+        if last_seen:
+            patch_body["last_seen"] = last_seen
+        time.sleep(0.5)
+
+        if not patch_body:
             skipped += 1
             continue
 
-        new_resets = match["resets"]
-        if new_resets == old_resets:
-            skipped += 1
-            continue
-
-        # Atualiza resets no Supabase
         try:
             r2 = requests.patch(
                 f"{SUPABASE_URL}/rest/v1/characters",
                 headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
                 params={"id": f"eq.{char_id}"},
-                json={"resets": new_resets},
+                json=patch_body,
                 timeout=10,
             )
             if r2.status_code in (200, 201, 204):
-                print(f"[sync_chars] ✅ {char_name}: {old_resets} → {new_resets}")
+                if "resets" in patch_body:
+                    print(f"[sync_chars] ✅ {char_name}: resets {old_resets} → {patch_body['resets']}" + (f" | last_seen {last_seen}" if last_seen else ""))
+                else:
+                    print(f"[sync_chars] ✅ {char_name}: last_seen {last_seen}")
                 updated += 1
             else:
                 print(f"[sync_chars] ❌ {char_name}: {r2.status_code} {r2.text[:80]}")
