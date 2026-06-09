@@ -2515,6 +2515,43 @@ footer span{color:var(--gold-dim)}
   </div>
 </div>
 
+<!-- ══ MODAL: ONBOARDING — PERSONAGENS ══ -->
+<div class="modal-overlay hidden" id="modal-onboarding-chars" style="z-index:600">
+  <div class="modal">
+    <h2>🧙 Seus Personagens</h2>
+    <p>Cadastre pelo menos um personagem para continuar.</p>
+    <div class="field-row">
+      <label class="field-label">Seus Personagens</label>
+      <div class="char-list" id="ob-char-list"></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:6px">
+        <div style="position:relative">
+          <input class="field-input" type="text" id="ob-char-name" placeholder="Nome do personagem" oninput="charNameLookup('ob-char-name','ob-char-resets','ob-char-hint')">
+          <div id="ob-char-hint" style="position:absolute;left:0;right:0;background:var(--bg4);border:1px solid var(--border-gold);z-index:10;display:none;max-height:150px;overflow-y:auto"></div>
+        </div>
+        <input type="hidden" id="ob-char-resets" value="">
+        <button class="btn" style="padding:8px 12px" onclick="addObChar()">+</button>
+      </div>
+      <div style="font-size:.75rem;color:var(--text-dim);margin-top:4px">Os resets são preenchidos automaticamente se o personagem estiver na guilda.</div>
+    </div>
+    <button class="modal-btn" onclick="submitOnboardingChars()" style="margin-top:16px">Continuar →</button>
+    <div id="ob-chars-status" class="modal-status"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL: ONBOARDING — MAIN CHAR ══ -->
+<div class="modal-overlay hidden" id="modal-onboarding-main" style="z-index:600">
+  <div class="modal">
+    <h2>⭐ Personagem Principal</h2>
+    <p>Selecione o personagem que representa você na guilda. Ele aparecerá com badge dourado no site.</p>
+    <div class="field-row">
+      <label class="field-label">Personagem Principal</label>
+      <select class="field-input" id="ob-main-select"></select>
+    </div>
+    <button class="modal-btn" onclick="submitOnboardingMain()" style="margin-top:16px">Confirmar →</button>
+    <div id="ob-main-status" class="modal-status"></div>
+  </div>
+</div>
+
 <!-- ══ MODAL: PREFERÊNCIAS DE JOGO (obrigatório) ══ -->
 <div class="modal-overlay hidden" id="modal-game-preferences" style="z-index:600">
   <div class="modal">
@@ -4388,14 +4425,7 @@ async function loadProfile(){
       updateAuthUI();
       updateCalendarUI();
       closeModal('modal-login');
-      // Modal obrigatório de preferências para quem ainda não preencheu
-      var prefs = currentProfile.game_preferences;
-      if(!prefs || !prefs.length){
-        showModal('modal-game-preferences');
-      } else {
-        // Popup de novidades — somente se as preferências já foram preenchidas
-        setTimeout(checkWhatsNew, 800);
-      }
+      setTimeout(checkOnboarding, 400);
     } else {
       showModal('modal-register');
     }
@@ -4688,6 +4718,7 @@ async function submitRegister(){
     closeModal('modal-register');
     status.textContent='';
     regChars=[];
+    setTimeout(checkOnboarding, 400);
   } catch(e) {
     status.textContent='Erro: '+e.message;status.className='modal-status err';
   }
@@ -9380,6 +9411,131 @@ function wnToggle(uid){
   }
 }
 
+// ── Onboarding sequencial ────────────────────────────────
+
+var obChars = [];
+
+function addObChar(){
+  var nameEl  = document.getElementById('ob-char-name');
+  var name    = (nameEl.value || '').trim();
+  if(!name) return;
+  if(obChars.find(function(c){ return c.name.toLowerCase() === name.toLowerCase(); })) return;
+  var resetsEl = document.getElementById('ob-char-resets');
+  var resets   = parseInt(resetsEl ? resetsEl.value : '0') || 0;
+  obChars.push({name: name, resets: resets});
+  nameEl.value = '';
+  if(resetsEl) resetsEl.value = '';
+  document.getElementById('ob-char-hint').style.display = 'none';
+  renderObChars();
+}
+
+function removeObChar(i){
+  obChars.splice(i, 1);
+  renderObChars();
+}
+
+function renderObChars(){
+  var list = document.getElementById('ob-char-list');
+  if(!list) return;
+  list.innerHTML = obChars.map(function(c, i){
+    return '<div class="char-item">'
+      +'<span>'+c.name+(c.resets ? ' ('+c.resets+' rs)' : '')+'</span>'
+      +'<button onclick="removeObChar('+i+')" class="char-remove">×</button>'
+      +'</div>';
+  }).join('');
+}
+
+async function submitOnboardingChars(){
+  var status = document.getElementById('ob-chars-status');
+  if(!obChars.length){
+    status.textContent = 'Adicione ao menos um personagem.';
+    status.className   = 'modal-status err';
+    return;
+  }
+  status.textContent = 'Salvando...'; status.className = 'modal-status ok';
+  try {
+    await supaFetch('characters', null, 'POST',
+      obChars.map(function(c){ return {profile_id: currentProfile.id, name: c.name, resets: c.resets}; })
+    );
+    obChars = [];
+    closeModal('modal-onboarding-chars');
+    status.textContent = '';
+    await checkOnboarding();
+  } catch(e){
+    status.textContent = 'Erro: ' + e.message;
+    status.className   = 'modal-status err';
+  }
+}
+
+async function submitOnboardingMain(){
+  var sel    = document.getElementById('ob-main-select');
+  var status = document.getElementById('ob-main-status');
+  var name   = sel ? sel.value : '';
+  if(!name){
+    status.textContent = 'Selecione um personagem.';
+    status.className   = 'modal-status err';
+    return;
+  }
+  status.textContent = 'Salvando...'; status.className = 'modal-status ok';
+  try {
+    await supaFetch('characters?profile_id=eq.'+currentProfile.id, null, 'PATCH', {is_main: false});
+    await supaFetch('characters?profile_id=eq.'+currentProfile.id+'&name=eq.'+encodeURIComponent(name), null, 'PATCH', {is_main: true});
+    currentMainChar = name;
+    mainChars.add(name.toLowerCase());
+    closeModal('modal-onboarding-main');
+    status.textContent = '';
+    await checkOnboarding();
+  } catch(e){
+    status.textContent = 'Erro: ' + e.message;
+    status.className   = 'modal-status err';
+  }
+}
+
+function showOnboardingStep(step, data){
+  if(step === 'chars'){
+    obChars = [];
+    renderObChars();
+    showModal('modal-onboarding-chars');
+  } else if(step === 'main'){
+    var sel = document.getElementById('ob-main-select');
+    if(sel){
+      sel.innerHTML = (data||[]).map(function(c){
+        return '<option value="'+c.name+'">'+c.name+'</option>';
+      }).join('');
+    }
+    showModal('modal-onboarding-main');
+  } else if(step === 'prefs'){
+    showModal('modal-game-preferences');
+  }
+}
+
+async function checkOnboarding(){
+  if(!currentProfile) return;
+
+  var {data: chars} = await supaFetch('characters', {
+    profile_id: 'eq.' + currentProfile.id,
+    select:     'id,name,is_main',
+  });
+  if(!chars || chars.length === 0){
+    showOnboardingStep('chars');
+    return;
+  }
+
+  var hasMain = chars.some(function(c){ return c.is_main; });
+  if(!hasMain){
+    showOnboardingStep('main', chars);
+    return;
+  }
+
+  var prefs = currentProfile.game_preferences;
+  if(!prefs || prefs.length === 0){
+    showOnboardingStep('prefs');
+    return;
+  }
+
+  setTimeout(checkWhatsNew, 400);
+}
+
 async function submitGamePreferences(){
   var selected = ['pvp','pve','expeditions','boss','quests'].filter(function(v){
     var el = document.getElementById('gp-'+v); return el && el.checked;
@@ -9398,7 +9554,7 @@ async function submitGamePreferences(){
     currentProfile.game_preferences = selected;
     closeModal('modal-game-preferences');
     status.textContent = '';
-    setTimeout(checkWhatsNew, 400);
+    setTimeout(checkOnboarding, 400);
   } catch(e) {
     status.textContent = 'Erro: '+e.message;
     status.className = 'modal-status err';
