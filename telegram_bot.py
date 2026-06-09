@@ -32,21 +32,21 @@ def get_updates(offset=None):
 
 
 def register_telegram_id(telegram_id: int, username: str):
-    # Busca perfil pelo telegram_username (com ou sem @)
-    clean = username.lstrip("@")
+    # Normaliza — remove @ se tiver
+    username_clean = username.lstrip("@").lower()
+
+    # Busca com e sem @ no banco
     r = requests.get(
-        f"{SUPABASE_URL}/rest/v1/profiles",
+        f"{SUPABASE_URL}/rest/v1/profiles?select=id&or=(telegram_username.ilike.{username_clean},telegram_username.ilike.@{username_clean})",
         headers=SUPA_HEADERS,
-        params={"telegram_username": f"ilike.%{clean}%", "select": "id"},
         timeout=10,
     )
-    profiles = r.json() if r.status_code == 200 else []
-    if not profiles:
+    profiles = r.json()
+    if not profiles or not isinstance(profiles, list) or len(profiles) == 0:
         return False
     requests.patch(
-        f"{SUPABASE_URL}/rest/v1/profiles",
+        f"{SUPABASE_URL}/rest/v1/profiles?id=eq.{profiles[0]['id']}",
         headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
-        params={"id": f"eq.{profiles[0]['id']}"},
         json={"telegram_id": telegram_id},
         timeout=10,
     )
