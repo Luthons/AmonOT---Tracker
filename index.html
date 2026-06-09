@@ -8952,9 +8952,34 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.30';
+var WHATS_NEW_VERSION = '1.6.31';
 
 var WHATS_NEW_CHANGELOG = [
+  {
+    date: '09/06/2026',
+    items: [
+      {
+        type: 'new',
+        title: 'Personagem Principal (Main Char)',
+        desc: 'Membros agora selecionam seu personagem principal no cadastro e no perfil. O main aparece com badge dourado "M" ao lado do nome em todo o site: lista de membros, kill ranking, KDA, participações e perfil público. O Market agora usa o nome do main char em vez do nome do Google.',
+      },
+      {
+        type: 'fix',
+        title: 'Aba Inativos — reescrita completa',
+        desc: 'A aba de Inativos foi reescrita usando a coluna last_seen dos personagens. Exibe dias inativo, destaca em vermelho quem está há mais de 7 dias offline e em amarelo entre 3-7 dias. Personagens nunca registrados aparecem como "Nunca registrado".',
+      },
+      {
+        type: 'new',
+        title: 'Log de Join na Guilda',
+        desc: 'A aba Administração agora exibe a data de entrada de cada membro na Lowly People. Nova sub-aba "Joins" permite filtrar por data ou ver todos os membros ordenados por data de entrada. Todos os membros atuais foram registrados com data de entrada 08/06/2026.',
+      },
+      {
+        type: 'new',
+        title: 'Notificações via Telegram',
+        desc: 'As notificações de Market agora chegam também pelo Telegram em paralelo ao Discord. Para ativar, cadastre seu @username do Telegram no perfil e envie /start para @LowlyPeople_bot. Veja o passo a passo completo na aba Informações.',
+      },
+    ],
+  },
   {
     date: '08/06/2026',
     items: [
