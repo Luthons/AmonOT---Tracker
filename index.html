@@ -4286,10 +4286,20 @@ async function loadProfile(){
     var {data} = await supaFetch('profiles', {google_id: 'eq.'+currentUser.id});
     if(data && data.length > 0){
       currentProfile = data[0];
+      // Busca personagem principal do usuário de forma síncrona para uso imediato no market
+      var {data: mainCharRows} = await supaFetch('characters', {
+        select:     'name',
+        profile_id: 'eq.' + currentProfile.id,
+        is_main:    'eq.true',
+        limit:      '1',
+      });
+      currentMainChar = (mainCharRows && mainCharRows.length)
+        ? mainCharRows[0].name
+        : currentProfile.display_name;
+      loadMainChars(); // popula mainChars Set para badges de todos os membros
       updateAuthUI();
       updateCalendarUI();
       closeModal('modal-login');
-      loadMainChars();
       // Modal obrigatório de preferências para quem ainda não preencheu
       var prefs = currentProfile.game_preferences;
       if(!prefs || !prefs.length){
@@ -8004,7 +8014,7 @@ async function submitShopListing(){
       type:              _shopCurrentType,
       listing_type:      document.getElementById('shop-listing-type').value || 'sell',
       seller_profile_id: currentProfile.id,
-      seller_name:       currentMainChar || currentProfile.display_name,
+      seller_name:       currentMainChar,
       item_name:         itemName,
       quantity:          qty,
       unit_price:        unitPrice,
@@ -8092,7 +8102,7 @@ async function submitShopInterest(){
     await supaFetch('guild_shop_interests', null, 'POST', {
       shop_id:          _shopInterestId,
       buyer_profile_id: currentProfile.id,
-      buyer_name:       currentMainChar || currentProfile.display_name,
+      buyer_name:       currentMainChar,
       message:          msg,
       discord_sent:     false,
     });
