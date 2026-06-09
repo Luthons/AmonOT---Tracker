@@ -1,12 +1,12 @@
 """
 telegram_bot.py
-Long-polling bot que captura /start e registra o telegram_id
-do usuário no Supabase, vinculando pelo telegram_username do perfil.
+Execução única (cron job): processa updates pendentes do Telegram e encerra.
+O offset é persistido no Supabase (tabela bot_config) para não reprocessar.
 """
 
 import requests
 import os
-import time
+import json
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 SUPABASE_URL   = os.environ.get("SUPABASE_URL")
@@ -19,30 +19,48 @@ SUPA_HEADERS = {
 }
 
 
-def get_updates(offset=None):
-    params = {"timeout": 30}
-    if offset:
-        params["offset"] = offset
+def get_offset():
+    """Busca o último offset processado do Supabase."""
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/bot_config?key=eq.telegram_offset&select=value",
+            headers=SUPA_HEADERS,
+            timeout=10,
+        )
+        data = r.json()
+        return int(data[0]["value"]) if data else 0
+    except Exception:
+        return 0
+
+
+def save_offset(offset):
+    """Salva o offset no Supabase."""
+    requests.post(
+        f"{SUPABASE_URL}/rest/v1/bot_config",
+        headers={**SUPA_HEADERS, "Prefer": "resolution=merge-duplicates"},
+        json={"key": "telegram_offset", "value": str(offset)},
+        timeout=10,
+    )
+
+
+def get_updates(offset):
     r = requests.get(
         f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getUpdates",
-        params=params,
-        timeout=35,
+        params={"offset": offset, "timeout": 0, "limit": 100},
+        timeout=15,
     )
     return r.json().get("result", [])
 
 
-def register_telegram_id(telegram_id: int, username: str):
-    # Normaliza — remove @ se tiver
+def register_telegram_id(telegram_id, username):
     username_clean = username.lstrip("@").lower()
-
-    # Busca com e sem @ no banco
     r = requests.get(
         f"{SUPABASE_URL}/rest/v1/profiles?select=id&or=(telegram_username.ilike.{username_clean},telegram_username.ilike.@{username_clean})",
         headers=SUPA_HEADERS,
         timeout=10,
     )
     profiles = r.json()
-    if not profiles or not isinstance(profiles, list) or len(profiles) == 0:
+    if not profiles or not isinstance(profiles, list) or not profiles:
         return False
     requests.patch(
         f"{SUPABASE_URL}/rest/v1/profiles?id=eq.{profiles[0]['id']}",
@@ -53,7 +71,7 @@ def register_telegram_id(telegram_id: int, username: str):
     return True
 
 
-def send_message(chat_id: int, text: str):
+def send_message(chat_id, text):
     requests.post(
         f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
         json={"chat_id": chat_id, "text": text},
@@ -63,46 +81,35 @@ def send_message(chat_id: int, text: str):
 
 def run():
     if not TELEGRAM_TOKEN or not SUPABASE_URL or not SUPABASE_KEY:
-        print("[telegram_bot] ⚠ variáveis de ambiente incompletas")
+        print("[telegram_bot] configuracao incompleta")
         return
 
-    print("[telegram_bot] iniciando polling...")
-    offset = None
+    offset  = get_offset()
+    updates = get_updates(offset)
 
-    while True:
-        try:
-            updates = get_updates(offset)
-        except Exception as e:
-            print(f"[telegram_bot] erro ao buscar updates: {e}")
-            time.sleep(5)
+    for update in updates:
+        offset = update["update_id"] + 1
+        msg    = update.get("message", {})
+        text   = msg.get("text", "")
+        user   = msg.get("from", {})
+
+        if not text.startswith("/start"):
             continue
 
-        for update in updates:
-            offset = update["update_id"] + 1
-            msg    = update.get("message", {})
-            text   = msg.get("text", "")
-            user   = msg.get("from", {})
+        telegram_id = user["id"]
+        username    = user.get("username", "")
 
-            if not text.startswith("/start"):
-                continue
+        if not username:
+            send_message(telegram_id, "❌ Seu perfil do Telegram não tem username configurado. Configure em Configurações > Nome de usuário e tente novamente.")
+        elif register_telegram_id(telegram_id, username):
+            send_message(telegram_id, "✅ Telegram vinculado com sucesso ao seu perfil da guilda!")
+            print(f"[telegram_bot] vinculado: @{username} -> {telegram_id}")
+        else:
+            send_message(telegram_id, "❌ Username não encontrado. Cadastre seu @username do Telegram no perfil do site primeiro.")
+            print(f"[telegram_bot] username nao encontrado: @{username}")
 
-            telegram_id = user["id"]
-            username    = user.get("username", "")
-
-            if not username:
-                send_message(telegram_id, "❌ Seu usuário do Telegram não tem @username definido. Configure um @username nas configurações do Telegram e tente novamente.")
-                continue
-
-            print(f"[telegram_bot] /start de @{username} (id={telegram_id})")
-
-            if register_telegram_id(telegram_id, username):
-                send_message(telegram_id, "✅ Telegram vinculado com sucesso ao seu perfil da guilda!")
-                print(f"[telegram_bot] ✅ vinculado: @{username} → {telegram_id}")
-            else:
-                send_message(telegram_id, "❌ Username não encontrado. Cadastre seu @username do Telegram no perfil do site primeiro.")
-                print(f"[telegram_bot] ❌ username não encontrado: @{username}")
-
-        time.sleep(1)
+    save_offset(offset)
+    print(f"[telegram_bot] {len(updates)} updates processados")
 
 
 if __name__ == "__main__":
