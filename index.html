@@ -1610,7 +1610,6 @@ footer span{color:var(--gold-dim)}
         <thead><tr>
           <th>Personagem</th>
           <th>Dono</th>
-          <th>Vocação</th>
           <th>Resets</th>
           <th>Último Login</th>
           <th>Dias Inativo</th>
@@ -3232,7 +3231,7 @@ async function loadInativos(){
   var summary = document.getElementById('inactive-summary');
   if(!tbody) return;
 
-  tbody.innerHTML = '<tr><td colspan="6" style="color:var(--text-dim);font-style:italic;text-align:center">Carregando...</td></tr>';
+  tbody.innerHTML = '<tr><td colspan="5" style="color:var(--text-dim);font-style:italic;text-align:center">Carregando...</td></tr>';
   if(summary) summary.innerHTML = '';
 
   try {
@@ -3240,7 +3239,7 @@ async function loadInativos(){
     cutoff.setDate(cutoff.getDate() - 3);
     var cutoffStr = cutoff.toISOString();
     var {data: chars} = await supaFetch('characters', {
-      select: 'name,last_seen,resets,vocation,profile_id,is_main,profiles(display_name)',
+      select: 'name,last_seen,resets,is_main,profile_id,profiles(display_name)',
       or: 'last_seen.is.null,last_seen.lt.' + cutoffStr,
       order: 'last_seen.asc.nullsfirst',
     });
@@ -3252,7 +3251,7 @@ async function loadInativos(){
       +(chars.length!==1?'s':'')+' inativo'+(chars.length!==1?'s':'')+' (sem logar há mais de 3 dias).';
 
     if(!chars.length){
-      tbody.innerHTML = '<tr><td colspan="6" class="empty">Nenhum personagem inativo no momento.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhum personagem inativo no momento.</td></tr>';
       return;
     }
 
@@ -3268,14 +3267,13 @@ async function loadInativos(){
       return '<tr>'
         + '<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+c.name+'</a>'+mainBadge(c.name)+'</td>'
         + '<td style="color:var(--text-dim);font-size:.85rem">'+owner+'</td>'
-        + '<td class="td-voc">'+(c.vocation||'—')+'</td>'
         + '<td class="td-num">'+(c.resets||0)+'</td>'
         + '<td style="color:var(--text-dim);font-size:.82rem">'+lastSeenLabel+'</td>'
         + '<td style="font-family:Cinzel,serif;font-size:.9rem;font-weight:700;color:'+daysColor+'">'+daysLabel+'</td>'
         + '</tr>';
     }).join('');
   } catch(e) {
-    if(tbody) tbody.innerHTML = '<tr><td colspan="6" style="color:var(--red)">Erro: '+e.message+'</td></tr>';
+    if(tbody) tbody.innerHTML = '<tr><td colspan="5" style="color:var(--red)">Erro: '+e.message+'</td></tr>';
   }
 }
 
