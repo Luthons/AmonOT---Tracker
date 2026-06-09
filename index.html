@@ -1742,6 +1742,7 @@ footer span{color:var(--gold-dim)}
       <button class="hm-tab" id="admin-tab-guilds" onclick="adminSetTab('guilds',this)">Guildas Inimigas</button>
       <button class="hm-tab" id="admin-tab-log" onclick="adminSetTab('log',this)" style="display:none">Log de Atividades</button>
       <button class="hm-tab" id="admin-tab-groups" onclick="adminSetTab('groups',this)">Grupos</button>
+      <button class="hm-tab" id="admin-tab-joins" onclick="adminSetTab('joins',this)">Joins</button>
     </div>
 
     <!-- Membros -->
@@ -1763,6 +1764,16 @@ footer span{color:var(--gold-dim)}
     </div>
     <!-- Grupos -->
     <div id="admin-panel-groups" style="display:none"></div>
+
+    <!-- Joins -->
+    <div id="admin-panel-joins" style="display:none">
+      <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center">
+        <input class="field-input" type="date" id="joins-filter-date" style="max-width:180px">
+        <button class="btn-primary" onclick="loadAdminJoins()">Filtrar</button>
+        <button class="btn-secondary" onclick="document.getElementById('joins-filter-date').value='';loadAdminJoins()">Ver todos</button>
+      </div>
+      <div id="admin-joins-content"><div style="color:var(--text-dim);font-style:italic">Carregando...</div></div>
+    </div>
 
     <!-- Log de Atividades -->
     <div id="admin-panel-log" style="display:none">
@@ -5496,7 +5507,7 @@ async function loadAdminData(){
 
   try {
     var {data: profiles} = await supaFetch('profiles', {
-      select: 'id,display_name,role,google_id',
+      select: 'id,display_name,role,google_id,guild_join_date',
       order:  'role.desc,display_name.asc',
       limit:  '200',
     });
@@ -5548,17 +5559,21 @@ function adminRenderTable(profiles){
     var editBtn   = canEdit
       ? '<button class="admin-edit-btn" data-id="'+p.id+'" data-name="'+(p.display_name||'')+'" data-role="'+(p.role||'membro')+'" onclick="openEditMember(this)">Editar</button>'
       : '<span style="color:var(--text-dim);font-size:.75rem">—</span>';
+    var joinDate  = p.guild_join_date
+      ? p.guild_join_date.replace(/(\d{4})-(\d{2})-(\d{2}).*/, '$3/$2/$1')
+      : '—';
 
     return '<tr>'
       +'<td>'+(p.display_name||'—')+'</td>'
       +'<td style="color:var(--text-dim);font-size:.8rem">'+(p.chars||'—')+'</td>'
       +'<td>'+roleBadge+'</td>'
+      +'<td style="color:var(--text-dim);font-size:.8rem">'+joinDate+'</td>'
       +'<td>'+editBtn+'</td>'
       +'</tr>';
   }).join('');
 
   cont.innerHTML = '<table class="admin-table">'
-    +'<thead><tr><th>Nome</th><th>Personagens</th><th>Cargo</th><th></th></tr></thead>'
+    +'<thead><tr><th>Nome</th><th>Personagens</th><th>Cargo</th><th>Entrou em</th><th></th></tr></thead>'
     +'<tbody>'+rows+'</tbody>'
     +'</table>';
 }
@@ -7490,10 +7505,53 @@ function adminSetTab(tab, btn){
   document.getElementById('admin-panel-guilds').style.display  = tab === 'guilds'  ? '' : 'none';
   document.getElementById('admin-panel-log').style.display     = tab === 'log'     ? '' : 'none';
   document.getElementById('admin-panel-groups').style.display  = tab === 'groups'  ? '' : 'none';
+  document.getElementById('admin-panel-joins').style.display   = tab === 'joins'   ? '' : 'none';
   if(tab === 'log')     loadActivityLog(true);
   if(tab === 'guilds')  loadEnemyGuilds();
   if(tab === 'members') loadAdminData();
   if(tab === 'groups')  loadAdminGroups();
+  if(tab === 'joins')   loadAdminJoins();
+}
+
+async function loadAdminJoins(){
+  if(!['admin','lider','vice'].includes(getRole())) return;
+  var cont = document.getElementById('admin-joins-content');
+  if(!cont) return;
+  cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Carregando...</div>';
+
+  var filterDate = document.getElementById('joins-filter-date')?.value || '';
+  var query = {
+    select: 'display_name,role,guild_join_date,characters(name,is_main)',
+    order:  'guild_join_date.desc',
+    limit:  '200',
+  };
+  if(filterDate) query.guild_join_date = 'eq.' + filterDate;
+
+  var {data: joins} = await supaFetch('profiles', query);
+
+  if(!joins || !joins.length){
+    cont.innerHTML = '<div style="color:var(--text-dim);font-style:italic">Nenhum resultado.</div>';
+    return;
+  }
+
+  var rows = joins.map(function(p){
+    var mainChar = (p.characters||[]).find(function(c){ return c.is_main; });
+    var nome = mainChar ? mainChar.name : (p.display_name || '—');
+    var dateStr = p.guild_join_date
+      ? p.guild_join_date.replace(/(\d{4})-(\d{2})-(\d{2}).*/, '$3/$2/$1')
+      : '—';
+    var roleBadge = '<span class="auth-role-badge '+(p.role||'member')+'">'+(ROLE_LABELS[p.role]||'Membro')+'</span>';
+    return '<tr>'
+      +'<td>'+nome+'</td>'
+      +'<td>'+roleBadge+'</td>'
+      +'<td>'+dateStr+'</td>'
+      +'</tr>';
+  }).join('');
+
+  cont.innerHTML = '<table class="admin-table">'
+    +'<thead><tr><th>Personagem</th><th>Cargo</th><th>Entrou em</th></tr></thead>'
+    +'<tbody>'+rows+'</tbody>'
+    +'</table>';
 }
 
 async function loadEnemyGuilds(){
