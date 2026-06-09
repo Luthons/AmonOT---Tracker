@@ -9007,7 +9007,7 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.31';
+var WHATS_NEW_VERSION = '1.6.32';
 
 var WHATS_NEW_CHANGELOG = [
   {
@@ -9032,6 +9032,16 @@ var WHATS_NEW_CHANGELOG = [
         type: 'new',
         title: 'Notificações via Telegram',
         desc: 'As notificações de Market agora chegam também pelo Telegram em paralelo ao Discord. Para ativar, cadastre seu @username do Telegram no perfil e envie /start para @LowlyPeople_bot. Veja o passo a passo completo na aba Informações.',
+      },
+      {
+        type: 'improvement',
+        title: 'Notificações Telegram — Avisos com @everyone',
+        desc: 'Quando um aviso é enviado com notificação para todos, o Telegram agora recebe em três frentes: mensagem no grupo da guilda, DM individual para cada membro com Telegram cadastrado, e o Discord segue normalmente com @everyone no canal.',
+      },
+      {
+        type: 'improvement',
+        title: 'Notificações Telegram — Market',
+        desc: 'As notificações de itens novos e saídas do Market agora chegam também pelo Telegram em paralelo ao Discord, para todos os membros com Telegram vinculado.',
       },
     ],
   },
