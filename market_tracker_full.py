@@ -13,9 +13,10 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 
-DISCORD_TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
-SUPABASE_URL  = os.environ.get("SUPABASE_URL", "")
-SUPABASE_KEY  = os.environ.get("SUPABASE_SERVICE_KEY", "")
+DISCORD_TOKEN  = os.environ.get("DISCORD_BOT_TOKEN", "")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+SUPABASE_URL   = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY   = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 MARKET_URLS = [
     {"rarity": 1, "label": "Uncommon", "color": 0x6EC96E, "emoji": "🟢"},
@@ -50,7 +51,8 @@ def supa_get(table: str, params: dict) -> list:
 
 
 def load_users_cache() -> dict:
-    profiles = supa_get("profiles", {"discord_id": "not.is.null", "select": "id,discord_id"})
+    profiles = supa_get("profiles", {"select": "id,discord_id,telegram_id"})
+    profiles = [p for p in profiles if p.get("discord_id") or p.get("telegram_id")]
     if not profiles:
         return {}
     profile_ids = [p["id"] for p in profiles]
@@ -61,18 +63,17 @@ def load_users_cache() -> dict:
     settings_map = {row["profile_id"]: row for row in settings_rows}
     cache = {}
     for p in profiles:
-        discord_id = p["discord_id"]
-        if not discord_id or not discord_id.strip():
-            continue
         row = settings_map.get(p["id"], {})
-        cache[discord_id] = {
-            "rarities":   row.get("market_dm_rarities")   or ["all"],
-            "vocations":  row.get("market_dm_vocations")  or ["all"],
-            "categories": row.get("market_dm_categories") or ["all"],
-            "attrs":      row.get("market_dm_attrs")      or [],
-            "blacklist":    [x.lower() for x in (row.get("market_dm_blacklist") or [])],
-            "whitelist":    [x.lower() for x in (row.get("market_dm_whitelist") or [])],
-            "notify_left":  row.get("market_dm_notify_left", True),
+        cache[p["id"]] = {
+            "discord_id":  p.get("discord_id"),
+            "telegram_id": p.get("telegram_id"),
+            "rarities":    row.get("market_dm_rarities")   or ["all"],
+            "vocations":   row.get("market_dm_vocations")  or ["all"],
+            "categories":  row.get("market_dm_categories") or ["all"],
+            "attrs":       row.get("market_dm_attrs")      or [],
+            "blacklist":   [x.lower() for x in (row.get("market_dm_blacklist") or [])],
+            "whitelist":   [x.lower() for x in (row.get("market_dm_whitelist") or [])],
+            "notify_left": row.get("market_dm_notify_left", True),
         }
     print(f"[market_full] cache: {len(cache)} usuários")
     return cache
@@ -258,6 +259,17 @@ def send_dm(channel_id: str, embed: dict):
     return False
 
 
+def send_telegram_dm(telegram_id: int, message: str) -> bool:
+    if not TELEGRAM_TOKEN or not telegram_id:
+        return False
+    r = requests.post(
+        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+        json={"chat_id": telegram_id, "text": message, "parse_mode": "HTML"},
+        timeout=10,
+    )
+    return r.status_code == 200
+
+
 def build_embed_removed(item: dict, rarity_info: dict, minutes: int) -> dict:
     return {
         "title":       f"Item Saiu — {rarity_info['label']} — {item['name']}",
@@ -337,14 +349,21 @@ def run():
             print(f"[market_full] ❌ {item['name']} ({label}) — {minutes} min")
             save_market_history(item, rarity, "left", minutes)
             embed = build_embed_removed(item, rarity_info, minutes)
-            for discord_id, prefs in users_cache.items():
+            for profile_id, prefs in users_cache.items():
                 if not prefs.get("notify_left", True):
                     continue
                 if not should_notify(prefs, rarity, item["name"], item.get("attrs", ""), items_db):
                     continue
-                ch = get_dm_channel(discord_id)
-                if ch:
-                    send_dm(ch, embed)
+                # Discord
+                if prefs.get("discord_id"):
+                    ch = get_dm_channel(prefs["discord_id"])
+                    if ch:
+                        send_dm(ch, embed)
+                # Telegram
+                if prefs.get("telegram_id") and prefs.get("notify_left", True):
+                    rarity_label = label
+                    msg = f"❌ <b>Item saiu do Market</b>\n📦 <b>{item['name']}</b>\n⭐ {rarity_label}\n⏱ Ficou {minutes} min disponível"
+                    send_telegram_dm(prefs["telegram_id"], msg)
                 time.sleep(0.3)
 
         # Registra novos no histórico (sem DM — já feito pelo realtime)
