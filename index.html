@@ -2435,6 +2435,12 @@ footer span{color:var(--gold-dim)}
         <label class="mkt-attr-chk"><input type="checkbox" id="reg-gp-quests" value="quests"> Quests</label>
       </div>
     </div>
+    <div class="field-row" id="reg-main-char-row" style="display:none">
+      <label class="field-label">Personagem Principal *</label>
+      <select class="field-input" id="reg-main-char">
+        <option value="">Selecione...</option>
+      </select>
+    </div>
     <button class="modal-btn" onclick="submitRegister()">Finalizar Cadastro</button>
     <div id="register-status" class="modal-status"></div>
   </div>
@@ -2591,6 +2597,25 @@ function isLoggedIn(){ return !!currentProfile; }
 
 // ─── GUILD TABLE ───────────────────────────────────────
 var allMembers=[],currentFilter='all',currentSort={key:'rank',dir:'asc'};
+var mainChars = new Set();
+var currentMainChar = '';
+
+function mainBadge(name){
+  return mainChars.has((name||'').toLowerCase())
+    ? ' <span style="color:var(--gold-light);font-size:.7rem;font-family:Cinzel,serif">M</span>'
+    : '';
+}
+
+async function loadMainChars(){
+  try {
+    var {data} = await supaFetch('characters', {is_main: 'eq.true', select: 'name,profile_id'});
+    mainChars = new Set((data||[]).map(function(c){ return c.name.toLowerCase(); }));
+    if(currentProfile){
+      var mine = (data||[]).find(function(c){ return c.profile_id === currentProfile.id; });
+      if(mine) currentMainChar = mine.name;
+    }
+  } catch(e){ /* silently fail */ }
+}
 var rankOrder={'the leader':0,'leader':0,'vice-leader':1,'vice leader':1,'member':2,'':3};
 function getRankOrder(r){return rankOrder[(r||'').toLowerCase()]??3}
 function setFilter(f,btn){currentFilter=f;document.querySelectorAll('.filter-btns .btn').forEach(function(b){b.classList.remove('active')});btn.classList.add('active');renderTable()}
@@ -2642,7 +2667,7 @@ function renderTable(){
       '<tr>'
       +'<td style="padding:8px 6px;text-align:center"><button class="expand-btn" data-rid="'+rid+'" title="Ver detalhes">&#9658;</button></td>'
       +'<td><span class="badge-rank '+badgeClass(rank)+'">'+rank+'</span></td>'
-      +'<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+m.name+'</a>'+hiddenTag+'</td>'
+      +'<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+m.name+'</a>'+mainBadge(m.name)+hiddenTag+'</td>'
       +'<td class="td-num">'+m.level+'</td>'
       +'<td class="td-num">'+m.resets+'</td>'
       +'<td class="td-voc">'+(m.vocation||'—')+'</td>'
@@ -4259,6 +4284,7 @@ async function loadProfile(){
       updateAuthUI();
       updateCalendarUI();
       closeModal('modal-login');
+      loadMainChars();
       // Modal obrigatório de preferências para quem ainda não preencheu
       var prefs = currentProfile.game_preferences;
       if(!prefs || !prefs.length){
@@ -4457,6 +4483,16 @@ function renderRegChars(){
       <button class="char-remove" onclick="removeRegChar(${i})">✕</button>
     </div>`
   ).join('');
+  var sel = document.getElementById('reg-main-char');
+  var row = document.getElementById('reg-main-char-row');
+  if(sel && row){
+    row.style.display = regChars.length ? 'block' : 'none';
+    var cur = sel.value;
+    sel.innerHTML = '<option value="">Selecione...</option>'
+      + regChars.map(function(c){
+          return '<option value="'+c.name+'"'+(c.name===cur?' selected':'')+'>'+c.name+'</option>';
+        }).join('');
+  }
 }
 
 async function submitRegister(){
@@ -4472,9 +4508,11 @@ async function submitRegister(){
     var el = document.getElementById('reg-gp-'+v); return el && el.checked;
   });
 
+  var mainChar = document.getElementById('reg-main-char')?.value || '';
   if(!invite){status.textContent='Código de convite obrigatório.';status.className='modal-status err';return}
   if(!discord){status.textContent='Username do Discord obrigatório.';status.className='modal-status err';return}
   if(!regGamePrefs.length){status.textContent='Selecione ao menos uma preferência de jogo.';status.className='modal-status err';return}
+  if(regChars.length && !mainChar){status.textContent='Selecione o personagem principal.';status.className='modal-status err';return}
 
   status.textContent='Verificando código...';status.className='modal-status ok';
 
@@ -4523,6 +4561,12 @@ async function submitRegister(){
       await supaFetch('characters', null, 'POST',
         regChars.map(c=>({profile_id: profile.id, name: c.name, resets: c.resets}))
       );
+      // Marca personagem principal
+      if(mainChar){
+        await supaFetch('characters?profile_id=eq.'+profile.id+'&name=eq.'+encodeURIComponent(mainChar), null, 'PATCH', {is_main: true});
+        currentMainChar = mainChar;
+        mainChars.add(mainChar.toLowerCase());
+      }
     }
 
     // Marca código como usado
@@ -4584,6 +4628,13 @@ async function openProfile(){
         <button class="btn" style="padding:8px 12px" onclick="addCharToProfile()">+</button>
       </div>
       <input type="hidden" id="prof-char-resets-hidden">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Personagem Principal</label>
+      <select class="field-input" id="prof-main-char">
+        <option value="">Nenhum</option>
+        ${(chars||[]).map(c=>`<option value="${c.name}"${c.is_main?' selected':''} >${c.name}</option>`).join('')}
+      </select>
     </div>
     <div class="field-row">
       <label class="field-label">Preferências de Jogo</label>
@@ -4849,6 +4900,18 @@ async function saveProfile(){
     currentProfile.discord_id        = discordId;
     currentProfile.death_dm          = deathDm;
     currentProfile.game_preferences  = gamePrefs;
+
+    // Salva personagem principal
+    var mainCharSel = document.getElementById('prof-main-char')?.value ?? '';
+    await supaFetch('characters?profile_id=eq.'+currentProfile.id, null, 'PATCH', {is_main: false});
+    if(mainCharSel){
+      await supaFetch('characters?profile_id=eq.'+currentProfile.id+'&name=eq.'+encodeURIComponent(mainCharSel), null, 'PATCH', {is_main: true});
+      currentMainChar = mainCharSel;
+      mainChars.add(mainCharSel.toLowerCase());
+    } else {
+      currentMainChar = '';
+    }
+
     status.textContent='Salvo!';
     status.className='modal-status ok';
   } catch(e) {
@@ -6166,7 +6229,7 @@ async function loadKillRanking() {
       var hl    = i < 3 ? 'color:var(--gold-light)' : '';
       html += '<tr>'
         +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
-        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" onclick="openPlayerProfile(this.dataset.name)" data-name="'+r.killer+'">'+r.killer+'</span></td>'
+        +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" onclick="openPlayerProfile(this.dataset.name)" data-name="'+r.killer+'">'+r.killer+'</span>'+mainBadge(r.killer)+'</td>'
         +'<td style="font-size:.9rem;font-weight:600;color:var(--gold-light)">'+r.points+'</td>'
         +'<td style="color:var(--red);font-size:.82rem">'+r.kills+'</td>'
         +'<td style="color:var(--text-dim);font-size:.82rem">'+r.assists+'</td>'
@@ -7124,7 +7187,7 @@ async function loadKDA(){
         html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Pontos</th><th>Data</th></tr></thead><tbody>'
           + playerKills.map(function(k){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span></td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span>'+mainBadge(k.victim)+'</td>'
               +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
               +'<td style="color:var(--gold-light);font-weight:600">'+k.points+'</td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
@@ -7141,7 +7204,7 @@ async function loadKDA(){
         html += '<table class="admin-table" style="margin-bottom:24px"><thead><tr><th>Morto por</th><th>Data</th></tr></thead><tbody>'
           + playerDeaths.map(function(d){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+d.killedBy+'" onclick="openPlayerProfile(this.dataset.name)">'+d.killedBy+'</span></td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+d.killedBy+'" onclick="openPlayerProfile(this.dataset.name)">'+d.killedBy+'</span>'+mainBadge(d.killedBy)+'</td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDeathDate(d.time)+'</td>'
               +'</tr>';
           }).join('')
@@ -7156,7 +7219,7 @@ async function loadKDA(){
         html += '<table class="admin-table"><thead><tr><th>Vítima</th><th>Resets Vítima</th><th>Data</th></tr></thead><tbody>'
           + playerAssists.map(function(k){
             return '<tr>'
-              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span></td>'
+              +'<td style="font-family:Cinzel,serif;font-size:.8rem"><span class="player-link" data-name="'+k.victim+'" onclick="openPlayerProfile(this.dataset.name)">'+k.victim+'</span>'+mainBadge(k.victim)+'</td>'
               +'<td style="color:var(--text-dim);font-size:.8rem">'+(k.victim_resets||0)+' rr</td>'
               +'<td style="color:var(--text-dim);font-size:.75rem">'+fmtDate(k.kill_time)+'</td>'
               +'</tr>';
@@ -7191,7 +7254,7 @@ async function loadKDA(){
         var kdaColor = r.kda >= 2 ? 'var(--online)' : r.kda >= 1 ? 'var(--gold-light)' : 'var(--red)';
         return '<tr>'
           +'<td style="font-size:.8rem;'+hl+'">'+medal+'</td>'
-          +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" data-name="'+r.player+'" onclick="openPlayerProfile(this.dataset.name)">'+r.player+'</span></td>'
+          +'<td style="font-family:Cinzel,serif;font-size:.82rem;'+hl+'"><span class="player-link" data-name="'+r.player+'" onclick="openPlayerProfile(this.dataset.name)">'+r.player+'</span>'+mainBadge(r.player)+'</td>'
           +'<td style="font-weight:600;color:'+kdaColor+'">'+r.kda.toFixed(2)+'</td>'
           +'<td style="color:var(--online);font-size:.82rem">'+r.kills+'</td>'
           +'<td style="color:var(--red);font-size:.82rem">'+r.deaths+'</td>'
@@ -7936,7 +7999,7 @@ async function submitShopListing(){
       type:              _shopCurrentType,
       listing_type:      document.getElementById('shop-listing-type').value || 'sell',
       seller_profile_id: currentProfile.id,
-      seller_name:       currentProfile.display_name,
+      seller_name:       currentMainChar || currentProfile.display_name,
       item_name:         itemName,
       quantity:          qty,
       unit_price:        unitPrice,
@@ -8024,7 +8087,7 @@ async function submitShopInterest(){
     await supaFetch('guild_shop_interests', null, 'POST', {
       shop_id:          _shopInterestId,
       buyer_profile_id: currentProfile.id,
-      buyer_name:       currentProfile.display_name,
+      buyer_name:       currentMainChar || currentProfile.display_name,
       message:          msg,
       discord_sent:     false,
     });
@@ -9262,8 +9325,8 @@ function _huntTableHTML(players){
     var info = getPlayerInfo(p.name);
     var vocShort = VOC_SHORT[(info.vocation||'').toLowerCase()] || info.vocation;
     var nameCell = member
-      ? '<span class="hunt-member">🛡 '+p.name+'</span>'
-      : p.name;
+      ? '<span class="hunt-member">🛡 '+p.name+'</span>'+mainBadge(p.name)
+      : p.name+mainBadge(p.name);
     var bar = '<div class="hunt-bar-wrap"><div class="hunt-bar-fill" style="width:'+pct+'%"></div></div>';
     return '<tr>'
       +'<td>'+nameCell+'</td>'
@@ -9511,8 +9574,8 @@ async function loadHuntReport() {
       var barColor = member ? 'var(--gold-light)' : 'rgba(255,255,255,.18)';
       var pct = Math.round((entry.count / max) * 100);
       var nameCell = member
-        ? '<span class="hunt-member">'+entry.name+' 🛡</span>'
-        : entry.name;
+        ? '<span class="hunt-member">'+entry.name+' 🛡</span>'+mainBadge(entry.name)
+        : entry.name+mainBadge(entry.name);
       var bar = '<div class="hunt-bar-wrap" style="min-width:120px">'
               + '<div class="hunt-bar-fill" style="width:'+pct+'%;background:'+barColor+'"></div>'
               + '</div>';
