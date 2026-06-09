@@ -2424,6 +2424,10 @@ footer span{color:var(--gold-dim)}
       <input class="field-input" type="text" id="reg-discord" placeholder="Ex: luthons">
     </div>
     <div class="field-row">
+      <label class="field-label">Username do Telegram</label>
+      <input class="field-input" type="text" id="reg-telegram" placeholder="@seunome">
+    </div>
+    <div class="field-row">
       <label class="field-label">Seus Personagens</label>
       <div class="char-list" id="reg-char-list"></div>
       <div style="display:grid;grid-template-columns:1fr auto;gap:6px">
@@ -4544,8 +4548,9 @@ async function submitRegister(){
   var pendingName = document.getElementById('reg-char-name') && document.getElementById('reg-char-name').value.trim();
   if(pendingName) addCharToForm();
 
-  var invite  = document.getElementById('reg-invite').value.trim().toUpperCase();
-  var discord = document.getElementById('reg-discord').value.trim();
+  var invite   = document.getElementById('reg-invite').value.trim().toUpperCase();
+  var discord  = document.getElementById('reg-discord').value.trim();
+  var telegram = document.getElementById('reg-telegram').value.trim();
   var status  = document.getElementById('register-status');
 
   var regGamePrefs = ['pvp','pve','expeditions','boss','quests'].filter(function(v){
@@ -4589,8 +4594,9 @@ async function submitRegister(){
       google_id:        currentUser.id,
       email:            currentUser.email,
       display_name:     currentUser.user_metadata?.full_name || currentUser.email,
-      discord_username: discord,
-      role:             'novato',
+      discord_username:  discord,
+      telegram_username: telegram || null,
+      role:              'novato',
       novato_since:     new Date().toISOString(),
       game_preferences: regGamePrefs,
     });
@@ -4648,6 +4654,10 @@ async function openProfile(){
     <div class="field-row">
       <label class="field-label">Discord Username</label>
       <input class="field-input" type="text" id="prof-discord" value="${currentProfile.discord_username||''}" placeholder="Ex: luthons">
+    </div>
+    <div class="field-row">
+      <label class="field-label">Username do Telegram</label>
+      <input class="field-input" type="text" id="prof-telegram" value="${currentProfile.telegram_username||''}" placeholder="@seunome">
     </div>
     <div class="field-row">
       <label class="field-label">Discord ID <span style="font-size:.75rem;color:var(--text-dim)">(para receber notificações de morte)</span></label>
@@ -4919,6 +4929,7 @@ async function removeChar(charId){
 
 async function saveProfile(){
   var discord    = document.getElementById('prof-discord').value.trim();
+  var telegram   = document.getElementById('prof-telegram').value.trim();
   var discordId  = document.getElementById('prof-discord-id').value.trim();
   var deathDm    = document.getElementById('prof-death-dm').checked;
   var status     = document.getElementById('profile-status');
@@ -4930,6 +4941,7 @@ async function saveProfile(){
   try {
     await supaFetch('profiles?id=eq.'+currentProfile.id, null, 'PATCH', {
       discord_username:  discord,
+      telegram_username: telegram || null,
       discord_id:        discordId || null,
       death_dm:          deathDm,
       game_preferences:  gamePrefs,
@@ -4941,6 +4953,7 @@ async function saveProfile(){
     });
 
     currentProfile.discord_username  = discord;
+    currentProfile.telegram_username = telegram || null;
     currentProfile.discord_id        = discordId;
     currentProfile.death_dm          = deathDm;
     currentProfile.game_preferences  = gamePrefs;
