@@ -3250,6 +3250,19 @@ async function loadInativos(){
     });
 
     var chars = [...(oldChars||[]), ...(nullChars||[])];
+
+    // Busca personagem principal de cada perfil para exibir na coluna Dono
+    var profileIds = [...new Set(chars.map(function(c){ return c.profile_id; }).filter(Boolean))];
+    var mainMap = {};
+    if(profileIds.length){
+      var {data: mains} = await supaFetch('characters', {
+        select:     'name,profile_id',
+        is_main:    'eq.true',
+        profile_id: 'in.('+profileIds.join(',')+')',
+      });
+      (mains||[]).forEach(function(m){ mainMap[m.profile_id] = m.name; });
+    }
+
     var now = new Date();
 
     if(summary) summary.innerHTML = '<strong>'+chars.length+'</strong> personagem'
@@ -3267,7 +3280,7 @@ async function loadInativos(){
       var lastSeenLabel = c.last_seen
         ? new Date(c.last_seen).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'})
         : '<span style="color:var(--text-dim);font-style:italic">Nunca registrado</span>';
-      var owner = (c.profiles && c.profiles.display_name) || '—';
+      var owner = mainMap[c.profile_id] || (c.profiles && c.profiles.display_name) || '—';
       var url = 'https://amonot.online/characters?name=' + encodeURIComponent(c.name);
       return '<tr>'
         + '<td class="td-name"><a href="'+url+'" target="_blank" rel="noopener">'+c.name+'</a>'+mainBadge(c.name)+'</td>'
