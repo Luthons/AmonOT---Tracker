@@ -121,6 +121,11 @@ td{padding:9px 13px;font-size:1rem;white-space:nowrap}
 .page-desc{font-size:.95rem;color:var(--text-dim);margin-bottom:28px}
 .page-divider{height:1px;background:linear-gradient(90deg,var(--border-gold),transparent);margin-bottom:28px}
 .info-callout{background:rgba(201,168,76,.06);border:1px solid var(--border-gold);padding:13px 15px;margin-bottom:18px;font-size:.9rem;color:var(--text-dim);line-height:1.6}
+.info-section{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:22px 24px;display:flex;flex-direction:column;gap:16px}
+.info-title{font-family:'Cinzel',serif;font-size:.9rem;color:var(--gold-light);margin:0 0 4px;display:flex;align-items:center;gap:8px}
+.info-desc{font-size:.85rem;color:var(--text-dim);margin:0;line-height:1.6}
+.info-step{display:flex;gap:14px;font-size:.82rem;color:var(--text);line-height:1.6}
+.info-step-num{flex-shrink:0;width:24px;height:24px;border-radius:50%;background:rgba(201,168,76,.12);border:1px solid var(--border-gold);color:var(--gold-light);font-family:'Cinzel',serif;font-size:.7rem;display:flex;align-items:center;justify-content:center;margin-top:2px}
 .info-callout strong{color:var(--gold-light);font-weight:600}
 .day-info{font-size:.82rem;color:var(--text-dim);margin-bottom:18px;font-style:italic}
 .no-data{color:var(--text-dim);font-style:italic;padding:12px 0}
@@ -2129,6 +2134,56 @@ footer span{color:var(--gold-dim)}
           <div><span style="color:var(--gold-light);font-family:'Cinzel',serif;font-size:.72rem;margin-right:8px">04</span>Pronto — o canal está aberto e o bot consegue te enviar DMs</div>
           <div style="background:var(--bg3);border-left:3px solid var(--gold-dim);padding:10px 14px;border-radius:0 4px 4px 0;margin-top:4px;color:var(--text-dim);font-size:.77rem">
             ⚠️ Se não fizer isso, as notificações de mortes PvP, lembretes de eventos, market e rifas <strong>não vão chegar</strong>.
+          </div>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <h3 class="info-title">🤖 Como ativar notificações pelo Telegram</h3>
+        <p class="info-desc">Receba as mesmas notificações do Discord diretamente no seu Telegram. Siga o passo a passo abaixo:</p>
+
+        <div class="info-step">
+          <span class="info-step-num">1</span>
+          <div>
+            <b>Tenha um username configurado no Telegram</b><br>
+            Abra o Telegram → toque no ícone de menu (☰) → <b>Configurações</b> → toque no seu nome no topo → <b>Editar</b> → preencha o campo <b>Nome de usuário</b> com um @username único (ex: @seunome).<br>
+            <span style="color:var(--text-dim);font-size:.85rem">⚠ Se você já tem um username configurado, pule para o passo 2.</span>
+          </div>
+        </div>
+
+        <div class="info-step">
+          <span class="info-step-num">2</span>
+          <div>
+            <b>Cadastre seu username no perfil do site</b><br>
+            Acesse sua conta no site → clique no seu nome no canto superior direito → <b>Perfil</b> → localize o campo <b>Username do Telegram</b> → digite seu username <b>sem o @</b> (ex: seunome) → clique em <b>Salvar</b>.
+          </div>
+        </div>
+
+        <div class="info-step">
+          <span class="info-step-num">3</span>
+          <div>
+            <b>Inicie uma conversa com o bot</b><br>
+            No Telegram, pesquise por <b>@LowlyPeople_bot</b> ou clique no link: <a href="https://t.me/LowlyPeople_bot" target="_blank" style="color:var(--gold-light)">t.me/LowlyPeople_bot</a><br>
+            Toque em <b>Iniciar</b> ou envie o comando <b>/start</b>.<br>
+            <span style="color:var(--text-dim);font-size:.85rem">⚠ É obrigatório iniciar conversa com o bot — o Telegram não permite receber mensagens de bots sem essa etapa.</span>
+          </div>
+        </div>
+
+        <div class="info-step">
+          <span class="info-step-num">4</span>
+          <div>
+            <b>Aguarde a confirmação</b><br>
+            Em até 1 minuto o bot responderá: <b>"✅ Telegram vinculado com sucesso ao seu perfil da guilda!"</b><br>
+            Se aparecer uma mensagem de erro, verifique se o username foi salvo corretamente no passo 2 e tente novamente.<br>
+            <span style="color:var(--text-dim);font-size:.85rem">⚠ Certifique-se de que o username no site é exatamente igual ao do Telegram (sem @, sem espaços, sem letras maiúsculas a mais).</span>
+          </div>
+        </div>
+
+        <div class="info-step">
+          <span class="info-step-num">5</span>
+          <div>
+            <b>Pronto! As notificações estão ativas</b><br>
+            A partir de agora você receberá as notificações de Market e eventos da guilda direto no seu Telegram, no mesmo formato do Discord.
           </div>
         </div>
       </div>
