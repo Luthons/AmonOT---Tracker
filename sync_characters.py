@@ -9,6 +9,7 @@ import json
 import os
 import time
 import requests
+from datetime import date
 from characters import fetch_last_seen
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
@@ -123,6 +124,23 @@ def run():
             print(f"[sync_chars] erro ao atualizar {char_name}: {e}")
 
     print(f"[sync_chars] ✅ {updated} atualizados | {skipped} sem mudança/não encontrado")
+
+    # Define guild_join_date para profiles que ainda não têm (novos membros)
+    try:
+        today = date.today().isoformat()
+        r = requests.patch(
+            f"{SUPABASE_URL}/rest/v1/profiles",
+            headers={**SUPA_HEADERS, "Prefer": "return=minimal"},
+            params={"guild_join_date": "is.null"},
+            json={"guild_join_date": today},
+            timeout=10,
+        )
+        if r.status_code in (200, 201, 204):
+            print(f"[sync_chars] ✅ guild_join_date={today} aplicado a profiles sem data")
+        else:
+            print(f"[sync_chars] ⚠ guild_join_date: {r.status_code} {r.text[:80]}")
+    except Exception as e:
+        print(f"[sync_chars] erro guild_join_date: {e}")
 
 
 if __name__ == "__main__":
