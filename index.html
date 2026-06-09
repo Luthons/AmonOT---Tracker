@@ -8785,9 +8785,34 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.29';
+var WHATS_NEW_VERSION = '1.6.30';
 
 var WHATS_NEW_CHANGELOG = [
+  {
+    date: '08/06/2026',
+    items: [
+      {
+        type: 'fix',
+        title: 'Market — Arcos e Bestas adicionados',
+        desc: 'Inseridos 41 itens de Arco e Besta faltantes no items_db que causavam o filtro de categoria Arco/Besta aparecer vazio no Market.',
+      },
+      {
+        type: 'fix',
+        title: 'Administração — cargo Novato exibido corretamente',
+        desc: 'Corrigido bug onde membros com cargo Novato apareciam como "Membro" na aba de Administração. Adicionado ROLE_LABELS para o cargo novato.',
+      },
+      {
+        type: 'new',
+        title: 'Preferências de Jogo',
+        desc: 'Membros agora definem suas preferências de jogo (PvP, PvE, Expeditions, Boss, Quests) no cadastro e no perfil. Modal obrigatório para membros antigos ao logar. Sub-aba "Grupos" na Administração permite filtrar membros por preferência.',
+      },
+      {
+        type: 'new',
+        title: 'Notificações por DM — Grupos',
+        desc: 'Ao criar Eventos ou Avisos, a staff seleciona quais grupos recebem DM no Discord. O bot dispara as notificações automaticamente para membros com as preferências correspondentes, sem duplicatas.',
+      },
+    ],
+  },
   {
     date: '04/06/2026',
     items: [
