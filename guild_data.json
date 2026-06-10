@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/06/2026 às 08:26 (Brasília)",
+  "updated_at": "10/06/2026 às 08:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 0,
@@ -519,7 +519,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/06/2026 às 08:26 (Brasília)",
+    "updated_at": "10/06/2026 às 08:27 (Brasília)",
     "kills_total": 473,
     "deaths_total": 439,
     "kills_today": 4,
@@ -52175,9 +52175,9 @@
     }
   ],
   "errors": [
-    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Lowly%20People&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fb71dc648d0>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
-    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=MentaliTY&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fb71dc66010>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
-    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Fuba%20Empire&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fb71dc67d10>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
-    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Old%20Legacy&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fb71dc6da10>, 'Connection to amonot.online timed out. (connect timeout=15)'))"
+    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Lowly%20People&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fa938d889d0>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=MentaliTY&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fa938d8a010>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Fuba%20Empire&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fa938d8bd10>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Old%20Legacy&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7fa938d91a10>, 'Connection to amonot.online timed out. (connect timeout=15)'))"
   ]
 }
