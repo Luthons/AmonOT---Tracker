@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/06/2026 às 22:25 (Brasília)",
+  "updated_at": "09/06/2026 às 22:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 102,
@@ -318,7 +318,7 @@
     },
     {
       "name": "Wrathbringer",
-      "level": 1593,
+      "level": 1594,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "Ed farm",
-      "level": 576,
+      "level": 587,
       "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1295,7 +1295,7 @@
     },
     {
       "name": "Elio Nervous",
-      "level": 944,
+      "level": 969,
       "resets": 13,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3085,7 +3085,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 810,
+      "level": 811,
       "resets": 36,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3216,7 +3216,7 @@
     },
     {
       "name": "More Knox",
-      "level": 1049,
+      "level": 1059,
       "resets": 5,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5110,7 +5110,7 @@
         },
         {
           "name": "Joga Preda",
-          "level": 662,
+          "level": 663,
           "resets": 22,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5119,7 +5119,7 @@
         },
         {
           "name": "Kawik",
-          "level": 1240,
+          "level": 1241,
           "resets": 43,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5353,7 +5353,7 @@
         },
         {
           "name": "Tadala De Cinco",
-          "level": 864,
+          "level": 865,
           "resets": 24,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5622,7 +5622,7 @@
         },
         {
           "name": "Giga",
-          "level": 873,
+          "level": 874,
           "resets": 16,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -7292,7 +7292,7 @@
         },
         {
           "name": "Wrathbringer",
-          "value": 1593,
+          "value": 1594,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7448,7 +7448,7 @@
         },
         {
           "name": "More Knox",
-          "value": 1049,
+          "value": 1059,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7495,6 +7495,12 @@
           "online": true
         },
         {
+          "name": "Elio Nervous",
+          "value": 969,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Vitao The Trader",
           "value": 968,
           "vocation": "Master Sorcerer",
@@ -7522,12 +7528,6 @@
           "name": "Pally Tetss",
           "value": 961,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Elio Nervous",
-          "value": 944,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -7706,7 +7706,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 810,
+          "value": 811,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -7760,7 +7760,7 @@
         },
         {
           "name": "Ed farm",
-          "value": 576,
+          "value": 587,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -7792,9 +7792,9 @@
         },
         {
           "name": "Lula",
-          "value": 72,
-          "kills_today": 0,
-          "kills_week": 42
+          "value": 73,
+          "kills_today": 1,
+          "kills_week": 43
         },
         {
           "name": "Brunaobringer",
@@ -8264,16 +8264,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/06/2026 às 22:25 (Brasília)",
-    "kills_total": 468,
+    "updated_at": "09/06/2026 às 22:26 (Brasília)",
+    "kills_total": 469,
     "deaths_total": 428,
-    "kills_today": 0,
+    "kills_today": 1,
     "deaths_today": 0,
-    "kills_week": 105,
+    "kills_week": 106,
     "deaths_week": 103,
-    "kd_total": 1.09,
+    "kd_total": 1.1,
     "kd_today": null,
-    "kd_week": 1.02,
+    "kd_week": 1.03,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -8290,9 +8290,9 @@
       },
       {
         "name": "Lula",
-        "kills": 72,
-        "kills_today": 0,
-        "kills_week": 42
+        "kills": 73,
+        "kills_today": 1,
+        "kills_week": 43
       },
       {
         "name": "Brunaobringer",
@@ -12179,6 +12179,15 @@
         "level": 797,
         "killedBy": "Jotabringer",
         "maiorDano": "Salles On Amonot",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 09, 2026 22:25",
+        "player": "Boltadao",
+        "level": 821,
+        "killedBy": "Lula",
+        "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
       },
@@ -59897,88 +59906,88 @@
     },
     "members": {
       "last_member_list": [
-        "Parmegiana",
-        "Walace Owns",
-        "Ryxz",
-        "Dan De Ek",
-        "kronosnk",
-        "Giga",
-        "Krajj",
-        "Donte",
-        "Calveludo",
-        "Lucasmonot",
-        "Sauron Knight",
-        "Royal Sniper",
-        "Old Jovizera",
-        "Keelzera",
-        "Regent Thragg",
-        "Necromancer",
-        "Vegas",
-        "Carlos Star",
-        "Sauron Fubazord",
-        "Guns",
-        "Arroz Cadela",
-        "Pala De Sandalia",
-        "Sabor Knight",
-        "Fpo",
-        "Druidao Damassa",
-        "Pallysupremofoda",
-        "Maggty Vaqueiro",
-        "Wake Wake",
-        "Frozen Throne",
-        "Papumzada",
-        "Cecil Damon",
-        "Lee Br",
-        "Kudo",
-        "Banca",
-        "Guizzera Overlord",
-        "Potez",
-        "Vitordlpz",
-        "Daann",
-        "Deruz",
-        "Sinixtro",
-        "Ryokazz",
-        "Pelegolas",
-        "Voltoks",
         "Wee Dz",
         "Scizor",
-        "Void Pugilista",
-        "Tururu",
-        "Gbr Originall",
-        "Tremqchia",
-        "Jovi Baiakera",
-        "Wiill",
-        "Mendes",
-        "Trickera",
-        "Poring",
-        "Rei Dfzera",
-        "Dont Bica",
-        "Pablaodocapao",
+        "Leozin Rei Delas",
+        "Pala De Sandalia",
+        "Cuffy Dido",
+        "Sauron Knight",
+        "JhonzinMilgrau",
+        "Sabor Knight",
+        "Walace Owns",
+        "Ryxz",
+        "Cetoprofeno Intramuscular",
         "Rudeus Greyrat",
         "Nidiozera",
-        "JhonzinMilgrau",
-        "Boltadao",
-        "Wewz Weerterz Weszlew",
-        "Maggty Ek",
-        "Leozin Rei Delas",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Joga Preda",
-        "Roxupano",
-        "Cetoprofeno Intramuscular",
-        "Ragekemi",
-        "Spvitu Rusty",
-        "Tankmode",
-        "We Edz",
-        "Tadala De Cinco",
-        "Cuffy Dido",
+        "Wiill",
         "Feijao Baiakeironato",
+        "Krajj",
+        "Incrivel Monk",
+        "Vitordlpz",
+        "Wewz Weerterz Weszlew",
+        "Tururu",
+        "Tankmode",
+        "Lee Br",
+        "Daann",
+        "Donte",
+        "Necromancer",
+        "Ragekemi",
+        "kronosnk",
+        "Potez",
+        "Jovi Baiakera",
+        "Old Jovizera",
+        "Tadala De Cinco",
         "Ehotk",
-        "Fazendeiro Ricaria",
+        "Trickera",
+        "Giga",
+        "Carlos Star",
+        "Dont Bica",
         "Kawik",
+        "Calveludo",
+        "Sauron Fubazord",
+        "Mendes",
+        "Wake Wake",
+        "Maggty Vaqueiro",
         "Its Gui",
+        "Fpo",
+        "We Edz",
+        "Dan De Ek",
+        "Spvitu Rusty",
+        "Kudo",
+        "Pablaodocapao",
+        "Deruz",
+        "Banca",
+        "Gbr Originall",
+        "Lucasmonot",
+        "Druidao Damassa",
+        "Papumzada",
+        "Pallysupremofoda",
+        "Voltoks",
+        "Fazendeiro Ricaria",
         "Qiiso Camisadez",
-        "Xddx"
+        "Joga Preda",
+        "Rei Dfzera",
+        "Parmegiana",
+        "Roxupano",
+        "Royal Sniper",
+        "Frozen Throne",
+        "Pittao teensina",
+        "Xddx",
+        "Sinixtro",
+        "Regent Thragg",
+        "Ryokazz",
+        "Void Pugilista",
+        "Poring",
+        "Boltadao",
+        "Arroz Cadela",
+        "Cecil Damon",
+        "Guns",
+        "Pelegolas",
+        "Vegas",
+        "Guizzera Overlord",
+        "Maggty Ek",
+        "Tremqchia",
+        "Keelzera"
       ],
       "changes_log": [
         {
@@ -60272,233 +60281,92 @@
           "timestamp": "09/06/2026 às 22:25 (Brasília)"
         }
       ],
-      "recent_changes": [
-        {
-          "name": "Ryokazz",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Scizor",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "JhonzinMilgrau",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Boltadao",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Tururu",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Gbr Originall",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Giga",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Pittao teensina",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Donte",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Jovi Baiakera",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Calveludo",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Wake Wake",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Frozen Throne",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Royal Sniper",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Old Jovizera",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Ragekemi",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Papumzada",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Poring",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Lee Br",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Dont Bica",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "We Edz",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Feijao Baiakeironato",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Arroz Cadela",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Deruz",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Sabor Knight",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        },
-        {
-          "name": "Rudeus Greyrat",
-          "type": "joined",
-          "timestamp": "09/06/2026 às 22:25 (Brasília)"
-        }
-      ]
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Parmegiana",
-        "Walace Owns",
-        "Ryxz",
-        "Dan De Ek",
-        "kronosnk",
-        "Giga",
-        "Krajj",
-        "Donte",
-        "Calveludo",
-        "Lucasmonot",
-        "Sauron Knight",
-        "Royal Sniper",
-        "Old Jovizera",
-        "Keelzera",
-        "Regent Thragg",
-        "Necromancer",
-        "Vegas",
-        "Carlos Star",
-        "Sauron Fubazord",
-        "Guns",
-        "Arroz Cadela",
-        "Pala De Sandalia",
-        "Sabor Knight",
-        "Fpo",
-        "Druidao Damassa",
-        "Pallysupremofoda",
-        "Maggty Vaqueiro",
-        "Wake Wake",
-        "Frozen Throne",
-        "Papumzada",
-        "Cecil Damon",
-        "Lee Br",
-        "Kudo",
-        "Banca",
-        "Guizzera Overlord",
-        "Potez",
-        "Vitordlpz",
-        "Daann",
-        "Deruz",
-        "Sinixtro",
-        "Ryokazz",
-        "Pelegolas",
-        "Voltoks",
         "Wee Dz",
         "Scizor",
-        "Void Pugilista",
-        "Tururu",
-        "Gbr Originall",
-        "Tremqchia",
-        "Jovi Baiakera",
-        "Wiill",
-        "Mendes",
-        "Trickera",
-        "Poring",
-        "Rei Dfzera",
-        "Dont Bica",
-        "Pablaodocapao",
+        "Leozin Rei Delas",
+        "Pala De Sandalia",
+        "Cuffy Dido",
+        "Sauron Knight",
+        "JhonzinMilgrau",
+        "Sabor Knight",
+        "Walace Owns",
+        "Ryxz",
+        "Cetoprofeno Intramuscular",
         "Rudeus Greyrat",
         "Nidiozera",
-        "JhonzinMilgrau",
-        "Boltadao",
-        "Wewz Weerterz Weszlew",
-        "Maggty Ek",
-        "Leozin Rei Delas",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Joga Preda",
-        "Roxupano",
-        "Cetoprofeno Intramuscular",
-        "Ragekemi",
-        "Spvitu Rusty",
-        "Tankmode",
-        "We Edz",
-        "Tadala De Cinco",
-        "Cuffy Dido",
+        "Wiill",
         "Feijao Baiakeironato",
+        "Krajj",
+        "Incrivel Monk",
+        "Vitordlpz",
+        "Wewz Weerterz Weszlew",
+        "Tururu",
+        "Tankmode",
+        "Lee Br",
+        "Daann",
+        "Donte",
+        "Necromancer",
+        "Ragekemi",
+        "kronosnk",
+        "Potez",
+        "Jovi Baiakera",
+        "Old Jovizera",
+        "Tadala De Cinco",
         "Ehotk",
-        "Fazendeiro Ricaria",
+        "Trickera",
+        "Giga",
+        "Carlos Star",
+        "Dont Bica",
         "Kawik",
+        "Calveludo",
+        "Sauron Fubazord",
+        "Mendes",
+        "Wake Wake",
+        "Maggty Vaqueiro",
         "Its Gui",
+        "Fpo",
+        "We Edz",
+        "Dan De Ek",
+        "Spvitu Rusty",
+        "Kudo",
+        "Pablaodocapao",
+        "Deruz",
+        "Banca",
+        "Gbr Originall",
+        "Lucasmonot",
+        "Druidao Damassa",
+        "Papumzada",
+        "Pallysupremofoda",
+        "Voltoks",
+        "Fazendeiro Ricaria",
         "Qiiso Camisadez",
-        "Xddx"
+        "Joga Preda",
+        "Rei Dfzera",
+        "Parmegiana",
+        "Roxupano",
+        "Royal Sniper",
+        "Frozen Throne",
+        "Pittao teensina",
+        "Xddx",
+        "Sinixtro",
+        "Regent Thragg",
+        "Ryokazz",
+        "Void Pugilista",
+        "Poring",
+        "Boltadao",
+        "Arroz Cadela",
+        "Cecil Damon",
+        "Guns",
+        "Pelegolas",
+        "Vegas",
+        "Guizzera Overlord",
+        "Maggty Ek",
+        "Tremqchia",
+        "Keelzera"
       ],
       "hunted": {
         "Leogolas": {
@@ -61068,148 +60936,7 @@
       "avg_per_player": 22.8
     }
   },
-  "recent_changes": [
-    {
-      "name": "Ryokazz",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Scizor",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "JhonzinMilgrau",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Tururu",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Gbr Originall",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Pittao teensina",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Donte",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Jovi Baiakera",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Calveludo",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Frozen Throne",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Royal Sniper",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Old Jovizera",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Papumzada",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Poring",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Lee Br",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "We Edz",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Feijao Baiakeironato",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Arroz Cadela",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Sabor Knight",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    },
-    {
-      "name": "Rudeus Greyrat",
-      "type": "joined",
-      "timestamp": "09/06/2026 às 22:25 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
   "changes_log": [
     {
       "name": "Feijao Baiakeironato",
