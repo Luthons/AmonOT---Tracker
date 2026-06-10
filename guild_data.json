@@ -318,7 +318,7 @@
     },
     {
       "name": "Wrathbringer",
-      "level": 1805,
+      "level": 1806,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -430,7 +430,7 @@
     },
     {
       "name": "Affey",
-      "level": 670,
+      "level": 671,
       "resets": 15,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -456,7 +456,7 @@
     },
     {
       "name": "Apreciador De Casadas",
-      "level": 760,
+      "level": 761,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1620,7 +1620,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1140,
+      "level": 1141,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1928,7 +1928,7 @@
     },
     {
       "name": "Hao Asakura",
-      "level": 945,
+      "level": 946,
       "resets": 18,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2217,7 +2217,7 @@
     },
     {
       "name": "Imperador",
-      "level": 709,
+      "level": 710,
       "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3608,7 +3608,7 @@
     },
     {
       "name": "Parkert",
-      "level": 755,
+      "level": 756,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -4236,7 +4236,7 @@
     },
     {
       "name": "Sorczin",
-      "level": 822,
+      "level": 823,
       "resets": 29,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4576,7 +4576,7 @@
     },
     {
       "name": "Vitao The Trader",
-      "level": 768,
+      "level": 769,
       "resets": 20,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -5161,7 +5161,7 @@
         },
         {
           "name": "Joga Preda",
-          "level": 759,
+          "level": 760,
           "resets": 22,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5215,7 +5215,7 @@
         },
         {
           "name": "Leozin Rei Delas",
-          "level": 1415,
+          "level": 1416,
           "resets": 28,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5520,7 +5520,7 @@
         },
         {
           "name": "Lee Br",
-          "level": 1004,
+          "level": 1005,
           "resets": 30,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5583,7 +5583,7 @@
         },
         {
           "name": "Poring",
-          "level": 1468,
+          "level": 1470,
           "resets": 56,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5610,7 +5610,7 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "level": 1171,
+          "level": 1172,
           "resets": 51,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5691,7 +5691,7 @@
         },
         {
           "name": "Royal Sniper",
-          "level": 1880,
+          "level": 1881,
           "resets": 41,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -7337,7 +7337,7 @@
         },
         {
           "name": "Wrathbringer",
-          "value": 1805,
+          "value": 1806,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7529,7 +7529,7 @@
         },
         {
           "name": "Gizao",
-          "value": 1140,
+          "value": 1141,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7607,7 +7607,7 @@
         },
         {
           "name": "Hao Asakura",
-          "value": 945,
+          "value": 946,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -7732,6 +7732,12 @@
           "online": false
         },
         {
+          "name": "Sorczin",
+          "value": 823,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Taka e Cura",
           "value": 823,
           "vocation": "Elder Druid",
@@ -7742,12 +7748,6 @@
           "value": 822,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Sorczin",
-          "value": 822,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Baduff",
@@ -7769,24 +7769,24 @@
         },
         {
           "name": "Vitao The Trader",
-          "value": 768,
+          "value": 769,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
           "name": "Apreciador De Casadas",
-          "value": 760,
+          "value": 761,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Deus",
-          "value": 755,
+          "name": "Parkert",
+          "value": 756,
           "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Parkert",
+          "name": "Deus",
           "value": 755,
           "vocation": "Elite Knight",
           "online": true
@@ -7799,7 +7799,7 @@
         },
         {
           "name": "Imperador",
-          "value": 709,
+          "value": 710,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7823,7 +7823,7 @@
         },
         {
           "name": "Affey",
-          "value": 670,
+          "value": 671,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -18092,118 +18092,451 @@
   },
   "deaths_global": [
     {
-      "time": "Jun 09, 2026 14:20",
-      "player": "Pai Do Paulokogos",
-      "level": 1532,
-      "killedBy": "Ehotk",
+      "time": "Jun 10, 2026 00:29",
+      "player": "Melbiss",
+      "level": 854,
+      "killedBy": "Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 14:02",
-      "player": "End Zeus",
-      "level": 1068,
-      "killedBy": "Cetoprofeno Intramuscular",
-      "maiorDano": "Dont Bica",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 09, 2026 13:50",
-      "player": "Vitinho Rei Delas",
-      "level": 1255,
-      "killedBy": "Arroz Cadela",
-      "maiorDano": "Calveludo",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 09, 2026 13:49",
-      "player": "Moskito",
-      "level": 1263,
-      "killedBy": "Papumzada",
+      "time": "Jun 10, 2026 00:29",
+      "player": "Gokuu",
+      "level": 1470,
+      "killedBy": "Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 13:03",
-      "player": "Pally Tetss",
-      "level": 1251,
-      "killedBy": "Ehotk",
+      "time": "Jun 10, 2026 00:21",
+      "player": "Affey",
+      "level": 588,
+      "killedBy": "Calveludo",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 13:02",
-      "player": "Judas",
-      "level": 1070,
-      "killedBy": "Ehotk",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 09, 2026 12:54",
-      "player": "Yagoodz Arrogante",
-      "level": 1661,
-      "killedBy": "Ehotk",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 09, 2026 12:53",
-      "player": "Pally Tetss",
-      "level": 1252,
-      "killedBy": "Ehotk",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 09, 2026 12:47",
+      "time": "Jun 10, 2026 00:20",
       "player": "Royal Luthons",
-      "level": 848,
+      "level": 1191,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 12:24",
-      "player": "Punish Claude",
+      "time": "Jun 09, 2026 23:34",
+      "player": "Dmonick",
+      "level": 1180,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 23:17",
+      "player": "Lula",
+      "level": 1298,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 21:20",
+      "player": "Magabela",
+      "level": 1686,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 20:19",
+      "player": "Keizuke Baji",
+      "level": 872,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 20:12",
+      "player": "Charles",
+      "level": 913,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 20:03",
+      "player": "Imperador",
+      "level": 1763,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 20:02",
+      "player": "Sereno Taca Flecha",
+      "level": 1212,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 19:47",
+      "player": "Deca com Testo",
+      "level": 1929,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 19:36",
+      "player": "Dmonick",
+      "level": 1129,
+      "killedBy": "Feijao Baiakeironato",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 15:34",
+      "player": "Royal Luthons",
+      "level": 920,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 14:21",
+      "player": "Ed farm",
+      "level": 1538,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 14:21",
+      "player": "Yagoodz Arrogante",
+      "level": 1675,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 06:01",
+      "player": "Yagoodz Arrogante",
+      "level": 1596,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 02:23",
+      "player": "Gizao",
+      "level": 1170,
+      "killedBy": "Dont Bica",
+      "maiorDano": "Gbr Originall",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 02:17",
+      "player": "End Zeus",
+      "level": 820,
+      "killedBy": "Old Jovizera",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 02:14",
+      "player": "Apreciador De Casadas",
+      "level": 739,
+      "killedBy": "Gbr Originall",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 02:11",
+      "player": "Sereno Taca Flecha",
+      "level": 1070,
+      "killedBy": "Boltadao",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 02:06",
+      "player": "Pai Do Paulokogos",
+      "level": 1496,
+      "killedBy": "Gbr Originall",
+      "maiorDano": "Old Jovizera",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:59",
+      "player": "Niju",
+      "level": 1698,
+      "killedBy": "Boltadao",
+      "maiorDano": "Gbr Originall",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:58",
+      "player": "Tio Bringer",
+      "level": 947,
+      "killedBy": "Boltadao",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:54",
+      "player": "Uga Uga",
+      "level": 1637,
+      "killedBy": "Old Jovizera",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:49",
+      "player": "Imperador",
+      "level": 1727,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:48",
+      "player": "Sorczin",
+      "level": 858,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:47",
+      "player": "Keizuke Baji",
+      "level": 1325,
+      "killedBy": "Boltadao",
+      "maiorDano": "Gbr Originall",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:44",
+      "player": "Brunao Rei Denovo",
       "level": 2000,
+      "killedBy": "Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:42",
+      "player": "Charles",
+      "level": 739,
+      "killedBy": "Old Jovizera",
+      "maiorDano": "Gbr Originall",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:42",
+      "player": "Ed farm",
+      "level": 1513,
+      "killedBy": "Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:35",
+      "player": "Elder Luthons",
+      "level": 838,
+      "killedBy": "Boltadao",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:33",
+      "player": "Gbr Originall",
+      "level": 1895,
+      "killedBy": "Punish Claude",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:33",
+      "player": "Gbr Originall",
+      "level": 1896,
+      "killedBy": "Ehotk",
+      "maiorDano": "Punish Claude",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 01:18",
+      "player": "Royal Luthons",
+      "level": 1272,
+      "killedBy": "Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 09, 2026 00:33",
+      "player": "Bilade",
+      "level": 1020,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 23:13",
+      "player": "Maguinn Returns",
+      "level": 1655,
+      "killedBy": "Salles On Amonot",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 20:33",
+      "player": "Diegao Barba",
+      "level": 2001,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 12:20",
-      "player": "Yagoodz Arrogante",
-      "level": 1663,
+      "time": "Jun 08, 2026 20:31",
+      "player": "Ed farm",
+      "level": 1295,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 11:33",
-      "player": "Yagoodz Arrogante",
-      "level": 1661,
+      "time": "Jun 08, 2026 20:28",
+      "player": "Brunao Rei Denovo",
+      "level": 2005,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Jun 09, 2026 11:08",
-      "player": "Vitao The Monster",
-      "level": 1096,
-      "killedBy": "Pai Do Paulokogos",
+      "time": "Jun 08, 2026 19:58",
+      "player": "Hozuk",
+      "level": 1914,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 19:39",
+      "player": "Pally Tetss",
+      "level": 914,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 19:05",
+      "player": "Rp Terror",
+      "level": 857,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 18:42",
+      "player": "Loks",
+      "level": 982,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 18:30",
+      "player": "Sorczin",
+      "level": 1034,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 18:14",
+      "player": "Lula",
+      "level": 1426,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 16:24",
+      "player": "Lula",
+      "level": 1395,
+      "killedBy": "Salles On Amonot",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 15:49",
+      "player": "Lula",
+      "level": 1393,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 15:06",
+      "player": "Hao Asakura",
+      "level": 692,
+      "killedBy": "Bilade",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 08, 2026 04:29",
+      "player": "Dmonick",
+      "level": 1195,
+      "killedBy": "Feijao Baiakeironato",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -59828,85 +60161,85 @@
     },
     "members": {
       "last_member_list": [
-        "Necromancer",
-        "Fpo",
-        "Xddx",
-        "Royal Sniper",
-        "Daann",
-        "Sauron Knight",
-        "Ragekemi",
-        "Sinixtro",
-        "Banca",
-        "Incrivel Monk",
-        "Frozen Throne",
-        "Walace Owns",
-        "Sauron Fubazord",
-        "Rudeus Greyrat",
-        "Ryokazz",
-        "Guns",
-        "Donte",
-        "Vegas",
-        "Potez",
-        "Wewz Weerterz Weszlew",
-        "Kawik",
-        "Poring",
-        "Tadala De Cinco",
-        "Trickera",
-        "Vitordlpz",
-        "Druidao Damassa",
-        "Pelegolas",
-        "Maggty Ek",
-        "Guizzera Overlord",
-        "Roxupano",
-        "Tankmode",
-        "Feijao Baiakeironato",
-        "Pittao teensina",
-        "Dan De Ek",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
-        "Qiiso Camisadez",
-        "Lee Br",
-        "Fazendeiro Ricaria",
-        "Pablaodocapao",
-        "Wiill",
-        "Parmegiana",
-        "Ryxz",
-        "Tremqchia",
-        "Jovi Baiakera",
-        "Pallysupremofoda",
-        "Arroz Cadela",
-        "Deruz",
-        "Nidiozera",
-        "Pala De Sandalia",
-        "JhonzinMilgrau",
-        "Wee Dz",
-        "Voltoks",
-        "Maggty Vaqueiro",
-        "Regent Thragg",
-        "Scizor",
-        "Krajj",
-        "Ehotk",
         "Boltadao",
-        "Giga",
-        "Keelzera",
+        "Qiiso Camisadez",
+        "Guns",
+        "Dont Bica",
+        "Necromancer",
         "Joga Preda",
-        "Old Jovizera",
         "Calveludo",
-        "kronosnk",
-        "Mendes",
-        "Kudo",
-        "Carlos Star",
-        "Cecil Damon",
-        "Tururu",
-        "Sabor Knight",
-        "Cetoprofeno Intramuscular",
-        "Rei Dfzera",
-        "Leozin Rei Delas",
-        "Wake Wake",
+        "JhonzinMilgrau",
+        "Dan De Ek",
+        "Wewz Weerterz Weszlew",
+        "Donte",
+        "Fpo",
+        "Kawik",
+        "Druidao Damassa",
+        "Sauron Knight",
+        "We Edz",
+        "Vitordlpz",
+        "Incrivel Monk",
+        "Maggty Ek",
+        "Old Jovizera",
+        "Xddx",
+        "Trickera",
+        "Potez",
+        "Tremqchia",
+        "Arroz Cadela",
+        "Frozen Throne",
         "Its Gui",
+        "Tururu",
+        "Lucasmonot",
+        "Rei Dfzera",
+        "Ragekemi",
+        "Deruz",
+        "Papumzada",
+        "Parmegiana",
+        "Ehotk",
+        "Pittao teensina",
+        "Ryokazz",
+        "Sinixtro",
+        "Cecil Damon",
+        "Rudeus Greyrat",
+        "Cetoprofeno Intramuscular",
+        "Wiill",
+        "Tadala De Cinco",
+        "Voltoks",
+        "Daann",
+        "Kudo",
+        "Regent Thragg",
+        "Vegas",
+        "kronosnk",
+        "Guizzera Overlord",
+        "Pala De Sandalia",
+        "Pallysupremofoda",
+        "Krajj",
+        "Fazendeiro Ricaria",
+        "Lee Br",
+        "Pelegolas",
+        "Nidiozera",
+        "Jovi Baiakera",
+        "Sabor Knight",
+        "Wee Dz",
+        "Ryxz",
+        "Royal Sniper",
+        "Mendes",
+        "Maggty Vaqueiro",
+        "Walace Owns",
+        "Feijao Baiakeironato",
+        "Poring",
+        "Roxupano",
+        "Scizor",
+        "Leozin Rei Delas",
+        "Giga",
+        "Sauron Fubazord",
+        "Keelzera",
         "Spvitu Rusty",
-        "Lucasmonot"
+        "Pablaodocapao",
+        "Banca",
+        "Carlos Star",
+        "Wake Wake",
+        "Tankmode"
       ],
       "changes_log": [
         {
@@ -62270,17 +62603,7 @@
           "timestamp": "10/06/2026 às 02:40 (Brasília)"
         },
         {
-          "name": "Poring",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Dont Bica",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Scizor",
+          "name": "Boltadao",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62290,57 +62613,12 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Lee Br",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Boltadao",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Giga",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Ragekemi",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
           "name": "Old Jovizera",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Calveludo",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Tururu",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Sabor Knight",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Frozen Throne",
+          "name": "Dont Bica",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62350,32 +62628,17 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Jovi Baiakera",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Wake Wake",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
           "name": "Arroz Cadela",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Rudeus Greyrat",
+          "name": "Calveludo",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Ryokazz",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Deruz",
+          "name": "Frozen Throne",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62385,12 +62648,12 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Pittao teensina",
+          "name": "Poring",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Donte",
+          "name": "Tururu",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62400,29 +62663,89 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
+          "name": "Ragekemi",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Donte",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Deruz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
           "name": "Papumzada",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
+          "name": "Lee Br",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Scizor",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Ehotk",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Jovi Baiakera",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Giga",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Sabor Knight",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Pittao teensina",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Ryokazz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
           "name": "We Edz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Wake Wake",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Rudeus Greyrat",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         }
       ],
       "recent_changes": [
         {
-          "name": "Poring",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Dont Bica",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Scizor",
+          "name": "Boltadao",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62432,57 +62755,12 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Lee Br",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Boltadao",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Giga",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Ragekemi",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
           "name": "Old Jovizera",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Calveludo",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Tururu",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Sabor Knight",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Frozen Throne",
+          "name": "Dont Bica",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62492,32 +62770,17 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Jovi Baiakera",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Wake Wake",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
           "name": "Arroz Cadela",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Rudeus Greyrat",
+          "name": "Calveludo",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Ryokazz",
-          "type": "joined",
-          "timestamp": "10/06/2026 às 02:42 (Brasília)"
-        },
-        {
-          "name": "Deruz",
+          "name": "Frozen Throne",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62527,12 +62790,12 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Pittao teensina",
+          "name": "Poring",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
-          "name": "Donte",
+          "name": "Tururu",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
@@ -62542,12 +62805,82 @@
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
+          "name": "Ragekemi",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Donte",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Deruz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
           "name": "Papumzada",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         },
         {
+          "name": "Lee Br",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Scizor",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Ehotk",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Jovi Baiakera",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Giga",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Sabor Knight",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Pittao teensina",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Ryokazz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
           "name": "We Edz",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Wake Wake",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Rudeus Greyrat",
+          "type": "joined",
+          "timestamp": "10/06/2026 às 02:42 (Brasília)"
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
           "type": "joined",
           "timestamp": "10/06/2026 às 02:42 (Brasília)"
         }
@@ -62555,85 +62888,85 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Necromancer",
-        "Fpo",
-        "Xddx",
-        "Royal Sniper",
-        "Daann",
-        "Sauron Knight",
-        "Ragekemi",
-        "Sinixtro",
-        "Banca",
-        "Incrivel Monk",
-        "Frozen Throne",
-        "Walace Owns",
-        "Sauron Fubazord",
-        "Rudeus Greyrat",
-        "Ryokazz",
-        "Guns",
-        "Donte",
-        "Vegas",
-        "Potez",
-        "Wewz Weerterz Weszlew",
-        "Kawik",
-        "Poring",
-        "Tadala De Cinco",
-        "Trickera",
-        "Vitordlpz",
-        "Druidao Damassa",
-        "Pelegolas",
-        "Maggty Ek",
-        "Guizzera Overlord",
-        "Roxupano",
-        "Tankmode",
-        "Feijao Baiakeironato",
-        "Pittao teensina",
-        "Dan De Ek",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
-        "Qiiso Camisadez",
-        "Lee Br",
-        "Fazendeiro Ricaria",
-        "Pablaodocapao",
-        "Wiill",
-        "Parmegiana",
-        "Ryxz",
-        "Tremqchia",
-        "Jovi Baiakera",
-        "Pallysupremofoda",
-        "Arroz Cadela",
-        "Deruz",
-        "Nidiozera",
-        "Pala De Sandalia",
-        "JhonzinMilgrau",
-        "Wee Dz",
-        "Voltoks",
-        "Maggty Vaqueiro",
-        "Regent Thragg",
-        "Scizor",
-        "Krajj",
-        "Ehotk",
         "Boltadao",
-        "Giga",
-        "Keelzera",
+        "Qiiso Camisadez",
+        "Guns",
+        "Dont Bica",
+        "Necromancer",
         "Joga Preda",
-        "Old Jovizera",
         "Calveludo",
-        "kronosnk",
-        "Mendes",
-        "Kudo",
-        "Carlos Star",
-        "Cecil Damon",
-        "Tururu",
-        "Sabor Knight",
-        "Cetoprofeno Intramuscular",
-        "Rei Dfzera",
-        "Leozin Rei Delas",
-        "Wake Wake",
+        "JhonzinMilgrau",
+        "Dan De Ek",
+        "Wewz Weerterz Weszlew",
+        "Donte",
+        "Fpo",
+        "Kawik",
+        "Druidao Damassa",
+        "Sauron Knight",
+        "We Edz",
+        "Vitordlpz",
+        "Incrivel Monk",
+        "Maggty Ek",
+        "Old Jovizera",
+        "Xddx",
+        "Trickera",
+        "Potez",
+        "Tremqchia",
+        "Arroz Cadela",
+        "Frozen Throne",
         "Its Gui",
+        "Tururu",
+        "Lucasmonot",
+        "Rei Dfzera",
+        "Ragekemi",
+        "Deruz",
+        "Papumzada",
+        "Parmegiana",
+        "Ehotk",
+        "Pittao teensina",
+        "Ryokazz",
+        "Sinixtro",
+        "Cecil Damon",
+        "Rudeus Greyrat",
+        "Cetoprofeno Intramuscular",
+        "Wiill",
+        "Tadala De Cinco",
+        "Voltoks",
+        "Daann",
+        "Kudo",
+        "Regent Thragg",
+        "Vegas",
+        "kronosnk",
+        "Guizzera Overlord",
+        "Pala De Sandalia",
+        "Pallysupremofoda",
+        "Krajj",
+        "Fazendeiro Ricaria",
+        "Lee Br",
+        "Pelegolas",
+        "Nidiozera",
+        "Jovi Baiakera",
+        "Sabor Knight",
+        "Wee Dz",
+        "Ryxz",
+        "Royal Sniper",
+        "Mendes",
+        "Maggty Vaqueiro",
+        "Walace Owns",
+        "Feijao Baiakeironato",
+        "Poring",
+        "Roxupano",
+        "Scizor",
+        "Leozin Rei Delas",
+        "Giga",
+        "Sauron Fubazord",
+        "Keelzera",
         "Spvitu Rusty",
-        "Lucasmonot"
+        "Pablaodocapao",
+        "Banca",
+        "Carlos Star",
+        "Wake Wake",
+        "Tankmode"
       ],
       "hunted": {
         "Leogolas": {
@@ -63205,17 +63538,7 @@
   },
   "recent_changes": [
     {
-      "name": "Poring",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Scizor",
+      "name": "Boltadao",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63225,57 +63548,12 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Lee Br",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
       "name": "Old Jovizera",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Calveludo",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Tururu",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Sabor Knight",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Frozen Throne",
+      "name": "Dont Bica",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63285,32 +63563,17 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Jovi Baiakera",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
       "name": "Arroz Cadela",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Rudeus Greyrat",
+      "name": "Calveludo",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Ryokazz",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Deruz",
+      "name": "Frozen Throne",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63320,12 +63583,12 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Pittao teensina",
+      "name": "Poring",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Donte",
+      "name": "Tururu",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63335,12 +63598,82 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
+      "name": "Ragekemi",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Donte",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Deruz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
       "name": "Papumzada",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
+      "name": "Lee Br",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Scizor",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Ehotk",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Jovi Baiakera",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Giga",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Sabor Knight",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Pittao teensina",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Ryokazz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
       "name": "We Edz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Wake Wake",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Rudeus Greyrat",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Cetoprofeno Intramuscular",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     }
@@ -63457,17 +63790,7 @@
       "timestamp": "10/06/2026 às 02:40 (Brasília)"
     },
     {
-      "name": "Poring",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Scizor",
+      "name": "Boltadao",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63477,57 +63800,12 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Lee Br",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
       "name": "Old Jovizera",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Calveludo",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Tururu",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Sabor Knight",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Frozen Throne",
+      "name": "Dont Bica",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63537,32 +63815,17 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Jovi Baiakera",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
       "name": "Arroz Cadela",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Rudeus Greyrat",
+      "name": "Calveludo",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Ryokazz",
-      "type": "joined",
-      "timestamp": "10/06/2026 às 02:42 (Brasília)"
-    },
-    {
-      "name": "Deruz",
+      "name": "Frozen Throne",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63572,12 +63835,12 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Pittao teensina",
+      "name": "Poring",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
-      "name": "Donte",
+      "name": "Tururu",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
@@ -63587,12 +63850,82 @@
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
+      "name": "Ragekemi",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Donte",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Deruz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
       "name": "Papumzada",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     },
     {
+      "name": "Lee Br",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Scizor",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Ehotk",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Jovi Baiakera",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Giga",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Sabor Knight",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Pittao teensina",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Ryokazz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
       "name": "We Edz",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Wake Wake",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Rudeus Greyrat",
+      "type": "joined",
+      "timestamp": "10/06/2026 às 02:42 (Brasília)"
+    },
+    {
+      "name": "Cetoprofeno Intramuscular",
       "type": "joined",
       "timestamp": "10/06/2026 às 02:42 (Brasília)"
     }
