@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/06/2026 às 22:49 (Brasília)",
+  "updated_at": "09/06/2026 às 22:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 102,
-  "online_count": 63,
-  "offline_count": 39,
+  "online_count": 65,
+  "offline_count": 37,
   "members": [
     {
       "name": "Brunaobringer",
@@ -1072,7 +1072,7 @@
     },
     {
       "name": "Dmonick",
-      "level": 1166,
+      "level": 1167,
       "resets": 31,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1295,7 +1295,7 @@
     },
     {
       "name": "Elio Nervous",
-      "level": 8,
+      "level": 509,
       "resets": 14,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1447,7 +1447,7 @@
     },
     {
       "name": "End Zeus",
-      "level": 1275,
+      "level": 1276,
       "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1898,7 +1898,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 18,
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "Maguinn Returns",
-      "level": 1416,
+      "level": 1417,
       "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3390,7 +3390,7 @@
     },
     {
       "name": "Owsborn",
-      "level": 942,
+      "level": 943,
       "resets": 8,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3873,7 +3873,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 12,
@@ -4454,7 +4454,7 @@
     },
     {
       "name": "Uga Man",
-      "level": 969,
+      "level": 970,
       "resets": 15,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4993,9 +4993,9 @@
   "enemy_guilds": [
     {
       "name": "MentaliTY",
-      "total_members": 53,
+      "total_members": 52,
       "online_count": 22,
-      "offline_count": 31,
+      "offline_count": 30,
       "members": [
         {
           "name": "Sauron Knight",
@@ -5116,7 +5116,7 @@
         },
         {
           "name": "Joga Preda",
-          "level": 681,
+          "level": 682,
           "resets": 22,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5125,7 +5125,7 @@
         },
         {
           "name": "Kawik",
-          "level": 1248,
+          "level": 1249,
           "resets": 43,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5134,7 +5134,7 @@
         },
         {
           "name": "Keelzera",
-          "level": 1549,
+          "level": 1558,
           "resets": 32,
           "vocation": "Elder Druid",
           "nick": "",
@@ -5211,11 +5211,11 @@
           "vocation": "Elite Knight",
           "nick": "",
           "rank": "Member",
-          "online": false
+          "online": true
         },
         {
           "name": "Necromancer",
-          "level": 747,
+          "level": 748,
           "resets": 15,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5377,7 +5377,7 @@
         },
         {
           "name": "Tremqchia",
-          "level": 930,
+          "level": 933,
           "resets": 26,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5413,7 +5413,7 @@
         },
         {
           "name": "Void Pugilista",
-          "level": 1683,
+          "level": 1691,
           "resets": 34,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5428,15 +5428,6 @@
           "nick": "",
           "rank": "Member",
           "online": false
-        },
-        {
-          "name": "Walace Owns",
-          "level": 1066,
-          "resets": 31,
-          "vocation": "Master Sorcerer",
-          "nick": "",
-          "rank": "Member",
-          "online": true
         },
         {
           "name": "Wee Dz",
@@ -5478,9 +5469,9 @@
     },
     {
       "name": "Old Legacy",
-      "total_members": 27,
+      "total_members": 28,
       "online_count": 21,
-      "offline_count": 6,
+      "offline_count": 7,
       "members": [
         {
           "name": "Ehotk",
@@ -5547,7 +5538,7 @@
         },
         {
           "name": "Feijao Baiakeironato",
-          "level": 1083,
+          "level": 1084,
           "resets": 49,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5610,7 +5601,7 @@
         },
         {
           "name": "Frozen Throne",
-          "level": 1153,
+          "level": 1154,
           "resets": 31,
           "vocation": "Elder Druid",
           "nick": "",
@@ -5660,7 +5651,7 @@
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Royal Sniper",
@@ -5721,6 +5712,15 @@
           "level": 1292,
           "resets": 30,
           "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Walace Owns",
+          "level": 1066,
+          "resets": 31,
+          "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
           "online": true
@@ -6348,14 +6348,6 @@
       "online": true
     },
     {
-      "name": "Walace Owns",
-      "resets_total": 31,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
       "name": "Wee Dz",
       "resets_total": 19,
       "resets_today": 0,
@@ -6512,6 +6504,14 @@
       "resets_total": 30,
       "resets_today": 0,
       "resets_week": 13,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Walace Owns",
+      "resets_total": 31,
+      "resets_today": 0,
+      "resets_week": 5,
       "vocation": "Master Sorcerer",
       "online": true
     }
@@ -6897,7 +6897,7 @@
           "name": "Hao Asakura",
           "value": 18,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Imperador Ek",
@@ -6975,7 +6975,7 @@
           "name": "RBenz",
           "value": 13,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Primobolan e Trembo",
@@ -7233,7 +7233,7 @@
           "name": "RBenz",
           "value": 1804,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Imperador",
@@ -7303,7 +7303,7 @@
         },
         {
           "name": "Maguinn Returns",
-          "value": 1416,
+          "value": 1417,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -7357,7 +7357,7 @@
         },
         {
           "name": "End Zeus",
-          "value": 1275,
+          "value": 1276,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -7393,7 +7393,7 @@
         },
         {
           "name": "Dmonick",
-          "value": 1166,
+          "value": 1167,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -7506,15 +7506,15 @@
           "online": false
         },
         {
-          "name": "Royal Luthons",
-          "value": 969,
-          "vocation": "Royal Paladin",
+          "name": "Uga Man",
+          "value": 970,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Uga Man",
+          "name": "Royal Luthons",
           "value": 969,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -7549,7 +7549,7 @@
         },
         {
           "name": "Owsborn",
-          "value": 942,
+          "value": 943,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7575,7 +7575,7 @@
           "name": "Hao Asakura",
           "value": 920,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Sabour Ms",
@@ -7732,6 +7732,12 @@
           "value": 700,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Elio Nervous",
+          "value": 509,
+          "vocation": "Elite Knight",
+          "online": true
         }
       ]
     }
@@ -8227,7 +8233,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/06/2026 às 22:49 (Brasília)",
+    "updated_at": "09/06/2026 às 22:50 (Brasília)",
     "kills_total": 469,
     "deaths_total": 428,
     "kills_today": 1,
@@ -39365,7 +39371,6 @@
         "Vitordlpz": 28,
         "Void Pugilista": 34,
         "Voltoks": 21,
-        "Walace Owns": 31,
         "Wee Dz": 19,
         "Wewz Weerterz Weszlew": 16,
         "Wiill": 15,
@@ -39396,7 +39401,8 @@
         "Sabor Knight": 16,
         "Scizor": 18,
         "Tururu": 32,
-        "Wake Wake": 30
+        "Wake Wake": 30,
+        "Walace Owns": 31
       },
       "snapshots": {
         "2026-06-02-23": {
@@ -54877,7 +54883,6 @@
           "Vitordlpz": 28,
           "Void Pugilista": 34,
           "Voltoks": 21,
-          "Walace Owns": 31,
           "Wee Dz": 19,
           "Wewz Weerterz Weszlew": 16,
           "Wiill": 15,
@@ -54908,7 +54913,8 @@
           "Sabor Knight": 16,
           "Scizor": 18,
           "Tururu": 32,
-          "Wake Wake": 30
+          "Wake Wake": 30,
+          "Walace Owns": 31
         }
       },
       "events": [
@@ -59886,86 +59892,86 @@
     },
     "members": {
       "last_member_list": [
-        "Pablaodocapao",
-        "Calveludo",
-        "Ryokazz",
-        "Druidao Damassa",
-        "Tururu",
-        "Donte",
-        "Voltoks",
-        "Dan De Ek",
-        "Carlos Star",
-        "Parmegiana",
-        "Ehotk",
+        "Guizzera Overlord",
+        "Old Jovizera",
+        "Banca",
         "Pala De Sandalia",
-        "Fpo",
-        "Void Pugilista",
-        "Deruz",
-        "Rei Dfzera",
-        "Cecil Damon",
-        "Ryxz",
         "Wiill",
         "Sauron Knight",
-        "Rudeus Greyrat",
-        "Wee Dz",
-        "Incrivel Monk",
-        "Kudo",
-        "Tankmode",
-        "Sinixtro",
-        "Feijao Baiakeironato",
-        "Boltadao",
-        "Krajj",
-        "Ragekemi",
-        "Potez",
-        "Frozen Throne",
-        "Tremqchia",
-        "Scizor",
-        "Banca",
-        "Lee Br",
-        "Wake Wake",
-        "Keelzera",
-        "Guizzera Overlord",
-        "Kawik",
-        "Guns",
-        "Xddx",
-        "Maggty Vaqueiro",
         "Sauron Fubazord",
-        "Fazendeiro Ricaria",
-        "Old Jovizera",
-        "Qiiso Camisadez",
-        "Pelegolas",
-        "Papumzada",
-        "Daann",
-        "Roxupano",
-        "Pallysupremofoda",
-        "Walace Owns",
-        "Sabor Knight",
-        "Jovi Baiakera",
-        "Joga Preda",
-        "Necromancer",
-        "Mendes",
-        "Arroz Cadela",
-        "Vitordlpz",
-        "Wewz Weerterz Weszlew",
         "Giga",
-        "kronosnk",
-        "Maggty Ek",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Tadala De Cinco",
-        "Poring",
+        "Carlos Star",
+        "Guns",
+        "Necromancer",
+        "Xddx",
+        "Incrivel Monk",
         "Vegas",
-        "Dont Bica",
-        "We Edz",
-        "Trickera",
-        "Cetoprofeno Intramuscular",
-        "Royal Sniper",
-        "Nidiozera",
-        "Lucasmonot",
-        "Its Gui",
+        "Wake Wake",
+        "Void Pugilista",
+        "Pallysupremofoda",
+        "Pittao teensina",
+        "Calveludo",
+        "Wewz Weerterz Weszlew",
         "Spvitu Rusty",
+        "Ryokazz",
+        "Lucasmonot",
+        "Tururu",
+        "Boltadao",
+        "Sabor Knight",
+        "Kudo",
+        "Feijao Baiakeironato",
+        "Tremqchia",
+        "Tankmode",
         "Regent Thragg",
-        "Leozin Rei Delas"
+        "Frozen Throne",
+        "Lee Br",
+        "Its Gui",
+        "Royal Sniper",
+        "Pelegolas",
+        "Dan De Ek",
+        "Voltoks",
+        "Vitordlpz",
+        "Cecil Damon",
+        "Papumzada",
+        "Fazendeiro Ricaria",
+        "Keelzera",
+        "Cetoprofeno Intramuscular",
+        "Kawik",
+        "Joga Preda",
+        "Daann",
+        "Jovi Baiakera",
+        "Ragekemi",
+        "Rudeus Greyrat",
+        "Donte",
+        "Potez",
+        "Sinixtro",
+        "Deruz",
+        "We Edz",
+        "Nidiozera",
+        "Trickera",
+        "Poring",
+        "Ryxz",
+        "Krajj",
+        "Maggty Ek",
+        "Mendes",
+        "Dont Bica",
+        "Roxupano",
+        "Tadala De Cinco",
+        "Qiiso Camisadez",
+        "Leozin Rei Delas",
+        "Pablaodocapao",
+        "Scizor",
+        "kronosnk",
+        "Maggty Vaqueiro",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "Walace Owns",
+        "Fpo",
+        "Rei Dfzera",
+        "Parmegiana",
+        "Druidao Damassa",
+        "Arroz Cadela",
+        "Wee Dz"
       ],
       "changes_log": [
         {
@@ -60269,96 +60275,90 @@
           "timestamp": "09/06/2026 às 22:49 (Brasília)"
         }
       ],
-      "recent_changes": [
-        {
-          "name": "Cuffy Dido",
-          "type": "left",
-          "timestamp": "09/06/2026 às 22:49 (Brasília)"
-        }
-      ]
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Pablaodocapao",
-        "Calveludo",
-        "Ryokazz",
-        "Druidao Damassa",
-        "Tururu",
-        "Donte",
-        "Voltoks",
-        "Dan De Ek",
-        "Carlos Star",
-        "Parmegiana",
-        "Ehotk",
+        "Guizzera Overlord",
+        "Old Jovizera",
+        "Banca",
         "Pala De Sandalia",
-        "Fpo",
-        "Void Pugilista",
-        "Deruz",
-        "Rei Dfzera",
-        "Cecil Damon",
-        "Ryxz",
         "Wiill",
         "Sauron Knight",
-        "Rudeus Greyrat",
-        "Wee Dz",
-        "Incrivel Monk",
-        "Kudo",
-        "Tankmode",
-        "Sinixtro",
-        "Feijao Baiakeironato",
-        "Boltadao",
-        "Krajj",
-        "Ragekemi",
-        "Potez",
-        "Frozen Throne",
-        "Tremqchia",
-        "Scizor",
-        "Banca",
-        "Lee Br",
-        "Wake Wake",
-        "Keelzera",
-        "Guizzera Overlord",
-        "Kawik",
-        "Guns",
-        "Xddx",
-        "Maggty Vaqueiro",
         "Sauron Fubazord",
-        "Fazendeiro Ricaria",
-        "Old Jovizera",
-        "Qiiso Camisadez",
-        "Pelegolas",
-        "Papumzada",
-        "Daann",
-        "Roxupano",
-        "Pallysupremofoda",
-        "Walace Owns",
-        "Sabor Knight",
-        "Jovi Baiakera",
-        "Joga Preda",
-        "Necromancer",
-        "Mendes",
-        "Arroz Cadela",
-        "Vitordlpz",
-        "Wewz Weerterz Weszlew",
         "Giga",
-        "kronosnk",
-        "Maggty Ek",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Tadala De Cinco",
-        "Poring",
+        "Carlos Star",
+        "Guns",
+        "Necromancer",
+        "Xddx",
+        "Incrivel Monk",
         "Vegas",
-        "Dont Bica",
-        "We Edz",
-        "Trickera",
-        "Cetoprofeno Intramuscular",
-        "Royal Sniper",
-        "Nidiozera",
-        "Lucasmonot",
-        "Its Gui",
+        "Wake Wake",
+        "Void Pugilista",
+        "Pallysupremofoda",
+        "Pittao teensina",
+        "Calveludo",
+        "Wewz Weerterz Weszlew",
         "Spvitu Rusty",
+        "Ryokazz",
+        "Lucasmonot",
+        "Tururu",
+        "Boltadao",
+        "Sabor Knight",
+        "Kudo",
+        "Feijao Baiakeironato",
+        "Tremqchia",
+        "Tankmode",
         "Regent Thragg",
-        "Leozin Rei Delas"
+        "Frozen Throne",
+        "Lee Br",
+        "Its Gui",
+        "Royal Sniper",
+        "Pelegolas",
+        "Dan De Ek",
+        "Voltoks",
+        "Vitordlpz",
+        "Cecil Damon",
+        "Papumzada",
+        "Fazendeiro Ricaria",
+        "Keelzera",
+        "Cetoprofeno Intramuscular",
+        "Kawik",
+        "Joga Preda",
+        "Daann",
+        "Jovi Baiakera",
+        "Ragekemi",
+        "Rudeus Greyrat",
+        "Donte",
+        "Potez",
+        "Sinixtro",
+        "Deruz",
+        "We Edz",
+        "Nidiozera",
+        "Trickera",
+        "Poring",
+        "Ryxz",
+        "Krajj",
+        "Maggty Ek",
+        "Mendes",
+        "Dont Bica",
+        "Roxupano",
+        "Tadala De Cinco",
+        "Qiiso Camisadez",
+        "Leozin Rei Delas",
+        "Pablaodocapao",
+        "Scizor",
+        "kronosnk",
+        "Maggty Vaqueiro",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "Walace Owns",
+        "Fpo",
+        "Rei Dfzera",
+        "Parmegiana",
+        "Druidao Damassa",
+        "Arroz Cadela",
+        "Wee Dz"
       ],
       "hunted": {
         "Leogolas": {
@@ -60928,13 +60928,7 @@
       "avg_per_player": 22.6
     }
   },
-  "recent_changes": [
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "09/06/2026 às 22:49 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
   "changes_log": [
     {
       "name": "Ragekemi",
