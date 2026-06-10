@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/06/2026 às 08:01 (Brasília)",
+  "updated_at": "10/06/2026 às 08:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 0,
@@ -1196,7 +1196,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/06/2026 às 08:01 (Brasília)",
+    "updated_at": "10/06/2026 às 08:03 (Brasília)",
     "kills_total": 473,
     "deaths_total": 439,
     "kills_today": 4,
@@ -47016,59 +47016,7 @@
           "Walace Owns": 31
         },
         "2026-06-10-07": {},
-        "2026-06-10-08": {
-          "Sauron Knight": 31,
-          "Banca": 19,
-          "Carlos Star": 12,
-          "Cecil Damon": 52,
-          "Daann": 23,
-          "Dan De Ek": 27,
-          "Druidao Damassa": 17,
-          "Fazendeiro Ricaria": 31,
-          "Fpo": 13,
-          "Guizzera Overlord": 5,
-          "Guns": 2,
-          "Incrivel Monk": 42,
-          "Its Gui": 24,
-          "Joga Preda": 22,
-          "Kawik": 43,
-          "Keelzera": 32,
-          "Krajj": 27,
-          "kronosnk": 20,
-          "Kudo": 23,
-          "Leozin Rei Delas": 28,
-          "Lucasmonot": 2,
-          "Maggty Ek": 21,
-          "Maggty Vaqueiro": 19,
-          "Mendes": 32,
-          "Necromancer": 15,
-          "Nidiozera": 16,
-          "Pablaodocapao": 12,
-          "Pala De Sandalia": 1,
-          "Pallysupremofoda": 21,
-          "Parmegiana": 4,
-          "Pelegolas": 14,
-          "Potez": 20,
-          "Qiiso Camisadez": 17,
-          "Regent Thragg": 10,
-          "Rei Dfzera": 11,
-          "Roxupano": 6,
-          "Ryxz": 13,
-          "Sauron Fubazord": 50,
-          "Sinixtro": 14,
-          "Spvitu Rusty": 6,
-          "Tadala De Cinco": 24,
-          "Tankmode": 14,
-          "Tremqchia": 26,
-          "Trickera": 23,
-          "Vegas": 11,
-          "Vitordlpz": 28,
-          "Voltoks": 21,
-          "Wee Dz": 19,
-          "Wewz Weerterz Weszlew": 17,
-          "Wiill": 16,
-          "Xddx": 18
-        }
+        "2026-06-10-08": {}
       },
       "events": [
         {
@@ -53060,8 +53008,9 @@
     }
   ],
   "errors": [
-    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
-    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
-    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
+    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Lowly%20People&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7f0dde8e8510>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=MentaliTY&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7f0dde8ea250>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Fuba%20Empire&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7f0dde8ebf50>, 'Connection to amonot.online timed out. (connect timeout=15)'))",
+    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Max retries exceeded with url: /guilds?name=Old%20Legacy&status=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='amonot.online', port=443) at 0x7f0dde8f1c10>, 'Connection to amonot.online timed out. (connect timeout=15)'))"
   ]
 }
