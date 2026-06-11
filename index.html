@@ -9055,7 +9055,7 @@ async function adminDeleteShopHistory(id, type){
 //  WHAT'S NEW — Popup de novidades
 // ══════════════════════════════════════════════════════════════════
 
-var WHATS_NEW_VERSION = '1.6.32';
+var WHATS_NEW_VERSION = '1.6.33';
 
 var WHATS_NEW_CHANGELOG = [
   {
@@ -9090,6 +9090,16 @@ var WHATS_NEW_CHANGELOG = [
         type: 'improvement',
         title: 'Notificações Telegram — Market',
         desc: 'As notificações de itens novos e saídas do Market agora chegam também pelo Telegram em paralelo ao Discord, para todos os membros com Telegram vinculado.',
+      },
+      {
+        type: 'new',
+        title: 'Participações — Sub-aba Progressão',
+        desc: 'Nova sub-aba "Progressão" em Participações mostra o ranking de resets ganhos por player no período selecionado. Filtros: Hoje (reset às 22h do servidor), Semana (segunda a domingo, semanas fechadas) e Mês (meses fechados). Dados persistidos no Supabase com histórico ilimitado.',
+      },
+      {
+        type: 'improvement',
+        title: 'Notificações de Morte — Telegram',
+        desc: 'As notificações de morte agora chegam também pelo Telegram em paralelo ao Discord, para todos os membros com Telegram vinculado.',
       },
     ],
   },
