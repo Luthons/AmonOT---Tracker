@@ -493,6 +493,8 @@ footer span{color:var(--gold-dim)}
 .hm-tabs{display:flex;gap:8px;margin-bottom:22px}
 .hm-tab{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:7px 18px;background:transparent;border:1px solid var(--border);color:var(--text-dim);cursor:pointer;transition:all .2s}
 .hm-tab.active{border-color:var(--gold-dim);color:var(--gold-light);background:rgba(201,168,76,.06)}
+.hunt-filter-btn{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;background:transparent;border:1px solid var(--border);color:var(--text-dim);cursor:pointer;transition:all .2s;border-radius:2px}
+.hunt-filter-btn.active{border-color:var(--border-gold);color:var(--gold-light);background:rgba(201,168,76,.08)}
 .hm-day-selector{display:flex;gap:6px;margin-bottom:20px;flex-wrap:wrap}
 .hm-day-btn{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.08em;padding:5px 12px;background:transparent;border:1px solid var(--border);color:var(--text-dim);cursor:pointer;transition:all .2s}
 .hm-day-btn.active{border-color:var(--gold-dim);color:var(--gold-light);background:rgba(201,168,76,.08)}
@@ -2101,6 +2103,11 @@ footer span{color:var(--gold-dim)}
         </div>
         <select id="hunt-prg-week-sel"  style="display:none;background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);padding:6px 10px;font-family:'Cinzel',serif;font-size:.7rem" onchange="loadHuntProgressao()"></select>
         <select id="hunt-prg-month-sel" style="display:none;background:var(--bg3);border:1px solid var(--border-gold);color:var(--text);padding:6px 10px;font-family:'Cinzel',serif;font-size:.7rem" onchange="loadHuntProgressao()"></select>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="hunt-filter-btn hunt-progressao-char-filter active" data-filter="all"   onclick="huntProgressaoCharFilter(this)">Todos</button>
+        <button class="hunt-filter-btn hunt-progressao-char-filter"        data-filter="main"  onclick="huntProgressaoCharFilter(this)">Main</button>
+        <button class="hunt-filter-btn hunt-progressao-char-filter"        data-filter="maker" onclick="huntProgressaoCharFilter(this)">Maker</button>
       </div>
       <div id="hunt-prg-content"></div>
     </div>
@@ -9981,6 +9988,12 @@ async function loadHuntReport() {
 
 var huntPrgPeriod = 'today';
 
+function huntProgressaoCharFilter(el) {
+  document.querySelectorAll('.hunt-progressao-char-filter').forEach(function(b){ b.classList.remove('active'); });
+  el.classList.add('active');
+  loadHuntProgressao();
+}
+
 function huntProgressaoSetPeriod(period, el) {
   huntPrgPeriod = period;
   document.querySelectorAll('#hunt-panel-progressao .hm-tab').forEach(function(b){ b.classList.remove('active'); });
@@ -10040,6 +10053,17 @@ async function loadHuntProgressao() {
     var sorted = Object.keys(playerMap)
       .map(function(n){ return {name: n, gained: playerMap[n].gained, total: playerMap[n].total}; })
       .sort(function(a, b){ return b.gained - a.gained; });
+
+    var _cfEl = document.querySelector('.hunt-progressao-char-filter.active');
+    var charFilter = _cfEl ? _cfEl.dataset.filter : 'all';
+    if(charFilter !== 'all') {
+      sorted = sorted.filter(function(row) {
+        var info = allMembers ? allMembers.find(function(m){ return m.name.toLowerCase() === row.name.toLowerCase(); }) : null;
+        if(!info) return charFilter === 'maker';
+        var isMain = info.is_main === true;
+        return charFilter === 'main' ? isMain : !isMain;
+      });
+    }
 
     var max = sorted.length ? sorted[0].gained : 1;
 
