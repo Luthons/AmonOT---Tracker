@@ -276,6 +276,8 @@ def run():
         return
 
     users_cache = load_users_cache()
+    for pid, prefs in users_cache.items():
+        print(f"[debug] profile={pid} discord={prefs.get('discord_id')} telegram={prefs.get('telegram_id')}")
     if not users_cache:
         print("[market_rt] ⚠ nenhum usuário cadastrado")
         return

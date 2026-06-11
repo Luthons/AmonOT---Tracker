@@ -16,6 +16,7 @@ DISCORD_TOKEN      = os.environ.get("DISCORD_BOT_TOKEN", "")
 DISCORD_CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "")
 SUPABASE_URL       = os.environ.get("SUPABASE_URL", "")
 SUPABASE_KEY       = os.environ.get("SUPABASE_SERVICE_KEY", "")
+TELEGRAM_TOKEN     = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 HEADERS_DS = {
     "Authorization": f"Bot {DISCORD_TOKEN}",
@@ -150,6 +151,17 @@ def send_dm(user_id: str, embed: dict) -> bool:
     return False
 
 
+def send_telegram_dm(telegram_id: int, message: str) -> bool:
+    if not TELEGRAM_TOKEN or not telegram_id:
+        return False
+    r = requests.post(
+        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+        json={"chat_id": telegram_id, "text": message, "parse_mode": "HTML"},
+        timeout=10,
+    )
+    return r.status_code == 200
+
+
 # ── Push Notifications ───────────────────────────────────────────────────────
 
 def get_push_subscriptions(profile_id: str) -> list:
@@ -250,7 +262,7 @@ def get_profile_id_for_char(char_name: str) -> str | None:
         return None
 
 
-def get_discord_id_for_char(char_name: str) -> tuple[str | None, bool]:
+def get_discord_id_for_char(char_name: str) -> tuple[str | None, int | None, bool]:
     try:
         r = requests.get(
             f"{SUPABASE_URL}/rest/v1/characters",
@@ -259,29 +271,29 @@ def get_discord_id_for_char(char_name: str) -> tuple[str | None, bool]:
             timeout=10,
         )
         if r.status_code != 200 or not r.json():
-            return None, True
+            return None, None, True
 
         profile_id = r.json()[0]["profile_id"]
 
         r2 = requests.get(
             f"{SUPABASE_URL}/rest/v1/profiles",
             headers=SUPA_HEADERS,
-            params={"id": f"eq.{profile_id}", "select": "discord_id,death_dm"},
+            params={"id": f"eq.{profile_id}", "select": "discord_id,telegram_id,death_dm"},
             timeout=10,
         )
         if r2.status_code != 200 or not r2.json():
-            return None, True
+            return None, None, True
 
-        profile  = r2.json()[0]
-        death_dm = profile.get("death_dm", True)
+        profile     = r2.json()[0]
+        death_dm    = profile.get("death_dm", True)
         if death_dm is None:
             death_dm = True
 
-        return profile.get("discord_id"), death_dm
+        return profile.get("discord_id"), profile.get("telegram_id"), death_dm
 
     except Exception as e:
         print(f"[death_tracker] erro ao buscar Discord ID: {e}")
-        return None, True
+        return None, None, True
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -330,17 +342,26 @@ def run():
             print(f"[death_tracker] ❌ falha canal: {death['player']}")
 
         if SUPABASE_URL and SUPABASE_KEY:
-            discord_id, death_dm_enabled = get_discord_id_for_char(death["player"])
-            if discord_id and death_dm_enabled:
+            discord_id, telegram_id, death_dm_enabled = get_discord_id_for_char(death["player"])
+            if death_dm_enabled:
                 embed_dm = build_embed_dm(death, is_enemy)
-                if send_dm(discord_id, embed_dm):
-                    print(f"[death_tracker] ✅ DM: {death['player']} → {discord_id}")
+                if discord_id:
+                    if send_dm(discord_id, embed_dm):
+                        print(f"[death_tracker] ✅ DM Discord: {death['player']} → {discord_id}")
+                    else:
+                        print(f"[death_tracker] ❌ falha DM Discord: {death['player']}")
                 else:
-                    print(f"[death_tracker] ❌ falha DM: {death['player']}")
-            elif discord_id and not death_dm_enabled:
-                print(f"[death_tracker] ℹ {death['player']} optou por não receber DMs")
+                    print(f"[death_tracker] ℹ {death['player']} sem discord_id cadastrado")
+                if telegram_id:
+                    victim = death["player"]
+                    killer = death["killedBy"]
+                    msg = f"💀 <b>{victim}</b> foi morto por <b>{killer}</b>"
+                    if send_telegram_dm(telegram_id, msg):
+                        print(f"[death_tracker] ✅ DM Telegram: {death['player']}")
+                    else:
+                        print(f"[death_tracker] ❌ falha DM Telegram: {death['player']}")
             else:
-                print(f"[death_tracker] ℹ {death['player']} sem discord_id cadastrado")
+                print(f"[death_tracker] ℹ {death['player']} optou por não receber DMs")
 
             # Push notification
             profile_id = get_profile_id_for_char(death["player"])

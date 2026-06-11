@@ -46,6 +46,7 @@ from history    import (
     compute_resets_today,
     compute_guild_reset_stats,
     load_history,
+    save_reset_snapshot_supabase,
 )
 from rankings   import build_rankings, build_war_rankings
 
@@ -228,10 +229,16 @@ def run():
     enemy_guild_stats = {}
 
     try:
-        reset_history = update_reset_history(my_members, prev_history.get("resets", {}))
-        resets_today  = compute_resets_today(my_members, reset_history)
+        reset_history  = update_reset_history(my_members, prev_history.get("resets", {}))
+        resets_today   = compute_resets_today(my_members, reset_history)
         my_guild_stats = compute_guild_reset_stats(my_members, reset_history, my_guild)
         print(f"   ✅ Resets minha guilda: {len(reset_history['events'])} eventos | hoje: {my_guild_stats['resets_today']}")
+        save_reset_snapshot_supabase(
+            my_members,
+            reset_history,
+            os.environ.get("SUPABASE_URL", ""),
+            os.environ.get("SUPABASE_SERVICE_KEY", ""),
+        )
     except Exception as e:
         errors.append(f"Reset history: {e}")
         print(f"   ❌ {e}")

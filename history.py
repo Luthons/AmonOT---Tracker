@@ -191,6 +191,69 @@ def compute_guild_reset_stats(members: list, reset_history: dict, guild_name: st
     }
 
 
+# ── Snapshot de resets no Supabase ───────────────────────────────────────────
+
+def save_reset_snapshot_supabase(members: list, reset_history: dict, supabase_url: str, supabase_key: str):
+    """
+    Salva um registro por player na tabela reset_snapshots do Supabase.
+    Só executa entre 22h e 23h de Brasília (virada do servidor) para não duplicar.
+    Usa UPSERT (merge-duplicates) por (server_date, player_name).
+    """
+    import requests as _requests
+
+    now = brasilia_now()
+    if now.hour != 22:
+        return
+
+    server_date = now.strftime("%Y-%m-%d")
+
+    headers = {
+        "apikey":        supabase_key,
+        "Authorization": f"Bearer {supabase_key}",
+        "Content-Type":  "application/json",
+        "Prefer":        "resolution=merge-duplicates",
+    }
+
+    snapshots = reset_history.get("snapshots", {})
+    if not snapshots:
+        return
+
+    sorted_keys = sorted(snapshots.keys())
+
+    # Início do dia = 22h de ontem
+    day_ago  = (now - timedelta(days=1)).replace(hour=22, minute=0, second=0, microsecond=0)
+    day_key  = day_ago.strftime("%Y-%m-%d-%H")
+
+    start_snap = {}
+    for k in sorted_keys:
+        if k <= day_key:
+            start_snap = snapshots[k]
+
+    current_snap = snapshots.get(sorted_keys[-1], {})
+
+    rows = []
+    for player, total in current_snap.items():
+        prev   = start_snap.get(player, total)
+        gained = max(0, total - prev)
+        rows.append({
+            "server_date":   server_date,
+            "player_name":   player,
+            "resets_gained": gained,
+            "resets_total":  total,
+        })
+
+    if not rows:
+        return
+
+    r = _requests.post(
+        f"{supabase_url}/rest/v1/reset_snapshots",
+        headers=headers,
+        json=rows,
+        timeout=30,
+    )
+    print(f"[reset_snapshot] {len(rows)} players salvos no Supabase ({r.status_code})")
+
+
 # ── Entradas e saídas de membros ──────────────────────────────────────────────
 
 def update_member_changes(current_members: list, previous_history: dict) -> dict:
