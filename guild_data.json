@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/06/2026 às 02:00 (Brasília)",
+  "updated_at": "13/06/2026 às 02:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
-  "online_count": 60,
-  "offline_count": 40,
+  "online_count": 59,
+  "offline_count": 41,
   "members": [
     {
       "name": "Brunaobringer",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Royal Luthons",
-      "level": 919,
+      "level": 920,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -267,7 +267,7 @@
     },
     {
       "name": "Salles On Amonot",
-      "level": 1047,
+      "level": 1048,
       "resets": 64,
       "vocation": "Elite Knight",
       "nick": "",
@@ -914,7 +914,7 @@
     },
     {
       "name": "Culpa Do Salles",
-      "level": 1497,
+      "level": 1498,
       "resets": 28,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1020,7 +1020,7 @@
     },
     {
       "name": "Deus",
-      "level": 770,
+      "level": 773,
       "resets": 41,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1187,7 +1187,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 26,
@@ -1865,7 +1865,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 862,
+      "level": 863,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2944,7 +2944,7 @@
     },
     {
       "name": "Loks",
-      "level": 927,
+      "level": 928,
       "resets": 30,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3492,7 +3492,7 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 776,
+      "level": 777,
       "resets": 14,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4248,12 +4248,12 @@
     },
     {
       "name": "Sereno Taca Flecha",
-      "level": 1926,
-      "resets": 27,
+      "level": 31,
+      "resets": 28,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 14,
@@ -4324,6 +4324,11 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "08/06/2026 às 21:29 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 02:01 (Brasília)"
         }
       ]
     },
@@ -4522,7 +4527,7 @@
     },
     {
       "name": "Tio Bringer",
-      "level": 740,
+      "level": 741,
       "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5059,7 +5064,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 19,
@@ -5282,7 +5287,7 @@
         },
         {
           "name": "Leozin Rei Delas",
-          "level": 1600,
+          "level": 1601,
           "resets": 28,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5309,7 +5314,7 @@
         },
         {
           "name": "Maggty Vaqueiro",
-          "level": 1746,
+          "level": 1747,
           "resets": 19,
           "vocation": "Elder Druid",
           "nick": "",
@@ -5489,7 +5494,7 @@
         },
         {
           "name": "Trickera",
-          "level": 769,
+          "level": 770,
           "resets": 24,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5564,8 +5569,8 @@
     {
       "name": "Old Legacy",
       "total_members": 29,
-      "online_count": 24,
-      "offline_count": 5,
+      "online_count": 23,
+      "offline_count": 6,
       "members": [
         {
           "name": "Ehotk",
@@ -5686,7 +5691,7 @@
         },
         {
           "name": "Deruz",
-          "level": 1162,
+          "level": 1163,
           "resets": 34,
           "vocation": "Elite Knight",
           "nick": "",
@@ -5700,11 +5705,11 @@
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Frozen Throne",
-          "level": 844,
+          "level": 845,
           "resets": 32,
           "vocation": "Elder Druid",
           "nick": "",
@@ -5713,7 +5718,7 @@
         },
         {
           "name": "Giga",
-          "level": 625,
+          "level": 627,
           "resets": 23,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5873,6 +5878,14 @@
       "online": true
     },
     {
+      "name": "Sereno Taca Flecha",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Royal Luthons",
       "resets_total": 39,
       "resets_today": 0,
@@ -5950,7 +5963,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Ed farm",
@@ -6158,14 +6171,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Sereno Taca Flecha",
-      "resets_total": 27,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -6788,7 +6793,7 @@
           "name": "Dmonick",
           "value": 32,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "End Zeus",
@@ -6876,9 +6881,9 @@
         },
         {
           "name": "Sereno Taca Flecha",
-          "value": 27,
+          "value": 28,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Twitch Yagoodz",
@@ -6968,7 +6973,7 @@
           "name": "Xeipe",
           "value": 19,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Achilles",
@@ -7289,12 +7294,6 @@
           "online": false
         },
         {
-          "name": "Sereno Taca Flecha",
-          "value": 1926,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Pai Do Paulokogos",
           "value": 1923,
           "vocation": "Elder Druid",
@@ -7334,7 +7333,7 @@
           "name": "Dmonick",
           "value": 1749,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "End Thor",
@@ -7368,7 +7367,7 @@
         },
         {
           "name": "Culpa Do Salles",
-          "value": 1497,
+          "value": 1498,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -7512,7 +7511,7 @@
         },
         {
           "name": "Salles On Amonot",
-          "value": 1047,
+          "value": 1048,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -7596,7 +7595,7 @@
         },
         {
           "name": "Loks",
-          "value": 927,
+          "value": 928,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -7608,7 +7607,7 @@
         },
         {
           "name": "Royal Luthons",
-          "value": 919,
+          "value": 920,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7634,7 +7633,7 @@
           "name": "Xeipe",
           "value": 891,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Campin",
@@ -7644,7 +7643,7 @@
         },
         {
           "name": "Gokuu",
-          "value": 862,
+          "value": 863,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7716,7 +7715,7 @@
         },
         {
           "name": "Nagato Sorcerer",
-          "value": 776,
+          "value": 777,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -7728,7 +7727,7 @@
         },
         {
           "name": "Deus",
-          "value": 770,
+          "value": 773,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -7746,7 +7745,7 @@
         },
         {
           "name": "Tio Bringer",
-          "value": 740,
+          "value": 741,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7797,6 +7796,12 @@
           "value": 619,
           "vocation": "Royal Paladin",
           "online": true
+        },
+        {
+          "name": "Sereno Taca Flecha",
+          "value": 31,
+          "vocation": "Royal Paladin",
+          "online": false
         }
       ]
     }
@@ -8316,7 +8321,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/06/2026 às 02:00 (Brasília)",
+    "updated_at": "13/06/2026 às 02:01 (Brasília)",
     "kills_total": 519,
     "deaths_total": 583,
     "kills_today": 1,
@@ -20398,7 +20403,7 @@
         "Rp Terror": 31,
         "Sabour Ms": 10,
         "Salles": 25,
-        "Sereno Taca Flecha": 27,
+        "Sereno Taca Flecha": 28,
         "Shanks": 12,
         "Sisen": 6,
         "Solarica": 2,
@@ -36446,7 +36451,7 @@
           "Rp Terror": 31,
           "Sabour Ms": 10,
           "Salles": 25,
-          "Sereno Taca Flecha": 27,
+          "Sereno Taca Flecha": 28,
           "Shanks": 12,
           "Sisen": 6,
           "Solarica": 2,
@@ -43262,6 +43267,13 @@
           "gained": 1,
           "timestamp": "13/06/2026 às 00:54 (Brasília)",
           "hour_key": "2026-06-13-00"
+        },
+        {
+          "name": "Sereno Taca Flecha",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 02:01 (Brasília)",
+          "hour_key": "2026-06-13-02"
         }
       ]
     },
@@ -63160,83 +63172,83 @@
     },
     "members": {
       "last_member_list": [
-        "Pittao teensina",
-        "Maggty Ek",
-        "Sabor Knight",
-        "Pala De Sandalia",
-        "Fazendeiro Ricaria",
-        "Walace Owns",
-        "Dont Bica",
-        "Potez",
-        "Frozen Throne",
-        "Carlos Star",
-        "Trickera",
         "Boltadao",
-        "Kudo",
+        "Its Gui",
+        "kronosnk",
+        "Wake Wake",
         "Wee Dz",
-        "Giga",
-        "Qiiso Camisadez",
-        "Kawik",
-        "Royal Sniper",
-        "JhonzinMilgrau",
+        "Cuffy Dido",
         "Arroz Cadela",
-        "Tadala De Cinco",
-        "Lee Br",
+        "Ehotk",
+        "Leozin Rei Delas",
+        "JhonzinMilgrau",
+        "Giga",
+        "Donte",
+        "Nidiozera",
+        "Mendes",
+        "Guizzera Overlord",
         "Parmegiana",
-        "Guns",
-        "Old Jovizera",
-        "Scizor",
+        "Banca",
+        "Wiill",
+        "Daann",
+        "Xddx",
         "Lucasmonot",
-        "Voltoks",
         "Papumzada",
         "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Daann",
-        "Donte",
-        "Pallysupremofoda",
-        "Spvitu Rusty",
-        "Nidiozera",
-        "Ehotk",
-        "Sauron Knight",
-        "Ryxz",
-        "Xddx",
-        "Total Security",
-        "Poring",
-        "Druidao Damassa",
-        "Banca",
-        "Krajj",
-        "Fpo",
-        "Cuffy Dido",
-        "Guizzera Overlord",
-        "Calveludo",
-        "Roxupano",
-        "Leozin Rei Delas",
-        "Pelegolas",
-        "Tururu",
-        "Dan De Ek",
-        "Regent Thragg",
-        "Wake Wake",
-        "Necromancer",
-        "Rei Dfzera",
+        "Panuto",
+        "Trickera",
         "Sauron Fubazord",
         "Deruz",
-        "Tankmode",
-        "Vitordlpz",
-        "kronosnk",
-        "Ragekemi",
-        "Mendes",
-        "Pipoco Do Trovaoo",
-        "Vegas",
         "Maggty Vaqueiro",
-        "Wewz Weerterz Weszlew",
-        "Wiill",
-        "Sinixtro",
-        "Its Gui",
+        "Scizor",
+        "Fpo",
         "Pablaodocapao",
-        "Joga Preda",
-        "Panuto",
+        "Lee Br",
+        "Pallysupremofoda",
+        "Roxupano",
+        "Old Jovizera",
+        "Pipoco Do Trovaoo",
+        "Necromancer",
+        "Sinixtro",
+        "Potez",
+        "Voltoks",
+        "Ragekemi",
+        "Walace Owns",
+        "Tururu",
+        "Tadala De Cinco",
+        "Pala De Sandalia",
+        "Ryxz",
+        "Rei Dfzera",
+        "Frozen Throne",
+        "Sauron Knight",
+        "Total Security",
+        "Pittao teensina",
+        "Sabor Knight",
+        "Royal Sniper",
+        "Tankmode",
+        "Dan De Ek",
+        "Vegas",
+        "Qiiso Camisadez",
+        "Incrivel Monk",
+        "Kawik",
+        "Wewz Weerterz Weszlew",
+        "Druidao Damassa",
         "We Edz",
-        "Feijao Baiakeironato"
+        "Krajj",
+        "Calveludo",
+        "Poring",
+        "Spvitu Rusty",
+        "Vitordlpz",
+        "Fazendeiro Ricaria",
+        "Guns",
+        "Kudo",
+        "Feijao Baiakeironato",
+        "Joga Preda",
+        "Regent Thragg",
+        "Pelegolas",
+        "Carlos Star",
+        "Dont Bica",
+        "Maggty Ek"
       ],
       "changes_log": [
         {
@@ -63359,83 +63371,83 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Pittao teensina",
-        "Maggty Ek",
-        "Sabor Knight",
-        "Pala De Sandalia",
-        "Fazendeiro Ricaria",
-        "Walace Owns",
-        "Dont Bica",
-        "Potez",
-        "Frozen Throne",
-        "Carlos Star",
-        "Trickera",
         "Boltadao",
-        "Kudo",
+        "Its Gui",
+        "kronosnk",
+        "Wake Wake",
         "Wee Dz",
-        "Giga",
-        "Qiiso Camisadez",
-        "Kawik",
-        "Royal Sniper",
-        "JhonzinMilgrau",
+        "Cuffy Dido",
         "Arroz Cadela",
-        "Tadala De Cinco",
-        "Lee Br",
+        "Ehotk",
+        "Leozin Rei Delas",
+        "JhonzinMilgrau",
+        "Giga",
+        "Donte",
+        "Nidiozera",
+        "Mendes",
+        "Guizzera Overlord",
         "Parmegiana",
-        "Guns",
-        "Old Jovizera",
-        "Scizor",
+        "Banca",
+        "Wiill",
+        "Daann",
+        "Xddx",
         "Lucasmonot",
-        "Voltoks",
         "Papumzada",
         "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Daann",
-        "Donte",
-        "Pallysupremofoda",
-        "Spvitu Rusty",
-        "Nidiozera",
-        "Ehotk",
-        "Sauron Knight",
-        "Ryxz",
-        "Xddx",
-        "Total Security",
-        "Poring",
-        "Druidao Damassa",
-        "Banca",
-        "Krajj",
-        "Fpo",
-        "Cuffy Dido",
-        "Guizzera Overlord",
-        "Calveludo",
-        "Roxupano",
-        "Leozin Rei Delas",
-        "Pelegolas",
-        "Tururu",
-        "Dan De Ek",
-        "Regent Thragg",
-        "Wake Wake",
-        "Necromancer",
-        "Rei Dfzera",
+        "Panuto",
+        "Trickera",
         "Sauron Fubazord",
         "Deruz",
-        "Tankmode",
-        "Vitordlpz",
-        "kronosnk",
-        "Ragekemi",
-        "Mendes",
-        "Pipoco Do Trovaoo",
-        "Vegas",
         "Maggty Vaqueiro",
-        "Wewz Weerterz Weszlew",
-        "Wiill",
-        "Sinixtro",
-        "Its Gui",
+        "Scizor",
+        "Fpo",
         "Pablaodocapao",
-        "Joga Preda",
-        "Panuto",
+        "Lee Br",
+        "Pallysupremofoda",
+        "Roxupano",
+        "Old Jovizera",
+        "Pipoco Do Trovaoo",
+        "Necromancer",
+        "Sinixtro",
+        "Potez",
+        "Voltoks",
+        "Ragekemi",
+        "Walace Owns",
+        "Tururu",
+        "Tadala De Cinco",
+        "Pala De Sandalia",
+        "Ryxz",
+        "Rei Dfzera",
+        "Frozen Throne",
+        "Sauron Knight",
+        "Total Security",
+        "Pittao teensina",
+        "Sabor Knight",
+        "Royal Sniper",
+        "Tankmode",
+        "Dan De Ek",
+        "Vegas",
+        "Qiiso Camisadez",
+        "Incrivel Monk",
+        "Kawik",
+        "Wewz Weerterz Weszlew",
+        "Druidao Damassa",
         "We Edz",
-        "Feijao Baiakeironato"
+        "Krajj",
+        "Calveludo",
+        "Poring",
+        "Spvitu Rusty",
+        "Vitordlpz",
+        "Fazendeiro Ricaria",
+        "Guns",
+        "Kudo",
+        "Feijao Baiakeironato",
+        "Joga Preda",
+        "Regent Thragg",
+        "Pelegolas",
+        "Carlos Star",
+        "Dont Bica",
+        "Maggty Ek"
       ],
       "hunted": {
         "Leogolas": {
@@ -63987,11 +63999,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2498,
-      "resets_today": 5,
-      "resets_week": 156,
+      "total_current": 2499,
+      "resets_today": 6,
+      "resets_week": 157,
       "resets_month": 0,
-      "resets_lifetime": 172,
+      "resets_lifetime": 173,
       "avg_per_player": 25.0
     },
     "enemy_guild": {
