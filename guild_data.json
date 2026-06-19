@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/06/2026 às 15:41 (Brasília)",
+  "updated_at": "19/06/2026 às 15:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 87,
-  "online_count": 41,
-  "offline_count": 46,
+  "online_count": 44,
+  "offline_count": 43,
   "members": [
     {
       "name": "Brunaobringer",
@@ -323,7 +323,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 13,
@@ -2244,7 +2244,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 51,
@@ -3809,7 +3809,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 15,
@@ -4338,7 +4338,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 6,
@@ -4364,7 +4364,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 1,
@@ -4953,8 +4953,8 @@
         },
         {
           "name": "Tadala De Cinco",
-          "level": 1400,
-          "resets": 28,
+          "level": 8,
+          "resets": 29,
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
@@ -5046,8 +5046,8 @@
     {
       "name": "Old Legacy",
       "total_members": 30,
-      "online_count": 26,
-      "offline_count": 4,
+      "online_count": 25,
+      "offline_count": 5,
       "members": [
         {
           "name": "Ehotk",
@@ -5164,7 +5164,7 @@
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Deruz",
@@ -5222,7 +5222,7 @@
         },
         {
           "name": "Lula",
-          "level": 1903,
+          "level": 1905,
           "resets": 50,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5294,7 +5294,7 @@
         },
         {
           "name": "Wake Wake",
-          "level": 1088,
+          "level": 1089,
           "resets": 31,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5312,7 +5312,7 @@
         },
         {
           "name": "Ze Bob",
-          "level": 1674,
+          "level": 1682,
           "resets": 55,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5417,7 +5417,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Apreciador De Casadas",
@@ -5521,7 +5521,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Lilian Faithkeeper",
@@ -5697,7 +5697,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Voldemort Ms",
@@ -5705,7 +5705,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": false
+      "online": true
     },
     {
       "name": "Xeipe",
@@ -5771,6 +5771,14 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Tadala De Cinco",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -5892,14 +5900,6 @@
       "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Tadala De Cinco",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Tankmode",
@@ -6107,7 +6107,7 @@
           "name": "Kiel",
           "value": 52,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Henrique",
@@ -6359,7 +6359,7 @@
           "name": "Salles",
           "value": 25,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Tio Bringer",
@@ -6425,7 +6425,7 @@
           "name": "Affey",
           "value": 19,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Achilles",
@@ -6521,7 +6521,7 @@
           "name": "Voldemort Ed",
           "value": 8,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Campin",
@@ -6605,7 +6605,7 @@
           "name": "Voldemort Ms",
           "value": 1,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Drizinha",
@@ -6713,7 +6713,7 @@
           "name": "Kiel",
           "value": 1901,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Xeipe",
@@ -6827,7 +6827,7 @@
           "name": "Salles",
           "value": 1395,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Apreciador De Casadas",
@@ -6905,7 +6905,7 @@
           "name": "Affey",
           "value": 1043,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Teylera Rp",
@@ -6935,7 +6935,7 @@
           "name": "Voldemort Ed",
           "value": 985,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Timeless",
@@ -6965,7 +6965,7 @@
           "name": "Voldemort Ms",
           "value": 949,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Pestinha",
@@ -7210,6 +7210,12 @@
           "kills_week": 2
         },
         {
+          "name": "Teylera Rp",
+          "value": 14,
+          "kills_today": 4,
+          "kills_week": 14
+        },
+        {
           "name": "Pally Tetss",
           "value": 14,
           "kills_today": 0,
@@ -7220,12 +7226,6 @@
           "value": 14,
           "kills_today": 0,
           "kills_week": 11
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 13,
-          "kills_today": 3,
-          "kills_week": 13
         },
         {
           "name": "Gizao",
@@ -7743,16 +7743,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/06/2026 às 15:41 (Brasília)",
-    "kills_total": 722,
+    "updated_at": "19/06/2026 às 15:42 (Brasília)",
+    "kills_total": 723,
     "deaths_total": 808,
-    "kills_today": 9,
+    "kills_today": 10,
     "deaths_today": 4,
-    "kills_week": 204,
+    "kills_week": 205,
     "deaths_week": 236,
     "kd_total": 0.89,
-    "kd_today": 2.25,
-    "kd_week": 0.86,
+    "kd_today": 2.5,
+    "kd_week": 0.87,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -7816,6 +7816,12 @@
         "kills_week": 2
       },
       {
+        "name": "Teylera Rp",
+        "kills": 14,
+        "kills_today": 4,
+        "kills_week": 14
+      },
+      {
         "name": "Pally Tetss",
         "kills": 14,
         "kills_today": 0,
@@ -7826,12 +7832,6 @@
         "kills": 14,
         "kills_today": 0,
         "kills_week": 11
-      },
-      {
-        "name": "Teylera Rp",
-        "kills": 13,
-        "kills_today": 3,
-        "kills_week": 13
       },
       {
         "name": "Gizao",
@@ -11766,6 +11766,15 @@
         "level": 797,
         "killedBy": "Jotabringer",
         "maiorDano": "Salles On Amonot",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 19, 2026 15:42",
+        "player": "Wake Wake",
+        "level": 1090,
+        "killedBy": "Teylera Rp",
+        "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
       },
@@ -47445,7 +47454,7 @@
         "Ryxz": 13,
         "Sinixtro": 14,
         "Spvitu Rusty": 6,
-        "Tadala De Cinco": 28,
+        "Tadala De Cinco": 29,
         "Tankmode": 16,
         "Trickera": 27,
         "Vegas": 13,
@@ -60762,7 +60771,7 @@
           "Ryxz": 13,
           "Sinixtro": 14,
           "Spvitu Rusty": 6,
-          "Tadala De Cinco": 28,
+          "Tadala De Cinco": 29,
           "Tankmode": 16,
           "Trickera": 27,
           "Vegas": 13,
@@ -67447,89 +67456,96 @@
           "gained": 1,
           "timestamp": "19/06/2026 às 15:22 (Brasília)",
           "hour_key": "2026-06-19-15"
+        },
+        {
+          "name": "Tadala De Cinco",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 15:42 (Brasília)",
+          "hour_key": "2026-06-19-15"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Giga",
-        "Ze Bob",
-        "kronosnk",
-        "Tururu",
-        "Leozin Rei Delas",
-        "Maggty Ek",
-        "Poring",
-        "Nidiozera",
-        "JhonzinMilgrau",
-        "Potez",
-        "Wiill",
-        "Pipoco Do Trovaoo",
-        "Kudo",
-        "Necromancer",
-        "Dont Bica",
-        "Scizor",
-        "Carlos Star",
         "Guns",
-        "Tadala De Cinco",
-        "Zoiwer Hoxmar Awesome",
-        "Wee Dz",
-        "Total Security",
-        "Papumzada",
-        "Feijao Baiakeironato",
-        "Guizzera Overlord",
+        "Ashuashua",
+        "Ragekemi",
+        "Sauron Knight",
+        "Tankmode",
+        "Dan De Ek",
+        "Maggty Ek",
         "Rei Dfzera",
-        "Mendes",
+        "Ze Bob",
+        "Pala De Sandalia",
+        "Wiill",
+        "Frozen Throne",
+        "Regent Thragg",
+        "Wake Wake",
+        "Calveludo",
+        "Xddx",
+        "Fpo",
+        "Arroz Cadela",
+        "Dont Bica",
+        "Maggty Vaqueiro",
+        "Deruz",
+        "Daann",
+        "Spvitu Rusty",
+        "Vegas",
         "Pallysupremofoda",
-        "Pittao teensina",
-        "Voltoks",
+        "Parmegiana",
+        "We Edz",
+        "Mendes",
+        "Joga Preda",
+        "Wee Dz",
+        "Poring",
         "Boltadao",
         "Sabor Knight",
-        "Dan De Ek",
+        "Leozin Rei Delas",
+        "Scizor",
+        "Walace Owns",
+        "Nidiozera",
+        "Fazendeiro Ricaria",
+        "Voltoks",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Potez",
+        "Tururu",
+        "Giga",
+        "Kawik",
+        "Incrivel Monk",
+        "Lucasmonot",
+        "Pablaodocapao",
+        "Krajj",
+        "Carlos Star",
+        "Feijao Baiakeironato",
+        "Pipoco Do Trovaoo",
+        "Lee Br",
         "Donte",
-        "Xddx",
+        "Trickera",
+        "Ryxz",
+        "Kudo",
+        "Ehotk",
         "Wewz Weerterz Weszlew",
         "Lula",
-        "Qiiso Camisadez",
-        "Vegas",
-        "Sinixtro",
-        "Parmegiana",
-        "Pablaodocapao",
-        "Joga Preda",
-        "Pala De Sandalia",
-        "Incrivel Monk",
-        "Druidao Damassa",
-        "Wake Wake",
-        "Ragekemi",
-        "Walace Owns",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Daann",
-        "Vitordlpz",
-        "Ehotk",
         "Banca",
-        "Maggty Vaqueiro",
-        "Fazendeiro Ricaria",
-        "Ryxz",
+        "Guizzera Overlord",
+        "Sinixtro",
+        "Vitordlpz",
         "Banca Kina",
-        "Lucasmonot",
-        "Ashuashua",
-        "Lee Br",
-        "Deruz",
-        "Calveludo",
-        "Regent Thragg",
-        "Frozen Throne",
-        "Old Jovizera",
-        "Tankmode",
-        "Krajj",
-        "Trickera",
-        "Sauron Knight",
-        "We Edz",
+        "Zoiwer Hoxmar Awesome",
+        "kronosnk",
+        "Druidao Damassa",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Tadala De Cinco",
         "Pelegolas",
-        "Fpo",
-        "Kawik",
         "Its Gui",
-        "Spvitu Rusty",
-        "Arroz Cadela"
+        "Necromancer",
+        "Qiiso Camisadez",
+        "Papumzada",
+        "Total Security"
       ],
       "changes_log": [
         {
@@ -68247,84 +68263,84 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Giga",
-        "Ze Bob",
-        "kronosnk",
-        "Tururu",
-        "Leozin Rei Delas",
-        "Maggty Ek",
-        "Poring",
-        "Nidiozera",
-        "JhonzinMilgrau",
-        "Potez",
-        "Wiill",
-        "Pipoco Do Trovaoo",
-        "Kudo",
-        "Necromancer",
-        "Dont Bica",
-        "Scizor",
-        "Carlos Star",
         "Guns",
-        "Tadala De Cinco",
-        "Zoiwer Hoxmar Awesome",
-        "Wee Dz",
-        "Total Security",
-        "Papumzada",
-        "Feijao Baiakeironato",
-        "Guizzera Overlord",
+        "Ashuashua",
+        "Ragekemi",
+        "Sauron Knight",
+        "Tankmode",
+        "Dan De Ek",
+        "Maggty Ek",
         "Rei Dfzera",
-        "Mendes",
+        "Ze Bob",
+        "Pala De Sandalia",
+        "Wiill",
+        "Frozen Throne",
+        "Regent Thragg",
+        "Wake Wake",
+        "Calveludo",
+        "Xddx",
+        "Fpo",
+        "Arroz Cadela",
+        "Dont Bica",
+        "Maggty Vaqueiro",
+        "Deruz",
+        "Daann",
+        "Spvitu Rusty",
+        "Vegas",
         "Pallysupremofoda",
-        "Pittao teensina",
-        "Voltoks",
+        "Parmegiana",
+        "We Edz",
+        "Mendes",
+        "Joga Preda",
+        "Wee Dz",
+        "Poring",
         "Boltadao",
         "Sabor Knight",
-        "Dan De Ek",
+        "Leozin Rei Delas",
+        "Scizor",
+        "Walace Owns",
+        "Nidiozera",
+        "Fazendeiro Ricaria",
+        "Voltoks",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Potez",
+        "Tururu",
+        "Giga",
+        "Kawik",
+        "Incrivel Monk",
+        "Lucasmonot",
+        "Pablaodocapao",
+        "Krajj",
+        "Carlos Star",
+        "Feijao Baiakeironato",
+        "Pipoco Do Trovaoo",
+        "Lee Br",
         "Donte",
-        "Xddx",
+        "Trickera",
+        "Ryxz",
+        "Kudo",
+        "Ehotk",
         "Wewz Weerterz Weszlew",
         "Lula",
-        "Qiiso Camisadez",
-        "Vegas",
-        "Sinixtro",
-        "Parmegiana",
-        "Pablaodocapao",
-        "Joga Preda",
-        "Pala De Sandalia",
-        "Incrivel Monk",
-        "Druidao Damassa",
-        "Wake Wake",
-        "Ragekemi",
-        "Walace Owns",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Daann",
-        "Vitordlpz",
-        "Ehotk",
         "Banca",
-        "Maggty Vaqueiro",
-        "Fazendeiro Ricaria",
-        "Ryxz",
+        "Guizzera Overlord",
+        "Sinixtro",
+        "Vitordlpz",
         "Banca Kina",
-        "Lucasmonot",
-        "Ashuashua",
-        "Lee Br",
-        "Deruz",
-        "Calveludo",
-        "Regent Thragg",
-        "Frozen Throne",
-        "Old Jovizera",
-        "Tankmode",
-        "Krajj",
-        "Trickera",
-        "Sauron Knight",
-        "We Edz",
+        "Zoiwer Hoxmar Awesome",
+        "kronosnk",
+        "Druidao Damassa",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Tadala De Cinco",
         "Pelegolas",
-        "Fpo",
-        "Kawik",
         "Its Gui",
-        "Spvitu Rusty",
-        "Arroz Cadela"
+        "Necromancer",
+        "Qiiso Camisadez",
+        "Papumzada",
+        "Total Security"
       ],
       "hunted": {
         "Leogolas": {
@@ -68910,12 +68926,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 78,
-      "total_current": 1977,
-      "resets_today": 12,
-      "resets_week": 157,
+      "total_current": 1978,
+      "resets_today": 13,
+      "resets_week": 158,
       "resets_month": 0,
-      "resets_lifetime": 165,
-      "avg_per_player": 25.3
+      "resets_lifetime": 166,
+      "avg_per_player": 25.4
     }
   },
   "recent_changes": [],
