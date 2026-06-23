@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/06/2026 às 22:58 (Brasília)",
+  "updated_at": "22/06/2026 às 22:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 82,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1961,
+      "level": 1960,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1998,
+      "level": 1996,
       "resets": 64,
       "vocation": "Elite Knight",
       "nick": "",
@@ -257,7 +257,7 @@
     },
     {
       "name": "Maguinn Hahaha",
-      "level": 1267,
+      "level": 1266,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4368,7 +4368,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 672,
+      "level": 671,
       "resets": 51,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4952,7 +4952,7 @@
         },
         {
           "name": "Feijao Baiakeironato",
-          "level": 1353,
+          "level": 1352,
           "resets": 52,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5051,7 +5051,7 @@
         },
         {
           "name": "Lula",
-          "level": 1994,
+          "level": 1991,
           "resets": 50,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -6303,12 +6303,6 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 1998,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Imperador Ek",
           "value": 1998,
           "vocation": "Elite Knight",
@@ -6327,6 +6321,12 @@
           "online": false
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 1996,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "VukVuk",
           "value": 1996,
           "vocation": "Elder Druid",
@@ -6340,7 +6340,7 @@
         },
         {
           "name": "Esfi Hahaha",
-          "value": 1961,
+          "value": 1960,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6460,7 +6460,7 @@
         },
         {
           "name": "Maguinn Hahaha",
-          "value": 1267,
+          "value": 1266,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6730,7 +6730,7 @@
         },
         {
           "name": "Ynhaca Purah",
-          "value": 672,
+          "value": 671,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6792,9 +6792,9 @@
         },
         {
           "name": "Punish Claude",
-          "value": 39,
-          "kills_today": 0,
-          "kills_week": 24
+          "value": 40,
+          "kills_today": 1,
+          "kills_week": 25
         },
         {
           "name": "Maguinn Returns",
@@ -6839,16 +6839,16 @@
           "kills_week": 16
         },
         {
+          "name": "Ynhaca Purah",
+          "value": 16,
+          "kills_today": 1,
+          "kills_week": 15
+        },
+        {
           "name": "Gizao",
           "value": 15,
           "kills_today": 2,
           "kills_week": 7
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 15,
-          "kills_today": 0,
-          "kills_week": 14
         },
         {
           "name": "Yagoodz Arrogante",
@@ -7062,15 +7062,15 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 170,
-          "kills_today": 5,
-          "kills_week": 53
+          "value": 174,
+          "kills_today": 9,
+          "kills_week": 57
         },
         {
           "name": "Poring",
-          "value": 115,
-          "kills_today": 10,
-          "kills_week": 87
+          "value": 116,
+          "kills_today": 11,
+          "kills_week": 88
         },
         {
           "name": "Feijao Baiakeironato",
@@ -7390,16 +7390,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/06/2026 às 22:58 (Brasília)",
-    "kills_total": 809,
-    "deaths_total": 870,
-    "kills_today": 16,
-    "deaths_today": 17,
-    "kills_week": 211,
-    "deaths_week": 202,
+    "updated_at": "22/06/2026 às 22:59 (Brasília)",
+    "kills_total": 811,
+    "deaths_total": 875,
+    "kills_today": 18,
+    "deaths_today": 22,
+    "kills_week": 213,
+    "deaths_week": 207,
     "kd_total": 0.93,
-    "kd_today": 0.94,
-    "kd_week": 1.04,
+    "kd_today": 0.82,
+    "kd_week": 1.03,
     "streak_days": 3,
     "top_my_killers": [
       {
@@ -7428,9 +7428,9 @@
       },
       {
         "name": "Punish Claude",
-        "kills": 39,
-        "kills_today": 0,
-        "kills_week": 24
+        "kills": 40,
+        "kills_today": 1,
+        "kills_week": 25
       },
       {
         "name": "Maguinn Returns",
@@ -7475,16 +7475,16 @@
         "kills_week": 16
       },
       {
+        "name": "Ynhaca Purah",
+        "kills": 16,
+        "kills_today": 1,
+        "kills_week": 15
+      },
+      {
         "name": "Gizao",
         "kills": 15,
         "kills_today": 2,
         "kills_week": 7
-      },
-      {
-        "name": "Ynhaca Purah",
-        "kills": 15,
-        "kills_today": 0,
-        "kills_week": 14
       },
       {
         "name": "Yagoodz Arrogante",
@@ -7694,15 +7694,15 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 170,
-        "kills_today": 5,
-        "kills_week": 53
+        "kills": 174,
+        "kills_today": 9,
+        "kills_week": 57
       },
       {
         "name": "Poring",
-        "kills": 115,
-        "kills_today": 10,
-        "kills_week": 87
+        "kills": 116,
+        "kills_today": 11,
+        "kills_week": 88
       },
       {
         "name": "Feijao Baiakeironato",
@@ -8020,7 +8020,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        36
+        37
       ],
       [
         "Teylera Rp",
@@ -8056,7 +8056,7 @@
       ],
       [
         "Punish Claude",
-        22
+        23
       ]
     ],
     "enemy_deaths_by_player": [
@@ -8073,15 +8073,15 @@
         41
       ],
       [
-        "Maguinn Returns",
-        31
+        "Lula",
+        32
       ],
       [
         "Feijao Baiakeironato",
-        31
+        32
       ],
       [
-        "Lula",
+        "Maguinn Returns",
         31
       ],
       [
@@ -11443,6 +11443,24 @@
         "level": 797,
         "killedBy": "Jotabringer",
         "maiorDano": "Salles On Amonot",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:58",
+        "player": "Lula",
+        "level": 1994,
+        "killedBy": "Punish Claude",
+        "maiorDano": "Teylera Rp",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:58",
+        "player": "Feijao Baiakeironato",
+        "level": 1353,
+        "killedBy": "Ynhaca Purah",
+        "maiorDano": "Esfi Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -18181,11 +18199,56 @@
         "isPvp": true
       },
       {
+        "time": "Jun 22, 2026 22:59",
+        "player": "Maguinn Hahaha",
+        "level": 1267,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:59",
+        "player": "Punish Claude",
+        "level": 557,
+        "killedBy": "Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jun 22, 2026 22:58",
         "player": "Maguinn Hahaha",
         "level": 1268,
         "killedBy": "Feijao Baiakeironato",
         "maiorDano": "Ehotk",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:58",
+        "player": "Ynhaca Purah",
+        "level": 672,
+        "killedBy": "Ehotk",
+        "maiorDano": "Feijao Baiakeironato",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:58",
+        "player": "Esfi Hahaha",
+        "level": 1961,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 22, 2026 22:58",
+        "player": "Yagoodz Hahaha",
+        "level": 1998,
+        "killedBy": "Ehotk",
+        "maiorDano": "Poring",
         "world": "Baiak",
         "isPvp": true
       },
@@ -24223,6 +24286,51 @@
   },
   "deaths_global": [
     {
+      "time": "Jun 22, 2026 22:59",
+      "player": "Maguinn Hahaha",
+      "level": 1267,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 22, 2026 22:59",
+      "player": "Punish Claude",
+      "level": 557,
+      "killedBy": "Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 22, 2026 22:58",
+      "player": "Ynhaca Purah",
+      "level": 672,
+      "killedBy": "Ehotk",
+      "maiorDano": "Feijao Baiakeironato",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 22, 2026 22:58",
+      "player": "Esfi Hahaha",
+      "level": 1961,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 22, 2026 22:58",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Ehotk",
+      "maiorDano": "Poring",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jun 22, 2026 22:58",
       "player": "Maguinn Hahaha",
       "level": 1268,
@@ -24568,33 +24676,6 @@
       "time": "Jun 21, 2026 01:03",
       "player": "Esfi Hahaha",
       "level": 1997,
-      "killedBy": "Poring",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 21, 2026 00:56",
-      "player": "Ynhaca Purah",
-      "level": 1762,
-      "killedBy": "Poring",
-      "maiorDano": "Incrivel Monk",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 21, 2026 00:55",
-      "player": "Teylera Rp",
-      "level": 1328,
-      "killedBy": "Incrivel Monk",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 21, 2026 00:54",
-      "player": "Punish Claude",
-      "level": 810,
       "killedBy": "Poring",
       "maiorDano": "",
       "world": "Baiak",
@@ -67880,82 +67961,82 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Leozin Rei Delas",
-        "Sabor Knight",
-        "Incrivel Monk",
-        "Nidiozera",
-        "Parmegiana",
-        "Ashuashua",
-        "Xddx",
-        "Giga",
-        "Trickera",
-        "Potez",
-        "Banca",
-        "Arroz Cadela",
-        "Boltadao",
-        "Walace Owns",
-        "Tururu",
-        "Pelegolas",
-        "Cetoprofeno Intramuscular",
-        "Feijao Baiakeironato",
-        "Fazendeiro Ricaria",
-        "Kawik",
-        "We Edz",
-        "Voltoks",
-        "Necromancer",
-        "Wewz Weerterz Weszlew",
-        "Vegas",
-        "Guns",
-        "Carlos Star",
-        "Tadala De Cinco",
-        "Sauron Knight",
-        "Pallysupremofoda",
-        "Ehotk",
-        "Papumzada",
-        "Poring",
-        "Guizzera Overlord",
-        "Vitordlpz",
-        "Maggty Ek",
-        "Spvitu Rusty",
-        "Pablaodocapao",
-        "JhonzinMilgrau",
-        "Tico Tuco",
-        "Ragekemi",
-        "Pala De Sandalia",
-        "Calveludo",
-        "Old Jovizera",
-        "Tankmode",
-        "kronosnk",
-        "Regent Thragg",
-        "Pittao teensina",
         "Qiiso Camisadez",
-        "Rei Dfzera",
-        "Deruz",
-        "Banca Kina",
-        "Druidao Damassa",
-        "Wee Dz",
-        "Wake Wake",
-        "Daann",
-        "Total Security",
-        "Sinixtro",
-        "Speed Runner",
-        "Dan De Ek",
-        "Lucasmonot",
-        "Maggty Vaqueiro",
-        "Mendes",
-        "Its Gui",
-        "Fpo",
-        "Wiill",
-        "Zoiwer Hoxmar Awesome",
+        "Sauron Knight",
         "Joga Preda",
-        "Krajj",
-        "Kudo",
-        "Dont Bica",
-        "Cuffy Dido",
+        "Regent Thragg",
+        "Vitordlpz",
+        "Poring",
+        "Potez",
+        "Pittao teensina",
+        "Pala De Sandalia",
+        "Cetoprofeno Intramuscular",
         "Lee Br",
+        "Papumzada",
+        "Zoiwer Hoxmar Awesome",
+        "Ehotk",
+        "Kawik",
+        "Old Jovizera",
+        "We Edz",
+        "Guns",
+        "Boltadao",
+        "Sabor Knight",
+        "Tururu",
+        "Wake Wake",
+        "Krajj",
+        "Wiill",
+        "Walace Owns",
+        "Nidiozera",
+        "Speed Runner",
+        "Incrivel Monk",
+        "Wewz Weerterz Weszlew",
+        "Xddx",
+        "Pablaodocapao",
+        "Pallysupremofoda",
+        "Banca Kina",
+        "Maggty Vaqueiro",
+        "Pipoco Do Trovaoo",
+        "Fazendeiro Ricaria",
+        "Spvitu Rusty",
+        "Fpo",
+        "Giga",
+        "Guizzera Overlord",
+        "Donte",
+        "JhonzinMilgrau",
+        "Vegas",
+        "Arroz Cadela",
+        "Ashuashua",
+        "Trickera",
+        "kronosnk",
+        "Necromancer",
+        "Maggty Ek",
+        "Dont Bica",
+        "Calveludo",
+        "Leozin Rei Delas",
+        "Total Security",
+        "Druidao Damassa",
+        "Banca",
+        "Tadala De Cinco",
+        "Lucasmonot",
+        "Wee Dz",
+        "Carlos Star",
+        "Sinixtro",
+        "Dan De Ek",
+        "Kudo",
+        "Cuffy Dido",
+        "Tankmode",
+        "Pelegolas",
+        "Deruz",
         "Lula",
-        "Pipoco Do Trovaoo"
+        "Mendes",
+        "Rei Dfzera",
+        "Tico Tuco",
+        "Feijao Baiakeironato",
+        "Daann",
+        "Ragekemi",
+        "Voltoks",
+        "Its Gui",
+        "Parmegiana"
       ],
       "changes_log": [
         {
@@ -69183,82 +69264,82 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Leozin Rei Delas",
-        "Sabor Knight",
-        "Incrivel Monk",
-        "Nidiozera",
-        "Parmegiana",
-        "Ashuashua",
-        "Xddx",
-        "Giga",
-        "Trickera",
-        "Potez",
-        "Banca",
-        "Arroz Cadela",
-        "Boltadao",
-        "Walace Owns",
-        "Tururu",
-        "Pelegolas",
-        "Cetoprofeno Intramuscular",
-        "Feijao Baiakeironato",
-        "Fazendeiro Ricaria",
-        "Kawik",
-        "We Edz",
-        "Voltoks",
-        "Necromancer",
-        "Wewz Weerterz Weszlew",
-        "Vegas",
-        "Guns",
-        "Carlos Star",
-        "Tadala De Cinco",
-        "Sauron Knight",
-        "Pallysupremofoda",
-        "Ehotk",
-        "Papumzada",
-        "Poring",
-        "Guizzera Overlord",
-        "Vitordlpz",
-        "Maggty Ek",
-        "Spvitu Rusty",
-        "Pablaodocapao",
-        "JhonzinMilgrau",
-        "Tico Tuco",
-        "Ragekemi",
-        "Pala De Sandalia",
-        "Calveludo",
-        "Old Jovizera",
-        "Tankmode",
-        "kronosnk",
-        "Regent Thragg",
-        "Pittao teensina",
         "Qiiso Camisadez",
-        "Rei Dfzera",
-        "Deruz",
-        "Banca Kina",
-        "Druidao Damassa",
-        "Wee Dz",
-        "Wake Wake",
-        "Daann",
-        "Total Security",
-        "Sinixtro",
-        "Speed Runner",
-        "Dan De Ek",
-        "Lucasmonot",
-        "Maggty Vaqueiro",
-        "Mendes",
-        "Its Gui",
-        "Fpo",
-        "Wiill",
-        "Zoiwer Hoxmar Awesome",
+        "Sauron Knight",
         "Joga Preda",
-        "Krajj",
-        "Kudo",
-        "Dont Bica",
-        "Cuffy Dido",
+        "Regent Thragg",
+        "Vitordlpz",
+        "Poring",
+        "Potez",
+        "Pittao teensina",
+        "Pala De Sandalia",
+        "Cetoprofeno Intramuscular",
         "Lee Br",
+        "Papumzada",
+        "Zoiwer Hoxmar Awesome",
+        "Ehotk",
+        "Kawik",
+        "Old Jovizera",
+        "We Edz",
+        "Guns",
+        "Boltadao",
+        "Sabor Knight",
+        "Tururu",
+        "Wake Wake",
+        "Krajj",
+        "Wiill",
+        "Walace Owns",
+        "Nidiozera",
+        "Speed Runner",
+        "Incrivel Monk",
+        "Wewz Weerterz Weszlew",
+        "Xddx",
+        "Pablaodocapao",
+        "Pallysupremofoda",
+        "Banca Kina",
+        "Maggty Vaqueiro",
+        "Pipoco Do Trovaoo",
+        "Fazendeiro Ricaria",
+        "Spvitu Rusty",
+        "Fpo",
+        "Giga",
+        "Guizzera Overlord",
+        "Donte",
+        "JhonzinMilgrau",
+        "Vegas",
+        "Arroz Cadela",
+        "Ashuashua",
+        "Trickera",
+        "kronosnk",
+        "Necromancer",
+        "Maggty Ek",
+        "Dont Bica",
+        "Calveludo",
+        "Leozin Rei Delas",
+        "Total Security",
+        "Druidao Damassa",
+        "Banca",
+        "Tadala De Cinco",
+        "Lucasmonot",
+        "Wee Dz",
+        "Carlos Star",
+        "Sinixtro",
+        "Dan De Ek",
+        "Kudo",
+        "Cuffy Dido",
+        "Tankmode",
+        "Pelegolas",
+        "Deruz",
         "Lula",
-        "Pipoco Do Trovaoo"
+        "Mendes",
+        "Rei Dfzera",
+        "Tico Tuco",
+        "Feijao Baiakeironato",
+        "Daann",
+        "Ragekemi",
+        "Voltoks",
+        "Its Gui",
+        "Parmegiana"
       ],
       "hunted": {
         "Leogolas": {
