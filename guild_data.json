@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/06/2026 às 10:07 (Brasília)",
+  "updated_at": "24/06/2026 às 10:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 82,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1596,
+      "level": 1593,
       "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -273,7 +273,7 @@
     },
     {
       "name": "Punish Claude",
-      "level": 950,
+      "level": 949,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -329,7 +329,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1428,
+      "level": 1436,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4262,8 +4262,8 @@
     {
       "name": "MentaliTY",
       "total_members": 47,
-      "online_count": 17,
-      "offline_count": 30,
+      "online_count": 19,
+      "offline_count": 28,
       "members": [
         {
           "name": "Sauron Knight",
@@ -4290,7 +4290,7 @@
           "vocation": "Elder Druid",
           "nick": "",
           "rank": "Member",
-          "online": false
+          "online": true
         },
         {
           "name": "Ashuashua",
@@ -4686,15 +4686,15 @@
           "vocation": "Elite Knight",
           "nick": "",
           "rank": "Member",
-          "online": false
+          "online": true
         }
       ]
     },
     {
       "name": "Old Legacy",
       "total_members": 26,
-      "online_count": 22,
-      "offline_count": 4,
+      "online_count": 21,
+      "offline_count": 5,
       "members": [
         {
           "name": "Ehotk",
@@ -4743,7 +4743,7 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "level": 1724,
+          "level": 1722,
           "resets": 57,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -4811,7 +4811,7 @@
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Deruz",
@@ -5246,7 +5246,7 @@
       "resets_today": 1,
       "resets_week": 8,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Ashuashua",
@@ -6220,7 +6220,7 @@
         },
         {
           "name": "Esfi Hahaha",
-          "value": 1596,
+          "value": 1593,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6256,7 +6256,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 1428,
+          "value": 1436,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6394,7 +6394,7 @@
         },
         {
           "name": "Punish Claude",
-          "value": 950,
+          "value": 949,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6731,6 +6731,12 @@
           "kills_week": 0
         },
         {
+          "name": "Gokuu",
+          "value": 3,
+          "kills_today": 1,
+          "kills_week": 2
+        },
+        {
           "name": "VukVuk",
           "value": 3,
           "kills_today": 0,
@@ -6765,12 +6771,6 @@
           "value": 2,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Gokuu",
-          "value": 2,
-          "kills_today": 0,
-          "kills_week": 1
         },
         {
           "name": "Ed farm",
@@ -6864,9 +6864,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 209,
-          "kills_today": 12,
-          "kills_week": 67
+          "value": 213,
+          "kills_today": 16,
+          "kills_week": 71
         },
         {
           "name": "Poring",
@@ -7192,17 +7192,17 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "24/06/2026 às 10:07 (Brasília)",
-    "kills_total": 863,
-    "deaths_total": 941,
-    "kills_today": 27,
-    "deaths_today": 24,
-    "kills_week": 205,
-    "deaths_week": 206,
-    "kd_total": 0.92,
-    "kd_today": 1.12,
-    "kd_week": 1.0,
-    "streak_days": 5,
+    "updated_at": "24/06/2026 às 10:08 (Brasília)",
+    "kills_total": 864,
+    "deaths_total": 945,
+    "kills_today": 28,
+    "deaths_today": 28,
+    "kills_week": 206,
+    "deaths_week": 210,
+    "kd_total": 0.91,
+    "kd_today": 1.0,
+    "kd_week": 0.98,
+    "streak_days": 0,
     "top_my_killers": [
       {
         "name": "Salles On Amonot",
@@ -7367,6 +7367,12 @@
         "kills_week": 0
       },
       {
+        "name": "Gokuu",
+        "kills": 3,
+        "kills_today": 1,
+        "kills_week": 2
+      },
+      {
         "name": "VukVuk",
         "kills": 3,
         "kills_today": 0,
@@ -7401,12 +7407,6 @@
         "kills": 2,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Gokuu",
-        "kills": 2,
-        "kills_today": 0,
-        "kills_week": 1
       },
       {
         "name": "Ed farm",
@@ -7496,9 +7496,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 209,
-        "kills_today": 12,
-        "kills_week": 67
+        "kills": 213,
+        "kills_today": 16,
+        "kills_week": 71
       },
       {
         "name": "Poring",
@@ -7822,11 +7822,11 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        41
+        43
       ],
       [
         "Teylera Rp",
-        38
+        39
       ],
       [
         "Maguinn Returns",
@@ -7846,7 +7846,7 @@
       ],
       [
         "Punish Claude",
-        28
+        29
       ],
       [
         "Lula",
@@ -11245,6 +11245,15 @@
         "level": 797,
         "killedBy": "Jotabringer",
         "maiorDano": "Salles On Amonot",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 24, 2026 10:07",
+        "player": "Cetoprofeno Intramuscular",
+        "level": 1724,
+        "killedBy": "Gokuu",
+        "maiorDano": "Esfi Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -18469,11 +18478,47 @@
         "isPvp": true
       },
       {
+        "time": "Jun 24, 2026 10:08",
+        "player": "Teylera Rp",
+        "level": 1437,
+        "killedBy": "Ehotk",
+        "maiorDano": "Lula",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 24, 2026 10:08",
+        "player": "Esfi Hahaha",
+        "level": 1595,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jun 24, 2026 10:07",
         "player": "Gokuu",
         "level": 1993,
         "killedBy": "Lula",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 24, 2026 10:07",
+        "player": "Punish Claude",
+        "level": 950,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 24, 2026 10:07",
+        "player": "Esfi Hahaha",
+        "level": 1596,
+        "killedBy": "Ehotk",
+        "maiorDano": "Cetoprofeno Intramuscular",
         "world": "Baiak",
         "isPvp": true
       },
@@ -25149,6 +25194,42 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jun 24, 2026 10:08",
+      "player": "Teylera Rp",
+      "level": 1437,
+      "killedBy": "Ehotk",
+      "maiorDano": "Lula",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 24, 2026 10:08",
+      "player": "Esfi Hahaha",
+      "level": 1595,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 24, 2026 10:07",
+      "player": "Punish Claude",
+      "level": 950,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jun 24, 2026 10:07",
+      "player": "Esfi Hahaha",
+      "level": 1596,
+      "killedBy": "Ehotk",
+      "maiorDano": "Cetoprofeno Intramuscular",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jun 24, 2026 10:07",
       "player": "Gokuu",
@@ -68098,79 +68179,79 @@
     },
     "members": {
       "last_member_list": [
-        "Voltoks",
-        "Sauron Knight",
-        "Its Gui",
-        "Dont Bica",
-        "Poring",
-        "Druidao Damassa",
-        "Necromancer",
-        "Giga",
-        "Lucasmonot",
-        "Tadala De Cinco",
-        "Wewz Weerterz Weszlew",
-        "Trickera",
-        "Zoiwer Hoxmar Awesome",
-        "Ragekemi",
-        "JhonzinMilgrau",
-        "Ehotk",
         "Rei Dfzera",
-        "Wiill",
-        "Pallysupremofoda",
-        "Incrivel Monk",
-        "Old Jovizera",
-        "Nidiozera",
-        "Tankmode",
-        "Fpo",
-        "Guizzera Overlord",
-        "Arroz Cadela",
-        "Wee Dz",
-        "Xddx",
-        "Walace Owns",
-        "Fazendeiro Ricaria",
-        "kronosnk",
-        "Mendes",
-        "Kudo",
-        "Banca",
-        "Tururu",
-        "Regent Thragg",
-        "Vegas",
-        "Boltadao",
-        "Carlos Star",
-        "Maggty Vaqueiro",
-        "Calveludo",
-        "Wake Wake",
-        "Parmegiana",
-        "Pelegolas",
-        "Ashuashua",
-        "Pittao teensina",
-        "Banca Kina",
-        "We Edz",
-        "Pipoco Do Trovaoo",
-        "Joga Preda",
-        "Guns",
-        "Leozin Rei Delas",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
         "Dan De Ek",
+        "JhonzinMilgrau",
+        "Maggty Vaqueiro",
         "Lula",
-        "Kawik",
+        "We Edz",
+        "Tankmode",
+        "Cuffy Dido",
         "Maggty Ek",
-        "Cetoprofeno Intramuscular",
-        "Daann",
-        "Krajj",
-        "Deruz",
-        "Qiiso Camisadez",
+        "Pelegolas",
         "Sinixtro",
-        "Vitordlpz",
-        "Total Security",
-        "Spvitu Rusty",
-        "Lee Br",
         "Papumzada",
-        "Pala De Sandalia",
-        "Donte",
+        "Dont Bica",
+        "Ashuashua",
+        "Cetoprofeno Intramuscular",
+        "kronosnk",
+        "Incrivel Monk",
+        "Wewz Weerterz Weszlew",
+        "Leozin Rei Delas",
+        "Regent Thragg",
+        "Deruz",
+        "Old Jovizera",
+        "Sauron Knight",
+        "Carlos Star",
+        "Guns",
+        "Pablaodocapao",
+        "Lucasmonot",
+        "Guizzera Overlord",
+        "Kawik",
+        "Fazendeiro Ricaria",
+        "Pallysupremofoda",
+        "Mendes",
         "Potez",
-        "Pablaodocapao"
+        "Banca Kina",
+        "Tadala De Cinco",
+        "Lee Br",
+        "Donte",
+        "Its Gui",
+        "Krajj",
+        "Wiill",
+        "Ehotk",
+        "Ragekemi",
+        "Feijao Baiakeironato",
+        "Vitordlpz",
+        "Xddx",
+        "Boltadao",
+        "Total Security",
+        "Daann",
+        "Poring",
+        "Parmegiana",
+        "Giga",
+        "Walace Owns",
+        "Pipoco Do Trovaoo",
+        "Kudo",
+        "Arroz Cadela",
+        "Spvitu Rusty",
+        "Vegas",
+        "Zoiwer Hoxmar Awesome",
+        "Nidiozera",
+        "Calveludo",
+        "Tururu",
+        "Voltoks",
+        "Pala De Sandalia",
+        "Necromancer",
+        "Trickera",
+        "Pittao teensina",
+        "Joga Preda",
+        "Qiiso Camisadez",
+        "Wee Dz",
+        "Wake Wake",
+        "Banca",
+        "Druidao Damassa",
+        "Fpo"
       ],
       "changes_log": [
         {
@@ -69423,79 +69504,79 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Voltoks",
-        "Sauron Knight",
-        "Its Gui",
-        "Dont Bica",
-        "Poring",
-        "Druidao Damassa",
-        "Necromancer",
-        "Giga",
-        "Lucasmonot",
-        "Tadala De Cinco",
-        "Wewz Weerterz Weszlew",
-        "Trickera",
-        "Zoiwer Hoxmar Awesome",
-        "Ragekemi",
-        "JhonzinMilgrau",
-        "Ehotk",
         "Rei Dfzera",
-        "Wiill",
-        "Pallysupremofoda",
-        "Incrivel Monk",
-        "Old Jovizera",
-        "Nidiozera",
-        "Tankmode",
-        "Fpo",
-        "Guizzera Overlord",
-        "Arroz Cadela",
-        "Wee Dz",
-        "Xddx",
-        "Walace Owns",
-        "Fazendeiro Ricaria",
-        "kronosnk",
-        "Mendes",
-        "Kudo",
-        "Banca",
-        "Tururu",
-        "Regent Thragg",
-        "Vegas",
-        "Boltadao",
-        "Carlos Star",
-        "Maggty Vaqueiro",
-        "Calveludo",
-        "Wake Wake",
-        "Parmegiana",
-        "Pelegolas",
-        "Ashuashua",
-        "Pittao teensina",
-        "Banca Kina",
-        "We Edz",
-        "Pipoco Do Trovaoo",
-        "Joga Preda",
-        "Guns",
-        "Leozin Rei Delas",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
         "Dan De Ek",
+        "JhonzinMilgrau",
+        "Maggty Vaqueiro",
         "Lula",
-        "Kawik",
+        "We Edz",
+        "Tankmode",
+        "Cuffy Dido",
         "Maggty Ek",
-        "Cetoprofeno Intramuscular",
-        "Daann",
-        "Krajj",
-        "Deruz",
-        "Qiiso Camisadez",
+        "Pelegolas",
         "Sinixtro",
-        "Vitordlpz",
-        "Total Security",
-        "Spvitu Rusty",
-        "Lee Br",
         "Papumzada",
-        "Pala De Sandalia",
-        "Donte",
+        "Dont Bica",
+        "Ashuashua",
+        "Cetoprofeno Intramuscular",
+        "kronosnk",
+        "Incrivel Monk",
+        "Wewz Weerterz Weszlew",
+        "Leozin Rei Delas",
+        "Regent Thragg",
+        "Deruz",
+        "Old Jovizera",
+        "Sauron Knight",
+        "Carlos Star",
+        "Guns",
+        "Pablaodocapao",
+        "Lucasmonot",
+        "Guizzera Overlord",
+        "Kawik",
+        "Fazendeiro Ricaria",
+        "Pallysupremofoda",
+        "Mendes",
         "Potez",
-        "Pablaodocapao"
+        "Banca Kina",
+        "Tadala De Cinco",
+        "Lee Br",
+        "Donte",
+        "Its Gui",
+        "Krajj",
+        "Wiill",
+        "Ehotk",
+        "Ragekemi",
+        "Feijao Baiakeironato",
+        "Vitordlpz",
+        "Xddx",
+        "Boltadao",
+        "Total Security",
+        "Daann",
+        "Poring",
+        "Parmegiana",
+        "Giga",
+        "Walace Owns",
+        "Pipoco Do Trovaoo",
+        "Kudo",
+        "Arroz Cadela",
+        "Spvitu Rusty",
+        "Vegas",
+        "Zoiwer Hoxmar Awesome",
+        "Nidiozera",
+        "Calveludo",
+        "Tururu",
+        "Voltoks",
+        "Pala De Sandalia",
+        "Necromancer",
+        "Trickera",
+        "Pittao teensina",
+        "Joga Preda",
+        "Qiiso Camisadez",
+        "Wee Dz",
+        "Wake Wake",
+        "Banca",
+        "Druidao Damassa",
+        "Fpo"
       ],
       "hunted": {
         "Leogolas": {
