@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 17:46 (Brasília)",
+  "updated_at": "27/06/2026 às 17:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 98,
-  "online_count": 57,
+  "total_members": 100,
+  "online_count": 59,
   "offline_count": 41,
   "members": [
     {
@@ -410,6 +410,16 @@
       "reset_history": []
     },
     {
+      "name": "Adolph Healer",
+      "level": 8,
+      "resets": 4,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Affey",
       "level": 565,
       "resets": 23,
@@ -503,7 +513,7 @@
     },
     {
       "name": "Apreciador De Casadas",
-      "level": 1687,
+      "level": 1689,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -797,6 +807,16 @@
           "timestamp": "14/06/2026 às 22:01 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Cheiro Dpneu",
+      "level": 802,
+      "resets": 23,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Chissalada",
@@ -5464,6 +5484,12 @@
           "online": true
         },
         {
+          "name": "Cheiro Dpneu",
+          "value": 23,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Elio Nervous",
           "value": 23,
           "vocation": "Elite Knight",
@@ -5636,6 +5662,12 @@
           "value": 5,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Adolph Healer",
+          "value": 4,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Erva Doce",
@@ -5867,7 +5899,7 @@
         },
         {
           "name": "Apreciador De Casadas",
-          "value": 1687,
+          "value": 1689,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6193,6 +6225,12 @@
           "name": "Cerebro",
           "value": 819,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "value": 802,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6929,7 +6967,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 17:46 (Brasília)",
+    "updated_at": "27/06/2026 às 17:47 (Brasília)",
     "kills_total": 945,
     "deaths_total": 998,
     "kills_today": 8,
@@ -26450,6 +26488,7 @@
         "Teylera Rp": 53,
         "Vinizerah On Amonot": 30,
         "Achilles": 18,
+        "Adolph Healer": 4,
         "Affey": 23,
         "Alba Baiakeiro": 48,
         "Apreciador De Casadas": 37,
@@ -26461,6 +26500,7 @@
         "Campin": 7,
         "Cerebro": 45,
         "Charles": 26,
+        "Cheiro Dpneu": 23,
         "Chissalada": 13,
         "Deca com Testo": 32,
         "Diegao Barba": 35,
@@ -41339,6 +41379,7 @@
           "Teylera Rp": 53,
           "Vinizerah On Amonot": 30,
           "Achilles": 18,
+          "Adolph Healer": 4,
           "Affey": 23,
           "Alba Baiakeiro": 48,
           "Apreciador De Casadas": 37,
@@ -41350,6 +41391,7 @@
           "Campin": 7,
           "Cerebro": 45,
           "Charles": 26,
+          "Cheiro Dpneu": 23,
           "Chissalada": 13,
           "Deca com Testo": 32,
           "Diegao Barba": 35,
@@ -67461,30 +67503,30 @@
     },
     "members": {
       "last_member_list": [
-        "Lula",
-        "Wake Wake",
-        "Boltadao",
-        "Walace Owns",
-        "Lee Br",
-        "Total Security",
-        "Donte",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Old Jovizera",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "JhonzinMilgrau",
-        "Giga",
-        "Cuffy Dido",
-        "Deruz",
-        "Dont Bica",
-        "Calveludo",
-        "Nao Eh Poring",
-        "Arroz Cadela",
         "Ragekemi",
+        "Donte",
+        "Old Jovizera",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Total Security",
+        "Calveludo",
+        "Boltadao",
+        "Lee Br",
         "Ehotk",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Incrivel Monk",
+        "Giga",
+        "Walace Owns",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Lula",
         "Pittao teensina",
-        "Incrivel Monk"
+        "Papumzada",
+        "Cuffy Dido"
       ],
       "changes_log": [
         {
@@ -69992,30 +70034,30 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lula",
-        "Wake Wake",
-        "Boltadao",
-        "Walace Owns",
-        "Lee Br",
-        "Total Security",
-        "Donte",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Old Jovizera",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "JhonzinMilgrau",
-        "Giga",
-        "Cuffy Dido",
-        "Deruz",
-        "Dont Bica",
-        "Calveludo",
-        "Nao Eh Poring",
-        "Arroz Cadela",
         "Ragekemi",
+        "Donte",
+        "Old Jovizera",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Total Security",
+        "Calveludo",
+        "Boltadao",
+        "Lee Br",
         "Ehotk",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Incrivel Monk",
+        "Giga",
+        "Walace Owns",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Lula",
         "Pittao teensina",
-        "Incrivel Monk"
+        "Papumzada",
+        "Cuffy Dido"
       ],
       "hunted": {
         "Leogolas": {
@@ -70674,13 +70716,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 98,
-      "total_current": 2693,
+      "num_members": 100,
+      "total_current": 2720,
       "resets_today": 21,
       "resets_week": 125,
       "resets_month": 0,
       "resets_lifetime": 111,
-      "avg_per_player": 27.5
+      "avg_per_player": 27.2
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
