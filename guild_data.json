@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 14:58 (Brasília)",
+  "updated_at": "27/06/2026 às 14:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -2635,7 +2635,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 2000,
+      "level": 1997,
       "resets": 46,
       "vocation": "Elder Druid",
       "nick": "",
@@ -5777,12 +5777,6 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -5805,6 +5799,12 @@
           "value": 1998,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Rafa Baguncinha",
@@ -6912,7 +6912,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 14:58 (Brasília)",
+    "updated_at": "27/06/2026 às 14:59 (Brasília)",
     "kills_total": 944,
     "deaths_total": 998,
     "kills_today": 7,
@@ -26123,6 +26123,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jun 27, 2026 14:58",
+      "player": "Monstro Das Criptos",
+      "level": 2000,
+      "killedBy": "Ze Bob",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jun 27, 2026 03:38",
       "player": "Uga Man",
@@ -67538,30 +67547,30 @@
     },
     "members": {
       "last_member_list": [
-        "Walace Owns",
-        "Calveludo",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
+        "Deruz",
         "Ehotk",
+        "Wake Wake",
+        "Ragekemi",
         "JhonzinMilgrau",
+        "Lula",
+        "Calveludo",
+        "Walace Owns",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
+        "Donte",
+        "Feijao Baiakeironato",
         "Cuffy Dido",
         "Old Jovizera",
-        "Lula",
+        "Boltadao",
+        "Total Security",
         "We Edz",
         "Dont Bica",
-        "Arroz Cadela",
-        "Giga",
-        "Donte",
-        "Boltadao",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Incrivel Monk",
-        "Deruz",
-        "Wake Wake",
-        "Pittao teensina",
         "Papumzada",
-        "Total Security",
-        "Nao Eh Poring"
+        "Giga",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Lee Br",
+        "Pittao teensina"
       ],
       "changes_log": [
         {
@@ -70069,30 +70078,30 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Walace Owns",
-        "Calveludo",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
+        "Deruz",
         "Ehotk",
+        "Wake Wake",
+        "Ragekemi",
         "JhonzinMilgrau",
+        "Lula",
+        "Calveludo",
+        "Walace Owns",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
+        "Donte",
+        "Feijao Baiakeironato",
         "Cuffy Dido",
         "Old Jovizera",
-        "Lula",
+        "Boltadao",
+        "Total Security",
         "We Edz",
         "Dont Bica",
-        "Arroz Cadela",
-        "Giga",
-        "Donte",
-        "Boltadao",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Incrivel Monk",
-        "Deruz",
-        "Wake Wake",
-        "Pittao teensina",
         "Papumzada",
-        "Total Security",
-        "Nao Eh Poring"
+        "Giga",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Lee Br",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
