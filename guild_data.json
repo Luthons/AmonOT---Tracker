@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 14:28 (Brasília)",
+  "updated_at": "27/06/2026 às 14:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -2071,8 +2071,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1043,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2127,6 +2127,11 @@
           "resets": 24,
           "gained": 1,
           "timestamp": "26/06/2026 às 23:49 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:29 (Brasília)"
         }
       ]
     },
@@ -4559,6 +4564,14 @@
       "online": true
     },
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 25,
+      "resets_today": 2,
+      "resets_week": 7,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Alba Baiakeiro",
       "resets_total": 48,
       "resets_today": 1,
@@ -4627,14 +4640,6 @@
       "resets_total": 40,
       "resets_today": 1,
       "resets_week": 0,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 24,
-      "resets_today": 1,
-      "resets_week": 6,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -5419,6 +5424,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 25,
           "vocation": "Royal Paladin",
@@ -5434,12 +5445,6 @@
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 24,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5987,12 +5992,6 @@
           "value": 1043,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1043,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Mu Kina",
@@ -6902,7 +6901,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 14:28 (Brasília)",
+    "updated_at": "27/06/2026 às 14:29 (Brasília)",
     "kills_total": 944,
     "deaths_total": 998,
     "kills_today": 7,
@@ -26462,7 +26461,7 @@
         "Kiel": 56,
         "King Suino": 4,
         "Kolwaski": 40,
-        "Lilian Faithkeeper": 24,
+        "Lilian Faithkeeper": 25,
         "Lipe Knight": 40,
         "Ljxiv": 26,
         "Loke": 52,
@@ -41297,7 +41296,7 @@
           "Kiel": 56,
           "King Suino": 4,
           "Kolwaski": 40,
-          "Lilian Faithkeeper": 24,
+          "Lilian Faithkeeper": 25,
           "Lipe Knight": 40,
           "Ljxiv": 26,
           "Loke": 52,
@@ -47690,6 +47689,13 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "27/06/2026 às 14:27 (Brasília)",
+          "hour_key": "2026-06-27-14"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:29 (Brasília)",
           "hour_key": "2026-06-27-14"
         }
       ]
@@ -67514,30 +67520,30 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "Papumzada",
-        "Pittao teensina",
-        "Arroz Cadela",
+        "Total Security",
         "Lula",
-        "Feijao Baiakeironato",
-        "Ragekemi",
+        "Nao Eh Poring",
         "Boltadao",
         "Calveludo",
-        "We Edz",
-        "Dont Bica",
-        "Giga",
-        "Total Security",
-        "Walace Owns",
-        "Nao Eh Poring",
-        "Wake Wake",
-        "Donte",
+        "Papumzada",
         "Old Jovizera",
-        "Cetoprofeno Intramuscular",
+        "Dont Bica",
+        "Incrivel Monk",
+        "Giga",
+        "Wake Wake",
         "Deruz",
+        "We Edz",
         "Cuffy Dido",
-        "Ehotk",
         "JhonzinMilgrau",
-        "Incrivel Monk"
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Ragekemi",
+        "Ehotk",
+        "Lee Br",
+        "Walace Owns"
       ],
       "changes_log": [
         {
@@ -70045,30 +70051,30 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "Papumzada",
-        "Pittao teensina",
-        "Arroz Cadela",
+        "Total Security",
         "Lula",
-        "Feijao Baiakeironato",
-        "Ragekemi",
+        "Nao Eh Poring",
         "Boltadao",
         "Calveludo",
-        "We Edz",
-        "Dont Bica",
-        "Giga",
-        "Total Security",
-        "Walace Owns",
-        "Nao Eh Poring",
-        "Wake Wake",
-        "Donte",
+        "Papumzada",
         "Old Jovizera",
-        "Cetoprofeno Intramuscular",
+        "Dont Bica",
+        "Incrivel Monk",
+        "Giga",
+        "Wake Wake",
         "Deruz",
+        "We Edz",
         "Cuffy Dido",
-        "Ehotk",
         "JhonzinMilgrau",
-        "Incrivel Monk"
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Ragekemi",
+        "Ehotk",
+        "Lee Br",
+        "Walace Owns"
       ],
       "hunted": {
         "Leogolas": {
@@ -70728,12 +70734,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2690,
-      "resets_today": 18,
-      "resets_week": 122,
+      "total_current": 2691,
+      "resets_today": 19,
+      "resets_week": 123,
       "resets_month": 0,
-      "resets_lifetime": 111,
-      "avg_per_player": 27.4
+      "resets_lifetime": 112,
+      "avg_per_player": 27.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
