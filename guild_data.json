@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 15:57 (Brasília)",
+  "updated_at": "27/06/2026 às 15:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
-  "online_count": 54,
-  "offline_count": 44,
+  "online_count": 55,
+  "offline_count": 43,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -411,12 +411,12 @@
     },
     {
       "name": "Affey",
-      "level": 1043,
-      "resets": 22,
+      "level": 8,
+      "resets": 23,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 13,
@@ -467,6 +467,11 @@
           "resets": 22,
           "gained": 1,
           "timestamp": "25/06/2026 às 00:11 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 15:58 (Brasília)"
         }
       ]
     },
@@ -4577,6 +4582,14 @@
       "online": true
     },
     {
+      "name": "Affey",
+      "resets_total": 23,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Alba Baiakeiro",
       "resets_total": 48,
       "resets_today": 1,
@@ -4735,14 +4748,6 @@
       "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
-    },
-    {
-      "name": "Affey",
-      "resets_total": 22,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": false
     },
     {
       "name": "Baduff",
@@ -5453,6 +5458,12 @@
           "online": true
         },
         {
+          "name": "Affey",
+          "value": 23,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elio Nervous",
           "value": 23,
           "vocation": "Elite Knight",
@@ -5468,12 +5479,6 @@
           "name": "Nagato Sorcerer",
           "value": 23,
           "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
-          "name": "Affey",
-          "value": 22,
-          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -5983,12 +5988,6 @@
         {
           "name": "More Knox",
           "value": 1072,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
-          "name": "Affey",
-          "value": 1043,
           "vocation": "Royal Paladin",
           "online": false
         },
@@ -6924,7 +6923,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 15:57 (Brasília)",
+    "updated_at": "27/06/2026 às 15:58 (Brasília)",
     "kills_total": 944,
     "deaths_total": 998,
     "kills_today": 7,
@@ -26445,7 +26444,7 @@
         "Teylera Rp": 53,
         "Vinizerah On Amonot": 30,
         "Achilles": 18,
-        "Affey": 22,
+        "Affey": 23,
         "Alba Baiakeiro": 48,
         "Apreciador De Casadas": 37,
         "Apreciador On Amonot": 3,
@@ -41298,7 +41297,7 @@
           "Teylera Rp": 53,
           "Vinizerah On Amonot": 30,
           "Achilles": 18,
-          "Affey": 22,
+          "Affey": 23,
           "Alba Baiakeiro": 48,
           "Apreciador De Casadas": 37,
           "Apreciador On Amonot": 3,
@@ -47745,6 +47744,13 @@
           "gained": 1,
           "timestamp": "27/06/2026 às 14:31 (Brasília)",
           "hour_key": "2026-06-27-14"
+        },
+        {
+          "name": "Affey",
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 15:58 (Brasília)",
+          "hour_key": "2026-06-27-15"
         }
       ]
     },
@@ -67514,30 +67520,30 @@
     },
     "members": {
       "last_member_list": [
-        "Feijao Baiakeironato",
-        "Papumzada",
-        "Nao Eh Poring",
-        "Deruz",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Lee Br",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Total Security",
-        "Arroz Cadela",
-        "Boltadao",
-        "Incrivel Monk",
-        "We Edz",
-        "Walace Owns",
-        "Ragekemi",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
         "Calveludo",
-        "Giga",
+        "Lee Br",
+        "Papumzada",
+        "Arroz Cadela",
         "Old Jovizera",
-        "Donte"
+        "Ragekemi",
+        "Giga",
+        "Ehotk",
+        "We Edz",
+        "Deruz",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Walace Owns",
+        "Incrivel Monk",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Lula",
+        "JhonzinMilgrau",
+        "Cuffy Dido",
+        "Boltadao",
+        "Total Security",
+        "Donte",
+        "Dont Bica"
       ],
       "changes_log": [
         {
@@ -70045,30 +70051,30 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Feijao Baiakeironato",
-        "Papumzada",
-        "Nao Eh Poring",
-        "Deruz",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Lee Br",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Total Security",
-        "Arroz Cadela",
-        "Boltadao",
-        "Incrivel Monk",
-        "We Edz",
-        "Walace Owns",
-        "Ragekemi",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
         "Calveludo",
-        "Giga",
+        "Lee Br",
+        "Papumzada",
+        "Arroz Cadela",
         "Old Jovizera",
-        "Donte"
+        "Ragekemi",
+        "Giga",
+        "Ehotk",
+        "We Edz",
+        "Deruz",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Walace Owns",
+        "Incrivel Monk",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Lula",
+        "JhonzinMilgrau",
+        "Cuffy Dido",
+        "Boltadao",
+        "Total Security",
+        "Donte",
+        "Dont Bica"
       ],
       "hunted": {
         "Leogolas": {
@@ -70728,11 +70734,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2692,
-      "resets_today": 20,
-      "resets_week": 124,
+      "total_current": 2693,
+      "resets_today": 21,
+      "resets_week": 125,
       "resets_month": 0,
-      "resets_lifetime": 111,
+      "resets_lifetime": 112,
       "avg_per_player": 27.5
     },
     "enemy_guild": {
