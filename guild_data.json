@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 10:58 (Brasília)",
+  "updated_at": "28/06/2026 às 10:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -816,13 +816,19 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 941,
-      "resets": 23,
+      "level": 8,
+      "resets": 24,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:59 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Chissalada",
@@ -4547,6 +4553,14 @@
       "online": true
     },
     {
+      "name": "Cheiro Dpneu",
+      "resets_total": 24,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 41,
       "resets_today": 1,
@@ -5383,16 +5397,16 @@
           "online": true
         },
         {
+          "name": "Cheiro Dpneu",
+          "value": 24,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Affey",
           "value": 23,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 23,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Elio Nervous",
@@ -6017,12 +6031,6 @@
           "value": 955,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 941,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Erva Doce",
@@ -6872,7 +6880,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 10:58 (Brasília)",
+    "updated_at": "28/06/2026 às 10:59 (Brasília)",
     "kills_total": 948,
     "deaths_total": 998,
     "kills_today": 2,
@@ -26396,7 +26404,7 @@
         "Campin": 7,
         "Cerebro": 45,
         "Charles": 26,
-        "Cheiro Dpneu": 23,
+        "Cheiro Dpneu": 24,
         "Chissalada": 13,
         "Deca com Testo": 32,
         "Diegao Barba": 35,
@@ -41601,7 +41609,7 @@
           "Campin": 7,
           "Cerebro": 45,
           "Charles": 26,
-          "Cheiro Dpneu": 23,
+          "Cheiro Dpneu": 24,
           "Chissalada": 13,
           "Deca com Testo": 32,
           "Diegao Barba": 35,
@@ -47841,6 +47849,13 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "28/06/2026 às 10:54 (Brasília)",
+          "hour_key": "2026-06-28-10"
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:59 (Brasília)",
           "hour_key": "2026-06-28-10"
         }
       ]
@@ -66234,29 +66249,29 @@
     },
     "members": {
       "last_member_list": [
-        "Lula",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "Calveludo",
-        "Giga",
-        "Old Jovizera",
-        "Deruz",
-        "Wake Wake",
-        "We Edz",
         "JhonzinMilgrau",
+        "Old Jovizera",
         "Lee Br",
-        "Incrivel Monk",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Pittao teensina",
         "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Ehotk",
-        "Donte",
-        "Papumzada",
         "Boltadao",
+        "Lula",
+        "Pittao teensina",
+        "Nao Eh Poring",
+        "Giga",
+        "Wake Wake",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Papumzada",
+        "Deruz",
         "Feijao Baiakeironato",
-        "Total Security"
+        "Ragekemi",
+        "Total Security",
+        "Calveludo",
+        "We Edz",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Ehotk",
+        "Donte"
       ],
       "changes_log": [
         {
@@ -68764,29 +68779,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lula",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "Calveludo",
-        "Giga",
-        "Old Jovizera",
-        "Deruz",
-        "Wake Wake",
-        "We Edz",
         "JhonzinMilgrau",
+        "Old Jovizera",
         "Lee Br",
-        "Incrivel Monk",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Pittao teensina",
         "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Ehotk",
-        "Donte",
-        "Papumzada",
         "Boltadao",
+        "Lula",
+        "Pittao teensina",
+        "Nao Eh Poring",
+        "Giga",
+        "Wake Wake",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Papumzada",
+        "Deruz",
         "Feijao Baiakeironato",
-        "Total Security"
+        "Ragekemi",
+        "Total Security",
+        "Calveludo",
+        "We Edz",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Ehotk",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
@@ -69446,12 +69461,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2734,
-      "resets_today": 8,
+      "total_current": 2735,
+      "resets_today": 9,
       "resets_week": 118,
       "resets_month": 0,
       "resets_lifetime": 124,
-      "avg_per_player": 27.3
+      "avg_per_player": 27.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
