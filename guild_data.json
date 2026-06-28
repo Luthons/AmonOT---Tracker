@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 11:11 (Brasília)",
+  "updated_at": "28/06/2026 às 11:12 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4158,8 +4158,8 @@
     },
     {
       "name": "Xeipe",
-      "level": 1646,
-      "resets": 22,
+      "level": 8,
+      "resets": 23,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -4184,6 +4184,11 @@
           "resets": 22,
           "gained": 1,
           "timestamp": "22/06/2026 às 04:24 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 11:12 (Brasília)"
         }
       ]
     },
@@ -4593,6 +4598,14 @@
       "online": false
     },
     {
+      "name": "Xeipe",
+      "resets_total": 23,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Ynhaca Purah",
       "resets_total": 52,
       "resets_today": 1,
@@ -4895,14 +4908,6 @@
       "resets_week": 2,
       "vocation": "Master Sorcerer",
       "online": true
-    },
-    {
-      "name": "Xeipe",
-      "resets_total": 22,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": false
     },
     {
       "name": "Zap Seco",
@@ -5427,13 +5432,13 @@
           "online": false
         },
         {
-          "name": "Moskito",
-          "value": 22,
+          "name": "Xeipe",
+          "value": 23,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Xeipe",
+          "name": "Moskito",
           "value": 22,
           "vocation": "Royal Paladin",
           "online": false
@@ -5839,12 +5844,6 @@
           "value": 1673,
           "vocation": "Elite Knight",
           "online": true
-        },
-        {
-          "name": "Xeipe",
-          "value": 1646,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Ljxiv",
@@ -6898,7 +6897,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 11:11 (Brasília)",
+    "updated_at": "28/06/2026 às 11:12 (Brasília)",
     "kills_total": 948,
     "deaths_total": 998,
     "kills_today": 2,
@@ -26497,7 +26496,7 @@
         "Voldemort Ms": 3,
         "VukVuk": 50,
         "White": 2,
-        "Xeipe": 22,
+        "Xeipe": 23,
         "Ynhaca Purah": 52,
         "Zap Seco": 13,
         "Zenith": 11
@@ -41720,7 +41719,7 @@
           "Voldemort Ms": 3,
           "VukVuk": 50,
           "White": 2,
-          "Xeipe": 22,
+          "Xeipe": 23,
           "Ynhaca Purah": 52,
           "Zap Seco": 13,
           "Zenith": 11
@@ -47893,6 +47892,13 @@
           "gained": 1,
           "timestamp": "28/06/2026 às 10:59 (Brasília)",
           "hour_key": "2026-06-28-10"
+        },
+        {
+          "name": "Xeipe",
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 11:12 (Brasília)",
+          "hour_key": "2026-06-28-11"
         }
       ]
     },
@@ -66230,29 +66236,29 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
-        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Calveludo",
         "Arroz Cadela",
-        "Giga",
-        "Boltadao",
-        "Ehotk",
-        "Deruz",
-        "Total Security",
-        "Wake Wake",
         "Pittao teensina",
-        "Cetoprofeno Intramuscular",
-        "We Edz",
-        "Lee Br",
-        "Lula",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Donte",
         "Cuffy Dido",
         "Incrivel Monk",
+        "Wake Wake",
+        "Boltadao",
+        "Total Security",
+        "Papumzada",
+        "Feijao Baiakeironato",
+        "Lula",
+        "Lee Br",
+        "Donte",
+        "Dont Bica",
+        "We Edz",
+        "Deruz",
+        "JhonzinMilgrau",
         "Ragekemi",
-        "Calveludo",
-        "Old Jovizera"
+        "Nao Eh Poring",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Ehotk"
       ],
       "changes_log": [
         {
@@ -68760,29 +68766,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
-        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Calveludo",
         "Arroz Cadela",
-        "Giga",
-        "Boltadao",
-        "Ehotk",
-        "Deruz",
-        "Total Security",
-        "Wake Wake",
         "Pittao teensina",
-        "Cetoprofeno Intramuscular",
-        "We Edz",
-        "Lee Br",
-        "Lula",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Donte",
         "Cuffy Dido",
         "Incrivel Monk",
+        "Wake Wake",
+        "Boltadao",
+        "Total Security",
+        "Papumzada",
+        "Feijao Baiakeironato",
+        "Lula",
+        "Lee Br",
+        "Donte",
+        "Dont Bica",
+        "We Edz",
+        "Deruz",
+        "JhonzinMilgrau",
         "Ragekemi",
-        "Calveludo",
-        "Old Jovizera"
+        "Nao Eh Poring",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -69442,11 +69448,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2735,
-      "resets_today": 9,
-      "resets_week": 118,
+      "total_current": 2736,
+      "resets_today": 10,
+      "resets_week": 119,
       "resets_month": 0,
-      "resets_lifetime": 123,
+      "resets_lifetime": 124,
       "avg_per_player": 27.4
     },
     "enemy_guild": {
