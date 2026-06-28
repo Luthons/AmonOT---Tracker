@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 19:19 (Brasília)",
+  "updated_at": "28/06/2026 às 19:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -1710,8 +1710,8 @@
     },
     {
       "name": "Hao Asakura",
-      "level": 1263,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1771,6 +1771,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "27/06/2026 às 13:43 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 19:20 (Brasília)"
         }
       ]
     },
@@ -4648,6 +4653,14 @@
       "online": true
     },
     {
+      "name": "Hao Asakura",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 41,
       "resets_today": 1,
@@ -4813,14 +4826,6 @@
       "resets_today": 0,
       "resets_week": 5,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Hao Asakura",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5382,6 +5387,12 @@
           "online": true
         },
         {
+          "name": "Hao Asakura",
+          "value": 29,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rafa Baguncinha",
           "value": 29,
           "vocation": "Master Sorcerer",
@@ -5391,12 +5402,6 @@
           "name": "Twitch Yagoodz",
           "value": 29,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Hao Asakura",
-          "value": 28,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5955,12 +5960,6 @@
           "name": "Kolwaski",
           "value": 1301,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Hao Asakura",
-          "value": 1263,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -6961,7 +6960,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 19:19 (Brasília)",
+    "updated_at": "28/06/2026 às 19:20 (Brasília)",
     "kills_total": 949,
     "deaths_total": 998,
     "kills_today": 3,
@@ -26513,7 +26512,7 @@
         "Geladeira Quinz Porta": 6,
         "Gokuu": 50,
         "Guidao Palao": 41,
-        "Hao Asakura": 28,
+        "Hao Asakura": 29,
         "Henrique": 51,
         "Heroes Baiak": 27,
         "Imperador": 33,
@@ -41880,7 +41879,7 @@
           "Geladeira Quinz Porta": 6,
           "Gokuu": 50,
           "Guidao Palao": 41,
-          "Hao Asakura": 28,
+          "Hao Asakura": 29,
           "Henrique": 51,
           "Heroes Baiak": 27,
           "Imperador": 33,
@@ -48186,6 +48185,13 @@
           "gained": 1,
           "timestamp": "28/06/2026 às 18:42 (Brasília)",
           "hour_key": "2026-06-28-18"
+        },
+        {
+          "name": "Hao Asakura",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 19:20 (Brasília)",
+          "hour_key": "2026-06-28-19"
         }
       ]
     },
@@ -66089,28 +66095,28 @@
     "members": {
       "last_member_list": [
         "Old Jovizera",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Donte",
-        "Calveludo",
-        "Ragekemi",
-        "Giga",
-        "Total Security",
-        "Wake Wake",
-        "Lee Br",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Deruz",
-        "Arroz Cadela",
-        "Dont Bica",
-        "We Edz",
-        "Papumzada",
         "Boltadao",
-        "Incrivel Monk",
+        "Wake Wake",
+        "Donte",
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
+        "Papumzada",
+        "Deruz",
+        "Calveludo",
         "Lula",
-        "Cetoprofeno Intramuscular"
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Ehotk",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Total Security",
+        "Ragekemi",
+        "We Edz",
+        "Dont Bica",
+        "Pittao teensina",
+        "Lee Br"
       ],
       "changes_log": [
         {
@@ -68619,28 +68625,28 @@
     "hunted": {
       "last_enemy_list": [
         "Old Jovizera",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Donte",
-        "Calveludo",
-        "Ragekemi",
-        "Giga",
-        "Total Security",
-        "Wake Wake",
-        "Lee Br",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Deruz",
-        "Arroz Cadela",
-        "Dont Bica",
-        "We Edz",
-        "Papumzada",
         "Boltadao",
-        "Incrivel Monk",
+        "Wake Wake",
+        "Donte",
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
+        "Papumzada",
+        "Deruz",
+        "Calveludo",
         "Lula",
-        "Cetoprofeno Intramuscular"
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Ehotk",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Feijao Baiakeironato",
+        "Total Security",
+        "Ragekemi",
+        "We Edz",
+        "Dont Bica",
+        "Pittao teensina",
+        "Lee Br"
       ],
       "hunted": {
         "Leogolas": {
@@ -69300,11 +69306,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2746,
-      "resets_today": 20,
-      "resets_week": 127,
+      "total_current": 2747,
+      "resets_today": 21,
+      "resets_week": 128,
       "resets_month": 0,
-      "resets_lifetime": 127,
+      "resets_lifetime": 128,
       "avg_per_player": 27.5
     },
     "enemy_guild": {
