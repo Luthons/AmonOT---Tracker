@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 18:41 (Brasília)",
+  "updated_at": "28/06/2026 às 18:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2338,8 +2338,8 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 1038,
-      "resets": 27,
+      "level": 8,
+      "resets": 28,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2364,6 +2364,11 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "28/06/2026 às 09:17 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:42 (Brasília)"
         }
       ]
     },
@@ -4579,6 +4584,14 @@
   ],
   "resets_today": [
     {
+      "name": "Lougon Baiakeiro",
+      "resets_total": 28,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 57,
       "resets_today": 1,
@@ -4648,14 +4661,6 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Lougon Baiakeiro",
-      "resets_total": 27,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5395,6 +5400,12 @@
           "online": true
         },
         {
+          "name": "Lougon Baiakeiro",
+          "value": 28,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 28,
           "vocation": "Master Sorcerer",
@@ -5405,12 +5416,6 @@
           "value": 27,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lougon Baiakeiro",
-          "value": 27,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Charles",
@@ -6017,12 +6022,6 @@
           "value": 1072,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lougon Baiakeiro",
-          "value": 1038,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Heroes Baiak",
@@ -6950,7 +6949,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 18:41 (Brasília)",
+    "updated_at": "28/06/2026 às 18:42 (Brasília)",
     "kills_total": 949,
     "deaths_total": 998,
     "kills_today": 3,
@@ -26517,7 +26516,7 @@
         "Ljxiv": 26,
         "Loke": 53,
         "Lotus Lothbrook": 25,
-        "Lougon Baiakeiro": 27,
+        "Lougon Baiakeiro": 28,
         "Lukitas Brokenzada": 40,
         "Magabela": 47,
         "Makasco Ms": 2,
@@ -41866,7 +41865,7 @@
           "Ljxiv": 26,
           "Loke": 53,
           "Lotus Lothbrook": 25,
-          "Lougon Baiakeiro": 27,
+          "Lougon Baiakeiro": 28,
           "Lukitas Brokenzada": 40,
           "Magabela": 47,
           "Makasco Ms": 2,
@@ -48149,6 +48148,13 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "28/06/2026 às 18:23 (Brasília)",
+          "hour_key": "2026-06-28-18"
+        },
+        {
+          "name": "Lougon Baiakeiro",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:42 (Brasília)",
           "hour_key": "2026-06-28-18"
         }
       ]
@@ -66108,29 +66114,29 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Ehotk",
-        "Deruz",
-        "Lula",
-        "Boltadao",
-        "Giga",
-        "Arroz Cadela",
-        "Cuffy Dido",
-        "We Edz",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Lee Br",
-        "Total Security",
-        "Calveludo",
-        "Old Jovizera",
         "Feijao Baiakeironato",
         "Papumzada",
-        "Ragekemi"
+        "Lula",
+        "Pittao teensina",
+        "Total Security",
+        "Wake Wake",
+        "Ragekemi",
+        "Deruz",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Boltadao",
+        "Donte",
+        "Calveludo",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Dont Bica",
+        "JhonzinMilgrau",
+        "Cuffy Dido",
+        "Giga",
+        "We Edz",
+        "Old Jovizera",
+        "Ehotk"
       ],
       "changes_log": [
         {
@@ -68638,29 +68644,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Ehotk",
-        "Deruz",
-        "Lula",
-        "Boltadao",
-        "Giga",
-        "Arroz Cadela",
-        "Cuffy Dido",
-        "We Edz",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Lee Br",
-        "Total Security",
-        "Calveludo",
-        "Old Jovizera",
         "Feijao Baiakeironato",
         "Papumzada",
-        "Ragekemi"
+        "Lula",
+        "Pittao teensina",
+        "Total Security",
+        "Wake Wake",
+        "Ragekemi",
+        "Deruz",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Boltadao",
+        "Donte",
+        "Calveludo",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Dont Bica",
+        "JhonzinMilgrau",
+        "Cuffy Dido",
+        "Giga",
+        "We Edz",
+        "Old Jovizera",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -69320,12 +69326,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2745,
-      "resets_today": 19,
+      "total_current": 2746,
+      "resets_today": 20,
       "resets_week": 127,
       "resets_month": 0,
       "resets_lifetime": 129,
-      "avg_per_player": 27.4
+      "avg_per_player": 27.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
