@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 18:14 (Brasília)",
+  "updated_at": "28/06/2026 às 18:15 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3668,8 +3668,8 @@
     },
     {
       "name": "Sisen",
-      "level": 1000,
-      "resets": 10,
+      "level": 8,
+      "resets": 11,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -3714,6 +3714,11 @@
           "resets": 10,
           "gained": 1,
           "timestamp": "25/06/2026 às 13:01 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:15 (Brasília)"
         }
       ]
     },
@@ -4673,6 +4678,14 @@
       "online": true
     },
     {
+      "name": "Sisen",
+      "resets_total": 11,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Timeless",
       "resets_total": 4,
       "resets_today": 1,
@@ -4911,14 +4924,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Sisen",
-      "resets_total": 10,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
-      "online": true
     },
     {
       "name": "Solarica",
@@ -5547,6 +5552,12 @@
           "online": false
         },
         {
+          "name": "Sisen",
+          "value": 11,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Zenith",
           "value": 11,
           "vocation": "Elite Knight",
@@ -5563,12 +5574,6 @@
           "value": 10,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Sisen",
-          "value": 10,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Voldemort Ed",
@@ -6036,12 +6041,6 @@
           "name": "Alba Baiakeiro",
           "value": 1019,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Sisen",
-          "value": 1000,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6946,7 +6945,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 18:14 (Brasília)",
+    "updated_at": "28/06/2026 às 18:15 (Brasília)",
     "kills_total": 949,
     "deaths_total": 998,
     "kills_today": 3,
@@ -26538,7 +26537,7 @@
         "Rp Terror": 33,
         "Rusha Rp": 43,
         "Sabour Ms": 10,
-        "Sisen": 10,
+        "Sisen": 11,
         "Solarica": 4,
         "Sonzacrazy": 7,
         "Taka e Cura": 8,
@@ -41887,7 +41886,7 @@
           "Rp Terror": 33,
           "Rusha Rp": 43,
           "Sabour Ms": 10,
-          "Sisen": 10,
+          "Sisen": 11,
           "Solarica": 4,
           "Sonzacrazy": 7,
           "Taka e Cura": 8,
@@ -48132,6 +48131,13 @@
           "gained": 1,
           "timestamp": "28/06/2026 às 17:51 (Brasília)",
           "hour_key": "2026-06-28-17"
+        },
+        {
+          "name": "Sisen",
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:15 (Brasília)",
+          "hour_key": "2026-06-28-18"
         }
       ]
     },
@@ -66090,29 +66096,29 @@
     },
     "members": {
       "last_member_list": [
-        "Total Security",
-        "Cuffy Dido",
-        "Deruz",
-        "Papumzada",
-        "Wake Wake",
-        "Donte",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Giga",
-        "Nao Eh Poring",
-        "Old Jovizera",
         "JhonzinMilgrau",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Ragekemi",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lula",
-        "Boltadao",
-        "Pittao teensina",
         "We Edz",
-        "Ehotk"
+        "Nao Eh Poring",
+        "Lee Br",
+        "Cuffy Dido",
+        "Giga",
+        "Feijao Baiakeironato",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Old Jovizera",
+        "Deruz",
+        "Ehotk",
+        "Ragekemi",
+        "Papumzada",
+        "Boltadao",
+        "Lula",
+        "Incrivel Monk",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Dont Bica",
+        "Donte"
       ],
       "changes_log": [
         {
@@ -68620,29 +68626,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Total Security",
-        "Cuffy Dido",
-        "Deruz",
-        "Papumzada",
-        "Wake Wake",
-        "Donte",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Giga",
-        "Nao Eh Poring",
-        "Old Jovizera",
         "JhonzinMilgrau",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Ragekemi",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lula",
-        "Boltadao",
-        "Pittao teensina",
         "We Edz",
-        "Ehotk"
+        "Nao Eh Poring",
+        "Lee Br",
+        "Cuffy Dido",
+        "Giga",
+        "Feijao Baiakeironato",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Old Jovizera",
+        "Deruz",
+        "Ehotk",
+        "Ragekemi",
+        "Papumzada",
+        "Boltadao",
+        "Lula",
+        "Incrivel Monk",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Dont Bica",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
@@ -69302,11 +69308,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2743,
-      "resets_today": 17,
-      "resets_week": 125,
+      "total_current": 2744,
+      "resets_today": 18,
+      "resets_week": 126,
       "resets_month": 0,
-      "resets_lifetime": 127,
+      "resets_lifetime": 128,
       "avg_per_player": 27.4
     },
     "enemy_guild": {
