@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 15:44 (Brasília)",
+  "updated_at": "28/06/2026 às 15:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -212,7 +212,7 @@
     },
     {
       "name": "Brunaobringer",
-      "level": 2000,
+      "level": 1997,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3878,7 +3878,7 @@
     },
     {
       "name": "Uga Man",
-      "level": 317,
+      "level": 700,
       "resets": 33,
       "vocation": "Elder Druid",
       "nick": "",
@@ -5704,12 +5704,6 @@
           "online": true
         },
         {
-          "name": "Brunaobringer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Punish Claude",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -5792,6 +5786,12 @@
           "value": 1998,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Brunaobringer",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Rafa Baguncinha",
@@ -6250,6 +6250,12 @@
           "online": false
         },
         {
+          "name": "Uga Man",
+          "value": 700,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "White",
           "value": 641,
           "vocation": "Elder Druid",
@@ -6266,12 +6272,6 @@
           "value": 627,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Uga Man",
-          "value": 317,
-          "vocation": "Elder Druid",
-          "online": true
         }
       ]
     }
@@ -6917,7 +6917,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 15:44 (Brasília)",
+    "updated_at": "28/06/2026 às 15:45 (Brasília)",
     "kills_total": 948,
     "deaths_total": 998,
     "kills_today": 2,
@@ -66136,29 +66136,29 @@
     },
     "members": {
       "last_member_list": [
-        "We Edz",
-        "Lula",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Deruz",
-        "Incrivel Monk",
-        "Boltadao",
-        "Donte",
         "Ragekemi",
-        "Lee Br",
-        "Papumzada",
-        "Wake Wake",
         "Feijao Baiakeironato",
-        "Giga",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Calveludo",
         "Dont Bica",
+        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera"
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Ehotk",
+        "Lula",
+        "Wake Wake",
+        "Giga",
+        "Lee Br",
+        "Deruz",
+        "Old Jovizera",
+        "Boltadao",
+        "We Edz",
+        "Pittao teensina",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Total Security",
+        "Donte",
+        "Incrivel Monk"
       ],
       "changes_log": [
         {
@@ -68666,29 +68666,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "We Edz",
-        "Lula",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Deruz",
-        "Incrivel Monk",
-        "Boltadao",
-        "Donte",
         "Ragekemi",
-        "Lee Br",
-        "Papumzada",
-        "Wake Wake",
         "Feijao Baiakeironato",
-        "Giga",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Calveludo",
         "Dont Bica",
+        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera"
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Ehotk",
+        "Lula",
+        "Wake Wake",
+        "Giga",
+        "Lee Br",
+        "Deruz",
+        "Old Jovizera",
+        "Boltadao",
+        "We Edz",
+        "Pittao teensina",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Total Security",
+        "Donte",
+        "Incrivel Monk"
       ],
       "hunted": {
         "Leogolas": {
