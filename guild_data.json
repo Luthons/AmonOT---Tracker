@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 21:31 (Brasília)",
+  "updated_at": "27/06/2026 às 21:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4382,8 +4382,8 @@
   "enemy_guilds": [
     {
       "name": "Old Legacy",
-      "total_members": 24,
-      "online_count": 16,
+      "total_members": 23,
+      "online_count": 15,
       "offline_count": 8,
       "members": [
         {
@@ -4592,15 +4592,6 @@
           "nick": "",
           "rank": "Member",
           "online": false
-        },
-        {
-          "name": "Walace Owns",
-          "level": 1543,
-          "resets": 37,
-          "vocation": "Master Sorcerer",
-          "nick": "",
-          "rank": "Member",
-          "online": true
         }
       ]
     }
@@ -5151,14 +5142,6 @@
       "resets_week": 5,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Walace Owns",
-      "resets_total": 37,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Master Sorcerer",
-      "online": true
     }
   ],
   "highscores": {
@@ -7010,7 +6993,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 21:31 (Brasília)",
+    "updated_at": "27/06/2026 às 21:32 (Brasília)",
     "kills_total": 946,
     "deaths_total": 998,
     "kills_today": 9,
@@ -48013,8 +47996,7 @@
         "Old Jovizera": 36,
         "Pittao teensina": 42,
         "Total Security": 10,
-        "Wake Wake": 31,
-        "Walace Owns": 37
+        "Wake Wake": 31
       },
       "snapshots": {
         "2026-06-20-22": {
@@ -60408,8 +60390,7 @@
           "Old Jovizera": 36,
           "Pittao teensina": 42,
           "Total Security": 10,
-          "Wake Wake": 31,
-          "Walace Owns": 37
+          "Wake Wake": 31
         }
       },
       "events": [
@@ -67438,37 +67419,31 @@
     },
     "members": {
       "last_member_list": [
-        "Feijao Baiakeironato",
-        "Boltadao",
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Walace Owns",
-        "Lula",
+        "Dont Bica",
         "Wake Wake",
-        "Ehotk",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Lee Br",
-        "Papumzada",
-        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Giga",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Lula",
+        "Arroz Cadela",
+        "Ehotk",
         "Deruz",
         "Old Jovizera",
+        "Donte",
         "Ragekemi",
-        "Giga",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Pittao teensina"
+        "Papumzada",
+        "Total Security",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cuffy Dido",
+        "Boltadao"
       ],
       "changes_log": [
-        {
-          "name": "Old Jovizera",
-          "type": "left",
-          "timestamp": "13/06/2026 às 04:09 (Brasília)"
-        },
         {
           "name": "Lee Br",
           "type": "left",
@@ -69963,36 +69938,46 @@
           "name": "Dan De Ek",
           "type": "left",
           "timestamp": "27/06/2026 às 11:35 (Brasília)"
+        },
+        {
+          "name": "Walace Owns",
+          "type": "left",
+          "timestamp": "27/06/2026 às 21:32 (Brasília)"
         }
       ],
-      "recent_changes": []
+      "recent_changes": [
+        {
+          "name": "Walace Owns",
+          "type": "left",
+          "timestamp": "27/06/2026 às 21:32 (Brasília)"
+        }
+      ]
     },
     "hunted": {
       "last_enemy_list": [
-        "Feijao Baiakeironato",
-        "Boltadao",
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Walace Owns",
-        "Lula",
+        "Dont Bica",
         "Wake Wake",
-        "Ehotk",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Lee Br",
-        "Papumzada",
-        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Giga",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Lula",
+        "Arroz Cadela",
+        "Ehotk",
         "Deruz",
         "Old Jovizera",
+        "Donte",
         "Ragekemi",
-        "Giga",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Pittao teensina"
+        "Papumzada",
+        "Total Security",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cuffy Dido",
+        "Boltadao"
       ],
       "hunted": {
         "Leogolas": {
@@ -70661,22 +70646,23 @@
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
-      "num_members": 24,
-      "total_current": 918,
+      "num_members": 23,
+      "total_current": 881,
       "resets_today": 2,
-      "resets_week": 46,
+      "resets_week": 43,
       "resets_month": 0,
-      "resets_lifetime": 46,
-      "avg_per_player": 38.2
+      "resets_lifetime": 43,
+      "avg_per_player": 38.3
     }
   },
-  "recent_changes": [],
-  "changes_log": [
+  "recent_changes": [
     {
-      "name": "Regent Thragg",
-      "type": "joined",
-      "timestamp": "27/06/2026 às 03:53 (Brasília)"
-    },
+      "name": "Walace Owns",
+      "type": "left",
+      "timestamp": "27/06/2026 às 21:32 (Brasília)"
+    }
+  ],
+  "changes_log": [
     {
       "name": "Tururu",
       "type": "left",
@@ -70921,6 +70907,11 @@
       "name": "Dan De Ek",
       "type": "left",
       "timestamp": "27/06/2026 às 11:35 (Brasília)"
+    },
+    {
+      "name": "Walace Owns",
+      "type": "left",
+      "timestamp": "27/06/2026 às 21:32 (Brasília)"
     }
   ],
   "hunted_list": [
