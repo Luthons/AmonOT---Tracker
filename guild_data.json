@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/06/2026 às 23:07 (Brasília)",
+  "updated_at": "27/06/2026 às 23:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
-  "online_count": 54,
-  "offline_count": 46,
+  "online_count": 56,
+  "offline_count": 44,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -2075,7 +2075,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 3,
@@ -3810,7 +3810,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -5637,7 +5637,7 @@
           "name": "King Suino",
           "value": 4,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Solarica",
@@ -5655,7 +5655,7 @@
           "name": "Timeless",
           "value": 3,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Voldemort Ms",
@@ -6045,7 +6045,7 @@
           "name": "Timeless",
           "value": 1002,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Esfi Hahaha",
@@ -6063,7 +6063,7 @@
           "name": "King Suino",
           "value": 962,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Patrick",
@@ -6919,7 +6919,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/06/2026 às 23:07 (Brasília)",
+    "updated_at": "27/06/2026 às 23:08 (Brasília)",
     "kills_total": 947,
     "deaths_total": 998,
     "kills_today": 1,
@@ -26404,15 +26404,6 @@
       "time": "Jun 26, 2026 02:45",
       "player": "Kiel",
       "level": 2000,
-      "killedBy": "Ehotk",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 26, 2026 01:27",
-      "player": "Esfi Hahaha",
-      "level": 1669,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
@@ -67276,29 +67267,29 @@
     },
     "members": {
       "last_member_list": [
-        "Feijao Baiakeironato",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Deruz",
-        "Pittao teensina",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "We Edz",
         "Wake Wake",
-        "Boltadao",
-        "Total Security",
-        "Ehotk",
-        "Giga",
-        "Arroz Cadela",
-        "Lee Br",
-        "JhonzinMilgrau",
-        "Old Jovizera",
-        "Ragekemi",
-        "Calveludo",
+        "Incrivel Monk",
+        "Papumzada",
         "Nao Eh Poring",
         "Cuffy Dido",
+        "Pittao teensina",
+        "Ehotk",
+        "Boltadao",
+        "Arroz Cadela",
+        "Total Security",
+        "Calveludo",
+        "Deruz",
+        "Ragekemi",
+        "Lee Br",
+        "Dont Bica",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Feijao Baiakeironato",
+        "JhonzinMilgrau",
+        "We Edz",
         "Donte",
-        "Lula"
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -69806,29 +69797,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Feijao Baiakeironato",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Deruz",
-        "Pittao teensina",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "We Edz",
         "Wake Wake",
-        "Boltadao",
-        "Total Security",
-        "Ehotk",
-        "Giga",
-        "Arroz Cadela",
-        "Lee Br",
-        "JhonzinMilgrau",
-        "Old Jovizera",
-        "Ragekemi",
-        "Calveludo",
+        "Incrivel Monk",
+        "Papumzada",
         "Nao Eh Poring",
         "Cuffy Dido",
+        "Pittao teensina",
+        "Ehotk",
+        "Boltadao",
+        "Arroz Cadela",
+        "Total Security",
+        "Calveludo",
+        "Deruz",
+        "Ragekemi",
+        "Lee Br",
+        "Dont Bica",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Feijao Baiakeironato",
+        "JhonzinMilgrau",
+        "We Edz",
         "Donte",
-        "Lula"
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
