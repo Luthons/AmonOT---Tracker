@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 01:57 (Brasília)",
+  "updated_at": "28/06/2026 às 01:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3617,7 +3617,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 3,
@@ -3989,7 +3989,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 6,
@@ -4791,7 +4791,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elite Knight",
-      "online": true
+      "online": false
     },
     {
       "name": "Solarica",
@@ -4823,7 +4823,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Voldemort Ms",
@@ -5465,13 +5465,13 @@
           "name": "Sisen",
           "value": 10,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Voldemort Ed",
           "value": 10,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Mu Baiakeiro",
@@ -6005,7 +6005,7 @@
           "name": "Sisen",
           "value": 923,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Voldemort Ms",
@@ -6083,7 +6083,7 @@
           "name": "Voldemort Ed",
           "value": 839,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Dorfeus",
@@ -6843,7 +6843,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 01:57 (Brasília)",
+    "updated_at": "28/06/2026 às 01:58 (Brasília)",
     "kills_total": 948,
     "deaths_total": 998,
     "kills_today": 2,
@@ -66496,29 +66496,29 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
         "Dont Bica",
-        "Lula",
-        "Lee Br",
-        "We Edz",
-        "Donte",
-        "Incrivel Monk",
-        "Calveludo",
-        "Ragekemi",
-        "Cuffy Dido",
-        "Giga",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Total Security",
+        "Papumzada",
         "Wake Wake",
-        "Ehotk",
+        "Cuffy Dido",
+        "Lee Br",
         "Boltadao",
+        "We Edz",
+        "Total Security",
+        "Lula",
+        "Giga",
         "Old Jovizera",
-        "Deruz",
-        "Cetoprofeno Intramuscular",
+        "Ragekemi",
         "Feijao Baiakeironato",
-        "Pittao teensina"
+        "Nao Eh Poring",
+        "Ehotk",
+        "Donte",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Pittao teensina",
+        "Calveludo",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Incrivel Monk"
       ],
       "changes_log": [
         {
@@ -69026,29 +69026,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
         "Dont Bica",
-        "Lula",
-        "Lee Br",
-        "We Edz",
-        "Donte",
-        "Incrivel Monk",
-        "Calveludo",
-        "Ragekemi",
-        "Cuffy Dido",
-        "Giga",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Total Security",
+        "Papumzada",
         "Wake Wake",
-        "Ehotk",
+        "Cuffy Dido",
+        "Lee Br",
         "Boltadao",
+        "We Edz",
+        "Total Security",
+        "Lula",
+        "Giga",
         "Old Jovizera",
-        "Deruz",
-        "Cetoprofeno Intramuscular",
+        "Ragekemi",
         "Feijao Baiakeironato",
-        "Pittao teensina"
+        "Nao Eh Poring",
+        "Ehotk",
+        "Donte",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Pittao teensina",
+        "Calveludo",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Incrivel Monk"
       ],
       "hunted": {
         "Leogolas": {
