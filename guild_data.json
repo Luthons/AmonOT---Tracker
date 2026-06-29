@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 09:06 (Brasília)",
+  "updated_at": "29/06/2026 às 09:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -749,8 +749,8 @@
     },
     {
       "name": "Cerebro",
-      "level": 1098,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -790,6 +790,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "28/06/2026 às 19:43 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:07 (Brasília)"
         }
       ]
     },
@@ -4615,6 +4620,14 @@
       "online": true
     },
     {
+      "name": "Cerebro",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Cheiro Dpneu",
       "resets_total": 25,
       "resets_today": 1,
@@ -5179,15 +5192,15 @@
           "online": true
         },
         {
-          "name": "Magabela",
+          "name": "Cerebro",
           "value": 47,
-          "vocation": "Master Sorcerer",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Cerebro",
-          "value": 46,
-          "vocation": "Elite Knight",
+          "name": "Magabela",
+          "value": 47,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5981,12 +5994,6 @@
           "value": 1131,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Cerebro",
-          "value": 1098,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Xeipe",
@@ -6932,7 +6939,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 09:06 (Brasília)",
+    "updated_at": "29/06/2026 às 09:07 (Brasília)",
     "kills_total": 954,
     "deaths_total": 1002,
     "kills_today": 3,
@@ -26463,7 +26470,7 @@
         "Brunao Cansado": 5,
         "Brunao Rei Denovo": 30,
         "Campin": 7,
-        "Cerebro": 46,
+        "Cerebro": 47,
         "Charles": 26,
         "Cheiro Dpneu": 25,
         "Chissalada": 13,
@@ -42094,7 +42101,7 @@
           "Brunao Cansado": 5,
           "Brunao Rei Denovo": 30,
           "Campin": 7,
-          "Cerebro": 46,
+          "Cerebro": 47,
           "Charles": 26,
           "Cheiro Dpneu": 25,
           "Chissalada": 13,
@@ -48338,6 +48345,13 @@
           "gained": 1,
           "timestamp": "29/06/2026 às 07:38 (Brasília)",
           "hour_key": "2026-06-29-07"
+        },
+        {
+          "name": "Cerebro",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:07 (Brasília)",
+          "hour_key": "2026-06-29-09"
         }
       ]
     },
@@ -65141,58 +65155,58 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Lula",
-        "Deruz",
-        "Lee Br",
-        "Wake Wake",
-        "Pittao teensina",
         "Cuffy Dido",
-        "Giga",
-        "Ragekemi",
-        "Old Jovizera",
-        "We Edz",
-        "Boltadao",
-        "Dont Bica",
-        "Total Security",
-        "Nao Eh Poring",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
+        "Arroz Cadela",
         "Cetoprofeno Intramuscular",
+        "Incrivel Monk",
         "Donte",
+        "Lula",
+        "Ragekemi",
+        "Deruz",
+        "Dont Bica",
         "Calveludo",
-        "Arroz Cadela"
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
+        "Boltadao",
+        "We Edz",
+        "Wake Wake",
+        "Ehotk",
+        "Feijao Baiakeironato",
+        "Old Jovizera",
+        "Lee Br",
+        "Total Security",
+        "Papumzada",
+        "Pittao teensina",
+        "Giga"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Lula",
-        "Deruz",
-        "Lee Br",
-        "Wake Wake",
-        "Pittao teensina",
         "Cuffy Dido",
-        "Giga",
-        "Ragekemi",
-        "Old Jovizera",
-        "We Edz",
-        "Boltadao",
-        "Dont Bica",
-        "Total Security",
-        "Nao Eh Poring",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
+        "Arroz Cadela",
         "Cetoprofeno Intramuscular",
+        "Incrivel Monk",
         "Donte",
+        "Lula",
+        "Ragekemi",
+        "Deruz",
+        "Dont Bica",
         "Calveludo",
-        "Arroz Cadela"
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
+        "Boltadao",
+        "We Edz",
+        "Wake Wake",
+        "Ehotk",
+        "Feijao Baiakeironato",
+        "Old Jovizera",
+        "Lee Br",
+        "Total Security",
+        "Papumzada",
+        "Pittao teensina",
+        "Giga"
       ],
       "hunted": {
         "Leogolas": {
@@ -65852,8 +65866,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2796,
-      "resets_today": 10,
+      "total_current": 2797,
+      "resets_today": 11,
       "resets_week": 102,
       "resets_month": 0,
       "resets_lifetime": 117,
