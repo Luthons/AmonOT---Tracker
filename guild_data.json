@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 19:35 (Brasília)",
+  "updated_at": "29/06/2026 às 19:36 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2575,8 +2575,8 @@
     },
     {
       "name": "Magabela",
-      "level": 1533,
-      "resets": 47,
+      "level": 8,
+      "resets": 48,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2666,6 +2666,11 @@
           "resets": 47,
           "gained": 1,
           "timestamp": "28/06/2026 às 16:29 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:36 (Brasília)"
         }
       ]
     },
@@ -4688,6 +4693,14 @@
       "online": true
     },
     {
+      "name": "Magabela",
+      "resets_total": 48,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Mu Baiakeiro",
       "resets_total": 9,
       "resets_today": 1,
@@ -4821,14 +4834,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Magabela",
-      "resets_total": 47,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5180,15 +5185,15 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
+          "name": "Magabela",
           "value": 48,
-          "vocation": "Elder Druid",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 47,
-          "vocation": "Master Sorcerer",
+          "name": "Monstro Das Criptos",
+          "value": 48,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5861,12 +5866,6 @@
           "name": "Ritoff Elite",
           "value": 1547,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 1533,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -6909,7 +6908,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 19:35 (Brasília)",
+    "updated_at": "29/06/2026 às 19:36 (Brasília)",
     "kills_total": 956,
     "deaths_total": 1004,
     "kills_today": 5,
@@ -26452,7 +26451,7 @@
         "Lotus Lothbrook": 25,
         "Lougon Baiakeiro": 29,
         "Lukitas Brokenzada": 40,
-        "Magabela": 47,
+        "Magabela": 48,
         "Makasco Ms": 2,
         "Melbiss": 40,
         "Monstro Das Criptos": 48,
@@ -42269,7 +42268,7 @@
           "Lotus Lothbrook": 25,
           "Lougon Baiakeiro": 29,
           "Lukitas Brokenzada": 40,
-          "Magabela": 47,
+          "Magabela": 48,
           "Makasco Ms": 2,
           "Melbiss": 40,
           "Monstro Das Criptos": 48,
@@ -48598,6 +48597,13 @@
           "resets": 48,
           "gained": 1,
           "timestamp": "29/06/2026 às 19:33 (Brasília)",
+          "hour_key": "2026-06-29-19"
+        },
+        {
+          "name": "Magabela",
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:36 (Brasília)",
           "hour_key": "2026-06-29-19"
         }
       ]
@@ -64868,58 +64874,58 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Ehotk",
-        "Ragekemi",
-        "Arroz Cadela",
-        "Giga",
-        "Boltadao",
         "Lula",
-        "Nao Eh Poring",
-        "We Edz",
-        "Old Jovizera",
-        "Total Security",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Donte",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Calveludo",
         "Pittao teensina",
-        "Wake Wake",
-        "Cuffy Dido",
+        "Ehotk",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Calveludo",
+        "Donte",
+        "Lee Br",
         "Deruz",
-        "Incrivel Monk"
+        "Giga",
+        "Ragekemi",
+        "Old Jovizera",
+        "Boltadao",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Papumzada",
+        "Wake Wake"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Ehotk",
-        "Ragekemi",
-        "Arroz Cadela",
-        "Giga",
-        "Boltadao",
         "Lula",
-        "Nao Eh Poring",
-        "We Edz",
-        "Old Jovizera",
-        "Total Security",
-        "Lee Br",
-        "Feijao Baiakeironato",
-        "Donte",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Calveludo",
         "Pittao teensina",
-        "Wake Wake",
-        "Cuffy Dido",
+        "Ehotk",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Calveludo",
+        "Donte",
+        "Lee Br",
         "Deruz",
-        "Incrivel Monk"
+        "Giga",
+        "Ragekemi",
+        "Old Jovizera",
+        "Boltadao",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Papumzada",
+        "Wake Wake"
       ],
       "hunted": {
         "Leogolas": {
@@ -65579,11 +65585,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2780,
-      "resets_today": 27,
-      "resets_week": 106,
+      "total_current": 2781,
+      "resets_today": 28,
+      "resets_week": 107,
       "resets_month": 0,
-      "resets_lifetime": 110,
+      "resets_lifetime": 111,
       "avg_per_player": 27.8
     },
     "enemy_guild": {
