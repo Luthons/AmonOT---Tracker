@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 09:55 (Brasília)",
+  "updated_at": "29/06/2026 às 09:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -4467,8 +4467,8 @@
         },
         {
           "name": "Feijao Baiakeironato",
-          "level": 1941,
-          "resets": 53,
+          "level": 8,
+          "resets": 54,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -4984,6 +4984,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Feijao Baiakeironato",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Calveludo",
       "resets_total": 37,
       "resets_today": 1,
@@ -5036,14 +5044,6 @@
       "resets_total": 58,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Feijao Baiakeironato",
-      "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -6951,7 +6951,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 09:55 (Brasília)",
+    "updated_at": "29/06/2026 às 09:56 (Brasília)",
     "kills_total": 954,
     "deaths_total": 1002,
     "kills_today": 3,
@@ -48390,7 +48390,7 @@
         "Arroz Cadela": 32,
         "Cetoprofeno Intramuscular": 58,
         "Dont Bica": 21,
-        "Feijao Baiakeironato": 53,
+        "Feijao Baiakeironato": 54,
         "Nao Eh Poring": 80,
         "Papumzada": 25,
         "Boltadao": 25,
@@ -58788,7 +58788,7 @@
           "Arroz Cadela": 32,
           "Cetoprofeno Intramuscular": 58,
           "Dont Bica": 21,
-          "Feijao Baiakeironato": 53,
+          "Feijao Baiakeironato": 54,
           "Nao Eh Poring": 80,
           "Papumzada": 25,
           "Boltadao": 25,
@@ -65176,63 +65176,70 @@
           "gained": 1,
           "timestamp": "29/06/2026 às 00:46 (Brasília)",
           "hour_key": "2026-06-29-00"
+        },
+        {
+          "name": "Feijao Baiakeironato",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:56 (Brasília)",
+          "hour_key": "2026-06-29-09"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Cuffy Dido",
-        "Ehotk",
-        "Ragekemi",
-        "Dont Bica",
-        "Wake Wake",
-        "Donte",
         "We Edz",
-        "Feijao Baiakeironato",
-        "Calveludo",
+        "Nao Eh Poring",
         "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "JhonzinMilgrau",
+        "Dont Bica",
         "Total Security",
+        "Old Jovizera",
+        "Deruz",
+        "Boltadao",
+        "Ragekemi",
+        "Lula",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Giga",
         "Arroz Cadela",
-        "Deruz",
-        "Papumzada",
-        "Lee Br",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "Lula",
+        "Donte",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cuffy Dido",
         "Pittao teensina",
-        "Nao Eh Poring"
+        "Wake Wake",
+        "Lee Br",
+        "Ehotk"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Cuffy Dido",
-        "Ehotk",
-        "Ragekemi",
-        "Dont Bica",
-        "Wake Wake",
-        "Donte",
         "We Edz",
-        "Feijao Baiakeironato",
-        "Calveludo",
+        "Nao Eh Poring",
         "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "JhonzinMilgrau",
+        "Dont Bica",
         "Total Security",
+        "Old Jovizera",
+        "Deruz",
+        "Boltadao",
+        "Ragekemi",
+        "Lula",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Giga",
         "Arroz Cadela",
-        "Deruz",
-        "Papumzada",
-        "Lee Br",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "Lula",
+        "Donte",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cuffy Dido",
         "Pittao teensina",
-        "Nao Eh Poring"
+        "Wake Wake",
+        "Lee Br",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -65902,12 +65909,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 23,
-      "total_current": 886,
-      "resets_today": 1,
-      "resets_week": 33,
+      "total_current": 887,
+      "resets_today": 2,
+      "resets_week": 34,
       "resets_month": 0,
-      "resets_lifetime": 39,
-      "avg_per_player": 38.5
+      "resets_lifetime": 40,
+      "avg_per_player": 38.6
     }
   },
   "recent_changes": [],
