@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 10:58 (Brasília)",
+  "updated_at": "29/06/2026 às 10:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -3165,8 +3165,8 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1308,
-      "resets": 53,
+      "level": 35,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3291,6 +3291,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "28/06/2026 às 17:51 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 10:59 (Brasília)"
         }
       ]
     },
@@ -4712,6 +4717,14 @@
       "online": true
     },
     {
+      "name": "Pally Tetss",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "RBenz",
       "resets_total": 16,
       "resets_today": 1,
@@ -4882,14 +4895,6 @@
     {
       "name": "Owsborn",
       "resets_total": 33,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Pally Tetss",
-      "resets_total": 53,
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
@@ -5136,6 +5141,12 @@
           "online": true
         },
         {
+          "name": "Pally Tetss",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 53,
           "vocation": "Royal Paladin",
@@ -5146,12 +5157,6 @@
           "value": 53,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Pally Tetss",
-          "value": 53,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Ynhaca Purah",
@@ -5958,12 +5963,6 @@
           "online": true
         },
         {
-          "name": "Pally Tetss",
-          "value": 1308,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Alba Baiakeiro",
           "value": 1306,
           "vocation": "Elder Druid",
@@ -6320,6 +6319,12 @@
         {
           "name": "Rusha Rp",
           "value": 197,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 35,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -6967,7 +6972,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 10:58 (Brasília)",
+    "updated_at": "29/06/2026 às 10:59 (Brasília)",
     "kills_total": 954,
     "deaths_total": 1002,
     "kills_today": 3,
@@ -26539,7 +26544,7 @@
         "Nagato Sorcerer": 23,
         "Nao Curo": 25,
         "Owsborn": 33,
-        "Pally Tetss": 53,
+        "Pally Tetss": 54,
         "Patrick": 10,
         "Pestinha": 28,
         "Primobolan e Trembo": 12,
@@ -42189,7 +42194,7 @@
           "Nagato Sorcerer": 23,
           "Nao Curo": 25,
           "Owsborn": 33,
-          "Pally Tetss": 53,
+          "Pally Tetss": 54,
           "Patrick": 10,
           "Pestinha": 28,
           "Primobolan e Trembo": 12,
@@ -48417,6 +48422,13 @@
           "resets": 38,
           "gained": 1,
           "timestamp": "29/06/2026 às 10:42 (Brasília)",
+          "hour_key": "2026-06-29-10"
+        },
+        {
+          "name": "Pally Tetss",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 10:59 (Brasília)",
           "hour_key": "2026-06-29-10"
         }
       ]
@@ -65172,58 +65184,58 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Total Security",
-        "Wake Wake",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Deruz",
-        "Papumzada",
-        "Ehotk",
-        "Lee Br",
         "Donte",
-        "We Edz",
-        "Dont Bica",
-        "Ragekemi",
-        "Pittao teensina",
+        "Wake Wake",
+        "Total Security",
+        "Nao Eh Poring",
+        "Lee Br",
         "Lula",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Ragekemi",
+        "Dont Bica",
+        "Deruz",
         "Cuffy Dido",
         "Giga",
-        "Old Jovizera"
+        "We Edz",
+        "Ehotk",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Boltadao",
+        "Calveludo",
+        "Incrivel Monk"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Total Security",
-        "Wake Wake",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Deruz",
-        "Papumzada",
-        "Ehotk",
-        "Lee Br",
         "Donte",
-        "We Edz",
-        "Dont Bica",
-        "Ragekemi",
-        "Pittao teensina",
+        "Wake Wake",
+        "Total Security",
+        "Nao Eh Poring",
+        "Lee Br",
         "Lula",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Ragekemi",
+        "Dont Bica",
+        "Deruz",
         "Cuffy Dido",
         "Giga",
-        "Old Jovizera"
+        "We Edz",
+        "Ehotk",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Boltadao",
+        "Calveludo",
+        "Incrivel Monk"
       ],
       "hunted": {
         "Leogolas": {
@@ -65883,11 +65895,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2801,
-      "resets_today": 15,
-      "resets_week": 104,
+      "total_current": 2802,
+      "resets_today": 16,
+      "resets_week": 105,
       "resets_month": 0,
-      "resets_lifetime": 118,
+      "resets_lifetime": 119,
       "avg_per_player": 27.7
     },
     "enemy_guild": {
