@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/06/2026 às 22:51 (Brasília)",
+  "updated_at": "28/06/2026 às 22:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -1939,8 +1939,8 @@
     },
     {
       "name": "Kev",
-      "level": 1251,
-      "resets": 20,
+      "level": 8,
+      "resets": 21,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2020,6 +2020,11 @@
           "resets": 20,
           "gained": 1,
           "timestamp": "16/06/2026 às 20:04 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 22:52 (Brasília)"
         }
       ]
     },
@@ -4694,6 +4699,14 @@
       "online": false
     },
     {
+      "name": "Kev",
+      "resets_total": 21,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kiel",
       "resets_total": 56,
       "resets_today": 0,
@@ -5427,7 +5440,7 @@
         },
         {
           "name": "Kev",
-          "value": 20,
+          "value": 21,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5872,12 +5885,6 @@
         {
           "name": "Esfi Hahaha",
           "value": 1271,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 1251,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6885,7 +6892,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/06/2026 às 22:51 (Brasília)",
+    "updated_at": "28/06/2026 às 22:52 (Brasília)",
     "kills_total": 952,
     "deaths_total": 999,
     "kills_today": 1,
@@ -26435,7 +26442,7 @@
         "Imperador Ek": 18,
         "Its Gui": 34,
         "Kaus Magj": 5,
-        "Kev": 20,
+        "Kev": 21,
         "Kiel": 56,
         "King Suino": 4,
         "Kolwaski": 40,
@@ -41857,7 +41864,7 @@
           "Imperador Ek": 18,
           "Its Gui": 34,
           "Kaus Magj": 5,
-          "Kev": 20,
+          "Kev": 21,
           "Kiel": 56,
           "King Suino": 4,
           "Kolwaski": 40,
@@ -48184,6 +48191,13 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "28/06/2026 às 22:47 (Brasília)",
+          "hour_key": "2026-06-28-22"
+        },
+        {
+          "name": "Kev",
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 22:52 (Brasília)",
           "hour_key": "2026-06-28-22"
         }
       ]
@@ -65926,58 +65940,58 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Boltadao",
-        "Lee Br",
-        "Donte",
-        "Deruz",
-        "Pittao teensina",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Total Security",
-        "Ehotk",
-        "Incrivel Monk",
         "Cetoprofeno Intramuscular",
-        "Calveludo",
-        "Giga",
-        "Lula",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Arroz Cadela",
         "Ragekemi",
-        "Nao Eh Poring",
+        "Deruz",
+        "Giga",
         "Old Jovizera",
-        "We Edz"
+        "Total Security",
+        "JhonzinMilgrau",
+        "Donte",
+        "Incrivel Monk",
+        "Boltadao",
+        "Cuffy Dido",
+        "Calveludo",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Ehotk",
+        "We Edz",
+        "Lula",
+        "Pittao teensina",
+        "Dont Bica",
+        "Lee Br",
+        "Feijao Baiakeironato",
+        "Wake Wake",
+        "Arroz Cadela"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Boltadao",
-        "Lee Br",
-        "Donte",
-        "Deruz",
-        "Pittao teensina",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Total Security",
-        "Ehotk",
-        "Incrivel Monk",
         "Cetoprofeno Intramuscular",
-        "Calveludo",
-        "Giga",
-        "Lula",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Arroz Cadela",
         "Ragekemi",
-        "Nao Eh Poring",
+        "Deruz",
+        "Giga",
         "Old Jovizera",
-        "We Edz"
+        "Total Security",
+        "JhonzinMilgrau",
+        "Donte",
+        "Incrivel Monk",
+        "Boltadao",
+        "Cuffy Dido",
+        "Calveludo",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Ehotk",
+        "We Edz",
+        "Lula",
+        "Pittao teensina",
+        "Dont Bica",
+        "Lee Br",
+        "Feijao Baiakeironato",
+        "Wake Wake",
+        "Arroz Cadela"
       ],
       "hunted": {
         "Leogolas": {
@@ -66637,11 +66651,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2784,
+      "total_current": 2785,
       "resets_today": 0,
-      "resets_week": 96,
+      "resets_week": 97,
       "resets_month": 0,
-      "resets_lifetime": 126,
+      "resets_lifetime": 127,
       "avg_per_player": 27.6
     },
     "enemy_guild": {
