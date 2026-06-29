@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 07:31 (Brasília)",
+  "updated_at": "29/06/2026 às 07:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -1411,8 +1411,8 @@
     },
     {
       "name": "Garuvuvinha",
-      "level": 1592,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1422,6 +1422,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "26/06/2026 às 23:21 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 07:32 (Brasília)"
         }
       ]
     },
@@ -4621,6 +4626,14 @@
       "online": true
     },
     {
+      "name": "Garuvuvinha",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Kiel",
       "resets_total": 57,
       "resets_today": 1,
@@ -5183,6 +5196,12 @@
           "online": true
         },
         {
+          "name": "Garuvuvinha",
+          "value": 42,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Guidao Palao",
           "value": 42,
           "vocation": "Royal Paladin",
@@ -5192,12 +5211,6 @@
           "name": "Lipe Knight",
           "value": 42,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Garuvuvinha",
-          "value": 41,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5817,12 +5830,6 @@
           "value": 1689,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Garuvuvinha",
-          "value": 1592,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Kolwaski",
@@ -6900,7 +6907,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 07:31 (Brasília)",
+    "updated_at": "29/06/2026 às 07:32 (Brasília)",
     "kills_total": 954,
     "deaths_total": 1002,
     "kills_today": 3,
@@ -26466,7 +26473,7 @@
         "End Zeus": 36,
         "Erva Doce": 4,
         "Friedrich Merz": 62,
-        "Garuvuvinha": 41,
+        "Garuvuvinha": 42,
         "Geladeira Quinz Porta": 6,
         "Gokuu": 50,
         "Guidao Palao": 42,
@@ -42059,7 +42066,7 @@
           "End Zeus": 36,
           "Erva Doce": 4,
           "Friedrich Merz": 62,
-          "Garuvuvinha": 41,
+          "Garuvuvinha": 42,
           "Geladeira Quinz Porta": 6,
           "Gokuu": 50,
           "Guidao Palao": 42,
@@ -48271,6 +48278,13 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "29/06/2026 às 07:21 (Brasília)",
+          "hour_key": "2026-06-29-07"
+        },
+        {
+          "name": "Garuvuvinha",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 07:32 (Brasília)",
           "hour_key": "2026-06-29-07"
         }
       ]
@@ -65187,58 +65201,58 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
         "Total Security",
-        "Dont Bica",
+        "Boltadao",
+        "Giga",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
         "Arroz Cadela",
+        "Dont Bica",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
+        "Ragekemi",
         "Lula",
         "Nao Eh Poring",
-        "Pittao teensina",
-        "Ehotk",
-        "Cuffy Dido",
+        "Old Jovizera",
         "Lee Br",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Giga",
-        "Deruz",
+        "Ehotk",
         "Wake Wake",
-        "Calveludo",
-        "Ragekemi",
-        "Boltadao",
+        "Donte",
         "Papumzada",
-        "Incrivel Monk",
-        "JhonzinMilgrau"
+        "Deruz",
+        "Cuffy Dido",
+        "Calveludo",
+        "Feijao Baiakeironato"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
         "Total Security",
-        "Dont Bica",
+        "Boltadao",
+        "Giga",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
         "Arroz Cadela",
+        "Dont Bica",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
+        "Ragekemi",
         "Lula",
         "Nao Eh Poring",
-        "Pittao teensina",
-        "Ehotk",
-        "Cuffy Dido",
+        "Old Jovizera",
         "Lee Br",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Giga",
-        "Deruz",
+        "Ehotk",
         "Wake Wake",
-        "Calveludo",
-        "Ragekemi",
-        "Boltadao",
+        "Donte",
         "Papumzada",
-        "Incrivel Monk",
-        "JhonzinMilgrau"
+        "Deruz",
+        "Cuffy Dido",
+        "Calveludo",
+        "Feijao Baiakeironato"
       ],
       "hunted": {
         "Leogolas": {
@@ -65898,8 +65912,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2794,
-      "resets_today": 8,
+      "total_current": 2795,
+      "resets_today": 9,
       "resets_week": 102,
       "resets_month": 0,
       "resets_lifetime": 121,
