@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 17:07 (Brasília)",
+  "updated_at": "29/06/2026 às 17:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -754,12 +754,12 @@
     },
     {
       "name": "Cerebro",
-      "level": 1028,
+      "level": 1058,
       "resets": 47,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 40,
@@ -1431,7 +1431,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -4586,7 +4586,7 @@
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Elite Knight",
-      "online": true
+      "online": false
     },
     {
       "name": "Dreenho Baiakeiro",
@@ -5038,7 +5038,7 @@
           "name": "Friedrich Merz",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Esfi Hahaha",
@@ -5140,7 +5140,7 @@
           "name": "Cerebro",
           "value": 47,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Magabela",
@@ -5728,7 +5728,7 @@
           "name": "Friedrich Merz",
           "value": 1997,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Rafa Baguncinha",
@@ -5941,6 +5941,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 1058,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
           "name": "Lilian Faithkeeper",
           "value": 1051,
           "vocation": "Royal Paladin",
@@ -5951,12 +5957,6 @@
           "value": 1030,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Cerebro",
-          "value": 1028,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Owsborn",
@@ -6872,7 +6872,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 17:07 (Brasília)",
+    "updated_at": "29/06/2026 às 17:08 (Brasília)",
     "kills_total": 955,
     "deaths_total": 1003,
     "kills_today": 4,
@@ -64870,58 +64870,58 @@
     },
     "members": {
       "last_member_list": [
-        "Ragekemi",
-        "Cuffy Dido",
+        "We Edz",
         "Ehotk",
-        "Deruz",
+        "Ragekemi",
         "Papumzada",
-        "Pittao teensina",
-        "JhonzinMilgrau",
+        "Donte",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Deruz",
+        "Lee Br",
+        "Dont Bica",
+        "Calveludo",
+        "Lula",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Old Jovizera",
+        "Giga",
         "Nao Eh Poring",
         "Total Security",
-        "Giga",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Arroz Cadela",
-        "Calveludo",
-        "Wake Wake",
-        "Lula",
-        "Dont Bica",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "We Edz",
-        "Boltadao"
+        "Pittao teensina",
+        "JhonzinMilgrau"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ragekemi",
-        "Cuffy Dido",
+        "We Edz",
         "Ehotk",
-        "Deruz",
+        "Ragekemi",
         "Papumzada",
-        "Pittao teensina",
-        "JhonzinMilgrau",
+        "Donte",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Deruz",
+        "Lee Br",
+        "Dont Bica",
+        "Calveludo",
+        "Lula",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Old Jovizera",
+        "Giga",
         "Nao Eh Poring",
         "Total Security",
-        "Giga",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Arroz Cadela",
-        "Calveludo",
-        "Wake Wake",
-        "Lula",
-        "Dont Bica",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "We Edz",
-        "Boltadao"
+        "Pittao teensina",
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
