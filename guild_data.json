@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 08:39 (Brasília)",
+  "updated_at": "30/06/2026 às 08:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2762,8 +2762,8 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1020,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2833,6 +2833,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "29/06/2026 às 23:01 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:40 (Brasília)"
         }
       ]
     },
@@ -4573,6 +4578,14 @@
   ],
   "resets_today": [
     {
+      "name": "Monstro Das Criptos",
+      "resets_total": 50,
+      "resets_today": 2,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 58,
       "resets_today": 1,
@@ -4650,14 +4663,6 @@
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Monstro Das Criptos",
-      "resets_total": 49,
-      "resets_today": 1,
-      "resets_week": 3,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -5069,14 +5074,14 @@
           "online": false
         },
         {
-          "name": "VukVuk",
+          "name": "Monstro Das Criptos",
           "value": 50,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 49,
+          "name": "VukVuk",
+          "value": 50,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5906,12 +5911,6 @@
           "name": "Owsborn",
           "value": 1026,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 1020,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6810,7 +6809,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 08:39 (Brasília)",
+    "updated_at": "30/06/2026 às 08:40 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -26833,7 +26832,7 @@
         "Magabela": 48,
         "Makasco Ms": 2,
         "Melbiss": 41,
-        "Monstro Das Criptos": 49,
+        "Monstro Das Criptos": 50,
         "More Knox": 7,
         "Moskito": 22,
         "Mu Baiakeiro": 9,
@@ -42884,7 +42883,7 @@
           "Magabela": 48,
           "Makasco Ms": 2,
           "Melbiss": 41,
-          "Monstro Das Criptos": 49,
+          "Monstro Das Criptos": 50,
           "More Knox": 7,
           "Moskito": 22,
           "Mu Baiakeiro": 9,
@@ -49133,6 +49132,13 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "30/06/2026 às 08:38 (Brasília)",
+          "hour_key": "2026-06-30-08"
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:40 (Brasília)",
           "hour_key": "2026-06-30-08"
         }
       ]
@@ -64461,58 +64467,58 @@
     },
     "members": {
       "last_member_list": [
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Ragekemi",
-        "Cuffy Dido",
-        "Dont Bica",
-        "Arroz Cadela",
+        "Calveludo",
         "Wake Wake",
-        "Lula",
-        "Donte",
-        "We Edz",
-        "Nao Eh Poring",
-        "Boltadao",
-        "Pittao teensina",
-        "Total Security",
-        "Papumzada",
-        "Ehotk",
         "Deruz",
         "Old Jovizera",
+        "Ragekemi",
+        "Lee Br",
+        "Lula",
+        "Pittao teensina",
+        "Boltadao",
+        "Feijao Baiakeironato",
+        "Ehotk",
+        "Cuffy Dido",
+        "Total Security",
+        "We Edz",
+        "Nao Eh Poring",
+        "Arroz Cadela",
         "Giga",
+        "Donte",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "Incrivel Monk",
         "Cetoprofeno Intramuscular",
-        "Calveludo"
+        "Papumzada"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Ragekemi",
-        "Cuffy Dido",
-        "Dont Bica",
-        "Arroz Cadela",
+        "Calveludo",
         "Wake Wake",
-        "Lula",
-        "Donte",
-        "We Edz",
-        "Nao Eh Poring",
-        "Boltadao",
-        "Pittao teensina",
-        "Total Security",
-        "Papumzada",
-        "Ehotk",
         "Deruz",
         "Old Jovizera",
+        "Ragekemi",
+        "Lee Br",
+        "Lula",
+        "Pittao teensina",
+        "Boltadao",
+        "Feijao Baiakeironato",
+        "Ehotk",
+        "Cuffy Dido",
+        "Total Security",
+        "We Edz",
+        "Nao Eh Poring",
+        "Arroz Cadela",
         "Giga",
+        "Donte",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "Incrivel Monk",
         "Cetoprofeno Intramuscular",
-        "Calveludo"
+        "Papumzada"
       ],
       "hunted": {
         "Leogolas": {
@@ -65172,11 +65178,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2798,
-      "resets_today": 13,
-      "resets_week": 106,
+      "total_current": 2799,
+      "resets_today": 14,
+      "resets_week": 107,
       "resets_month": 0,
-      "resets_lifetime": 115,
+      "resets_lifetime": 116,
       "avg_per_player": 28.0
     },
     "enemy_guild": {
