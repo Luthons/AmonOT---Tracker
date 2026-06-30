@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 11:31 (Brasília)",
+  "updated_at": "30/06/2026 às 11:34 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -1840,8 +1840,8 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1765,
-      "resets": 42,
+      "level": 8,
+      "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1965,6 +1965,11 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "28/06/2026 às 22:47 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 11:34 (Brasília)"
         }
       ]
     },
@@ -5017,6 +5022,14 @@
       "online": true
     },
     {
+      "name": "Guidao Palao",
+      "resets_total": 43,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Hao Asakura",
       "resets_total": 30,
       "resets_today": 1,
@@ -5110,14 +5123,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Guidao Palao",
-      "resets_total": 42,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -5497,15 +5502,15 @@
           "online": true
         },
         {
-          "name": "Lipe Knight",
+          "name": "Guidao Palao",
           "value": 43,
-          "vocation": "Elite Knight",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 42,
-          "vocation": "Royal Paladin",
+          "name": "Lipe Knight",
+          "value": 43,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6106,12 +6111,6 @@
           "name": "Ynhaca Purah",
           "value": 1778,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 1765,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -7184,7 +7183,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 11:30 (Brasília)",
+    "updated_at": "30/06/2026 às 11:34 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -27185,7 +27184,7 @@
         "Garuvuvinha": 44,
         "Geladeira Quinz Porta": 6,
         "Gokuu": 50,
-        "Guidao Palao": 42,
+        "Guidao Palao": 43,
         "Hao Asakura": 30,
         "Henrique": 51,
         "Heroes Baiak": 28,
@@ -43288,7 +43287,7 @@
           "Garuvuvinha": 44,
           "Geladeira Quinz Porta": 6,
           "Gokuu": 50,
-          "Guidao Palao": 42,
+          "Guidao Palao": 43,
           "Hao Asakura": 30,
           "Henrique": 51,
           "Heroes Baiak": 28,
@@ -49600,6 +49599,13 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "30/06/2026 às 11:12 (Brasília)",
+          "hour_key": "2026-06-30-11"
+        },
+        {
+          "name": "Guidao Palao",
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 11:34 (Brasília)",
           "hour_key": "2026-06-30-11"
         }
       ]
@@ -64769,58 +64775,58 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "We Edz",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Old Jovizera",
-        "Papumzada",
-        "Giga",
-        "Total Security",
-        "Boltadao",
-        "Cuffy Dido",
         "Lula",
-        "Pittao teensina",
-        "Deruz",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Donte",
+        "Lee Br",
         "Ehotk",
-        "Nao Eh Poring",
+        "Old Jovizera",
+        "Total Security",
         "Arroz Cadela",
-        "Ragekemi"
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Giga",
+        "Ragekemi",
+        "Donte",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Cuffy Dido",
+        "Boltadao",
+        "Deruz",
+        "Wake Wake",
+        "Dont Bica",
+        "Papumzada",
+        "Pittao teensina"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "We Edz",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Old Jovizera",
-        "Papumzada",
-        "Giga",
-        "Total Security",
-        "Boltadao",
-        "Cuffy Dido",
         "Lula",
-        "Pittao teensina",
-        "Deruz",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Donte",
+        "Lee Br",
         "Ehotk",
-        "Nao Eh Poring",
+        "Old Jovizera",
+        "Total Security",
         "Arroz Cadela",
-        "Ragekemi"
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Giga",
+        "Ragekemi",
+        "Donte",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
+        "Cuffy Dido",
+        "Boltadao",
+        "Deruz",
+        "Wake Wake",
+        "Dont Bica",
+        "Papumzada",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
@@ -65480,11 +65486,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 99,
-      "total_current": 2771,
-      "resets_today": 19,
-      "resets_week": 112,
+      "total_current": 2772,
+      "resets_today": 20,
+      "resets_week": 113,
       "resets_month": 0,
-      "resets_lifetime": 120,
+      "resets_lifetime": 121,
       "avg_per_player": 28.0
     },
     "enemy_guild": {
