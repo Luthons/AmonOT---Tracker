@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 08:01 (Brasília)",
+  "updated_at": "30/06/2026 às 08:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
-  "online_count": 55,
-  "offline_count": 45,
+  "online_count": 54,
+  "offline_count": 46,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1430,7 +1430,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 29,
@@ -4398,8 +4398,8 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "level": 2000,
-          "resets": 58,
+          "level": 8,
+          "resets": 59,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -4861,6 +4861,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Cetoprofeno Intramuscular",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Calveludo",
       "resets_total": 38,
       "resets_today": 1,
@@ -4898,14 +4906,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5158,7 +5158,7 @@
           "name": "End Zeus",
           "value": 36,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Its Gui",
@@ -5698,7 +5698,7 @@
           "name": "End Zeus",
           "value": 1969,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Elder Lougon",
@@ -6800,7 +6800,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 08:01 (Brasília)",
+    "updated_at": "30/06/2026 às 08:02 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -49120,7 +49120,7 @@
         "Ragekemi": 29,
         "We Edz": 40,
         "Arroz Cadela": 32,
-        "Cetoprofeno Intramuscular": 58,
+        "Cetoprofeno Intramuscular": 59,
         "Dont Bica": 21,
         "Feijao Baiakeironato": 54,
         "Nao Eh Poring": 80,
@@ -58280,7 +58280,7 @@
           "Ragekemi": 29,
           "We Edz": 40,
           "Arroz Cadela": 32,
-          "Cetoprofeno Intramuscular": 58,
+          "Cetoprofeno Intramuscular": 59,
           "Dont Bica": 21,
           "Feijao Baiakeironato": 54,
           "Nao Eh Poring": 80,
@@ -64425,63 +64425,70 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 00:55 (Brasília)",
           "hour_key": "2026-06-30-00"
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:02 (Brasília)",
+          "hour_key": "2026-06-30-08"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Wake Wake",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Deruz",
-        "Total Security",
-        "Old Jovizera",
-        "Calveludo",
-        "Papumzada",
-        "Pittao teensina",
-        "Donte",
-        "Lula",
-        "Ehotk",
-        "Boltadao",
-        "Incrivel Monk",
-        "Giga",
-        "Nao Eh Poring",
-        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Pittao teensina",
         "Ragekemi",
+        "Donte",
+        "Nao Eh Poring",
+        "Giga",
+        "Incrivel Monk",
         "We Edz",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Lee Br"
+        "Old Jovizera",
+        "Ehotk",
+        "Calveludo",
+        "Lula",
+        "Wake Wake",
+        "Total Security",
+        "Lee Br",
+        "Feijao Baiakeironato",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Deruz",
+        "Papumzada",
+        "Boltadao",
+        "Cetoprofeno Intramuscular"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Wake Wake",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Deruz",
-        "Total Security",
-        "Old Jovizera",
-        "Calveludo",
-        "Papumzada",
-        "Pittao teensina",
-        "Donte",
-        "Lula",
-        "Ehotk",
-        "Boltadao",
-        "Incrivel Monk",
-        "Giga",
-        "Nao Eh Poring",
-        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Pittao teensina",
         "Ragekemi",
+        "Donte",
+        "Nao Eh Poring",
+        "Giga",
+        "Incrivel Monk",
         "We Edz",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Lee Br"
+        "Old Jovizera",
+        "Ehotk",
+        "Calveludo",
+        "Lula",
+        "Wake Wake",
+        "Total Security",
+        "Lee Br",
+        "Feijao Baiakeironato",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Deruz",
+        "Papumzada",
+        "Boltadao",
+        "Cetoprofeno Intramuscular"
       ],
       "hunted": {
         "Leogolas": {
@@ -65151,11 +65158,11 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 23,
-      "total_current": 889,
-      "resets_today": 1,
-      "resets_week": 24,
+      "total_current": 890,
+      "resets_today": 2,
+      "resets_week": 25,
       "resets_month": 0,
-      "resets_lifetime": 31,
+      "resets_lifetime": 32,
       "avg_per_player": 38.7
     }
   },
