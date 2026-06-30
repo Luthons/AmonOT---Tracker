@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 07:39 (Brasília)",
+  "updated_at": "30/06/2026 às 07:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -1481,8 +1481,8 @@
     },
     {
       "name": "Garuvuvinha",
-      "level": 1485,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1502,6 +1502,11 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "29/06/2026 às 16:13 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 07:40 (Brasília)"
         }
       ]
     },
@@ -4598,6 +4603,14 @@
       "online": true
     },
     {
+      "name": "Garuvuvinha",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Hao Asakura",
       "resets_total": 30,
       "resets_today": 1,
@@ -5089,7 +5102,7 @@
         },
         {
           "name": "Garuvuvinha",
-          "value": 43,
+          "value": 44,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5752,12 +5765,6 @@
           "value": 1563,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Garuvuvinha",
-          "value": 1485,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Yagoodz Hahaha",
@@ -6793,7 +6800,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 07:39 (Brasília)",
+    "updated_at": "30/06/2026 às 07:40 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -26791,7 +26798,7 @@
         "End Zeus": 36,
         "Erva Doce": 4,
         "Friedrich Merz": 62,
-        "Garuvuvinha": 43,
+        "Garuvuvinha": 44,
         "Geladeira Quinz Porta": 6,
         "Gokuu": 50,
         "Guidao Palao": 42,
@@ -42824,7 +42831,7 @@
           "End Zeus": 36,
           "Erva Doce": 4,
           "Friedrich Merz": 62,
-          "Garuvuvinha": 43,
+          "Garuvuvinha": 44,
           "Geladeira Quinz Porta": 6,
           "Gokuu": 50,
           "Guidao Palao": 42,
@@ -49077,6 +49084,13 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "30/06/2026 às 07:36 (Brasília)",
+          "hour_key": "2026-06-30-07"
+        },
+        {
+          "name": "Garuvuvinha",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 07:40 (Brasília)",
           "hour_key": "2026-06-30-07"
         }
       ]
@@ -64451,58 +64465,58 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
-        "Lula",
-        "Old Jovizera",
-        "Giga",
-        "Ragekemi",
-        "Deruz",
         "Cuffy Dido",
-        "Nao Eh Poring",
-        "Donte",
-        "Wake Wake",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
         "Calveludo",
-        "Ehotk",
-        "Boltadao",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Lee Br",
-        "We Edz",
         "Cetoprofeno Intramuscular",
-        "Total Security",
+        "Lula",
+        "Lee Br",
         "Feijao Baiakeironato",
-        "Pittao teensina"
+        "Old Jovizera",
+        "Total Security",
+        "We Edz",
+        "Donte",
+        "Dont Bica",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Giga",
+        "Pittao teensina",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Deruz",
+        "Ragekemi",
+        "Papumzada"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
-        "Lula",
-        "Old Jovizera",
-        "Giga",
-        "Ragekemi",
-        "Deruz",
         "Cuffy Dido",
-        "Nao Eh Poring",
-        "Donte",
-        "Wake Wake",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
         "Calveludo",
-        "Ehotk",
-        "Boltadao",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Lee Br",
-        "We Edz",
         "Cetoprofeno Intramuscular",
-        "Total Security",
+        "Lula",
+        "Lee Br",
         "Feijao Baiakeironato",
-        "Pittao teensina"
+        "Old Jovizera",
+        "Total Security",
+        "We Edz",
+        "Donte",
+        "Dont Bica",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Giga",
+        "Pittao teensina",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Deruz",
+        "Ragekemi",
+        "Papumzada"
       ],
       "hunted": {
         "Leogolas": {
@@ -65162,12 +65176,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2795,
-      "resets_today": 10,
+      "total_current": 2796,
+      "resets_today": 11,
       "resets_week": 104,
       "resets_month": 0,
       "resets_lifetime": 115,
-      "avg_per_player": 27.9
+      "avg_per_player": 28.0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
