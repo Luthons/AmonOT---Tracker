@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 22:09 (Brasília)",
+  "updated_at": "29/06/2026 às 22:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -1126,8 +1126,8 @@
     },
     {
       "name": "Dreenho Baiakeiro",
-      "level": 978,
-      "resets": 38,
+      "level": 8,
+      "resets": 39,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1167,6 +1167,11 @@
           "resets": 38,
           "gained": 1,
           "timestamp": "29/06/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 22:10 (Brasília)"
         }
       ]
     },
@@ -4396,7 +4401,7 @@
         },
         {
           "name": "Ragekemi",
-          "level": 1402,
+          "level": 1401,
           "resets": 29,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5153,7 +5158,7 @@
         },
         {
           "name": "Dreenho Baiakeiro",
-          "value": 38,
+          "value": 39,
           "vocation": "Elder Druid",
           "online": false
         },
@@ -5932,12 +5937,6 @@
           "online": false
         },
         {
-          "name": "Dreenho Baiakeiro",
-          "value": 978,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "King Suino",
           "value": 972,
           "vocation": "Elite Knight",
@@ -6354,6 +6353,12 @@
           "kills_week": 0
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 3,
+          "kills_today": 1,
+          "kills_week": 1
+        },
+        {
           "name": "Gokuu",
           "value": 3,
           "kills_today": 0,
@@ -6397,12 +6402,6 @@
         },
         {
           "name": "Ed farm",
-          "value": 2,
-          "kills_today": 0,
-          "kills_week": 0
-        },
-        {
-          "name": "Monstro Das Criptos",
           "value": 2,
           "kills_today": 0,
           "kills_week": 0
@@ -6821,16 +6820,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 22:09 (Brasília)",
-    "kills_total": 960,
+    "updated_at": "29/06/2026 às 22:10 (Brasília)",
+    "kills_total": 961,
     "deaths_total": 1016,
-    "kills_today": 4,
+    "kills_today": 5,
     "deaths_today": 0,
-    "kills_week": 124,
+    "kills_week": 125,
     "deaths_week": 97,
-    "kd_total": 0.94,
+    "kd_total": 0.95,
     "kd_today": null,
-    "kd_week": 1.28,
+    "kd_week": 1.29,
     "streak_days": 5,
     "top_my_killers": [
       {
@@ -7002,6 +7001,12 @@
         "kills_week": 0
       },
       {
+        "name": "Monstro Das Criptos",
+        "kills": 3,
+        "kills_today": 1,
+        "kills_week": 1
+      },
+      {
         "name": "Gokuu",
         "kills": 3,
         "kills_today": 0,
@@ -7045,12 +7050,6 @@
       },
       {
         "name": "Ed farm",
-        "kills": 2,
-        "kills_today": 0,
-        "kills_week": 0
-      },
-      {
-        "name": "Monstro Das Criptos",
         "kills": 2,
         "kills_today": 0,
         "kills_week": 0
@@ -7509,7 +7508,7 @@
       ],
       [
         "Ragekemi",
-        51
+        52
       ],
       [
         "Walace Owns",
@@ -10886,6 +10885,15 @@
         "level": 797,
         "killedBy": "Jotabringer",
         "maiorDano": "Salles On Amonot",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jun 29, 2026 22:10",
+        "player": "Ragekemi",
+        "level": 1402,
+        "killedBy": "Monstro Das Criptos",
+        "maiorDano": "Maguinn Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -26585,7 +26593,7 @@
         "Diegao Barba": 39,
         "Dmonick": 50,
         "Dorfeus": 5,
-        "Dreenho Baiakeiro": 38,
+        "Dreenho Baiakeiro": 39,
         "Drizinha": 0,
         "Ed farm": 46,
         "Elder Lougon": 12,
@@ -42456,7 +42464,7 @@
           "Diegao Barba": 39,
           "Dmonick": 50,
           "Dorfeus": 5,
-          "Dreenho Baiakeiro": 38,
+          "Dreenho Baiakeiro": 39,
           "Drizinha": 0,
           "Ed farm": 46,
           "Elder Lougon": 12,
@@ -48845,6 +48853,13 @@
           "gained": 1,
           "timestamp": "29/06/2026 às 21:42 (Brasília)",
           "hour_key": "2026-06-29-21"
+        },
+        {
+          "name": "Dreenho Baiakeiro",
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 22:10 (Brasília)",
+          "hour_key": "2026-06-29-22"
         }
       ]
     },
@@ -64954,58 +64969,58 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Lula",
-        "Lee Br",
         "Incrivel Monk",
         "Arroz Cadela",
-        "Donte",
-        "Total Security",
-        "Deruz",
-        "Dont Bica",
-        "Boltadao",
+        "Lula",
+        "Papumzada",
+        "Ragekemi",
+        "Wake Wake",
         "Nao Eh Poring",
-        "Cuffy Dido",
+        "Total Security",
+        "Old Jovizera",
         "JhonzinMilgrau",
+        "Dont Bica",
         "Giga",
         "We Edz",
-        "Ragekemi",
-        "Papumzada",
         "Pittao teensina",
-        "Old Jovizera"
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Cuffy Dido",
+        "Calveludo",
+        "Lee Br",
+        "Ehotk",
+        "Donte",
+        "Feijao Baiakeironato"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Lula",
-        "Lee Br",
         "Incrivel Monk",
         "Arroz Cadela",
-        "Donte",
-        "Total Security",
-        "Deruz",
-        "Dont Bica",
-        "Boltadao",
+        "Lula",
+        "Papumzada",
+        "Ragekemi",
+        "Wake Wake",
         "Nao Eh Poring",
-        "Cuffy Dido",
+        "Total Security",
+        "Old Jovizera",
         "JhonzinMilgrau",
+        "Dont Bica",
         "Giga",
         "We Edz",
-        "Ragekemi",
-        "Papumzada",
         "Pittao teensina",
-        "Old Jovizera"
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Cuffy Dido",
+        "Calveludo",
+        "Lee Br",
+        "Ehotk",
+        "Donte",
+        "Feijao Baiakeironato"
       ],
       "hunted": {
         "Leogolas": {
@@ -65665,12 +65680,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2784,
+      "total_current": 2785,
       "resets_today": 0,
       "resets_week": 95,
       "resets_month": 0,
       "resets_lifetime": 108,
-      "avg_per_player": 27.8
+      "avg_per_player": 27.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
