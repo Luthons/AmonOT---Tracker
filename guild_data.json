@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 23:34 (Brasília)",
+  "updated_at": "29/06/2026 às 23:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -929,8 +929,8 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 1065,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -980,6 +980,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "29/06/2026 às 19:14 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:35 (Brasília)"
         }
       ]
     },
@@ -4598,6 +4603,14 @@
   ],
   "resets_today": [
     {
+      "name": "Diegao Barba",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Monstro Das Criptos",
       "resets_total": 49,
       "resets_today": 1,
@@ -4644,14 +4657,6 @@
       "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Diegao Barba",
-      "resets_total": 39,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Elite Knight",
-      "online": true
     },
     {
       "name": "Ed farm",
@@ -5144,6 +5149,12 @@
           "online": true
         },
         {
+          "name": "Diegao Barba",
+          "value": 40,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 40,
           "vocation": "Elder Druid",
@@ -5152,12 +5163,6 @@
         {
           "name": "Melbiss",
           "value": 40,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Diegao Barba",
-          "value": 39,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5892,12 +5897,6 @@
           "value": 1072,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Diegao Barba",
-          "value": 1065,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Dreenho Baiakeiro",
@@ -6831,7 +6830,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 23:34 (Brasília)",
+    "updated_at": "29/06/2026 às 23:35 (Brasília)",
     "kills_total": 961,
     "deaths_total": 1016,
     "kills_today": 5,
@@ -26601,7 +26600,7 @@
         "Cheiro Dpneu": 27,
         "Chissalada": 13,
         "Deca com Testo": 32,
-        "Diegao Barba": 39,
+        "Diegao Barba": 40,
         "Dmonick": 50,
         "Dorfeus": 5,
         "Dreenho Baiakeiro": 39,
@@ -42490,7 +42489,7 @@
           "Cheiro Dpneu": 27,
           "Chissalada": 13,
           "Deca com Testo": 32,
-          "Diegao Barba": 39,
+          "Diegao Barba": 40,
           "Dmonick": 50,
           "Dorfeus": 5,
           "Dreenho Baiakeiro": 39,
@@ -48895,6 +48894,13 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "29/06/2026 às 23:01 (Brasília)",
+          "hour_key": "2026-06-29-23"
+        },
+        {
+          "name": "Diegao Barba",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:35 (Brasília)",
           "hour_key": "2026-06-29-23"
         }
       ]
@@ -64953,28 +64959,28 @@
     "members": {
       "last_member_list": [
         "Incrivel Monk",
-        "We Edz",
-        "Ehotk",
-        "Donte",
-        "Total Security",
-        "Cuffy Dido",
-        "Lee Br",
-        "Calveludo",
-        "Wake Wake",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Nao Eh Poring",
-        "Deruz",
-        "Ragekemi",
-        "Feijao Baiakeironato",
+        "Boltadao",
         "Arroz Cadela",
+        "Pittao teensina",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "We Edz",
         "Old Jovizera",
         "Lula",
-        "Papumzada",
-        "Boltadao",
-        "Pittao teensina",
-        "JhonzinMilgrau"
+        "Dont Bica",
+        "Ragekemi",
+        "Giga",
+        "Deruz",
+        "Cuffy Dido",
+        "Feijao Baiakeironato",
+        "Calveludo",
+        "Total Security",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Lee Br",
+        "Wake Wake"
       ],
       "changes_log": [],
       "recent_changes": []
@@ -64982,28 +64988,28 @@
     "hunted": {
       "last_enemy_list": [
         "Incrivel Monk",
-        "We Edz",
-        "Ehotk",
-        "Donte",
-        "Total Security",
-        "Cuffy Dido",
-        "Lee Br",
-        "Calveludo",
-        "Wake Wake",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Nao Eh Poring",
-        "Deruz",
-        "Ragekemi",
-        "Feijao Baiakeironato",
+        "Boltadao",
         "Arroz Cadela",
+        "Pittao teensina",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "We Edz",
         "Old Jovizera",
         "Lula",
-        "Papumzada",
-        "Boltadao",
-        "Pittao teensina",
-        "JhonzinMilgrau"
+        "Dont Bica",
+        "Ragekemi",
+        "Giga",
+        "Deruz",
+        "Cuffy Dido",
+        "Feijao Baiakeironato",
+        "Calveludo",
+        "Total Security",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Lee Br",
+        "Wake Wake"
       ],
       "hunted": {
         "Leogolas": {
@@ -65663,11 +65669,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2786,
-      "resets_today": 1,
-      "resets_week": 96,
+      "total_current": 2787,
+      "resets_today": 2,
+      "resets_week": 97,
       "resets_month": 0,
-      "resets_lifetime": 109,
+      "resets_lifetime": 110,
       "avg_per_player": 27.9
     },
     "enemy_guild": {
