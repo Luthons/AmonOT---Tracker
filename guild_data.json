@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 08:37 (Brasília)",
+  "updated_at": "30/06/2026 às 08:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3427,8 +3427,8 @@
     },
     {
       "name": "Pestinha",
-      "level": 1202,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3488,6 +3488,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "24/06/2026 às 14:50 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:38 (Brasília)"
         }
       ]
     },
@@ -4656,6 +4661,14 @@
       "online": true
     },
     {
+      "name": "Pestinha",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Rusha Rp",
       "resets_total": 45,
       "resets_today": 1,
@@ -4781,14 +4794,6 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Pestinha",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5250,6 +5255,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 29,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rafa Baguncinha",
           "value": 29,
           "vocation": "Master Sorcerer",
@@ -5272,12 +5283,6 @@
           "value": 28,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Pestinha",
-          "value": 28,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Charles",
@@ -5836,12 +5841,6 @@
           "value": 1202,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Pestinha",
-          "value": 1202,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Vinizerah On Amonot",
@@ -6811,7 +6810,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 08:37 (Brasília)",
+    "updated_at": "30/06/2026 às 08:38 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -26844,7 +26843,7 @@
         "Owsborn": 33,
         "Pally Tetss": 54,
         "Patrick": 10,
-        "Pestinha": 28,
+        "Pestinha": 29,
         "Primobolan e Trembo": 12,
         "Rafa Baguncinha": 29,
         "RBenz": 16,
@@ -42895,7 +42894,7 @@
           "Owsborn": 33,
           "Pally Tetss": 54,
           "Patrick": 10,
-          "Pestinha": 28,
+          "Pestinha": 29,
           "Primobolan e Trembo": 12,
           "Rafa Baguncinha": 29,
           "RBenz": 16,
@@ -49127,6 +49126,13 @@
           "resets": 26,
           "gained": 1,
           "timestamp": "30/06/2026 às 08:19 (Brasília)",
+          "hour_key": "2026-06-30-08"
+        },
+        {
+          "name": "Pestinha",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:38 (Brasília)",
           "hour_key": "2026-06-30-08"
         }
       ]
@@ -64455,58 +64461,58 @@
     },
     "members": {
       "last_member_list": [
-        "Total Security",
-        "Calveludo",
-        "Lula",
-        "Pittao teensina",
-        "Giga",
         "Ragekemi",
-        "Dont Bica",
         "Nao Eh Poring",
+        "Pittao teensina",
         "Arroz Cadela",
         "Cetoprofeno Intramuscular",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Feijao Baiakeironato",
-        "We Edz",
+        "Dont Bica",
         "Cuffy Dido",
-        "Old Jovizera",
+        "Papumzada",
+        "Lula",
+        "Ehotk",
         "Lee Br",
         "Donte",
-        "Wake Wake",
+        "JhonzinMilgrau",
+        "Old Jovizera",
         "Incrivel Monk",
-        "Ehotk",
+        "Total Security",
         "Deruz",
-        "Boltadao"
+        "We Edz",
+        "Boltadao",
+        "Giga",
+        "Wake Wake",
+        "Feijao Baiakeironato",
+        "Calveludo"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Total Security",
-        "Calveludo",
-        "Lula",
-        "Pittao teensina",
-        "Giga",
         "Ragekemi",
-        "Dont Bica",
         "Nao Eh Poring",
+        "Pittao teensina",
         "Arroz Cadela",
         "Cetoprofeno Intramuscular",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Feijao Baiakeironato",
-        "We Edz",
+        "Dont Bica",
         "Cuffy Dido",
-        "Old Jovizera",
+        "Papumzada",
+        "Lula",
+        "Ehotk",
         "Lee Br",
         "Donte",
-        "Wake Wake",
+        "JhonzinMilgrau",
+        "Old Jovizera",
         "Incrivel Monk",
-        "Ehotk",
+        "Total Security",
         "Deruz",
-        "Boltadao"
+        "We Edz",
+        "Boltadao",
+        "Giga",
+        "Wake Wake",
+        "Feijao Baiakeironato",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
@@ -65166,11 +65172,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2797,
-      "resets_today": 12,
-      "resets_week": 105,
+      "total_current": 2798,
+      "resets_today": 13,
+      "resets_week": 106,
       "resets_month": 0,
-      "resets_lifetime": 114,
+      "resets_lifetime": 115,
       "avg_per_player": 28.0
     },
     "enemy_guild": {
