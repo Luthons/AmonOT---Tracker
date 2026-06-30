@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 23:55 (Brasília)",
+  "updated_at": "29/06/2026 às 23:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3762,8 +3762,8 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 1246,
-      "resets": 44,
+      "level": 8,
+      "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3813,6 +3813,11 @@
           "resets": 44,
           "gained": 1,
           "timestamp": "29/06/2026 às 10:01 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:56 (Brasília)"
         }
       ]
     },
@@ -4416,7 +4421,7 @@
         },
         {
           "name": "Ragekemi",
-          "level": 1401,
+          "level": 1402,
           "resets": 29,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -4632,6 +4637,14 @@
       "online": true
     },
     {
+      "name": "Rusha Rp",
+      "resets_total": 45,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 57,
       "resets_today": 0,
@@ -4828,14 +4841,6 @@
       "resets_total": 46,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Rusha Rp",
-      "resets_total": 44,
-      "resets_today": 0,
-      "resets_week": 5,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -5133,7 +5138,7 @@
         },
         {
           "name": "Rusha Rp",
-          "value": 44,
+          "value": 45,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5861,12 +5866,6 @@
           "name": "Loke",
           "value": 1255,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Rusha Rp",
-          "value": 1246,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6837,7 +6836,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 23:55 (Brasília)",
+    "updated_at": "29/06/2026 às 23:56 (Brasília)",
     "kills_total": 961,
     "deaths_total": 1016,
     "kills_today": 5,
@@ -26662,7 +26661,7 @@
         "Roginho": 31,
         "Royal Luthons": 46,
         "Rp Terror": 33,
-        "Rusha Rp": 44,
+        "Rusha Rp": 45,
         "Sabour Ms": 10,
         "Sisen": 11,
         "Solarica": 4,
@@ -42551,7 +42550,7 @@
           "Roginho": 31,
           "Royal Luthons": 46,
           "Rp Terror": 33,
-          "Rusha Rp": 44,
+          "Rusha Rp": 45,
           "Sabour Ms": 10,
           "Sisen": 11,
           "Solarica": 4,
@@ -48915,6 +48914,13 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "29/06/2026 às 23:36 (Brasília)",
+          "hour_key": "2026-06-29-23"
+        },
+        {
+          "name": "Rusha Rp",
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:56 (Brasília)",
           "hour_key": "2026-06-29-23"
         }
       ]
@@ -64972,58 +64978,58 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Dont Bica",
-        "Lee Br",
-        "Total Security",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "Boltadao",
-        "Giga",
-        "Old Jovizera",
-        "Papumzada",
-        "Feijao Baiakeironato",
         "We Edz",
-        "Ragekemi",
-        "Donte",
-        "JhonzinMilgrau",
+        "Papumzada",
         "Lula",
+        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Donte",
         "Pittao teensina",
-        "Deruz"
+        "Total Security",
+        "Old Jovizera",
+        "Giga",
+        "Ragekemi",
+        "Deruz",
+        "Boltadao",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Dont Bica",
+        "Calveludo",
+        "Ehotk",
+        "Incrivel Monk",
+        "Lee Br"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Dont Bica",
-        "Lee Br",
-        "Total Security",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "Boltadao",
-        "Giga",
-        "Old Jovizera",
-        "Papumzada",
-        "Feijao Baiakeironato",
         "We Edz",
-        "Ragekemi",
-        "Donte",
-        "JhonzinMilgrau",
+        "Papumzada",
         "Lula",
+        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Donte",
         "Pittao teensina",
-        "Deruz"
+        "Total Security",
+        "Old Jovizera",
+        "Giga",
+        "Ragekemi",
+        "Deruz",
+        "Boltadao",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Dont Bica",
+        "Calveludo",
+        "Ehotk",
+        "Incrivel Monk",
+        "Lee Br"
       ],
       "hunted": {
         "Leogolas": {
@@ -65683,11 +65689,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2788,
-      "resets_today": 3,
-      "resets_week": 97,
+      "total_current": 2789,
+      "resets_today": 4,
+      "resets_week": 98,
       "resets_month": 0,
-      "resets_lifetime": 110,
+      "resets_lifetime": 111,
       "avg_per_player": 27.9
     },
     "enemy_guild": {
