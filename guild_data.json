@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/06/2026 às 21:20 (Brasília)",
+  "updated_at": "29/06/2026 às 21:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -749,7 +749,7 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 2000,
+      "level": 1997,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -5729,12 +5729,6 @@
           "online": false
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -5787,6 +5781,12 @@
           "value": 1998,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Brunao Rei Denovo",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Nao Curo",
@@ -6638,9 +6638,9 @@
         },
         {
           "name": "Calveludo",
-          "value": 34,
-          "kills_today": 1,
-          "kills_week": 2
+          "value": 35,
+          "kills_today": 2,
+          "kills_week": 3
         },
         {
           "name": "Darkzao Knight",
@@ -6930,15 +6930,15 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/06/2026 às 21:20 (Brasília)",
+    "updated_at": "29/06/2026 às 21:21 (Brasília)",
     "kills_total": 956,
-    "deaths_total": 1005,
+    "deaths_total": 1006,
     "kills_today": 5,
-    "deaths_today": 6,
+    "deaths_today": 7,
     "kills_week": 163,
-    "deaths_week": 152,
+    "deaths_week": 153,
     "kd_total": 0.95,
-    "kd_today": 0.83,
+    "kd_today": 0.71,
     "kd_week": 1.07,
     "streak_days": 0,
     "top_my_killers": [
@@ -7282,9 +7282,9 @@
       },
       {
         "name": "Calveludo",
-        "kills": 34,
-        "kills_today": 1,
-        "kills_week": 2
+        "kills": 35,
+        "kills_today": 2,
+        "kills_week": 3
       },
       {
         "name": "Darkzao Knight",
@@ -19056,6 +19056,15 @@
         "isPvp": true
       },
       {
+        "time": "Jun 29, 2026 21:20",
+        "player": "Brunao Rei Denovo",
+        "level": 2000,
+        "killedBy": "Calveludo",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jun 29, 2026 21:17",
         "player": "Dreenho Baiakeiro",
         "level": 974,
@@ -26312,6 +26321,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jun 29, 2026 21:20",
+      "player": "Brunao Rei Denovo",
+      "level": 2000,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jun 29, 2026 21:17",
       "player": "Dreenho Baiakeiro",
@@ -64857,58 +64875,58 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
         "We Edz",
-        "Lula",
-        "Ehotk",
-        "Total Security",
-        "Incrivel Monk",
-        "Giga",
-        "Ragekemi",
-        "Boltadao",
-        "Donte",
-        "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Old Jovizera",
-        "Lee Br",
-        "Deruz",
+        "Total Security",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
         "Pittao teensina",
-        "Calveludo"
+        "Lee Br",
+        "Lula",
+        "Ragekemi",
+        "Papumzada",
+        "Calveludo",
+        "Old Jovizera",
+        "Ehotk",
+        "Incrivel Monk",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Deruz",
+        "Arroz Cadela",
+        "Donte",
+        "Feijao Baiakeironato",
+        "Dont Bica"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
         "We Edz",
-        "Lula",
-        "Ehotk",
-        "Total Security",
-        "Incrivel Monk",
-        "Giga",
-        "Ragekemi",
-        "Boltadao",
-        "Donte",
-        "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Old Jovizera",
-        "Lee Br",
-        "Deruz",
+        "Total Security",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
         "Pittao teensina",
-        "Calveludo"
+        "Lee Br",
+        "Lula",
+        "Ragekemi",
+        "Papumzada",
+        "Calveludo",
+        "Old Jovizera",
+        "Ehotk",
+        "Incrivel Monk",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Deruz",
+        "Arroz Cadela",
+        "Donte",
+        "Feijao Baiakeironato",
+        "Dont Bica"
       ],
       "hunted": {
         "Leogolas": {
