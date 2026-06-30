@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 01:04 (Brasília)",
+  "updated_at": "30/06/2026 às 01:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -350,8 +350,8 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 973,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -426,6 +426,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "29/06/2026 às 19:22 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 01:05 (Brasília)"
         }
       ]
     },
@@ -4409,7 +4414,7 @@
         },
         {
           "name": "Papumzada",
-          "level": 1275,
+          "level": 1273,
           "resets": 25,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -4546,6 +4551,14 @@
       "online": true
     },
     {
+      "name": "Teylera Rp",
+      "resets_total": 56,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Cheiro Dpneu",
       "resets_total": 28,
       "resets_today": 1,
@@ -4599,14 +4612,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Teylera Rp",
-      "resets_total": 55,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4955,7 +4960,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 55,
+          "value": 56,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5884,12 +5889,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 973,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "King Suino",
           "value": 972,
           "vocation": "Elite Knight",
@@ -6767,7 +6766,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 01:04 (Brasília)",
+    "updated_at": "30/06/2026 às 01:05 (Brasília)",
     "kills_total": 967,
     "deaths_total": 1019,
     "kills_today": 11,
@@ -26591,7 +26590,7 @@
         "Brunaobringer": 50,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
-        "Teylera Rp": 55,
+        "Teylera Rp": 56,
         "Vinizerah On Amonot": 31,
         "Achilles": 18,
         "Adolph Healer": 6,
@@ -42516,7 +42515,7 @@
           "Brunaobringer": 50,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
-          "Teylera Rp": 55,
+          "Teylera Rp": 56,
           "Vinizerah On Amonot": 31,
           "Achilles": 18,
           "Adolph Healer": 6,
@@ -48771,6 +48770,13 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "30/06/2026 às 01:04 (Brasília)",
+          "hour_key": "2026-06-30-01"
+        },
+        {
+          "name": "Teylera Rp",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 01:05 (Brasília)",
           "hour_key": "2026-06-30-01"
         }
       ]
@@ -64463,28 +64469,28 @@
     },
     "members": {
       "last_member_list": [
-        "Deruz",
-        "We Edz",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Calveludo",
-        "Old Jovizera",
-        "Giga",
-        "Boltadao",
-        "Nao Eh Poring",
-        "Dont Bica",
         "Ragekemi",
-        "Total Security",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Ehotk",
-        "Lula",
+        "Giga",
         "Feijao Baiakeironato",
-        "Lee Br",
-        "Arroz Cadela",
+        "Deruz",
+        "Wake Wake",
+        "Cuffy Dido",
+        "We Edz",
         "Pittao teensina",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Lee Br",
+        "Lula",
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Dont Bica",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Donte",
+        "Ehotk",
+        "Boltadao",
+        "Calveludo",
+        "Total Security",
         "Incrivel Monk"
       ],
       "changes_log": [],
@@ -64492,28 +64498,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Deruz",
-        "We Edz",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Calveludo",
-        "Old Jovizera",
-        "Giga",
-        "Boltadao",
-        "Nao Eh Poring",
-        "Dont Bica",
         "Ragekemi",
-        "Total Security",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Ehotk",
-        "Lula",
+        "Giga",
         "Feijao Baiakeironato",
-        "Lee Br",
-        "Arroz Cadela",
+        "Deruz",
+        "Wake Wake",
+        "Cuffy Dido",
+        "We Edz",
         "Pittao teensina",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Lee Br",
+        "Lula",
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Dont Bica",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Donte",
+        "Ehotk",
+        "Boltadao",
+        "Calveludo",
+        "Total Security",
         "Incrivel Monk"
       ],
       "hunted": {
@@ -65174,11 +65180,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2791,
-      "resets_today": 6,
-      "resets_week": 100,
+      "total_current": 2792,
+      "resets_today": 7,
+      "resets_week": 101,
       "resets_month": 0,
-      "resets_lifetime": 112,
+      "resets_lifetime": 113,
       "avg_per_player": 27.9
     },
     "enemy_guild": {
