@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 10:00 (Brasília)",
+  "updated_at": "30/06/2026 às 10:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3240,8 +3240,8 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1348,
-      "resets": 54,
+      "level": 8,
+      "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3371,6 +3371,11 @@
           "resets": 54,
           "gained": 1,
           "timestamp": "29/06/2026 às 10:59 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 10:01 (Brasília)"
         }
       ]
     },
@@ -4679,6 +4684,14 @@
       "online": true
     },
     {
+      "name": "Pally Tetss",
+      "resets_total": 55,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Pestinha",
       "resets_total": 29,
       "resets_today": 1,
@@ -4797,14 +4810,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Pally Tetss",
-      "resets_total": 54,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "RBenz",
@@ -5014,7 +5019,7 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 54,
+          "value": 55,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5814,12 +5819,6 @@
           "name": "Loke",
           "value": 1372,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Pally Tetss",
-          "value": 1348,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6832,7 +6831,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 10:00 (Brasília)",
+    "updated_at": "30/06/2026 às 10:01 (Brasília)",
     "kills_total": 976,
     "deaths_total": 1023,
     "kills_today": 20,
@@ -26863,7 +26862,7 @@
         "Nagato Sorcerer": 23,
         "Nao Curo": 25,
         "Owsborn": 34,
-        "Pally Tetss": 54,
+        "Pally Tetss": 55,
         "Patrick": 10,
         "Pestinha": 29,
         "Primobolan e Trembo": 12,
@@ -42950,7 +42949,7 @@
           "Nagato Sorcerer": 23,
           "Nao Curo": 25,
           "Owsborn": 34,
-          "Pally Tetss": 54,
+          "Pally Tetss": 55,
           "Patrick": 10,
           "Pestinha": 29,
           "Primobolan e Trembo": 12,
@@ -49206,6 +49205,13 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 08:53 (Brasília)",
           "hour_key": "2026-06-30-08"
+        },
+        {
+          "name": "Pally Tetss",
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 10:01 (Brasília)",
+          "hour_key": "2026-06-30-10"
         }
       ]
     },
@@ -64427,58 +64433,58 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Feijao Baiakeironato",
+        "Ragekemi",
+        "Boltadao",
         "Wake Wake",
         "JhonzinMilgrau",
-        "Lula",
-        "Deruz",
-        "Ragekemi",
-        "Giga",
-        "Boltadao",
         "Cuffy Dido",
-        "Total Security",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Lee Br",
-        "Incrivel Monk",
-        "Ehotk",
-        "Pittao teensina",
         "Nao Eh Poring",
+        "Donte",
+        "Calveludo",
+        "Arroz Cadela",
         "Old Jovizera",
-        "We Edz",
+        "Pittao teensina",
+        "Feijao Baiakeironato",
+        "Lula",
+        "Lee Br",
+        "Deruz",
+        "Ehotk",
+        "Giga",
+        "Incrivel Monk",
+        "Dont Bica",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
         "Papumzada",
-        "Arroz Cadela"
+        "We Edz"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Feijao Baiakeironato",
+        "Ragekemi",
+        "Boltadao",
         "Wake Wake",
         "JhonzinMilgrau",
-        "Lula",
-        "Deruz",
-        "Ragekemi",
-        "Giga",
-        "Boltadao",
         "Cuffy Dido",
-        "Total Security",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Lee Br",
-        "Incrivel Monk",
-        "Ehotk",
-        "Pittao teensina",
         "Nao Eh Poring",
+        "Donte",
+        "Calveludo",
+        "Arroz Cadela",
         "Old Jovizera",
-        "We Edz",
+        "Pittao teensina",
+        "Feijao Baiakeironato",
+        "Lula",
+        "Lee Br",
+        "Deruz",
+        "Ehotk",
+        "Giga",
+        "Incrivel Monk",
+        "Dont Bica",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
         "Papumzada",
-        "Arroz Cadela"
+        "We Edz"
       ],
       "hunted": {
         "Leogolas": {
@@ -65138,11 +65144,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2800,
-      "resets_today": 15,
-      "resets_week": 108,
+      "total_current": 2801,
+      "resets_today": 16,
+      "resets_week": 109,
       "resets_month": 0,
-      "resets_lifetime": 116,
+      "resets_lifetime": 117,
       "avg_per_player": 28.0
     },
     "enemy_guild": {
