@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 06:36 (Brasília)",
+  "updated_at": "01/07/2026 às 06:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -350,7 +350,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1653,
+      "level": 1655,
       "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1185,8 +1185,8 @@
     },
     {
       "name": "Dreenho Baiakeiro",
-      "level": 1221,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1231,6 +1231,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "29/06/2026 às 22:10 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 06:37 (Brasília)"
         }
       ]
     },
@@ -4590,6 +4595,14 @@
       "online": true
     },
     {
+      "name": "Dreenho Baiakeiro",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 10,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Nagato Sorcerer",
       "resets_total": 25,
       "resets_today": 1,
@@ -4650,14 +4663,6 @@
       "resets_total": 50,
       "resets_today": 0,
       "resets_week": 5,
-      "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Dreenho Baiakeiro",
-      "resets_total": 39,
-      "resets_today": 0,
-      "resets_week": 9,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -5188,14 +5193,14 @@
           "online": true
         },
         {
-          "name": "Lukitas Brokenzada",
+          "name": "Dreenho Baiakeiro",
           "value": 40,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Dreenho Baiakeiro",
-          "value": 39,
+          "name": "Lukitas Brokenzada",
+          "value": 40,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5825,7 +5830,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 1653,
+          "value": 1655,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5921,12 +5926,6 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1221,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Dreenho Baiakeiro",
           "value": 1221,
           "vocation": "Elder Druid",
           "online": true
@@ -6863,7 +6862,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 06:36 (Brasília)",
+    "updated_at": "01/07/2026 às 06:37 (Brasília)",
     "kills_total": 1005,
     "deaths_total": 1051,
     "kills_today": 12,
@@ -27573,7 +27572,7 @@
         "Diegao Barba": 43,
         "Dmonick": 50,
         "Dorfeus": 5,
-        "Dreenho Baiakeiro": 39,
+        "Dreenho Baiakeiro": 40,
         "Drizinha": 0,
         "Ed farm": 46,
         "Elder Lougon": 12,
@@ -44011,7 +44010,7 @@
           "Diegao Barba": 43,
           "Dmonick": 50,
           "Dorfeus": 5,
-          "Dreenho Baiakeiro": 39,
+          "Dreenho Baiakeiro": 40,
           "Drizinha": 0,
           "Ed farm": 46,
           "Elder Lougon": 12,
@@ -50238,6 +50237,13 @@
           "gained": 1,
           "timestamp": "01/07/2026 às 00:48 (Brasília)",
           "hour_key": "2026-07-01-00"
+        },
+        {
+          "name": "Dreenho Baiakeiro",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 06:37 (Brasília)",
+          "hour_key": "2026-07-01-06"
         }
       ]
     },
@@ -64203,58 +64209,58 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Incrivel Monk",
-        "Papumzada",
-        "Wake Wake",
-        "Total Security",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Giga",
-        "Dont Bica",
-        "Lula",
-        "Deruz",
-        "We Edz",
         "Calveludo",
+        "Lula",
         "Cuffy Dido",
-        "Donte",
+        "Incrivel Monk",
+        "Giga",
         "Old Jovizera",
-        "Ragekemi",
+        "Dont Bica",
+        "Cetoprofeno Intramuscular",
         "Boltadao",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Papumzada",
         "Feijao Baiakeironato",
-        "Lee Br"
+        "Deruz",
+        "Nao Eh Poring",
+        "Ragekemi",
+        "Ehotk",
+        "We Edz",
+        "Arroz Cadela",
+        "Lee Br",
+        "Donte",
+        "Total Security",
+        "Pittao teensina"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Incrivel Monk",
-        "Papumzada",
-        "Wake Wake",
-        "Total Security",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Giga",
-        "Dont Bica",
-        "Lula",
-        "Deruz",
-        "We Edz",
         "Calveludo",
+        "Lula",
         "Cuffy Dido",
-        "Donte",
+        "Incrivel Monk",
+        "Giga",
         "Old Jovizera",
-        "Ragekemi",
+        "Dont Bica",
+        "Cetoprofeno Intramuscular",
         "Boltadao",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Papumzada",
         "Feijao Baiakeironato",
-        "Lee Br"
+        "Deruz",
+        "Nao Eh Poring",
+        "Ragekemi",
+        "Ehotk",
+        "We Edz",
+        "Arroz Cadela",
+        "Lee Br",
+        "Donte",
+        "Total Security",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
@@ -64914,9 +64920,9 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2821,
-      "resets_today": 6,
-      "resets_week": 139,
+      "total_current": 2822,
+      "resets_today": 7,
+      "resets_week": 140,
       "resets_month": 0,
       "resets_lifetime": 122,
       "avg_per_player": 28.2
