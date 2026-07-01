@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 00:47 (Brasília)",
+  "updated_at": "01/07/2026 às 00:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -467,8 +467,8 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 976,
-      "resets": 7,
+      "level": 8,
+      "resets": 8,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -488,6 +488,11 @@
           "resets": 7,
           "gained": 1,
           "timestamp": "30/06/2026 às 16:58 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 00:48 (Brasília)"
         }
       ]
     },
@@ -4587,6 +4592,14 @@
   ],
   "resets_today": [
     {
+      "name": "Adolph Healer",
+      "resets_total": 8,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Affey",
       "resets_total": 25,
       "resets_today": 1,
@@ -5519,16 +5532,16 @@
           "online": true
         },
         {
+          "name": "Adolph Healer",
+          "value": 8,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Taka e Cura",
           "value": 8,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 7,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Campin",
@@ -6025,12 +6038,6 @@
         {
           "name": "Mu Baiakeiro",
           "value": 1005,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 976,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6888,7 +6895,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 00:47 (Brasília)",
+    "updated_at": "01/07/2026 às 00:48 (Brasília)",
     "kills_total": 998,
     "deaths_total": 1031,
     "kills_today": 5,
@@ -27183,7 +27190,7 @@
         "Teylera Rp": 56,
         "Vinizerah On Amonot": 31,
         "Achilles": 18,
-        "Adolph Healer": 7,
+        "Adolph Healer": 8,
         "Affey": 25,
         "Alba Baiakeiro": 50,
         "Apreciador De Casadas": 37,
@@ -43513,7 +43520,7 @@
           "Teylera Rp": 56,
           "Vinizerah On Amonot": 31,
           "Achilles": 18,
-          "Adolph Healer": 7,
+          "Adolph Healer": 8,
           "Affey": 25,
           "Alba Baiakeiro": 50,
           "Apreciador De Casadas": 37,
@@ -49753,6 +49760,13 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 23:57 (Brasília)",
           "hour_key": "2026-06-30-23"
+        },
+        {
+          "name": "Adolph Healer",
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 00:48 (Brasília)",
+          "hour_key": "2026-07-01-00"
         }
       ]
     },
@@ -64011,58 +64025,58 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Total Security",
-        "We Edz",
         "Deruz",
         "Incrivel Monk",
-        "Calveludo",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Lula",
+        "We Edz",
+        "Dont Bica",
+        "Boltadao",
         "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Old Jovizera",
+        "Feijao Baiakeironato",
+        "JhonzinMilgrau",
+        "Wake Wake",
         "Giga",
+        "Total Security",
+        "Nao Eh Poring",
         "Lee Br",
+        "Pittao teensina",
+        "Donte",
+        "Calveludo",
+        "Papumzada",
+        "Ragekemi",
         "Arroz Cadela",
-        "Dont Bica"
+        "Lula",
+        "Cuffy Dido"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Total Security",
-        "We Edz",
         "Deruz",
         "Incrivel Monk",
-        "Calveludo",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Lula",
+        "We Edz",
+        "Dont Bica",
+        "Boltadao",
         "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Old Jovizera",
+        "Feijao Baiakeironato",
+        "JhonzinMilgrau",
+        "Wake Wake",
         "Giga",
+        "Total Security",
+        "Nao Eh Poring",
         "Lee Br",
+        "Pittao teensina",
+        "Donte",
+        "Calveludo",
+        "Papumzada",
+        "Ragekemi",
         "Arroz Cadela",
-        "Dont Bica"
+        "Lula",
+        "Cuffy Dido"
       ],
       "hunted": {
         "Leogolas": {
@@ -64722,8 +64736,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2836,
-      "resets_today": 5,
+      "total_current": 2837,
+      "resets_today": 6,
       "resets_week": 141,
       "resets_month": 0,
       "resets_lifetime": 124,
