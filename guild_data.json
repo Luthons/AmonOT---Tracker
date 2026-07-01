@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 22:16 (Brasília)",
+  "updated_at": "30/06/2026 às 22:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 99,
+  "total_members": 100,
   "online_count": 0,
-  "offline_count": 99,
+  "offline_count": 100,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -3573,6 +3573,16 @@
       ]
     },
     {
+      "name": "Red Hahaha",
+      "level": 2000,
+      "resets": 21,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
       "name": "Ritoff Elite",
       "level": 1563,
       "resets": 31,
@@ -5453,6 +5463,12 @@
           "online": false
         },
         {
+          "name": "Red Hahaha",
+          "value": 21,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Vitao The Trader",
           "value": 20,
           "vocation": "Master Sorcerer",
@@ -5750,6 +5766,12 @@
           "name": "Nao Curo",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Red Hahaha",
+          "value": 2000,
+          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -6894,7 +6916,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 22:16 (Brasília)",
+    "updated_at": "30/06/2026 às 22:17 (Brasília)",
     "kills_total": 993,
     "deaths_total": 1031,
     "kills_today": 0,
@@ -27218,6 +27240,7 @@
         "Primobolan e Trembo": 12,
         "Rafa Baguncinha": 29,
         "RBenz": 16,
+        "Red Hahaha": 21,
         "Ritoff Elite": 31,
         "Roginho": 31,
         "Royal Luthons": 46,
@@ -43508,6 +43531,7 @@
           "Primobolan e Trembo": 12,
           "Rafa Baguncinha": 29,
           "RBenz": 16,
+          "Red Hahaha": 21,
           "Ritoff Elite": 31,
           "Roginho": 31,
           "Royal Luthons": 46,
@@ -64501,58 +64525,58 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
         "Ehotk",
-        "Old Jovizera",
-        "Donte",
-        "Lula",
-        "We Edz",
-        "Wake Wake",
-        "Incrivel Monk",
-        "Pittao teensina",
-        "Total Security",
-        "Calveludo",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Giga",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
         "Ragekemi",
+        "Dont Bica",
         "Arroz Cadela",
+        "Giga",
+        "Lula",
+        "Old Jovizera",
         "Papumzada",
-        "Deruz"
+        "Incrivel Monk",
+        "We Edz",
+        "Total Security",
+        "Deruz",
+        "Pittao teensina",
+        "JhonzinMilgrau",
+        "Boltadao",
+        "Donte",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Cuffy Dido",
+        "Lee Br"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
         "Ehotk",
-        "Old Jovizera",
-        "Donte",
-        "Lula",
-        "We Edz",
-        "Wake Wake",
-        "Incrivel Monk",
-        "Pittao teensina",
-        "Total Security",
-        "Calveludo",
-        "Dont Bica",
-        "Feijao Baiakeironato",
-        "Giga",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
         "Ragekemi",
+        "Dont Bica",
         "Arroz Cadela",
+        "Giga",
+        "Lula",
+        "Old Jovizera",
         "Papumzada",
-        "Deruz"
+        "Incrivel Monk",
+        "We Edz",
+        "Total Security",
+        "Deruz",
+        "Pittao teensina",
+        "JhonzinMilgrau",
+        "Boltadao",
+        "Donte",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Cuffy Dido",
+        "Lee Br"
       ],
       "hunted": {
         "Leogolas": {
@@ -65211,8 +65235,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 99,
-      "total_current": 2784,
+      "num_members": 100,
+      "total_current": 2805,
       "resets_today": 0,
       "resets_week": 134,
       "resets_month": 0,
