@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 15:39 (Brasília)",
+  "updated_at": "01/07/2026 às 15:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3264,7 +3264,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1429,
+      "level": 1431,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5949,7 +5949,7 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 1429,
+          "value": 1431,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6635,9 +6635,9 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "value": 55,
-          "kills_today": 1,
-          "kills_week": 19
+          "value": 56,
+          "kills_today": 2,
+          "kills_week": 20
         },
         {
           "name": "Calveludo",
@@ -6939,16 +6939,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 15:39 (Brasília)",
+    "updated_at": "01/07/2026 às 15:40 (Brasília)",
     "kills_total": 1005,
-    "deaths_total": 1053,
+    "deaths_total": 1054,
     "kills_today": 12,
-    "deaths_today": 22,
+    "deaths_today": 23,
     "kills_week": 131,
-    "deaths_week": 99,
+    "deaths_week": 100,
     "kd_total": 0.95,
-    "kd_today": 0.55,
-    "kd_week": 1.32,
+    "kd_today": 0.52,
+    "kd_week": 1.31,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7279,9 +7279,9 @@
       },
       {
         "name": "Cetoprofeno Intramuscular",
-        "kills": 55,
-        "kills_today": 1,
-        "kills_week": 19
+        "kills": 56,
+        "kills_today": 2,
+        "kills_week": 20
       },
       {
         "name": "Calveludo",
@@ -7613,7 +7613,7 @@
       ],
       [
         "Pally Tetss",
-        30
+        31
       ],
       [
         "Lula",
@@ -26994,6 +26994,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 01, 2026 15:40",
+        "player": "Pally Tetss",
+        "level": 1433,
+        "killedBy": "Cetoprofeno Intramuscular",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 01, 2026 15:33",
         "player": "Rp Terror",
         "level": 1941,
@@ -27194,6 +27203,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 01, 2026 15:40",
+      "player": "Pally Tetss",
+      "level": 1433,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 01, 2026 15:33",
       "player": "Rp Terror",
@@ -27621,15 +27639,6 @@
       "time": "Jun 29, 2026 21:26",
       "player": "Lipe Knight",
       "level": 982,
-      "killedBy": "Calveludo",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 29, 2026 21:20",
-      "player": "Brunao Rei Denovo",
-      "level": 2000,
       "killedBy": "Calveludo",
       "maiorDano": "",
       "world": "Baiak",
@@ -64086,58 +64095,58 @@
     },
     "members": {
       "last_member_list": [
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
         "Arroz Cadela",
+        "Lee Br",
         "Cuffy Dido",
         "Dont Bica",
+        "Feijao Baiakeironato",
         "Ehotk",
-        "Deruz",
-        "Calveludo",
-        "Wake Wake",
-        "Boltadao",
-        "Incrivel Monk",
-        "We Edz",
-        "Donte",
-        "JhonzinMilgrau",
-        "Lee Br",
         "Lula",
-        "Old Jovizera",
-        "Pittao teensina",
+        "Donte",
+        "We Edz",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
+        "Boltadao",
         "Ragekemi",
-        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
         "Papumzada",
+        "Nao Eh Poring",
+        "Deruz",
+        "Giga",
         "Total Security",
-        "Cetoprofeno Intramuscular"
+        "Wake Wake",
+        "Old Jovizera",
+        "Calveludo"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Feijao Baiakeironato",
-        "Nao Eh Poring",
         "Arroz Cadela",
+        "Lee Br",
         "Cuffy Dido",
         "Dont Bica",
+        "Feijao Baiakeironato",
         "Ehotk",
-        "Deruz",
-        "Calveludo",
-        "Wake Wake",
-        "Boltadao",
-        "Incrivel Monk",
-        "We Edz",
-        "Donte",
-        "JhonzinMilgrau",
-        "Lee Br",
         "Lula",
-        "Old Jovizera",
-        "Pittao teensina",
+        "Donte",
+        "We Edz",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
+        "Boltadao",
         "Ragekemi",
-        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
         "Papumzada",
+        "Nao Eh Poring",
+        "Deruz",
+        "Giga",
         "Total Security",
-        "Cetoprofeno Intramuscular"
+        "Wake Wake",
+        "Old Jovizera",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
