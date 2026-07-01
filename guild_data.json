@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 23:51 (Brasília)",
+  "updated_at": "30/06/2026 às 23:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -4139,8 +4139,8 @@
     },
     {
       "name": "Voldemort Ed",
-      "level": 1008,
-      "resets": 10,
+      "level": 8,
+      "resets": 11,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -4170,6 +4170,11 @@
           "resets": 10,
           "gained": 1,
           "timestamp": "25/06/2026 às 13:06 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:52 (Brasília)"
         }
       ]
     },
@@ -4494,8 +4499,8 @@
         },
         {
           "name": "Arroz Cadela",
-          "level": 1864,
-          "resets": 32,
+          "level": 8,
+          "resets": 33,
           "vocation": "Elder Druid",
           "nick": "",
           "rank": "Member",
@@ -4681,6 +4686,14 @@
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Voldemort Ed",
+      "resets_total": 11,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4972,14 +4985,6 @@
       "online": true
     },
     {
-      "name": "Voldemort Ed",
-      "resets_total": 10,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
-      "online": true
-    },
-    {
       "name": "Voldemort Ms",
       "resets_total": 4,
       "resets_today": 0,
@@ -5006,6 +5011,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Arroz Cadela",
+      "resets_total": 33,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Lee Br",
       "resets_total": 41,
       "resets_today": 0,
@@ -5020,14 +5033,6 @@
       "resets_week": 1,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Arroz Cadela",
-      "resets_total": 32,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Cetoprofeno Intramuscular",
@@ -5570,6 +5575,12 @@
           "online": false
         },
         {
+          "name": "Voldemort Ed",
+          "value": 11,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Zenith",
           "value": 11,
           "vocation": "Elite Knight",
@@ -5586,12 +5597,6 @@
           "value": 10,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Voldemort Ed",
-          "value": 10,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Mu Baiakeiro",
@@ -6107,12 +6112,6 @@
           "name": "Kev",
           "value": 1011,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Voldemort Ed",
-          "value": 1008,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6963,7 +6962,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 23:51 (Brasília)",
+    "updated_at": "30/06/2026 às 23:52 (Brasília)",
     "kills_total": 995,
     "deaths_total": 1031,
     "kills_today": 2,
@@ -27306,7 +27305,7 @@
         "Ultimate Warrior": 25,
         "Vitao The Monster": 2,
         "Vitao The Trader": 20,
-        "Voldemort Ed": 10,
+        "Voldemort Ed": 11,
         "Voldemort Ms": 4,
         "VukVuk": 50,
         "White": 2,
@@ -43617,7 +43616,7 @@
           "Ultimate Warrior": 25,
           "Vitao The Monster": 2,
           "Vitao The Trader": 20,
-          "Voldemort Ed": 10,
+          "Voldemort Ed": 11,
           "Voldemort Ms": 4,
           "VukVuk": 50,
           "White": 2,
@@ -50004,6 +50003,13 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 23:24 (Brasília)",
           "hour_key": "2026-06-30-23"
+        },
+        {
+          "name": "Voldemort Ed",
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:52 (Brasília)",
+          "hour_key": "2026-06-30-23"
         }
       ]
     },
@@ -50013,7 +50019,7 @@
         "Lee Br": 41,
         "Ragekemi": 29,
         "We Edz": 40,
-        "Arroz Cadela": 32,
+        "Arroz Cadela": 33,
         "Cetoprofeno Intramuscular": 59,
         "Dont Bica": 21,
         "Feijao Baiakeironato": 54,
@@ -58399,7 +58405,7 @@
           "Lee Br": 41,
           "Ragekemi": 29,
           "We Edz": 40,
-          "Arroz Cadela": 32,
+          "Arroz Cadela": 33,
           "Cetoprofeno Intramuscular": 59,
           "Dont Bica": 21,
           "Feijao Baiakeironato": 54,
@@ -64587,63 +64593,70 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 22:32 (Brasília)",
           "hour_key": "2026-06-30-22"
+        },
+        {
+          "name": "Arroz Cadela",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:52 (Brasília)",
+          "hour_key": "2026-06-30-23"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Wake Wake",
-        "Ehotk",
-        "Dont Bica",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Arroz Cadela",
-        "Giga",
-        "Lula",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Papumzada",
         "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Donte",
+        "Old Jovizera",
+        "We Edz",
+        "Giga",
+        "Nao Eh Poring",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Ragekemi",
+        "Pittao teensina",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Lee Br",
+        "Arroz Cadela",
         "Total Security",
         "Deruz",
-        "Donte",
-        "Lee Br",
-        "Incrivel Monk"
+        "Ehotk",
+        "Incrivel Monk",
+        "Dont Bica",
+        "Boltadao",
+        "Lula"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Wake Wake",
-        "Ehotk",
-        "Dont Bica",
-        "We Edz",
-        "Feijao Baiakeironato",
-        "Arroz Cadela",
-        "Giga",
-        "Lula",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Papumzada",
         "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Donte",
+        "Old Jovizera",
+        "We Edz",
+        "Giga",
+        "Nao Eh Poring",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Ragekemi",
+        "Pittao teensina",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Lee Br",
+        "Arroz Cadela",
         "Total Security",
         "Deruz",
-        "Donte",
-        "Lee Br",
-        "Incrivel Monk"
+        "Ehotk",
+        "Incrivel Monk",
+        "Dont Bica",
+        "Boltadao",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
@@ -65303,22 +65316,22 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2834,
-      "resets_today": 3,
-      "resets_week": 139,
+      "total_current": 2835,
+      "resets_today": 4,
+      "resets_week": 140,
       "resets_month": 0,
-      "resets_lifetime": 123,
+      "resets_lifetime": 124,
       "avg_per_player": 28.1
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 23,
-      "total_current": 895,
-      "resets_today": 0,
-      "resets_week": 25,
+      "total_current": 896,
+      "resets_today": 1,
+      "resets_week": 26,
       "resets_month": 0,
-      "resets_lifetime": 29,
-      "avg_per_player": 38.9
+      "resets_lifetime": 30,
+      "avg_per_player": 39.0
     }
   },
   "recent_changes": [],
