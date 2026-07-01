@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/06/2026 às 22:22 (Brasília)",
+  "updated_at": "30/06/2026 às 22:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -2595,8 +2595,8 @@
     },
     {
       "name": "Magabela",
-      "level": 873,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2691,6 +2691,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "30/06/2026 às 20:39 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 22:23 (Brasília)"
         }
       ]
     },
@@ -4812,9 +4817,9 @@
     },
     {
       "name": "Magabela",
-      "resets_total": 49,
+      "resets_total": 50,
       "resets_today": 0,
-      "resets_week": 5,
+      "resets_week": 6,
       "vocation": "Master Sorcerer",
       "online": false
     },
@@ -5179,6 +5184,12 @@
           "online": false
         },
         {
+          "name": "Magabela",
+          "value": 50,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 50,
           "vocation": "Elder Druid",
@@ -5188,12 +5199,6 @@
           "name": "VukVuk",
           "value": 50,
           "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Magabela",
-          "value": 49,
-          "vocation": "Master Sorcerer",
           "online": false
         },
         {
@@ -6163,12 +6168,6 @@
           "online": false
         },
         {
-          "name": "Magabela",
-          "value": 873,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
           "name": "Brunao Cansado",
           "value": 853,
           "vocation": "Royal Paladin",
@@ -6938,7 +6937,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/06/2026 às 22:22 (Brasília)",
+    "updated_at": "30/06/2026 às 22:23 (Brasília)",
     "kills_total": 993,
     "deaths_total": 1031,
     "kills_today": 0,
@@ -27246,7 +27245,7 @@
         "Lotus Lothbrook": 26,
         "Lougon Baiakeiro": 29,
         "Lukitas Brokenzada": 40,
-        "Magabela": 49,
+        "Magabela": 50,
         "Makasco Ms": 2,
         "Melbiss": 41,
         "Monstro Das Criptos": 50,
@@ -43538,7 +43537,7 @@
           "Lotus Lothbrook": 26,
           "Lougon Baiakeiro": 29,
           "Lukitas Brokenzada": 40,
-          "Magabela": 49,
+          "Magabela": 50,
           "Makasco Ms": 2,
           "Melbiss": 41,
           "Monstro Das Criptos": 50,
@@ -49925,6 +49924,13 @@
           "gained": 1,
           "timestamp": "30/06/2026 às 21:43 (Brasília)",
           "hour_key": "2026-06-30-21"
+        },
+        {
+          "name": "Magabela",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 22:23 (Brasília)",
+          "hour_key": "2026-06-30-22"
         }
       ]
     },
@@ -64549,58 +64555,58 @@
     },
     "members": {
       "last_member_list": [
-        "Pittao teensina",
-        "We Edz",
-        "Old Jovizera",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Dont Bica",
         "Papumzada",
-        "Wake Wake",
-        "Lee Br",
-        "Giga",
-        "Ragekemi",
         "Calveludo",
-        "JhonzinMilgrau",
-        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Arroz Cadela",
         "Ehotk",
+        "Lee Br",
+        "Wake Wake",
         "Incrivel Monk",
+        "Old Jovizera",
+        "Feijao Baiakeironato",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Pittao teensina",
+        "Donte",
+        "Giga",
+        "JhonzinMilgrau",
         "Deruz",
         "Total Security",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Feijao Baiakeironato"
+        "We Edz",
+        "Lula"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Pittao teensina",
-        "We Edz",
-        "Old Jovizera",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Dont Bica",
         "Papumzada",
-        "Wake Wake",
-        "Lee Br",
-        "Giga",
-        "Ragekemi",
         "Calveludo",
-        "JhonzinMilgrau",
-        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Arroz Cadela",
         "Ehotk",
+        "Lee Br",
+        "Wake Wake",
         "Incrivel Monk",
+        "Old Jovizera",
+        "Feijao Baiakeironato",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Pittao teensina",
+        "Donte",
+        "Giga",
+        "JhonzinMilgrau",
         "Deruz",
         "Total Security",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Feijao Baiakeironato"
+        "We Edz",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
@@ -65260,11 +65266,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 101,
-      "total_current": 2829,
+      "total_current": 2830,
       "resets_today": 0,
-      "resets_week": 134,
+      "resets_week": 135,
       "resets_month": 0,
-      "resets_lifetime": 118,
+      "resets_lifetime": 119,
       "avg_per_player": 28.0
     },
     "enemy_guild": {
