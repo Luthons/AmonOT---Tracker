@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 19:06 (Brasília)",
+  "updated_at": "01/07/2026 às 19:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2492,8 +2492,8 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 1201,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2528,6 +2528,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "29/06/2026 às 07:21 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 19:07 (Brasília)"
         }
       ]
     },
@@ -4712,6 +4717,14 @@
       "online": true
     },
     {
+      "name": "Lougon Baiakeiro",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Nagato Sorcerer",
       "resets_total": 25,
       "resets_today": 1,
@@ -4862,14 +4875,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Lougon Baiakeiro",
-      "resets_total": 29,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Lukitas Brokenzada",
@@ -5388,14 +5393,14 @@
           "online": true
         },
         {
-          "name": "Pestinha",
+          "name": "Lougon Baiakeiro",
           "value": 30,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Lougon Baiakeiro",
-          "value": 29,
+          "name": "Pestinha",
+          "value": 30,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6021,12 +6026,6 @@
           "name": "Kiel",
           "value": 1215,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lougon Baiakeiro",
-          "value": 1201,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -6961,7 +6960,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 19:06 (Brasília)",
+    "updated_at": "01/07/2026 às 19:07 (Brasília)",
     "kills_total": 1007,
     "deaths_total": 1054,
     "kills_today": 14,
@@ -27699,7 +27698,7 @@
         "Ljxiv": 26,
         "Loke": 53,
         "Lotus Lothbrook": 26,
-        "Lougon Baiakeiro": 29,
+        "Lougon Baiakeiro": 30,
         "Lukitas Brokenzada": 40,
         "Magabela": 50,
         "Makasco Ms": 2,
@@ -44371,7 +44370,7 @@
           "Ljxiv": 26,
           "Loke": 53,
           "Lotus Lothbrook": 26,
-          "Lougon Baiakeiro": 29,
+          "Lougon Baiakeiro": 30,
           "Lukitas Brokenzada": 40,
           "Magabela": 50,
           "Makasco Ms": 2,
@@ -50661,6 +50660,13 @@
           "gained": 1,
           "timestamp": "01/07/2026 às 17:41 (Brasília)",
           "hour_key": "2026-07-01-17"
+        },
+        {
+          "name": "Lougon Baiakeiro",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 19:07 (Brasília)",
+          "hour_key": "2026-07-01-19"
         }
       ]
     },
@@ -63976,58 +63982,58 @@
     },
     "members": {
       "last_member_list": [
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Donte",
-        "Giga",
-        "Ehotk",
-        "Lula",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Deruz",
-        "Lee Br",
         "JhonzinMilgrau",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Total Security",
-        "Wake Wake",
         "Calveludo",
-        "Feijao Baiakeironato"
+        "We Edz",
+        "Wake Wake",
+        "Pittao teensina",
+        "Donte",
+        "Ragekemi",
+        "Giga",
+        "Deruz",
+        "Lula",
+        "Old Jovizera",
+        "Papumzada",
+        "Total Security",
+        "Lee Br",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Ehotk",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Boltadao",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Donte",
-        "Giga",
-        "Ehotk",
-        "Lula",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Boltadao",
-        "Deruz",
-        "Lee Br",
         "JhonzinMilgrau",
-        "Old Jovizera",
-        "Incrivel Monk",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Total Security",
-        "Wake Wake",
         "Calveludo",
-        "Feijao Baiakeironato"
+        "We Edz",
+        "Wake Wake",
+        "Pittao teensina",
+        "Donte",
+        "Ragekemi",
+        "Giga",
+        "Deruz",
+        "Lula",
+        "Old Jovizera",
+        "Papumzada",
+        "Total Security",
+        "Lee Br",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Feijao Baiakeironato",
+        "Ehotk",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Boltadao",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring"
       ],
       "hunted": {
         "Leogolas": {
@@ -64687,12 +64693,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2834,
-      "resets_today": 19,
-      "resets_week": 146,
+      "total_current": 2835,
+      "resets_today": 20,
+      "resets_week": 147,
       "resets_month": 0,
       "resets_lifetime": 116,
-      "avg_per_player": 28.3
+      "avg_per_player": 28.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
