@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 19:12 (Brasília)",
+  "updated_at": "02/07/2026 às 19:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -3537,8 +3537,8 @@
     },
     {
       "name": "Red Hahaha",
-      "level": 1006,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3558,6 +3558,11 @@
           "resets": 24,
           "gained": 1,
           "timestamp": "01/07/2026 às 23:28 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 19:13 (Brasília)"
         }
       ]
     },
@@ -4652,6 +4657,14 @@
       "online": false
     },
     {
+      "name": "Red Hahaha",
+      "resets_total": 25,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Yagoodz Hahaha",
       "resets_total": 69,
       "resets_today": 1,
@@ -4745,14 +4758,6 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Red Hahaha",
-      "resets_total": 24,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -5476,6 +5481,12 @@
           "online": true
         },
         {
+          "name": "Red Hahaha",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
@@ -5484,12 +5495,6 @@
         {
           "name": "Xeipe",
           "value": 25,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Red Hahaha",
-          "value": 24,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6056,12 +6061,6 @@
           "value": 1029,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Red Hahaha",
-          "value": 1006,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Mu Kina",
@@ -6953,7 +6952,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 19:12 (Brasília)",
+    "updated_at": "02/07/2026 às 19:13 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 17,
@@ -27978,7 +27977,7 @@
         "Pestinha": 30,
         "Primobolan e Trembo": 12,
         "Rafa Baguncinha": 29,
-        "Red Hahaha": 24,
+        "Red Hahaha": 25,
         "Ritoff Elite": 31,
         "Roginho": 31,
         "Royal Luthons": 46,
@@ -44923,7 +44922,7 @@
           "Pestinha": 30,
           "Primobolan e Trembo": 12,
           "Rafa Baguncinha": 29,
-          "Red Hahaha": 24,
+          "Red Hahaha": 25,
           "Ritoff Elite": 31,
           "Roginho": 31,
           "Royal Luthons": 46,
@@ -51209,6 +51208,13 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 18:32 (Brasília)",
           "hour_key": "2026-07-02-18"
+        },
+        {
+          "name": "Red Hahaha",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 19:13 (Brasília)",
+          "hour_key": "2026-07-02-19"
         }
       ]
     },
@@ -62869,28 +62875,28 @@
     },
     "members": {
       "last_member_list": [
-        "Deruz",
+        "Incrivel Monk",
+        "Arroz Cadela",
+        "Lula",
+        "Lee Br",
+        "Donte",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Dont Bica",
+        "Ehotk",
+        "Boltadao",
+        "Total Security",
+        "Ragekemi",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "We Edz",
         "Papumzada",
         "Old Jovizera",
-        "Calveludo",
         "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Donte",
-        "Giga",
         "Cuffy Dido",
-        "Pittao teensina",
-        "Boltadao",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "Lee Br",
-        "We Edz",
-        "Lula",
-        "Ehotk",
-        "Total Security",
-        "Dont Bica",
-        "Ragekemi"
+        "Calveludo",
+        "Deruz"
       ],
       "changes_log": [
         {
@@ -62913,28 +62919,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Deruz",
+        "Incrivel Monk",
+        "Arroz Cadela",
+        "Lula",
+        "Lee Br",
+        "Donte",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Dont Bica",
+        "Ehotk",
+        "Boltadao",
+        "Total Security",
+        "Ragekemi",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "We Edz",
         "Papumzada",
         "Old Jovizera",
-        "Calveludo",
         "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Donte",
-        "Giga",
         "Cuffy Dido",
-        "Pittao teensina",
-        "Boltadao",
-        "Incrivel Monk",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "Lee Br",
-        "We Edz",
-        "Lula",
-        "Ehotk",
-        "Total Security",
-        "Dont Bica",
-        "Ragekemi"
+        "Calveludo",
+        "Deruz"
       ],
       "hunted": {
         "Leogolas": {
@@ -63594,8 +63600,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 99,
-      "total_current": 2840,
-      "resets_today": 24,
+      "total_current": 2841,
+      "resets_today": 25,
       "resets_week": 162,
       "resets_month": 0,
       "resets_lifetime": 161,
