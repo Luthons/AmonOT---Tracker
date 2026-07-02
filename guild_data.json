@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 20:12 (Brasília)",
+  "updated_at": "02/07/2026 às 20:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -1946,8 +1946,8 @@
     },
     {
       "name": "Henrique",
-      "level": 2000,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1957,6 +1957,11 @@
           "resets": 51,
           "gained": 1,
           "timestamp": "19/06/2026 às 10:57 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:13 (Brasília)"
         }
       ]
     },
@@ -4742,6 +4747,14 @@
       "online": false
     },
     {
+      "name": "Henrique",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Kolwaski",
       "resets_total": 43,
       "resets_today": 1,
@@ -5181,7 +5194,7 @@
         },
         {
           "name": "Henrique",
-          "value": 51,
+          "value": 52,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5807,12 +5820,6 @@
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Henrique",
-          "value": 2000,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6963,7 +6970,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 20:12 (Brasília)",
+    "updated_at": "02/07/2026 às 20:13 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 17,
@@ -27948,7 +27955,7 @@
         "Gokuu": 50,
         "Guidao Palao": 43,
         "Hao Asakura": 32,
-        "Henrique": 51,
+        "Henrique": 52,
         "Heroes Baiak": 28,
         "Imperador Ek": 18,
         "Its Gui": 35,
@@ -44902,7 +44909,7 @@
           "Gokuu": 50,
           "Guidao Palao": 43,
           "Hao Asakura": 32,
-          "Henrique": 51,
+          "Henrique": 52,
           "Heroes Baiak": 28,
           "Imperador Ek": 18,
           "Its Gui": 35,
@@ -51232,6 +51239,13 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "02/07/2026 às 20:01 (Brasília)",
+          "hour_key": "2026-07-02-20"
+        },
+        {
+          "name": "Henrique",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:13 (Brasília)",
           "hour_key": "2026-07-02-20"
         }
       ]
@@ -62841,28 +62855,28 @@
     },
     "members": {
       "last_member_list": [
-        "Cuffy Dido",
-        "Deruz",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Ragekemi",
         "Papumzada",
-        "Giga",
-        "Old Jovizera",
-        "Calveludo",
-        "Ehotk",
-        "Lula",
-        "Wake Wake",
+        "Lee Br",
+        "Deruz",
         "We Edz",
-        "Total Security",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Nao Eh Poring",
+        "Ehotk",
+        "Wake Wake",
         "Dont Bica",
-        "Incrivel Monk"
+        "Giga",
+        "Pittao teensina",
+        "Incrivel Monk",
+        "Total Security",
+        "Calveludo",
+        "Donte",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Boltadao",
+        "Cetoprofeno Intramuscular",
+        "Lula",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Arroz Cadela",
+        "Cuffy Dido"
       ],
       "changes_log": [
         {
@@ -62885,28 +62899,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Cuffy Dido",
-        "Deruz",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Ragekemi",
         "Papumzada",
-        "Giga",
-        "Old Jovizera",
-        "Calveludo",
-        "Ehotk",
-        "Lula",
-        "Wake Wake",
+        "Lee Br",
+        "Deruz",
         "We Edz",
-        "Total Security",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Nao Eh Poring",
+        "Ehotk",
+        "Wake Wake",
         "Dont Bica",
-        "Incrivel Monk"
+        "Giga",
+        "Pittao teensina",
+        "Incrivel Monk",
+        "Total Security",
+        "Calveludo",
+        "Donte",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Boltadao",
+        "Cetoprofeno Intramuscular",
+        "Lula",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Arroz Cadela",
+        "Cuffy Dido"
       ],
       "hunted": {
         "Leogolas": {
@@ -63566,11 +63580,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 99,
-      "total_current": 2842,
-      "resets_today": 26,
-      "resets_week": 163,
+      "total_current": 2843,
+      "resets_today": 27,
+      "resets_week": 164,
       "resets_month": 0,
-      "resets_lifetime": 161,
+      "resets_lifetime": 162,
       "avg_per_player": 28.7
     },
     "enemy_guild": {
