@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 12:57 (Brasília)",
+  "updated_at": "02/07/2026 às 12:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4448,8 +4448,8 @@
     {
       "name": "Old Legacy",
       "total_members": 23,
-      "online_count": 15,
-      "offline_count": 8,
+      "online_count": 14,
+      "offline_count": 9,
       "members": [
         {
           "name": "Ehotk",
@@ -4597,12 +4597,12 @@
         },
         {
           "name": "Incrivel Monk",
-          "level": 2000,
+          "level": 1997,
           "resets": 42,
           "vocation": "Exalted Monk",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "JhonzinMilgrau",
@@ -4642,8 +4642,8 @@
         },
         {
           "name": "Total Security",
-          "level": 1170,
-          "resets": 12,
+          "level": 8,
+          "resets": 13,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -5065,6 +5065,14 @@
       "online": true
     },
     {
+      "name": "Total Security",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Lee Br",
       "resets_total": 41,
       "resets_today": 0,
@@ -5141,14 +5149,6 @@
       "resets_total": 44,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Total Security",
-      "resets_total": 12,
-      "resets_today": 0,
-      "resets_week": 2,
       "vocation": "Master Sorcerer",
       "online": true
     }
@@ -6404,9 +6404,9 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 35,
-          "kills_today": 1,
-          "kills_week": 2
+          "value": 36,
+          "kills_today": 2,
+          "kills_week": 3
         },
         {
           "name": "Maguinn Returns",
@@ -7002,16 +7002,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 12:57 (Brasília)",
-    "kills_total": 1024,
+    "updated_at": "02/07/2026 às 12:58 (Brasília)",
+    "kills_total": 1025,
     "deaths_total": 1063,
-    "kills_today": 13,
+    "kills_today": 14,
     "deaths_today": 9,
-    "kills_week": 120,
+    "kills_week": 121,
     "deaths_week": 94,
     "kd_total": 0.96,
-    "kd_today": 1.44,
-    "kd_week": 1.28,
+    "kd_today": 1.56,
+    "kd_week": 1.29,
     "streak_days": 2,
     "top_my_killers": [
       {
@@ -7052,9 +7052,9 @@
       },
       {
         "name": "Teylera Rp",
-        "kills": 35,
-        "kills_today": 1,
-        "kills_week": 2
+        "kills": 36,
+        "kills_today": 2,
+        "kills_week": 3
       },
       {
         "name": "Maguinn Returns",
@@ -7722,7 +7722,7 @@
       ],
       [
         "Incrivel Monk",
-        26
+        27
       ]
     ],
     "war_log": [
@@ -17681,6 +17681,15 @@
         "player": "Kawik",
         "level": 1102,
         "killedBy": "Parkert",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 02, 2026 12:58",
+        "player": "Incrivel Monk",
+        "level": 2000,
+        "killedBy": "Teylera Rp",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -51100,7 +51109,7 @@
         "Lula": 52,
         "Old Jovizera": 39,
         "Pittao teensina": 44,
-        "Total Security": 12,
+        "Total Security": 13,
         "Wake Wake": 31
       },
       "snapshots": {
@@ -57622,7 +57631,7 @@
           "Lula": 52,
           "Old Jovizera": 39,
           "Pittao teensina": 44,
-          "Total Security": 12,
+          "Total Security": 13,
           "Wake Wake": 31
         }
       },
@@ -63079,34 +63088,41 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 02:56 (Brasília)",
           "hour_key": "2026-07-02-02"
+        },
+        {
+          "name": "Total Security",
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 12:58 (Brasília)",
+          "hour_key": "2026-07-02-12"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Incrivel Monk",
-        "Donte",
-        "Old Jovizera",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lee Br",
-        "We Edz",
-        "Nao Eh Poring",
-        "Boltadao",
+        "Lula",
+        "JhonzinMilgrau",
         "Cetoprofeno Intramuscular",
         "Giga",
-        "Cuffy Dido",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Lula",
-        "Deruz",
+        "Incrivel Monk",
+        "Old Jovizera",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Donte",
+        "Arroz Cadela",
         "Wake Wake",
+        "Deruz",
         "Papumzada",
+        "Calveludo",
         "Ehotk",
         "Total Security",
+        "Pittao teensina",
         "Feijao Baiakeironato",
-        "Ragekemi"
+        "Dont Bica",
+        "We Edz",
+        "Lee Br",
+        "Ragekemi",
+        "Cuffy Dido"
       ],
       "changes_log": [
         {
@@ -63124,29 +63140,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Incrivel Monk",
-        "Donte",
-        "Old Jovizera",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lee Br",
-        "We Edz",
-        "Nao Eh Poring",
-        "Boltadao",
+        "Lula",
+        "JhonzinMilgrau",
         "Cetoprofeno Intramuscular",
         "Giga",
-        "Cuffy Dido",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Lula",
-        "Deruz",
+        "Incrivel Monk",
+        "Old Jovizera",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Donte",
+        "Arroz Cadela",
         "Wake Wake",
+        "Deruz",
         "Papumzada",
+        "Calveludo",
         "Ehotk",
         "Total Security",
+        "Pittao teensina",
         "Feijao Baiakeironato",
-        "Ragekemi"
+        "Dont Bica",
+        "We Edz",
+        "Lee Br",
+        "Ragekemi",
+        "Cuffy Dido"
       ],
       "hunted": {
         "Leogolas": {
@@ -63816,12 +63832,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 23,
-      "total_current": 900,
-      "resets_today": 2,
-      "resets_week": 25,
+      "total_current": 901,
+      "resets_today": 3,
+      "resets_week": 26,
       "resets_month": 0,
-      "resets_lifetime": 28,
-      "avg_per_player": 39.1
+      "resets_lifetime": 29,
+      "avg_per_player": 39.2
     }
   },
   "recent_changes": [],
