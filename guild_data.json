@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 09:49 (Brasília)",
+  "updated_at": "02/07/2026 às 09:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4444,7 +4444,7 @@
         },
         {
           "name": "We Edz",
-          "level": 1808,
+          "level": 1811,
           "resets": 40,
           "vocation": "Elder Druid",
           "nick": "",
@@ -6365,6 +6365,12 @@
           "kills_week": 31
         },
         {
+          "name": "Teylera Rp",
+          "value": 35,
+          "kills_today": 1,
+          "kills_week": 2
+        },
+        {
           "name": "Maguinn Returns",
           "value": 35,
           "kills_today": 0,
@@ -6375,12 +6381,6 @@
           "value": 34,
           "kills_today": 0,
           "kills_week": 4
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 34,
-          "kills_today": 0,
-          "kills_week": 1
         },
         {
           "name": "Brunaobringer",
@@ -6964,16 +6964,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 09:49 (Brasília)",
-    "kills_total": 1023,
+    "updated_at": "02/07/2026 às 09:50 (Brasília)",
+    "kills_total": 1024,
     "deaths_total": 1063,
-    "kills_today": 12,
+    "kills_today": 13,
     "deaths_today": 9,
-    "kills_week": 119,
+    "kills_week": 120,
     "deaths_week": 94,
     "kd_total": 0.96,
-    "kd_today": 1.33,
-    "kd_week": 1.27,
+    "kd_today": 1.44,
+    "kd_week": 1.28,
     "streak_days": 2,
     "top_my_killers": [
       {
@@ -7013,6 +7013,12 @@
         "kills_week": 31
       },
       {
+        "name": "Teylera Rp",
+        "kills": 35,
+        "kills_today": 1,
+        "kills_week": 2
+      },
+      {
         "name": "Maguinn Returns",
         "kills": 35,
         "kills_today": 0,
@@ -7023,12 +7029,6 @@
         "kills": 34,
         "kills_today": 0,
         "kills_week": 4
-      },
-      {
-        "name": "Teylera Rp",
-        "kills": 34,
-        "kills_today": 0,
-        "kills_week": 1
       },
       {
         "name": "Brunaobringer",
@@ -17643,6 +17643,15 @@
         "player": "Kawik",
         "level": 1102,
         "killedBy": "Parkert",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 02, 2026 09:50",
+        "player": "We Edz",
+        "level": 1813,
+        "killedBy": "Teylera Rp",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -63108,58 +63117,58 @@
     },
     "members": {
       "last_member_list": [
-        "Boltadao",
-        "Nao Eh Poring",
+        "Dont Bica",
         "Giga",
-        "Old Jovizera",
         "Lee Br",
         "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Total Security",
-        "Papumzada",
-        "Dont Bica",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "Calveludo",
-        "We Edz",
-        "Pittao teensina",
-        "Ragekemi",
         "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Lula",
-        "Wake Wake",
+        "Deruz",
+        "Incrivel Monk",
+        "Old Jovizera",
+        "Ragekemi",
         "Ehotk",
+        "Arroz Cadela",
+        "Total Security",
+        "Cuffy Dido",
+        "Boltadao",
+        "Lula",
+        "We Edz",
         "Donte",
-        "Deruz"
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Wake Wake",
+        "Calveludo",
+        "Papumzada",
+        "Feijao Baiakeironato"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Boltadao",
-        "Nao Eh Poring",
+        "Dont Bica",
         "Giga",
-        "Old Jovizera",
         "Lee Br",
         "JhonzinMilgrau",
-        "Feijao Baiakeironato",
-        "Total Security",
-        "Papumzada",
-        "Dont Bica",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "Calveludo",
-        "We Edz",
-        "Pittao teensina",
-        "Ragekemi",
         "Cetoprofeno Intramuscular",
-        "Cuffy Dido",
-        "Lula",
-        "Wake Wake",
+        "Deruz",
+        "Incrivel Monk",
+        "Old Jovizera",
+        "Ragekemi",
         "Ehotk",
+        "Arroz Cadela",
+        "Total Security",
+        "Cuffy Dido",
+        "Boltadao",
+        "Lula",
+        "We Edz",
         "Donte",
-        "Deruz"
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Wake Wake",
+        "Calveludo",
+        "Papumzada",
+        "Feijao Baiakeironato"
       ],
       "hunted": {
         "Leogolas": {
