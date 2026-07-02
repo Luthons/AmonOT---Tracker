@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 12:54 (Brasília)",
+  "updated_at": "02/07/2026 às 12:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2442,8 +2442,8 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 860,
-      "resets": 27,
+      "level": 8,
+      "resets": 28,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2498,6 +2498,11 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "02/07/2026 às 10:27 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 12:55 (Brasília)"
         }
       ]
     },
@@ -4674,6 +4679,14 @@
       "online": true
     },
     {
+      "name": "Lotus Lothbrook",
+      "resets_total": 28,
+      "resets_today": 2,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Yagoodz Hahaha",
       "resets_total": 69,
       "resets_today": 1,
@@ -4724,14 +4737,6 @@
     {
       "name": "Kev",
       "resets_total": 22,
-      "resets_today": 1,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lotus Lothbrook",
-      "resets_total": 27,
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Royal Paladin",
@@ -5460,13 +5465,13 @@
           "online": false
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 27,
+          "name": "Lotus Lothbrook",
+          "value": 28,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Lotus Lothbrook",
+          "name": "Lilian Faithkeeper",
           "value": 27,
           "vocation": "Royal Paladin",
           "online": true
@@ -6184,12 +6189,6 @@
           "value": 866,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 860,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Pestinha",
@@ -7003,7 +7002,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 12:54 (Brasília)",
+    "updated_at": "02/07/2026 às 12:55 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -27947,7 +27946,7 @@
         "Lipe Knight": 44,
         "Ljxiv": 26,
         "Loke": 53,
-        "Lotus Lothbrook": 27,
+        "Lotus Lothbrook": 28,
         "Lougon Baiakeiro": 30,
         "Lukitas Brokenzada": 40,
         "Magabela": 50,
@@ -44819,7 +44818,7 @@
           "Lipe Knight": 44,
           "Ljxiv": 26,
           "Loke": 53,
-          "Lotus Lothbrook": 27,
+          "Lotus Lothbrook": 28,
           "Lougon Baiakeiro": 30,
           "Lukitas Brokenzada": 40,
           "Magabela": 50,
@@ -51068,6 +51067,13 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 11:19 (Brasília)",
           "hour_key": "2026-07-02-11"
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 12:55 (Brasília)",
+          "hour_key": "2026-07-02-12"
         }
       ]
     },
@@ -63078,29 +63084,29 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Dont Bica",
-        "Donte",
-        "Ragekemi",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Pittao teensina",
-        "We Edz",
-        "Total Security",
-        "Deruz",
-        "Lee Br",
-        "Giga",
         "Lula",
-        "Boltadao",
-        "Papumzada",
-        "Cuffy Dido",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "JhonzinMilgrau",
         "Wake Wake",
+        "Lee Br",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Pittao teensina",
         "Ehotk",
-        "Feijao Baiakeironato"
+        "Cuffy Dido",
+        "Ragekemi",
+        "Boltadao",
+        "Donte",
+        "Papumzada",
+        "Giga",
+        "Old Jovizera",
+        "Total Security",
+        "We Edz",
+        "Deruz",
+        "Incrivel Monk",
+        "Arroz Cadela"
       ],
       "changes_log": [
         {
@@ -63118,29 +63124,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Dont Bica",
-        "Donte",
-        "Ragekemi",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Pittao teensina",
-        "We Edz",
-        "Total Security",
-        "Deruz",
-        "Lee Br",
-        "Giga",
         "Lula",
-        "Boltadao",
-        "Papumzada",
-        "Cuffy Dido",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Cetoprofeno Intramuscular",
+        "JhonzinMilgrau",
         "Wake Wake",
+        "Lee Br",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Pittao teensina",
         "Ehotk",
-        "Feijao Baiakeironato"
+        "Cuffy Dido",
+        "Ragekemi",
+        "Boltadao",
+        "Donte",
+        "Papumzada",
+        "Giga",
+        "Old Jovizera",
+        "Total Security",
+        "We Edz",
+        "Deruz",
+        "Incrivel Monk",
+        "Arroz Cadela"
       ],
       "hunted": {
         "Leogolas": {
@@ -63800,11 +63806,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2857,
-      "resets_today": 16,
-      "resets_week": 154,
+      "total_current": 2858,
+      "resets_today": 17,
+      "resets_week": 155,
       "resets_month": 0,
-      "resets_lifetime": 157,
+      "resets_lifetime": 158,
       "avg_per_player": 28.6
     },
     "enemy_guild": {
