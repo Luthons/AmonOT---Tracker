@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 12:27 (Brasília)",
+  "updated_at": "02/07/2026 às 12:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3477,7 +3477,7 @@
     },
     {
       "name": "Pestinha",
-      "level": 835,
+      "level": 860,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4443,8 +4443,8 @@
     {
       "name": "Old Legacy",
       "total_members": 23,
-      "online_count": 15,
-      "offline_count": 8,
+      "online_count": 14,
+      "offline_count": 9,
       "members": [
         {
           "name": "Ehotk",
@@ -4552,7 +4552,7 @@
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Cuffy Dido",
@@ -5049,7 +5049,7 @@
       "resets_today": 1,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Deruz",
@@ -6192,6 +6192,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 860,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Brunao Cansado",
           "value": 853,
           "vocation": "Royal Paladin",
@@ -6214,12 +6220,6 @@
           "value": 836,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Pestinha",
-          "value": 835,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Elio Nervous",
@@ -6997,7 +6997,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 12:27 (Brasília)",
+    "updated_at": "02/07/2026 às 12:28 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -63072,29 +63072,29 @@
     },
     "members": {
       "last_member_list": [
-        "Pittao teensina",
-        "Wake Wake",
-        "Lee Br",
-        "Lula",
-        "Deruz",
-        "Dont Bica",
-        "Cetoprofeno Intramuscular",
-        "Feijao Baiakeironato",
         "Giga",
-        "We Edz",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
+        "Wake Wake",
         "Calveludo",
         "Cuffy Dido",
-        "Nao Eh Poring",
-        "Total Security",
-        "Ehotk",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
         "Boltadao",
         "Donte",
-        "Incrivel Monk",
+        "Old Jovizera",
+        "We Edz",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Lula",
+        "Arroz Cadela",
         "Ragekemi",
         "Papumzada",
-        "Old Jovizera"
+        "Pittao teensina",
+        "Ehotk",
+        "Total Security",
+        "Cetoprofeno Intramuscular"
       ],
       "changes_log": [
         {
@@ -63112,29 +63112,29 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Pittao teensina",
-        "Wake Wake",
-        "Lee Br",
-        "Lula",
-        "Deruz",
-        "Dont Bica",
-        "Cetoprofeno Intramuscular",
-        "Feijao Baiakeironato",
         "Giga",
-        "We Edz",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
+        "Wake Wake",
         "Calveludo",
         "Cuffy Dido",
-        "Nao Eh Poring",
-        "Total Security",
-        "Ehotk",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
         "Boltadao",
         "Donte",
-        "Incrivel Monk",
+        "Old Jovizera",
+        "We Edz",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Lula",
+        "Arroz Cadela",
         "Ragekemi",
         "Papumzada",
-        "Old Jovizera"
+        "Pittao teensina",
+        "Ehotk",
+        "Total Security",
+        "Cetoprofeno Intramuscular"
       ],
       "hunted": {
         "Leogolas": {
