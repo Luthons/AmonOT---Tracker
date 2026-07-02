@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 21:47 (Brasília)",
+  "updated_at": "01/07/2026 às 21:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2298,8 +2298,8 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1479,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2354,6 +2354,11 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "30/06/2026 às 01:04 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 21:48 (Brasília)"
         }
       ]
     },
@@ -4735,6 +4740,14 @@
       "online": true
     },
     {
+      "name": "Lipe Knight",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Lougon Baiakeiro",
       "resets_total": 30,
       "resets_today": 1,
@@ -4860,14 +4873,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 43,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -5277,15 +5282,15 @@
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 43,
-          "vocation": "Royal Paladin",
+          "name": "Lipe Knight",
+          "value": 44,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Lipe Knight",
+          "name": "Guidao Palao",
           "value": 43,
-          "vocation": "Elite Knight",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5970,12 +5975,6 @@
           "name": "Xeipe",
           "value": 1486,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 1479,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6970,7 +6969,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 21:47 (Brasília)",
+    "updated_at": "01/07/2026 às 21:48 (Brasília)",
     "kills_total": 1009,
     "deaths_total": 1054,
     "kills_today": 16,
@@ -27677,7 +27676,7 @@
         "King Suino": 4,
         "Kolwaski": 42,
         "Lilian Faithkeeper": 27,
-        "Lipe Knight": 43,
+        "Lipe Knight": 44,
         "Ljxiv": 26,
         "Loke": 53,
         "Lotus Lothbrook": 26,
@@ -44380,7 +44379,7 @@
           "King Suino": 4,
           "Kolwaski": 42,
           "Lilian Faithkeeper": 27,
-          "Lipe Knight": 43,
+          "Lipe Knight": 44,
           "Ljxiv": 26,
           "Loke": 53,
           "Lotus Lothbrook": 26,
@@ -50694,6 +50693,13 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "01/07/2026 às 21:47 (Brasília)",
+          "hour_key": "2026-07-01-21"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 21:48 (Brasília)",
           "hour_key": "2026-07-01-21"
         }
       ]
@@ -63917,58 +63923,58 @@
     },
     "members": {
       "last_member_list": [
-        "We Edz",
         "Deruz",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Calveludo",
-        "Giga",
-        "Lee Br",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Ragekemi",
         "Feijao Baiakeironato",
+        "Nao Eh Poring",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Pittao teensina",
+        "Lee Br",
+        "Total Security",
+        "Dont Bica",
+        "Lula",
+        "Incrivel Monk",
+        "We Edz",
+        "Cuffy Dido",
+        "Boltadao",
         "Donte",
+        "Calveludo",
         "Ehotk",
         "Cetoprofeno Intramuscular",
-        "Lula",
-        "Boltadao",
-        "Arroz Cadela",
         "Papumzada",
-        "Pittao teensina",
-        "Wake Wake",
+        "Giga",
+        "JhonzinMilgrau",
         "Old Jovizera",
-        "Total Security"
+        "Ragekemi"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "We Edz",
         "Deruz",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Calveludo",
-        "Giga",
-        "Lee Br",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Ragekemi",
         "Feijao Baiakeironato",
+        "Nao Eh Poring",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Pittao teensina",
+        "Lee Br",
+        "Total Security",
+        "Dont Bica",
+        "Lula",
+        "Incrivel Monk",
+        "We Edz",
+        "Cuffy Dido",
+        "Boltadao",
         "Donte",
+        "Calveludo",
         "Ehotk",
         "Cetoprofeno Intramuscular",
-        "Lula",
-        "Boltadao",
-        "Arroz Cadela",
         "Papumzada",
-        "Pittao teensina",
-        "Wake Wake",
+        "Giga",
+        "JhonzinMilgrau",
         "Old Jovizera",
-        "Total Security"
+        "Ragekemi"
       ],
       "hunted": {
         "Leogolas": {
@@ -64628,11 +64634,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2837,
-      "resets_today": 22,
-      "resets_week": 149,
+      "total_current": 2838,
+      "resets_today": 23,
+      "resets_week": 150,
       "resets_month": 0,
-      "resets_lifetime": 149,
+      "resets_lifetime": 150,
       "avg_per_player": 28.4
     },
     "enemy_guild": {
