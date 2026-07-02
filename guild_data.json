@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 10:58 (Brasília)",
+  "updated_at": "02/07/2026 às 10:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -1834,8 +1834,8 @@
     },
     {
       "name": "Hao Asakura",
-      "level": 1087,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1910,6 +1910,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "01/07/2026 às 11:38 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 10:59 (Brasília)"
         }
       ]
     },
@@ -4690,6 +4695,14 @@
       "online": true
     },
     {
+      "name": "Hao Asakura",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 22,
       "resets_today": 1,
@@ -4799,14 +4812,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Hao Asakura",
-      "resets_total": 31,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5358,6 +5363,12 @@
           "online": true
         },
         {
+          "name": "Hao Asakura",
+          "value": 32,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 32,
           "vocation": "Master Sorcerer",
@@ -5368,12 +5379,6 @@
           "value": 31,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Hao Asakura",
-          "value": 31,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Ritoff Elite",
@@ -6062,12 +6067,6 @@
         {
           "name": "Lougon Baiakeiro",
           "value": 1109,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Hao Asakura",
-          "value": 1087,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6973,7 +6972,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 10:58 (Brasília)",
+    "updated_at": "02/07/2026 às 10:59 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -27903,7 +27902,7 @@
         "Geladeira Quinz Porta": 6,
         "Gokuu": 50,
         "Guidao Palao": 43,
-        "Hao Asakura": 31,
+        "Hao Asakura": 32,
         "Henrique": 51,
         "Heroes Baiak": 28,
         "Imperador Ek": 18,
@@ -44753,7 +44752,7 @@
           "Geladeira Quinz Porta": 6,
           "Gokuu": 50,
           "Guidao Palao": 43,
-          "Hao Asakura": 31,
+          "Hao Asakura": 32,
           "Henrique": 51,
           "Heroes Baiak": 28,
           "Imperador Ek": 18,
@@ -50994,6 +50993,13 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "02/07/2026 às 10:27 (Brasília)",
+          "hour_key": "2026-07-02-10"
+        },
+        {
+          "name": "Hao Asakura",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 10:59 (Brasília)",
           "hour_key": "2026-07-02-10"
         }
       ]
@@ -63107,58 +63113,58 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Boltadao",
-        "Cuffy Dido",
-        "Nao Eh Poring",
+        "Deruz",
         "Wake Wake",
-        "Total Security",
+        "Incrivel Monk",
+        "Lula",
+        "We Edz",
+        "Feijao Baiakeironato",
         "Papumzada",
         "Arroz Cadela",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
-        "We Edz",
-        "Pittao teensina",
-        "Lula",
-        "Lee Br",
         "Ragekemi",
-        "Dont Bica",
-        "Old Jovizera",
-        "Deruz",
-        "Ehotk",
+        "Giga",
+        "JhonzinMilgrau",
         "Calveludo",
-        "JhonzinMilgrau"
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Cuffy Dido",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Donte",
+        "Boltadao",
+        "Lee Br"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Boltadao",
-        "Cuffy Dido",
-        "Nao Eh Poring",
+        "Deruz",
         "Wake Wake",
-        "Total Security",
+        "Incrivel Monk",
+        "Lula",
+        "We Edz",
+        "Feijao Baiakeironato",
         "Papumzada",
         "Arroz Cadela",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
-        "We Edz",
-        "Pittao teensina",
-        "Lula",
-        "Lee Br",
         "Ragekemi",
-        "Dont Bica",
-        "Old Jovizera",
-        "Deruz",
-        "Ehotk",
+        "Giga",
+        "JhonzinMilgrau",
         "Calveludo",
-        "JhonzinMilgrau"
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Cuffy Dido",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Donte",
+        "Boltadao",
+        "Lee Br"
       ],
       "hunted": {
         "Leogolas": {
@@ -63818,12 +63824,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2854,
-      "resets_today": 13,
-      "resets_week": 152,
+      "total_current": 2855,
+      "resets_today": 14,
+      "resets_week": 153,
       "resets_month": 0,
-      "resets_lifetime": 159,
-      "avg_per_player": 28.5
+      "resets_lifetime": 160,
+      "avg_per_player": 28.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
