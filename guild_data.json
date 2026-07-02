@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 18:21 (Brasília)",
+  "updated_at": "02/07/2026 às 18:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4379,8 +4379,8 @@
     },
     {
       "name": "Zap Seco",
-      "level": 980,
-      "resets": 17,
+      "level": 8,
+      "resets": 18,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -4455,6 +4455,11 @@
           "resets": 17,
           "gained": 1,
           "timestamp": "01/07/2026 às 22:52 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:22 (Brasília)"
         }
       ]
     },
@@ -4831,6 +4836,14 @@
       "online": true
     },
     {
+      "name": "Zap Seco",
+      "resets_total": 18,
+      "resets_today": 1,
+      "resets_week": 8,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 58,
       "resets_today": 0,
@@ -5051,14 +5064,6 @@
       "resets_total": 4,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Zap Seco",
-      "resets_total": 17,
-      "resets_today": 0,
-      "resets_week": 7,
       "vocation": "Master Sorcerer",
       "online": true
     }
@@ -5588,7 +5593,7 @@
         },
         {
           "name": "Zap Seco",
-          "value": 17,
+          "value": 18,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6124,12 +6129,6 @@
           "name": "Mu Kina",
           "value": 998,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Zap Seco",
-          "value": 980,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -7010,7 +7009,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 18:21 (Brasília)",
+    "updated_at": "02/07/2026 às 18:22 (Brasília)",
     "kills_total": 1027,
     "deaths_total": 1065,
     "kills_today": 16,
@@ -28051,7 +28050,7 @@
         "White": 2,
         "Xeipe": 25,
         "Ynhaca Purah": 53,
-        "Zap Seco": 17,
+        "Zap Seco": 18,
         "Zenith": 11
       },
       "snapshots": {
@@ -44987,7 +44986,7 @@
           "White": 2,
           "Xeipe": 25,
           "Ynhaca Purah": 53,
-          "Zap Seco": 17,
+          "Zap Seco": 18,
           "Zenith": 11
         }
       },
@@ -51234,6 +51233,13 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "02/07/2026 às 18:19 (Brasília)",
+          "hour_key": "2026-07-02-18"
+        },
+        {
+          "name": "Zap Seco",
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:22 (Brasília)",
           "hour_key": "2026-07-02-18"
         }
       ]
@@ -62940,28 +62946,28 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Deruz",
-        "Incrivel Monk",
-        "Papumzada",
-        "Lula",
-        "Donte",
-        "Lee Br",
         "Ragekemi",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Boltadao",
         "Giga",
-        "Pittao teensina",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Arroz Cadela",
         "Calveludo",
-        "Old Jovizera",
+        "Deruz",
+        "Nao Eh Poring",
         "Cetoprofeno Intramuscular",
-        "Ehotk",
+        "We Edz",
+        "Wake Wake",
+        "Pittao teensina",
         "Dont Bica",
+        "Ehotk",
+        "Donte",
+        "Cuffy Dido",
+        "Lula",
         "Total Security",
-        "We Edz"
+        "Papumzada",
+        "Incrivel Monk",
+        "Boltadao",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -62984,28 +62990,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Deruz",
-        "Incrivel Monk",
-        "Papumzada",
-        "Lula",
-        "Donte",
-        "Lee Br",
         "Ragekemi",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Boltadao",
         "Giga",
-        "Pittao teensina",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Arroz Cadela",
         "Calveludo",
-        "Old Jovizera",
+        "Deruz",
+        "Nao Eh Poring",
         "Cetoprofeno Intramuscular",
-        "Ehotk",
+        "We Edz",
+        "Wake Wake",
+        "Pittao teensina",
         "Dont Bica",
+        "Ehotk",
+        "Donte",
+        "Cuffy Dido",
+        "Lula",
         "Total Security",
-        "We Edz"
+        "Papumzada",
+        "Incrivel Monk",
+        "Boltadao",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -63665,11 +63671,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2863,
-      "resets_today": 22,
-      "resets_week": 160,
+      "total_current": 2864,
+      "resets_today": 23,
+      "resets_week": 161,
       "resets_month": 0,
-      "resets_lifetime": 159,
+      "resets_lifetime": 160,
       "avg_per_player": 28.6
     },
     "enemy_guild": {
