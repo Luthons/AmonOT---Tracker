@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 23:57 (Brasília)",
+  "updated_at": "01/07/2026 às 23:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
-  "online_count": 55,
-  "offline_count": 45,
+  "online_count": 54,
+  "offline_count": 46,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -799,12 +799,12 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 2000,
+      "level": 1998,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -4472,8 +4472,8 @@
     {
       "name": "Old Legacy",
       "total_members": 23,
-      "online_count": 16,
-      "offline_count": 7,
+      "online_count": 17,
+      "offline_count": 6,
       "members": [
         {
           "name": "Ehotk",
@@ -4572,7 +4572,7 @@
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
-          "online": false
+          "online": true
         },
         {
           "name": "Calveludo",
@@ -5094,7 +5094,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Calveludo",
@@ -5424,7 +5424,7 @@
           "name": "Brunao Rei Denovo",
           "value": 30,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Lougon Baiakeiro",
@@ -5787,12 +5787,6 @@
           "online": false
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -5863,6 +5857,12 @@
           "value": 1999,
           "vocation": "Elder Druid",
           "online": true
+        },
+        {
+          "name": "Brunao Rei Denovo",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
+          "online": false
         },
         {
           "name": "Imperador Ek",
@@ -6696,9 +6696,9 @@
         },
         {
           "name": "Pittao teensina",
-          "value": 32,
-          "kills_today": 1,
-          "kills_week": 7
+          "value": 33,
+          "kills_today": 2,
+          "kills_week": 8
         },
         {
           "name": "Nao Eh Poring",
@@ -6976,16 +6976,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 23:57 (Brasília)",
+    "updated_at": "01/07/2026 às 23:58 (Brasília)",
     "kills_total": 1013,
-    "deaths_total": 1055,
+    "deaths_total": 1056,
     "kills_today": 2,
-    "deaths_today": 1,
+    "deaths_today": 2,
     "kills_week": 109,
-    "deaths_week": 86,
+    "deaths_week": 87,
     "kd_total": 0.96,
-    "kd_today": 2.0,
-    "kd_week": 1.27,
+    "kd_today": 1.0,
+    "kd_week": 1.25,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -7340,9 +7340,9 @@
       },
       {
         "name": "Pittao teensina",
-        "kills": 32,
-        "kills_today": 1,
-        "kills_week": 7
+        "kills": 33,
+        "kills_today": 2,
+        "kills_week": 8
       },
       {
         "name": "Nao Eh Poring",
@@ -27103,6 +27103,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 01, 2026 23:58",
+        "player": "Brunao Rei Denovo",
+        "level": 2000,
+        "killedBy": "Pittao teensina",
+        "maiorDano": "Calveludo",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 01, 2026 23:56",
         "player": "Its Gui",
         "level": 1289,
@@ -27321,6 +27330,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 01, 2026 23:58",
+      "player": "Brunao Rei Denovo",
+      "level": 2000,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "Calveludo",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 01, 2026 23:56",
       "player": "Its Gui",
@@ -27660,15 +27678,6 @@
       "level": 974,
       "killedBy": "Nao Eh Poring",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 30, 2026 00:46",
-      "player": "Esfi Hahaha",
-      "level": 1887,
-      "killedBy": "Nao Eh Poring",
-      "maiorDano": "Calveludo",
       "world": "Baiak",
       "isPvp": true
     }
@@ -63956,58 +63965,58 @@
     },
     "members": {
       "last_member_list": [
-        "Cuffy Dido",
-        "Ragekemi",
-        "Wake Wake",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Deruz",
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Feijao Baiakeironato",
-        "Boltadao",
+        "Lee Br",
+        "Dont Bica",
         "Cetoprofeno Intramuscular",
         "Giga",
-        "Total Security",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
         "Pittao teensina",
+        "Papumzada",
+        "Calveludo",
+        "Wake Wake",
+        "Feijao Baiakeironato",
+        "Deruz",
+        "Ragekemi",
+        "We Edz",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Donte",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Lula",
-        "Old Jovizera",
-        "Lee Br",
-        "Nao Eh Poring"
+        "Total Security",
+        "Cuffy Dido",
+        "Old Jovizera"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Cuffy Dido",
-        "Ragekemi",
-        "Wake Wake",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Deruz",
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Feijao Baiakeironato",
-        "Boltadao",
+        "Lee Br",
+        "Dont Bica",
         "Cetoprofeno Intramuscular",
         "Giga",
-        "Total Security",
-        "Papumzada",
-        "We Edz",
-        "Dont Bica",
         "Pittao teensina",
+        "Papumzada",
+        "Calveludo",
+        "Wake Wake",
+        "Feijao Baiakeironato",
+        "Deruz",
+        "Ragekemi",
+        "We Edz",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Donte",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Incrivel Monk",
         "Lula",
-        "Old Jovizera",
-        "Lee Br",
-        "Nao Eh Poring"
+        "Total Security",
+        "Cuffy Dido",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
