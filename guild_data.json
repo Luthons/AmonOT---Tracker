@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 11:08 (Brasília)",
+  "updated_at": "02/07/2026 às 11:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -1336,7 +1336,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 648,
+      "level": 675,
       "resets": 13,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Hao Asakura",
-      "level": 8,
+      "level": 506,
       "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1997,7 +1997,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1301,
+      "level": 1306,
       "resets": 35,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2283,7 +2283,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1440,
+      "level": 1444,
       "resets": 44,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2609,7 +2609,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1384,
+      "level": 1424,
       "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2914,7 +2914,7 @@
     },
     {
       "name": "Mu Baiakeiro",
-      "level": 967,
+      "level": 969,
       "resets": 10,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2991,7 +2991,7 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 439,
+      "level": 622,
       "resets": 26,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4282,7 +4282,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1025,
+      "level": 1061,
       "resets": 53,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4446,7 +4446,7 @@
         },
         {
           "name": "Lee Br",
-          "level": 1470,
+          "level": 1471,
           "resets": 41,
           "vocation": "Elite Knight",
           "nick": "",
@@ -4536,7 +4536,7 @@
         },
         {
           "name": "Calveludo",
-          "level": 961,
+          "level": 971,
           "resets": 39,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -4545,7 +4545,7 @@
         },
         {
           "name": "Cuffy Dido",
-          "level": 1025,
+          "level": 1028,
           "resets": 33,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -4590,7 +4590,7 @@
         },
         {
           "name": "JhonzinMilgrau",
-          "level": 1611,
+          "level": 1613,
           "resets": 26,
           "vocation": "Elder Druid",
           "nick": "",
@@ -4599,7 +4599,7 @@
         },
         {
           "name": "Lula",
-          "level": 1573,
+          "level": 1588,
           "resets": 52,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -4617,7 +4617,7 @@
         },
         {
           "name": "Pittao teensina",
-          "level": 1930,
+          "level": 1943,
           "resets": 44,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5975,15 +5975,21 @@
           "online": false
         },
         {
+          "name": "Lipe Knight",
+          "value": 1444,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 1444,
           "vocation": "Elder Druid",
           "online": false
         },
         {
-          "name": "Lipe Knight",
-          "value": 1440,
-          "vocation": "Elite Knight",
+          "name": "Magabela",
+          "value": 1424,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5999,21 +6005,15 @@
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 1384,
-          "vocation": "Master Sorcerer",
+          "name": "Its Gui",
+          "value": 1306,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "King Suino",
           "value": 1302,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Its Gui",
-          "value": 1301,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6083,6 +6083,12 @@
           "online": false
         },
         {
+          "name": "Ynhaca Purah",
+          "value": 1061,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Owsborn",
           "value": 1055,
           "vocation": "Royal Paladin",
@@ -6095,12 +6101,6 @@
           "online": false
         },
         {
-          "name": "Ynhaca Purah",
-          "value": 1025,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Moskito",
           "value": 1001,
           "vocation": "Royal Paladin",
@@ -6108,7 +6108,7 @@
         },
         {
           "name": "Mu Baiakeiro",
-          "value": 967,
+          "value": 969,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6288,7 +6288,7 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 648,
+          "value": 675,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6305,6 +6305,12 @@
           "online": false
         },
         {
+          "name": "Nagato Sorcerer",
+          "value": 622,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Adolph Healer",
           "value": 596,
           "vocation": "Elder Druid",
@@ -6317,8 +6323,8 @@
           "online": true
         },
         {
-          "name": "Nagato Sorcerer",
-          "value": 439,
+          "name": "Hao Asakura",
+          "value": 506,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6972,7 +6978,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 11:08 (Brasília)",
+    "updated_at": "02/07/2026 às 11:09 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -63073,58 +63079,58 @@
     },
     "members": {
       "last_member_list": [
-        "Lula",
-        "Total Security",
         "We Edz",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lee Br",
-        "Donte",
-        "Nao Eh Poring",
-        "Giga",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Ragekemi",
+        "Total Security",
         "Feijao Baiakeironato",
-        "Papumzada",
-        "Incrivel Monk",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Cuffy Dido",
+        "Deruz",
+        "Lula",
+        "Ragekemi",
+        "Donte",
         "Old Jovizera",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Giga",
         "Wake Wake",
+        "Dont Bica",
         "Boltadao",
-        "Pittao teensina"
+        "Arroz Cadela",
+        "Pittao teensina",
+        "Calveludo",
+        "Ehotk",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Lee Br"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Lula",
-        "Total Security",
         "We Edz",
-        "Dont Bica",
-        "Arroz Cadela",
-        "Lee Br",
-        "Donte",
-        "Nao Eh Poring",
-        "Giga",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Ragekemi",
+        "Total Security",
         "Feijao Baiakeironato",
-        "Papumzada",
-        "Incrivel Monk",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Cuffy Dido",
+        "Deruz",
+        "Lula",
+        "Ragekemi",
+        "Donte",
         "Old Jovizera",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Giga",
         "Wake Wake",
+        "Dont Bica",
         "Boltadao",
-        "Pittao teensina"
+        "Arroz Cadela",
+        "Pittao teensina",
+        "Calveludo",
+        "Ehotk",
+        "Incrivel Monk",
+        "Cuffy Dido",
+        "Lee Br"
       ],
       "hunted": {
         "Leogolas": {
