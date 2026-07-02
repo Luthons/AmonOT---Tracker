@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 09:07 (Brasília)",
+  "updated_at": "02/07/2026 às 09:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -64,7 +64,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1394,
+      "level": 1423,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -219,7 +219,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1125,
+      "level": 1186,
       "resets": 69,
       "vocation": "Elite Knight",
       "nick": "",
@@ -823,7 +823,7 @@
     },
     {
       "name": "Blade Winter",
-      "level": 1923,
+      "level": 1926,
       "resets": 24,
       "vocation": "Elder Druid",
       "nick": "",
@@ -899,7 +899,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1734,
+      "level": 1742,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2401,7 +2401,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 804,
+      "level": 834,
       "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2551,7 +2551,7 @@
     },
     {
       "name": "Ljxiv",
-      "level": 1949,
+      "level": 1953,
       "resets": 26,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3000,7 +3000,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1659,
+      "level": 1664,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3535,7 +3535,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1691,
+      "level": 1706,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4072,7 +4072,7 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 1254,
+      "level": 1277,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4161,7 +4161,7 @@
     },
     {
       "name": "Sisen",
-      "level": 815,
+      "level": 818,
       "resets": 12,
       "vocation": "Elite Knight",
       "nick": "",
@@ -4226,7 +4226,7 @@
     },
     {
       "name": "Solarica",
-      "level": 704,
+      "level": 761,
       "resets": 4,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4536,7 +4536,7 @@
     },
     {
       "name": "VukVuk",
-      "level": 1997,
+      "level": 2000,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4605,7 +4605,7 @@
     },
     {
       "name": "Xeipe",
-      "level": 1542,
+      "level": 1549,
       "resets": 24,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4898,7 +4898,7 @@
         },
         {
           "name": "Papumzada",
-          "level": 1434,
+          "level": 1440,
           "resets": 25,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -6253,6 +6253,12 @@
           "online": true
         },
         {
+          "name": "VukVuk",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 1999,
           "vocation": "Royal Paladin",
@@ -6271,12 +6277,6 @@
           "online": false
         },
         {
-          "name": "VukVuk",
-          "value": 1997,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 1984,
           "vocation": "Royal Paladin",
@@ -6284,25 +6284,25 @@
         },
         {
           "name": "Ljxiv",
-          "value": 1949,
+          "value": 1953,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Blade Winter",
-          "value": 1923,
+          "value": 1926,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Cerebro",
-          "value": 1734,
+          "value": 1742,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Pally Tetss",
-          "value": 1691,
+          "value": 1706,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6314,7 +6314,7 @@
         },
         {
           "name": "Monstro Das Criptos",
-          "value": 1659,
+          "value": 1664,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6325,15 +6325,15 @@
           "online": false
         },
         {
-          "name": "Melbiss",
-          "value": 1545,
-          "vocation": "Elite Knight",
+          "name": "Xeipe",
+          "value": 1549,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Xeipe",
-          "value": 1542,
-          "vocation": "Royal Paladin",
+          "name": "Melbiss",
+          "value": 1545,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6361,16 +6361,16 @@
           "online": true
         },
         {
+          "name": "Gizao",
+          "value": 1423,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tio Bringer",
           "value": 1422,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Gizao",
-          "value": 1394,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Garuvuvinha",
@@ -6398,7 +6398,7 @@
         },
         {
           "name": "Rusha Rp",
-          "value": 1254,
+          "value": 1277,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6422,7 +6422,7 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 1125,
+          "value": 1186,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6583,6 +6583,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 834,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 830,
           "vocation": "Master Sorcerer",
@@ -6620,14 +6626,8 @@
         },
         {
           "name": "Sisen",
-          "value": 815,
+          "value": 818,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 804,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6661,6 +6661,12 @@
           "online": true
         },
         {
+          "name": "Solarica",
+          "value": 761,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Luthons",
           "value": 733,
           "vocation": "Elder Druid",
@@ -6671,12 +6677,6 @@
           "value": 731,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Solarica",
-          "value": 704,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Makasco Ms",
@@ -7364,7 +7364,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 09:06 (Brasília)",
+    "updated_at": "02/07/2026 às 09:10 (Brasília)",
     "kills_total": 1022,
     "deaths_total": 1063,
     "kills_today": 11,
@@ -63508,28 +63508,28 @@
     },
     "members": {
       "last_member_list": [
-        "Lula",
         "Boltadao",
-        "Calveludo",
-        "Pittao teensina",
-        "Dont Bica",
-        "Ragekemi",
-        "Papumzada",
-        "Donte",
-        "Cuffy Dido",
-        "Deruz",
-        "Total Security",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
         "Giga",
+        "Wake Wake",
+        "We Edz",
+        "Calveludo",
+        "Cuffy Dido",
+        "Papumzada",
         "Old Jovizera",
+        "Feijao Baiakeironato",
+        "Incrivel Monk",
+        "Lee Br",
+        "Ragekemi",
+        "Deruz",
+        "Dont Bica",
+        "Donte",
+        "Pittao teensina",
+        "Total Security",
         "Ehotk",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
         "Nao Eh Poring"
       ],
       "changes_log": [],
@@ -63537,28 +63537,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lula",
         "Boltadao",
-        "Calveludo",
-        "Pittao teensina",
-        "Dont Bica",
-        "Ragekemi",
-        "Papumzada",
-        "Donte",
-        "Cuffy Dido",
-        "Deruz",
-        "Total Security",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Lee Br",
-        "Incrivel Monk",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
         "Giga",
+        "Wake Wake",
+        "We Edz",
+        "Calveludo",
+        "Cuffy Dido",
+        "Papumzada",
         "Old Jovizera",
+        "Feijao Baiakeironato",
+        "Incrivel Monk",
+        "Lee Br",
+        "Ragekemi",
+        "Deruz",
+        "Dont Bica",
+        "Donte",
+        "Pittao teensina",
+        "Total Security",
         "Ehotk",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
         "Nao Eh Poring"
       ],
       "hunted": {
