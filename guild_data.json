@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 20:00 (Brasília)",
+  "updated_at": "02/07/2026 às 20:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -2049,8 +2049,8 @@
     },
     {
       "name": "Kev",
-      "level": 870,
-      "resets": 22,
+      "level": 8,
+      "resets": 23,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2125,6 +2125,11 @@
           "resets": 22,
           "gained": 1,
           "timestamp": "01/07/2026 às 23:42 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:01 (Brasília)"
         }
       ]
     },
@@ -4649,6 +4654,14 @@
       "online": true
     },
     {
+      "name": "Kev",
+      "resets_total": 23,
+      "resets_today": 2,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lotus Lothbrook",
       "resets_total": 28,
       "resets_today": 2,
@@ -4727,14 +4740,6 @@
       "resets_week": 7,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Kev",
-      "resets_total": 22,
-      "resets_today": 1,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Kolwaski",
@@ -5505,16 +5510,16 @@
           "online": false
         },
         {
+          "name": "Kev",
+          "value": 23,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Moskito",
           "value": 23,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 22,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Vitao The Trader",
@@ -6181,12 +6186,6 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 870,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Brunao Cansado",
@@ -6952,7 +6951,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 20:00 (Brasília)",
+    "updated_at": "02/07/2026 às 20:01 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 17,
@@ -27942,7 +27941,7 @@
         "Imperador Ek": 18,
         "Its Gui": 35,
         "Kaus Magj": 5,
-        "Kev": 22,
+        "Kev": 23,
         "Kiel": 58,
         "King Suino": 4,
         "Kolwaski": 43,
@@ -44896,7 +44895,7 @@
           "Imperador Ek": 18,
           "Its Gui": 35,
           "Kaus Magj": 5,
-          "Kev": 22,
+          "Kev": 23,
           "Kiel": 58,
           "King Suino": 4,
           "Kolwaski": 43,
@@ -51215,6 +51214,13 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 19:13 (Brasília)",
           "hour_key": "2026-07-02-19"
+        },
+        {
+          "name": "Kev",
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:01 (Brasília)",
+          "hour_key": "2026-07-02-20"
         }
       ]
     },
@@ -62823,28 +62829,28 @@
     },
     "members": {
       "last_member_list": [
-        "Old Jovizera",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Donte",
-        "Nao Eh Poring",
-        "Lula",
-        "Lee Br",
         "Giga",
-        "Total Security",
-        "Ehotk",
-        "Incrivel Monk",
-        "We Edz",
-        "Cuffy Dido",
-        "Papumzada",
-        "Calveludo",
-        "Ragekemi",
-        "Wake Wake",
+        "Nao Eh Poring",
         "Boltadao",
+        "Ehotk",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Donte",
+        "Old Jovizera",
+        "Ragekemi",
         "Deruz",
+        "Pittao teensina",
+        "Total Security",
         "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular"
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "We Edz",
+        "Lee Br",
+        "Dont Bica",
+        "Calveludo"
       ],
       "changes_log": [
         {
@@ -62867,28 +62873,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Old Jovizera",
-        "Pittao teensina",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Donte",
-        "Nao Eh Poring",
-        "Lula",
-        "Lee Br",
         "Giga",
-        "Total Security",
-        "Ehotk",
-        "Incrivel Monk",
-        "We Edz",
-        "Cuffy Dido",
-        "Papumzada",
-        "Calveludo",
-        "Ragekemi",
-        "Wake Wake",
+        "Nao Eh Poring",
         "Boltadao",
+        "Ehotk",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Incrivel Monk",
+        "Donte",
+        "Old Jovizera",
+        "Ragekemi",
         "Deruz",
+        "Pittao teensina",
+        "Total Security",
         "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular"
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "We Edz",
+        "Lee Br",
+        "Dont Bica",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
@@ -63548,11 +63554,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 99,
-      "total_current": 2841,
-      "resets_today": 25,
-      "resets_week": 162,
+      "total_current": 2842,
+      "resets_today": 26,
+      "resets_week": 163,
       "resets_month": 0,
-      "resets_lifetime": 160,
+      "resets_lifetime": 161,
       "avg_per_player": 28.7
     },
     "enemy_guild": {
