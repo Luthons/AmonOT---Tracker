@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 11:16 (Brasília)",
+  "updated_at": "02/07/2026 às 11:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -823,17 +823,19 @@
     },
     {
       "name": "Blade Winter",
-      "level": 1926,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "last_login": "Jul 01, 2026, 22:08:42",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 11:19 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Boingbringer",
@@ -2846,7 +2848,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1424,
+      "level": 1466,
       "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -5084,6 +5086,14 @@
       "online": true
     },
     {
+      "name": "Blade Winter",
+      "resets_total": 25,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Ed farm",
       "resets_total": 47,
       "resets_today": 1,
@@ -5894,6 +5904,12 @@
           "online": true
         },
         {
+          "name": "Blade Winter",
+          "value": 25,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Nao Curo",
           "value": 25,
           "vocation": "Elder Druid",
@@ -5903,12 +5919,6 @@
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Blade Winter",
-          "value": 24,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6314,12 +6324,6 @@
           "online": true
         },
         {
-          "name": "Blade Winter",
-          "value": 1926,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 1770,
           "vocation": "Elite Knight",
@@ -6374,6 +6378,12 @@
           "online": true
         },
         {
+          "name": "Magabela",
+          "value": 1466,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Charles",
           "value": 1449,
           "vocation": "Exalted Monk",
@@ -6390,12 +6400,6 @@
           "value": 1444,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Magabela",
-          "value": 1424,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Tio Bringer",
@@ -7383,7 +7387,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 11:15 (Brasília)",
+    "updated_at": "02/07/2026 às 11:19 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -28287,7 +28291,7 @@
         "Apreciador De Casadas": 37,
         "Apreciador On Amonot": 3,
         "Baduff": 30,
-        "Blade Winter": 24,
+        "Blade Winter": 25,
         "Boingbringer": 30,
         "Brunao Cansado": 5,
         "Brunao Rei Denovo": 30,
@@ -45148,7 +45152,7 @@
           "Apreciador De Casadas": 37,
           "Apreciador On Amonot": 3,
           "Baduff": 30,
-          "Blade Winter": 24,
+          "Blade Winter": 25,
           "Boingbringer": 30,
           "Brunao Cansado": 5,
           "Brunao Rei Denovo": 30,
@@ -51429,6 +51433,13 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "02/07/2026 às 11:18 (Brasília)",
+          "hour_key": "2026-07-02-11"
+        },
+        {
+          "name": "Blade Winter",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 11:19 (Brasília)",
           "hour_key": "2026-07-02-11"
         }
       ]
@@ -63491,58 +63502,58 @@
     },
     "members": {
       "last_member_list": [
-        "Pittao teensina",
-        "We Edz",
-        "Calveludo",
-        "Feijao Baiakeironato",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Old Jovizera",
         "Dont Bica",
+        "Wake Wake",
+        "Boltadao",
+        "We Edz",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
+        "Ragekemi",
         "JhonzinMilgrau",
         "Giga",
-        "Papumzada",
-        "Incrivel Monk",
-        "Lula",
-        "Ragekemi",
-        "Deruz",
         "Lee Br",
-        "Ehotk",
-        "Boltadao",
-        "Nao Eh Poring",
         "Donte",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Total Security"
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Old Jovizera",
+        "Deruz",
+        "Total Security",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Lula"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Pittao teensina",
-        "We Edz",
-        "Calveludo",
-        "Feijao Baiakeironato",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Old Jovizera",
         "Dont Bica",
+        "Wake Wake",
+        "Boltadao",
+        "We Edz",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina",
+        "Ragekemi",
         "JhonzinMilgrau",
         "Giga",
-        "Papumzada",
-        "Incrivel Monk",
-        "Lula",
-        "Ragekemi",
-        "Deruz",
         "Lee Br",
-        "Ehotk",
-        "Boltadao",
-        "Nao Eh Poring",
         "Donte",
-        "Cetoprofeno Intramuscular",
         "Cuffy Dido",
-        "Total Security"
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Old Jovizera",
+        "Deruz",
+        "Total Security",
+        "Papumzada",
+        "Nao Eh Poring",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
@@ -64202,8 +64213,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2856,
-      "resets_today": 15,
+      "total_current": 2857,
+      "resets_today": 16,
       "resets_week": 154,
       "resets_month": 0,
       "resets_lifetime": 160,
