@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 22:16 (Brasília)",
+  "updated_at": "01/07/2026 às 22:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -3873,8 +3873,8 @@
     },
     {
       "name": "Red Hahaha",
-      "level": 966,
-      "resets": 22,
+      "level": 8,
+      "resets": 23,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3888,6 +3888,11 @@
           "resets": 22,
           "gained": 1,
           "timestamp": "01/07/2026 às 11:17 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:19 (Brasília)"
         }
       ]
     },
@@ -5899,7 +5904,7 @@
         },
         {
           "name": "Red Hahaha",
-          "value": 22,
+          "value": 23,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6472,12 +6477,6 @@
           "value": 967,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Red Hahaha",
-          "value": 966,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -7357,7 +7356,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 22:15 (Brasília)",
+    "updated_at": "01/07/2026 às 22:19 (Brasília)",
     "kills_total": 1013,
     "deaths_total": 1054,
     "kills_today": 2,
@@ -28122,7 +28121,7 @@
         "Pestinha": 30,
         "Primobolan e Trembo": 12,
         "Rafa Baguncinha": 29,
-        "Red Hahaha": 22,
+        "Red Hahaha": 23,
         "Ritoff Elite": 31,
         "Roginho": 31,
         "Royal Luthons": 46,
@@ -44838,7 +44837,7 @@
           "Pestinha": 30,
           "Primobolan e Trembo": 12,
           "Rafa Baguncinha": 29,
-          "Red Hahaha": 22,
+          "Red Hahaha": 23,
           "Ritoff Elite": 31,
           "Roginho": 31,
           "Royal Luthons": 46,
@@ -51138,6 +51137,13 @@
           "gained": 1,
           "timestamp": "01/07/2026 às 21:48 (Brasília)",
           "hour_key": "2026-07-01-21"
+        },
+        {
+          "name": "Red Hahaha",
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:19 (Brasília)",
+          "hour_key": "2026-07-01-22"
         }
       ]
     },
@@ -64310,28 +64316,28 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Wake Wake",
-        "Papumzada",
+        "JhonzinMilgrau",
         "Cuffy Dido",
-        "Ehotk",
-        "Total Security",
-        "Giga",
+        "Boltadao",
         "Lula",
+        "Donte",
+        "Giga",
+        "Deruz",
+        "Dont Bica",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Pittao teensina",
         "We Edz",
+        "Nao Eh Poring",
         "Lee Br",
         "Feijao Baiakeironato",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Dont Bica",
         "Calveludo",
-        "Boltadao",
-        "Deruz",
         "Old Jovizera",
+        "Wake Wake",
+        "Total Security",
+        "Incrivel Monk",
+        "Ehotk",
         "Ragekemi"
       ],
       "changes_log": [],
@@ -64339,28 +64345,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Wake Wake",
-        "Papumzada",
+        "JhonzinMilgrau",
         "Cuffy Dido",
-        "Ehotk",
-        "Total Security",
-        "Giga",
+        "Boltadao",
         "Lula",
+        "Donte",
+        "Giga",
+        "Deruz",
+        "Dont Bica",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Pittao teensina",
         "We Edz",
+        "Nao Eh Poring",
         "Lee Br",
         "Feijao Baiakeironato",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Dont Bica",
         "Calveludo",
-        "Boltadao",
-        "Deruz",
         "Old Jovizera",
+        "Wake Wake",
+        "Total Security",
+        "Incrivel Monk",
+        "Ehotk",
         "Ragekemi"
       ],
       "hunted": {
@@ -65021,7 +65027,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2838,
+      "total_current": 2839,
       "resets_today": 0,
       "resets_week": 141,
       "resets_month": 0,
