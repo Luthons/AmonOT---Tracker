@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 22:39 (Brasília)",
+  "updated_at": "01/07/2026 às 22:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -60,8 +60,8 @@
     },
     {
       "name": "Gizao",
-      "level": 1942,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -201,6 +201,11 @@
           "resets": 52,
           "gained": 1,
           "timestamp": "30/06/2026 às 10:04 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:40 (Brasília)"
         }
       ]
     },
@@ -4666,9 +4671,9 @@
     },
     {
       "name": "Gizao",
-      "resets_total": 52,
+      "resets_total": 53,
       "resets_today": 0,
-      "resets_week": 2,
+      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -5149,15 +5154,15 @@
           "online": true
         },
         {
-          "name": "Loke",
+          "name": "Gizao",
           "value": 53,
-          "vocation": "Elite Knight",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 52,
-          "vocation": "Royal Paladin",
+          "name": "Loke",
+          "value": 53,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5884,12 +5889,6 @@
           "name": "Elder Lougon",
           "value": 1947,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 1942,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6956,7 +6955,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 22:39 (Brasília)",
+    "updated_at": "01/07/2026 às 22:40 (Brasília)",
     "kills_total": 1013,
     "deaths_total": 1054,
     "kills_today": 2,
@@ -27648,7 +27647,7 @@
     "resets": {
       "last_snapshot": {
         "Esfi Hahaha": 58,
-        "Gizao": 52,
+        "Gizao": 53,
         "Yagoodz Hahaha": 68,
         "Brunaobringer": 50,
         "Maguinn Hahaha": 50,
@@ -44364,7 +44363,7 @@
         },
         "2026-07-01-22": {
           "Esfi Hahaha": 58,
-          "Gizao": 52,
+          "Gizao": 53,
           "Yagoodz Hahaha": 68,
           "Brunaobringer": 50,
           "Maguinn Hahaha": 50,
@@ -50743,6 +50742,13 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "01/07/2026 às 22:19 (Brasília)",
+          "hour_key": "2026-07-01-22"
+        },
+        {
+          "name": "Gizao",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:40 (Brasília)",
           "hour_key": "2026-07-01-22"
         }
       ]
@@ -63916,58 +63922,58 @@
     },
     "members": {
       "last_member_list": [
-        "Wake Wake",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Ehotk",
-        "We Edz",
-        "Pittao teensina",
-        "Donte",
-        "Giga",
         "Dont Bica",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "Incrivel Monk",
-        "Calveludo",
-        "Deruz",
         "Papumzada",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Lula",
-        "Lee Br",
-        "Nao Eh Poring",
+        "Giga",
+        "Cetoprofeno Intramuscular",
         "Feijao Baiakeironato",
-        "Old Jovizera"
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Cuffy Dido",
+        "We Edz",
+        "Old Jovizera",
+        "Deruz",
+        "Calveludo",
+        "Ragekemi",
+        "Boltadao",
+        "Total Security",
+        "Incrivel Monk",
+        "Donte",
+        "Pittao teensina",
+        "Lula",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Ehotk",
+        "Nao Eh Poring"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Wake Wake",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Ehotk",
-        "We Edz",
-        "Pittao teensina",
-        "Donte",
-        "Giga",
         "Dont Bica",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "Incrivel Monk",
-        "Calveludo",
-        "Deruz",
         "Papumzada",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Lula",
-        "Lee Br",
-        "Nao Eh Poring",
+        "Giga",
+        "Cetoprofeno Intramuscular",
         "Feijao Baiakeironato",
-        "Old Jovizera"
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Cuffy Dido",
+        "We Edz",
+        "Old Jovizera",
+        "Deruz",
+        "Calveludo",
+        "Ragekemi",
+        "Boltadao",
+        "Total Security",
+        "Incrivel Monk",
+        "Donte",
+        "Pittao teensina",
+        "Lula",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Ehotk",
+        "Nao Eh Poring"
       ],
       "hunted": {
         "Leogolas": {
@@ -64627,11 +64633,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2839,
+      "total_current": 2840,
       "resets_today": 0,
-      "resets_week": 141,
+      "resets_week": 142,
       "resets_month": 0,
-      "resets_lifetime": 149,
+      "resets_lifetime": 150,
       "avg_per_player": 28.4
     },
     "enemy_guild": {
