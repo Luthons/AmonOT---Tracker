@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 15:10 (Brasília)",
+  "updated_at": "02/07/2026 às 15:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -355,8 +355,8 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -436,6 +436,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "30/06/2026 às 01:05 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 15:11 (Brasília)"
         }
       ]
     },
@@ -4691,6 +4696,14 @@
       "online": true
     },
     {
+      "name": "Teylera Rp",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Adolph Healer",
       "resets_total": 10,
       "resets_today": 1,
@@ -4791,14 +4804,6 @@
       "resets_total": 53,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Teylera Rp",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -5172,7 +5177,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 56,
+          "value": 57,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5778,12 +5783,6 @@
         },
         {
           "name": "Punish Claude",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -6996,7 +6995,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 15:10 (Brasília)",
+    "updated_at": "02/07/2026 às 15:11 (Brasília)",
     "kills_total": 1025,
     "deaths_total": 1065,
     "kills_today": 14,
@@ -27927,7 +27926,7 @@
         "Brunaobringer": 50,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
-        "Teylera Rp": 56,
+        "Teylera Rp": 57,
         "Vinizerah On Amonot": 31,
         "Achilles": 18,
         "Adolph Healer": 10,
@@ -44832,7 +44831,7 @@
           "Brunaobringer": 50,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
-          "Teylera Rp": 56,
+          "Teylera Rp": 57,
           "Vinizerah On Amonot": 31,
           "Achilles": 18,
           "Adolph Healer": 10,
@@ -51144,6 +51143,13 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 13:36 (Brasília)",
           "hour_key": "2026-07-02-13"
+        },
+        {
+          "name": "Teylera Rp",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 15:11 (Brasília)",
+          "hour_key": "2026-07-02-15"
         }
       ]
     },
@@ -63005,28 +63011,28 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Ragekemi",
-        "Pittao teensina",
-        "Total Security",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Boltadao",
-        "Lee Br",
-        "Donte",
-        "Papumzada",
-        "Lula",
-        "Deruz",
-        "Incrivel Monk",
         "Giga",
+        "Incrivel Monk",
+        "Nao Eh Poring",
+        "Old Jovizera",
+        "Deruz",
+        "Boltadao",
+        "Lula",
+        "Arroz Cadela",
+        "Lee Br",
+        "Ragekemi",
+        "Dont Bica",
+        "JhonzinMilgrau",
+        "Pittao teensina",
+        "Ehotk",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Papumzada",
+        "Donte",
         "We Edz",
         "Wake Wake",
-        "Old Jovizera",
-        "Calveludo"
+        "Cuffy Dido"
       ],
       "changes_log": [
         {
@@ -63049,28 +63055,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Ragekemi",
-        "Pittao teensina",
-        "Total Security",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Boltadao",
-        "Lee Br",
-        "Donte",
-        "Papumzada",
-        "Lula",
-        "Deruz",
-        "Incrivel Monk",
         "Giga",
+        "Incrivel Monk",
+        "Nao Eh Poring",
+        "Old Jovizera",
+        "Deruz",
+        "Boltadao",
+        "Lula",
+        "Arroz Cadela",
+        "Lee Br",
+        "Ragekemi",
+        "Dont Bica",
+        "JhonzinMilgrau",
+        "Pittao teensina",
+        "Ehotk",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Papumzada",
+        "Donte",
         "We Edz",
         "Wake Wake",
-        "Old Jovizera",
-        "Calveludo"
+        "Cuffy Dido"
       ],
       "hunted": {
         "Leogolas": {
@@ -63730,11 +63736,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2859,
-      "resets_today": 18,
-      "resets_week": 156,
+      "total_current": 2860,
+      "resets_today": 19,
+      "resets_week": 157,
       "resets_month": 0,
-      "resets_lifetime": 156,
+      "resets_lifetime": 157,
       "avg_per_player": 28.6
     },
     "enemy_guild": {
