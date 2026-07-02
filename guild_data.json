@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 11:57 (Brasília)",
+  "updated_at": "02/07/2026 às 11:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -518,7 +518,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 13,
@@ -2187,12 +2187,12 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1247,
+      "level": 1255,
       "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 39,
@@ -3421,7 +3421,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 1,
@@ -3482,7 +3482,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 18,
@@ -4799,7 +4799,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Alba Baiakeiro",
@@ -4863,7 +4863,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Lilian Faithkeeper",
@@ -4967,7 +4967,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": false
+      "online": true
     },
     {
       "name": "Royal Luthons",
@@ -5319,7 +5319,7 @@
           "name": "Kolwaski",
           "value": 42,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Melbiss",
@@ -5439,7 +5439,7 @@
           "name": "Pestinha",
           "value": 30,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Rafa Baguncinha",
@@ -5505,7 +5505,7 @@
           "name": "Affey",
           "value": 25,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Blade Winter",
@@ -5637,7 +5637,7 @@
           "name": "Patrick",
           "value": 10,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Sabour Ms",
@@ -6043,9 +6043,9 @@
         },
         {
           "name": "Kolwaski",
-          "value": 1247,
+          "value": 1255,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Vinizerah On Amonot",
@@ -6075,7 +6075,7 @@
           "name": "Affey",
           "value": 1131,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Dreenho Baiakeiro",
@@ -6135,7 +6135,7 @@
           "name": "Patrick",
           "value": 955,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Heroes Baiak",
@@ -6207,7 +6207,7 @@
           "name": "Pestinha",
           "value": 830,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Elio Nervous",
@@ -6991,7 +6991,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 11:57 (Brasília)",
+    "updated_at": "02/07/2026 às 11:58 (Brasília)",
     "kills_total": 1024,
     "deaths_total": 1063,
     "kills_today": 13,
@@ -63106,28 +63106,28 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Boltadao",
-        "We Edz",
-        "Lee Br",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
-        "Wake Wake",
-        "Incrivel Monk",
-        "Lula",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Giga",
         "Ehotk",
-        "Total Security",
-        "Old Jovizera",
-        "Calveludo",
-        "Dont Bica",
-        "Pittao teensina",
-        "Donte",
-        "JhonzinMilgrau",
         "Ragekemi",
+        "Lula",
+        "Giga",
+        "Pittao teensina",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Total Security",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Cuffy Dido",
+        "We Edz",
+        "Papumzada",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
+        "Donte",
+        "Boltadao",
         "Deruz"
       ],
       "changes_log": [
@@ -63146,28 +63146,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Boltadao",
-        "We Edz",
-        "Lee Br",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
-        "Wake Wake",
-        "Incrivel Monk",
-        "Lula",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Giga",
         "Ehotk",
-        "Total Security",
-        "Old Jovizera",
-        "Calveludo",
-        "Dont Bica",
-        "Pittao teensina",
-        "Donte",
-        "JhonzinMilgrau",
         "Ragekemi",
+        "Lula",
+        "Giga",
+        "Pittao teensina",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Total Security",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Cuffy Dido",
+        "We Edz",
+        "Papumzada",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Incrivel Monk",
+        "Feijao Baiakeironato",
+        "Donte",
+        "Boltadao",
         "Deruz"
       ],
       "hunted": {
