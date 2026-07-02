@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/07/2026 às 23:58 (Brasília)",
+  "updated_at": "01/07/2026 às 23:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2750,7 +2750,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1526,
+      "level": 1528,
       "resets": 41,
       "vocation": "Elite Knight",
       "nick": "",
@@ -5980,7 +5980,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1526,
+          "value": 1528,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6689,16 +6689,16 @@
           "kills_week": 6
         },
         {
+          "name": "Pittao teensina",
+          "value": 34,
+          "kills_today": 3,
+          "kills_week": 9
+        },
+        {
           "name": "Darkzao Knight",
           "value": 33,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Pittao teensina",
-          "value": 33,
-          "kills_today": 2,
-          "kills_week": 8
         },
         {
           "name": "Nao Eh Poring",
@@ -6976,16 +6976,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/07/2026 às 23:58 (Brasília)",
+    "updated_at": "01/07/2026 às 23:59 (Brasília)",
     "kills_total": 1013,
-    "deaths_total": 1056,
+    "deaths_total": 1057,
     "kills_today": 2,
-    "deaths_today": 2,
+    "deaths_today": 3,
     "kills_week": 109,
-    "deaths_week": 87,
+    "deaths_week": 88,
     "kd_total": 0.96,
-    "kd_today": 1.0,
-    "kd_week": 1.25,
+    "kd_today": 0.67,
+    "kd_week": 1.24,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -7333,16 +7333,16 @@
         "kills_week": 6
       },
       {
+        "name": "Pittao teensina",
+        "kills": 34,
+        "kills_today": 3,
+        "kills_week": 9
+      },
+      {
         "name": "Darkzao Knight",
         "kills": 33,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Pittao teensina",
-        "kills": 33,
-        "kills_today": 2,
-        "kills_week": 8
       },
       {
         "name": "Nao Eh Poring",
@@ -27112,6 +27112,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 01, 2026 23:58",
+        "player": "Melbiss",
+        "level": 1529,
+        "killedBy": "Pittao teensina",
+        "maiorDano": "Calveludo",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 01, 2026 23:56",
         "player": "Its Gui",
         "level": 1289,
@@ -27330,6 +27339,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 01, 2026 23:58",
+      "player": "Melbiss",
+      "level": 1529,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "Calveludo",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 01, 2026 23:58",
       "player": "Brunao Rei Denovo",
@@ -27668,15 +27686,6 @@
       "player": "Ultimate Warrior",
       "level": 2000,
       "killedBy": "Calveludo",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jun 30, 2026 00:47",
-      "player": "Teylera Rp",
-      "level": 974,
-      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -63965,28 +63974,28 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "Dont Bica",
-        "Cetoprofeno Intramuscular",
-        "Giga",
         "Pittao teensina",
-        "Papumzada",
         "Calveludo",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Deruz",
-        "Ragekemi",
+        "Lee Br",
         "We Edz",
-        "Boltadao",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
+        "Deruz",
+        "Cuffy Dido",
+        "Dont Bica",
+        "Wake Wake",
+        "Boltadao",
+        "Arroz Cadela",
+        "Giga",
         "Ehotk",
         "Donte",
-        "Arroz Cadela",
         "JhonzinMilgrau",
-        "Incrivel Monk",
+        "Feijao Baiakeironato",
         "Lula",
         "Total Security",
-        "Cuffy Dido",
+        "Incrivel Monk",
+        "Ragekemi",
         "Old Jovizera"
       ],
       "changes_log": [],
@@ -63994,28 +64003,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "Dont Bica",
-        "Cetoprofeno Intramuscular",
-        "Giga",
         "Pittao teensina",
-        "Papumzada",
         "Calveludo",
-        "Wake Wake",
-        "Feijao Baiakeironato",
-        "Deruz",
-        "Ragekemi",
+        "Lee Br",
         "We Edz",
-        "Boltadao",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
+        "Deruz",
+        "Cuffy Dido",
+        "Dont Bica",
+        "Wake Wake",
+        "Boltadao",
+        "Arroz Cadela",
+        "Giga",
         "Ehotk",
         "Donte",
-        "Arroz Cadela",
         "JhonzinMilgrau",
-        "Incrivel Monk",
+        "Feijao Baiakeironato",
         "Lula",
         "Total Security",
-        "Cuffy Dido",
+        "Incrivel Monk",
+        "Ragekemi",
         "Old Jovizera"
       ],
       "hunted": {
