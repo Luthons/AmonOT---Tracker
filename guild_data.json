@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 18:43 (Brasília)",
+  "updated_at": "02/07/2026 às 18:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4149,7 +4149,7 @@
     },
     {
       "name": "Voldemort Ed",
-      "level": 920,
+      "level": 935,
       "resets": 11,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4190,7 +4190,7 @@
     },
     {
       "name": "Voldemort Ms",
-      "level": 873,
+      "level": 914,
       "resets": 4,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4533,8 +4533,8 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "level": 2000,
-          "resets": 59,
+          "level": 8,
+          "resets": 60,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -5075,6 +5075,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Cetoprofeno Intramuscular",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Calveludo",
       "resets_total": 39,
       "resets_today": 1,
@@ -5121,14 +5129,6 @@
       "resets_week": 2,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Boltadao",
@@ -6167,6 +6167,12 @@
           "online": true
         },
         {
+          "name": "Voldemort Ed",
+          "value": 935,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Sisen",
           "value": 932,
           "vocation": "Elite Knight",
@@ -6177,12 +6183,6 @@
           "value": 925,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Voldemort Ed",
-          "value": 920,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Hao Asakura",
@@ -6201,6 +6201,12 @@
           "value": 915,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Voldemort Ms",
+          "value": 914,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Apreciador On Amonot",
@@ -6237,12 +6243,6 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Voldemort Ms",
-          "value": 873,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Cheiro Dpneu",
@@ -7008,7 +7008,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 18:43 (Brasília)",
+    "updated_at": "02/07/2026 às 18:44 (Brasília)",
     "kills_total": 1027,
     "deaths_total": 1065,
     "kills_today": 16,
@@ -51257,7 +51257,7 @@
         "Ragekemi": 29,
         "We Edz": 40,
         "Arroz Cadela": 33,
-        "Cetoprofeno Intramuscular": 59,
+        "Cetoprofeno Intramuscular": 60,
         "Dont Bica": 21,
         "Nao Eh Poring": 80,
         "Papumzada": 25,
@@ -57468,7 +57468,7 @@
           "Ragekemi": 29,
           "We Edz": 40,
           "Arroz Cadela": 33,
-          "Cetoprofeno Intramuscular": 59,
+          "Cetoprofeno Intramuscular": 60,
           "Dont Bica": 21,
           "Nao Eh Poring": 80,
           "Papumzada": 25,
@@ -62947,33 +62947,40 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 12:58 (Brasília)",
           "hour_key": "2026-07-02-12"
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:44 (Brasília)",
+          "hour_key": "2026-07-02-18"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Ragekemi",
-        "Wake Wake",
-        "We Edz",
-        "Arroz Cadela",
-        "Papumzada",
         "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Boltadao",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Giga",
-        "Old Jovizera",
-        "Lee Br",
-        "Incrivel Monk",
-        "Calveludo",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Deruz",
-        "Ehotk"
+        "Donte",
+        "Lula",
+        "Calveludo",
+        "Ragekemi",
+        "Incrivel Monk",
+        "Total Security",
+        "Papumzada",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Boltadao",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Giga",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "We Edz",
+        "Dont Bica",
+        "Wake Wake"
       ],
       "changes_log": [
         {
@@ -62996,28 +63003,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Ragekemi",
-        "Wake Wake",
-        "We Edz",
-        "Arroz Cadela",
-        "Papumzada",
         "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Boltadao",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Giga",
-        "Old Jovizera",
-        "Lee Br",
-        "Incrivel Monk",
-        "Calveludo",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Deruz",
-        "Ehotk"
+        "Donte",
+        "Lula",
+        "Calveludo",
+        "Ragekemi",
+        "Incrivel Monk",
+        "Total Security",
+        "Papumzada",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Boltadao",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Giga",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "We Edz",
+        "Dont Bica",
+        "Wake Wake"
       ],
       "hunted": {
         "Leogolas": {
@@ -63687,11 +63694,11 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 22,
-      "total_current": 847,
-      "resets_today": 3,
-      "resets_week": 25,
+      "total_current": 848,
+      "resets_today": 4,
+      "resets_week": 26,
       "resets_month": 0,
-      "resets_lifetime": 26,
+      "resets_lifetime": 27,
       "avg_per_player": 38.5
     }
   },
