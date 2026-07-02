@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 07:29 (Brasília)",
+  "updated_at": "02/07/2026 às 07:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -901,8 +901,8 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 1008,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -947,6 +947,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "01/07/2026 às 14:52 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 07:30 (Brasília)"
         }
       ]
     },
@@ -4627,6 +4632,14 @@
       "online": true
     },
     {
+      "name": "Cheiro Dpneu",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Diegao Barba",
       "resets_total": 45,
       "resets_today": 1,
@@ -5299,6 +5312,12 @@
           "online": true
         },
         {
+          "name": "Cheiro Dpneu",
+          "value": 32,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Deca com Testo",
           "value": 32,
           "vocation": "Elite Knight",
@@ -5315,12 +5334,6 @@
           "value": 31,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 31,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Hao Asakura",
@@ -6047,12 +6060,6 @@
           "value": 1017,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 1008,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Affey",
@@ -6932,7 +6939,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 07:29 (Brasília)",
+    "updated_at": "02/07/2026 às 07:30 (Brasília)",
     "kills_total": 1022,
     "deaths_total": 1063,
     "kills_today": 11,
@@ -27834,7 +27841,7 @@
         "Campin": 7,
         "Cerebro": 48,
         "Charles": 26,
-        "Cheiro Dpneu": 31,
+        "Cheiro Dpneu": 32,
         "Chissalada": 13,
         "Deca com Testo": 32,
         "Diegao Barba": 45,
@@ -44651,7 +44658,7 @@
           "Campin": 7,
           "Cerebro": 48,
           "Charles": 26,
-          "Cheiro Dpneu": 31,
+          "Cheiro Dpneu": 32,
           "Chissalada": 13,
           "Deca com Testo": 32,
           "Diegao Barba": 45,
@@ -50870,6 +50877,13 @@
           "gained": 1,
           "timestamp": "02/07/2026 às 04:40 (Brasília)",
           "hour_key": "2026-07-02-04"
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 07:30 (Brasília)",
+          "hour_key": "2026-07-02-07"
         }
       ]
     },
@@ -63135,58 +63149,58 @@
     },
     "members": {
       "last_member_list": [
-        "Ragekemi",
-        "Ehotk",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "We Edz",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Deruz",
-        "Boltadao",
-        "Papumzada",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
         "Total Security",
+        "Incrivel Monk",
+        "Arroz Cadela",
         "Dont Bica",
+        "We Edz",
         "Donte",
-        "Lula",
+        "Giga",
+        "Boltadao",
+        "Deruz",
+        "Nao Eh Poring",
         "Old Jovizera",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Ehotk",
         "Cetoprofeno Intramuscular",
-        "Giga"
+        "Ragekemi",
+        "Papumzada",
+        "Lula",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Lee Br",
+        "Calveludo",
+        "Feijao Baiakeironato"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ragekemi",
-        "Ehotk",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "We Edz",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Deruz",
-        "Boltadao",
-        "Papumzada",
-        "Cuffy Dido",
-        "Feijao Baiakeironato",
         "Total Security",
+        "Incrivel Monk",
+        "Arroz Cadela",
         "Dont Bica",
+        "We Edz",
         "Donte",
-        "Lula",
+        "Giga",
+        "Boltadao",
+        "Deruz",
+        "Nao Eh Poring",
         "Old Jovizera",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Ehotk",
         "Cetoprofeno Intramuscular",
-        "Giga"
+        "Ragekemi",
+        "Papumzada",
+        "Lula",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Lee Br",
+        "Calveludo",
+        "Feijao Baiakeironato"
       ],
       "hunted": {
         "Leogolas": {
@@ -63846,8 +63860,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2848,
-      "resets_today": 7,
+      "total_current": 2849,
+      "resets_today": 8,
       "resets_week": 148,
       "resets_month": 0,
       "resets_lifetime": 158,
