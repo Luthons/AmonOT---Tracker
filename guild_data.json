@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 00:01 (Brasília)",
+  "updated_at": "02/07/2026 às 00:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -503,8 +503,8 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 1163,
-      "resets": 9,
+      "level": 8,
+      "resets": 10,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -538,6 +538,11 @@
           "resets": 9,
           "gained": 1,
           "timestamp": "01/07/2026 às 16:23 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 00:04 (Brasília)"
         }
       ]
     },
@@ -1652,7 +1657,7 @@
     },
     {
       "name": "Garuvuvinha",
-      "level": 1216,
+      "level": 1235,
       "resets": 45,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4885,7 +4890,7 @@
         },
         {
           "name": "Calveludo",
-          "level": 1780,
+          "level": 2031,
           "resets": 38,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -4995,6 +5000,14 @@
     }
   ],
   "resets_today": [
+    {
+      "name": "Adolph Healer",
+      "resets_total": 10,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
     {
       "name": "Diegao Barba",
       "resets_total": 45,
@@ -5928,6 +5941,12 @@
           "online": false
         },
         {
+          "name": "Adolph Healer",
+          "value": 10,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Mu Baiakeiro",
           "value": 10,
           "vocation": "Elder Druid",
@@ -5944,12 +5963,6 @@
           "value": 10,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 9,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Taka e Cura",
@@ -6348,6 +6361,12 @@
           "online": true
         },
         {
+          "name": "Garuvuvinha",
+          "value": 1235,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
           "value": 1221,
           "vocation": "Elder Druid",
@@ -6358,18 +6377,6 @@
           "value": 1218,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Garuvuvinha",
-          "value": 1216,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 1163,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Lipe Knight",
@@ -6734,16 +6741,16 @@
           "kills_week": 2
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 21,
+          "kills_today": 1,
+          "kills_week": 13
+        },
+        {
           "name": "Jotabringer",
           "value": 20,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Yagoodz Hahaha",
-          "value": 20,
-          "kills_today": 0,
-          "kills_week": 12
         },
         {
           "name": "Yagoodz Arrogante",
@@ -7285,17 +7292,17 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 00:00 (Brasília)",
-    "kills_total": 1013,
+    "updated_at": "02/07/2026 às 00:04 (Brasília)",
+    "kills_total": 1014,
     "deaths_total": 1057,
-    "kills_today": 2,
+    "kills_today": 3,
     "deaths_today": 3,
-    "kills_week": 109,
+    "kills_week": 110,
     "deaths_week": 88,
     "kd_total": 0.96,
-    "kd_today": 0.67,
-    "kd_week": 1.24,
-    "streak_days": 1,
+    "kd_today": 1.0,
+    "kd_week": 1.25,
+    "streak_days": 2,
     "top_my_killers": [
       {
         "name": "Esfi Hahaha",
@@ -7382,16 +7389,16 @@
         "kills_week": 2
       },
       {
+        "name": "Yagoodz Hahaha",
+        "kills": 21,
+        "kills_today": 1,
+        "kills_week": 13
+      },
+      {
         "name": "Jotabringer",
         "kills": 20,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Yagoodz Hahaha",
-        "kills": 20,
-        "kills_today": 0,
-        "kills_week": 12
       },
       {
         "name": "Yagoodz Arrogante",
@@ -7993,7 +8000,7 @@
       ],
       [
         "Calveludo",
-        32
+        33
       ],
       [
         "Maguinn Returns",
@@ -17965,6 +17972,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 02, 2026 00:03",
+        "player": "Calveludo",
+        "level": 2033,
+        "killedBy": "Yagoodz Hahaha",
+        "maiorDano": "Gizao",
         "world": "Baiak",
         "isPvp": true
       },
@@ -28012,7 +28028,7 @@
         "Teylera Rp": 56,
         "Vinizerah On Amonot": 31,
         "Achilles": 18,
-        "Adolph Healer": 9,
+        "Adolph Healer": 10,
         "Affey": 25,
         "Alba Baiakeiro": 50,
         "Apreciador De Casadas": 37,
@@ -44752,7 +44768,7 @@
           "Teylera Rp": 56,
           "Vinizerah On Amonot": 31,
           "Achilles": 18,
-          "Adolph Healer": 9,
+          "Adolph Healer": 10,
           "Affey": 25,
           "Alba Baiakeiro": 50,
           "Apreciador De Casadas": 37,
@@ -50963,6 +50979,13 @@
           "gained": 1,
           "timestamp": "01/07/2026 às 23:42 (Brasília)",
           "hour_key": "2026-07-01-23"
+        },
+        {
+          "name": "Adolph Healer",
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 00:04 (Brasília)",
+          "hour_key": "2026-07-02-00"
         }
       ]
     },
@@ -63578,58 +63601,58 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Donte",
-        "Deruz",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
-        "Lula",
-        "Papumzada",
-        "Old Jovizera",
-        "We Edz",
-        "Total Security",
-        "Cuffy Dido",
-        "Lee Br",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
-        "Giga",
-        "Wake Wake",
         "Ehotk",
-        "Ragekemi"
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
+        "Dont Bica",
+        "Pittao teensina",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Deruz",
+        "Ragekemi",
+        "Papumzada",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Lee Br",
+        "Donte",
+        "Total Security",
+        "Incrivel Monk",
+        "Boltadao",
+        "Old Jovizera",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "We Edz"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Donte",
-        "Deruz",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Feijao Baiakeironato",
-        "Lula",
-        "Papumzada",
-        "Old Jovizera",
-        "We Edz",
-        "Total Security",
-        "Cuffy Dido",
-        "Lee Br",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
-        "Giga",
-        "Wake Wake",
         "Ehotk",
-        "Ragekemi"
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
+        "Dont Bica",
+        "Pittao teensina",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Deruz",
+        "Ragekemi",
+        "Papumzada",
+        "Calveludo",
+        "Feijao Baiakeironato",
+        "Lee Br",
+        "Donte",
+        "Total Security",
+        "Incrivel Monk",
+        "Boltadao",
+        "Old Jovizera",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "We Edz"
       ],
       "hunted": {
         "Leogolas": {
@@ -64289,12 +64312,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2845,
-      "resets_today": 4,
+      "total_current": 2846,
+      "resets_today": 5,
       "resets_week": 146,
       "resets_month": 0,
       "resets_lifetime": 160,
-      "avg_per_player": 28.4
+      "avg_per_player": 28.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
