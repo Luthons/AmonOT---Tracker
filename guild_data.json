@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 15:26 (Brasília)",
+  "updated_at": "03/07/2026 às 15:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -3243,7 +3243,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 2000,
+      "level": 1998,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5779,12 +5779,6 @@
           "online": true
         },
         {
-          "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -5813,6 +5807,12 @@
           "value": 1998,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Esfi Hahaha",
@@ -6586,9 +6586,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 246,
-          "kills_today": 2,
-          "kills_week": 2
+          "value": 247,
+          "kills_today": 3,
+          "kills_week": 3
         },
         {
           "name": "Poring",
@@ -6920,16 +6920,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 15:26 (Brasília)",
+    "updated_at": "03/07/2026 às 15:27 (Brasília)",
     "kills_total": 1045,
-    "deaths_total": 1090,
+    "deaths_total": 1091,
     "kills_today": 17,
-    "deaths_today": 25,
+    "deaths_today": 26,
     "kills_week": 108,
-    "deaths_week": 96,
+    "deaths_week": 97,
     "kd_total": 0.96,
-    "kd_today": 0.68,
-    "kd_week": 1.12,
+    "kd_today": 0.65,
+    "kd_week": 1.11,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7230,9 +7230,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 246,
-        "kills_today": 2,
-        "kills_week": 2
+        "kills": 247,
+        "kills_today": 3,
+        "kills_week": 3
       },
       {
         "name": "Poring",
@@ -7589,11 +7589,11 @@
         33
       ],
       [
-        "Punish Claude",
-        32
+        "Pally Tetss",
+        33
       ],
       [
-        "Pally Tetss",
+        "Punish Claude",
         32
       ],
       [
@@ -27335,6 +27335,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 15:26",
+        "player": "Pally Tetss",
+        "level": 2000,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 15:18",
         "player": "Dmonick",
         "level": 2000,
@@ -27868,6 +27877,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 15:26",
+      "player": "Pally Tetss",
+      "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 15:18",
       "player": "Dmonick",
@@ -61747,27 +61765,27 @@
     },
     "members": {
       "last_member_list": [
+        "Dont Bica",
         "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Nao Eh Poring",
         "Pittao teensina",
-        "Lee Br",
         "Donte",
-        "Ehotk",
-        "Calveludo",
-        "We Edz",
         "Giga",
-        "Deruz",
-        "Ragekemi",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Lula",
-        "Old Jovizera",
-        "Boltadao",
+        "We Edz",
+        "Cuffy Dido",
         "Total Security",
-        "Dont Bica"
+        "Lula",
+        "Wake Wake",
+        "Ehotk",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Boltadao",
+        "Papumzada",
+        "Calveludo",
+        "Deruz",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
+        "Ragekemi"
       ],
       "changes_log": [
         {
@@ -61800,27 +61818,27 @@
     },
     "hunted": {
       "last_enemy_list": [
+        "Dont Bica",
         "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Nao Eh Poring",
         "Pittao teensina",
-        "Lee Br",
         "Donte",
-        "Ehotk",
-        "Calveludo",
-        "We Edz",
         "Giga",
-        "Deruz",
-        "Ragekemi",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Lula",
-        "Old Jovizera",
-        "Boltadao",
+        "We Edz",
+        "Cuffy Dido",
         "Total Security",
-        "Dont Bica"
+        "Lula",
+        "Wake Wake",
+        "Ehotk",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Boltadao",
+        "Papumzada",
+        "Calveludo",
+        "Deruz",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
+        "Ragekemi"
       ],
       "hunted": {
         "Leogolas": {
