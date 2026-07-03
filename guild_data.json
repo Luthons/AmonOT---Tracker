@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 17:03 (Brasília)",
+  "updated_at": "03/07/2026 às 17:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 98,
-  "online_count": 55,
+  "total_members": 99,
+  "online_count": 56,
   "offline_count": 43,
   "members": [
     {
@@ -2025,6 +2025,16 @@
           "timestamp": "02/07/2026 às 23:05 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Jhonnys Trembolizado",
+      "level": 1419,
+      "resets": 76,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Kaus Magj",
@@ -4476,7 +4486,7 @@
         },
         {
           "name": "Nao Eh Poring",
-          "level": 1995,
+          "level": 1994,
           "resets": 80,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5100,6 +5110,12 @@
       "name": "Resets",
       "val_label": "Resets",
       "entries": [
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 76,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
         {
           "name": "Yagoodz Hahaha",
           "value": 69,
@@ -5899,6 +5915,12 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1419,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ed farm",
           "value": 1406,
           "vocation": "Elder Druid",
@@ -6352,9 +6374,9 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 30,
-          "kills_today": 9,
-          "kills_week": 21
+          "value": 31,
+          "kills_today": 10,
+          "kills_week": 22
         },
         {
           "name": "Parkert",
@@ -6577,6 +6599,12 @@
           "value": 1,
           "kills_today": 0,
           "kills_week": 0
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 1,
+          "kills_today": 1,
+          "kills_week": 1
         }
       ]
     },
@@ -6586,9 +6614,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 257,
-          "kills_today": 13,
-          "kills_week": 13
+          "value": 266,
+          "kills_today": 22,
+          "kills_week": 22
         },
         {
           "name": "Poring",
@@ -6646,9 +6674,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 31,
-          "kills_today": 8,
-          "kills_week": 31
+          "value": 32,
+          "kills_today": 9,
+          "kills_week": 32
         },
         {
           "name": "We Edz",
@@ -6920,16 +6948,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 17:03 (Brasília)",
-    "kills_total": 1065,
-    "deaths_total": 1104,
-    "kills_today": 37,
-    "deaths_today": 39,
-    "kills_week": 128,
-    "deaths_week": 110,
+    "updated_at": "03/07/2026 às 17:04 (Brasília)",
+    "kills_total": 1067,
+    "deaths_total": 1114,
+    "kills_today": 39,
+    "deaths_today": 49,
+    "kills_week": 130,
+    "deaths_week": 120,
     "kd_total": 0.96,
-    "kd_today": 0.95,
-    "kd_week": 1.16,
+    "kd_today": 0.8,
+    "kd_week": 1.08,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7000,9 +7028,9 @@
       },
       {
         "name": "Yagoodz Hahaha",
-        "kills": 30,
-        "kills_today": 9,
-        "kills_week": 21
+        "kills": 31,
+        "kills_today": 10,
+        "kills_week": 22
       },
       {
         "name": "Parkert",
@@ -7225,14 +7253,20 @@
         "kills": 1,
         "kills_today": 0,
         "kills_week": 0
+      },
+      {
+        "name": "Jhonnys Trembolizado",
+        "kills": 1,
+        "kills_today": 1,
+        "kills_week": 1
       }
     ],
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 257,
-        "kills_today": 13,
-        "kills_week": 13
+        "kills": 266,
+        "kills_today": 22,
+        "kills_week": 22
       },
       {
         "name": "Poring",
@@ -7290,9 +7324,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 31,
-        "kills_today": 8,
-        "kills_week": 31
+        "kills": 32,
+        "kills_today": 9,
+        "kills_week": 32
       },
       {
         "name": "We Edz",
@@ -17613,6 +17647,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 17:03",
+        "player": "Papumzada",
+        "level": 528,
+        "killedBy": "Yagoodz Hahaha",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 17:02",
         "player": "Papumzada",
         "level": 529,
@@ -17662,6 +17705,15 @@
         "player": "Papumzada",
         "level": 530,
         "killedBy": "Yagoodz Hahaha",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 17:00",
+        "player": "Ehotk",
+        "level": 1998,
+        "killedBy": "Jhonnys Trembolizado",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -27560,6 +27612,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 16:57",
+        "player": "Jhonnys Trembolizado",
+        "level": 1420,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "Ehotk",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 16:56",
         "player": "Teylera Rp",
         "level": 1713,
@@ -27581,6 +27642,33 @@
         "time": "Jul 03, 2026 16:47",
         "player": "Esfi Hahaha",
         "level": 1997,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 16:40",
+        "player": "Jhonnys Trembolizado",
+        "level": 1419,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 16:06",
+        "player": "Jhonnys Trembolizado",
+        "level": 1410,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 16:02",
+        "player": "Jhonnys Trembolizado",
+        "level": 1410,
         "killedBy": "Ehotk",
         "maiorDano": "",
         "world": "Baiak",
@@ -27641,6 +27729,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 15:19",
+        "player": "Jhonnys Trembolizado",
+        "level": 1396,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 15:18",
         "player": "Dmonick",
         "level": 2000,
@@ -27650,9 +27747,54 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 15:06",
+        "player": "Jhonnys Trembolizado",
+        "level": 1394,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 15:01",
+        "player": "Jhonnys Trembolizado",
+        "level": 1395,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 14:57",
+        "player": "Jhonnys Trembolizado",
+        "level": 1395,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 14:52",
+        "player": "Jhonnys Trembolizado",
+        "level": 1396,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 14:51",
         "player": "Yagoodz Hahaha",
         "level": 2000,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 14:49",
+        "player": "Jhonnys Trembolizado",
+        "level": 1396,
         "killedBy": "Ehotk",
         "maiorDano": "",
         "world": "Baiak",
@@ -28220,6 +28362,15 @@
       "isPvp": true
     },
     {
+      "time": "Jul 03, 2026 16:57",
+      "player": "Jhonnys Trembolizado",
+      "level": 1420,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 03, 2026 16:56",
       "player": "Teylera Rp",
       "level": 1713,
@@ -28241,6 +28392,33 @@
       "time": "Jul 03, 2026 16:47",
       "player": "Esfi Hahaha",
       "level": 1997,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:40",
+      "player": "Jhonnys Trembolizado",
+      "level": 1419,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:06",
+      "player": "Jhonnys Trembolizado",
+      "level": 1410,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:02",
+      "player": "Jhonnys Trembolizado",
+      "level": 1410,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
@@ -28301,6 +28479,15 @@
       "isPvp": true
     },
     {
+      "time": "Jul 03, 2026 15:19",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 03, 2026 15:18",
       "player": "Dmonick",
       "level": 2000,
@@ -28310,9 +28497,54 @@
       "isPvp": true
     },
     {
+      "time": "Jul 03, 2026 15:06",
+      "player": "Jhonnys Trembolizado",
+      "level": 1394,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:01",
+      "player": "Jhonnys Trembolizado",
+      "level": 1395,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:57",
+      "player": "Jhonnys Trembolizado",
+      "level": 1395,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:52",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 03, 2026 14:51",
       "player": "Yagoodz Hahaha",
       "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:49",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
       "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
@@ -28646,6 +28878,7 @@
         "Heroes Baiak": 28,
         "Imperador Ek": 18,
         "Its Gui": 36,
+        "Jhonnys Trembolizado": 76,
         "Kaus Magj": 5,
         "Kev": 23,
         "Kiel": 59,
@@ -45690,6 +45923,7 @@
           "Heroes Baiak": 28,
           "Imperador Ek": 18,
           "Its Gui": 36,
+          "Jhonnys Trembolizado": 76,
           "Kaus Magj": 5,
           "Kev": 23,
           "Kiel": 59,
@@ -62036,27 +62270,27 @@
     },
     "members": {
       "last_member_list": [
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Total Security",
         "Ehotk",
         "Nao Eh Poring",
-        "Giga",
-        "Lee Br",
-        "Total Security",
         "Deruz",
-        "Lula",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Ragekemi",
-        "Boltadao",
-        "Donte",
-        "Papumzada",
-        "Pittao teensina",
-        "Calveludo",
         "We Edz",
-        "JhonzinMilgrau"
+        "Boltadao",
+        "Wake Wake",
+        "Old Jovizera",
+        "Calveludo",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Donte",
+        "Pittao teensina",
+        "Lee Br",
+        "Ragekemi",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Dont Bica"
       ],
       "changes_log": [
         {
@@ -62089,27 +62323,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
+        "Papumzada",
+        "Total Security",
         "Ehotk",
         "Nao Eh Poring",
-        "Giga",
-        "Lee Br",
-        "Total Security",
         "Deruz",
-        "Lula",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Wake Wake",
-        "Arroz Cadela",
-        "Ragekemi",
-        "Boltadao",
-        "Donte",
-        "Papumzada",
-        "Pittao teensina",
-        "Calveludo",
         "We Edz",
-        "JhonzinMilgrau"
+        "Boltadao",
+        "Wake Wake",
+        "Old Jovizera",
+        "Calveludo",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "JhonzinMilgrau",
+        "Donte",
+        "Pittao teensina",
+        "Lee Br",
+        "Ragekemi",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Dont Bica"
       ],
       "hunted": {
         "Leogolas": {
@@ -62768,13 +63002,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 98,
-      "total_current": 2838,
+      "num_members": 99,
+      "total_current": 2914,
       "resets_today": 20,
       "resets_week": 167,
       "resets_month": 0,
       "resets_lifetime": 161,
-      "avg_per_player": 29.0
+      "avg_per_player": 29.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
