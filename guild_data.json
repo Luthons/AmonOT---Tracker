@@ -1,25 +1,6331 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 19:53 (Brasília)",
+  "updated_at": "03/07/2026 às 19:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 0,
-  "online_count": 0,
-  "offline_count": 0,
-  "members": [],
-  "enemy_guilds": [],
-  "resets_today": [],
-  "enemy_resets_today": [],
+  "total_members": 100,
+  "online_count": 56,
+  "offline_count": 44,
+  "members": [
+    {
+      "name": "Esfi Hahaha",
+      "level": 2000,
+      "resets": 58,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 22:39 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 02:14 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 02:47 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 09:56 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 01:42 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 18:31 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 08:31 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 00:55 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Gizao",
+      "level": 1093,
+      "resets": 54,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 17:16 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 14:46 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 21:27 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 23:34 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 12:37 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 23:14 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 17:52 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 15:05 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 21:12 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 23:58 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 22:16 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 20:08 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 10:53 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 23:38 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 11:22 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 11:16 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 00:46 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 23:49 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 01:07 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 17:20 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 23:18 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 07:32 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 23:41 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 10:04 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:40 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 14:43 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Yagoodz Hahaha",
+      "level": 2000,
+      "resets": 69,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 65,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 18:54 (Brasília)"
+        },
+        {
+          "resets": 66,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 21:10 (Brasília)"
+        },
+        {
+          "resets": 67,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:59 (Brasília)"
+        },
+        {
+          "resets": 68,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 18:37 (Brasília)"
+        },
+        {
+          "resets": 69,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 04:16 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Maguinn Hahaha",
+      "level": 2006,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 03:33 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 20:26 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 23:32 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Punish Claude",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 00:03 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 10:48 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 16:54 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 23:07 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 19:36 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 08:37 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 19:34 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 20:27 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 22:28 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Teylera Rp",
+      "level": 1747,
+      "resets": 57,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 08:06 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 14:20 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 09:41 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 13:11 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 15:25 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 21:03 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 00:52 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 16:05 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 10:51 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 16:28 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 14:53 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:11 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 17:10 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:22 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 01:05 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 15:12 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Achilles",
+      "level": 2000,
+      "resets": 18,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Adolph Healer",
+      "level": 956,
+      "resets": 11,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 23:34 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 22:55 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 16:58 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 00:48 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 16:23 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 00:04 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 23:18 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Affey",
+      "level": 906,
+      "resets": 26,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 00:18 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 17:07 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 23:26 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 23:25 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 05:13 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 13:08 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 19:37 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 23:52 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 09:39 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 00:11 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 15:58 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 03:10 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:57 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 10:23 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Alba Baiakeiro",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 08:18 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 08:09 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 08:46 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:54 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 16:57 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Apreciador De Casadas",
+      "level": 1689,
+      "resets": 37,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:46 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 23:40 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 13:44 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 10:38 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 21:56 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 23:44 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 01:01 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 16:29 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 18:21 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 22:43 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 10:15 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 09:47 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Apreciador On Amonot",
+      "level": 909,
+      "resets": 3,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 1,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 13:22 (Brasília)"
+        },
+        {
+          "resets": 2,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 18:24 (Brasília)"
+        },
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 09:13 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Baduff",
+      "level": 1997,
+      "resets": 30,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 06:39 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 10:36 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 14:46 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 13:23 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 13:29 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Baiakudinho",
+      "level": 1137,
+      "resets": 53,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Blade Winter",
+      "level": 1338,
+      "resets": 25,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 11:19 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Boingbringer",
+      "level": 2000,
+      "resets": 30,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 23:53 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Brunao Cansado",
+      "level": 853,
+      "resets": 5,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Brunao Rei Denovo",
+      "level": 2000,
+      "resets": 30,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Brunaobringer",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 19:49 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Campin",
+      "level": 888,
+      "resets": 7,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Cerebro",
+      "level": 1447,
+      "resets": 49,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 08:27 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 15:13 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 05:50 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 12:46 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 00:26 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:27 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 19:43 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:07 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:33 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 16:01 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Charles",
+      "level": 1449,
+      "resets": 26,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 00:03 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 22:01 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Cheiro Dpneu",
+      "level": 1074,
+      "resets": 34,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:59 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 01:56 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:31 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 21:42 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:36 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 13:49 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 11:32 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 14:52 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 07:31 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 10:11 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 02:29 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Chissalada",
+      "level": 774,
+      "resets": 13,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Deca com Testo",
+      "level": 2000,
+      "resets": 32,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Diegao Barba",
+      "level": 949,
+      "resets": 50,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 10:25 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 12:02 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 14:10 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 21:08 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 00:35 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 12:36 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 23:39 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 10:42 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:14 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:35 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 11:50 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 22:24 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:24 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 15:11 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 23:29 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 11:18 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:32 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 22:48 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 09:48 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 13:53 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Dmonick",
+      "level": 1995,
+      "resets": 50,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 18:43 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 00:16 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 10:58 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 08:35 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 11:10 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 09:16 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 11:09 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 17:22 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 21:20 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 23:50 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 15:11 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 22:48 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 23:33 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 10:55 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 19:16 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 11:23 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 15:55 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 08:36 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 14:24 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 08:48 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 10:31 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Dorfeus",
+      "level": 836,
+      "resets": 5,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Dreenho Baiakeiro",
+      "level": 1370,
+      "resets": 40,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 14:25 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 19:01 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 10:57 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 22:22 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 17:17 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 09:29 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 22:10 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 06:37 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Drizinha",
+      "level": 851,
+      "resets": 0,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Ed farm",
+      "level": 1406,
+      "resets": 47,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 12:30 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 02:20 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 00:19 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 21:56 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 22:14 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 23:06 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 18:13 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 23:22 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 02:02 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 22:47 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:23 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 23:23 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Elder Lougon",
+      "level": 888,
+      "resets": 15,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 07:56 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 22:41 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 10:24 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Elder Luthons",
+      "level": 733,
+      "resets": 13,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 08:38 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 22:26 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 09:22 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 10:18 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 08:24 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Elio Nervous",
+      "level": 826,
+      "resets": 23,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:11 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 19:05 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 18:43 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 22:38 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 12:43 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 22:53 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 21:41 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 23:14 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 18:35 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 18:08 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:55 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 19:05 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 21:04 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "End Zeus",
+      "level": 2000,
+      "resets": 36,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 19:24 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 13:03 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 23:36 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:22 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Erva Doce",
+      "level": 925,
+      "resets": 4,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Friedrich Merz",
+      "level": 2000,
+      "resets": 62,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Garuvuvinha",
+      "level": 1088,
+      "resets": 46,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 23:21 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 07:32 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 16:13 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 07:40 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 07:44 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 07:18 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Geladeira Quinz Porta",
+      "level": 627,
+      "resets": 6,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 16:43 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 22:47 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:42 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Gokuu",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 08:06 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 19:14 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 20:27 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 14:52 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 10:18 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 11:08 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 16:59 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 23:21 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 12:57 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 22:25 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 23:52 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 00:35 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 16:41 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 09:53 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 22:17 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 14:59 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 00:37 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 21:35 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 08:32 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Guidao Palao",
+      "level": 929,
+      "resets": 44,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 11:26 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 00:04 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 11:37 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 13:07 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 23:42 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 14:34 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 14:50 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 09:53 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 11:10 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 23:39 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 12:34 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 11:31 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 21:06 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 10:27 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 00:59 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 20:16 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 21:26 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 23:28 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 15:44 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 00:09 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 11:33 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 22:47 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 11:34 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:24 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Hao Asakura",
+      "level": 919,
+      "resets": 32,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 14:59 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 10:02 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 18:36 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 15:03 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 16:04 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 10:50 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 10:19 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 17:14 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 10:09 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 17:33 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 13:43 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 19:20 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 03:32 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 11:38 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 10:59 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Henrique",
+      "level": 1391,
+      "resets": 52,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 10:57 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:13 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Heroes Baiak",
+      "level": 951,
+      "resets": 28,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 13:34 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 13:49 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 18:36 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 14:42 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 20:40 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 15:02 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 12:24 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 11:47 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Imperador Ek",
+      "level": 1998,
+      "resets": 18,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Its Gui",
+      "level": 1157,
+      "resets": 36,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 21:43 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 23:05 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Jhonnys Trembolizado",
+      "level": 1460,
+      "resets": 76,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Kaus Magj",
+      "level": 822,
+      "resets": 5,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Kev",
+      "level": 8,
+      "resets": 24,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:12 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 23:13 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 23:19 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 17:59 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 06:52 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 22:44 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 22:43 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:43 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 20:04 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 22:52 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 23:42 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 20:01 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 19:47 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Kiel",
+      "level": 1505,
+      "resets": 59,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 10:06 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 00:08 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 08:59 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 01:50 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 01:08 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 01:49 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 06:10 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 09:12 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 23:42 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "King Suino",
+      "level": 1029,
+      "resets": 5,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:25 (Brasília)"
+        },
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 00:01 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 01:43 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Kolwaski",
+      "level": 1243,
+      "resets": 43,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 09:25 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 12:35 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:01 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 09:51 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:19 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Lilian Faithkeeper",
+      "level": 606,
+      "resets": 28,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 08:17 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 12:44 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 15:09 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 10:16 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 09:53 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 18:19 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 12:52 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 10:39 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 23:49 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:29 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 17:32 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 21:47 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 13:38 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Lipe Knight",
+      "level": 1031,
+      "resets": 45,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 19:16 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 20:50 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:10 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 21:54 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 23:37 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 01:04 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 01:25 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 00:31 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 01:10 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 01:04 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 21:48 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 00:46 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Ljxiv",
+      "level": 1055,
+      "resets": 27,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 22:03 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 05:25 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 21:44 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Loke",
+      "level": 2000,
+      "resets": 53,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 12:21 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 14:59 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:51 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 13:06 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 16:18 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 16:49 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 07:44 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 11:59 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 13:38 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 15:18 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Lotus Lothbrook",
+      "level": 1039,
+      "resets": 28,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 18:47 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 09:26 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 08:33 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 11:01 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 18:11 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 07:33 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 09:23 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 18:20 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:19 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 10:27 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 12:55 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Lougon Baiakeiro",
+      "level": 1328,
+      "resets": 30,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 22:18 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 13:56 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:11 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 09:17 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:42 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 07:21 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 19:07 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Lukitas Brokenzada",
+      "level": 1444,
+      "resets": 40,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 11:09 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 11:40 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 12:01 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 08:52 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 19:52 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 18:04 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 17:13 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 06:33 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 09:54 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 20:23 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 18:10 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Magabela",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 07:44 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 08:06 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 15:17 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:20 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 09:13 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 22:02 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 09:33 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 15:25 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 08:20 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 10:31 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 16:31 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 07:32 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 00:11 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 16:29 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:36 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 20:39 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 22:23 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Makasco Ms",
+      "level": 700,
+      "resets": 2,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Melbiss",
+      "level": 1872,
+      "resets": 41,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 07:01 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 18:13 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 07:41 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 13:18 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 23:50 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:11 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 07:36 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Monstro Das Criptos",
+      "level": 1079,
+      "resets": 51,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 16:53 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 12:25 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 16:24 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 19:40 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 12:36 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 21:33 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 15:02 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 17:53 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 16:04 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 03:29 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 18:35 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:02 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:01 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:40 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:11 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "More Knox",
+      "level": 1072,
+      "resets": 7,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 13:39 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 20:54 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Moskito",
+      "level": 1058,
+      "resets": 23,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 00:32 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 00:13 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 23:46 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 13:54 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 11:12 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Mu Baiakeiro",
+      "level": 1252,
+      "resets": 10,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 00:10 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 20:13 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 16:14 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 19:29 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Mu Kina",
+      "level": 1379,
+      "resets": 26,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 17:31 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 22:20 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:54 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 08:13 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 07:38 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 18:38 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 07:41 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Nagato Sorcerer",
+      "level": 898,
+      "resets": 27,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 22:36 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:20 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 23:36 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 22:51 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 12:36 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 23:48 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 22:40 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 15:38 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 14:22 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 22:47 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 17:50 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 23:56 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 10:59 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 18:07 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:09 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 09:57 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 23:38 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Owsborn",
+      "level": 1055,
+      "resets": 34,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 09:31 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 15:16 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 23:27 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 12:23 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 12:35 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 11:10 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 15:16 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 11:40 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 22:44 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 10:07 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 22:42 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 22:20 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 17:58 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 00:01 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 09:31 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "19/06/2026 às 16:07 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 16:02 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 20:44 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 12:55 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 18:32 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 23:36 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 11:54 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 19:40 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:29 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:53 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Pally Tetss",
+      "level": 2000,
+      "resets": 55,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 02:37 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 13:56 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 09:40 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 10:42 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 10:48 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 08:21 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 21:52 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 15:06 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 10:24 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 19:05 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:51 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 14:55 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 08:05 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 22:48 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 21:39 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 21:49 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 22:20 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 14:02 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 13:16 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 17:51 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 10:59 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 10:01 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Patrick",
+      "level": 955,
+      "resets": 10,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 2,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:23 (Brasília)"
+        },
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 20:21 (Brasília)"
+        },
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 10:04 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 12:58 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 20:48 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 17:42 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 08:27 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 08:29 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 08:35 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Pestinha",
+      "level": 1092,
+      "resets": 30,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 13:42 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 08:57 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 16:29 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 10:29 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 08:34 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 10:42 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 09:55 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 17:01 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 14:50 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 08:38 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 16:08 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Primobolan e Trembo",
+      "level": 1218,
+      "resets": 12,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Rafa Baguncinha",
+      "level": 1997,
+      "resets": 29,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Red Hahaha",
+      "level": 1362,
+      "resets": 25,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 11:17 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:19 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 23:28 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 19:13 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Ritoff Elite",
+      "level": 1563,
+      "resets": 31,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 16:51 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 11:04 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 12:28 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 08:31 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Roginho",
+      "level": 808,
+      "resets": 32,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 05:34 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Royal Luthons",
+      "level": 1029,
+      "resets": 46,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:10 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 16:25 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 20:09 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 20:58 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 10:19 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 19:52 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 01:04 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:42 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 10:21 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 18:14 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 08:54 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 22:50 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 15:41 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 10:16 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 17:47 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 18:02 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 21:19 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Rp Terror",
+      "level": 2000,
+      "resets": 33,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 17:22 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 14:43 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 15:33 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 23:59 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 03:46 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 01:36 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Rusha Rp",
+      "level": 904,
+      "resets": 50,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 10:37 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 09:16 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 22:25 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 15:49 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 14:07 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 10:42 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 14:31 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 12:19 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 10:01 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 23:56 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 18:05 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 17:41 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 16:47 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 00:39 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 10:28 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Sabour Ms",
+      "level": 915,
+      "resets": 10,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Sisen",
+      "level": 744,
+      "resets": 13,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 23:27 (Brasília)"
+        },
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 09:53 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 23:20 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 09:41 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 01:58 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 12:11 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "18/06/2026 às 23:18 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 13:01 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 18:16 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 15:26 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:31 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Solarica",
+      "level": 963,
+      "resets": 4,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 17:19 (Brasília)"
+        },
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 10:46 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Sonzacrazy",
+      "level": 967,
+      "resets": 7,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Taka e Cura",
+      "level": 823,
+      "resets": 8,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Timeless",
+      "level": 802,
+      "resets": 4,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 23:22 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Tio Bringer",
+      "level": 1425,
+      "resets": 26,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 11:51 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 15:25 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "11/06/2026 às 14:05 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 22:29 (Brasília)"
+        },
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "26/06/2026 às 12:50 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Tsuru",
+      "level": 879,
+      "resets": 32,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 16:28 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "06/06/2026 às 21:47 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "07/06/2026 às 15:02 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 12:31 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 22:34 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 11:29 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 18:58 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Warrior",
+      "level": 2000,
+      "resets": 25,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Vinizerah On Amonot",
+      "level": 1441,
+      "resets": 31,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 10:17 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 02:12 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Vitao The Monster",
+      "level": 731,
+      "resets": 2,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Vitao The Trader",
+      "level": 2000,
+      "resets": 20,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "09/06/2026 às 16:25 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Voldemort Ed",
+      "level": 940,
+      "resets": 11,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "08/06/2026 às 02:43 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 19:37 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 19:32 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 14:46 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 13:06 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:52 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Voldemort Ms",
+      "level": 965,
+      "resets": 4,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 1,
+          "gained": 1,
+          "timestamp": "13/06/2026 às 10:16 (Brasília)"
+        },
+        {
+          "resets": 2,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 05:21 (Brasília)"
+        },
+        {
+          "resets": 3,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 15:57 (Brasília)"
+        },
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 16:18 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "VukVuk",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 01:16 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 18:14 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 23:12 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "04/06/2026 às 14:24 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 00:33 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "05/06/2026 às 15:50 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "White",
+      "level": 641,
+      "resets": 2,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Xeipe",
+      "level": 1374,
+      "resets": 25,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 06:50 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 21:39 (Brasília)"
+        },
+        {
+          "resets": 21,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 21:41 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 04:24 (Brasília)"
+        },
+        {
+          "resets": 23,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 11:12 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 12:23 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 13:36 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Ynhaca Purah",
+      "level": 1660,
+      "resets": 53,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "10/06/2026 às 10:40 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "12/06/2026 às 08:37 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "14/06/2026 às 02:46 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "15/06/2026 às 08:16 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "16/06/2026 às 09:09 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "17/06/2026 às 20:41 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 21:16 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "28/06/2026 às 10:50 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 04:40 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Zap Seco",
+      "level": 997,
+      "resets": 19,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 4,
+          "gained": 1,
+          "timestamp": "20/06/2026 às 23:51 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "21/06/2026 às 23:17 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "22/06/2026 às 17:14 (Brasília)"
+        },
+        {
+          "resets": 7,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 16:34 (Brasília)"
+        },
+        {
+          "resets": 8,
+          "gained": 1,
+          "timestamp": "23/06/2026 às 23:29 (Brasília)"
+        },
+        {
+          "resets": 9,
+          "gained": 1,
+          "timestamp": "24/06/2026 às 23:24 (Brasília)"
+        },
+        {
+          "resets": 10,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 19:41 (Brasília)"
+        },
+        {
+          "resets": 11,
+          "gained": 1,
+          "timestamp": "25/06/2026 às 23:25 (Brasília)"
+        },
+        {
+          "resets": 12,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 11:01 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 22:46 (Brasília)"
+        },
+        {
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 10:31 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "30/06/2026 às 23:07 (Brasília)"
+        },
+        {
+          "resets": 16,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 14:50 (Brasília)"
+        },
+        {
+          "resets": 17,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 22:52 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 22:56 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Zenith",
+      "level": 825,
+      "resets": 11,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    }
+  ],
+  "enemy_guilds": [
+    {
+      "name": "Old Legacy",
+      "total_members": 21,
+      "online_count": 14,
+      "offline_count": 7,
+      "members": [
+        {
+          "name": "Ehotk",
+          "level": 2000,
+          "resets": 77,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Lee Br",
+          "level": 1610,
+          "resets": 41,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Ragekemi",
+          "level": 1589,
+          "resets": 29,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "We Edz",
+          "level": 1811,
+          "resets": 40,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Arroz Cadela",
+          "level": 1788,
+          "resets": 33,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Cetoprofeno Intramuscular",
+          "level": 1686,
+          "resets": 60,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Dont Bica",
+          "level": 1606,
+          "resets": 21,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Nao Eh Poring",
+          "level": 2000,
+          "resets": 80,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Papumzada",
+          "level": 771,
+          "resets": 26,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Boltadao",
+          "level": 1332,
+          "resets": 25,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Calveludo",
+          "level": 1117,
+          "resets": 40,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Cuffy Dido",
+          "level": 1109,
+          "resets": 33,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Deruz",
+          "level": 1557,
+          "resets": 41,
+          "vocation": "Elite Knight",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Donte",
+          "level": 1991,
+          "resets": 27,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Giga",
+          "level": 1823,
+          "resets": 30,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "JhonzinMilgrau",
+          "level": 1683,
+          "resets": 26,
+          "vocation": "Elder Druid",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Lula",
+          "level": 1752,
+          "resets": 52,
+          "vocation": "Exalted Monk",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        },
+        {
+          "name": "Old Jovizera",
+          "level": 8,
+          "resets": 40,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Pittao teensina",
+          "level": 1558,
+          "resets": 45,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Total Security",
+          "level": 846,
+          "resets": 14,
+          "vocation": "Master Sorcerer",
+          "nick": "",
+          "rank": "Member",
+          "online": true
+        },
+        {
+          "name": "Wake Wake",
+          "level": 1089,
+          "resets": 31,
+          "vocation": "Royal Paladin",
+          "nick": "",
+          "rank": "Member",
+          "online": false
+        }
+      ]
+    }
+  ],
+  "resets_today": [
+    {
+      "name": "Diegao Barba",
+      "resets_total": 50,
+      "resets_today": 2,
+      "resets_week": 16,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Rusha Rp",
+      "resets_total": 50,
+      "resets_today": 2,
+      "resets_week": 9,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Gizao",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Adolph Healer",
+      "resets_total": 11,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Affey",
+      "resets_total": 26,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Cheiro Dpneu",
+      "resets_total": 34,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Elder Lougon",
+      "resets_total": 15,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Garuvuvinha",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Guidao Palao",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Its Gui",
+      "resets_total": 36,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Kev",
+      "resets_total": 24,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Kiel",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "King Suino",
+      "resets_total": 5,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Lipe Knight",
+      "resets_total": 45,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Monstro Das Criptos",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Nagato Sorcerer",
+      "resets_total": 27,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Roginho",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Sisen",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Esfi Hahaha",
+      "resets_total": 58,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Yagoodz Hahaha",
+      "resets_total": 69,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Teylera Rp",
+      "resets_total": 57,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Alba Baiakeiro",
+      "resets_total": 50,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Cerebro",
+      "resets_total": 49,
+      "resets_today": 0,
+      "resets_week": 6,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Dreenho Baiakeiro",
+      "resets_total": 40,
+      "resets_today": 0,
+      "resets_week": 7,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Ed farm",
+      "resets_total": 47,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Hao Asakura",
+      "resets_total": 32,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Henrique",
+      "resets_total": 52,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Heroes Baiak",
+      "resets_total": 28,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Kolwaski",
+      "resets_total": 43,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Ljxiv",
+      "resets_total": 27,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Loke",
+      "resets_total": 53,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Lotus Lothbrook",
+      "resets_total": 28,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Lougon Baiakeiro",
+      "resets_total": 30,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Magabela",
+      "resets_total": 50,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Melbiss",
+      "resets_total": 41,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Moskito",
+      "resets_total": 23,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Mu Baiakeiro",
+      "resets_total": 10,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Mu Kina",
+      "resets_total": 26,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Owsborn",
+      "resets_total": 34,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Pally Tetss",
+      "resets_total": 55,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Pestinha",
+      "resets_total": 30,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Royal Luthons",
+      "resets_total": 46,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Timeless",
+      "resets_total": 4,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
+      "name": "Voldemort Ed",
+      "resets_total": 11,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Voldemort Ms",
+      "resets_total": 4,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
+      "name": "Xeipe",
+      "resets_total": 25,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Ynhaca Purah",
+      "resets_total": 53,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Zap Seco",
+      "resets_total": 19,
+      "resets_today": 0,
+      "resets_week": 8,
+      "vocation": "Master Sorcerer",
+      "online": true
+    }
+  ],
+  "enemy_resets_today": [
+    {
+      "name": "Papumzada",
+      "resets_total": 26,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Calveludo",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Old Jovizera",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Total Security",
+      "resets_total": 14,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Lee Br",
+      "resets_total": 41,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "We Edz",
+      "resets_total": 40,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "Arroz Cadela",
+      "resets_total": 33,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Cetoprofeno Intramuscular",
+      "resets_total": 60,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Cuffy Dido",
+      "resets_total": 33,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Deruz",
+      "resets_total": 41,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Lula",
+      "resets_total": 52,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Exalted Monk",
+      "online": false
+    },
+    {
+      "name": "Pittao teensina",
+      "resets_total": 45,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    }
+  ],
   "highscores": {
     "resets": {
       "name": "Resets",
       "val_label": "Resets",
-      "entries": []
+      "entries": [
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 76,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 69,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Friedrich Merz",
+          "value": 62,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Kiel",
+          "value": 59,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Esfi Hahaha",
+          "value": 58,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
+          "value": 57,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 55,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Baiakudinho",
+          "value": 53,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Loke",
+          "value": 53,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Ynhaca Purah",
+          "value": 53,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Henrique",
+          "value": 52,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "value": 51,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Maguinn Hahaha",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Punish Claude",
+          "value": 50,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Brunaobringer",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Diegao Barba",
+          "value": 50,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Dmonick",
+          "value": 50,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 50,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Magabela",
+          "value": 50,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Rusha Rp",
+          "value": 50,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "VukVuk",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Cerebro",
+          "value": 49,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Ed farm",
+          "value": 47,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Garuvuvinha",
+          "value": 46,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Royal Luthons",
+          "value": 46,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Lipe Knight",
+          "value": 45,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Guidao Palao",
+          "value": 44,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 43,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Melbiss",
+          "value": 41,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Dreenho Baiakeiro",
+          "value": 40,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Lukitas Brokenzada",
+          "value": 40,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Apreciador De Casadas",
+          "value": 37,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "End Zeus",
+          "value": 36,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Its Gui",
+          "value": 36,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "value": 34,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Owsborn",
+          "value": 34,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Rp Terror",
+          "value": 33,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Deca com Testo",
+          "value": 32,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Hao Asakura",
+          "value": 32,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Roginho",
+          "value": 32,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Tsuru",
+          "value": 32,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Ritoff Elite",
+          "value": 31,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "value": 31,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Baduff",
+          "value": 30,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Boingbringer",
+          "value": 30,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Brunao Rei Denovo",
+          "value": 30,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Lougon Baiakeiro",
+          "value": 30,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Pestinha",
+          "value": 30,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Rafa Baguncinha",
+          "value": 29,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Heroes Baiak",
+          "value": 28,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "value": 28,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "value": 28,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ljxiv",
+          "value": 27,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Nagato Sorcerer",
+          "value": 27,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Affey",
+          "value": 26,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Charles",
+          "value": 26,
+          "vocation": "Exalted Monk",
+          "online": false
+        },
+        {
+          "name": "Mu Kina",
+          "value": 26,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Tio Bringer",
+          "value": 26,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Blade Winter",
+          "value": 25,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Red Hahaha",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 25,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Xeipe",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kev",
+          "value": 24,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Elio Nervous",
+          "value": 23,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Moskito",
+          "value": 23,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Vitao The Trader",
+          "value": 20,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Zap Seco",
+          "value": 19,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Achilles",
+          "value": 18,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Imperador Ek",
+          "value": 18,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Elder Lougon",
+          "value": 15,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Chissalada",
+          "value": 13,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Elder Luthons",
+          "value": 13,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Sisen",
+          "value": 13,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Primobolan e Trembo",
+          "value": 12,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Adolph Healer",
+          "value": 11,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Voldemort Ed",
+          "value": 11,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Zenith",
+          "value": 11,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Mu Baiakeiro",
+          "value": 10,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Patrick",
+          "value": 10,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Sabour Ms",
+          "value": 10,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Taka e Cura",
+          "value": 8,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Campin",
+          "value": 7,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "More Knox",
+          "value": 7,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Sonzacrazy",
+          "value": 7,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Geladeira Quinz Porta",
+          "value": 6,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Brunao Cansado",
+          "value": 5,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Dorfeus",
+          "value": 5,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Kaus Magj",
+          "value": 5,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "King Suino",
+          "value": 5,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Erva Doce",
+          "value": 4,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Solarica",
+          "value": 4,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Timeless",
+          "value": 4,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Voldemort Ms",
+          "value": 4,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Apreciador On Amonot",
+          "value": 3,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Makasco Ms",
+          "value": 2,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Vitao The Monster",
+          "value": 2,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "White",
+          "value": 2,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Drizinha",
+          "value": 0,
+          "vocation": "Elite Knight",
+          "online": false
+        }
+      ]
     },
     "level": {
       "name": "Level",
       "val_label": "Level",
-      "entries": []
+      "entries": [
+        {
+          "name": "Maguinn Hahaha",
+          "value": 2006,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Esfi Hahaha",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Punish Claude",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Achilles",
+          "value": 2000,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Boingbringer",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Brunao Rei Denovo",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Brunaobringer",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Deca com Testo",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "End Zeus",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Friedrich Merz",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Loke",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Magabela",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Rp Terror",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Vitao The Trader",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "VukVuk",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Imperador Ek",
+          "value": 1998,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Baduff",
+          "value": 1997,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Rafa Baguncinha",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Dmonick",
+          "value": 1995,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Melbiss",
+          "value": 1872,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
+          "value": 1747,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Apreciador De Casadas",
+          "value": 1689,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ynhaca Purah",
+          "value": 1660,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Ritoff Elite",
+          "value": 1563,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Kiel",
+          "value": 1505,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 1460,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Charles",
+          "value": 1449,
+          "vocation": "Exalted Monk",
+          "online": false
+        },
+        {
+          "name": "Cerebro",
+          "value": 1447,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Lukitas Brokenzada",
+          "value": 1444,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "value": 1441,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Tio Bringer",
+          "value": 1425,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ed farm",
+          "value": 1406,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Henrique",
+          "value": 1391,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Mu Kina",
+          "value": 1379,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Xeipe",
+          "value": 1374,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Dreenho Baiakeiro",
+          "value": 1370,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Red Hahaha",
+          "value": 1362,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Blade Winter",
+          "value": 1338,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Lougon Baiakeiro",
+          "value": 1328,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Mu Baiakeiro",
+          "value": 1252,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 1243,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Primobolan e Trembo",
+          "value": 1218,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Its Gui",
+          "value": 1157,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Baiakudinho",
+          "value": 1137,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 1093,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Pestinha",
+          "value": 1092,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Garuvuvinha",
+          "value": 1088,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "value": 1079,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "value": 1074,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "More Knox",
+          "value": 1072,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Moskito",
+          "value": 1058,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ljxiv",
+          "value": 1055,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Owsborn",
+          "value": 1055,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "value": 1039,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Lipe Knight",
+          "value": 1031,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "King Suino",
+          "value": 1029,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Royal Luthons",
+          "value": 1029,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Zap Seco",
+          "value": 997,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Sonzacrazy",
+          "value": 967,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Voldemort Ms",
+          "value": 965,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Solarica",
+          "value": 963,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Adolph Healer",
+          "value": 956,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Patrick",
+          "value": 955,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Heroes Baiak",
+          "value": 951,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Diegao Barba",
+          "value": 949,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Voldemort Ed",
+          "value": 940,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Guidao Palao",
+          "value": 929,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Erva Doce",
+          "value": 925,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Hao Asakura",
+          "value": 919,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Sabour Ms",
+          "value": 915,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Apreciador On Amonot",
+          "value": 909,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Affey",
+          "value": 906,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Rusha Rp",
+          "value": 904,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Nagato Sorcerer",
+          "value": 898,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Campin",
+          "value": 888,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Elder Lougon",
+          "value": 888,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Tsuru",
+          "value": 879,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "Brunao Cansado",
+          "value": 853,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Drizinha",
+          "value": 851,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Dorfeus",
+          "value": 836,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Elio Nervous",
+          "value": 826,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Zenith",
+          "value": 825,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Taka e Cura",
+          "value": 823,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Kaus Magj",
+          "value": 822,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Roginho",
+          "value": 808,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Timeless",
+          "value": 802,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Chissalada",
+          "value": 774,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Sisen",
+          "value": 744,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Elder Luthons",
+          "value": 733,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Vitao The Monster",
+          "value": 731,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Makasco Ms",
+          "value": 700,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
+          "name": "White",
+          "value": 641,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
+          "name": "Geladeira Quinz Porta",
+          "value": 627,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "value": 606,
+          "vocation": "Royal Paladin",
+          "online": true
+        }
+      ]
     }
   },
   "war_rankings": {
@@ -669,7 +6975,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 19:53 (Brasília)",
+    "updated_at": "03/07/2026 às 19:54 (Brasília)",
     "kills_total": 1071,
     "deaths_total": 1139,
     "kills_today": 43,
@@ -22297,10 +28603,805 @@
       }
     ]
   },
-  "deaths_global": [],
+  "deaths_global": [
+    {
+      "time": "Jul 03, 2026 17:12",
+      "player": "Red Hahaha",
+      "level": 1356,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:09",
+      "player": "Yagoodz Hahaha",
+      "level": 1997,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:09",
+      "player": "Esfi Hahaha",
+      "level": 1978,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Pally Tetss",
+      "level": 1997,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Teylera Rp",
+      "level": 1704,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Maguinn Hahaha",
+      "level": 1997,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Magabela",
+      "level": 1994,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Esfi Hahaha",
+      "level": 1981,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:08",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Maguinn Hahaha",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Esfi Hahaha",
+      "level": 1983,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Magabela",
+      "level": 1997,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:07",
+      "player": "Teylera Rp",
+      "level": 1706,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:06",
+      "player": "Maguinn Hahaha",
+      "level": 2000,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:06",
+      "player": "Jhonnys Trembolizado",
+      "level": 1418,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:06",
+      "player": "Teylera Rp",
+      "level": 1708,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:06",
+      "player": "Esfi Hahaha",
+      "level": 1984,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:06",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Guidao Palao",
+      "level": 879,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Jhonnys Trembolizado",
+      "level": 1419,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Maguinn Hahaha",
+      "level": 2001,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Magabela",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Teylera Rp",
+      "level": 1709,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:05",
+      "player": "Pally Tetss",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:02",
+      "player": "Esfi Hahaha",
+      "level": 1985,
+      "killedBy": "Ehotk",
+      "maiorDano": "Nao Eh Poring",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:02",
+      "player": "Teylera Rp",
+      "level": 1710,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:01",
+      "player": "Magabela",
+      "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "Nao Eh Poring",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:00",
+      "player": "Esfi Hahaha",
+      "level": 1987,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 17:00",
+      "player": "Teylera Rp",
+      "level": 1712,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:57",
+      "player": "Jhonnys Trembolizado",
+      "level": 1420,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:56",
+      "player": "Teylera Rp",
+      "level": 1713,
+      "killedBy": "Jhonnys Trembolizado",
+      "maiorDano": "Ehotk",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:53",
+      "player": "Esfi Hahaha",
+      "level": 1993,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:47",
+      "player": "Esfi Hahaha",
+      "level": 1997,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:40",
+      "player": "Jhonnys Trembolizado",
+      "level": 1419,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:06",
+      "player": "Jhonnys Trembolizado",
+      "level": 1410,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 16:02",
+      "player": "Jhonnys Trembolizado",
+      "level": 1410,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:41",
+      "player": "Pally Tetss",
+      "level": 1995,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:38",
+      "player": "Cerebro",
+      "level": 1373,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:34",
+      "player": "Pally Tetss",
+      "level": 1997,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:32",
+      "player": "Maguinn Hahaha",
+      "level": 2003,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:28",
+      "player": "Pally Tetss",
+      "level": 1998,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:26",
+      "player": "Pally Tetss",
+      "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:19",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:18",
+      "player": "Dmonick",
+      "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:06",
+      "player": "Jhonnys Trembolizado",
+      "level": 1394,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 15:01",
+      "player": "Jhonnys Trembolizado",
+      "level": 1395,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:57",
+      "player": "Jhonnys Trembolizado",
+      "level": 1395,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:52",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:51",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 14:49",
+      "player": "Jhonnys Trembolizado",
+      "level": 1396,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 08:51",
+      "player": "Diegao Barba",
+      "level": 968,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 08:44",
+      "player": "Gizao",
+      "level": 1875,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 07:11",
+      "player": "Rp Terror",
+      "level": 2000,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 07:11",
+      "player": "Roginho",
+      "level": 808,
+      "killedBy": "Cetoprofeno Intramuscular",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 05:29",
+      "player": "Ljxiv",
+      "level": 909,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 04:59",
+      "player": "Ljxiv",
+      "level": 907,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:35",
+      "player": "Guidao Palao",
+      "level": 1791,
+      "killedBy": "Calveludo",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:27",
+      "player": "Maguinn Hahaha",
+      "level": 2004,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:16",
+      "player": "End Zeus",
+      "level": 2000,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:15",
+      "player": "Friedrich Merz",
+      "level": 2000,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:12",
+      "player": "Melbiss",
+      "level": 1813,
+      "killedBy": "Calveludo",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:10",
+      "player": "Dreenho Baiakeiro",
+      "level": 1293,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:08",
+      "player": "Guidao Palao",
+      "level": 1790,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "Calveludo",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:07",
+      "player": "Lilian Faithkeeper",
+      "level": 1235,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:01",
+      "player": "Gizao",
+      "level": 1871,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:01",
+      "player": "Blade Winter",
+      "level": 1282,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 01:59",
+      "player": "Pally Tetss",
+      "level": 1912,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 01:57",
+      "player": "Dmonick",
+      "level": 2000,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 01:30",
+      "player": "Teylera Rp",
+      "level": 1548,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 01:29",
+      "player": "Esfi Hahaha",
+      "level": 2000,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 00:58",
+      "player": "Diegao Barba",
+      "level": 883,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 00:37",
+      "player": "Red Hahaha",
+      "level": 1269,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 00:36",
+      "player": "Diegao Barba",
+      "level": 872,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 02, 2026 14:22",
+      "player": "Melbiss",
+      "level": 1794,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 02, 2026 14:21",
+      "player": "Guidao Palao",
+      "level": 1725,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    }
+  ],
   "history": {
     "resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Esfi Hahaha": 58,
+        "Gizao": 54,
+        "Yagoodz Hahaha": 69,
+        "Maguinn Hahaha": 50,
+        "Punish Claude": 50,
+        "Teylera Rp": 57,
+        "Achilles": 18,
+        "Adolph Healer": 11,
+        "Affey": 26,
+        "Alba Baiakeiro": 50,
+        "Apreciador De Casadas": 37,
+        "Apreciador On Amonot": 3,
+        "Baduff": 30,
+        "Baiakudinho": 53,
+        "Blade Winter": 25,
+        "Boingbringer": 30,
+        "Brunao Cansado": 5,
+        "Brunao Rei Denovo": 30,
+        "Brunaobringer": 50,
+        "Campin": 7,
+        "Cerebro": 49,
+        "Charles": 26,
+        "Cheiro Dpneu": 34,
+        "Chissalada": 13,
+        "Deca com Testo": 32,
+        "Diegao Barba": 50,
+        "Dmonick": 50,
+        "Dorfeus": 5,
+        "Dreenho Baiakeiro": 40,
+        "Drizinha": 0,
+        "Ed farm": 47,
+        "Elder Lougon": 15,
+        "Elder Luthons": 13,
+        "Elio Nervous": 23,
+        "End Zeus": 36,
+        "Erva Doce": 4,
+        "Friedrich Merz": 62,
+        "Garuvuvinha": 46,
+        "Geladeira Quinz Porta": 6,
+        "Gokuu": 50,
+        "Guidao Palao": 44,
+        "Hao Asakura": 32,
+        "Henrique": 52,
+        "Heroes Baiak": 28,
+        "Imperador Ek": 18,
+        "Its Gui": 36,
+        "Jhonnys Trembolizado": 76,
+        "Kaus Magj": 5,
+        "Kev": 24,
+        "Kiel": 59,
+        "King Suino": 5,
+        "Kolwaski": 43,
+        "Lilian Faithkeeper": 28,
+        "Lipe Knight": 45,
+        "Ljxiv": 27,
+        "Loke": 53,
+        "Lotus Lothbrook": 28,
+        "Lougon Baiakeiro": 30,
+        "Lukitas Brokenzada": 40,
+        "Magabela": 50,
+        "Makasco Ms": 2,
+        "Melbiss": 41,
+        "Monstro Das Criptos": 51,
+        "More Knox": 7,
+        "Moskito": 23,
+        "Mu Baiakeiro": 10,
+        "Mu Kina": 26,
+        "Nagato Sorcerer": 27,
+        "Owsborn": 34,
+        "Pally Tetss": 55,
+        "Patrick": 10,
+        "Pestinha": 30,
+        "Primobolan e Trembo": 12,
+        "Rafa Baguncinha": 29,
+        "Red Hahaha": 25,
+        "Ritoff Elite": 31,
+        "Roginho": 32,
+        "Royal Luthons": 46,
+        "Rp Terror": 33,
+        "Rusha Rp": 50,
+        "Sabour Ms": 10,
+        "Sisen": 13,
+        "Solarica": 4,
+        "Sonzacrazy": 7,
+        "Taka e Cura": 8,
+        "Timeless": 4,
+        "Tio Bringer": 26,
+        "Tsuru": 32,
+        "Ultimate Warrior": 25,
+        "Vinizerah On Amonot": 31,
+        "Vitao The Monster": 2,
+        "Vitao The Trader": 20,
+        "Voldemort Ed": 11,
+        "Voldemort Ms": 4,
+        "VukVuk": 50,
+        "White": 2,
+        "Xeipe": 25,
+        "Ynhaca Purah": 53,
+        "Zap Seco": 19,
+        "Zenith": 11
+      },
       "snapshots": {
         "2026-06-26-20": {
           "Esfi Hahaha": 55,
@@ -39254,7 +46355,108 @@
           "Zap Seco": 19,
           "Zenith": 11
         },
-        "2026-07-03-19": {}
+        "2026-07-03-19": {
+          "Esfi Hahaha": 58,
+          "Gizao": 54,
+          "Yagoodz Hahaha": 69,
+          "Maguinn Hahaha": 50,
+          "Punish Claude": 50,
+          "Teylera Rp": 57,
+          "Achilles": 18,
+          "Adolph Healer": 11,
+          "Affey": 26,
+          "Alba Baiakeiro": 50,
+          "Apreciador De Casadas": 37,
+          "Apreciador On Amonot": 3,
+          "Baduff": 30,
+          "Baiakudinho": 53,
+          "Blade Winter": 25,
+          "Boingbringer": 30,
+          "Brunao Cansado": 5,
+          "Brunao Rei Denovo": 30,
+          "Brunaobringer": 50,
+          "Campin": 7,
+          "Cerebro": 49,
+          "Charles": 26,
+          "Cheiro Dpneu": 34,
+          "Chissalada": 13,
+          "Deca com Testo": 32,
+          "Diegao Barba": 50,
+          "Dmonick": 50,
+          "Dorfeus": 5,
+          "Dreenho Baiakeiro": 40,
+          "Drizinha": 0,
+          "Ed farm": 47,
+          "Elder Lougon": 15,
+          "Elder Luthons": 13,
+          "Elio Nervous": 23,
+          "End Zeus": 36,
+          "Erva Doce": 4,
+          "Friedrich Merz": 62,
+          "Garuvuvinha": 46,
+          "Geladeira Quinz Porta": 6,
+          "Gokuu": 50,
+          "Guidao Palao": 44,
+          "Hao Asakura": 32,
+          "Henrique": 52,
+          "Heroes Baiak": 28,
+          "Imperador Ek": 18,
+          "Its Gui": 36,
+          "Jhonnys Trembolizado": 76,
+          "Kaus Magj": 5,
+          "Kev": 24,
+          "Kiel": 59,
+          "King Suino": 5,
+          "Kolwaski": 43,
+          "Lilian Faithkeeper": 28,
+          "Lipe Knight": 45,
+          "Ljxiv": 27,
+          "Loke": 53,
+          "Lotus Lothbrook": 28,
+          "Lougon Baiakeiro": 30,
+          "Lukitas Brokenzada": 40,
+          "Magabela": 50,
+          "Makasco Ms": 2,
+          "Melbiss": 41,
+          "Monstro Das Criptos": 51,
+          "More Knox": 7,
+          "Moskito": 23,
+          "Mu Baiakeiro": 10,
+          "Mu Kina": 26,
+          "Nagato Sorcerer": 27,
+          "Owsborn": 34,
+          "Pally Tetss": 55,
+          "Patrick": 10,
+          "Pestinha": 30,
+          "Primobolan e Trembo": 12,
+          "Rafa Baguncinha": 29,
+          "Red Hahaha": 25,
+          "Ritoff Elite": 31,
+          "Roginho": 32,
+          "Royal Luthons": 46,
+          "Rp Terror": 33,
+          "Rusha Rp": 50,
+          "Sabour Ms": 10,
+          "Sisen": 13,
+          "Solarica": 4,
+          "Sonzacrazy": 7,
+          "Taka e Cura": 8,
+          "Timeless": 4,
+          "Tio Bringer": 26,
+          "Tsuru": 32,
+          "Ultimate Warrior": 25,
+          "Vinizerah On Amonot": 31,
+          "Vitao The Monster": 2,
+          "Vitao The Trader": 20,
+          "Voldemort Ed": 11,
+          "Voldemort Ms": 4,
+          "VukVuk": 50,
+          "White": 2,
+          "Xeipe": 25,
+          "Ynhaca Purah": 53,
+          "Zap Seco": 19,
+          "Zenith": 11
+        }
       },
       "events": [
         {
@@ -45301,7 +52503,29 @@
       ]
     },
     "enemy_resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Ehotk": 77,
+        "Lee Br": 41,
+        "Ragekemi": 29,
+        "We Edz": 40,
+        "Arroz Cadela": 33,
+        "Cetoprofeno Intramuscular": 60,
+        "Dont Bica": 21,
+        "Nao Eh Poring": 80,
+        "Papumzada": 26,
+        "Boltadao": 25,
+        "Calveludo": 40,
+        "Cuffy Dido": 33,
+        "Deruz": 41,
+        "Donte": 27,
+        "Giga": 30,
+        "JhonzinMilgrau": 26,
+        "Lula": 52,
+        "Old Jovizera": 40,
+        "Pittao teensina": 45,
+        "Total Security": 14,
+        "Wake Wake": 31
+      },
       "snapshots": {
         "2026-06-26-20": {
           "Sauron Knight": 32,
@@ -50191,7 +57415,29 @@
           "Total Security": 14,
           "Wake Wake": 31
         },
-        "2026-07-03-19": {}
+        "2026-07-03-19": {
+          "Ehotk": 77,
+          "Lee Br": 41,
+          "Ragekemi": 29,
+          "We Edz": 40,
+          "Arroz Cadela": 33,
+          "Cetoprofeno Intramuscular": 60,
+          "Dont Bica": 21,
+          "Nao Eh Poring": 80,
+          "Papumzada": 26,
+          "Boltadao": 25,
+          "Calveludo": 40,
+          "Cuffy Dido": 33,
+          "Deruz": 41,
+          "Donte": 27,
+          "Giga": 30,
+          "JhonzinMilgrau": 26,
+          "Lula": 52,
+          "Old Jovizera": 40,
+          "Pittao teensina": 45,
+          "Total Security": 14,
+          "Wake Wake": 31
+        }
       },
       "events": [
         {
@@ -55413,27 +62659,27 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Calveludo",
-        "Pittao teensina",
-        "Deruz",
-        "Lee Br",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Wake Wake",
-        "Ragekemi",
-        "Giga",
         "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "Lula",
-        "Donte",
-        "Nao Eh Poring",
-        "Ehotk",
+        "Old Jovizera",
+        "Ragekemi",
         "Cuffy Dido",
+        "We Edz",
+        "Total Security",
+        "Ehotk",
+        "Dont Bica",
+        "Giga",
+        "Lula",
+        "Papumzada",
+        "Lee Br",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Pittao teensina",
+        "Donte",
         "JhonzinMilgrau",
-        "Arroz Cadela"
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Calveludo",
+        "Nao Eh Poring"
       ],
       "changes_log": [
         {
@@ -55567,137 +62813,31 @@
           "timestamp": "03/07/2026 às 19:52 (Brasília)"
         }
       ],
-      "recent_changes": [
-        {
-          "name": "We Edz",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Dont Bica",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Nao Eh Poring",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Lula",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Wake Wake",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Calveludo",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Giga",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Pittao teensina",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Lee Br",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Cuffy Dido",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "JhonzinMilgrau",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Boltadao",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Papumzada",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Deruz",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Old Jovizera",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Donte",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Total Security",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Ragekemi",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        },
-        {
-          "name": "Arroz Cadela",
-          "type": "left",
-          "timestamp": "03/07/2026 às 19:52 (Brasília)"
-        }
-      ]
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Calveludo",
-        "Pittao teensina",
-        "Deruz",
-        "Lee Br",
-        "Old Jovizera",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Wake Wake",
-        "Ragekemi",
-        "Giga",
         "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "Lula",
-        "Donte",
-        "Nao Eh Poring",
-        "Ehotk",
+        "Old Jovizera",
+        "Ragekemi",
         "Cuffy Dido",
+        "We Edz",
+        "Total Security",
+        "Ehotk",
+        "Dont Bica",
+        "Giga",
+        "Lula",
+        "Papumzada",
+        "Lee Br",
+        "Arroz Cadela",
+        "Wake Wake",
+        "Pittao teensina",
+        "Donte",
         "JhonzinMilgrau",
-        "Arroz Cadela"
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Calveludo",
+        "Nao Eh Poring"
       ],
       "hunted": {
         "Leogolas": {
@@ -56368,132 +63508,26 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 0,
-      "total_current": 0,
-      "resets_today": 0,
-      "resets_week": 0,
+      "num_members": 100,
+      "total_current": 2968,
+      "resets_today": 21,
+      "resets_week": 168,
       "resets_month": 0,
-      "resets_lifetime": 0,
-      "avg_per_player": 0
+      "resets_lifetime": 168,
+      "avg_per_player": 29.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
-      "num_members": 0,
-      "total_current": 0,
-      "resets_today": 0,
-      "resets_week": 0,
+      "num_members": 21,
+      "total_current": 811,
+      "resets_today": 4,
+      "resets_week": 27,
       "resets_month": 0,
-      "resets_lifetime": 0,
-      "avg_per_player": 0
+      "resets_lifetime": 27,
+      "avg_per_player": 38.6
     }
   },
-  "recent_changes": [
-    {
-      "name": "We Edz",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Nao Eh Poring",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Lula",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Calveludo",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Pittao teensina",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Lee Br",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "JhonzinMilgrau",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Papumzada",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Old Jovizera",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Donte",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Total Security",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    },
-    {
-      "name": "Arroz Cadela",
-      "type": "left",
-      "timestamp": "03/07/2026 às 19:52 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
   "changes_log": [
     {
       "name": "Papumzada",
@@ -56980,9 +64014,7 @@
     }
   ],
   "errors": [
-    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
-    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
+    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros."
   ]
 }
