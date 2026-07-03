@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 02:07 (Brasília)",
+  "updated_at": "03/07/2026 às 02:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -1673,7 +1673,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1786,
+      "level": 1789,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2187,7 +2187,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1224,
+      "level": 1234,
       "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5783,7 +5783,7 @@
         },
         {
           "name": "Guidao Palao",
-          "value": 1786,
+          "value": 1789,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5861,7 +5861,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1224,
+          "value": 1234,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6535,21 +6535,21 @@
         },
         {
           "name": "Calveludo",
-          "value": 46,
-          "kills_today": 0,
-          "kills_week": 13
+          "value": 47,
+          "kills_today": 1,
+          "kills_week": 14
+        },
+        {
+          "name": "Pittao teensina",
+          "value": 44,
+          "kills_today": 6,
+          "kills_week": 19
         },
         {
           "name": "Lula",
           "value": 43,
           "kills_today": 0,
           "kills_week": 6
-        },
-        {
-          "name": "Pittao teensina",
-          "value": 43,
-          "kills_today": 5,
-          "kills_week": 18
         },
         {
           "name": "Darkzao Knight",
@@ -6833,16 +6833,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 02:07 (Brasília)",
+    "updated_at": "03/07/2026 às 02:08 (Brasília)",
     "kills_total": 1030,
-    "deaths_total": 1074,
+    "deaths_total": 1076,
     "kills_today": 2,
-    "deaths_today": 9,
+    "deaths_today": 11,
     "kills_week": 93,
-    "deaths_week": 80,
+    "deaths_week": 82,
     "kd_total": 0.96,
-    "kd_today": 0.22,
-    "kd_week": 1.16,
+    "kd_today": 0.18,
+    "kd_week": 1.13,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7179,21 +7179,21 @@
       },
       {
         "name": "Calveludo",
-        "kills": 46,
-        "kills_today": 0,
-        "kills_week": 13
+        "kills": 47,
+        "kills_today": 1,
+        "kills_week": 14
+      },
+      {
+        "name": "Pittao teensina",
+        "kills": 44,
+        "kills_today": 6,
+        "kills_week": 19
       },
       {
         "name": "Lula",
         "kills": 43,
         "kills_today": 0,
         "kills_week": 6
-      },
-      {
-        "name": "Pittao teensina",
-        "kills": 43,
-        "kills_today": 5,
-        "kills_week": 18
       },
       {
         "name": "Darkzao Knight",
@@ -27113,6 +27113,24 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 02:08",
+        "player": "Guidao Palao",
+        "level": 1790,
+        "killedBy": "Pittao teensina",
+        "maiorDano": "Calveludo",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 02:07",
+        "player": "Lilian Faithkeeper",
+        "level": 1235,
+        "killedBy": "Calveludo",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 02:01",
         "player": "Gizao",
         "level": 1871,
@@ -27502,6 +27520,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 02:08",
+      "player": "Guidao Palao",
+      "level": 1790,
+      "killedBy": "Pittao teensina",
+      "maiorDano": "Calveludo",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 03, 2026 02:07",
+      "player": "Lilian Faithkeeper",
+      "level": 1235,
+      "killedBy": "Calveludo",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 02:01",
       "player": "Gizao",
@@ -61950,27 +61986,27 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Lula",
-        "Ragekemi",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
         "Papumzada",
-        "Lee Br",
-        "Old Jovizera",
         "Donte",
-        "Giga",
-        "Total Security",
         "Pittao teensina",
-        "Deruz",
-        "Wake Wake",
-        "We Edz",
+        "Lee Br",
         "JhonzinMilgrau",
-        "Boltadao",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Ehotk",
+        "Wake Wake",
         "Cuffy Dido",
+        "Dont Bica",
+        "Ragekemi",
+        "Lula",
+        "Old Jovizera",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Deruz",
+        "Calveludo",
+        "Giga",
+        "We Edz",
         "Arroz Cadela"
       ],
       "changes_log": [
@@ -61994,27 +62030,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Lula",
-        "Ragekemi",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
         "Papumzada",
-        "Lee Br",
-        "Old Jovizera",
         "Donte",
-        "Giga",
-        "Total Security",
         "Pittao teensina",
-        "Deruz",
-        "Wake Wake",
-        "We Edz",
+        "Lee Br",
         "JhonzinMilgrau",
-        "Boltadao",
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Ehotk",
+        "Wake Wake",
         "Cuffy Dido",
+        "Dont Bica",
+        "Ragekemi",
+        "Lula",
+        "Old Jovizera",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Incrivel Monk",
+        "Deruz",
+        "Calveludo",
+        "Giga",
+        "We Edz",
         "Arroz Cadela"
       ],
       "hunted": {
