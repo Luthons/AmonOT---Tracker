@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 20:05 (Brasília)",
+  "updated_at": "03/07/2026 às 20:06 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4057,8 +4057,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1444,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -4073,6 +4073,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "29/06/2026 às 02:12 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 20:06 (Brasília)"
         }
       ]
     },
@@ -4782,6 +4787,14 @@
       "online": true
     },
     {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 58,
       "resets_today": 0,
@@ -5384,16 +5397,16 @@
           "online": false
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 32,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Ritoff Elite",
           "value": 31,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 31,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Baduff",
@@ -5934,12 +5947,6 @@
           "value": 1444,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1444,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Tio Bringer",
@@ -6975,7 +6982,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 20:05 (Brasília)",
+    "updated_at": "03/07/2026 às 20:06 (Brasília)",
     "kills_total": 1071,
     "deaths_total": 1139,
     "kills_today": 43,
@@ -28696,18 +28703,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -29390,7 +29397,7 @@
         "Tio Bringer": 26,
         "Tsuru": 32,
         "Ultimate Warrior": 25,
-        "Vinizerah On Amonot": 31,
+        "Vinizerah On Amonot": 32,
         "Vitao The Monster": 2,
         "Vitao The Trader": 20,
         "Voldemort Ed": 11,
@@ -46449,7 +46456,7 @@
           "Tio Bringer": 26,
           "Tsuru": 32,
           "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 31,
+          "Vinizerah On Amonot": 32,
           "Vitao The Monster": 2,
           "Vitao The Trader": 20,
           "Voldemort Ed": 11,
@@ -52503,6 +52510,13 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 19:47 (Brasília)",
           "hour_key": "2026-07-03-19"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 20:06 (Brasília)",
+          "hour_key": "2026-07-03-20"
         }
       ]
     },
@@ -62611,27 +62625,27 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Calveludo",
-        "Donte",
-        "Old Jovizera",
-        "Boltadao",
-        "Dont Bica",
         "Pittao teensina",
-        "Papumzada",
-        "Wake Wake",
-        "Cuffy Dido",
-        "Deruz",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Total Security",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Giga",
+        "Boltadao",
         "Lula",
         "Ehotk",
+        "Old Jovizera",
+        "Calveludo",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "We Edz",
+        "Papumzada",
+        "Total Security",
+        "Donte",
+        "Wake Wake",
         "Ragekemi",
-        "Lee Br"
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Nao Eh Poring",
+        "Giga",
+        "Cuffy Dido",
+        "Arroz Cadela"
       ],
       "changes_log": [
         {
@@ -62769,27 +62783,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Calveludo",
-        "Donte",
-        "Old Jovizera",
-        "Boltadao",
-        "Dont Bica",
         "Pittao teensina",
-        "Papumzada",
-        "Wake Wake",
-        "Cuffy Dido",
-        "Deruz",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Total Security",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Giga",
+        "Boltadao",
         "Lula",
         "Ehotk",
+        "Old Jovizera",
+        "Calveludo",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "We Edz",
+        "Papumzada",
+        "Total Security",
+        "Donte",
+        "Wake Wake",
         "Ragekemi",
-        "Lee Br"
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Nao Eh Poring",
+        "Giga",
+        "Cuffy Dido",
+        "Arroz Cadela"
       ],
       "hunted": {
         "Leogolas": {
@@ -63461,8 +63475,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2968,
-      "resets_today": 21,
+      "total_current": 2969,
+      "resets_today": 22,
       "resets_week": 168,
       "resets_month": 0,
       "resets_lifetime": 168,
