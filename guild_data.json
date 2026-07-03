@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 14:42 (Brasília)",
+  "updated_at": "03/07/2026 às 14:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -60,8 +60,8 @@
     },
     {
       "name": "Gizao",
-      "level": 2025,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -196,6 +196,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "01/07/2026 às 22:40 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 14:43 (Brasília)"
         }
       ]
     },
@@ -4616,6 +4621,14 @@
       "online": true
     },
     {
+      "name": "Gizao",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Adolph Healer",
       "resets_total": 11,
       "resets_today": 1,
@@ -4738,14 +4751,6 @@
     {
       "name": "Esfi Hahaha",
       "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Gizao",
-      "resets_total": 53,
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
@@ -5133,7 +5138,7 @@
         },
         {
           "name": "Gizao",
-          "value": 53,
+          "value": 54,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5689,12 +5694,6 @@
       "name": "Level",
       "val_label": "Level",
       "entries": [
-        {
-          "name": "Gizao",
-          "value": 2025,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
         {
           "name": "Maguinn Hahaha",
           "value": 2003,
@@ -6915,7 +6914,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 14:42 (Brasília)",
+    "updated_at": "03/07/2026 às 14:43 (Brasília)",
     "kills_total": 1043,
     "deaths_total": 1088,
     "kills_today": 15,
@@ -28165,7 +28164,7 @@
     "resets": {
       "last_snapshot": {
         "Esfi Hahaha": 58,
-        "Gizao": 53,
+        "Gizao": 54,
         "Yagoodz Hahaha": 69,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
@@ -45200,7 +45199,7 @@
         },
         "2026-07-03-14": {
           "Esfi Hahaha": 58,
-          "Gizao": 53,
+          "Gizao": 54,
           "Yagoodz Hahaha": 69,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
@@ -51326,6 +51325,13 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 13:53 (Brasília)",
           "hour_key": "2026-07-03-13"
+        },
+        {
+          "name": "Gizao",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 14:43 (Brasília)",
+          "hour_key": "2026-07-03-14"
         }
       ]
     },
@@ -61739,27 +61745,27 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Old Jovizera",
-        "Wake Wake",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Deruz",
         "Lula",
-        "Total Security",
         "Cetoprofeno Intramuscular",
         "Pittao teensina",
-        "We Edz",
-        "Ragekemi",
-        "Giga",
-        "Arroz Cadela",
         "Nao Eh Poring",
-        "Donte",
-        "Calveludo",
-        "Ehotk",
-        "Boltadao",
+        "Giga",
         "Cuffy Dido",
-        "Lee Br"
+        "JhonzinMilgrau",
+        "Total Security",
+        "Arroz Cadela",
+        "Boltadao",
+        "Calveludo",
+        "Wake Wake",
+        "Old Jovizera",
+        "Dont Bica",
+        "Papumzada",
+        "Lee Br",
+        "Ragekemi",
+        "Ehotk",
+        "Deruz",
+        "Donte",
+        "We Edz"
       ],
       "changes_log": [
         {
@@ -61792,27 +61798,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Old Jovizera",
-        "Wake Wake",
-        "Papumzada",
-        "JhonzinMilgrau",
-        "Deruz",
         "Lula",
-        "Total Security",
         "Cetoprofeno Intramuscular",
         "Pittao teensina",
-        "We Edz",
-        "Ragekemi",
-        "Giga",
-        "Arroz Cadela",
         "Nao Eh Poring",
-        "Donte",
-        "Calveludo",
-        "Ehotk",
-        "Boltadao",
+        "Giga",
         "Cuffy Dido",
-        "Lee Br"
+        "JhonzinMilgrau",
+        "Total Security",
+        "Arroz Cadela",
+        "Boltadao",
+        "Calveludo",
+        "Wake Wake",
+        "Old Jovizera",
+        "Dont Bica",
+        "Papumzada",
+        "Lee Br",
+        "Ragekemi",
+        "Ehotk",
+        "Deruz",
+        "Donte",
+        "We Edz"
       ],
       "hunted": {
         "Leogolas": {
@@ -62472,12 +62478,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2837,
-      "resets_today": 19,
-      "resets_week": 166,
+      "total_current": 2838,
+      "resets_today": 20,
+      "resets_week": 167,
       "resets_month": 0,
-      "resets_lifetime": 163,
-      "avg_per_player": 28.9
+      "resets_lifetime": 164,
+      "avg_per_player": 29.0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
