@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 16:01 (Brasília)",
+  "updated_at": "03/07/2026 às 16:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -4458,7 +4458,7 @@
         },
         {
           "name": "Cetoprofeno Intramuscular",
-          "level": 1611,
+          "level": 1610,
           "resets": 60,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -6441,6 +6441,12 @@
           "kills_week": 0
         },
         {
+          "name": "Magabela",
+          "value": 4,
+          "kills_today": 1,
+          "kills_week": 1
+        },
+        {
           "name": "Gokuu",
           "value": 4,
           "kills_today": 0,
@@ -6455,12 +6461,6 @@
         {
           "name": "Lukitas Brokenzada",
           "value": 4,
-          "kills_today": 0,
-          "kills_week": 0
-        },
-        {
-          "name": "Magabela",
-          "value": 3,
           "kills_today": 0,
           "kills_week": 0
         },
@@ -6920,16 +6920,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 16:01 (Brasília)",
-    "kills_total": 1052,
+    "updated_at": "03/07/2026 às 16:02 (Brasília)",
+    "kills_total": 1053,
     "deaths_total": 1096,
-    "kills_today": 24,
+    "kills_today": 25,
     "deaths_today": 31,
-    "kills_week": 115,
+    "kills_week": 116,
     "deaths_week": 102,
     "kd_total": 0.96,
-    "kd_today": 0.77,
-    "kd_week": 1.13,
+    "kd_today": 0.81,
+    "kd_week": 1.14,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7089,6 +7089,12 @@
         "kills_week": 0
       },
       {
+        "name": "Magabela",
+        "kills": 4,
+        "kills_today": 1,
+        "kills_week": 1
+      },
+      {
         "name": "Gokuu",
         "kills": 4,
         "kills_today": 0,
@@ -7103,12 +7109,6 @@
       {
         "name": "Lukitas Brokenzada",
         "kills": 4,
-        "kills_today": 0,
-        "kills_week": 0
-      },
-      {
-        "name": "Magabela",
-        "kills": 3,
         "kills_today": 0,
         "kills_week": 0
       },
@@ -7628,7 +7628,7 @@
       ],
       [
         "Cetoprofeno Intramuscular",
-        37
+        38
       ],
       [
         "Calveludo",
@@ -17600,6 +17600,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 16:02",
+        "player": "Cetoprofeno Intramuscular",
+        "level": 1611,
+        "killedBy": "Magabela",
+        "maiorDano": "Yagoodz Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -61851,27 +61860,27 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Old Jovizera",
-        "Deruz",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Lee Br",
-        "Ragekemi",
-        "Calveludo",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Boltadao",
         "We Edz",
         "Giga",
+        "Dont Bica",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
         "Total Security",
-        "Dont Bica",
         "Wake Wake",
-        "Arroz Cadela",
+        "Lula",
         "JhonzinMilgrau",
-        "Lula"
+        "Old Jovizera",
+        "Lee Br",
+        "Ragekemi",
+        "Boltadao",
+        "Cuffy Dido",
+        "Deruz",
+        "Donte",
+        "Ehotk",
+        "Papumzada",
+        "Arroz Cadela",
+        "Pittao teensina"
       ],
       "changes_log": [
         {
@@ -61904,27 +61913,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Old Jovizera",
-        "Deruz",
-        "Donte",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Lee Br",
-        "Ragekemi",
-        "Calveludo",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Boltadao",
         "We Edz",
         "Giga",
+        "Dont Bica",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
         "Total Security",
-        "Dont Bica",
         "Wake Wake",
-        "Arroz Cadela",
+        "Lula",
         "JhonzinMilgrau",
-        "Lula"
+        "Old Jovizera",
+        "Lee Br",
+        "Ragekemi",
+        "Boltadao",
+        "Cuffy Dido",
+        "Deruz",
+        "Donte",
+        "Ehotk",
+        "Papumzada",
+        "Arroz Cadela",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
