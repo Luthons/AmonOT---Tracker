@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 17:02 (Brasília)",
+  "updated_at": "03/07/2026 às 17:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1985,
+      "level": 1984,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1708,7 +1708,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 843,
+      "level": 879,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4413,7 +4413,7 @@
       "members": [
         {
           "name": "Ehotk",
-          "level": 1995,
+          "level": 1994,
           "resets": 77,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -4485,7 +4485,7 @@
         },
         {
           "name": "Papumzada",
-          "level": 529,
+          "level": 528,
           "resets": 26,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -5834,7 +5834,7 @@
         },
         {
           "name": "Esfi Hahaha",
-          "value": 1985,
+          "value": 1984,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6139,6 +6139,12 @@
           "online": false
         },
         {
+          "name": "Guidao Palao",
+          "value": 879,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 879,
           "vocation": "Master Sorcerer",
@@ -6173,12 +6179,6 @@
           "value": 851,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 843,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Dorfeus",
@@ -6351,16 +6351,16 @@
           "kills_week": 12
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 30,
+          "kills_today": 9,
+          "kills_week": 21
+        },
+        {
           "name": "Parkert",
           "value": 29,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Yagoodz Hahaha",
-          "value": 28,
-          "kills_today": 7,
-          "kills_week": 19
         },
         {
           "name": "Pally Tetss",
@@ -6586,9 +6586,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 256,
-          "kills_today": 12,
-          "kills_week": 12
+          "value": 257,
+          "kills_today": 13,
+          "kills_week": 13
         },
         {
           "name": "Poring",
@@ -6920,15 +6920,15 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 17:02 (Brasília)",
-    "kills_total": 1063,
-    "deaths_total": 1103,
-    "kills_today": 35,
-    "deaths_today": 38,
-    "kills_week": 126,
-    "deaths_week": 109,
+    "updated_at": "03/07/2026 às 17:03 (Brasília)",
+    "kills_total": 1065,
+    "deaths_total": 1104,
+    "kills_today": 37,
+    "deaths_today": 39,
+    "kills_week": 128,
+    "deaths_week": 110,
     "kd_total": 0.96,
-    "kd_today": 0.92,
+    "kd_today": 0.95,
     "kd_week": 1.16,
     "streak_days": 0,
     "top_my_killers": [
@@ -6999,16 +6999,16 @@
         "kills_week": 12
       },
       {
+        "name": "Yagoodz Hahaha",
+        "kills": 30,
+        "kills_today": 9,
+        "kills_week": 21
+      },
+      {
         "name": "Parkert",
         "kills": 29,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Yagoodz Hahaha",
-        "kills": 28,
-        "kills_today": 7,
-        "kills_week": 19
       },
       {
         "name": "Pally Tetss",
@@ -7230,9 +7230,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 256,
-        "kills_today": 12,
-        "kills_week": 12
+        "kills": 257,
+        "kills_today": 13,
+        "kills_week": 13
       },
       {
         "name": "Poring",
@@ -7562,7 +7562,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        54
+        55
       ],
       [
         "Teylera Rp",
@@ -17604,11 +17604,29 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 17:03",
+        "player": "Nao Eh Poring",
+        "level": 1995,
+        "killedBy": "Yagoodz Hahaha",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 17:02",
         "player": "Papumzada",
         "level": 529,
         "killedBy": "Yagoodz Hahaha",
         "maiorDano": "Pally Tetss",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 17:02",
+        "player": "Ehotk",
+        "level": 1995,
+        "killedBy": "Yagoodz Hahaha",
+        "maiorDano": "Jhonnys Trembolizado",
         "world": "Baiak",
         "isPvp": true
       },
@@ -27506,6 +27524,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 17:02",
+        "player": "Esfi Hahaha",
+        "level": 1985,
+        "killedBy": "Ehotk",
+        "maiorDano": "Nao Eh Poring",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 17:01",
         "player": "Magabela",
         "level": 2000,
@@ -28147,6 +28174,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 17:02",
+      "player": "Esfi Hahaha",
+      "level": 1985,
+      "killedBy": "Ehotk",
+      "maiorDano": "Nao Eh Poring",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 17:02",
       "player": "Teylera Rp",
@@ -62000,27 +62036,27 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Lee Br",
         "Old Jovizera",
-        "Deruz",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Dont Bica",
-        "Boltadao",
-        "We Edz",
-        "Cuffy Dido",
-        "Giga",
-        "Total Security",
         "Cetoprofeno Intramuscular",
-        "Ragekemi",
-        "Pittao teensina",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Giga",
+        "Lee Br",
+        "Total Security",
+        "Deruz",
         "Lula",
+        "Dont Bica",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Ragekemi",
+        "Boltadao",
+        "Donte",
         "Papumzada",
-        "Wake Wake"
+        "Pittao teensina",
+        "Calveludo",
+        "We Edz",
+        "JhonzinMilgrau"
       ],
       "changes_log": [
         {
@@ -62053,27 +62089,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Lee Br",
         "Old Jovizera",
-        "Deruz",
-        "Nao Eh Poring",
-        "Arroz Cadela",
-        "Calveludo",
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Dont Bica",
-        "Boltadao",
-        "We Edz",
-        "Cuffy Dido",
-        "Giga",
-        "Total Security",
         "Cetoprofeno Intramuscular",
-        "Ragekemi",
-        "Pittao teensina",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Giga",
+        "Lee Br",
+        "Total Security",
+        "Deruz",
         "Lula",
+        "Dont Bica",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Arroz Cadela",
+        "Ragekemi",
+        "Boltadao",
+        "Donte",
         "Papumzada",
-        "Wake Wake"
+        "Pittao teensina",
+        "Calveludo",
+        "We Edz",
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
