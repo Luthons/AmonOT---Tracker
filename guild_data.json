@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 13:52 (Brasília)",
+  "updated_at": "03/07/2026 às 13:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -962,8 +962,8 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 887,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1063,6 +1063,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "03/07/2026 às 09:48 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 13:53 (Brasília)"
         }
       ]
     },
@@ -4595,6 +4600,14 @@
   ],
   "resets_today": [
     {
+      "name": "Diegao Barba",
+      "resets_total": 50,
+      "resets_today": 2,
+      "resets_week": 16,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Rusha Rp",
       "resets_total": 50,
       "resets_today": 2,
@@ -4624,14 +4637,6 @@
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Diegao Barba",
-      "resets_total": 49,
-      "resets_today": 1,
-      "resets_week": 15,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -5181,6 +5186,12 @@
           "online": true
         },
         {
+          "name": "Diegao Barba",
+          "value": 50,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 50,
           "vocation": "Master Sorcerer",
@@ -5212,12 +5223,6 @@
         },
         {
           "name": "Cerebro",
-          "value": 49,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Diegao Barba",
           "value": 49,
           "vocation": "Elite Knight",
           "online": true
@@ -6111,12 +6116,6 @@
           "online": false
         },
         {
-          "name": "Diegao Barba",
-          "value": 887,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Tsuru",
           "value": 879,
           "vocation": "Master Sorcerer",
@@ -6910,7 +6909,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 13:52 (Brasília)",
+    "updated_at": "03/07/2026 às 13:53 (Brasília)",
     "kills_total": 1042,
     "deaths_total": 1088,
     "kills_today": 14,
@@ -28201,7 +28200,7 @@
         "Cheiro Dpneu": 34,
         "Chissalada": 13,
         "Deca com Testo": 32,
-        "Diegao Barba": 49,
+        "Diegao Barba": 50,
         "Dmonick": 50,
         "Dorfeus": 5,
         "Dreenho Baiakeiro": 40,
@@ -45232,7 +45231,7 @@
           "Cheiro Dpneu": 34,
           "Chissalada": 13,
           "Deca com Testo": 32,
-          "Diegao Barba": 49,
+          "Diegao Barba": 50,
           "Dmonick": 50,
           "Dorfeus": 5,
           "Dreenho Baiakeiro": 40,
@@ -51327,6 +51326,13 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "03/07/2026 às 13:38 (Brasília)",
+          "hour_key": "2026-07-03-13"
+        },
+        {
+          "name": "Diegao Barba",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 13:53 (Brasília)",
           "hour_key": "2026-07-03-13"
         }
       ]
@@ -61793,27 +61799,27 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Lula",
-        "Boltadao",
-        "Ragekemi",
-        "Deruz",
-        "Giga",
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Calveludo",
-        "We Edz",
-        "Arroz Cadela",
-        "Pittao teensina",
-        "Dont Bica",
-        "Nao Eh Poring",
         "Wake Wake",
+        "Cuffy Dido",
+        "Total Security",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Boltadao",
+        "Donte",
+        "Arroz Cadela",
+        "Ragekemi",
+        "We Edz",
         "Lee Br",
-        "Papumzada",
+        "Deruz",
         "Old Jovizera",
-        "Total Security"
+        "Ehotk",
+        "Dont Bica",
+        "Lula",
+        "JhonzinMilgrau",
+        "Calveludo",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
+        "Giga"
       ],
       "changes_log": [
         {
@@ -61846,27 +61852,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Lula",
-        "Boltadao",
-        "Ragekemi",
-        "Deruz",
-        "Giga",
-        "Ehotk",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Calveludo",
-        "We Edz",
-        "Arroz Cadela",
-        "Pittao teensina",
-        "Dont Bica",
-        "Nao Eh Poring",
         "Wake Wake",
+        "Cuffy Dido",
+        "Total Security",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Boltadao",
+        "Donte",
+        "Arroz Cadela",
+        "Ragekemi",
+        "We Edz",
         "Lee Br",
-        "Papumzada",
+        "Deruz",
         "Old Jovizera",
-        "Total Security"
+        "Ehotk",
+        "Dont Bica",
+        "Lula",
+        "JhonzinMilgrau",
+        "Calveludo",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
+        "Giga"
       ],
       "hunted": {
         "Leogolas": {
@@ -62526,11 +62532,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2836,
-      "resets_today": 18,
-      "resets_week": 165,
+      "total_current": 2837,
+      "resets_today": 19,
+      "resets_week": 166,
       "resets_month": 0,
-      "resets_lifetime": 162,
+      "resets_lifetime": 163,
       "avg_per_player": 28.9
     },
     "enemy_guild": {
