@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 15:37 (Brasília)",
+  "updated_at": "03/07/2026 às 15:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
-  "online_count": 54,
-  "offline_count": 44,
+  "online_count": 53,
+  "offline_count": 45,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -557,7 +557,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 46,
@@ -799,7 +799,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1369,
+      "level": 1372,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -4778,7 +4778,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Elder Druid",
-      "online": true
+      "online": false
     },
     {
       "name": "Cerebro",
@@ -5182,7 +5182,7 @@
           "name": "Alba Baiakeiro",
           "value": 50,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Brunaobringer",
@@ -5722,7 +5722,7 @@
           "name": "Alba Baiakeiro",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Boingbringer",
@@ -5899,15 +5899,15 @@
           "online": false
         },
         {
-          "name": "Kiel",
-          "value": 1370,
-          "vocation": "Royal Paladin",
+          "name": "Cerebro",
+          "value": 1372,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Cerebro",
-          "value": 1369,
-          "vocation": "Elite Knight",
+          "name": "Kiel",
+          "value": 1370,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6586,9 +6586,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 250,
-          "kills_today": 6,
-          "kills_week": 6
+          "value": 251,
+          "kills_today": 7,
+          "kills_week": 7
         },
         {
           "name": "Poring",
@@ -6920,16 +6920,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 15:37 (Brasília)",
+    "updated_at": "03/07/2026 às 15:38 (Brasília)",
     "kills_total": 1047,
-    "deaths_total": 1094,
+    "deaths_total": 1095,
     "kills_today": 19,
-    "deaths_today": 29,
+    "deaths_today": 30,
     "kills_week": 110,
-    "deaths_week": 100,
+    "deaths_week": 101,
     "kd_total": 0.96,
-    "kd_today": 0.66,
-    "kd_week": 1.1,
+    "kd_today": 0.63,
+    "kd_week": 1.09,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7230,9 +7230,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 250,
-        "kills_today": 6,
-        "kills_week": 6
+        "kills": 251,
+        "kills_today": 7,
+        "kills_week": 7
       },
       {
         "name": "Poring",
@@ -27353,6 +27353,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 15:38",
+        "player": "Cerebro",
+        "level": 1373,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 15:34",
         "player": "Pally Tetss",
         "level": 1997,
@@ -27922,6 +27931,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 15:38",
+      "player": "Cerebro",
+      "level": 1373,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 15:34",
       "player": "Pally Tetss",
@@ -61837,27 +61855,27 @@
     },
     "members": {
       "last_member_list": [
-        "Nao Eh Poring",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Donte",
         "Pittao teensina",
-        "Deruz",
+        "Lula",
+        "Total Security",
+        "We Edz",
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
         "Ragekemi",
         "JhonzinMilgrau",
-        "Dont Bica",
-        "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "Lula",
         "Calveludo",
-        "Total Security",
         "Cuffy Dido",
-        "Arroz Cadela",
+        "Deruz",
         "Wake Wake",
+        "Arroz Cadela",
+        "Papumzada",
+        "Dont Bica",
+        "Lee Br",
         "Ehotk",
-        "Giga"
+        "Old Jovizera",
+        "Giga",
+        "Boltadao"
       ],
       "changes_log": [
         {
@@ -61890,27 +61908,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Nao Eh Poring",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Donte",
         "Pittao teensina",
-        "Deruz",
+        "Lula",
+        "Total Security",
+        "We Edz",
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Nao Eh Poring",
         "Ragekemi",
         "JhonzinMilgrau",
-        "Dont Bica",
-        "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "Lula",
         "Calveludo",
-        "Total Security",
         "Cuffy Dido",
-        "Arroz Cadela",
+        "Deruz",
         "Wake Wake",
+        "Arroz Cadela",
+        "Papumzada",
+        "Dont Bica",
+        "Lee Br",
         "Ehotk",
-        "Giga"
+        "Old Jovizera",
+        "Giga",
+        "Boltadao"
       ],
       "hunted": {
         "Leogolas": {
