@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 02:28 (Brasília)",
+  "updated_at": "03/07/2026 às 02:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
-  "online_count": 55,
-  "offline_count": 43,
+  "online_count": 54,
+  "offline_count": 44,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -871,8 +871,8 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 992,
-      "resets": 33,
+      "level": 8,
+      "resets": 34,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -927,6 +927,11 @@
           "resets": 33,
           "gained": 1,
           "timestamp": "02/07/2026 às 10:11 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 02:29 (Brasília)"
         }
       ]
     },
@@ -1500,7 +1505,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -4556,6 +4561,14 @@
       "online": true
     },
     {
+      "name": "Cheiro Dpneu",
+      "resets_total": 34,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Its Gui",
       "resets_total": 36,
       "resets_today": 1,
@@ -5037,7 +5050,7 @@
           "name": "Friedrich Merz",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Kiel",
@@ -5232,16 +5245,16 @@
           "online": true
         },
         {
+          "name": "Cheiro Dpneu",
+          "value": 34,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Owsborn",
           "value": 34,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 33,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Rp Terror",
@@ -5745,7 +5758,7 @@
           "name": "Friedrich Merz",
           "value": 1997,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Rafa Baguncinha",
@@ -5962,12 +5975,6 @@
           "value": 1029,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 992,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Sonzacrazy",
@@ -6847,7 +6854,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 02:28 (Brasília)",
+    "updated_at": "03/07/2026 às 02:29 (Brasília)",
     "kills_total": 1030,
     "deaths_total": 1081,
     "kills_today": 2,
@@ -28063,7 +28070,7 @@
         "Campin": 7,
         "Cerebro": 49,
         "Charles": 26,
-        "Cheiro Dpneu": 33,
+        "Cheiro Dpneu": 34,
         "Chissalada": 13,
         "Deca com Testo": 32,
         "Diegao Barba": 48,
@@ -45050,7 +45057,7 @@
           "Campin": 7,
           "Cerebro": 49,
           "Charles": 26,
-          "Cheiro Dpneu": 33,
+          "Cheiro Dpneu": 34,
           "Chissalada": 13,
           "Deca com Testo": 32,
           "Diegao Barba": 48,
@@ -51072,6 +51079,13 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 01:43 (Brasília)",
           "hour_key": "2026-07-03-01"
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 02:29 (Brasília)",
+          "hour_key": "2026-07-03-02"
         }
       ]
     },
@@ -62097,28 +62111,28 @@
     },
     "members": {
       "last_member_list": [
-        "Dont Bica",
-        "Calveludo",
-        "Lee Br",
-        "Pittao teensina",
-        "Boltadao",
-        "We Edz",
-        "Donte",
-        "Ehotk",
-        "Lula",
-        "Total Security",
-        "Papumzada",
-        "Wake Wake",
-        "Giga",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Deruz",
-        "Old Jovizera",
         "Cuffy Dido",
+        "Lee Br",
+        "Donte",
+        "Giga",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Boltadao",
+        "Total Security",
+        "We Edz",
+        "Old Jovizera",
+        "Lula",
+        "Papumzada",
+        "Dont Bica",
+        "Wake Wake",
+        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Ehotk",
         "Incrivel Monk",
-        "Cetoprofeno Intramuscular"
+        "Ragekemi",
+        "Pittao teensina"
       ],
       "changes_log": [
         {
@@ -62141,28 +62155,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Dont Bica",
-        "Calveludo",
-        "Lee Br",
-        "Pittao teensina",
-        "Boltadao",
-        "We Edz",
-        "Donte",
-        "Ehotk",
-        "Lula",
-        "Total Security",
-        "Papumzada",
-        "Wake Wake",
-        "Giga",
-        "Arroz Cadela",
-        "Nao Eh Poring",
-        "Ragekemi",
-        "Deruz",
-        "Old Jovizera",
         "Cuffy Dido",
+        "Lee Br",
+        "Donte",
+        "Giga",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Boltadao",
+        "Total Security",
+        "We Edz",
+        "Old Jovizera",
+        "Lula",
+        "Papumzada",
+        "Dont Bica",
+        "Wake Wake",
+        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Ehotk",
         "Incrivel Monk",
-        "Cetoprofeno Intramuscular"
+        "Ragekemi",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
@@ -62822,8 +62836,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2825,
-      "resets_today": 7,
+      "total_current": 2826,
+      "resets_today": 8,
       "resets_week": 155,
       "resets_month": 0,
       "resets_lifetime": 165,
