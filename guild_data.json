@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 02:47 (Brasília)",
+  "updated_at": "03/07/2026 às 02:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -4346,8 +4346,8 @@
   "enemy_guilds": [
     {
       "name": "Old Legacy",
-      "total_members": 22,
-      "online_count": 14,
+      "total_members": 21,
+      "online_count": 13,
       "offline_count": 8,
       "members": [
         {
@@ -4484,15 +4484,6 @@
           "nick": "",
           "rank": "Member",
           "online": false
-        },
-        {
-          "name": "Incrivel Monk",
-          "level": 2000,
-          "resets": 42,
-          "vocation": "Exalted Monk",
-          "nick": "",
-          "rank": "Member",
-          "online": true
         },
         {
           "name": "JhonzinMilgrau",
@@ -6854,7 +6845,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 02:47 (Brasília)",
+    "updated_at": "03/07/2026 às 02:48 (Brasília)",
     "kills_total": 1032,
     "deaths_total": 1082,
     "kills_today": 4,
@@ -51142,7 +51133,6 @@
         "Deruz": 41,
         "Donte": 27,
         "Giga": 30,
-        "Incrivel Monk": 42,
         "JhonzinMilgrau": 26,
         "Lula": 52,
         "Old Jovizera": 39,
@@ -56939,7 +56929,6 @@
           "Deruz": 41,
           "Donte": 27,
           "Giga": 30,
-          "Incrivel Monk": 42,
           "JhonzinMilgrau": 26,
           "Lula": 52,
           "Old Jovizera": 39,
@@ -62147,28 +62136,27 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Total Security",
-        "Ragekemi",
-        "Old Jovizera",
-        "Dont Bica",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Lula",
-        "Deruz",
         "Giga",
+        "Ragekemi",
+        "Ehotk",
+        "Papumzada",
+        "Lee Br",
+        "Pittao teensina",
         "Donte",
-        "We Edz",
         "JhonzinMilgrau",
         "Boltadao",
+        "Total Security",
+        "Dont Bica",
         "Calveludo",
-        "Ehotk",
+        "Lula",
+        "Nao Eh Poring",
         "Wake Wake",
-        "Lee Br",
+        "We Edz",
         "Cuffy Dido",
         "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Nao Eh Poring"
+        "Deruz",
+        "Arroz Cadela",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -62185,34 +62173,44 @@
           "name": "Feijao Baiakeironato",
           "type": "left",
           "timestamp": "02/07/2026 às 14:08 (Brasília)"
+        },
+        {
+          "name": "Incrivel Monk",
+          "type": "left",
+          "timestamp": "03/07/2026 às 02:48 (Brasília)"
         }
       ],
-      "recent_changes": []
+      "recent_changes": [
+        {
+          "name": "Incrivel Monk",
+          "type": "left",
+          "timestamp": "03/07/2026 às 02:48 (Brasília)"
+        }
+      ]
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Total Security",
-        "Ragekemi",
-        "Old Jovizera",
-        "Dont Bica",
-        "Pittao teensina",
-        "Incrivel Monk",
-        "Lula",
-        "Deruz",
         "Giga",
+        "Ragekemi",
+        "Ehotk",
+        "Papumzada",
+        "Lee Br",
+        "Pittao teensina",
         "Donte",
-        "We Edz",
         "JhonzinMilgrau",
         "Boltadao",
+        "Total Security",
+        "Dont Bica",
         "Calveludo",
-        "Ehotk",
+        "Lula",
+        "Nao Eh Poring",
         "Wake Wake",
-        "Lee Br",
+        "We Edz",
         "Cuffy Dido",
         "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Nao Eh Poring"
+        "Deruz",
+        "Arroz Cadela",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -62881,16 +62879,22 @@
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
-      "num_members": 22,
-      "total_current": 850,
+      "num_members": 21,
+      "total_current": 808,
       "resets_today": 1,
       "resets_week": 24,
       "resets_month": 0,
       "resets_lifetime": 27,
-      "avg_per_player": 38.6
+      "avg_per_player": 38.5
     }
   },
-  "recent_changes": [],
+  "recent_changes": [
+    {
+      "name": "Incrivel Monk",
+      "type": "left",
+      "timestamp": "03/07/2026 às 02:48 (Brasília)"
+    }
+  ],
   "changes_log": [
     {
       "name": "Papumzada",
@@ -62906,6 +62910,11 @@
       "name": "Feijao Baiakeironato",
       "type": "left",
       "timestamp": "02/07/2026 às 14:08 (Brasília)"
+    },
+    {
+      "name": "Incrivel Monk",
+      "type": "left",
+      "timestamp": "03/07/2026 às 02:48 (Brasília)"
     }
   ],
   "hunted_list": [
