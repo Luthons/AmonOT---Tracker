@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 22:55 (Brasília)",
+  "updated_at": "02/07/2026 às 22:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -2400,7 +2400,7 @@
     },
     {
       "name": "Ljxiv",
-      "level": 563,
+      "level": 763,
       "resets": 27,
       "vocation": "Elite Knight",
       "nick": "",
@@ -4353,8 +4353,8 @@
     },
     {
       "name": "Zap Seco",
-      "level": 696,
-      "resets": 18,
+      "level": 8,
+      "resets": 19,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -4434,6 +4434,11 @@
           "resets": 18,
           "gained": 1,
           "timestamp": "02/07/2026 às 18:22 (Brasília)"
+        },
+        {
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 22:56 (Brasília)"
         }
       ]
     },
@@ -5011,9 +5016,9 @@
     },
     {
       "name": "Zap Seco",
-      "resets_total": 18,
+      "resets_total": 19,
       "resets_today": 0,
-      "resets_week": 7,
+      "resets_week": 8,
       "vocation": "Master Sorcerer",
       "online": true
     }
@@ -5516,6 +5521,12 @@
           "online": true
         },
         {
+          "name": "Zap Seco",
+          "value": 19,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
@@ -5526,12 +5537,6 @@
           "value": 18,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Zap Seco",
-          "value": 18,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -6236,6 +6241,12 @@
           "online": false
         },
         {
+          "name": "Ljxiv",
+          "value": 763,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Henrique",
           "value": 760,
           "vocation": "Elite Knight",
@@ -6266,12 +6277,6 @@
           "online": false
         },
         {
-          "name": "Zap Seco",
-          "value": 696,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "White",
           "value": 641,
           "vocation": "Elder Druid",
@@ -6288,12 +6293,6 @@
           "value": 627,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Ljxiv",
-          "value": 563,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Diegao Barba",
@@ -6945,7 +6944,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 22:55 (Brasília)",
+    "updated_at": "02/07/2026 às 22:56 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 0,
@@ -27931,7 +27930,7 @@
         "White": 2,
         "Xeipe": 25,
         "Ynhaca Purah": 53,
-        "Zap Seco": 18,
+        "Zap Seco": 19,
         "Zenith": 11
       },
       "snapshots": {
@@ -44900,7 +44899,7 @@
           "White": 2,
           "Xeipe": 25,
           "Ynhaca Purah": 53,
-          "Zap Seco": 18,
+          "Zap Seco": 19,
           "Zenith": 11
         }
       },
@@ -51203,6 +51202,13 @@
           "resets": 48,
           "gained": 1,
           "timestamp": "02/07/2026 às 22:48 (Brasília)",
+          "hour_key": "2026-07-02-22"
+        },
+        {
+          "name": "Zap Seco",
+          "resets": 19,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 22:56 (Brasília)",
           "hour_key": "2026-07-02-22"
         }
       ]
@@ -62715,28 +62721,28 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Nao Eh Poring",
         "Papumzada",
         "We Edz",
         "Total Security",
+        "Old Jovizera",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
         "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Boltadao",
-        "Wake Wake",
         "Calveludo",
         "Ragekemi",
-        "Nao Eh Poring",
+        "Boltadao",
+        "Pittao teensina",
+        "Dont Bica",
         "Giga",
-        "Lula",
-        "Deruz",
+        "Wake Wake",
         "Lee Br",
-        "Cuffy Dido",
-        "Incrivel Monk",
-        "Old Jovizera",
         "Ehotk",
-        "Pittao teensina"
+        "Donte",
+        "Cuffy Dido",
+        "Lula"
       ],
       "changes_log": [
         {
@@ -62759,28 +62765,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Nao Eh Poring",
         "Papumzada",
         "We Edz",
         "Total Security",
+        "Old Jovizera",
+        "Incrivel Monk",
+        "JhonzinMilgrau",
         "Arroz Cadela",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Boltadao",
-        "Wake Wake",
         "Calveludo",
         "Ragekemi",
-        "Nao Eh Poring",
+        "Boltadao",
+        "Pittao teensina",
+        "Dont Bica",
         "Giga",
-        "Lula",
-        "Deruz",
+        "Wake Wake",
         "Lee Br",
-        "Cuffy Dido",
-        "Incrivel Monk",
-        "Old Jovizera",
         "Ehotk",
-        "Pittao teensina"
+        "Donte",
+        "Cuffy Dido",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
@@ -63440,12 +63446,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 99,
-      "total_current": 2846,
+      "total_current": 2847,
       "resets_today": 0,
-      "resets_week": 149,
+      "resets_week": 150,
       "resets_month": 0,
-      "resets_lifetime": 161,
-      "avg_per_player": 28.7
+      "resets_lifetime": 162,
+      "avg_per_player": 28.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
