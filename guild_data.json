@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 23:53 (Brasília)",
+  "updated_at": "02/07/2026 às 23:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -246,32 +246,6 @@
       ]
     },
     {
-      "name": "Brunaobringer",
-      "level": 2000,
-      "resets": 50,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "02/06/2026 às 16:01 (Brasília)"
-        },
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "02/06/2026 às 16:05 (Brasília)"
-        },
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "03/06/2026 às 19:49 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Maguinn Hahaha",
       "level": 2004,
       "resets": 50,
@@ -441,27 +415,6 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "02/07/2026 às 15:12 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "level": 1221,
-      "resets": 31,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 30,
-          "gained": 1,
-          "timestamp": "27/06/2026 às 10:17 (Brasília)"
-        },
-        {
-          "resets": 31,
-          "gained": 1,
-          "timestamp": "29/06/2026 às 02:12 (Brasília)"
         }
       ]
     },
@@ -822,6 +775,32 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
+    },
+    {
+      "name": "Brunaobringer",
+      "level": 2000,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "02/06/2026 às 16:01 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "02/06/2026 às 16:05 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "03/06/2026 às 19:49 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Campin",
@@ -4111,6 +4090,27 @@
       "reset_history": []
     },
     {
+      "name": "Vinizerah On Amonot",
+      "level": 1221,
+      "resets": 31,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 10:17 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 02:12 (Brasília)"
+        }
+      ]
+    },
+    {
       "name": "Vitao The Monster",
       "level": 731,
       "resets": 2,
@@ -5215,12 +5215,6 @@
           "online": true
         },
         {
-          "name": "Brunaobringer",
-          "value": 50,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Maguinn Hahaha",
           "value": 50,
           "vocation": "Elder Druid",
@@ -5234,6 +5228,12 @@
         },
         {
           "name": "Alba Baiakeiro",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
           "online": true
@@ -5395,12 +5395,6 @@
           "online": false
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 31,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "Ritoff Elite",
           "value": 31,
           "vocation": "Elite Knight",
@@ -5411,6 +5405,12 @@
           "value": 31,
           "vocation": "Master Sorcerer",
           "online": true
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "value": 31,
+          "vocation": "Elder Druid",
+          "online": false
         },
         {
           "name": "Baduff",
@@ -5767,12 +5767,6 @@
           "online": true
         },
         {
-          "name": "Brunaobringer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Punish Claude",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -5800,6 +5794,12 @@
           "name": "Brunao Rei Denovo",
           "value": 2000,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Brunaobringer",
+          "value": 2000,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -6968,7 +6968,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 23:53 (Brasília)",
+    "updated_at": "02/07/2026 às 23:54 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 0,
@@ -27860,11 +27860,9 @@
         "Esfi Hahaha": 58,
         "Gizao": 53,
         "Yagoodz Hahaha": 69,
-        "Brunaobringer": 50,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
         "Teylera Rp": 57,
-        "Vinizerah On Amonot": 31,
         "Achilles": 18,
         "Adolph Healer": 11,
         "Affey": 25,
@@ -27876,6 +27874,7 @@
         "Boingbringer": 30,
         "Brunao Cansado": 5,
         "Brunao Rei Denovo": 30,
+        "Brunaobringer": 50,
         "Campin": 7,
         "Cerebro": 49,
         "Charles": 26,
@@ -27946,6 +27945,7 @@
         "Tsuru": 32,
         "Twitch Yagoodz": 29,
         "Ultimate Warrior": 25,
+        "Vinizerah On Amonot": 31,
         "Vitao The Monster": 2,
         "Vitao The Trader": 20,
         "Voldemort Ed": 11,
@@ -44835,11 +44835,9 @@
           "Esfi Hahaha": 58,
           "Gizao": 53,
           "Yagoodz Hahaha": 69,
-          "Brunaobringer": 50,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
           "Teylera Rp": 57,
-          "Vinizerah On Amonot": 31,
           "Achilles": 18,
           "Adolph Healer": 11,
           "Affey": 25,
@@ -44851,6 +44849,7 @@
           "Boingbringer": 30,
           "Brunao Cansado": 5,
           "Brunao Rei Denovo": 30,
+          "Brunaobringer": 50,
           "Campin": 7,
           "Cerebro": 49,
           "Charles": 26,
@@ -44921,6 +44920,7 @@
           "Tsuru": 32,
           "Twitch Yagoodz": 29,
           "Ultimate Warrior": 25,
+          "Vinizerah On Amonot": 31,
           "Vitao The Monster": 2,
           "Vitao The Trader": 20,
           "Voldemort Ed": 11,
@@ -62727,28 +62727,28 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Deruz",
-        "Lee Br",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Donte",
-        "Total Security",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Papumzada",
-        "We Edz",
-        "Arroz Cadela",
-        "Lula",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Boltadao",
-        "Giga",
-        "Ragekemi",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera"
+        "Lula",
+        "Ragekemi",
+        "Calveludo",
+        "Incrivel Monk",
+        "Deruz",
+        "Papumzada",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Giga",
+        "Arroz Cadela",
+        "Lee Br",
+        "Total Security",
+        "We Edz",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Dont Bica",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Boltadao"
       ],
       "changes_log": [
         {
@@ -62771,28 +62771,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Deruz",
-        "Lee Br",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Donte",
-        "Total Security",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Papumzada",
-        "We Edz",
-        "Arroz Cadela",
-        "Lula",
-        "Incrivel Monk",
-        "Dont Bica",
-        "Boltadao",
-        "Giga",
-        "Ragekemi",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera"
+        "Lula",
+        "Ragekemi",
+        "Calveludo",
+        "Incrivel Monk",
+        "Deruz",
+        "Papumzada",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Giga",
+        "Arroz Cadela",
+        "Lee Br",
+        "Total Security",
+        "We Edz",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Dont Bica",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Boltadao"
       ],
       "hunted": {
         "Leogolas": {
