@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 02:46 (Brasília)",
+  "updated_at": "03/07/2026 às 02:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
-  "online_count": 54,
-  "offline_count": 44,
+  "online_count": 53,
+  "offline_count": 45,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1376,11 +1376,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Jul 03, 2026, 02:40:33",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": [
         {
           "resets": 36,
@@ -5077,7 +5073,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
+      "online": false
     },
     {
       "name": "Elder Lougon",
@@ -5559,7 +5555,7 @@
           "name": "Ed farm",
           "value": 47,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Royal Luthons",
@@ -6243,7 +6239,7 @@
           "name": "Ed farm",
           "value": 1406,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Dreenho Baiakeiro",
@@ -6632,16 +6628,16 @@
           "kills_week": 6
         },
         {
+          "name": "Teylera Rp",
+          "value": 40,
+          "kills_today": 3,
+          "kills_week": 7
+        },
+        {
           "name": "Maguinn Hahaha",
           "value": 39,
           "kills_today": 0,
           "kills_week": 21
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 39,
-          "kills_today": 2,
-          "kills_week": 6
         },
         {
           "name": "Maguinn Returns",
@@ -7237,16 +7233,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 02:45 (Brasília)",
-    "kills_total": 1030,
+    "updated_at": "03/07/2026 às 02:49 (Brasília)",
+    "kills_total": 1033,
     "deaths_total": 1082,
-    "kills_today": 4,
+    "kills_today": 5,
     "deaths_today": 17,
-    "kills_week": 95,
+    "kills_week": 96,
     "deaths_week": 88,
     "kd_total": 0.95,
-    "kd_today": 0.24,
-    "kd_week": 1.08,
+    "kd_today": 0.29,
+    "kd_week": 1.09,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7280,16 +7276,16 @@
         "kills_week": 6
       },
       {
+        "name": "Teylera Rp",
+        "kills": 40,
+        "kills_today": 3,
+        "kills_week": 7
+      },
+      {
         "name": "Maguinn Hahaha",
         "kills": 39,
         "kills_today": 0,
         "kills_week": 21
-      },
-      {
-        "name": "Teylera Rp",
-        "kills": 39,
-        "kills_today": 2,
-        "kills_week": 6
       },
       {
         "name": "Maguinn Returns",
@@ -17916,6 +17912,15 @@
         "player": "Kawik",
         "level": 1102,
         "killedBy": "Parkert",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 03, 2026 02:49",
+        "player": "Papumzada",
+        "level": 530,
+        "killedBy": "Teylera Rp",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -62528,10 +62533,9 @@
     },
     "members": {
       "last_member_list": [
+        "Lee Br",
         "Boltadao",
-        "Total Security",
         "Donte",
-        "Deruz",
         "Lula",
         "Calveludo",
         "Old Jovizera",
@@ -62543,13 +62547,22 @@
         "Dont Bica",
         "Giga",
         "Nao Eh Poring",
-        "Wake Wake",
-        "Papumzada",
-        "We Edz",
         "Arroz Cadela",
+        "Papumzada",
+        "Pittao teensina",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Total Security",
         "Ragekemi",
-        "Lee Br",
-        "JhonzinMilgrau"
+        "Cuffy Dido",
+        "Old Jovizera",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Dont Bica",
+        "Ehotk",
+        "Giga",
+        "Calveludo"
       ],
       "changes_log": [
         {
@@ -62573,20 +62586,13 @@
           "timestamp": "03/07/2026 às 02:48 (Brasília)"
         }
       ],
-      "recent_changes": [
-        {
-          "name": "Incrivel Monk",
-          "type": "left",
-          "timestamp": "03/07/2026 às 02:48 (Brasília)"
-        }
-      ]
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
+        "Lee Br",
         "Boltadao",
-        "Total Security",
         "Donte",
-        "Deruz",
         "Lula",
         "Calveludo",
         "Old Jovizera",
@@ -62598,13 +62604,22 @@
         "Dont Bica",
         "Giga",
         "Nao Eh Poring",
-        "Wake Wake",
-        "Papumzada",
-        "We Edz",
         "Arroz Cadela",
+        "Papumzada",
+        "Pittao teensina",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Total Security",
         "Ragekemi",
-        "Lee Br",
-        "JhonzinMilgrau"
+        "Cuffy Dido",
+        "Old Jovizera",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Deruz",
+        "Dont Bica",
+        "Ehotk",
+        "Giga",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
@@ -63282,13 +63297,7 @@
       "avg_per_player": 38.5
     }
   },
-  "recent_changes": [
-    {
-      "name": "Incrivel Monk",
-      "type": "left",
-      "timestamp": "03/07/2026 às 02:48 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
   "changes_log": [
     {
       "name": "Papumzada",
