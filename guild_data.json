@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 15:28 (Brasília)",
+  "updated_at": "03/07/2026 às 15:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
-  "online_count": 55,
-  "offline_count": 43,
+  "online_count": 54,
+  "offline_count": 44,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -2196,7 +2196,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 39,
@@ -3243,7 +3243,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1998,
+      "level": 1997,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4842,7 +4842,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Ljxiv",
@@ -5266,7 +5266,7 @@
           "name": "Kolwaski",
           "value": 43,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Melbiss",
@@ -5809,12 +5809,6 @@
           "online": false
         },
         {
-          "name": "Pally Tetss",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Esfi Hahaha",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -5825,6 +5819,12 @@
           "value": 1997,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Rafa Baguncinha",
@@ -5962,7 +5962,7 @@
           "name": "Kolwaski",
           "value": 1219,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Primobolan e Trembo",
@@ -6586,9 +6586,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 247,
-          "kills_today": 3,
-          "kills_week": 3
+          "value": 248,
+          "kills_today": 4,
+          "kills_week": 4
         },
         {
           "name": "Poring",
@@ -6920,16 +6920,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 15:28 (Brasília)",
+    "updated_at": "03/07/2026 às 15:29 (Brasília)",
     "kills_total": 1045,
-    "deaths_total": 1091,
+    "deaths_total": 1092,
     "kills_today": 17,
-    "deaths_today": 26,
+    "deaths_today": 27,
     "kills_week": 108,
-    "deaths_week": 97,
+    "deaths_week": 98,
     "kd_total": 0.96,
-    "kd_today": 0.65,
-    "kd_week": 1.11,
+    "kd_today": 0.63,
+    "kd_week": 1.1,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7230,9 +7230,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 247,
-        "kills_today": 3,
-        "kills_week": 3
+        "kills": 248,
+        "kills_today": 4,
+        "kills_week": 4
       },
       {
         "name": "Poring",
@@ -7581,15 +7581,15 @@
         34
       ],
       [
+        "Pally Tetss",
+        34
+      ],
+      [
         "Maguinn Returns",
         34
       ],
       [
         "Ed farm",
-        33
-      ],
-      [
-        "Pally Tetss",
         33
       ],
       [
@@ -27335,6 +27335,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 15:28",
+        "player": "Pally Tetss",
+        "level": 1998,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 15:26",
         "player": "Pally Tetss",
         "level": 2000,
@@ -27877,6 +27886,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 15:28",
+      "player": "Pally Tetss",
+      "level": 1998,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 15:26",
       "player": "Pally Tetss",
@@ -61765,27 +61783,27 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
-        "Lula",
-        "Nao Eh Poring",
         "Old Jovizera",
-        "Total Security",
-        "Giga",
-        "We Edz",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Calveludo",
-        "Ehotk",
-        "Deruz",
-        "Dont Bica",
-        "Boltadao",
+        "Papumzada",
         "Donte",
-        "Cetoprofeno Intramuscular",
-        "Lee Br",
-        "Wake Wake",
-        "Ragekemi",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Giga",
+        "Dont Bica",
         "Cuffy Dido",
-        "Arroz Cadela"
+        "Ragekemi",
+        "Lula",
+        "Ehotk",
+        "Arroz Cadela",
+        "Deruz",
+        "Total Security",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Wake Wake",
+        "We Edz",
+        "JhonzinMilgrau"
       ],
       "changes_log": [
         {
@@ -61818,27 +61836,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
-        "Lula",
-        "Nao Eh Poring",
         "Old Jovizera",
-        "Total Security",
-        "Giga",
-        "We Edz",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Calveludo",
-        "Ehotk",
-        "Deruz",
-        "Dont Bica",
-        "Boltadao",
+        "Papumzada",
         "Donte",
-        "Cetoprofeno Intramuscular",
-        "Lee Br",
-        "Wake Wake",
-        "Ragekemi",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Giga",
+        "Dont Bica",
         "Cuffy Dido",
-        "Arroz Cadela"
+        "Ragekemi",
+        "Lula",
+        "Ehotk",
+        "Arroz Cadela",
+        "Deruz",
+        "Total Security",
+        "Lee Br",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Wake Wake",
+        "We Edz",
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
