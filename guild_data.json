@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 17:42 (Brasília)",
+  "updated_at": "03/07/2026 às 17:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 99,
-  "online_count": 56,
+  "total_members": 100,
+  "online_count": 57,
   "offline_count": 43,
   "members": [
     {
@@ -718,6 +718,16 @@
           "timestamp": "23/06/2026 às 13:29 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Baiakudinho",
+      "level": 1128,
+      "resets": 53,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Blade Winter",
@@ -5159,6 +5169,12 @@
           "online": true
         },
         {
+          "name": "Baiakudinho",
+          "value": 53,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loke",
           "value": 53,
           "vocation": "Elite Knight",
@@ -5996,6 +6012,12 @@
           "name": "Its Gui",
           "value": 1134,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Baiakudinho",
+          "value": 1128,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6948,7 +6970,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 17:42 (Brasília)",
+    "updated_at": "03/07/2026 às 17:43 (Brasília)",
     "kills_total": 1071,
     "deaths_total": 1139,
     "kills_today": 43,
@@ -29287,6 +29309,7 @@
         "Apreciador De Casadas": 37,
         "Apreciador On Amonot": 3,
         "Baduff": 30,
+        "Baiakudinho": 53,
         "Blade Winter": 25,
         "Boingbringer": 30,
         "Brunao Cansado": 5,
@@ -46332,6 +46355,7 @@
           "Apreciador De Casadas": 37,
           "Apreciador On Amonot": 3,
           "Baduff": 30,
+          "Baiakudinho": 53,
           "Blade Winter": 25,
           "Boingbringer": 30,
           "Brunao Cansado": 5,
@@ -62711,27 +62735,27 @@
     },
     "members": {
       "last_member_list": [
-        "Pittao teensina",
-        "Papumzada",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
-        "We Edz",
         "Lee Br",
-        "Deruz",
-        "Total Security",
-        "Giga",
-        "Ragekemi",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Donte",
-        "Cuffy Dido",
-        "Lula",
         "Dont Bica",
+        "Ehotk",
+        "Lula",
+        "Calveludo",
         "JhonzinMilgrau",
+        "Nao Eh Poring",
         "Old Jovizera",
+        "Deruz",
+        "Giga",
+        "Pittao teensina",
+        "Total Security",
+        "Cuffy Dido",
         "Wake Wake",
+        "Papumzada",
+        "We Edz",
         "Arroz Cadela",
-        "Ehotk"
+        "Ragekemi",
+        "Donte",
+        "Boltadao",
+        "Cetoprofeno Intramuscular"
       ],
       "changes_log": [
         {
@@ -62764,27 +62788,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Pittao teensina",
-        "Papumzada",
-        "Boltadao",
-        "Cetoprofeno Intramuscular",
-        "We Edz",
         "Lee Br",
-        "Deruz",
-        "Total Security",
-        "Giga",
-        "Ragekemi",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Donte",
-        "Cuffy Dido",
-        "Lula",
         "Dont Bica",
+        "Ehotk",
+        "Lula",
+        "Calveludo",
         "JhonzinMilgrau",
+        "Nao Eh Poring",
         "Old Jovizera",
+        "Deruz",
+        "Giga",
+        "Pittao teensina",
+        "Total Security",
+        "Cuffy Dido",
         "Wake Wake",
+        "Papumzada",
+        "We Edz",
         "Arroz Cadela",
-        "Ehotk"
+        "Ragekemi",
+        "Donte",
+        "Boltadao",
+        "Cetoprofeno Intramuscular"
       ],
       "hunted": {
         "Leogolas": {
@@ -63443,13 +63467,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 99,
-      "total_current": 2914,
+      "num_members": 100,
+      "total_current": 2967,
       "resets_today": 20,
       "resets_week": 167,
       "resets_month": 0,
       "resets_lifetime": 161,
-      "avg_per_player": 29.4
+      "avg_per_player": 29.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
