@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 12:30 (Brasília)",
+  "updated_at": "03/07/2026 às 12:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -3802,8 +3802,8 @@
     },
     {
       "name": "Sisen",
-      "level": 981,
-      "resets": 12,
+      "level": 8,
+      "resets": 13,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -3858,6 +3858,11 @@
           "resets": 12,
           "gained": 1,
           "timestamp": "01/07/2026 às 15:26 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:31 (Brasília)"
         }
       ]
     },
@@ -4705,6 +4710,14 @@
       "online": true
     },
     {
+      "name": "Sisen",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 58,
       "resets_today": 0,
@@ -4919,14 +4932,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Sisen",
-      "resets_total": 12,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
-      "online": true
     },
     {
       "name": "Timeless",
@@ -5513,16 +5518,16 @@
           "online": false
         },
         {
+          "name": "Sisen",
+          "value": 13,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Primobolan e Trembo",
           "value": 12,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Sisen",
-          "value": 12,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Adolph Healer",
@@ -6002,12 +6007,6 @@
           "name": "Cheiro Dpneu",
           "value": 998,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Sisen",
-          "value": 981,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6894,7 +6893,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 12:30 (Brasília)",
+    "updated_at": "03/07/2026 às 12:31 (Brasília)",
     "kills_total": 1042,
     "deaths_total": 1088,
     "kills_today": 14,
@@ -28249,7 +28248,7 @@
         "Rp Terror": 33,
         "Rusha Rp": 50,
         "Sabour Ms": 10,
-        "Sisen": 12,
+        "Sisen": 13,
         "Solarica": 4,
         "Sonzacrazy": 7,
         "Taka e Cura": 8,
@@ -45276,7 +45275,7 @@
           "Rp Terror": 33,
           "Rusha Rp": 50,
           "Sabour Ms": 10,
-          "Sisen": 12,
+          "Sisen": 13,
           "Solarica": 4,
           "Sonzacrazy": 7,
           "Taka e Cura": 8,
@@ -51302,6 +51301,13 @@
           "resets": 44,
           "gained": 1,
           "timestamp": "03/07/2026 às 12:24 (Brasília)",
+          "hour_key": "2026-07-03-12"
+        },
+        {
+          "name": "Sisen",
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:31 (Brasília)",
           "hour_key": "2026-07-03-12"
         }
       ]
@@ -61820,26 +61826,26 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
         "Giga",
         "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Donte",
         "Lula",
-        "Deruz",
-        "Total Security",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Wake Wake",
+        "Old Jovizera",
+        "Lee Br",
+        "Arroz Cadela",
         "Calveludo",
         "Pittao teensina",
-        "Lee Br",
-        "Ragekemi",
+        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
         "We Edz",
-        "Arroz Cadela",
+        "Ehotk",
+        "Boltadao",
+        "Ragekemi",
+        "Total Security",
+        "Donte",
+        "Deruz",
+        "Wake Wake",
+        "Papumzada",
         "Dont Bica"
       ],
       "changes_log": [
@@ -61873,26 +61879,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
         "Giga",
         "Cetoprofeno Intramuscular",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Donte",
         "Lula",
-        "Deruz",
-        "Total Security",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Wake Wake",
+        "Old Jovizera",
+        "Lee Br",
+        "Arroz Cadela",
         "Calveludo",
         "Pittao teensina",
-        "Lee Br",
-        "Ragekemi",
+        "Cuffy Dido",
+        "JhonzinMilgrau",
+        "Nao Eh Poring",
         "We Edz",
-        "Arroz Cadela",
+        "Ehotk",
+        "Boltadao",
+        "Ragekemi",
+        "Total Security",
+        "Donte",
+        "Deruz",
+        "Wake Wake",
+        "Papumzada",
         "Dont Bica"
       ],
       "hunted": {
@@ -62553,11 +62559,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 98,
-      "total_current": 2834,
-      "resets_today": 16,
-      "resets_week": 163,
+      "total_current": 2835,
+      "resets_today": 17,
+      "resets_week": 164,
       "resets_month": 0,
-      "resets_lifetime": 160,
+      "resets_lifetime": 161,
       "avg_per_player": 28.9
     },
     "enemy_guild": {
