@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/07/2026 às 22:23 (Brasília)",
+  "updated_at": "02/07/2026 às 22:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 99,
@@ -3042,7 +3042,7 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 898,
+      "level": 990,
       "resets": 26,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -6046,6 +6046,12 @@
           "online": false
         },
         {
+          "name": "Nagato Sorcerer",
+          "value": 990,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 987,
           "vocation": "Elite Knight",
@@ -6152,12 +6158,6 @@
           "value": 909,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 898,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Campin",
@@ -6941,7 +6941,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/07/2026 às 22:23 (Brasília)",
+    "updated_at": "02/07/2026 às 22:24 (Brasília)",
     "kills_total": 1028,
     "deaths_total": 1065,
     "kills_today": 0,
@@ -62697,28 +62697,28 @@
     },
     "members": {
       "last_member_list": [
+        "Arroz Cadela",
         "Donte",
-        "Papumzada",
-        "Boltadao",
         "Wake Wake",
-        "Deruz",
         "We Edz",
-        "Incrivel Monk",
+        "Lula",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Boltadao",
+        "Papumzada",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
         "Dont Bica",
         "Ehotk",
-        "Pittao teensina",
-        "Lula",
-        "Calveludo",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Total Security",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
         "Lee Br",
+        "Cuffy Dido",
+        "Deruz",
         "Ragekemi",
-        "Nao Eh Poring"
+        "Calveludo",
+        "Old Jovizera",
+        "Incrivel Monk",
+        "Giga"
       ],
       "changes_log": [
         {
@@ -62741,28 +62741,28 @@
     },
     "hunted": {
       "last_enemy_list": [
+        "Arroz Cadela",
         "Donte",
-        "Papumzada",
-        "Boltadao",
         "Wake Wake",
-        "Deruz",
         "We Edz",
-        "Incrivel Monk",
+        "Lula",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Boltadao",
+        "Papumzada",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
         "Dont Bica",
         "Ehotk",
-        "Pittao teensina",
-        "Lula",
-        "Calveludo",
-        "Cuffy Dido",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Total Security",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Old Jovizera",
         "Lee Br",
+        "Cuffy Dido",
+        "Deruz",
         "Ragekemi",
-        "Nao Eh Poring"
+        "Calveludo",
+        "Old Jovizera",
+        "Incrivel Monk",
+        "Giga"
       ],
       "hunted": {
         "Leogolas": {
