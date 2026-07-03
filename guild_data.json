@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 02:12 (Brasília)",
+  "updated_at": "03/07/2026 às 02:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -753,7 +753,7 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 2000,
+      "level": 1997,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2700,7 +2700,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1813,
+      "level": 1811,
       "resets": 41,
       "vocation": "Elite Knight",
       "nick": "",
@@ -5656,12 +5656,6 @@
           "online": false
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Brunaobringer",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -5734,6 +5728,12 @@
           "online": false
         },
         {
+          "name": "Brunao Rei Denovo",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 1997,
           "vocation": "Master Sorcerer",
@@ -5770,15 +5770,15 @@
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 1813,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Garuvuvinha",
           "value": 1811,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Melbiss",
+          "value": 1811,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -6541,9 +6541,9 @@
         },
         {
           "name": "Calveludo",
-          "value": 47,
-          "kills_today": 1,
-          "kills_week": 14
+          "value": 48,
+          "kills_today": 2,
+          "kills_week": 15
         },
         {
           "name": "Pittao teensina",
@@ -6839,16 +6839,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 02:12 (Brasília)",
+    "updated_at": "03/07/2026 às 02:13 (Brasília)",
     "kills_total": 1030,
-    "deaths_total": 1077,
+    "deaths_total": 1078,
     "kills_today": 2,
-    "deaths_today": 12,
+    "deaths_today": 13,
     "kills_week": 93,
-    "deaths_week": 83,
+    "deaths_week": 84,
     "kd_total": 0.96,
-    "kd_today": 0.17,
-    "kd_week": 1.12,
+    "kd_today": 0.15,
+    "kd_week": 1.11,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7185,9 +7185,9 @@
       },
       {
         "name": "Calveludo",
-        "kills": 47,
-        "kills_today": 1,
-        "kills_week": 14
+        "kills": 48,
+        "kills_today": 2,
+        "kills_week": 15
       },
       {
         "name": "Pittao teensina",
@@ -27119,6 +27119,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 03, 2026 02:12",
+        "player": "Melbiss",
+        "level": 1813,
+        "killedBy": "Calveludo",
+        "maiorDano": "Pittao teensina",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 03, 2026 02:10",
         "player": "Dreenho Baiakeiro",
         "level": 1293,
@@ -27535,6 +27544,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 03, 2026 02:12",
+      "player": "Melbiss",
+      "level": 1813,
+      "killedBy": "Calveludo",
+      "maiorDano": "Pittao teensina",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 03, 2026 02:10",
       "player": "Dreenho Baiakeiro",
@@ -62010,28 +62028,28 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Total Security",
-        "Lula",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Dont Bica",
-        "Wake Wake",
-        "Old Jovizera",
         "Ragekemi",
         "Calveludo",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Lee Br",
-        "Giga",
-        "Nao Eh Poring",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Cuffy Dido",
         "Donte",
+        "Old Jovizera",
         "Boltadao",
-        "Deruz"
+        "Ehotk",
+        "We Edz",
+        "Lula",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Papumzada",
+        "Lee Br",
+        "Total Security",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Incrivel Monk"
       ],
       "changes_log": [
         {
@@ -62054,28 +62072,28 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Total Security",
-        "Lula",
-        "Cuffy Dido",
-        "Pittao teensina",
         "Dont Bica",
-        "Wake Wake",
-        "Old Jovizera",
         "Ragekemi",
         "Calveludo",
-        "Incrivel Monk",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Lee Br",
-        "Giga",
-        "Nao Eh Poring",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Cuffy Dido",
         "Donte",
+        "Old Jovizera",
         "Boltadao",
-        "Deruz"
+        "Ehotk",
+        "We Edz",
+        "Lula",
+        "Nao Eh Poring",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Giga",
+        "Papumzada",
+        "Lee Br",
+        "Total Security",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Incrivel Monk"
       ],
       "hunted": {
         "Leogolas": {
