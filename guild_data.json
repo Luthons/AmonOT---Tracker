@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 12:11 (Brasília)",
+  "updated_at": "03/07/2026 às 12:12 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 98,
@@ -4559,8 +4559,8 @@
         },
         {
           "name": "Total Security",
-          "level": 999,
-          "resets": 13,
+          "level": 8,
+          "resets": 14,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -4990,6 +4990,14 @@
       "online": true
     },
     {
+      "name": "Total Security",
+      "resets_total": 14,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Lee Br",
       "resets_total": 41,
       "resets_today": 0,
@@ -5056,14 +5064,6 @@
     {
       "name": "Pittao teensina",
       "resets_total": 45,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Total Security",
-      "resets_total": 13,
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Master Sorcerer",
@@ -6895,7 +6895,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 12:11 (Brasília)",
+    "updated_at": "03/07/2026 às 12:12 (Brasília)",
     "kills_total": 1042,
     "deaths_total": 1088,
     "kills_today": 14,
@@ -51339,7 +51339,7 @@
         "Lula": 52,
         "Old Jovizera": 39,
         "Pittao teensina": 45,
-        "Total Security": 13,
+        "Total Security": 14,
         "Wake Wake": 31
       },
       "snapshots": {
@@ -56615,7 +56615,7 @@
           "Lula": 52,
           "Old Jovizera": 39,
           "Pittao teensina": 45,
-          "Total Security": 13,
+          "Total Security": 14,
           "Wake Wake": 31
         }
       },
@@ -61820,32 +61820,39 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 04:41 (Brasília)",
           "hour_key": "2026-07-03-04"
+        },
+        {
+          "name": "Total Security",
+          "resets": 14,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 12:12 (Brasília)",
+          "hour_key": "2026-07-03-12"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Old Jovizera",
         "Boltadao",
-        "Deruz",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "We Edz",
-        "Papumzada",
-        "Ragekemi",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Donte",
-        "Dont Bica",
-        "Ehotk",
-        "Giga",
         "Calveludo",
-        "Total Security",
-        "Arroz Cadela",
+        "Cuffy Dido",
+        "Lee Br",
+        "We Edz",
+        "Ehotk",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Pittao teensina",
         "Lula",
-        "Cuffy Dido"
+        "Deruz",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Old Jovizera",
+        "Papumzada",
+        "Giga",
+        "Donte"
       ],
       "changes_log": [
         {
@@ -61878,27 +61885,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Old Jovizera",
         "Boltadao",
-        "Deruz",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "We Edz",
-        "Papumzada",
-        "Ragekemi",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Wake Wake",
-        "Donte",
-        "Dont Bica",
-        "Ehotk",
-        "Giga",
         "Calveludo",
-        "Total Security",
-        "Arroz Cadela",
+        "Cuffy Dido",
+        "Lee Br",
+        "We Edz",
+        "Ehotk",
+        "Dont Bica",
+        "Nao Eh Poring",
+        "Pittao teensina",
         "Lula",
-        "Cuffy Dido"
+        "Deruz",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Old Jovizera",
+        "Papumzada",
+        "Giga",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
@@ -62568,12 +62575,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 21,
-      "total_current": 809,
-      "resets_today": 2,
-      "resets_week": 25,
+      "total_current": 810,
+      "resets_today": 3,
+      "resets_week": 26,
       "resets_month": 0,
-      "resets_lifetime": 26,
-      "avg_per_player": 38.5
+      "resets_lifetime": 27,
+      "avg_per_player": 38.6
     }
   },
   "recent_changes": [],
