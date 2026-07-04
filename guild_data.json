@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 20:12 (Brasília)",
+  "updated_at": "04/07/2026 às 20:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2211,8 +2211,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1173,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2282,6 +2282,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "03/07/2026 às 13:38 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 20:13 (Brasília)"
         }
       ]
     },
@@ -4397,8 +4402,8 @@
     {
       "name": "Old Legacy",
       "total_members": 21,
-      "online_count": 10,
-      "offline_count": 11,
+      "online_count": 11,
+      "offline_count": 10,
       "members": [
         {
           "name": "Ehotk",
@@ -4452,7 +4457,7 @@
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
-          "online": false
+          "online": true
         },
         {
           "name": "Dont Bica",
@@ -4650,6 +4655,14 @@
       "online": true
     },
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 42,
       "resets_today": 1,
@@ -4815,14 +4828,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -5065,7 +5070,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": false
+      "online": true
     },
     {
       "name": "Papumzada",
@@ -5414,6 +5419,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 29,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Rafa Baguncinha",
           "value": 29,
           "vocation": "Master Sorcerer",
@@ -5424,12 +5435,6 @@
           "value": 28,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 28,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -6041,12 +6046,6 @@
           "name": "Its Gui",
           "value": 1195,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1173,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -6975,7 +6974,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 20:12 (Brasília)",
+    "updated_at": "04/07/2026 às 20:13 (Brasília)",
     "kills_total": 1085,
     "deaths_total": 1190,
     "kills_today": 14,
@@ -30115,7 +30114,7 @@
         "Kiel": 59,
         "King Suino": 5,
         "Kolwaski": 44,
-        "Lilian Faithkeeper": 28,
+        "Lilian Faithkeeper": 29,
         "Lipe Knight": 45,
         "Ljxiv": 27,
         "Loke": 53,
@@ -47234,7 +47233,7 @@
           "Kiel": 59,
           "King Suino": 5,
           "Kolwaski": 44,
-          "Lilian Faithkeeper": 28,
+          "Lilian Faithkeeper": 29,
           "Lipe Knight": 45,
           "Ljxiv": 27,
           "Loke": 53,
@@ -53171,6 +53170,13 @@
           "gained": 1,
           "timestamp": "04/07/2026 às 18:29 (Brasília)",
           "hour_key": "2026-07-04-18"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 20:13 (Brasília)",
+          "hour_key": "2026-07-04-20"
         }
       ]
     },
@@ -62193,54 +62199,54 @@
     },
     "members": {
       "last_member_list": [
-        "Deruz",
-        "Pittao teensina",
-        "Nao Eh Poring",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Donte",
-        "Old Jovizera",
-        "Wake Wake",
-        "Cuffy Dido",
-        "Papumzada",
         "Boltadao",
-        "Giga",
-        "We Edz",
-        "Calveludo",
-        "Dont Bica",
-        "Lee Br",
-        "Lula",
         "Ragekemi",
+        "Ehotk",
+        "Total Security",
+        "We Edz",
         "Arroz Cadela",
-        "Ehotk"
+        "Papumzada",
+        "Dont Bica",
+        "Wake Wake",
+        "Pittao teensina",
+        "Lee Br",
+        "Nao Eh Poring",
+        "Deruz",
+        "Old Jovizera",
+        "JhonzinMilgrau",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Donte",
+        "Giga",
+        "Lula"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Deruz",
-        "Pittao teensina",
-        "Nao Eh Poring",
-        "JhonzinMilgrau",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "Donte",
-        "Old Jovizera",
-        "Wake Wake",
-        "Cuffy Dido",
-        "Papumzada",
         "Boltadao",
-        "Giga",
-        "We Edz",
-        "Calveludo",
-        "Dont Bica",
-        "Lee Br",
-        "Lula",
         "Ragekemi",
+        "Ehotk",
+        "Total Security",
+        "We Edz",
         "Arroz Cadela",
-        "Ehotk"
+        "Papumzada",
+        "Dont Bica",
+        "Wake Wake",
+        "Pittao teensina",
+        "Lee Br",
+        "Nao Eh Poring",
+        "Deruz",
+        "Old Jovizera",
+        "JhonzinMilgrau",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "Donte",
+        "Giga",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
@@ -62912,11 +62918,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2997,
-      "resets_today": 11,
-      "resets_week": 173,
+      "total_current": 2998,
+      "resets_today": 12,
+      "resets_week": 174,
       "resets_month": 0,
-      "resets_lifetime": 175,
+      "resets_lifetime": 176,
       "avg_per_player": 30.0
     },
     "enemy_guild": {
