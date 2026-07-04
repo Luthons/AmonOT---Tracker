@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 03:22 (Brasília)",
+  "updated_at": "04/07/2026 às 03:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
-  "online_count": 55,
-  "offline_count": 46,
+  "online_count": 54,
+  "offline_count": 47,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1493,7 +1493,7 @@
     },
     {
       "name": "End Zeus",
-      "level": 2000,
+      "level": 1998,
       "resets": 36,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1534,7 +1534,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2012,7 +2012,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1708,
+      "level": 1709,
       "resets": 76,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -5105,7 +5105,7 @@
           "name": "Friedrich Merz",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Kiel",
@@ -5750,12 +5750,6 @@
           "online": true
         },
         {
-          "name": "End Zeus",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -5782,6 +5776,12 @@
         {
           "name": "Vitao The Trader",
           "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "End Zeus",
+          "value": 1998,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5819,7 +5819,7 @@
           "name": "Friedrich Merz",
           "value": 1996,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Achilles",
@@ -5865,7 +5865,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1708,
+          "value": 1709,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6653,9 +6653,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 85,
-          "kills_today": 28,
-          "kills_week": 82
+          "value": 86,
+          "kills_today": 29,
+          "kills_week": 83
         },
         {
           "name": "Cetoprofeno Intramuscular",
@@ -6706,13 +6706,13 @@
           "kills_week": 0
         },
         {
-          "name": "Gbr Originall",
-          "value": 12,
-          "kills_today": 0,
-          "kills_week": 0
+          "name": "Papumzada",
+          "value": 13,
+          "kills_today": 1,
+          "kills_week": 1
         },
         {
-          "name": "Papumzada",
+          "name": "Gbr Originall",
           "value": 12,
           "kills_today": 0,
           "kills_week": 0
@@ -6963,16 +6963,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 03:22 (Brasília)",
+    "updated_at": "04/07/2026 às 03:23 (Brasília)",
     "kills_total": 1085,
-    "deaths_total": 1187,
+    "deaths_total": 1189,
     "kills_today": 14,
-    "deaths_today": 45,
+    "deaths_today": 47,
     "kills_week": 139,
-    "deaths_week": 189,
+    "deaths_week": 191,
     "kd_total": 0.91,
-    "kd_today": 0.31,
-    "kd_week": 0.74,
+    "kd_today": 0.3,
+    "kd_week": 0.73,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7309,9 +7309,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 85,
-        "kills_today": 28,
-        "kills_week": 82
+        "kills": 86,
+        "kills_today": 29,
+        "kills_week": 83
       },
       {
         "name": "Cetoprofeno Intramuscular",
@@ -7362,13 +7362,13 @@
         "kills_week": 0
       },
       {
-        "name": "Gbr Originall",
-        "kills": 12,
-        "kills_today": 0,
-        "kills_week": 0
+        "name": "Papumzada",
+        "kills": 13,
+        "kills_today": 1,
+        "kills_week": 1
       },
       {
-        "name": "Papumzada",
+        "name": "Gbr Originall",
         "kills": 12,
         "kills_today": 0,
         "kills_week": 0
@@ -27750,6 +27750,24 @@
         "isPvp": true
       },
       {
+        "time": "Jul 04, 2026 03:22",
+        "player": "End Zeus",
+        "level": 2000,
+        "killedBy": "Papumzada",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 03:22",
+        "player": "Jhonnys Trembolizado",
+        "level": 1711,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 04, 2026 03:17",
         "player": "Red Hahaha",
         "level": 1385,
@@ -29157,6 +29175,24 @@
   },
   "deaths_global": [
     {
+      "time": "Jul 04, 2026 03:22",
+      "player": "End Zeus",
+      "level": 2000,
+      "killedBy": "Papumzada",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 03:22",
+      "player": "Jhonnys Trembolizado",
+      "level": 1711,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 04, 2026 03:17",
       "player": "Red Hahaha",
       "level": 1385,
@@ -29707,18 +29743,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -62518,27 +62554,27 @@
     },
     "members": {
       "last_member_list": [
-        "Ragekemi",
-        "Papumzada",
-        "Total Security",
-        "Ehotk",
-        "Lula",
-        "We Edz",
-        "Cuffy Dido",
-        "Lee Br",
-        "Boltadao",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Dont Bica",
-        "Nao Eh Poring",
         "Donte",
-        "Calveludo",
-        "Giga",
-        "Old Jovizera",
-        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
         "Deruz",
-        "Cetoprofeno Intramuscular"
+        "Dont Bica",
+        "Lula",
+        "Old Jovizera",
+        "Cuffy Dido",
+        "Total Security",
+        "Calveludo",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Lee Br",
+        "We Edz",
+        "JhonzinMilgrau",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Giga",
+        "Wake Wake",
+        "Ragekemi"
       ],
       "changes_log": [
         {
@@ -62676,27 +62712,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ragekemi",
-        "Papumzada",
-        "Total Security",
-        "Ehotk",
-        "Lula",
-        "We Edz",
-        "Cuffy Dido",
-        "Lee Br",
-        "Boltadao",
-        "Arroz Cadela",
-        "JhonzinMilgrau",
-        "Pittao teensina",
-        "Dont Bica",
-        "Nao Eh Poring",
         "Donte",
-        "Calveludo",
-        "Giga",
-        "Old Jovizera",
-        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Papumzada",
         "Deruz",
-        "Cetoprofeno Intramuscular"
+        "Dont Bica",
+        "Lula",
+        "Old Jovizera",
+        "Cuffy Dido",
+        "Total Security",
+        "Calveludo",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "Lee Br",
+        "We Edz",
+        "JhonzinMilgrau",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Giga",
+        "Wake Wake",
+        "Ragekemi"
       ],
       "hunted": {
         "Leogolas": {
