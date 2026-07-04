@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 03:24 (Brasília)",
+  "updated_at": "04/07/2026 às 03:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -201,7 +201,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 930,
+      "level": 948,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -4564,8 +4564,8 @@
         },
         {
           "name": "Pittao teensina",
-          "level": 1903,
-          "resets": 45,
+          "level": 8,
+          "resets": 46,
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
@@ -4996,6 +4996,14 @@
       "online": true
     },
     {
+      "name": "Pittao teensina",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Lee Br",
       "resets_total": 41,
       "resets_today": 0,
@@ -5064,14 +5072,6 @@
       "resets_total": 40,
       "resets_today": 0,
       "resets_week": 4,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Pittao teensina",
-      "resets_total": 45,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -6116,16 +6116,16 @@
           "online": false
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 948,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Voldemort Ed",
           "value": 948,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Yagoodz Hahaha",
-          "value": 930,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Erva Doce",
@@ -6963,7 +6963,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 03:24 (Brasília)",
+    "updated_at": "04/07/2026 às 03:25 (Brasília)",
     "kills_total": 1085,
     "deaths_total": 1189,
     "kills_today": 14,
@@ -29743,18 +29743,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -53183,7 +53183,7 @@
         "JhonzinMilgrau": 26,
         "Lula": 52,
         "Old Jovizera": 40,
-        "Pittao teensina": 45,
+        "Pittao teensina": 46,
         "Total Security": 14,
         "Wake Wake": 31
       },
@@ -57679,7 +57679,7 @@
           "JhonzinMilgrau": 26,
           "Lula": 52,
           "Old Jovizera": 40,
-          "Pittao teensina": 45,
+          "Pittao teensina": 46,
           "Total Security": 14,
           "Wake Wake": 31
         }
@@ -62549,32 +62549,39 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 23:49 (Brasília)",
           "hour_key": "2026-07-03-23"
+        },
+        {
+          "name": "Pittao teensina",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 03:25 (Brasília)",
+          "hour_key": "2026-07-04-03"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Total Security",
-        "Lee Br",
-        "Pittao teensina",
         "Calveludo",
         "Cuffy Dido",
-        "Giga",
-        "Arroz Cadela",
-        "Ehotk",
-        "Old Jovizera",
-        "Deruz",
-        "Boltadao",
+        "Lee Br",
         "Lula",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Donte",
-        "Papumzada",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
         "We Edz",
-        "Nao Eh Poring"
+        "Total Security",
+        "Giga",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Old Jovizera",
+        "Papumzada",
+        "Arroz Cadela",
+        "Ragekemi",
+        "Dont Bica",
+        "Boltadao",
+        "Pittao teensina",
+        "Deruz",
+        "Wake Wake",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Donte"
       ],
       "changes_log": [
         {
@@ -62712,27 +62719,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Total Security",
-        "Lee Br",
-        "Pittao teensina",
         "Calveludo",
         "Cuffy Dido",
-        "Giga",
-        "Arroz Cadela",
-        "Ehotk",
-        "Old Jovizera",
-        "Deruz",
-        "Boltadao",
+        "Lee Br",
         "Lula",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Donte",
-        "Papumzada",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
         "We Edz",
-        "Nao Eh Poring"
+        "Total Security",
+        "Giga",
+        "JhonzinMilgrau",
+        "Cetoprofeno Intramuscular",
+        "Old Jovizera",
+        "Papumzada",
+        "Arroz Cadela",
+        "Ragekemi",
+        "Dont Bica",
+        "Boltadao",
+        "Pittao teensina",
+        "Deruz",
+        "Wake Wake",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
@@ -63414,11 +63421,11 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 21,
-      "total_current": 812,
-      "resets_today": 1,
-      "resets_week": 26,
+      "total_current": 813,
+      "resets_today": 2,
+      "resets_week": 27,
       "resets_month": 0,
-      "resets_lifetime": 28,
+      "resets_lifetime": 29,
       "avg_per_player": 38.7
     }
   },
