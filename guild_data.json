@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 18:28 (Brasília)",
+  "updated_at": "04/07/2026 às 18:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2729,8 +2729,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 1995,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2770,6 +2770,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "30/06/2026 às 07:36 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 18:29 (Brasília)"
         }
       ]
     },
@@ -4645,6 +4650,14 @@
       "online": true
     },
     {
+      "name": "Melbiss",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Moskito",
       "resets_total": 24,
       "resets_today": 1,
@@ -4859,14 +4872,6 @@
       "resets_week": 4,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 41,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
-      "online": true
     },
     {
       "name": "Monstro Das Criptos",
@@ -5296,7 +5301,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 41,
+          "value": 42,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5845,12 +5850,6 @@
           "value": 1997,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 1995,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Achilles",
@@ -6970,7 +6969,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 18:28 (Brasília)",
+    "updated_at": "04/07/2026 às 18:29 (Brasília)",
     "kills_total": 1085,
     "deaths_total": 1190,
     "kills_today": 14,
@@ -30182,7 +30181,7 @@
         "Lukitas Brokenzada": 40,
         "Magabela": 50,
         "Makasco Ms": 2,
-        "Melbiss": 41,
+        "Melbiss": 42,
         "Monstro Das Criptos": 51,
         "More Knox": 7,
         "Moskito": 24,
@@ -47301,7 +47300,7 @@
           "Lukitas Brokenzada": 40,
           "Magabela": 50,
           "Makasco Ms": 2,
-          "Melbiss": 41,
+          "Melbiss": 42,
           "Monstro Das Criptos": 51,
           "More Knox": 7,
           "Moskito": 24,
@@ -53222,6 +53221,13 @@
           "gained": 1,
           "timestamp": "04/07/2026 às 17:20 (Brasília)",
           "hour_key": "2026-07-04-17"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 18:29 (Brasília)",
+          "hour_key": "2026-07-04-18"
         }
       ]
     },
@@ -62250,54 +62256,54 @@
     },
     "members": {
       "last_member_list": [
-        "We Edz",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
         "Boltadao",
-        "Deruz",
-        "Wake Wake",
-        "Donte",
-        "Total Security",
-        "Calveludo",
-        "JhonzinMilgrau",
         "Papumzada",
+        "Lee Br",
+        "Ragekemi",
+        "Lula",
+        "We Edz",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Cuffy Dido",
+        "Dont Bica",
+        "Old Jovizera",
+        "Donte",
         "Arroz Cadela",
         "Pittao teensina",
-        "Ehotk",
-        "Lula",
-        "Old Jovizera",
-        "Ragekemi",
-        "Cuffy Dido",
+        "Deruz",
+        "JhonzinMilgrau",
         "Giga",
-        "Dont Bica"
+        "Wake Wake",
+        "Ehotk"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "We Edz",
-        "Lee Br",
-        "Cetoprofeno Intramuscular",
         "Nao Eh Poring",
         "Boltadao",
-        "Deruz",
-        "Wake Wake",
-        "Donte",
-        "Total Security",
-        "Calveludo",
-        "JhonzinMilgrau",
         "Papumzada",
+        "Lee Br",
+        "Ragekemi",
+        "Lula",
+        "We Edz",
+        "Calveludo",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Cuffy Dido",
+        "Dont Bica",
+        "Old Jovizera",
+        "Donte",
         "Arroz Cadela",
         "Pittao teensina",
-        "Ehotk",
-        "Lula",
-        "Old Jovizera",
-        "Ragekemi",
-        "Cuffy Dido",
+        "Deruz",
+        "JhonzinMilgrau",
         "Giga",
-        "Dont Bica"
+        "Wake Wake",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -62969,11 +62975,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2996,
-      "resets_today": 10,
-      "resets_week": 172,
+      "total_current": 2997,
+      "resets_today": 11,
+      "resets_week": 173,
       "resets_month": 0,
-      "resets_lifetime": 175,
+      "resets_lifetime": 176,
       "avg_per_player": 30.0
     },
     "enemy_guild": {
