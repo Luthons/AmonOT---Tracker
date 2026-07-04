@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/07/2026 às 23:48 (Brasília)",
+  "updated_at": "03/07/2026 às 23:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -4553,8 +4553,8 @@
         },
         {
           "name": "Calveludo",
-          "level": 1402,
-          "resets": 40,
+          "level": 8,
+          "resets": 41,
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
@@ -5049,6 +5049,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Calveludo",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lee Br",
       "resets_total": 41,
       "resets_today": 0,
@@ -5085,14 +5093,6 @@
       "resets_total": 26,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Calveludo",
-      "resets_total": 40,
-      "resets_today": 0,
-      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -7018,7 +7018,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/07/2026 às 23:48 (Brasília)",
+    "updated_at": "03/07/2026 às 23:49 (Brasília)",
     "kills_total": 1072,
     "deaths_total": 1142,
     "kills_today": 1,
@@ -52660,7 +52660,7 @@
         "Nao Eh Poring": 80,
         "Papumzada": 26,
         "Boltadao": 25,
-        "Calveludo": 40,
+        "Calveludo": 41,
         "Cuffy Dido": 33,
         "Deruz": 41,
         "Donte": 27,
@@ -57364,7 +57364,7 @@
           "Nao Eh Poring": 80,
           "Papumzada": 26,
           "Boltadao": 25,
-          "Calveludo": 40,
+          "Calveludo": 41,
           "Cuffy Dido": 33,
           "Deruz": 41,
           "Donte": 27,
@@ -62592,32 +62592,39 @@
           "gained": 1,
           "timestamp": "03/07/2026 às 19:28 (Brasília)",
           "hour_key": "2026-07-03-19"
+        },
+        {
+          "name": "Calveludo",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "03/07/2026 às 23:49 (Brasília)",
+          "hour_key": "2026-07-03-23"
         }
       ]
     },
     "members": {
       "last_member_list": [
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Donte",
+        "Calveludo",
+        "Wake Wake",
+        "Dont Bica",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Papumzada",
         "Lee Br",
+        "Deruz",
+        "Nao Eh Poring",
+        "Ehotk",
+        "We Edz",
         "Giga",
         "Old Jovizera",
-        "Boltadao",
-        "Calveludo",
-        "We Edz",
         "Lula",
-        "Pittao teensina",
         "Ragekemi",
-        "Ehotk",
-        "Papumzada",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Donte",
         "Arroz Cadela",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Wake Wake"
+        "JhonzinMilgrau"
       ],
       "changes_log": [
         {
@@ -62755,27 +62762,27 @@
     },
     "hunted": {
       "last_enemy_list": [
+        "Total Security",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Donte",
+        "Calveludo",
+        "Wake Wake",
+        "Dont Bica",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Papumzada",
         "Lee Br",
+        "Deruz",
+        "Nao Eh Poring",
+        "Ehotk",
+        "We Edz",
         "Giga",
         "Old Jovizera",
-        "Boltadao",
-        "Calveludo",
-        "We Edz",
         "Lula",
-        "Pittao teensina",
         "Ragekemi",
-        "Ehotk",
-        "Papumzada",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Donte",
         "Arroz Cadela",
-        "Cuffy Dido",
-        "Cetoprofeno Intramuscular",
-        "Total Security",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Wake Wake"
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
@@ -63457,12 +63464,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 21,
-      "total_current": 811,
-      "resets_today": 0,
-      "resets_week": 25,
+      "total_current": 812,
+      "resets_today": 1,
+      "resets_week": 26,
       "resets_month": 0,
-      "resets_lifetime": 27,
-      "avg_per_player": 38.6
+      "resets_lifetime": 28,
+      "avg_per_player": 38.7
     }
   },
   "recent_changes": [],
