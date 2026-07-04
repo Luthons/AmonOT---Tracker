@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 01:38 (Brasília)",
+  "updated_at": "04/07/2026 às 01:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -2887,7 +2887,7 @@
     },
     {
       "name": "Moskito",
-      "level": 612,
+      "level": 650,
       "resets": 24,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -6274,6 +6274,12 @@
           "online": false
         },
         {
+          "name": "Moskito",
+          "value": 650,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "White",
           "value": 641,
           "vocation": "Elder Druid",
@@ -6284,12 +6290,6 @@
           "value": 627,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Moskito",
-          "value": 612,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -6941,7 +6941,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 01:38 (Brasília)",
+    "updated_at": "04/07/2026 às 01:39 (Brasília)",
     "kills_total": 1084,
     "deaths_total": 1176,
     "kills_today": 13,
@@ -29472,18 +29472,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -62484,27 +62484,27 @@
     },
     "members": {
       "last_member_list": [
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Boltadao",
-        "Lula",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
         "We Edz",
+        "Deruz",
         "Ehotk",
-        "Lee Br",
         "Pittao teensina",
-        "Giga",
-        "Total Security",
-        "Calveludo",
-        "Donte",
         "Cuffy Dido",
-        "Deruz"
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Lula",
+        "JhonzinMilgrau",
+        "Donte",
+        "Total Security",
+        "Lee Br",
+        "Old Jovizera",
+        "Wake Wake",
+        "Ragekemi",
+        "Giga",
+        "Dont Bica",
+        "Calveludo",
+        "Papumzada",
+        "Boltadao",
+        "Arroz Cadela"
       ],
       "changes_log": [
         {
@@ -62642,27 +62642,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Boltadao",
-        "Lula",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
         "We Edz",
+        "Deruz",
         "Ehotk",
-        "Lee Br",
         "Pittao teensina",
-        "Giga",
-        "Total Security",
-        "Calveludo",
-        "Donte",
         "Cuffy Dido",
-        "Deruz"
+        "Nao Eh Poring",
+        "Cetoprofeno Intramuscular",
+        "Lula",
+        "JhonzinMilgrau",
+        "Donte",
+        "Total Security",
+        "Lee Br",
+        "Old Jovizera",
+        "Wake Wake",
+        "Ragekemi",
+        "Giga",
+        "Dont Bica",
+        "Calveludo",
+        "Papumzada",
+        "Boltadao",
+        "Arroz Cadela"
       ],
       "hunted": {
         "Leogolas": {
