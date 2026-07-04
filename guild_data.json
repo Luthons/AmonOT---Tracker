@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 01:15 (Brasília)",
+  "updated_at": "04/07/2026 às 01:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1997,
+      "level": 1994,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -961,7 +961,7 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 964,
+      "level": 963,
       "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2623,7 +2623,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1995,
+      "level": 1994,
       "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2775,7 +2775,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1125,
+      "level": 1124,
       "resets": 51,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3490,7 +3490,7 @@
     },
     {
       "name": "Red Hahaha",
-      "level": 1384,
+      "level": 1383,
       "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4171,7 +4171,7 @@
     },
     {
       "name": "Xeipe",
-      "level": 1419,
+      "level": 1418,
       "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4540,7 +4540,7 @@
         },
         {
           "name": "Old Jovizera",
-          "level": 755,
+          "level": 763,
           "resets": 40,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5789,12 +5789,6 @@
           "online": true
         },
         {
-          "name": "Esfi Hahaha",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Baduff",
           "value": 1997,
           "vocation": "Elite Knight",
@@ -5819,8 +5813,14 @@
           "online": false
         },
         {
+          "name": "Esfi Hahaha",
+          "value": 1994,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Magabela",
-          "value": 1995,
+          "value": 1994,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5904,7 +5904,7 @@
         },
         {
           "name": "Xeipe",
-          "value": 1419,
+          "value": 1418,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5928,7 +5928,7 @@
         },
         {
           "name": "Red Hahaha",
-          "value": 1384,
+          "value": 1383,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -6006,7 +6006,7 @@
         },
         {
           "name": "Monstro Das Criptos",
-          "value": 1125,
+          "value": 1124,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -6096,7 +6096,7 @@
         },
         {
           "name": "Diegao Barba",
-          "value": 964,
+          "value": 963,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -6632,9 +6632,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 64,
-          "kills_today": 7,
-          "kills_week": 61
+          "value": 69,
+          "kills_today": 12,
+          "kills_week": 66
         },
         {
           "name": "Cetoprofeno Intramuscular",
@@ -6942,16 +6942,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 01:15 (Brasília)",
+    "updated_at": "04/07/2026 às 01:16 (Brasília)",
     "kills_total": 1076,
-    "deaths_total": 1153,
+    "deaths_total": 1158,
     "kills_today": 5,
-    "deaths_today": 11,
+    "deaths_today": 16,
     "kills_week": 130,
-    "deaths_week": 155,
+    "deaths_week": 160,
     "kd_total": 0.93,
-    "kd_today": 0.45,
-    "kd_week": 0.84,
+    "kd_today": 0.31,
+    "kd_week": 0.81,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7282,9 +7282,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 64,
-        "kills_today": 7,
-        "kills_week": 61
+        "kills": 69,
+        "kills_today": 12,
+        "kills_week": 66
       },
       {
         "name": "Cetoprofeno Intramuscular",
@@ -7590,7 +7590,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        59
+        61
       ],
       [
         "Teylera Rp",
@@ -27642,6 +27642,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 04, 2026 01:16",
+        "player": "Esfi Hahaha",
+        "level": 1995,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 04, 2026 01:15",
         "player": "Dmonick",
         "level": 1998,
@@ -27672,6 +27681,42 @@
         "time": "Jul 04, 2026 01:15",
         "player": "Maguinn Hahaha",
         "level": 2006,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:15",
+        "player": "Red Hahaha",
+        "level": 1384,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:15",
+        "player": "Diegao Barba",
+        "level": 964,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:15",
+        "player": "Esfi Hahaha",
+        "level": 1997,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:15",
+        "player": "Magabela",
+        "level": 1995,
         "killedBy": "Nao Eh Poring",
         "maiorDano": "",
         "world": "Baiak",
@@ -28742,6 +28787,60 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 04, 2026 01:16",
+      "player": "Xeipe",
+      "level": 1419,
+      "killedBy": "Twitch Matts",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:16",
+      "player": "Esfi Hahaha",
+      "level": 1995,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:15",
+      "player": "Red Hahaha",
+      "level": 1384,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:15",
+      "player": "Diegao Barba",
+      "level": 964,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:15",
+      "player": "Esfi Hahaha",
+      "level": 1997,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:15",
+      "player": "Magabela",
+      "level": 1995,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 04, 2026 01:15",
       "player": "Dmonick",
@@ -62046,27 +62145,27 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Calveludo",
-        "Papumzada",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Boltadao",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Lula",
-        "Deruz",
-        "Arroz Cadela",
-        "Total Security",
         "Wake Wake",
+        "Dont Bica",
+        "Papumzada",
         "Ehotk",
         "Ragekemi",
-        "Old Jovizera",
-        "We Edz",
-        "Lee Br",
         "JhonzinMilgrau",
-        "Giga"
+        "Lee Br",
+        "Lula",
+        "Cuffy Dido",
+        "Total Security",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Boltadao",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Donte",
+        "Giga",
+        "Deruz",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina"
       ],
       "changes_log": [
         {
@@ -62204,27 +62303,27 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Calveludo",
-        "Papumzada",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Boltadao",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Lula",
-        "Deruz",
-        "Arroz Cadela",
-        "Total Security",
         "Wake Wake",
+        "Dont Bica",
+        "Papumzada",
         "Ehotk",
         "Ragekemi",
-        "Old Jovizera",
-        "We Edz",
-        "Lee Br",
         "JhonzinMilgrau",
-        "Giga"
+        "Lee Br",
+        "Lula",
+        "Cuffy Dido",
+        "Total Security",
+        "Old Jovizera",
+        "Arroz Cadela",
+        "Boltadao",
+        "Calveludo",
+        "Nao Eh Poring",
+        "Donte",
+        "Giga",
+        "Deruz",
+        "We Edz",
+        "Cetoprofeno Intramuscular",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
