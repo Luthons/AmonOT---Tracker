@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 01:17 (Brasília)",
+  "updated_at": "04/07/2026 às 01:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 101,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1992,
+      "level": 1991,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2623,7 +2623,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1994,
+      "level": 1992,
       "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4135,7 +4135,7 @@
     },
     {
       "name": "VukVuk",
-      "level": 1998,
+      "level": 1997,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4217,7 +4217,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1725,
+      "level": 1724,
       "resets": 53,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -5783,12 +5783,6 @@
           "online": false
         },
         {
-          "name": "VukVuk",
-          "value": 1998,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Baduff",
           "value": 1997,
           "vocation": "Elite Knight",
@@ -5807,6 +5801,12 @@
           "online": false
         },
         {
+          "name": "VukVuk",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 1995,
           "vocation": "Master Sorcerer",
@@ -5814,13 +5814,13 @@
         },
         {
           "name": "Magabela",
-          "value": 1994,
+          "value": 1992,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
           "name": "Esfi Hahaha",
-          "value": 1992,
+          "value": 1991,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5850,7 +5850,7 @@
         },
         {
           "name": "Ynhaca Purah",
-          "value": 1725,
+          "value": 1724,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -6608,9 +6608,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 270,
-          "kills_today": 2,
-          "kills_week": 26
+          "value": 271,
+          "kills_today": 3,
+          "kills_week": 27
         },
         {
           "name": "Poring",
@@ -6632,9 +6632,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 70,
-          "kills_today": 13,
-          "kills_week": 67
+          "value": 73,
+          "kills_today": 16,
+          "kills_week": 70
         },
         {
           "name": "Cetoprofeno Intramuscular",
@@ -6942,16 +6942,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 01:17 (Brasília)",
+    "updated_at": "04/07/2026 às 01:18 (Brasília)",
     "kills_total": 1077,
-    "deaths_total": 1160,
+    "deaths_total": 1164,
     "kills_today": 6,
-    "deaths_today": 18,
+    "deaths_today": 22,
     "kills_week": 131,
-    "deaths_week": 162,
+    "deaths_week": 166,
     "kd_total": 0.93,
-    "kd_today": 0.33,
-    "kd_week": 0.81,
+    "kd_today": 0.27,
+    "kd_week": 0.79,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -7258,9 +7258,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 270,
-        "kills_today": 2,
-        "kills_week": 26
+        "kills": 271,
+        "kills_today": 3,
+        "kills_week": 27
       },
       {
         "name": "Poring",
@@ -7282,9 +7282,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 70,
-        "kills_today": 13,
-        "kills_week": 67
+        "kills": 73,
+        "kills_today": 16,
+        "kills_week": 70
       },
       {
         "name": "Cetoprofeno Intramuscular",
@@ -7590,7 +7590,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        61
+        62
       ],
       [
         "Teylera Rp",
@@ -7625,7 +7625,7 @@
         32
       ],
       [
-        "Lula",
+        "VukVuk",
         27
       ]
     ],
@@ -27651,6 +27651,24 @@
         "isPvp": true
       },
       {
+        "time": "Jul 04, 2026 01:18",
+        "player": "Ynhaca Purah",
+        "level": 1725,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:18",
+        "player": "VukVuk",
+        "level": 1998,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 04, 2026 01:17",
         "player": "Dmonick",
         "level": 1997,
@@ -27665,6 +27683,24 @@
         "level": 2001,
         "killedBy": "Nao Eh Poring",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:17",
+        "player": "Magabela",
+        "level": 1994,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 04, 2026 01:17",
+        "player": "Esfi Hahaha",
+        "level": 1992,
+        "killedBy": "Ehotk",
+        "maiorDano": "Nao Eh Poring",
         "world": "Baiak",
         "isPvp": true
       },
@@ -28815,6 +28851,42 @@
   },
   "deaths_global": [
     {
+      "time": "Jul 04, 2026 01:18",
+      "player": "Ynhaca Purah",
+      "level": 1725,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:18",
+      "player": "VukVuk",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:17",
+      "player": "Magabela",
+      "level": 1994,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 01:17",
+      "player": "Esfi Hahaha",
+      "level": 1992,
+      "killedBy": "Ehotk",
+      "maiorDano": "Nao Eh Poring",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 04, 2026 01:17",
       "player": "Dmonick",
       "level": 1997,
@@ -29113,18 +29185,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -62208,27 +62280,27 @@
     },
     "members": {
       "last_member_list": [
+        "Deruz",
         "Nao Eh Poring",
-        "Arroz Cadela",
-        "Papumzada",
-        "We Edz",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Total Security",
-        "Wake Wake",
-        "Ehotk",
-        "Calveludo",
-        "Old Jovizera",
         "Lee Br",
         "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Donte",
-        "Boltadao",
+        "Pittao teensina",
         "Giga",
         "Ragekemi",
-        "Deruz",
-        "Lula"
+        "Donte",
+        "Boltadao",
+        "Total Security",
+        "Dont Bica",
+        "Calveludo",
+        "We Edz",
+        "Lula",
+        "Wake Wake",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Papumzada"
       ],
       "changes_log": [
         {
@@ -62366,27 +62438,27 @@
     },
     "hunted": {
       "last_enemy_list": [
+        "Deruz",
         "Nao Eh Poring",
-        "Arroz Cadela",
-        "Papumzada",
-        "We Edz",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "Total Security",
-        "Wake Wake",
-        "Ehotk",
-        "Calveludo",
-        "Old Jovizera",
         "Lee Br",
         "Cetoprofeno Intramuscular",
-        "Dont Bica",
-        "Donte",
-        "Boltadao",
+        "Pittao teensina",
         "Giga",
         "Ragekemi",
-        "Deruz",
-        "Lula"
+        "Donte",
+        "Boltadao",
+        "Total Security",
+        "Dont Bica",
+        "Calveludo",
+        "We Edz",
+        "Lula",
+        "Wake Wake",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Ehotk",
+        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Papumzada"
       ],
       "hunted": {
         "Leogolas": {
