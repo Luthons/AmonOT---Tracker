@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 21:22 (Brasília)",
+  "updated_at": "04/07/2026 às 21:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2144,8 +2144,8 @@
     },
     {
       "name": "King Suino",
-      "level": 1032,
-      "resets": 5,
+      "level": 8,
+      "resets": 6,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2165,6 +2165,11 @@
           "resets": 5,
           "gained": 1,
           "timestamp": "03/07/2026 às 01:43 (Brasília)"
+        },
+        {
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 21:23 (Brasília)"
         }
       ]
     },
@@ -4647,6 +4652,14 @@
       "online": true
     },
     {
+      "name": "King Suino",
+      "resets_total": 6,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Kolwaski",
       "resets_total": 44,
       "resets_today": 1,
@@ -4820,14 +4833,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "King Suino",
-      "resets_total": 5,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -5641,6 +5646,12 @@
           "online": false
         },
         {
+          "name": "King Suino",
+          "value": 6,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Brunao Cansado",
           "value": 5,
           "vocation": "Royal Paladin",
@@ -5657,12 +5668,6 @@
           "value": 5,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "King Suino",
-          "value": 5,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Erva Doce",
@@ -6089,12 +6094,6 @@
           "value": 1055,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "King Suino",
-          "value": 1032,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Royal Luthons",
@@ -6980,7 +6979,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 21:22 (Brasília)",
+    "updated_at": "04/07/2026 às 21:23 (Brasília)",
     "kills_total": 1085,
     "deaths_total": 1190,
     "kills_today": 14,
@@ -30118,7 +30117,7 @@
         "Kaus Magj": 5,
         "Kev": 24,
         "Kiel": 59,
-        "King Suino": 5,
+        "King Suino": 6,
         "Kolwaski": 44,
         "Lilian Faithkeeper": 29,
         "Lipe Knight": 45,
@@ -47237,7 +47236,7 @@
           "Kaus Magj": 5,
           "Kev": 24,
           "Kiel": 59,
-          "King Suino": 5,
+          "King Suino": 6,
           "Kolwaski": 44,
           "Lilian Faithkeeper": 29,
           "Lipe Knight": 45,
@@ -53183,6 +53182,13 @@
           "gained": 1,
           "timestamp": "04/07/2026 às 20:13 (Brasília)",
           "hour_key": "2026-07-04-20"
+        },
+        {
+          "name": "King Suino",
+          "resets": 6,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 21:23 (Brasília)",
+          "hour_key": "2026-07-04-21"
         }
       ]
     },
@@ -62210,54 +62216,54 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
+        "Total Security",
+        "Papumzada",
         "Calveludo",
         "Boltadao",
-        "Deruz",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Lee Br",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Total Security",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Giga",
-        "Pittao teensina",
-        "Old Jovizera",
-        "Papumzada",
-        "Nao Eh Poring",
         "Lula",
+        "Giga",
         "Dont Bica",
+        "Arroz Cadela",
+        "Lee Br",
+        "Cuffy Dido",
+        "Ehotk",
+        "Donte",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Pittao teensina",
         "Cetoprofeno Intramuscular",
-        "Ehotk"
+        "Ragekemi",
+        "We Edz",
+        "Old Jovizera"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
+        "Total Security",
+        "Papumzada",
         "Calveludo",
         "Boltadao",
-        "Deruz",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Lee Br",
-        "Arroz Cadela",
-        "Wake Wake",
-        "Total Security",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Giga",
-        "Pittao teensina",
-        "Old Jovizera",
-        "Papumzada",
-        "Nao Eh Poring",
         "Lula",
+        "Giga",
         "Dont Bica",
+        "Arroz Cadela",
+        "Lee Br",
+        "Cuffy Dido",
+        "Ehotk",
+        "Donte",
+        "Nao Eh Poring",
+        "Wake Wake",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Pittao teensina",
         "Cetoprofeno Intramuscular",
-        "Ehotk"
+        "Ragekemi",
+        "We Edz",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -62929,11 +62935,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 2998,
-      "resets_today": 12,
-      "resets_week": 174,
+      "total_current": 2999,
+      "resets_today": 13,
+      "resets_week": 175,
       "resets_month": 0,
-      "resets_lifetime": 174,
+      "resets_lifetime": 175,
       "avg_per_player": 30.0
     },
     "enemy_guild": {
