@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 21:37 (Brasília)",
+  "updated_at": "04/07/2026 às 21:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4448,8 +4448,8 @@
         },
         {
           "name": "Arroz Cadela",
-          "level": 1933,
-          "resets": 33,
+          "level": 8,
+          "resets": 34,
           "vocation": "Elder Druid",
           "nick": "",
           "rank": "Member",
@@ -5014,6 +5014,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Arroz Cadela",
+      "resets_total": 34,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Nao Eh Poring",
       "resets_total": 81,
       "resets_today": 1,
@@ -5068,14 +5076,6 @@
       "resets_week": 1,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Arroz Cadela",
-      "resets_total": 33,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Cetoprofeno Intramuscular",
@@ -6985,7 +6985,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 21:37 (Brasília)",
+    "updated_at": "04/07/2026 às 21:38 (Brasília)",
     "kills_total": 1085,
     "deaths_total": 1190,
     "kills_today": 14,
@@ -53204,7 +53204,7 @@
         "Lee Br": 41,
         "Ragekemi": 29,
         "We Edz": 40,
-        "Arroz Cadela": 33,
+        "Arroz Cadela": 34,
         "Cetoprofeno Intramuscular": 60,
         "Dont Bica": 21,
         "Nao Eh Poring": 81,
@@ -57305,7 +57305,7 @@
           "Lee Br": 41,
           "Ragekemi": 29,
           "We Edz": 40,
-          "Arroz Cadela": 33,
+          "Arroz Cadela": 34,
           "Cetoprofeno Intramuscular": 60,
           "Dont Bica": 21,
           "Nao Eh Poring": 81,
@@ -62217,59 +62217,66 @@
           "gained": 1,
           "timestamp": "04/07/2026 às 20:35 (Brasília)",
           "hour_key": "2026-07-04-20"
+        },
+        {
+          "name": "Arroz Cadela",
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 21:38 (Brasília)",
+          "hour_key": "2026-07-04-21"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Old Jovizera",
-        "Pittao teensina",
-        "Boltadao",
-        "Arroz Cadela",
         "Lee Br",
-        "Dont Bica",
-        "Papumzada",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Giga",
-        "Ragekemi",
         "Lula",
-        "Total Security",
-        "Deruz",
         "Wake Wake",
-        "Calveludo",
-        "Donte",
+        "Old Jovizera",
         "Ehotk",
-        "Nao Eh Poring",
+        "Pittao teensina",
+        "Ragekemi",
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "We Edz",
         "JhonzinMilgrau",
-        "Cuffy Dido"
+        "Giga",
+        "Calveludo",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Total Security",
+        "Arroz Cadela",
+        "Papumzada",
+        "Dont Bica",
+        "Donte"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Old Jovizera",
-        "Pittao teensina",
-        "Boltadao",
-        "Arroz Cadela",
         "Lee Br",
-        "Dont Bica",
-        "Papumzada",
-        "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Giga",
-        "Ragekemi",
         "Lula",
-        "Total Security",
-        "Deruz",
         "Wake Wake",
-        "Calveludo",
-        "Donte",
+        "Old Jovizera",
         "Ehotk",
-        "Nao Eh Poring",
+        "Pittao teensina",
+        "Ragekemi",
+        "Deruz",
+        "Cetoprofeno Intramuscular",
+        "Cuffy Dido",
+        "We Edz",
         "JhonzinMilgrau",
-        "Cuffy Dido"
+        "Giga",
+        "Calveludo",
+        "Boltadao",
+        "Nao Eh Poring",
+        "Total Security",
+        "Arroz Cadela",
+        "Papumzada",
+        "Dont Bica",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
@@ -62951,11 +62958,11 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 21,
-      "total_current": 816,
-      "resets_today": 5,
-      "resets_week": 30,
+      "total_current": 817,
+      "resets_today": 6,
+      "resets_week": 31,
       "resets_month": 0,
-      "resets_lifetime": 30,
+      "resets_lifetime": 31,
       "avg_per_player": 38.9
     }
   },
