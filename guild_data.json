@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 12:10 (Brasília)",
+  "updated_at": "05/07/2026 às 12:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -2729,8 +2729,8 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 1080,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2830,6 +2830,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "05/07/2026 às 10:10 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 12:11 (Brasília)"
         }
       ]
     },
@@ -4002,6 +4007,14 @@
   ],
   "resets_today": [
     {
+      "name": "Nagato Sorcerer",
+      "resets_total": 30,
+      "resets_today": 2,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 1,
@@ -4031,14 +4044,6 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Nagato Sorcerer",
-      "resets_total": 29,
-      "resets_today": 1,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -4738,6 +4743,12 @@
           "online": true
         },
         {
+          "name": "Nagato Sorcerer",
+          "value": 30,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 30,
           "vocation": "Master Sorcerer",
@@ -4747,12 +4758,6 @@
           "name": "Lilian Faithkeeper",
           "value": 29,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 29,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5209,12 +5214,6 @@
           "name": "Teylera Rp",
           "value": 1082,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 1080,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5981,7 +5980,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 12:10 (Brasília)",
+    "updated_at": "05/07/2026 às 12:11 (Brasília)",
     "kills_total": 1090,
     "deaths_total": 1194,
     "kills_today": 4,
@@ -28911,9 +28910,9 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -28974,7 +28973,7 @@
         "Moskito": 24,
         "Mu Baiakeiro": 10,
         "Mu Kina": 26,
-        "Nagato Sorcerer": 29,
+        "Nagato Sorcerer": 30,
         "Owsborn": 34,
         "Pally Tetss": 55,
         "Pestinha": 30,
@@ -46021,7 +46020,7 @@
           "Moskito": 24,
           "Mu Baiakeiro": 10,
           "Mu Kina": 26,
-          "Nagato Sorcerer": 29,
+          "Nagato Sorcerer": 30,
           "Owsborn": 34,
           "Pally Tetss": 55,
           "Pestinha": 30,
@@ -51727,6 +51726,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 10:21 (Brasília)",
           "hour_key": "2026-07-05-10"
+        },
+        {
+          "name": "Nagato Sorcerer",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 12:11 (Brasília)",
+          "hour_key": "2026-07-05-12"
         }
       ]
     },
@@ -60367,54 +60373,54 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Wake Wake",
-        "Lula",
         "Pittao teensina",
-        "Ehotk",
-        "Boltadao",
+        "Lula",
         "Calveludo",
-        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera",
-        "Total Security",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Papumzada",
-        "Lee Br",
-        "Arroz Cadela",
-        "Giga",
         "We Edz",
-        "Deruz",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Old Jovizera",
+        "Ragekemi",
         "Dont Bica",
-        "Ragekemi"
+        "Lee Br",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Donte",
+        "Deruz",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Papumzada",
+        "Ehotk"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Wake Wake",
-        "Lula",
         "Pittao teensina",
-        "Ehotk",
-        "Boltadao",
+        "Lula",
         "Calveludo",
-        "Cetoprofeno Intramuscular",
         "JhonzinMilgrau",
-        "Old Jovizera",
-        "Total Security",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Papumzada",
-        "Lee Br",
-        "Arroz Cadela",
-        "Giga",
         "We Edz",
-        "Deruz",
+        "Giga",
+        "Cetoprofeno Intramuscular",
+        "Total Security",
+        "Old Jovizera",
+        "Ragekemi",
         "Dont Bica",
-        "Ragekemi"
+        "Lee Br",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Donte",
+        "Deruz",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Papumzada",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -61086,11 +61092,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2733,
-      "resets_today": 6,
-      "resets_week": 148,
+      "total_current": 2734,
+      "resets_today": 7,
+      "resets_week": 149,
       "resets_month": 0,
-      "resets_lifetime": 157,
+      "resets_lifetime": 158,
       "avg_per_player": 38.0
     },
     "enemy_guild": {
