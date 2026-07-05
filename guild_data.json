@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 19:51 (Brasília)",
+  "updated_at": "05/07/2026 às 19:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -65,8 +65,8 @@
     },
     {
       "name": "Gizao",
-      "level": 2000,
-      "resets": 54,
+      "level": 8,
+      "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -186,6 +186,11 @@
           "resets": 54,
           "gained": 1,
           "timestamp": "03/07/2026 às 14:43 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 19:52 (Brasília)"
         }
       ]
     },
@@ -3967,6 +3972,14 @@
       "online": true
     },
     {
+      "name": "Gizao",
+      "resets_total": 55,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Teylera Rp",
       "resets_total": 58,
       "resets_today": 1,
@@ -4044,14 +4057,6 @@
       "resets_today": 1,
       "resets_week": 8,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Gizao",
-      "resets_total": 54,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4435,14 +4440,14 @@
           "online": false
         },
         {
-          "name": "Pally Tetss",
+          "name": "Gizao",
           "value": 55,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 54,
+          "name": "Pally Tetss",
+          "value": 55,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4833,12 +4838,6 @@
         {
           "name": "Kiel",
           "value": 2053,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5918,7 +5917,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 19:51 (Brasília)",
+    "updated_at": "05/07/2026 às 19:52 (Brasília)",
     "kills_total": 1092,
     "deaths_total": 1194,
     "kills_today": 6,
@@ -28761,7 +28760,7 @@
     "resets": {
       "last_snapshot": {
         "Esfi Hahaha": 59,
-        "Gizao": 54,
+        "Gizao": 55,
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
@@ -45606,7 +45605,7 @@
         },
         "2026-07-05-19": {
           "Esfi Hahaha": 59,
-          "Gizao": 54,
+          "Gizao": 55,
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
@@ -51411,6 +51410,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 17:56 (Brasília)",
           "hour_key": "2026-07-05-17"
+        },
+        {
+          "name": "Gizao",
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 19:52 (Brasília)",
+          "hour_key": "2026-07-05-19"
         }
       ]
     },
@@ -60052,26 +60058,26 @@
     "members": {
       "last_member_list": [
         "Dont Bica",
+        "Ragekemi",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Total Security",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Giga",
         "Cuffy Dido",
-        "Ehotk",
-        "Pittao teensina",
-        "Deruz",
-        "Calveludo",
-        "We Edz",
-        "Papumzada",
         "Boltadao",
-        "Donte",
-        "Lee Br",
+        "Deruz",
+        "Total Security",
+        "Giga",
+        "Pittao teensina",
         "JhonzinMilgrau",
+        "Donte",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Ehotk",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
         "Lula",
-        "Ragekemi"
+        "Calveludo",
+        "Wake Wake",
+        "Old Jovizera"
       ],
       "changes_log": [],
       "recent_changes": []
@@ -60079,26 +60085,26 @@
     "hunted": {
       "last_enemy_list": [
         "Dont Bica",
+        "Ragekemi",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Total Security",
-        "Wake Wake",
-        "Cetoprofeno Intramuscular",
-        "Giga",
         "Cuffy Dido",
-        "Ehotk",
-        "Pittao teensina",
-        "Deruz",
-        "Calveludo",
-        "We Edz",
-        "Papumzada",
         "Boltadao",
-        "Donte",
-        "Lee Br",
+        "Deruz",
+        "Total Security",
+        "Giga",
+        "Pittao teensina",
         "JhonzinMilgrau",
+        "Donte",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Ehotk",
+        "Papumzada",
+        "Cetoprofeno Intramuscular",
+        "We Edz",
         "Lula",
-        "Ragekemi"
+        "Calveludo",
+        "Wake Wake",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -60770,11 +60776,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 2690,
-      "resets_today": 13,
-      "resets_week": 147,
+      "total_current": 2691,
+      "resets_today": 14,
+      "resets_week": 148,
       "resets_month": 0,
-      "resets_lifetime": 147,
+      "resets_lifetime": 148,
       "avg_per_player": 37.9
     },
     "enemy_guild": {
