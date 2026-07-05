@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/07/2026 às 23:16 (Brasília)",
+  "updated_at": "04/07/2026 às 23:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -508,7 +508,7 @@
     },
     {
       "name": "Affey",
-      "level": 1008,
+      "level": 1009,
       "resets": 26,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4273,8 +4273,8 @@
     },
     {
       "name": "Timeless",
-      "level": 1006,
-      "resets": 4,
+      "level": 8,
+      "resets": 5,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -4288,6 +4288,11 @@
           "resets": 4,
           "gained": 1,
           "timestamp": "27/06/2026 às 23:22 (Brasília)"
+        },
+        {
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 23:19 (Brasília)"
         }
       ]
     },
@@ -5008,6 +5013,14 @@
     }
   ],
   "resets_today": [
+    {
+      "name": "Timeless",
+      "resets_total": 5,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
     {
       "name": "Esfi Hahaha",
       "resets_total": 58,
@@ -6043,6 +6056,12 @@
           "online": false
         },
         {
+          "name": "Timeless",
+          "value": 5,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Erva Doce",
           "value": 4,
           "vocation": "Elder Druid",
@@ -6053,12 +6072,6 @@
           "value": 4,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Timeless",
-          "value": 4,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Voldemort Ms",
@@ -6494,13 +6507,7 @@
         },
         {
           "name": "Affey",
-          "value": 1008,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Timeless",
-          "value": 1006,
+          "value": 1009,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -7358,7 +7365,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/07/2026 às 23:15 (Brasília)",
+    "updated_at": "04/07/2026 às 23:19 (Brasília)",
     "kills_total": 1086,
     "deaths_total": 1190,
     "kills_today": 0,
@@ -30522,7 +30529,7 @@
         "Solarica": 4,
         "Sonzacrazy": 7,
         "Taka e Cura": 8,
-        "Timeless": 4,
+        "Timeless": 5,
         "Tio Bringer": 26,
         "Tsuru": 32,
         "Ultimate Warrior": 25,
@@ -47641,7 +47648,7 @@
           "Solarica": 4,
           "Sonzacrazy": 7,
           "Taka e Cura": 8,
-          "Timeless": 4,
+          "Timeless": 5,
           "Tio Bringer": 26,
           "Tsuru": 32,
           "Ultimate Warrior": 25,
@@ -53566,6 +53573,13 @@
           "gained": 1,
           "timestamp": "04/07/2026 às 22:10 (Brasília)",
           "hour_key": "2026-07-04-22"
+        },
+        {
+          "name": "Timeless",
+          "resets": 5,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 23:19 (Brasília)",
+          "hour_key": "2026-07-04-23"
         }
       ]
     },
@@ -62596,54 +62610,54 @@
     },
     "members": {
       "last_member_list": [
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Lee Br",
-        "Donte",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Cuffy Dido",
         "Ragekemi",
         "We Edz",
-        "Pittao teensina",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Old Jovizera",
-        "Giga",
-        "Deruz",
-        "Cuffy Dido",
-        "Papumzada",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Boltadao",
-        "Total Security",
+        "Pittao teensina",
+        "Deruz",
+        "Old Jovizera",
+        "Lula",
         "Wake Wake",
-        "Calveludo"
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Giga",
+        "Boltadao",
+        "Papumzada",
+        "Total Security",
+        "Ehotk"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Lee Br",
-        "Donte",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Cuffy Dido",
         "Ragekemi",
         "We Edz",
-        "Pittao teensina",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Lula",
-        "Old Jovizera",
-        "Giga",
-        "Deruz",
-        "Cuffy Dido",
-        "Papumzada",
         "Arroz Cadela",
-        "Nao Eh Poring",
-        "Boltadao",
-        "Total Security",
+        "Pittao teensina",
+        "Deruz",
+        "Old Jovizera",
+        "Lula",
         "Wake Wake",
-        "Calveludo"
+        "Donte",
+        "Cetoprofeno Intramuscular",
+        "Calveludo",
+        "Lee Br",
+        "JhonzinMilgrau",
+        "Giga",
+        "Boltadao",
+        "Papumzada",
+        "Total Security",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
@@ -63315,11 +63329,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 3000,
-      "resets_today": 0,
-      "resets_week": 154,
+      "total_current": 3001,
+      "resets_today": 1,
+      "resets_week": 155,
       "resets_month": 0,
-      "resets_lifetime": 173,
+      "resets_lifetime": 174,
       "avg_per_player": 30.0
     },
     "enemy_guild": {
