@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 03:09 (Brasília)",
+  "updated_at": "05/07/2026 às 03:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -4926,7 +4926,104 @@
       "online": true
     }
   ],
-  "enemy_resets_today": [],
+  "enemy_resets_today": [
+    {
+      "name": "Deruz",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Lee Br",
+      "resets_total": 41,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Arroz Cadela",
+      "resets_total": 34,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Cetoprofeno Intramuscular",
+      "resets_total": 60,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Nao Eh Poring",
+      "resets_total": 81,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
+      "name": "Papumzada",
+      "resets_total": 27,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Calveludo",
+      "resets_total": 41,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Cuffy Dido",
+      "resets_total": 33,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Lula",
+      "resets_total": 52,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Exalted Monk",
+      "online": false
+    },
+    {
+      "name": "Old Jovizera",
+      "resets_total": 40,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Pittao teensina",
+      "resets_total": 46,
+      "resets_today": 0,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Total Security",
+      "resets_total": 15,
+      "resets_today": 0,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": true
+    }
+  ],
   "highscores": {
     "resets": {
       "name": "Resets",
@@ -6800,7 +6897,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 03:09 (Brasília)",
+    "updated_at": "05/07/2026 às 03:10 (Brasília)",
     "kills_total": 1087,
     "deaths_total": 1190,
     "kills_today": 1,
@@ -29622,18 +29719,18 @@
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1417,
-      "killedBy": "Ehotk",
+      "player": "Teylera Rp",
+      "level": 1705,
+      "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Jul 03, 2026 17:07",
-      "player": "Teylera Rp",
-      "level": 1705,
-      "killedBy": "Nao Eh Poring",
+      "player": "Jhonnys Trembolizado",
+      "level": 1417,
+      "killedBy": "Ehotk",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -52703,7 +52800,29 @@
       ]
     },
     "enemy_resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Ehotk": 77,
+        "Lee Br": 41,
+        "Ragekemi": 29,
+        "We Edz": 40,
+        "Arroz Cadela": 34,
+        "Cetoprofeno Intramuscular": 60,
+        "Dont Bica": 21,
+        "Nao Eh Poring": 81,
+        "Papumzada": 27,
+        "Boltadao": 25,
+        "Calveludo": 41,
+        "Cuffy Dido": 33,
+        "Deruz": 42,
+        "Donte": 27,
+        "Giga": 30,
+        "JhonzinMilgrau": 26,
+        "Lula": 52,
+        "Old Jovizera": 40,
+        "Pittao teensina": 46,
+        "Total Security": 15,
+        "Wake Wake": 31
+      },
       "snapshots": {
         "2026-06-28-04": {
           "Ehotk": 77,
@@ -56770,7 +56889,29 @@
           "Total Security": 15,
           "Wake Wake": 31
         },
-        "2026-07-05-03": {}
+        "2026-07-05-03": {
+          "Ehotk": 77,
+          "Lee Br": 41,
+          "Ragekemi": 29,
+          "We Edz": 40,
+          "Arroz Cadela": 34,
+          "Cetoprofeno Intramuscular": 60,
+          "Dont Bica": 21,
+          "Nao Eh Poring": 81,
+          "Papumzada": 27,
+          "Boltadao": 25,
+          "Calveludo": 41,
+          "Cuffy Dido": 33,
+          "Deruz": 42,
+          "Donte": 27,
+          "Giga": 30,
+          "JhonzinMilgrau": 26,
+          "Lula": 52,
+          "Old Jovizera": 40,
+          "Pittao teensina": 46,
+          "Total Security": 15,
+          "Wake Wake": 31
+        }
       },
       "events": [
         {
@@ -61306,159 +61447,54 @@
     },
     "members": {
       "last_member_list": [
-        "Boltadao",
         "Pittao teensina",
-        "Dont Bica",
-        "Giga",
-        "Papumzada",
-        "Lee Br",
         "Deruz",
-        "Cuffy Dido",
-        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Lee Br",
+        "Giga",
         "Wake Wake",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Arroz Cadela",
-        "Calveludo",
-        "We Edz",
+        "Total Security",
+        "Papumzada",
         "Ehotk",
         "Lula",
-        "Old Jovizera",
+        "Calveludo",
+        "We Edz",
+        "Cuffy Dido",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
         "Ragekemi",
-        "Total Security"
+        "Donte",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Boltadao"
       ],
-      "recent_changes": [
-        {
-          "name": "Lula",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Dont Bica",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Wake Wake",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Cetoprofeno Intramuscular",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Ragekemi",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Donte",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Deruz",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Ehotk",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Boltadao",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Arroz Cadela",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "JhonzinMilgrau",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Papumzada",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Nao Eh Poring",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Cuffy Dido",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Old Jovizera",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Calveludo",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Total Security",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Lee Br",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Pittao teensina",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "We Edz",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        },
-        {
-          "name": "Giga",
-          "type": "left",
-          "timestamp": "05/07/2026 às 03:08 (Brasília)"
-        }
-      ]
+      "changes_log": [],
+      "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Boltadao",
         "Pittao teensina",
-        "Dont Bica",
-        "Giga",
-        "Papumzada",
-        "Lee Br",
         "Deruz",
-        "Cuffy Dido",
-        "JhonzinMilgrau",
+        "Old Jovizera",
+        "Lee Br",
+        "Giga",
         "Wake Wake",
-        "Nao Eh Poring",
-        "Cetoprofeno Intramuscular",
-        "Donte",
-        "Arroz Cadela",
-        "Calveludo",
-        "We Edz",
+        "Total Security",
+        "Papumzada",
         "Ehotk",
         "Lula",
-        "Old Jovizera",
+        "Calveludo",
+        "We Edz",
+        "Cuffy Dido",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
         "Ragekemi",
-        "Total Security"
+        "Donte",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Cetoprofeno Intramuscular",
+        "Boltadao"
       ],
       "hunted": {
         "Leogolas": {
@@ -62138,230 +62174,18 @@
       "avg_per_player": 30.0
     },
     "enemy_guild": {
-      "guild": "MentaliTY",
-      "num_members": 0,
-      "total_current": 0,
-      "resets_today": 0,
-      "resets_week": 0,
+      "guild": "MentaliTY, Fuba Empire, Old Legacy",
+      "num_members": 21,
+      "total_current": 818,
+      "resets_today": 1,
+      "resets_week": 28,
       "resets_month": 0,
-      "resets_lifetime": 0,
-      "avg_per_player": 0
+      "resets_lifetime": 31,
+      "avg_per_player": 39.0
     }
   },
-  "recent_changes": [
-    {
-      "name": "Lula",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Donte",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Arroz Cadela",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "JhonzinMilgrau",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Papumzada",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Nao Eh Poring",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Old Jovizera",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Calveludo",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Total Security",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Lee Br",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Pittao teensina",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "We Edz",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    }
-  ],
-  "changes_log": [
-    {
-      "name": "Lula",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Dont Bica",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Wake Wake",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Cetoprofeno Intramuscular",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Ragekemi",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Donte",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Deruz",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Ehotk",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Boltadao",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Arroz Cadela",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "JhonzinMilgrau",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Papumzada",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Nao Eh Poring",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Cuffy Dido",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Old Jovizera",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Calveludo",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Total Security",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Lee Br",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Pittao teensina",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "We Edz",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    },
-    {
-      "name": "Giga",
-      "type": "left",
-      "timestamp": "05/07/2026 às 03:08 (Brasília)"
-    }
-  ],
+  "recent_changes": [],
+  "changes_log": [],
   "hunted_list": [
     {
       "name": "Darkzao Knight",
@@ -62716,6 +62540,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Erro de conexão: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros."
   ]
 }
