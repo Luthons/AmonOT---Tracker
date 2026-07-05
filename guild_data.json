@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 10:09 (Brasília)",
+  "updated_at": "05/07/2026 às 10:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 100,
@@ -2985,8 +2985,8 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 1002,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3081,6 +3081,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "04/07/2026 às 08:10 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 10:10 (Brasília)"
         }
       ]
     },
@@ -4576,6 +4581,14 @@
       "online": true
     },
     {
+      "name": "Nagato Sorcerer",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Timeless",
       "resets_total": 5,
       "resets_today": 1,
@@ -4821,14 +4834,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Nagato Sorcerer",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -5346,6 +5351,12 @@
           "online": true
         },
         {
+          "name": "Nagato Sorcerer",
+          "value": 29,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rafa Baguncinha",
           "value": 29,
           "vocation": "Master Sorcerer",
@@ -5362,12 +5373,6 @@
           "value": 28,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 28,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Ljxiv",
@@ -6021,12 +6026,6 @@
           "name": "Affey",
           "value": 1018,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 1002,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -6907,7 +6906,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 10:09 (Brasília)",
+    "updated_at": "05/07/2026 às 10:10 (Brasília)",
     "kills_total": 1090,
     "deaths_total": 1194,
     "kills_today": 4,
@@ -29951,7 +29950,7 @@
         "Moskito": 24,
         "Mu Baiakeiro": 10,
         "Mu Kina": 26,
-        "Nagato Sorcerer": 28,
+        "Nagato Sorcerer": 29,
         "Owsborn": 34,
         "Pally Tetss": 55,
         "Patrick": 10,
@@ -47070,7 +47069,7 @@
           "Moskito": 24,
           "Mu Baiakeiro": 10,
           "Mu Kina": 26,
-          "Nagato Sorcerer": 28,
+          "Nagato Sorcerer": 29,
           "Owsborn": 34,
           "Pally Tetss": 55,
           "Patrick": 10,
@@ -52775,6 +52774,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 09:41 (Brasília)",
           "hour_key": "2026-07-05-09"
+        },
+        {
+          "name": "Nagato Sorcerer",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 10:10 (Brasília)",
+          "hour_key": "2026-07-05-10"
         }
       ]
     },
@@ -61419,54 +61425,54 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Pittao teensina",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
-        "Deruz",
-        "Lula",
-        "JhonzinMilgrau",
         "Dont Bica",
-        "Papumzada",
         "Cuffy Dido",
-        "Donte",
-        "Boltadao",
-        "Giga",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Ehotk",
         "We Edz",
-        "Lee Br",
+        "Arroz Cadela",
+        "Boltadao",
         "Wake Wake",
         "Total Security",
-        "Old Jovizera"
+        "Pittao teensina",
+        "Donte",
+        "Papumzada",
+        "Deruz",
+        "Old Jovizera",
+        "Ragekemi",
+        "Lee Br",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Giga",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "JhonzinMilgrau"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Pittao teensina",
-        "Ragekemi",
-        "Cetoprofeno Intramuscular",
-        "Deruz",
-        "Lula",
-        "JhonzinMilgrau",
         "Dont Bica",
-        "Papumzada",
         "Cuffy Dido",
-        "Donte",
-        "Boltadao",
-        "Giga",
-        "Nao Eh Poring",
-        "Calveludo",
-        "Ehotk",
         "We Edz",
-        "Lee Br",
+        "Arroz Cadela",
+        "Boltadao",
         "Wake Wake",
         "Total Security",
-        "Old Jovizera"
+        "Pittao teensina",
+        "Donte",
+        "Papumzada",
+        "Deruz",
+        "Old Jovizera",
+        "Ragekemi",
+        "Lee Br",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Giga",
+        "Lula",
+        "Cetoprofeno Intramuscular",
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
@@ -62138,11 +62144,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 100,
-      "total_current": 3005,
-      "resets_today": 5,
-      "resets_week": 159,
+      "total_current": 3006,
+      "resets_today": 6,
+      "resets_week": 160,
       "resets_month": 0,
-      "resets_lifetime": 171,
+      "resets_lifetime": 172,
       "avg_per_player": 30.1
     },
     "enemy_guild": {
