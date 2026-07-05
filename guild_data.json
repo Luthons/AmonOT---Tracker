@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 15:43 (Brasília)",
+  "updated_at": "05/07/2026 às 15:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1797,7 +1797,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 749,
+      "level": 839,
       "resets": 78,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3579,8 +3579,8 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 2000,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3630,6 +3630,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "02/07/2026 às 04:40 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 15:44 (Brasília)"
         }
       ]
     },
@@ -4000,6 +4005,14 @@
       "online": true
     },
     {
+      "name": "Ynhaca Purah",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Zap Seco",
       "resets_total": 21,
       "resets_today": 1,
@@ -4270,14 +4283,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
-    },
-    {
-      "name": "Ynhaca Purah",
-      "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
     }
   ],
   "enemy_resets_today": [
@@ -4432,6 +4437,12 @@
           "online": true
         },
         {
+          "name": "Ynhaca Purah",
+          "value": 54,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
           "value": 53,
           "vocation": "Royal Paladin",
@@ -4442,12 +4453,6 @@
           "value": 53,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 53,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Henrique",
@@ -4942,12 +4947,6 @@
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
@@ -5188,6 +5187,12 @@
           "online": false
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 839,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Its Gui",
           "value": 836,
           "vocation": "Elder Druid",
@@ -5220,12 +5225,6 @@
         {
           "name": "Kolwaski",
           "value": 755,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 749,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5903,7 +5902,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 15:43 (Brasília)",
+    "updated_at": "05/07/2026 às 15:44 (Brasília)",
     "kills_total": 1090,
     "deaths_total": 1194,
     "kills_today": 4,
@@ -28832,7 +28831,7 @@
         "Vitao The Trader": 20,
         "VukVuk": 50,
         "Xeipe": 25,
-        "Ynhaca Purah": 53,
+        "Ynhaca Purah": 54,
         "Zap Seco": 21
       },
       "snapshots": {
@@ -45793,7 +45792,7 @@
           "Vitao The Trader": 20,
           "VukVuk": 50,
           "Xeipe": 25,
-          "Ynhaca Purah": 53,
+          "Ynhaca Purah": 54,
           "Zap Seco": 21
         }
       },
@@ -51509,6 +51508,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 14:42 (Brasília)",
           "hour_key": "2026-07-05-14"
+        },
+        {
+          "name": "Ynhaca Purah",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 15:44 (Brasília)",
+          "hour_key": "2026-07-05-15"
         }
       ]
     },
@@ -60153,23 +60159,23 @@
         "Papumzada",
         "Calveludo",
         "Boltadao",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Ragekemi",
-        "Lula",
-        "Arroz Cadela",
-        "Donte",
         "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Giga",
-        "JhonzinMilgrau",
+        "Arroz Cadela",
         "Lee Br",
         "Pittao teensina",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Deruz",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Old Jovizera",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Giga",
+        "Lula",
         "Total Security",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Deruz",
         "Dont Bica"
       ],
       "changes_log": [],
@@ -60180,23 +60186,23 @@
         "Papumzada",
         "Calveludo",
         "Boltadao",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Ragekemi",
-        "Lula",
-        "Arroz Cadela",
-        "Donte",
         "We Edz",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
-        "Giga",
-        "JhonzinMilgrau",
+        "Arroz Cadela",
         "Lee Br",
         "Pittao teensina",
-        "Ehotk",
-        "Nao Eh Poring",
-        "Deruz",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Old Jovizera",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Giga",
+        "Lula",
         "Total Security",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Nao Eh Poring",
+        "Ehotk",
+        "Deruz",
         "Dont Bica"
       ],
       "hunted": {
@@ -60869,12 +60875,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 2687,
-      "resets_today": 10,
-      "resets_week": 144,
+      "total_current": 2688,
+      "resets_today": 11,
+      "resets_week": 145,
       "resets_month": 0,
-      "resets_lifetime": 150,
-      "avg_per_player": 37.8
+      "resets_lifetime": 151,
+      "avg_per_player": 37.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
