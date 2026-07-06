@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 15:29 (Brasília)",
+  "updated_at": "06/07/2026 às 15:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -792,8 +792,8 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 1364,
-      "resets": 36,
+      "level": 8,
+      "resets": 37,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -863,6 +863,11 @@
           "resets": 36,
           "gained": 1,
           "timestamp": "05/07/2026 às 09:41 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 15:30 (Brasília)"
         }
       ]
     },
@@ -3919,6 +3924,14 @@
       "online": true
     },
     {
+      "name": "Cheiro Dpneu",
+      "resets_total": 37,
+      "resets_today": 1,
+      "resets_week": 10,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Dvn Luktzeraah",
       "resets_total": 46,
       "resets_today": 1,
@@ -3996,14 +4009,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Cheiro Dpneu",
-      "resets_total": 36,
-      "resets_today": 0,
-      "resets_week": 9,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4524,7 +4529,7 @@
         },
         {
           "name": "Cheiro Dpneu",
-          "value": 36,
+          "value": 37,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5024,12 +5029,6 @@
           "name": "Ynhaca Purah",
           "value": 1392,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 1364,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5850,7 +5849,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 15:29 (Brasília)",
+    "updated_at": "06/07/2026 às 15:30 (Brasília)",
     "kills_total": 1108,
     "deaths_total": 1203,
     "kills_today": 16,
@@ -28665,7 +28664,7 @@
         "Brunaobringer": 50,
         "Cerebro": 50,
         "Charles": 26,
-        "Cheiro Dpneu": 36,
+        "Cheiro Dpneu": 37,
         "Deca com Testo": 32,
         "Diegao Barba": 50,
         "Dmonick": 50,
@@ -44922,7 +44921,7 @@
           "Brunaobringer": 50,
           "Cerebro": 50,
           "Charles": 26,
-          "Cheiro Dpneu": 36,
+          "Cheiro Dpneu": 37,
           "Deca com Testo": 32,
           "Diegao Barba": 50,
           "Dmonick": 50,
@@ -50508,6 +50507,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 08:33 (Brasília)",
           "hour_key": "2026-07-06-08"
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 15:30 (Brasília)",
+          "hour_key": "2026-07-06-15"
         }
       ]
     },
@@ -58744,25 +58750,25 @@
     },
     "members": {
       "last_member_list": [
+        "Lee Br",
+        "Arroz Cadela",
         "Total Security",
-        "Lula",
+        "Cuffy Dido",
+        "Donte",
+        "Papumzada",
+        "Ragekemi",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "We Edz",
+        "Calveludo",
         "Giga",
-        "Boltadao",
         "Old Jovizera",
         "Pittao teensina",
-        "Ragekemi",
-        "Lee Br",
-        "Dont Bica",
+        "Lula",
         "Nao Eh Poring",
-        "Papumzada",
-        "Arroz Cadela",
-        "Donte",
+        "Boltadao",
         "Ehotk",
-        "Calveludo",
         "Deruz",
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "We Edz",
         "Wake Wake"
       ],
       "changes_log": [
@@ -58776,25 +58782,25 @@
     },
     "hunted": {
       "last_enemy_list": [
+        "Lee Br",
+        "Arroz Cadela",
         "Total Security",
-        "Lula",
+        "Cuffy Dido",
+        "Donte",
+        "Papumzada",
+        "Ragekemi",
+        "JhonzinMilgrau",
+        "Dont Bica",
+        "We Edz",
+        "Calveludo",
         "Giga",
-        "Boltadao",
         "Old Jovizera",
         "Pittao teensina",
-        "Ragekemi",
-        "Lee Br",
-        "Dont Bica",
+        "Lula",
         "Nao Eh Poring",
-        "Papumzada",
-        "Arroz Cadela",
-        "Donte",
+        "Boltadao",
         "Ehotk",
-        "Calveludo",
         "Deruz",
-        "JhonzinMilgrau",
-        "Cuffy Dido",
-        "We Edz",
         "Wake Wake"
       ],
       "hunted": {
@@ -59467,11 +59473,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2731,
-      "resets_today": 5,
-      "resets_week": 128,
+      "total_current": 2732,
+      "resets_today": 6,
+      "resets_week": 129,
       "resets_month": 0,
-      "resets_lifetime": 140,
+      "resets_lifetime": 141,
       "avg_per_player": 37.9
     },
     "enemy_guild": {
