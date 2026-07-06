@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 23:37 (Brasília)",
+  "updated_at": "05/07/2026 às 23:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1960,7 +1960,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1017,
+      "level": 1030,
       "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3127,7 +3127,7 @@
     },
     {
       "name": "Perez",
-      "level": 874,
+      "level": 1019,
       "resets": 32,
       "vocation": "Elite Knight",
       "nick": "",
@@ -5155,15 +5155,21 @@
           "online": false
         },
         {
+          "name": "Kolwaski",
+          "value": 1030,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Royal Luthons",
           "value": 1029,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Kolwaski",
-          "value": 1017,
-          "vocation": "Royal Paladin",
+          "name": "Perez",
+          "value": 1019,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5207,12 +5213,6 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Perez",
-          "value": 874,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Xeipe",
@@ -5924,7 +5924,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 23:37 (Brasília)",
+    "updated_at": "05/07/2026 às 23:38 (Brasília)",
     "kills_total": 1093,
     "deaths_total": 1194,
     "kills_today": 1,
@@ -59948,54 +59948,54 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Boltadao",
-        "Pittao teensina",
-        "Nao Eh Poring",
+        "Total Security",
         "Deruz",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Lula",
-        "Donte",
-        "Ehotk",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "We Edz",
-        "Old Jovizera",
-        "Giga",
-        "Lee Br",
-        "Ragekemi",
-        "Wake Wake",
-        "Cuffy Dido",
         "Dont Bica",
-        "Total Security"
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Ehotk",
+        "Giga",
+        "Wake Wake",
+        "Papumzada",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Calveludo",
+        "We Edz",
+        "Ragekemi",
+        "Boltadao",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Lula"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Boltadao",
-        "Pittao teensina",
-        "Nao Eh Poring",
+        "Total Security",
         "Deruz",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Lula",
-        "Donte",
-        "Ehotk",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "We Edz",
-        "Old Jovizera",
-        "Giga",
-        "Lee Br",
-        "Ragekemi",
-        "Wake Wake",
-        "Cuffy Dido",
         "Dont Bica",
-        "Total Security"
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Ehotk",
+        "Giga",
+        "Wake Wake",
+        "Papumzada",
+        "Arroz Cadela",
+        "Cuffy Dido",
+        "Cetoprofeno Intramuscular",
+        "Donte",
+        "Calveludo",
+        "We Edz",
+        "Ragekemi",
+        "Boltadao",
+        "Old Jovizera",
+        "Pittao teensina",
+        "Lula"
       ],
       "hunted": {
         "Leogolas": {
