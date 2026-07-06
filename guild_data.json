@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 00:47 (Brasília)",
+  "updated_at": "06/07/2026 às 00:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1217,12 +1217,12 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 872,
+      "level": 880,
       "resets": 19,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 13,
@@ -1874,7 +1874,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 51,
@@ -4021,7 +4021,7 @@
       "resets_today": 0,
       "resets_week": 7,
       "vocation": "Elder Druid",
-      "online": true
+      "online": false
     },
     {
       "name": "Guidao Palao",
@@ -4069,7 +4069,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Kolwaski",
@@ -4355,7 +4355,7 @@
           "name": "Kiel",
           "value": 59,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Teylera Rp",
@@ -4727,7 +4727,7 @@
           "name": "Elder Lougon",
           "value": 19,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Achilles",
@@ -4769,7 +4769,7 @@
           "name": "Kiel",
           "value": 2053,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Yagoodz Hahaha",
@@ -5138,6 +5138,12 @@
           "online": false
         },
         {
+          "name": "Elder Lougon",
+          "value": 880,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
           "name": "Tsuru",
           "value": 879,
           "vocation": "Master Sorcerer",
@@ -5147,12 +5153,6 @@
           "name": "Xeipe",
           "value": 876,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 872,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5859,7 +5859,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 00:47 (Brasília)",
+    "updated_at": "06/07/2026 às 00:48 (Brasília)",
     "kills_total": 1093,
     "deaths_total": 1200,
     "kills_today": 1,
@@ -59258,54 +59258,54 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Arroz Cadela",
         "Boltadao",
-        "Wake Wake",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Deruz",
-        "Pittao teensina",
         "Lee Br",
         "Calveludo",
-        "Donte",
-        "Total Security",
-        "Dont Bica",
         "Cuffy Dido",
+        "Wake Wake",
+        "Donte",
+        "Giga",
         "We Edz",
+        "Ehotk",
+        "Nao Eh Poring",
         "Lula",
-        "Ragekemi"
+        "Arroz Cadela",
+        "Dont Bica",
+        "Pittao teensina",
+        "Papumzada",
+        "Old Jovizera",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Total Security",
+        "Ragekemi",
+        "Cetoprofeno Intramuscular"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Giga",
-        "Cetoprofeno Intramuscular",
-        "Papumzada",
-        "Arroz Cadela",
         "Boltadao",
-        "Wake Wake",
-        "JhonzinMilgrau",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Deruz",
-        "Pittao teensina",
         "Lee Br",
         "Calveludo",
-        "Donte",
-        "Total Security",
-        "Dont Bica",
         "Cuffy Dido",
+        "Wake Wake",
+        "Donte",
+        "Giga",
         "We Edz",
+        "Ehotk",
+        "Nao Eh Poring",
         "Lula",
-        "Ragekemi"
+        "Arroz Cadela",
+        "Dont Bica",
+        "Pittao teensina",
+        "Papumzada",
+        "Old Jovizera",
+        "Deruz",
+        "JhonzinMilgrau",
+        "Total Security",
+        "Ragekemi",
+        "Cetoprofeno Intramuscular"
       ],
       "hunted": {
         "Leogolas": {
