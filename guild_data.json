@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 08:32 (Brasília)",
+  "updated_at": "06/07/2026 às 08:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1798,7 +1798,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1522,
+      "level": 1532,
       "resets": 78,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1987,8 +1987,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1293,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2063,6 +2063,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "04/07/2026 às 20:13 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 08:33 (Brasília)"
         }
       ]
     },
@@ -3920,6 +3925,14 @@
       "online": false
     },
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 35,
       "resets_today": 1,
@@ -4060,14 +4073,6 @@
       "resets_total": 45,
       "resets_today": 0,
       "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 29,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4586,6 +4591,12 @@
           "online": true
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 30,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lougon Baiakeiro",
           "value": 30,
           "vocation": "Master Sorcerer",
@@ -4601,12 +4612,6 @@
           "name": "Pestinha",
           "value": 30,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 29,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4947,7 +4952,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1522,
+          "value": 1532,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4998,12 +5003,6 @@
           "value": 1406,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1293,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Ynhaca Purah",
@@ -5823,7 +5822,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 08:32 (Brasília)",
+    "updated_at": "06/07/2026 às 08:33 (Brasília)",
     "kills_total": 1104,
     "deaths_total": 1200,
     "kills_today": 12,
@@ -28614,7 +28613,7 @@
         "Kev": 25,
         "Kiel": 59,
         "Kolwaski": 45,
-        "Lilian Faithkeeper": 29,
+        "Lilian Faithkeeper": 30,
         "Lipe Knight": 46,
         "Ljxiv": 27,
         "Loke": 53,
@@ -45080,7 +45079,7 @@
           "Kev": 25,
           "Kiel": 59,
           "Kolwaski": 45,
-          "Lilian Faithkeeper": 29,
+          "Lilian Faithkeeper": 30,
           "Lipe Knight": 46,
           "Ljxiv": 27,
           "Loke": 53,
@@ -50636,6 +50635,13 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "06/07/2026 às 08:02 (Brasília)",
+          "hour_key": "2026-07-06-08"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 08:33 (Brasília)",
           "hour_key": "2026-07-06-08"
         }
       ]
@@ -58887,26 +58893,26 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Dont Bica",
-        "Ragekemi",
-        "Lee Br",
-        "Ehotk",
-        "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "JhonzinMilgrau",
         "Total Security",
-        "Giga",
-        "Old Jovizera",
+        "Ehotk",
         "Calveludo",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Deruz",
-        "Wake Wake",
-        "Lula",
+        "Ragekemi",
+        "Boltadao",
         "Arroz Cadela",
-        "Pittao teensina"
+        "Pittao teensina",
+        "Papumzada",
+        "Deruz",
+        "We Edz",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Giga",
+        "Cuffy Dido",
+        "Donte",
+        "Lula",
+        "Old Jovizera",
+        "Dont Bica",
+        "Wake Wake",
+        "JhonzinMilgrau"
       ],
       "changes_log": [
         {
@@ -58919,26 +58925,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Dont Bica",
-        "Ragekemi",
-        "Lee Br",
-        "Ehotk",
-        "Boltadao",
-        "Papumzada",
-        "We Edz",
-        "JhonzinMilgrau",
         "Total Security",
-        "Giga",
-        "Old Jovizera",
+        "Ehotk",
         "Calveludo",
-        "Cuffy Dido",
-        "Nao Eh Poring",
-        "Deruz",
-        "Wake Wake",
-        "Lula",
+        "Ragekemi",
+        "Boltadao",
         "Arroz Cadela",
-        "Pittao teensina"
+        "Pittao teensina",
+        "Papumzada",
+        "Deruz",
+        "We Edz",
+        "Nao Eh Poring",
+        "Lee Br",
+        "Giga",
+        "Cuffy Dido",
+        "Donte",
+        "Lula",
+        "Old Jovizera",
+        "Dont Bica",
+        "Wake Wake",
+        "JhonzinMilgrau"
       ],
       "hunted": {
         "Leogolas": {
@@ -59610,11 +59616,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 2705,
-      "resets_today": 4,
-      "resets_week": 127,
+      "total_current": 2706,
+      "resets_today": 5,
+      "resets_week": 128,
       "resets_month": 0,
-      "resets_lifetime": 144,
+      "resets_lifetime": 145,
       "avg_per_player": 38.1
     },
     "enemy_guild": {
