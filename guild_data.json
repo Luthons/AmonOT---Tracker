@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 14:52 (Brasília)",
+  "updated_at": "06/07/2026 às 14:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -2541,7 +2541,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1578,
+      "level": 1577,
       "resets": 51,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4958,7 +4958,7 @@
         },
         {
           "name": "Monstro Das Criptos",
-          "value": 1578,
+          "value": 1577,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5518,9 +5518,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 89,
-          "kills_today": 2,
-          "kills_week": 83
+          "value": 90,
+          "kills_today": 3,
+          "kills_week": 84
         },
         {
           "name": "Calveludo",
@@ -5828,16 +5828,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 14:52 (Brasília)",
+    "updated_at": "06/07/2026 às 14:53 (Brasília)",
     "kills_total": 1108,
-    "deaths_total": 1202,
+    "deaths_total": 1203,
     "kills_today": 16,
-    "deaths_today": 8,
+    "deaths_today": 9,
     "kills_week": 152,
-    "deaths_week": 186,
+    "deaths_week": 187,
     "kd_total": 0.92,
-    "kd_today": 2.0,
-    "kd_week": 0.82,
+    "kd_today": 1.78,
+    "kd_week": 0.81,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6180,9 +6180,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 89,
-        "kills_today": 2,
-        "kills_week": 83
+        "kills": 90,
+        "kills_today": 3,
+        "kills_week": 84
       },
       {
         "name": "Calveludo",
@@ -26828,6 +26828,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 06, 2026 14:52",
+        "player": "Monstro Das Criptos",
+        "level": 1578,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 06, 2026 14:49",
         "player": "Gokuu",
         "level": 1997,
@@ -28369,6 +28378,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 06, 2026 14:52",
+      "player": "Monstro Das Criptos",
+      "level": 1578,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 06, 2026 14:49",
       "player": "Gokuu",
@@ -58737,26 +58755,26 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Deruz",
-        "Ehotk",
-        "Giga",
-        "Pittao teensina",
-        "Dont Bica",
-        "Lee Br",
         "Nao Eh Poring",
-        "We Edz",
-        "Cuffy Dido",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Ragekemi",
-        "Lula",
         "Old Jovizera",
-        "Papumzada",
+        "JhonzinMilgrau",
+        "Giga",
+        "Lee Br",
+        "Lula",
+        "Wake Wake",
+        "Donte",
+        "Boltadao",
+        "Arroz Cadela",
+        "Ehotk",
         "Total Security",
-        "Wake Wake"
+        "Dont Bica",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Calveludo",
+        "Ragekemi",
+        "Papumzada",
+        "We Edz",
+        "Deruz"
       ],
       "changes_log": [
         {
@@ -58769,26 +58787,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Donte",
-        "Arroz Cadela",
-        "Deruz",
-        "Ehotk",
-        "Giga",
-        "Pittao teensina",
-        "Dont Bica",
-        "Lee Br",
         "Nao Eh Poring",
-        "We Edz",
-        "Cuffy Dido",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Ragekemi",
-        "Lula",
         "Old Jovizera",
-        "Papumzada",
+        "JhonzinMilgrau",
+        "Giga",
+        "Lee Br",
+        "Lula",
+        "Wake Wake",
+        "Donte",
+        "Boltadao",
+        "Arroz Cadela",
+        "Ehotk",
         "Total Security",
-        "Wake Wake"
+        "Dont Bica",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Calveludo",
+        "Ragekemi",
+        "Papumzada",
+        "We Edz",
+        "Deruz"
       ],
       "hunted": {
         "Leogolas": {
