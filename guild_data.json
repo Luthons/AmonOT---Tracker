@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 20:49 (Brasília)",
+  "updated_at": "06/07/2026 às 20:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1818,8 +1818,8 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 2000,
-      "resets": 78,
+      "level": 8,
+      "resets": 79,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1834,6 +1834,11 @@
           "resets": 78,
           "gained": 1,
           "timestamp": "05/07/2026 às 14:42 (Brasília)"
+        },
+        {
+          "resets": 79,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 20:50 (Brasília)"
         }
       ]
     },
@@ -3954,6 +3959,14 @@
       "online": true
     },
     {
+      "name": "Jhonnys Trembolizado",
+      "resets_total": 79,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 25,
       "resets_today": 1,
@@ -4331,7 +4344,7 @@
       "entries": [
         {
           "name": "Jhonnys Trembolizado",
-          "value": 78,
+          "value": 79,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4847,12 +4860,6 @@
         },
         {
           "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -5867,7 +5874,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 20:49 (Brasília)",
+    "updated_at": "06/07/2026 às 20:50 (Brasília)",
     "kills_total": 1110,
     "deaths_total": 1203,
     "kills_today": 18,
@@ -28679,7 +28686,7 @@
         "Henrique": 52,
         "Heroes Baiak": 28,
         "Its Gui": 38,
-        "Jhonnys Trembolizado": 78,
+        "Jhonnys Trembolizado": 79,
         "Kev": 25,
         "Kiel": 59,
         "Kolwaski": 45,
@@ -44796,7 +44803,7 @@
           "Henrique": 52,
           "Heroes Baiak": 28,
           "Its Gui": 38,
-          "Jhonnys Trembolizado": 78,
+          "Jhonnys Trembolizado": 79,
           "Kev": 25,
           "Kiel": 59,
           "Kolwaski": 45,
@@ -50392,6 +50399,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 18:26 (Brasília)",
           "hour_key": "2026-07-06-18"
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "resets": 79,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 20:50 (Brasília)",
+          "hour_key": "2026-07-06-20"
         }
       ]
     },
@@ -58608,25 +58622,25 @@
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "We Edz",
-        "Donte",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Pittao teensina",
-        "Wake Wake",
         "Boltadao",
-        "Dont Bica",
-        "Total Security",
-        "Nao Eh Poring",
-        "Deruz",
-        "Cuffy Dido",
-        "Calveludo",
-        "Ragekemi",
-        "Giga",
+        "Donte",
+        "Lee Br",
         "Arroz Cadela",
+        "Old Jovizera",
+        "Dont Bica",
+        "We Edz",
+        "Pittao teensina",
+        "Calveludo",
+        "Ehotk",
         "Lula",
-        "Old Jovizera"
+        "Giga",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Deruz",
+        "Total Security"
       ],
       "changes_log": [
         {
@@ -58644,25 +58658,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "We Edz",
-        "Donte",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Pittao teensina",
-        "Wake Wake",
         "Boltadao",
-        "Dont Bica",
-        "Total Security",
-        "Nao Eh Poring",
-        "Deruz",
-        "Cuffy Dido",
-        "Calveludo",
-        "Ragekemi",
-        "Giga",
+        "Donte",
+        "Lee Br",
         "Arroz Cadela",
+        "Old Jovizera",
+        "Dont Bica",
+        "We Edz",
+        "Pittao teensina",
+        "Calveludo",
+        "Ehotk",
         "Lula",
-        "Old Jovizera"
+        "Giga",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Cuffy Dido",
+        "Wake Wake",
+        "Deruz",
+        "Total Security"
       ],
       "hunted": {
         "Leogolas": {
@@ -59334,8 +59348,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2735,
-      "resets_today": 9,
+      "total_current": 2736,
+      "resets_today": 10,
       "resets_week": 131,
       "resets_month": 0,
       "resets_lifetime": 132,
