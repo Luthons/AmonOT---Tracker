@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 02:37 (Brasília)",
+  "updated_at": "06/07/2026 às 02:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -415,8 +415,8 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 1253,
-      "resets": 12,
+      "level": 8,
+      "resets": 13,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -461,6 +461,11 @@
           "resets": 12,
           "gained": 1,
           "timestamp": "04/07/2026 às 22:10 (Brasília)"
+        },
+        {
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 02:38 (Brasília)"
         }
       ]
     },
@@ -3723,8 +3728,8 @@
     {
       "name": "Old Legacy",
       "total_members": 21,
-      "online_count": 11,
-      "offline_count": 10,
+      "online_count": 10,
+      "offline_count": 11,
       "members": [
         {
           "name": "Ehotk",
@@ -3895,7 +3900,7 @@
           "vocation": "Master Sorcerer",
           "nick": "",
           "rank": "Member",
-          "online": true
+          "online": false
         },
         {
           "name": "Total Security",
@@ -3919,6 +3924,14 @@
     }
   ],
   "resets_today": [
+    {
+      "name": "Adolph Healer",
+      "resets_total": 13,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Elder Druid",
+      "online": true
+    },
     {
       "name": "Roginho",
       "resets_total": 35,
@@ -3957,14 +3970,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Adolph Healer",
-      "resets_total": 12,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4311,7 +4316,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Total Security",
@@ -4736,16 +4741,16 @@
           "online": true
         },
         {
+          "name": "Adolph Healer",
+          "value": 13,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Elder Luthons",
           "value": 13,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 12,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Mu Baiakeiro",
@@ -5045,12 +5050,6 @@
           "name": "Teylera Rp",
           "value": 1263,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 1253,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5859,7 +5858,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 02:37 (Brasília)",
+    "updated_at": "06/07/2026 às 02:38 (Brasília)",
     "kills_total": 1094,
     "deaths_total": 1200,
     "kills_today": 2,
@@ -28654,7 +28653,7 @@
         "Punish Claude": 50,
         "Teylera Rp": 58,
         "Achilles": 18,
-        "Adolph Healer": 12,
+        "Adolph Healer": 13,
         "Affey": 26,
         "Alba Baiakeiro": 50,
         "Apreciador De Casadas": 37,
@@ -45295,7 +45294,7 @@
           "Punish Claude": 50,
           "Teylera Rp": 58,
           "Achilles": 18,
-          "Adolph Healer": 12,
+          "Adolph Healer": 13,
           "Affey": 26,
           "Alba Baiakeiro": 50,
           "Apreciador De Casadas": 37,
@@ -50864,6 +50863,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 23:13 (Brasília)",
           "hour_key": "2026-07-05-23"
+        },
+        {
+          "name": "Adolph Healer",
+          "resets": 13,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 02:38 (Brasília)",
+          "hour_key": "2026-07-06-02"
         }
       ]
     },
@@ -59133,54 +59139,54 @@
     },
     "members": {
       "last_member_list": [
-        "Giga",
-        "Cuffy Dido",
-        "Dont Bica",
-        "We Edz",
-        "Pittao teensina",
-        "Donte",
-        "Ehotk",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
         "Deruz",
-        "Old Jovizera",
+        "Total Security",
+        "Donte",
+        "Pittao teensina",
+        "Giga",
+        "Lee Br",
+        "Cuffy Dido",
         "Calveludo",
-        "Nao Eh Poring",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Old Jovizera",
         "Lula",
         "Ragekemi",
-        "Boltadao",
-        "Lee Br",
-        "Total Security",
+        "Dont Bica",
         "Arroz Cadela",
-        "JhonzinMilgrau"
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "We Edz"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Giga",
-        "Cuffy Dido",
-        "Dont Bica",
-        "We Edz",
-        "Pittao teensina",
-        "Donte",
-        "Ehotk",
-        "Papumzada",
-        "Cetoprofeno Intramuscular",
-        "Wake Wake",
         "Deruz",
-        "Old Jovizera",
+        "Total Security",
+        "Donte",
+        "Pittao teensina",
+        "Giga",
+        "Lee Br",
+        "Cuffy Dido",
         "Calveludo",
-        "Nao Eh Poring",
+        "Ehotk",
+        "Cetoprofeno Intramuscular",
+        "Boltadao",
+        "Old Jovizera",
         "Lula",
         "Ragekemi",
-        "Boltadao",
-        "Lee Br",
-        "Total Security",
+        "Dont Bica",
         "Arroz Cadela",
-        "JhonzinMilgrau"
+        "Nao Eh Poring",
+        "Wake Wake",
+        "Papumzada",
+        "JhonzinMilgrau",
+        "We Edz"
       ],
       "hunted": {
         "Leogolas": {
@@ -59852,11 +59858,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2728,
-      "resets_today": 1,
-      "resets_week": 125,
+      "total_current": 2729,
+      "resets_today": 2,
+      "resets_week": 126,
       "resets_month": 0,
-      "resets_lifetime": 148,
+      "resets_lifetime": 149,
       "avg_per_player": 37.9
     },
     "enemy_guild": {
