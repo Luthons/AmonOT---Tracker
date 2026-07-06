@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 08:01 (Brasília)",
+  "updated_at": "06/07/2026 às 08:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1151,13 +1151,19 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 2000,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 08:02 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Ed farm",
@@ -3929,6 +3935,14 @@
       "online": true
     },
     {
+      "name": "Dvn Luktzeraah",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 25,
       "resets_today": 1,
@@ -4465,6 +4479,12 @@
           "online": false
         },
         {
+          "name": "Dvn Luktzeraah",
+          "value": 46,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lipe Knight",
           "value": 46,
           "vocation": "Elite Knight",
@@ -4475,12 +4495,6 @@
           "value": 46,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Dvn Luktzeraah",
-          "value": 45,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Kolwaski",
@@ -4804,12 +4818,6 @@
           "name": "Dmonick",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Dvn Luktzeraah",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5852,7 +5860,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 08:01 (Brasília)",
+    "updated_at": "06/07/2026 às 08:02 (Brasília)",
     "kills_total": 1104,
     "deaths_total": 1200,
     "kills_today": 12,
@@ -28626,7 +28634,7 @@
         "Diegao Barba": 50,
         "Dmonick": 50,
         "Dreenho Baiakeiro": 40,
-        "Dvn Luktzeraah": 45,
+        "Dvn Luktzeraah": 46,
         "Ed farm": 47,
         "Elder Lougon": 19,
         "Elder Luthons": 13,
@@ -45093,7 +45101,7 @@
           "Diegao Barba": 50,
           "Dmonick": 50,
           "Dreenho Baiakeiro": 40,
-          "Dvn Luktzeraah": 45,
+          "Dvn Luktzeraah": 46,
           "Ed farm": 47,
           "Elder Lougon": 19,
           "Elder Luthons": 13,
@@ -50661,6 +50669,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 06:11 (Brasília)",
           "hour_key": "2026-07-06-06"
+        },
+        {
+          "name": "Dvn Luktzeraah",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 08:02 (Brasília)",
+          "hour_key": "2026-07-06-08"
         }
       ]
     },
@@ -58911,26 +58926,26 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Cuffy Dido",
-        "Boltadao",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Donte",
-        "Old Jovizera",
         "We Edz",
-        "Lee Br",
-        "Wake Wake",
-        "Deruz",
-        "Calveludo",
-        "Giga",
-        "Papumzada",
         "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Papumzada",
         "Lula",
-        "Total Security",
+        "Wake Wake",
+        "Lee Br",
+        "Deruz",
+        "Donte",
+        "Cuffy Dido",
         "Pittao teensina",
-        "Ragekemi"
+        "Ragekemi",
+        "Ehotk",
+        "Boltadao",
+        "Old Jovizera",
+        "Calveludo",
+        "Total Security"
       ],
       "changes_log": [
         {
@@ -58943,26 +58958,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Ehotk",
-        "Cuffy Dido",
-        "Boltadao",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Donte",
-        "Old Jovizera",
         "We Edz",
-        "Lee Br",
-        "Wake Wake",
-        "Deruz",
-        "Calveludo",
-        "Giga",
-        "Papumzada",
         "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Giga",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Papumzada",
         "Lula",
-        "Total Security",
+        "Wake Wake",
+        "Lee Br",
+        "Deruz",
+        "Donte",
+        "Cuffy Dido",
         "Pittao teensina",
-        "Ragekemi"
+        "Ragekemi",
+        "Ehotk",
+        "Boltadao",
+        "Old Jovizera",
+        "Calveludo",
+        "Total Security"
       ],
       "hunted": {
         "Leogolas": {
@@ -59634,8 +59649,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2730,
-      "resets_today": 3,
+      "total_current": 2731,
+      "resets_today": 4,
       "resets_week": 127,
       "resets_month": 0,
       "resets_lifetime": 144,
