@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 15:06 (Brasília)",
+  "updated_at": "06/07/2026 às 15:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -2755,7 +2755,7 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 844,
+      "level": 849,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3791,8 +3791,8 @@
         },
         {
           "name": "Papumzada",
-          "level": 1006,
-          "resets": 27,
+          "level": 8,
+          "resets": 28,
           "vocation": "Royal Paladin",
           "nick": "",
           "rank": "Member",
@@ -4233,6 +4233,14 @@
   ],
   "enemy_resets_today": [
     {
+      "name": "Papumzada",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Arroz Cadela",
       "resets_total": 34,
       "resets_today": 0,
@@ -4246,14 +4254,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Papumzada",
-      "resets_total": 27,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -5160,7 +5160,7 @@
         },
         {
           "name": "Nagato Sorcerer",
-          "value": 844,
+          "value": 849,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5850,7 +5850,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 15:06 (Brasília)",
+    "updated_at": "06/07/2026 às 15:07 (Brasília)",
     "kills_total": 1108,
     "deaths_total": 1203,
     "kills_today": 16,
@@ -50529,7 +50529,7 @@
         "Arroz Cadela": 34,
         "Dont Bica": 21,
         "Nao Eh Poring": 81,
-        "Papumzada": 27,
+        "Papumzada": 28,
         "Boltadao": 25,
         "Calveludo": 42,
         "Cuffy Dido": 33,
@@ -54533,7 +54533,7 @@
           "Arroz Cadela": 34,
           "Dont Bica": 21,
           "Nao Eh Poring": 81,
-          "Papumzada": 27,
+          "Papumzada": 28,
           "Boltadao": 25,
           "Calveludo": 42,
           "Cuffy Dido": 33,
@@ -58741,31 +58741,38 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 17:17 (Brasília)",
           "hour_key": "2026-07-05-17"
+        },
+        {
+          "name": "Papumzada",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 15:07 (Brasília)",
+          "hour_key": "2026-07-06-15"
         }
       ]
     },
     "members": {
       "last_member_list": [
-        "Ehotk",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Calveludo",
         "Wake Wake",
-        "Ragekemi",
+        "Boltadao",
+        "Pittao teensina",
+        "Giga",
+        "Dont Bica",
         "Lula",
-        "We Edz",
-        "Papumzada",
-        "Total Security",
+        "Cuffy Dido",
+        "Ehotk",
         "Arroz Cadela",
+        "Papumzada",
+        "We Edz",
+        "Lee Br",
+        "Calveludo",
+        "Deruz",
+        "Old Jovizera",
+        "Total Security",
         "Nao Eh Poring",
         "Donte",
-        "Boltadao",
-        "Giga",
-        "Lee Br",
-        "Pittao teensina",
-        "Deruz",
-        "JhonzinMilgrau"
+        "JhonzinMilgrau",
+        "Ragekemi"
       ],
       "changes_log": [
         {
@@ -58778,26 +58785,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Ehotk",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Old Jovizera",
-        "Calveludo",
         "Wake Wake",
-        "Ragekemi",
+        "Boltadao",
+        "Pittao teensina",
+        "Giga",
+        "Dont Bica",
         "Lula",
-        "We Edz",
-        "Papumzada",
-        "Total Security",
+        "Cuffy Dido",
+        "Ehotk",
         "Arroz Cadela",
+        "Papumzada",
+        "We Edz",
+        "Lee Br",
+        "Calveludo",
+        "Deruz",
+        "Old Jovizera",
+        "Total Security",
         "Nao Eh Poring",
         "Donte",
-        "Boltadao",
-        "Giga",
-        "Lee Br",
-        "Pittao teensina",
-        "Deruz",
-        "JhonzinMilgrau"
+        "JhonzinMilgrau",
+        "Ragekemi"
       ],
       "hunted": {
         "Leogolas": {
@@ -59479,12 +59486,12 @@
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
       "num_members": 20,
-      "total_current": 761,
-      "resets_today": 0,
-      "resets_week": 27,
+      "total_current": 762,
+      "resets_today": 1,
+      "resets_week": 28,
       "resets_month": 0,
-      "resets_lifetime": 27,
-      "avg_per_player": 38.0
+      "resets_lifetime": 28,
+      "avg_per_player": 38.1
     }
   },
   "recent_changes": [],
