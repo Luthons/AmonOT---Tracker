@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 18:25 (Brasília)",
+  "updated_at": "06/07/2026 às 18:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1243,8 +1243,8 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 993,
-      "resets": 19,
+      "level": 8,
+      "resets": 20,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1284,6 +1284,11 @@
           "resets": 19,
           "gained": 1,
           "timestamp": "05/07/2026 às 22:46 (Brasília)"
+        },
+        {
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 18:26 (Brasília)"
         }
       ]
     },
@@ -3941,6 +3946,14 @@
       "online": true
     },
     {
+      "name": "Elder Lougon",
+      "resets_total": 20,
+      "resets_today": 1,
+      "resets_week": 8,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 25,
       "resets_today": 1,
@@ -4051,14 +4064,6 @@
       "resets_week": 1,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Elder Lougon",
-      "resets_total": 19,
-      "resets_today": 0,
-      "resets_week": 7,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Guidao Palao",
@@ -4715,15 +4720,15 @@
           "online": true
         },
         {
-          "name": "Vitao The Trader",
+          "name": "Elder Lougon",
           "value": 20,
-          "vocation": "Master Sorcerer",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Elder Lougon",
-          "value": 19,
-          "vocation": "Elder Druid",
+          "name": "Vitao The Trader",
+          "value": 20,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5103,12 +5108,6 @@
           "value": 1029,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 993,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Moskito",
@@ -5856,7 +5855,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 18:25 (Brasília)",
+    "updated_at": "06/07/2026 às 18:26 (Brasília)",
     "kills_total": 1109,
     "deaths_total": 1203,
     "kills_today": 17,
@@ -28660,7 +28659,7 @@
         "Dreenho Baiakeiro": 40,
         "Dvn Luktzeraah": 46,
         "Ed farm": 47,
-        "Elder Lougon": 19,
+        "Elder Lougon": 20,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
         "End Zeus": 36,
@@ -44833,7 +44832,7 @@
           "Dreenho Baiakeiro": 40,
           "Dvn Luktzeraah": 46,
           "Ed farm": 47,
-          "Elder Lougon": 19,
+          "Elder Lougon": 20,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
           "End Zeus": 36,
@@ -50433,6 +50432,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 17:46 (Brasília)",
           "hour_key": "2026-07-06-17"
+        },
+        {
+          "name": "Elder Lougon",
+          "resets": 20,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 18:26 (Brasília)",
+          "hour_key": "2026-07-06-18"
         }
       ]
     },
@@ -58657,24 +58663,24 @@
     },
     "members": {
       "last_member_list": [
-        "JhonzinMilgrau",
-        "Calveludo",
+        "Dont Bica",
         "Total Security",
-        "Lee Br",
-        "Giga",
-        "Lula",
-        "Deruz",
-        "Boltadao",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Donte",
-        "Pittao teensina",
-        "Arroz Cadela",
         "Nao Eh Poring",
         "Ehotk",
-        "Ragekemi",
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Pittao teensina",
+        "Lee Br",
+        "Lula",
+        "Deruz",
+        "Arroz Cadela",
+        "Boltadao",
+        "Donte",
+        "Giga",
+        "Cuffy Dido",
         "We Edz",
-        "Dont Bica",
+        "Ragekemi",
+        "Old Jovizera",
         "Wake Wake"
       ],
       "changes_log": [
@@ -58693,24 +58699,24 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "JhonzinMilgrau",
-        "Calveludo",
+        "Dont Bica",
         "Total Security",
-        "Lee Br",
-        "Giga",
-        "Lula",
-        "Deruz",
-        "Boltadao",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Donte",
-        "Pittao teensina",
-        "Arroz Cadela",
         "Nao Eh Poring",
         "Ehotk",
-        "Ragekemi",
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Pittao teensina",
+        "Lee Br",
+        "Lula",
+        "Deruz",
+        "Arroz Cadela",
+        "Boltadao",
+        "Donte",
+        "Giga",
+        "Cuffy Dido",
         "We Edz",
-        "Dont Bica",
+        "Ragekemi",
+        "Old Jovizera",
         "Wake Wake"
       ],
       "hunted": {
@@ -59383,11 +59389,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2734,
-      "resets_today": 8,
-      "resets_week": 130,
+      "total_current": 2735,
+      "resets_today": 9,
+      "resets_week": 131,
       "resets_month": 0,
-      "resets_lifetime": 133,
+      "resets_lifetime": 134,
       "avg_per_player": 38.0
     },
     "enemy_guild": {
