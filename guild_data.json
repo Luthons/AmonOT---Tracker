@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 06:10 (Brasília)",
+  "updated_at": "06/07/2026 às 06:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1813,8 +1813,8 @@
     },
     {
       "name": "Kev",
-      "level": 1276,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1869,6 +1869,11 @@
           "resets": 24,
           "gained": 1,
           "timestamp": "03/07/2026 às 19:47 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 06:11 (Brasília)"
         }
       ]
     },
@@ -3924,6 +3929,14 @@
       "online": true
     },
     {
+      "name": "Kev",
+      "resets_total": 25,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 35,
       "resets_today": 1,
@@ -4049,14 +4062,6 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Kev",
-      "resets_total": 24,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4670,6 +4675,12 @@
           "online": false
         },
         {
+          "name": "Kev",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Red Hahaha",
           "value": 25,
           "vocation": "Royal Paladin",
@@ -4679,12 +4690,6 @@
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 24,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5032,12 +5037,6 @@
         {
           "name": "Lilian Faithkeeper",
           "value": 1284,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 1276,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5847,7 +5846,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 06:10 (Brasília)",
+    "updated_at": "06/07/2026 às 06:11 (Brasília)",
     "kills_total": 1104,
     "deaths_total": 1200,
     "kills_today": 12,
@@ -28603,15 +28602,6 @@
       "maiorDano": "Yagoodz Hahaha",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Jul 04, 2026 01:21",
-      "player": "Magabela",
-      "level": 1985,
-      "killedBy": "Nao Eh Poring",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -28653,7 +28643,7 @@
         "Heroes Baiak": 28,
         "Its Gui": 38,
         "Jhonnys Trembolizado": 78,
-        "Kev": 24,
+        "Kev": 25,
         "Kiel": 59,
         "Kolwaski": 45,
         "Lilian Faithkeeper": 29,
@@ -45178,7 +45168,7 @@
           "Heroes Baiak": 28,
           "Its Gui": 38,
           "Jhonnys Trembolizado": 78,
-          "Kev": 24,
+          "Kev": 25,
           "Kiel": 59,
           "Kolwaski": 45,
           "Lilian Faithkeeper": 29,
@@ -50725,6 +50715,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 02:38 (Brasília)",
           "hour_key": "2026-07-06-02"
+        },
+        {
+          "name": "Kev",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 06:11 (Brasília)",
+          "hour_key": "2026-07-06-06"
         }
       ]
     },
@@ -58981,26 +58978,26 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Wake Wake",
-        "Boltadao",
-        "Cuffy Dido",
-        "Lee Br",
-        "Deruz",
-        "Giga",
         "Papumzada",
-        "Pittao teensina",
-        "Donte",
         "Nao Eh Poring",
-        "Ragekemi",
-        "Old Jovizera",
-        "Lula",
-        "Ehotk",
-        "Dont Bica",
-        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Arroz Cadela",
+        "Ragekemi",
         "We Edz",
-        "Total Security"
+        "Giga",
+        "Dont Bica",
+        "Total Security",
+        "Calveludo",
+        "Lee Br",
+        "Lula",
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Deruz",
+        "Wake Wake",
+        "Ehotk",
+        "Boltadao",
+        "Donte",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -59013,26 +59010,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Wake Wake",
-        "Boltadao",
-        "Cuffy Dido",
-        "Lee Br",
-        "Deruz",
-        "Giga",
         "Papumzada",
-        "Pittao teensina",
-        "Donte",
         "Nao Eh Poring",
-        "Ragekemi",
-        "Old Jovizera",
-        "Lula",
-        "Ehotk",
-        "Dont Bica",
-        "Arroz Cadela",
         "JhonzinMilgrau",
+        "Arroz Cadela",
+        "Ragekemi",
         "We Edz",
-        "Total Security"
+        "Giga",
+        "Dont Bica",
+        "Total Security",
+        "Calveludo",
+        "Lee Br",
+        "Lula",
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Deruz",
+        "Wake Wake",
+        "Ehotk",
+        "Boltadao",
+        "Donte",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -59704,11 +59701,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2729,
-      "resets_today": 2,
-      "resets_week": 126,
+      "total_current": 2730,
+      "resets_today": 3,
+      "resets_week": 127,
       "resets_month": 0,
-      "resets_lifetime": 146,
+      "resets_lifetime": 147,
       "avg_per_player": 37.9
     },
     "enemy_guild": {
