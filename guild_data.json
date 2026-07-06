@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 10:09 (Brasília)",
+  "updated_at": "06/07/2026 às 10:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -65,7 +65,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1621,
+      "level": 1638,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -649,7 +649,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1946,
+      "level": 1988,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -695,7 +695,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1098,
+      "level": 1119,
       "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
@@ -868,7 +868,7 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 1717,
+      "level": 1732,
       "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1151,7 +1151,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 793,
+      "level": 855,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1798,7 +1798,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1594,
+      "level": 1612,
       "resets": 78,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1987,7 +1987,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 701,
+      "level": 1074,
       "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2495,7 +2495,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1528,
+      "level": 1588,
       "resets": 42,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2541,7 +2541,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1509,
+      "level": 1558,
       "resets": 51,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3108,7 +3108,7 @@
     },
     {
       "name": "Pestinha",
-      "level": 1117,
+      "level": 1190,
       "resets": 30,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3445,7 +3445,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1788,
+      "level": 1884,
       "resets": 32,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3781,7 +3781,7 @@
         },
         {
           "name": "Papumzada",
-          "level": 983,
+          "level": 988,
           "resets": 27,
           "vocation": "Royal Paladin",
           "nick": "",
@@ -3862,7 +3862,7 @@
         },
         {
           "name": "Old Jovizera",
-          "level": 1423,
+          "level": 1433,
           "resets": 40,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -4861,6 +4861,12 @@
           "online": true
         },
         {
+          "name": "Baiakudinho",
+          "value": 1988,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Esfi Hahaha",
           "value": 1986,
           "vocation": "Royal Paladin",
@@ -4879,12 +4885,6 @@
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 1946,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique",
           "value": 1896,
           "vocation": "Elite Knight",
@@ -4892,7 +4892,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1788,
+          "value": 1884,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4903,14 +4903,14 @@
           "online": true
         },
         {
-          "name": "Lipe Knight",
-          "value": 1726,
+          "name": "Diegao Barba",
+          "value": 1732,
           "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Diegao Barba",
-          "value": 1717,
+          "name": "Lipe Knight",
+          "value": 1726,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4934,14 +4934,20 @@
         },
         {
           "name": "Gizao",
-          "value": 1621,
+          "value": 1638,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1594,
+          "value": 1612,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Melbiss",
+          "value": 1588,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4957,14 +4963,8 @@
           "online": false
         },
         {
-          "name": "Melbiss",
-          "value": 1528,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
-          "value": 1509,
+          "value": 1558,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5023,6 +5023,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 1190,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Affey",
           "value": 1127,
           "vocation": "Royal Paladin",
@@ -5035,15 +5041,15 @@
           "online": true
         },
         {
-          "name": "Pestinha",
-          "value": 1117,
-          "vocation": "Master Sorcerer",
+          "name": "Cerebro",
+          "value": 1119,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Cerebro",
-          "value": 1098,
-          "vocation": "Elite Knight",
+          "name": "Lilian Faithkeeper",
+          "value": 1074,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5119,6 +5125,12 @@
           "online": false
         },
         {
+          "name": "Dvn Luktzeraah",
+          "value": 855,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Nagato Sorcerer",
           "value": 844,
           "vocation": "Master Sorcerer",
@@ -5137,22 +5149,10 @@
           "online": false
         },
         {
-          "name": "Dvn Luktzeraah",
-          "value": 793,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Elder Luthons",
           "value": 733,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 701,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Kev",
@@ -5828,7 +5828,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 10:09 (Brasília)",
+    "updated_at": "06/07/2026 às 10:10 (Brasília)",
     "kills_total": 1105,
     "deaths_total": 1200,
     "kills_today": 13,
@@ -58842,26 +58842,26 @@
     },
     "members": {
       "last_member_list": [
-        "We Edz",
-        "Wake Wake",
-        "Deruz",
-        "Dont Bica",
-        "Lee Br",
-        "Ragekemi",
-        "Donte",
+        "Papumzada",
         "Nao Eh Poring",
         "Arroz Cadela",
-        "Boltadao",
         "Cuffy Dido",
+        "Lee Br",
         "Calveludo",
-        "Papumzada",
-        "Ehotk",
         "Pittao teensina",
-        "Total Security",
+        "Donte",
+        "Dont Bica",
+        "Boltadao",
+        "Deruz",
         "JhonzinMilgrau",
         "Giga",
         "Old Jovizera",
-        "Lula"
+        "Total Security",
+        "Wake Wake",
+        "Ragekemi",
+        "We Edz",
+        "Lula",
+        "Ehotk"
       ],
       "changes_log": [
         {
@@ -58874,26 +58874,26 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "We Edz",
-        "Wake Wake",
-        "Deruz",
-        "Dont Bica",
-        "Lee Br",
-        "Ragekemi",
-        "Donte",
+        "Papumzada",
         "Nao Eh Poring",
         "Arroz Cadela",
-        "Boltadao",
         "Cuffy Dido",
+        "Lee Br",
         "Calveludo",
-        "Papumzada",
-        "Ehotk",
         "Pittao teensina",
-        "Total Security",
+        "Donte",
+        "Dont Bica",
+        "Boltadao",
+        "Deruz",
         "JhonzinMilgrau",
         "Giga",
         "Old Jovizera",
-        "Lula"
+        "Total Security",
+        "Wake Wake",
+        "Ragekemi",
+        "We Edz",
+        "Lula",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
