@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 20:12 (Brasília)",
+  "updated_at": "06/07/2026 às 20:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3892,7 +3892,7 @@
         },
         {
           "name": "Pittao teensina",
-          "level": 1830,
+          "level": 1829,
           "resets": 46,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5508,6 +5508,12 @@
           "kills_week": 0
         },
         {
+          "name": "Adjr",
+          "value": 1,
+          "kills_today": 1,
+          "kills_week": 1
+        },
+        {
           "name": "Friedrich Merz",
           "value": 1,
           "kills_today": 0,
@@ -5861,15 +5867,15 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 20:12 (Brasília)",
-    "kills_total": 1109,
+    "updated_at": "06/07/2026 às 20:13 (Brasília)",
+    "kills_total": 1110,
     "deaths_total": 1203,
-    "kills_today": 17,
+    "kills_today": 18,
     "deaths_today": 9,
-    "kills_week": 153,
+    "kills_week": 154,
     "deaths_week": 187,
     "kd_total": 0.92,
-    "kd_today": 1.89,
+    "kd_today": 2.0,
     "kd_week": 0.82,
     "streak_days": 1,
     "top_my_killers": [
@@ -6172,6 +6178,12 @@
         "kills": 1,
         "kills_today": 0,
         "kills_week": 0
+      },
+      {
+        "name": "Adjr",
+        "kills": 1,
+        "kills_today": 1,
+        "kills_week": 1
       },
       {
         "name": "Friedrich Merz",
@@ -6587,7 +6599,7 @@
       ],
       [
         "Pittao teensina",
-        46
+        47
       ],
       [
         "Punish Claude",
@@ -16559,6 +16571,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 20:12",
+        "player": "Pittao teensina",
+        "level": 1830,
+        "killedBy": "Adjr",
+        "maiorDano": "Maguinn Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -28615,15 +28636,6 @@
       "level": 818,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 04, 2026 03:30",
-      "player": "Punish Claude",
-      "level": 2000,
-      "killedBy": "Nao Eh Poring",
-      "maiorDano": "Calveludo",
       "world": "Baiak",
       "isPvp": true
     }
@@ -58596,25 +58608,25 @@
     },
     "members": {
       "last_member_list": [
-        "Boltadao",
-        "Cuffy Dido",
-        "Ehotk",
-        "Lula",
-        "Arroz Cadela",
-        "Deruz",
-        "Calveludo",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
-        "Giga",
         "Wake Wake",
+        "Donte",
+        "Old Jovizera",
         "Total Security",
+        "Lula",
+        "Pittao teensina",
+        "Cuffy Dido",
         "Lee Br",
         "We Edz",
-        "Old Jovizera",
-        "Donte",
-        "Pittao teensina",
-        "Nao Eh Poring"
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Giga",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Deruz",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Ehotk"
       ],
       "changes_log": [
         {
@@ -58632,25 +58644,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Boltadao",
-        "Cuffy Dido",
-        "Ehotk",
-        "Lula",
-        "Arroz Cadela",
-        "Deruz",
-        "Calveludo",
-        "Dont Bica",
-        "JhonzinMilgrau",
-        "Ragekemi",
-        "Giga",
         "Wake Wake",
+        "Donte",
+        "Old Jovizera",
         "Total Security",
+        "Lula",
+        "Pittao teensina",
+        "Cuffy Dido",
         "Lee Br",
         "We Edz",
-        "Old Jovizera",
-        "Donte",
-        "Pittao teensina",
-        "Nao Eh Poring"
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Giga",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Boltadao",
+        "Deruz",
+        "Dont Bica",
+        "Arroz Cadela",
+        "Ehotk"
       ],
       "hunted": {
         "Leogolas": {
