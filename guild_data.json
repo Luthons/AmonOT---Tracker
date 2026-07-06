@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 23:20 (Brasília)",
+  "updated_at": "05/07/2026 às 23:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -5291,16 +5291,16 @@
           "kills_week": 11
         },
         {
+          "name": "Gizao",
+          "value": 35,
+          "kills_today": 1,
+          "kills_week": 12
+        },
+        {
           "name": "Maguinn Returns",
           "value": 35,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Gizao",
-          "value": 34,
-          "kills_today": 0,
-          "kills_week": 11
         },
         {
           "name": "Yagoodz Hahaha",
@@ -5902,16 +5902,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 23:20 (Brasília)",
-    "kills_total": 1092,
+    "updated_at": "05/07/2026 às 23:21 (Brasília)",
+    "kills_total": 1093,
     "deaths_total": 1194,
-    "kills_today": 0,
+    "kills_today": 1,
     "deaths_today": 0,
-    "kills_week": 136,
+    "kills_week": 137,
     "deaths_week": 178,
-    "kd_total": 0.91,
+    "kd_total": 0.92,
     "kd_today": null,
-    "kd_week": 0.76,
+    "kd_week": 0.77,
     "streak_days": 0,
     "top_my_killers": [
       {
@@ -5957,16 +5957,16 @@
         "kills_week": 11
       },
       {
+        "name": "Gizao",
+        "kills": 35,
+        "kills_today": 1,
+        "kills_week": 12
+      },
+      {
         "name": "Maguinn Returns",
         "kills": 35,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Gizao",
-        "kills": 34,
-        "kills_today": 0,
-        "kills_week": 11
       },
       {
         "name": "Yagoodz Hahaha",
@@ -6632,7 +6632,7 @@
       ],
       [
         "Calveludo",
-        39
+        40
       ],
       [
         "Cetoprofeno Intramuscular",
@@ -16599,6 +16599,15 @@
         "player": "Kawik",
         "level": 1102,
         "killedBy": "Parkert",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 05, 2026 23:20",
+        "player": "Calveludo",
+        "level": 1203,
+        "killedBy": "Gizao",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -28681,15 +28690,6 @@
       "time": "Jul 04, 2026 01:14",
       "player": "Red Hahaha",
       "level": 1385,
-      "killedBy": "Nao Eh Poring",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 04, 2026 01:12",
-      "player": "Diegao Barba",
-      "level": 965,
       "killedBy": "Nao Eh Poring",
       "maiorDano": "",
       "world": "Baiak",
@@ -59906,54 +59906,54 @@
     },
     "members": {
       "last_member_list": [
-        "Lula",
-        "We Edz",
+        "Lee Br",
         "Ehotk",
         "Total Security",
-        "Nao Eh Poring",
-        "Papumzada",
-        "Boltadao",
-        "Donte",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Calveludo",
-        "Lee Br",
-        "Ragekemi",
-        "Giga",
-        "Cuffy Dido",
-        "Deruz",
-        "Pittao teensina",
-        "Cetoprofeno Intramuscular",
+        "We Edz",
         "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Giga",
+        "Papumzada",
+        "Calveludo",
+        "Dont Bica",
         "Old Jovizera",
-        "Dont Bica"
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Ragekemi",
+        "Lula",
+        "Donte",
+        "Boltadao"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Lula",
-        "We Edz",
+        "Lee Br",
         "Ehotk",
         "Total Security",
-        "Nao Eh Poring",
-        "Papumzada",
-        "Boltadao",
-        "Donte",
-        "JhonzinMilgrau",
-        "Arroz Cadela",
-        "Calveludo",
-        "Lee Br",
-        "Ragekemi",
-        "Giga",
-        "Cuffy Dido",
-        "Deruz",
-        "Pittao teensina",
-        "Cetoprofeno Intramuscular",
+        "We Edz",
         "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Arroz Cadela",
+        "Giga",
+        "Papumzada",
+        "Calveludo",
+        "Dont Bica",
         "Old Jovizera",
-        "Dont Bica"
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Nao Eh Poring",
+        "JhonzinMilgrau",
+        "Deruz",
+        "Ragekemi",
+        "Lula",
+        "Donte",
+        "Boltadao"
       ],
       "hunted": {
         "Leogolas": {
