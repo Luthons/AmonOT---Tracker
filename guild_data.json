@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 21:25 (Brasília)",
+  "updated_at": "05/07/2026 às 21:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1232,8 +1232,8 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 953,
-      "resets": 17,
+      "level": 8,
+      "resets": 18,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1263,6 +1263,11 @@
           "resets": 17,
           "gained": 1,
           "timestamp": "04/07/2026 às 10:37 (Brasília)"
+        },
+        {
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 21:26 (Brasília)"
         }
       ]
     },
@@ -4001,6 +4006,14 @@
       "online": true
     },
     {
+      "name": "Elder Lougon",
+      "resets_total": 18,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Its Gui",
       "resets_total": 38,
       "resets_today": 1,
@@ -4135,14 +4148,6 @@
       "resets_week": 1,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Elder Lougon",
-      "resets_total": 17,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Guidao Palao",
@@ -4806,7 +4811,7 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 17,
+          "value": 18,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5168,12 +5173,6 @@
           "name": "Kolwaski",
           "value": 966,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 953,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5928,7 +5927,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 21:25 (Brasília)",
+    "updated_at": "05/07/2026 às 21:26 (Brasília)",
     "kills_total": 1092,
     "deaths_total": 1194,
     "kills_today": 6,
@@ -28776,7 +28775,7 @@
         "Dreenho Baiakeiro": 40,
         "Dvn Luktzeraah": 45,
         "Ed farm": 47,
-        "Elder Lougon": 17,
+        "Elder Lougon": 18,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
         "End Zeus": 36,
@@ -45563,7 +45562,7 @@
           "Dreenho Baiakeiro": 40,
           "Dvn Luktzeraah": 45,
           "Ed farm": 47,
-          "Elder Lougon": 17,
+          "Elder Lougon": 18,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
           "End Zeus": 36,
@@ -51359,6 +51358,13 @@
           "gained": 1,
           "timestamp": "05/07/2026 às 20:34 (Brasília)",
           "hour_key": "2026-07-05-20"
+        },
+        {
+          "name": "Elder Lougon",
+          "resets": 18,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 21:26 (Brasília)",
+          "hour_key": "2026-07-05-21"
         }
       ]
     },
@@ -59995,54 +60001,54 @@
     },
     "members": {
       "last_member_list": [
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Donte",
-        "Papumzada",
-        "Boltadao",
         "Pittao teensina",
-        "We Edz",
-        "Total Security",
-        "JhonzinMilgrau",
         "Calveludo",
+        "We Edz",
+        "Donte",
+        "Boltadao",
+        "Papumzada",
         "Giga",
-        "Dont Bica",
-        "Ehotk",
-        "Wake Wake",
-        "Lula",
-        "Cetoprofeno Intramuscular",
-        "Lee Br",
         "Nao Eh Poring",
         "Deruz",
+        "Cuffy Dido",
+        "Ehotk",
         "Arroz Cadela",
-        "Ragekemi"
+        "Lula",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Dont Bica",
+        "Ragekemi",
+        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Old Jovizera"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Donte",
-        "Papumzada",
-        "Boltadao",
         "Pittao teensina",
-        "We Edz",
-        "Total Security",
-        "JhonzinMilgrau",
         "Calveludo",
+        "We Edz",
+        "Donte",
+        "Boltadao",
+        "Papumzada",
         "Giga",
-        "Dont Bica",
-        "Ehotk",
-        "Wake Wake",
-        "Lula",
-        "Cetoprofeno Intramuscular",
-        "Lee Br",
         "Nao Eh Poring",
         "Deruz",
+        "Cuffy Dido",
+        "Ehotk",
         "Arroz Cadela",
-        "Ragekemi"
+        "Lula",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Lee Br",
+        "Dont Bica",
+        "Ragekemi",
+        "Cetoprofeno Intramuscular",
+        "Wake Wake",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
@@ -60714,11 +60720,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 2692,
-      "resets_today": 15,
-      "resets_week": 149,
+      "total_current": 2693,
+      "resets_today": 16,
+      "resets_week": 150,
       "resets_month": 0,
-      "resets_lifetime": 149,
+      "resets_lifetime": 150,
       "avg_per_player": 37.9
     },
     "enemy_guild": {
