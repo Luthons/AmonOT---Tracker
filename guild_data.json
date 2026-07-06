@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/07/2026 às 23:26 (Brasília)",
+  "updated_at": "05/07/2026 às 23:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 71,
-  "online_count": 48,
+  "total_members": 72,
+  "online_count": 49,
   "offline_count": 23,
   "members": [
     {
@@ -2087,7 +2087,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1402,
+      "level": 1497,
       "resets": 46,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3124,6 +3124,16 @@
           "timestamp": "30/06/2026 às 10:01 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Perez",
+      "level": 874,
+      "resets": 32,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Pestinha",
@@ -4635,6 +4645,12 @@
           "online": false
         },
         {
+          "name": "Perez",
+          "value": 32,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 32,
           "vocation": "Master Sorcerer",
@@ -5031,6 +5047,12 @@
           "online": true
         },
         {
+          "name": "Lipe Knight",
+          "value": 1497,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dreenho Baiakeiro",
           "value": 1493,
           "vocation": "Elder Druid",
@@ -5071,12 +5093,6 @@
           "value": 1406,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 1402,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -5191,6 +5207,12 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Perez",
+          "value": 874,
+          "vocation": "Elite Knight",
+          "online": true
         },
         {
           "name": "Xeipe",
@@ -5902,7 +5924,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/07/2026 às 23:26 (Brasília)",
+    "updated_at": "05/07/2026 às 23:27 (Brasília)",
     "kills_total": 1093,
     "deaths_total": 1194,
     "kills_today": 1,
@@ -28291,6 +28313,24 @@
       "isPvp": true
     },
     {
+      "time": "Jul 04, 2026 23:50",
+      "player": "Perez",
+      "level": 699,
+      "killedBy": "Cerebro",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 04, 2026 16:52",
+      "player": "Perez",
+      "level": 818,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 04, 2026 03:30",
       "player": "Punish Claude",
       "level": 2000,
@@ -28754,6 +28794,7 @@
         "Nagato Sorcerer": 30,
         "Owsborn": 34,
         "Pally Tetss": 55,
+        "Perez": 32,
         "Pestinha": 30,
         "Red Hahaha": 25,
         "Ritoff Elite": 31,
@@ -45481,6 +45522,7 @@
           "Nagato Sorcerer": 30,
           "Owsborn": 34,
           "Pally Tetss": 55,
+          "Perez": 32,
           "Pestinha": 30,
           "Red Hahaha": 25,
           "Ritoff Elite": 31,
@@ -59906,54 +59948,54 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "Cuffy Dido",
-        "Ragekemi",
-        "We Edz",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Lula",
-        "Arroz Cadela",
-        "Giga",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Boltadao",
         "Old Jovizera",
         "Deruz",
-        "Donte",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Ragekemi",
+        "Ehotk",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Lee Br",
         "Dont Bica",
-        "Total Security"
+        "Calveludo",
+        "Lula",
+        "We Edz",
+        "Papumzada",
+        "Total Security",
+        "Pittao teensina",
+        "Donte",
+        "Boltadao",
+        "Giga"
       ],
       "changes_log": [],
       "recent_changes": []
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "Cuffy Dido",
-        "Ragekemi",
-        "We Edz",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Lula",
-        "Arroz Cadela",
-        "Giga",
-        "Calveludo",
-        "Cetoprofeno Intramuscular",
-        "Ehotk",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Papumzada",
-        "Boltadao",
         "Old Jovizera",
         "Deruz",
-        "Donte",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Cetoprofeno Intramuscular",
+        "Ragekemi",
+        "Ehotk",
+        "Cuffy Dido",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Lee Br",
         "Dont Bica",
-        "Total Security"
+        "Calveludo",
+        "Lula",
+        "We Edz",
+        "Papumzada",
+        "Total Security",
+        "Pittao teensina",
+        "Donte",
+        "Boltadao",
+        "Giga"
       ],
       "hunted": {
         "Leogolas": {
@@ -60624,13 +60666,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 71,
-      "total_current": 2696,
+      "num_members": 72,
+      "total_current": 2728,
       "resets_today": 1,
       "resets_week": 125,
       "resets_month": 0,
       "resets_lifetime": 151,
-      "avg_per_player": 38.0
+      "avg_per_player": 37.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
