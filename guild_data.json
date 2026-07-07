@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 21:07 (Brasília)",
+  "updated_at": "06/07/2026 às 21:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 50,
-  "offline_count": 22,
+  "online_count": 49,
+  "offline_count": 23,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1248,7 +1248,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 13,
@@ -3870,7 +3870,7 @@
         },
         {
           "name": "JhonzinMilgrau",
-          "level": 1700,
+          "level": 1701,
           "resets": 26,
           "vocation": "Elder Druid",
           "nick": "",
@@ -3956,7 +3956,7 @@
       "resets_today": 1,
       "resets_week": 8,
       "vocation": "Elder Druid",
-      "online": true
+      "online": false
     },
     {
       "name": "Jhonnys Trembolizado",
@@ -4736,7 +4736,7 @@
           "name": "Elder Lougon",
           "value": 20,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Vitao The Trader",
@@ -5126,7 +5126,7 @@
           "name": "Elder Lougon",
           "value": 981,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Sonzacrazy",
@@ -5246,9 +5246,9 @@
         },
         {
           "name": "Maguinn Hahaha",
-          "value": 53,
-          "kills_today": 0,
-          "kills_week": 28
+          "value": 54,
+          "kills_today": 1,
+          "kills_week": 29
         },
         {
           "name": "Teylera Rp",
@@ -5874,15 +5874,15 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 21:07 (Brasília)",
-    "kills_total": 1111,
+    "updated_at": "06/07/2026 às 21:08 (Brasília)",
+    "kills_total": 1112,
     "deaths_total": 1203,
-    "kills_today": 19,
+    "kills_today": 20,
     "deaths_today": 9,
-    "kills_week": 155,
+    "kills_week": 156,
     "deaths_week": 187,
     "kd_total": 0.92,
-    "kd_today": 2.11,
+    "kd_today": 2.22,
     "kd_week": 0.83,
     "streak_days": 1,
     "top_my_killers": [
@@ -5918,9 +5918,9 @@
       },
       {
         "name": "Maguinn Hahaha",
-        "kills": 53,
-        "kills_today": 0,
-        "kills_week": 28
+        "kills": 54,
+        "kills_today": 1,
+        "kills_week": 29
       },
       {
         "name": "Teylera Rp",
@@ -16578,6 +16578,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 21:07",
+        "player": "JhonzinMilgrau",
+        "level": 1702,
+        "killedBy": "Maguinn Hahaha",
+        "maiorDano": "Vinizerah On Amonot",
         "world": "Baiak",
         "isPvp": true
       },
@@ -58599,25 +58608,25 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "Donte",
-        "Arroz Cadela",
-        "Giga",
-        "Lula",
-        "Calveludo",
-        "Wake Wake",
-        "We Edz",
-        "Total Security",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Old Jovizera",
-        "Pittao teensina",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Deruz",
         "Ehotk",
+        "Nao Eh Poring",
+        "Cuffy Dido",
+        "Boltadao",
+        "Deruz",
+        "Donte",
+        "Lee Br",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "We Edz",
+        "Wake Wake",
+        "Giga",
         "Ragekemi",
-        "Cuffy Dido"
+        "Total Security",
+        "Lula",
+        "Dont Bica",
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -58635,25 +58644,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "Donte",
-        "Arroz Cadela",
-        "Giga",
-        "Lula",
-        "Calveludo",
-        "Wake Wake",
-        "We Edz",
-        "Total Security",
-        "Nao Eh Poring",
-        "Dont Bica",
-        "Old Jovizera",
-        "Pittao teensina",
-        "Boltadao",
-        "JhonzinMilgrau",
-        "Deruz",
         "Ehotk",
+        "Nao Eh Poring",
+        "Cuffy Dido",
+        "Boltadao",
+        "Deruz",
+        "Donte",
+        "Lee Br",
+        "Pittao teensina",
+        "Arroz Cadela",
+        "We Edz",
+        "Wake Wake",
+        "Giga",
         "Ragekemi",
-        "Cuffy Dido"
+        "Total Security",
+        "Lula",
+        "Dont Bica",
+        "Calveludo",
+        "JhonzinMilgrau",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
