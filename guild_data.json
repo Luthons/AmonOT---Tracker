@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 10:50 (Brasília)",
+  "updated_at": "07/07/2026 às 10:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -410,13 +410,19 @@
     },
     {
       "name": "Adjr",
-      "level": 1800,
-      "resets": 25,
+      "level": 8,
+      "resets": 26,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 10:51 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Adolph Healer",
@@ -3744,6 +3750,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Adjr",
+      "resets_total": 26,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Baiakudinho",
       "resets_total": 54,
       "resets_today": 1,
@@ -4371,6 +4385,12 @@
           "online": false
         },
         {
+          "name": "Adjr",
+          "value": 26,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Affey",
           "value": 26,
           "vocation": "Royal Paladin",
@@ -4404,12 +4424,6 @@
           "name": "Xeipe",
           "value": 26,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Adjr",
-          "value": 25,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4644,12 +4658,6 @@
           "name": "Achilles",
           "value": 1967,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Adjr",
-          "value": 1800,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5596,7 +5604,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 10:50 (Brasília)",
+    "updated_at": "07/07/2026 às 10:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28955,7 +28963,7 @@
         "Punish Claude": 50,
         "Teylera Rp": 58,
         "Achilles": 18,
-        "Adjr": 25,
+        "Adjr": 26,
         "Adolph Healer": 13,
         "Affey": 26,
         "Alba Baiakeiro": 50,
@@ -44683,7 +44691,7 @@
           "Punish Claude": 50,
           "Teylera Rp": 58,
           "Achilles": 18,
-          "Adjr": 25,
+          "Adjr": 26,
           "Adolph Healer": 13,
           "Affey": 26,
           "Alba Baiakeiro": 50,
@@ -50197,6 +50205,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 08:26 (Brasília)",
           "hour_key": "2026-07-07-08"
+        },
+        {
+          "name": "Adjr",
+          "resets": 26,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 10:51 (Brasília)",
+          "hour_key": "2026-07-07-10"
         }
       ]
     },
@@ -58476,8 +58491,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 2769,
-      "resets_today": 5,
+      "total_current": 2770,
+      "resets_today": 6,
       "resets_week": 111,
       "resets_month": 0,
       "resets_lifetime": 117,
