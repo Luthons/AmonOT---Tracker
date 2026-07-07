@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 06:53 (Brasília)",
+  "updated_at": "07/07/2026 às 06:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -649,13 +649,19 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 2000,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 06:54 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Boingbringer",
@@ -3723,6 +3729,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Baiakudinho",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Its Gui",
       "resets_total": 39,
       "resets_today": 1,
@@ -4066,15 +4080,15 @@
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
+          "name": "Baiakudinho",
           "value": 54,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 53,
-          "vocation": "Royal Paladin",
+          "name": "Ynhaca Purah",
+          "value": 54,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4495,12 +4509,6 @@
           "name": "Alba Baiakeiro",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5555,7 +5563,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 06:53 (Brasília)",
+    "updated_at": "07/07/2026 às 06:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28919,7 +28927,7 @@
         "Affey": 26,
         "Alba Baiakeiro": 50,
         "Apreciador De Casadas": 37,
-        "Baiakudinho": 53,
+        "Baiakudinho": 54,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
@@ -44756,7 +44764,7 @@
           "Affey": 26,
           "Alba Baiakeiro": 50,
           "Apreciador De Casadas": 37,
-          "Baiakudinho": 53,
+          "Baiakudinho": 54,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
@@ -50250,6 +50258,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 00:37 (Brasília)",
           "hour_key": "2026-07-07-00"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 06:54 (Brasília)",
+          "hour_key": "2026-07-07-06"
         }
       ]
     },
@@ -58625,8 +58640,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2741,
-      "resets_today": 3,
+      "total_current": 2742,
+      "resets_today": 4,
       "resets_week": 110,
       "resets_month": 0,
       "resets_lifetime": 126,
