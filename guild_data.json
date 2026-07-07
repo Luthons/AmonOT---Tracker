@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 21:16 (Brasília)",
+  "updated_at": "06/07/2026 às 21:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3123,13 +3123,19 @@
     },
     {
       "name": "Perez",
-      "level": 1102,
-      "resets": 32,
+      "level": 8,
+      "resets": 33,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 21:17 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Pestinha",
@@ -4571,6 +4577,12 @@
           "online": false
         },
         {
+          "name": "Perez",
+          "value": 33,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 33,
           "vocation": "Royal Paladin",
@@ -4593,12 +4605,6 @@
           "value": 32,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Perez",
-          "value": 32,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Tsuru",
@@ -5097,12 +5103,6 @@
           "value": 1179,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Perez",
-          "value": 1102,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Owsborn",
@@ -5880,7 +5880,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 21:16 (Brasília)",
+    "updated_at": "06/07/2026 às 21:17 (Brasília)",
     "kills_total": 1112,
     "deaths_total": 1203,
     "kills_today": 20,
@@ -28730,7 +28730,7 @@
         "Nagato Sorcerer": 30,
         "Owsborn": 34,
         "Pally Tetss": 55,
-        "Perez": 32,
+        "Perez": 33,
         "Pestinha": 30,
         "Red Hahaha": 26,
         "Ritoff Elite": 31,
@@ -44819,7 +44819,7 @@
           "Nagato Sorcerer": 30,
           "Owsborn": 34,
           "Pally Tetss": 55,
-          "Perez": 32,
+          "Perez": 33,
           "Pestinha": 30,
           "Red Hahaha": 26,
           "Ritoff Elite": 31,
@@ -50402,6 +50402,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 20:51 (Brasília)",
           "hour_key": "2026-07-06-20"
+        },
+        {
+          "name": "Perez",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 21:17 (Brasília)",
+          "hour_key": "2026-07-06-21"
         }
       ]
     },
@@ -58614,25 +58621,25 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "Deruz",
-        "Cuffy Dido",
-        "We Edz",
-        "Old Jovizera",
-        "Ehotk",
-        "Giga",
-        "Pittao teensina",
-        "Lee Br",
-        "Nao Eh Poring",
-        "Total Security",
-        "Wake Wake",
-        "Calveludo",
-        "JhonzinMilgrau",
         "Ragekemi",
-        "Dont Bica",
-        "Lula",
+        "Lee Br",
+        "Old Jovizera",
+        "Calveludo",
+        "Arroz Cadela",
+        "Cuffy Dido",
         "Boltadao",
-        "Arroz Cadela"
+        "Giga",
+        "Dont Bica",
+        "Deruz",
+        "Donte",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Lula",
+        "Wake Wake",
+        "We Edz",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Pittao teensina"
       ],
       "changes_log": [
         {
@@ -58650,25 +58657,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "Deruz",
-        "Cuffy Dido",
-        "We Edz",
-        "Old Jovizera",
-        "Ehotk",
-        "Giga",
-        "Pittao teensina",
-        "Lee Br",
-        "Nao Eh Poring",
-        "Total Security",
-        "Wake Wake",
-        "Calveludo",
-        "JhonzinMilgrau",
         "Ragekemi",
-        "Dont Bica",
-        "Lula",
+        "Lee Br",
+        "Old Jovizera",
+        "Calveludo",
+        "Arroz Cadela",
+        "Cuffy Dido",
         "Boltadao",
-        "Arroz Cadela"
+        "Giga",
+        "Dont Bica",
+        "Deruz",
+        "Donte",
+        "Total Security",
+        "JhonzinMilgrau",
+        "Lula",
+        "Wake Wake",
+        "We Edz",
+        "Ehotk",
+        "Nao Eh Poring",
+        "Pittao teensina"
       ],
       "hunted": {
         "Leogolas": {
@@ -59340,7 +59347,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2736,
+      "total_current": 2737,
       "resets_today": 10,
       "resets_week": 131,
       "resets_month": 0,
