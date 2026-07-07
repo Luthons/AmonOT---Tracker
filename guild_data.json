@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:30 (Brasília)",
+  "updated_at": "06/07/2026 às 23:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3769,7 +3769,7 @@
       "members": [
         {
           "name": "Ehotk",
-          "level": 2001,
+          "level": 1999,
           "resets": 77,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5230,9 +5230,9 @@
         },
         {
           "name": "Gizao",
-          "value": 36,
-          "kills_today": 0,
-          "kills_week": 8
+          "value": 37,
+          "kills_today": 1,
+          "kills_week": 9
         },
         {
           "name": "Maguinn Returns",
@@ -5840,16 +5840,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:30 (Brasília)",
-    "kills_total": 1120,
+    "updated_at": "06/07/2026 às 23:31 (Brasília)",
+    "kills_total": 1121,
     "deaths_total": 1220,
-    "kills_today": 1,
+    "kills_today": 2,
     "deaths_today": 8,
-    "kills_week": 127,
+    "kills_week": 128,
     "deaths_week": 189,
     "kd_total": 0.92,
-    "kd_today": 0.12,
-    "kd_week": 0.67,
+    "kd_today": 0.25,
+    "kd_week": 0.68,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -5902,9 +5902,9 @@
       },
       {
         "name": "Gizao",
-        "kills": 36,
-        "kills_today": 0,
-        "kills_week": 8
+        "kills": 37,
+        "kills_today": 1,
+        "kills_week": 9
       },
       {
         "name": "Maguinn Returns",
@@ -6584,7 +6584,7 @@
       ],
       [
         "Ehotk",
-        32
+        33
       ]
     ],
     "war_log": [
@@ -16544,6 +16544,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 23:30",
+        "player": "Ehotk",
+        "level": 2001,
+        "killedBy": "Gizao",
+        "maiorDano": "Yagoodz Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -58900,25 +58909,25 @@
     },
     "members": {
       "last_member_list": [
-        "Nao Eh Poring",
-        "Total Security",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Dont Bica",
-        "Giga",
         "Ehotk",
-        "Pittao teensina",
-        "Calveludo",
-        "Lula",
-        "Cuffy Dido",
-        "Deruz",
         "Donte",
-        "Wake Wake",
-        "Arroz Cadela",
+        "Cuffy Dido",
+        "We Edz",
+        "Pittao teensina",
         "Boltadao",
-        "Old Jovizera",
+        "Deruz",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Lee Br",
+        "Giga",
+        "Total Security",
         "Ragekemi",
-        "Lee Br"
+        "Old Jovizera",
+        "Lula",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Dont Bica",
+        "Arroz Cadela"
       ],
       "changes_log": [
         {
@@ -58936,25 +58945,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Nao Eh Poring",
-        "Total Security",
-        "JhonzinMilgrau",
-        "We Edz",
-        "Dont Bica",
-        "Giga",
         "Ehotk",
-        "Pittao teensina",
-        "Calveludo",
-        "Lula",
-        "Cuffy Dido",
-        "Deruz",
         "Donte",
-        "Wake Wake",
-        "Arroz Cadela",
+        "Cuffy Dido",
+        "We Edz",
+        "Pittao teensina",
         "Boltadao",
-        "Old Jovizera",
+        "Deruz",
+        "Nao Eh Poring",
+        "Calveludo",
+        "Lee Br",
+        "Giga",
+        "Total Security",
         "Ragekemi",
-        "Lee Br"
+        "Old Jovizera",
+        "Lula",
+        "JhonzinMilgrau",
+        "Wake Wake",
+        "Dont Bica",
+        "Arroz Cadela"
       ],
       "hunted": {
         "Leogolas": {
