@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:15 (Brasília)",
+  "updated_at": "06/07/2026 às 23:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -792,7 +792,7 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 793,
+      "level": 1172,
       "resets": 37,
       "vocation": "Elder Druid",
       "nick": "",
@@ -5053,6 +5053,12 @@
           "online": false
         },
         {
+          "name": "Cheiro Dpneu",
+          "value": 1172,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Owsborn",
           "value": 1055,
           "vocation": "Royal Paladin",
@@ -5128,12 +5134,6 @@
           "name": "Kev",
           "value": 811,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 793,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5834,7 +5834,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:15 (Brasília)",
+    "updated_at": "06/07/2026 às 23:16 (Brasília)",
     "kills_total": 1119,
     "deaths_total": 1212,
     "kills_today": 0,
@@ -58741,25 +58741,25 @@
     },
     "members": {
       "last_member_list": [
-        "Donte",
-        "JhonzinMilgrau",
-        "Boltadao",
         "Lee Br",
-        "Cuffy Dido",
-        "Giga",
-        "Dont Bica",
-        "We Edz",
-        "Deruz",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Pittao teensina",
-        "Old Jovizera",
-        "Ragekemi",
-        "Total Security",
         "Lula",
         "Ehotk",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Ragekemi",
+        "Deruz",
+        "Cuffy Dido",
+        "Total Security",
+        "Boltadao",
+        "Wake Wake",
         "Calveludo",
-        "Arroz Cadela"
+        "We Edz",
+        "JhonzinMilgrau",
+        "Giga",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Pittao teensina",
+        "Donte"
       ],
       "changes_log": [
         {
@@ -58777,25 +58777,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Donte",
-        "JhonzinMilgrau",
-        "Boltadao",
         "Lee Br",
-        "Cuffy Dido",
-        "Giga",
-        "Dont Bica",
-        "We Edz",
-        "Deruz",
-        "Wake Wake",
-        "Nao Eh Poring",
-        "Pittao teensina",
-        "Old Jovizera",
-        "Ragekemi",
-        "Total Security",
         "Lula",
         "Ehotk",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Ragekemi",
+        "Deruz",
+        "Cuffy Dido",
+        "Total Security",
+        "Boltadao",
+        "Wake Wake",
         "Calveludo",
-        "Arroz Cadela"
+        "We Edz",
+        "JhonzinMilgrau",
+        "Giga",
+        "Nao Eh Poring",
+        "Dont Bica",
+        "Pittao teensina",
+        "Donte"
       ],
       "hunted": {
         "Leogolas": {
