@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 14:24 (Brasília)",
+  "updated_at": "07/07/2026 às 14:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -1265,8 +1265,8 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1015,
-      "resets": 21,
+      "level": 8,
+      "resets": 22,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1316,6 +1316,11 @@
           "resets": 21,
           "gained": 1,
           "timestamp": "06/07/2026 às 22:31 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 14:25 (Brasília)"
         }
       ]
     },
@@ -3815,6 +3820,14 @@
       "online": true
     },
     {
+      "name": "Elder Lougon",
+      "resets_total": 22,
+      "resets_today": 1,
+      "resets_week": 10,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Guidao Palao",
       "resets_total": 45,
       "resets_today": 1,
@@ -3933,14 +3946,6 @@
       "resets_week": 1,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Elder Lougon",
-      "resets_total": 21,
-      "resets_today": 0,
-      "resets_week": 9,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Hao Asakura",
@@ -4485,7 +4490,7 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 21,
+          "value": 22,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4896,12 +4901,6 @@
           "value": 1027,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 1015,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Zap Seco",
@@ -5643,7 +5642,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 14:24 (Brasília)",
+    "updated_at": "07/07/2026 às 14:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -29021,7 +29020,7 @@
         "Dreenho Baiakeiro": 40,
         "Dvn Luktzeraah": 46,
         "Ed farm": 47,
-        "Elder Lougon": 21,
+        "Elder Lougon": 22,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
         "End Zeus": 36,
@@ -44645,7 +44644,7 @@
           "Dreenho Baiakeiro": 40,
           "Dvn Luktzeraah": 46,
           "Ed farm": 47,
-          "Elder Lougon": 21,
+          "Elder Lougon": 22,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
           "End Zeus": 36,
@@ -50182,6 +50181,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 13:52 (Brasília)",
           "hour_key": "2026-07-07-13"
+        },
+        {
+          "name": "Elder Lougon",
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 14:25 (Brasília)",
+          "hour_key": "2026-07-07-14"
         }
       ]
     },
@@ -58365,11 +58371,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 2775,
-      "resets_today": 11,
-      "resets_week": 116,
+      "total_current": 2776,
+      "resets_today": 12,
+      "resets_week": 117,
       "resets_month": 0,
-      "resets_lifetime": 120,
+      "resets_lifetime": 121,
       "avg_per_player": 38.0
     },
     "enemy_guild": {
