@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 02:13 (Brasília)",
+  "updated_at": "07/07/2026 às 02:14 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3007,7 +3007,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 2000,
+      "level": 1997,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4552,12 +4552,6 @@
           "online": false
         },
         {
-          "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -4589,6 +4583,12 @@
         },
         {
           "name": "Gokuu",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
           "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
@@ -5555,7 +5555,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 02:13 (Brasília)",
+    "updated_at": "07/07/2026 às 02:14 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28489,6 +28489,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 07, 2026 02:13",
+      "player": "Pally Tetss",
+      "level": 2000,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 07, 2026 02:11",
       "player": "Gizao",
