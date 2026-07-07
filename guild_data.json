@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:28 (Brasília)",
+  "updated_at": "06/07/2026 às 23:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 46,
-  "offline_count": 26,
+  "online_count": 47,
+  "offline_count": 25,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1518,7 +1518,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 22,
@@ -3491,7 +3491,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 861,
+      "level": 869,
       "resets": 33,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4052,7 +4052,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Hao Asakura",
@@ -4474,7 +4474,7 @@
           "name": "Guidao Palao",
           "value": 44,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Melbiss",
@@ -4900,7 +4900,7 @@
           "name": "Guidao Palao",
           "value": 1897,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Teylera Rp",
@@ -5132,7 +5132,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 861,
+          "value": 869,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5524,9 +5524,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 102,
-          "kills_today": 3,
-          "kills_week": 93
+          "value": 103,
+          "kills_today": 4,
+          "kills_week": 94
         },
         {
           "name": "Maguinn Returns",
@@ -5840,13 +5840,13 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:28 (Brasília)",
+    "updated_at": "06/07/2026 às 23:29 (Brasília)",
     "kills_total": 1119,
-    "deaths_total": 1215,
+    "deaths_total": 1216,
     "kills_today": 0,
-    "deaths_today": 3,
+    "deaths_today": 4,
     "kills_week": 126,
-    "deaths_week": 184,
+    "deaths_week": 185,
     "kd_total": 0.92,
     "kd_today": 0.0,
     "kd_week": 0.68,
@@ -6192,9 +6192,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 102,
-        "kills_today": 3,
-        "kills_week": 93
+        "kills": 103,
+        "kills_today": 4,
+        "kills_week": 94
       },
       {
         "name": "Maguinn Returns",
@@ -26945,6 +26945,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 06, 2026 23:28",
+        "player": "Vinizerah On Amonot",
+        "level": 870,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 06, 2026 23:27",
         "player": "Esfi Hahaha",
         "level": 2000,
@@ -28603,6 +28612,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 06, 2026 23:28",
+      "player": "Vinizerah On Amonot",
+      "level": 870,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 06, 2026 23:27",
       "player": "Esfi Hahaha",
@@ -58810,25 +58828,25 @@
     },
     "members": {
       "last_member_list": [
-        "Deruz",
+        "Total Security",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Lee Br",
         "Boltadao",
-        "Donte",
-        "JhonzinMilgrau",
-        "Wake Wake",
+        "We Edz",
         "Lula",
         "Dont Bica",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Total Security",
-        "Lee Br",
-        "Old Jovizera",
         "Ehotk",
+        "Old Jovizera",
         "Arroz Cadela",
         "Nao Eh Poring",
+        "Ragekemi",
+        "Wake Wake",
+        "Donte",
+        "JhonzinMilgrau",
+        "Deruz",
         "Giga",
-        "Calveludo",
-        "We Edz"
+        "Calveludo"
       ],
       "changes_log": [
         {
@@ -58846,25 +58864,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Deruz",
+        "Total Security",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Lee Br",
         "Boltadao",
-        "Donte",
-        "JhonzinMilgrau",
-        "Wake Wake",
+        "We Edz",
         "Lula",
         "Dont Bica",
-        "Pittao teensina",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Total Security",
-        "Lee Br",
-        "Old Jovizera",
         "Ehotk",
+        "Old Jovizera",
         "Arroz Cadela",
         "Nao Eh Poring",
+        "Ragekemi",
+        "Wake Wake",
+        "Donte",
+        "JhonzinMilgrau",
+        "Deruz",
         "Giga",
-        "Calveludo",
-        "We Edz"
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
