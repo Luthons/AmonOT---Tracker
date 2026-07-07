@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 21:55 (Brasília)",
+  "updated_at": "06/07/2026 às 21:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3813,7 +3813,7 @@
         },
         {
           "name": "Nao Eh Poring",
-          "level": 1992,
+          "level": 1991,
           "resets": 81,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5383,6 +5383,12 @@
           "kills_week": 0
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 5,
+          "kills_today": 2,
+          "kills_week": 5
+        },
+        {
           "name": "Magabela",
           "value": 4,
           "kills_today": 0,
@@ -5405,12 +5411,6 @@
           "value": 4,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 4,
-          "kills_today": 1,
-          "kills_week": 4
         },
         {
           "name": "Loks",
@@ -5880,16 +5880,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 21:55 (Brasília)",
-    "kills_total": 1117,
+    "updated_at": "06/07/2026 às 21:56 (Brasília)",
+    "kills_total": 1118,
     "deaths_total": 1212,
-    "kills_today": 25,
+    "kills_today": 26,
     "deaths_today": 18,
-    "kills_week": 161,
+    "kills_week": 162,
     "deaths_week": 196,
     "kd_total": 0.92,
-    "kd_today": 1.39,
-    "kd_week": 0.82,
+    "kd_today": 1.44,
+    "kd_week": 0.83,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6055,6 +6055,12 @@
         "kills_week": 0
       },
       {
+        "name": "Jhonnys Trembolizado",
+        "kills": 5,
+        "kills_today": 2,
+        "kills_week": 5
+      },
+      {
         "name": "Magabela",
         "kills": 4,
         "kills_today": 0,
@@ -6077,12 +6083,6 @@
         "kills": 4,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Jhonnys Trembolizado",
-        "kills": 4,
-        "kills_today": 1,
-        "kills_week": 4
       },
       {
         "name": "Loks",
@@ -16583,6 +16583,15 @@
         "player": "Kawik",
         "level": 1102,
         "killedBy": "Parkert",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 21:56",
+        "player": "Nao Eh Poring",
+        "level": 1992,
+        "killedBy": "Jhonnys Trembolizado",
         "maiorDano": "",
         "world": "Baiak",
         "isPvp": true
@@ -58819,24 +58828,24 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "Arroz Cadela",
-        "Nao Eh Poring",
+        "We Edz",
+        "Deruz",
         "Cuffy Dido",
+        "Wake Wake",
         "JhonzinMilgrau",
         "Lula",
-        "Boltadao",
-        "Giga",
-        "We Edz",
-        "Total Security",
-        "Lee Br",
-        "Old Jovizera",
-        "Ragekemi",
-        "Deruz",
-        "Ehotk",
-        "Donte",
-        "Wake Wake",
         "Dont Bica",
+        "Ragekemi",
+        "Giga",
+        "Nao Eh Poring",
+        "Donte",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Total Security",
+        "Ehotk",
+        "Boltadao",
+        "Lee Br",
+        "Calveludo",
         "Pittao teensina"
       ],
       "changes_log": [
@@ -58855,24 +58864,24 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "Arroz Cadela",
-        "Nao Eh Poring",
+        "We Edz",
+        "Deruz",
         "Cuffy Dido",
+        "Wake Wake",
         "JhonzinMilgrau",
         "Lula",
-        "Boltadao",
-        "Giga",
-        "We Edz",
-        "Total Security",
-        "Lee Br",
-        "Old Jovizera",
-        "Ragekemi",
-        "Deruz",
-        "Ehotk",
-        "Donte",
-        "Wake Wake",
         "Dont Bica",
+        "Ragekemi",
+        "Giga",
+        "Nao Eh Poring",
+        "Donte",
+        "Arroz Cadela",
+        "Old Jovizera",
+        "Total Security",
+        "Ehotk",
+        "Boltadao",
+        "Lee Br",
+        "Calveludo",
         "Pittao teensina"
       ],
       "hunted": {
