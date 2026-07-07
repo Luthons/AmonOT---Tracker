@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:37 (Brasília)",
+  "updated_at": "06/07/2026 às 23:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1243,7 +1243,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 718,
+      "level": 720,
       "resets": 21,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1828,7 +1828,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1108,
+      "level": 1170,
       "resets": 79,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1920,8 +1920,8 @@
     },
     {
       "name": "Kiel",
-      "level": 2053,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1971,6 +1971,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "02/07/2026 às 23:42 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 23:38 (Brasília)"
         }
       ]
     },
@@ -3942,6 +3947,14 @@
       "online": true
     },
     {
+      "name": "Kiel",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 0,
@@ -4066,14 +4079,6 @@
       "resets_total": 25,
       "resets_today": 0,
       "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kiel",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4304,13 +4309,13 @@
           "online": true
         },
         {
-          "name": "Esfi Hahaha",
-          "value": 59,
+          "name": "Kiel",
+          "value": 60,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Kiel",
+          "name": "Esfi Hahaha",
           "value": 59,
           "vocation": "Royal Paladin",
           "online": true
@@ -4724,12 +4729,6 @@
       "val_label": "Level",
       "entries": [
         {
-          "name": "Kiel",
-          "value": 2053,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -5042,15 +5041,15 @@
           "online": true
         },
         {
-          "name": "Nagato Sorcerer",
-          "value": 1143,
-          "vocation": "Master Sorcerer",
+          "name": "Jhonnys Trembolizado",
+          "value": 1170,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1108,
-          "vocation": "Royal Paladin",
+          "name": "Nagato Sorcerer",
+          "value": 1143,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5145,7 +5144,7 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 718,
+          "value": 720,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5823,7 +5822,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:37 (Brasília)",
+    "updated_at": "06/07/2026 às 23:38 (Brasília)",
     "kills_total": 1123,
     "deaths_total": 1220,
     "kills_today": 4,
@@ -29051,7 +29050,7 @@
         "Its Gui": 39,
         "Jhonnys Trembolizado": 79,
         "Kev": 25,
-        "Kiel": 59,
+        "Kiel": 60,
         "Kolwaski": 45,
         "Lilian Faithkeeper": 30,
         "Lipe Knight": 46,
@@ -45084,7 +45083,7 @@
           "Its Gui": 39,
           "Jhonnys Trembolizado": 79,
           "Kev": 25,
-          "Kiel": 59,
+          "Kiel": 60,
           "Kolwaski": 45,
           "Lilian Faithkeeper": 30,
           "Lipe Knight": 46,
@@ -50705,6 +50704,13 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "06/07/2026 às 23:08 (Brasília)",
+          "hour_key": "2026-07-06-23"
+        },
+        {
+          "name": "Kiel",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "06/07/2026 às 23:38 (Brasília)",
           "hour_key": "2026-07-06-23"
         }
       ]
@@ -58908,24 +58914,24 @@
     },
     "members": {
       "last_member_list": [
-        "Lee Br",
-        "Deruz",
+        "Giga",
         "Boltadao",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Donte",
+        "JhonzinMilgrau",
         "We Edz",
-        "Lula",
+        "Calveludo",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Total Security",
+        "Nao Eh Poring",
+        "Donte",
+        "Old Jovizera",
         "Ragekemi",
         "Ehotk",
-        "Calveludo",
-        "Giga",
-        "Total Security",
-        "Wake Wake",
-        "Cuffy Dido",
         "Dont Bica",
-        "JhonzinMilgrau",
-        "Pittao teensina"
+        "Lee Br",
+        "Lula",
+        "Deruz",
+        "Wake Wake"
       ],
       "changes_log": [
         {
@@ -58948,24 +58954,24 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Lee Br",
-        "Deruz",
+        "Giga",
         "Boltadao",
-        "Nao Eh Poring",
-        "Old Jovizera",
-        "Donte",
+        "JhonzinMilgrau",
         "We Edz",
-        "Lula",
+        "Calveludo",
+        "Cuffy Dido",
+        "Pittao teensina",
+        "Total Security",
+        "Nao Eh Poring",
+        "Donte",
+        "Old Jovizera",
         "Ragekemi",
         "Ehotk",
-        "Calveludo",
-        "Giga",
-        "Total Security",
-        "Wake Wake",
-        "Cuffy Dido",
         "Dont Bica",
-        "JhonzinMilgrau",
-        "Pittao teensina"
+        "Lee Br",
+        "Lula",
+        "Deruz",
+        "Wake Wake"
       ],
       "hunted": {
         "Leogolas": {
@@ -59637,12 +59643,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2739,
-      "resets_today": 1,
-      "resets_week": 108,
+      "total_current": 2740,
+      "resets_today": 2,
+      "resets_week": 109,
       "resets_month": 0,
-      "resets_lifetime": 129,
-      "avg_per_player": 38.0
+      "resets_lifetime": 130,
+      "avg_per_player": 38.1
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
