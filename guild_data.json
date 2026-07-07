@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 00:36 (Brasília)",
+  "updated_at": "07/07/2026 às 00:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -2093,8 +2093,8 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1947,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2164,6 +2164,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "05/07/2026 às 02:58 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 00:37 (Brasília)"
         }
       ]
     },
@@ -3734,6 +3739,14 @@
       "online": true
     },
     {
+      "name": "Lipe Knight",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 0,
@@ -3875,14 +3888,6 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 46,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -4157,15 +4162,15 @@
           "online": false
         },
         {
-          "name": "Dvn Luktzeraah",
-          "value": 46,
-          "vocation": "Royal Paladin",
+          "name": "Lipe Knight",
+          "value": 47,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Lipe Knight",
+          "name": "Dvn Luktzeraah",
           "value": 46,
-          "vocation": "Elite Knight",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4598,12 +4603,6 @@
           "name": "Achilles",
           "value": 1957,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 1947,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5550,7 +5549,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 00:36 (Brasília)",
+    "updated_at": "07/07/2026 às 00:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28907,7 +28906,7 @@
         "Kiel": 60,
         "Kolwaski": 45,
         "Lilian Faithkeeper": 30,
-        "Lipe Knight": 46,
+        "Lipe Knight": 47,
         "Ljxiv": 27,
         "Loke": 53,
         "Lotus Lothbrook": 29,
@@ -44912,7 +44911,7 @@
           "Kiel": 60,
           "Kolwaski": 45,
           "Lilian Faithkeeper": 30,
-          "Lipe Knight": 46,
+          "Lipe Knight": 47,
           "Ljxiv": 27,
           "Loke": 53,
           "Lotus Lothbrook": 29,
@@ -50370,6 +50369,13 @@
           "gained": 1,
           "timestamp": "06/07/2026 às 23:38 (Brasília)",
           "hour_key": "2026-07-06-23"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 00:37 (Brasília)",
+          "hour_key": "2026-07-07-00"
         }
       ]
     },
@@ -58889,11 +58895,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 2740,
-      "resets_today": 2,
-      "resets_week": 109,
+      "total_current": 2741,
+      "resets_today": 3,
+      "resets_week": 110,
       "resets_month": 0,
-      "resets_lifetime": 128,
+      "resets_lifetime": 129,
       "avg_per_player": 38.1
     },
     "enemy_guild": {
