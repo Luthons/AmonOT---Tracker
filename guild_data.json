@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 21:01 (Brasília)",
+  "updated_at": "06/07/2026 às 21:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -4095,7 +4095,7 @@
         },
         {
           "name": "Nao Eh Poring",
-          "level": 2000,
+          "level": 1998,
           "resets": 81,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -5581,16 +5581,16 @@
           "kills_week": 0
         },
         {
+          "name": "Pally Tetss",
+          "value": 28,
+          "kills_today": 1,
+          "kills_week": 6
+        },
+        {
           "name": "Ynhaca Purah",
           "value": 28,
           "kills_today": 0,
           "kills_week": 4
-        },
-        {
-          "name": "Pally Tetss",
-          "value": 27,
-          "kills_today": 0,
-          "kills_week": 5
         },
         {
           "name": "Jotabringer",
@@ -6162,16 +6162,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 21:00 (Brasília)",
-    "kills_total": 1110,
+    "updated_at": "06/07/2026 às 21:04 (Brasília)",
+    "kills_total": 1111,
     "deaths_total": 1203,
-    "kills_today": 18,
+    "kills_today": 19,
     "deaths_today": 9,
-    "kills_week": 154,
+    "kills_week": 155,
     "deaths_week": 187,
     "kd_total": 0.92,
-    "kd_today": 2.0,
-    "kd_week": 0.82,
+    "kd_today": 2.11,
+    "kd_week": 0.83,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6253,16 +6253,16 @@
         "kills_week": 0
       },
       {
+        "name": "Pally Tetss",
+        "kills": 28,
+        "kills_today": 1,
+        "kills_week": 6
+      },
+      {
         "name": "Ynhaca Purah",
         "kills": 28,
         "kills_today": 0,
         "kills_week": 4
-      },
-      {
-        "name": "Pally Tetss",
-        "kills": 27,
-        "kills_today": 0,
-        "kills_week": 5
       },
       {
         "name": "Jotabringer",
@@ -16866,6 +16866,15 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 21:03",
+        "player": "Nao Eh Poring",
+        "level": 2000,
+        "killedBy": "Pally Tetss",
+        "maiorDano": "Esfi Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -58879,24 +58888,24 @@
     "members": {
       "last_member_list": [
         "Calveludo",
-        "We Edz",
         "JhonzinMilgrau",
-        "Lee Br",
-        "Ehotk",
         "Dont Bica",
-        "Lula",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Deruz",
-        "Boltadao",
         "Wake Wake",
-        "Giga",
+        "Ehotk",
+        "Deruz",
+        "Pittao teensina",
         "Donte",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Lula",
+        "Cuffy Dido",
+        "Lee Br",
+        "We Edz",
         "Arroz Cadela",
-        "Total Security",
         "Old Jovizera",
-        "Ragekemi"
+        "Boltadao",
+        "Giga",
+        "Total Security"
       ],
       "changes_log": [
         {
@@ -58915,24 +58924,24 @@
     "hunted": {
       "last_enemy_list": [
         "Calveludo",
-        "We Edz",
         "JhonzinMilgrau",
-        "Lee Br",
-        "Ehotk",
         "Dont Bica",
-        "Lula",
-        "Nao Eh Poring",
-        "Cuffy Dido",
-        "Pittao teensina",
-        "Deruz",
-        "Boltadao",
         "Wake Wake",
-        "Giga",
+        "Ehotk",
+        "Deruz",
+        "Pittao teensina",
         "Donte",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Lula",
+        "Cuffy Dido",
+        "Lee Br",
+        "We Edz",
         "Arroz Cadela",
-        "Total Security",
         "Old Jovizera",
-        "Ragekemi"
+        "Boltadao",
+        "Giga",
+        "Total Security"
       ],
       "hunted": {
         "Leogolas": {
