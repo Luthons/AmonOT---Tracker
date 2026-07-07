@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:26 (Brasília)",
+  "updated_at": "06/07/2026 às 23:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -5524,9 +5524,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 99,
-          "kills_today": 0,
-          "kills_week": 90
+          "value": 100,
+          "kills_today": 1,
+          "kills_week": 91
         },
         {
           "name": "Maguinn Returns",
@@ -5840,16 +5840,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:26 (Brasília)",
+    "updated_at": "06/07/2026 às 23:27 (Brasília)",
     "kills_total": 1119,
-    "deaths_total": 1212,
+    "deaths_total": 1213,
     "kills_today": 0,
-    "deaths_today": 0,
+    "deaths_today": 1,
     "kills_week": 126,
-    "deaths_week": 181,
+    "deaths_week": 182,
     "kd_total": 0.92,
-    "kd_today": null,
-    "kd_week": 0.7,
+    "kd_today": 0.0,
+    "kd_week": 0.69,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6192,9 +6192,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 99,
-        "kills_today": 0,
-        "kills_week": 90
+        "kills": 100,
+        "kills_today": 1,
+        "kills_week": 91
       },
       {
         "name": "Maguinn Returns",
@@ -6506,7 +6506,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        67
+        68
       ],
       [
         "Teylera Rp",
@@ -26945,6 +26945,15 @@
         "isPvp": true
       },
       {
+        "time": "Jul 06, 2026 23:27",
+        "player": "Esfi Hahaha",
+        "level": 2000,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 06, 2026 21:51",
         "player": "Cerebro",
         "level": 1405,
@@ -28576,6 +28585,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 06, 2026 23:27",
+      "player": "Esfi Hahaha",
+      "level": 2000,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 06, 2026 21:51",
       "player": "Cerebro",
@@ -58747,25 +58765,25 @@
     },
     "members": {
       "last_member_list": [
-        "Cuffy Dido",
-        "Donte",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Old Jovizera",
-        "Total Security",
-        "Deruz",
         "Boltadao",
-        "Nao Eh Poring",
         "Giga",
-        "Arroz Cadela",
-        "We Edz",
-        "Dont Bica",
+        "Deruz",
+        "Total Security",
+        "Ehotk",
         "Lula",
-        "Calveludo",
+        "Arroz Cadela",
+        "Dont Bica",
+        "Cuffy Dido",
         "Ragekemi",
+        "Lee Br",
+        "Pittao teensina",
+        "We Edz",
         "Wake Wake",
-        "Ehotk"
+        "Old Jovizera",
+        "Nao Eh Poring",
+        "Donte",
+        "JhonzinMilgrau",
+        "Calveludo"
       ],
       "changes_log": [
         {
@@ -58783,25 +58801,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Cuffy Dido",
-        "Donte",
-        "Pittao teensina",
-        "JhonzinMilgrau",
-        "Lee Br",
-        "Old Jovizera",
-        "Total Security",
-        "Deruz",
         "Boltadao",
-        "Nao Eh Poring",
         "Giga",
-        "Arroz Cadela",
-        "We Edz",
-        "Dont Bica",
+        "Deruz",
+        "Total Security",
+        "Ehotk",
         "Lula",
-        "Calveludo",
+        "Arroz Cadela",
+        "Dont Bica",
+        "Cuffy Dido",
         "Ragekemi",
+        "Lee Br",
+        "Pittao teensina",
+        "We Edz",
         "Wake Wake",
-        "Ehotk"
+        "Old Jovizera",
+        "Nao Eh Poring",
+        "Donte",
+        "JhonzinMilgrau",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
