@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 20:49 (Brasília)",
+  "updated_at": "07/07/2026 às 20:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -1865,8 +1865,8 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1990,
-      "resets": 79,
+      "level": 8,
+      "resets": 80,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1886,6 +1886,11 @@
           "resets": 79,
           "gained": 1,
           "timestamp": "06/07/2026 às 20:51 (Brasília)"
+        },
+        {
+          "resets": 80,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 20:50 (Brasília)"
         }
       ]
     },
@@ -3885,6 +3890,14 @@
       "online": true
     },
     {
+      "name": "Jhonnys Trembolizado",
+      "resets_total": 80,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kiel",
       "resets_total": 60,
       "resets_today": 1,
@@ -4133,7 +4146,7 @@
       "entries": [
         {
           "name": "Jhonnys Trembolizado",
-          "value": 79,
+          "value": 80,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4698,12 +4711,6 @@
         {
           "name": "Teylera Rp",
           "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 1990,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5681,7 +5688,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 20:49 (Brasília)",
+    "updated_at": "07/07/2026 às 20:50 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -29016,7 +29023,7 @@
         "Henrique": 52,
         "Heroes Baiak": 28,
         "Its Gui": 39,
-        "Jhonnys Trembolizado": 79,
+        "Jhonnys Trembolizado": 80,
         "Kev": 25,
         "Kiel": 60,
         "Kolwaski": 46,
@@ -44484,7 +44491,7 @@
           "Henrique": 52,
           "Heroes Baiak": 28,
           "Its Gui": 39,
-          "Jhonnys Trembolizado": 79,
+          "Jhonnys Trembolizado": 80,
           "Kev": 25,
           "Kiel": 60,
           "Kolwaski": 46,
@@ -50052,6 +50059,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 18:09 (Brasília)",
           "hour_key": "2026-07-07-18"
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "resets": 80,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 20:50 (Brasília)",
+          "hour_key": "2026-07-07-20"
         }
       ]
     },
@@ -58091,8 +58105,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 2781,
-      "resets_today": 17,
+      "total_current": 2782,
+      "resets_today": 18,
       "resets_week": 122,
       "resets_month": 0,
       "resets_lifetime": 119,
