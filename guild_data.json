@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:27 (Brasília)",
+  "updated_at": "06/07/2026 às 23:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 2000,
+      "level": 1997,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1958,
+      "level": 1977,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3548,7 +3548,7 @@
     },
     {
       "name": "Xeipe",
-      "level": 1401,
+      "level": 1441,
       "resets": 26,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4747,12 +4747,6 @@
           "online": true
         },
         {
-          "name": "Esfi Hahaha",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -4879,15 +4873,21 @@
           "online": true
         },
         {
-          "name": "Diegao Barba",
-          "value": 1968,
-          "vocation": "Elite Knight",
+          "name": "Esfi Hahaha",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Gizao",
-          "value": 1958,
+          "value": 1977,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Diegao Barba",
+          "value": 1968,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4981,6 +4981,12 @@
           "online": false
         },
         {
+          "name": "Xeipe",
+          "value": 1441,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ljxiv",
           "value": 1420,
           "vocation": "Elite Knight",
@@ -5003,12 +5009,6 @@
           "value": 1406,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Xeipe",
-          "value": 1401,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Kolwaski",
@@ -5524,9 +5524,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 100,
-          "kills_today": 1,
-          "kills_week": 91
+          "value": 102,
+          "kills_today": 3,
+          "kills_week": 93
         },
         {
           "name": "Maguinn Returns",
@@ -5840,16 +5840,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:27 (Brasília)",
+    "updated_at": "06/07/2026 às 23:28 (Brasília)",
     "kills_total": 1119,
-    "deaths_total": 1213,
+    "deaths_total": 1215,
     "kills_today": 0,
-    "deaths_today": 1,
+    "deaths_today": 3,
     "kills_week": 126,
-    "deaths_week": 182,
+    "deaths_week": 184,
     "kd_total": 0.92,
     "kd_today": 0.0,
-    "kd_week": 0.69,
+    "kd_week": 0.68,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6192,9 +6192,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 100,
-        "kills_today": 1,
-        "kills_week": 91
+        "kills": 102,
+        "kills_today": 3,
+        "kills_week": 93
       },
       {
         "name": "Maguinn Returns",
@@ -6526,7 +6526,7 @@
       ],
       [
         "Gizao",
-        35
+        36
       ],
       [
         "Maguinn Returns",
@@ -26954,6 +26954,24 @@
         "isPvp": true
       },
       {
+        "time": "Jul 06, 2026 23:27",
+        "player": "Xeipe",
+        "level": 1442,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 23:27",
+        "player": "Gizao",
+        "level": 1979,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 06, 2026 21:51",
         "player": "Cerebro",
         "level": 1405,
@@ -28585,6 +28603,33 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 06, 2026 23:27",
+      "player": "Esfi Hahaha",
+      "level": 1998,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 06, 2026 23:27",
+      "player": "Xeipe",
+      "level": 1442,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 06, 2026 23:27",
+      "player": "Gizao",
+      "level": 1979,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 06, 2026 23:27",
       "player": "Esfi Hahaha",
@@ -58765,25 +58810,25 @@
     },
     "members": {
       "last_member_list": [
-        "Boltadao",
-        "Giga",
         "Deruz",
-        "Total Security",
-        "Ehotk",
-        "Lula",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Lee Br",
-        "Pittao teensina",
-        "We Edz",
-        "Wake Wake",
-        "Old Jovizera",
-        "Nao Eh Poring",
+        "Boltadao",
         "Donte",
         "JhonzinMilgrau",
-        "Calveludo"
+        "Wake Wake",
+        "Lula",
+        "Dont Bica",
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Total Security",
+        "Lee Br",
+        "Old Jovizera",
+        "Ehotk",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Giga",
+        "Calveludo",
+        "We Edz"
       ],
       "changes_log": [
         {
@@ -58801,25 +58846,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Boltadao",
-        "Giga",
         "Deruz",
-        "Total Security",
-        "Ehotk",
-        "Lula",
-        "Arroz Cadela",
-        "Dont Bica",
-        "Cuffy Dido",
-        "Ragekemi",
-        "Lee Br",
-        "Pittao teensina",
-        "We Edz",
-        "Wake Wake",
-        "Old Jovizera",
-        "Nao Eh Poring",
+        "Boltadao",
         "Donte",
         "JhonzinMilgrau",
-        "Calveludo"
+        "Wake Wake",
+        "Lula",
+        "Dont Bica",
+        "Pittao teensina",
+        "Cuffy Dido",
+        "Ragekemi",
+        "Total Security",
+        "Lee Br",
+        "Old Jovizera",
+        "Ehotk",
+        "Arroz Cadela",
+        "Nao Eh Poring",
+        "Giga",
+        "Calveludo",
+        "We Edz"
       ],
       "hunted": {
         "Leogolas": {
