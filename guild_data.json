@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 21:31 (Brasília)",
+  "updated_at": "06/07/2026 às 21:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -3813,7 +3813,7 @@
         },
         {
           "name": "Nao Eh Poring",
-          "level": 1995,
+          "level": 1994,
           "resets": 81,
           "vocation": "Exalted Monk",
           "nick": "",
@@ -3903,7 +3903,7 @@
         },
         {
           "name": "Pittao teensina",
-          "level": 1829,
+          "level": 1828,
           "resets": 46,
           "vocation": "Master Sorcerer",
           "nick": "",
@@ -5222,9 +5222,9 @@
       "entries": [
         {
           "name": "Esfi Hahaha",
-          "value": 164,
-          "kills_today": 1,
-          "kills_week": 25
+          "value": 165,
+          "kills_today": 2,
+          "kills_week": 26
         },
         {
           "name": "Salles On Amonot",
@@ -5407,6 +5407,12 @@
           "kills_week": 0
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 4,
+          "kills_today": 1,
+          "kills_week": 4
+        },
+        {
           "name": "Loks",
           "value": 3,
           "kills_today": 0,
@@ -5423,12 +5429,6 @@
           "value": 3,
           "kills_today": 0,
           "kills_week": 0
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 3,
-          "kills_today": 0,
-          "kills_week": 3
         },
         {
           "name": "Deus",
@@ -5880,23 +5880,23 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 21:31 (Brasília)",
-    "kills_total": 1114,
+    "updated_at": "06/07/2026 às 21:32 (Brasília)",
+    "kills_total": 1116,
     "deaths_total": 1206,
-    "kills_today": 22,
+    "kills_today": 24,
     "deaths_today": 12,
-    "kills_week": 158,
+    "kills_week": 160,
     "deaths_week": 190,
-    "kd_total": 0.92,
-    "kd_today": 1.83,
-    "kd_week": 0.83,
+    "kd_total": 0.93,
+    "kd_today": 2.0,
+    "kd_week": 0.84,
     "streak_days": 1,
     "top_my_killers": [
       {
         "name": "Esfi Hahaha",
-        "kills": 164,
-        "kills_today": 1,
-        "kills_week": 25
+        "kills": 165,
+        "kills_today": 2,
+        "kills_week": 26
       },
       {
         "name": "Salles On Amonot",
@@ -6079,6 +6079,12 @@
         "kills_week": 0
       },
       {
+        "name": "Jhonnys Trembolizado",
+        "kills": 4,
+        "kills_today": 1,
+        "kills_week": 4
+      },
+      {
         "name": "Loks",
         "kills": 3,
         "kills_today": 0,
@@ -6095,12 +6101,6 @@
         "kills": 3,
         "kills_today": 0,
         "kills_week": 0
-      },
-      {
-        "name": "Jhonnys Trembolizado",
-        "kills": 3,
-        "kills_today": 0,
-        "kills_week": 3
       },
       {
         "name": "Deus",
@@ -6607,12 +6607,12 @@
         49
       ],
       [
-        "Lula",
+        "Pittao teensina",
         48
       ],
       [
-        "Pittao teensina",
-        47
+        "Lula",
+        48
       ],
       [
         "Punish Claude",
@@ -16584,6 +16584,24 @@
         "level": 1102,
         "killedBy": "Parkert",
         "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 21:32",
+        "player": "Pittao teensina",
+        "level": 1829,
+        "killedBy": "Esfi Hahaha",
+        "maiorDano": "Pally Tetss",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 21:32",
+        "player": "Nao Eh Poring",
+        "level": 1995,
+        "killedBy": "Jhonnys Trembolizado",
+        "maiorDano": "Esfi Hahaha",
         "world": "Baiak",
         "isPvp": true
       },
@@ -58693,25 +58711,25 @@
     },
     "members": {
       "last_member_list": [
-        "Arroz Cadela",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Giga",
-        "Lee Br",
-        "We Edz",
-        "Boltadao",
         "JhonzinMilgrau",
-        "Donte",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Calveludo",
-        "Deruz",
         "Lula",
-        "Total Security",
-        "Pittao teensina",
-        "Dont Bica",
+        "Giga",
+        "Deruz",
+        "Cuffy Dido",
         "Wake Wake",
-        "Ragekemi"
+        "Boltadao",
+        "Total Security",
+        "Lee Br",
+        "Donte",
+        "Dont Bica",
+        "We Edz",
+        "Arroz Cadela",
+        "Ehotk",
+        "Pittao teensina",
+        "Calveludo",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Old Jovizera"
       ],
       "changes_log": [
         {
@@ -58729,25 +58747,25 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Arroz Cadela",
-        "Old Jovizera",
-        "Cuffy Dido",
-        "Giga",
-        "Lee Br",
-        "We Edz",
-        "Boltadao",
         "JhonzinMilgrau",
-        "Donte",
-        "Nao Eh Poring",
-        "Ehotk",
-        "Calveludo",
-        "Deruz",
         "Lula",
-        "Total Security",
-        "Pittao teensina",
-        "Dont Bica",
+        "Giga",
+        "Deruz",
+        "Cuffy Dido",
         "Wake Wake",
-        "Ragekemi"
+        "Boltadao",
+        "Total Security",
+        "Lee Br",
+        "Donte",
+        "Dont Bica",
+        "We Edz",
+        "Arroz Cadela",
+        "Ehotk",
+        "Pittao teensina",
+        "Calveludo",
+        "Ragekemi",
+        "Nao Eh Poring",
+        "Old Jovizera"
       ],
       "hunted": {
         "Leogolas": {
