@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/07/2026 às 23:39 (Brasília)",
+  "updated_at": "06/07/2026 às 23:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Esfi Hahaha",
-      "level": 1995,
+      "level": 1991,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1975,
+      "level": 1972,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4856,13 +4856,13 @@
         },
         {
           "name": "Esfi Hahaha",
-          "value": 1995,
+          "value": 1991,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Gizao",
-          "value": 1975,
+          "value": 1972,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5488,9 +5488,9 @@
       "entries": [
         {
           "name": "Ehotk",
-          "value": 278,
-          "kills_today": 1,
-          "kills_week": 34
+          "value": 279,
+          "kills_today": 2,
+          "kills_week": 35
         },
         {
           "name": "Poring",
@@ -5506,9 +5506,9 @@
         },
         {
           "name": "Nao Eh Poring",
-          "value": 106,
-          "kills_today": 7,
-          "kills_week": 97
+          "value": 108,
+          "kills_today": 9,
+          "kills_week": 99
         },
         {
           "name": "Maguinn Returns",
@@ -5822,16 +5822,16 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/07/2026 às 23:39 (Brasília)",
+    "updated_at": "06/07/2026 às 23:40 (Brasília)",
     "kills_total": 1123,
-    "deaths_total": 1220,
+    "deaths_total": 1223,
     "kills_today": 4,
-    "deaths_today": 8,
+    "deaths_today": 11,
     "kills_week": 130,
-    "deaths_week": 189,
+    "deaths_week": 192,
     "kd_total": 0.92,
-    "kd_today": 0.5,
-    "kd_week": 0.69,
+    "kd_today": 0.36,
+    "kd_week": 0.68,
     "streak_days": 1,
     "top_my_killers": [
       {
@@ -6156,9 +6156,9 @@
     "top_enemy_killers": [
       {
         "name": "Ehotk",
-        "kills": 278,
-        "kills_today": 1,
-        "kills_week": 34
+        "kills": 279,
+        "kills_today": 2,
+        "kills_week": 35
       },
       {
         "name": "Poring",
@@ -6174,9 +6174,9 @@
       },
       {
         "name": "Nao Eh Poring",
-        "kills": 106,
-        "kills_today": 7,
-        "kills_week": 97
+        "kills": 108,
+        "kills_today": 9,
+        "kills_week": 99
       },
       {
         "name": "Maguinn Returns",
@@ -6488,7 +6488,7 @@
     "my_deaths_by_player": [
       [
         "Esfi Hahaha",
-        69
+        71
       ],
       [
         "Teylera Rp",
@@ -6508,7 +6508,7 @@
       ],
       [
         "Gizao",
-        37
+        38
       ],
       [
         "Maguinn Returns",
@@ -26963,6 +26963,33 @@
         "isPvp": true
       },
       {
+        "time": "Jul 06, 2026 23:40",
+        "player": "Esfi Hahaha",
+        "level": 1994,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 23:39",
+        "player": "Gizao",
+        "level": 1975,
+        "killedBy": "Nao Eh Poring",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
+        "time": "Jul 06, 2026 23:39",
+        "player": "Esfi Hahaha",
+        "level": 1996,
+        "killedBy": "Ehotk",
+        "maiorDano": "",
+        "world": "Baiak",
+        "isPvp": true
+      },
+      {
         "time": "Jul 06, 2026 23:29",
         "player": "Gizao",
         "level": 1977,
@@ -28666,6 +28693,33 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Jul 06, 2026 23:40",
+      "player": "Esfi Hahaha",
+      "level": 1994,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 06, 2026 23:39",
+      "player": "Gizao",
+      "level": 1975,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 06, 2026 23:39",
+      "player": "Esfi Hahaha",
+      "level": 1996,
+      "killedBy": "Ehotk",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Jul 06, 2026 23:29",
       "player": "Gizao",
@@ -58914,24 +58968,24 @@
     },
     "members": {
       "last_member_list": [
-        "Calveludo",
-        "We Edz",
-        "Giga",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Old Jovizera",
-        "Lee Br",
-        "Ragekemi",
-        "Lula",
-        "Total Security",
-        "Wake Wake",
-        "Ehotk",
         "Donte",
-        "Cuffy Dido",
-        "Nao Eh Poring",
+        "Ehotk",
         "Dont Bica",
+        "Boltadao",
+        "Cuffy Dido",
+        "Giga",
+        "Deruz",
         "Pittao teensina",
-        "Boltadao"
+        "Wake Wake",
+        "Total Security",
+        "Nao Eh Poring",
+        "Lula",
+        "Lee Br",
+        "We Edz",
+        "Old Jovizera",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Calveludo"
       ],
       "changes_log": [
         {
@@ -58954,24 +59008,24 @@
     },
     "hunted": {
       "last_enemy_list": [
-        "Calveludo",
-        "We Edz",
-        "Giga",
-        "JhonzinMilgrau",
-        "Deruz",
-        "Old Jovizera",
-        "Lee Br",
-        "Ragekemi",
-        "Lula",
-        "Total Security",
-        "Wake Wake",
-        "Ehotk",
         "Donte",
-        "Cuffy Dido",
-        "Nao Eh Poring",
+        "Ehotk",
         "Dont Bica",
+        "Boltadao",
+        "Cuffy Dido",
+        "Giga",
+        "Deruz",
         "Pittao teensina",
-        "Boltadao"
+        "Wake Wake",
+        "Total Security",
+        "Nao Eh Poring",
+        "Lula",
+        "Lee Br",
+        "We Edz",
+        "Old Jovizera",
+        "JhonzinMilgrau",
+        "Ragekemi",
+        "Calveludo"
       ],
       "hunted": {
         "Leogolas": {
