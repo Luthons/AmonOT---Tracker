@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 00:08 (Brasília)",
+  "updated_at": "07/07/2026 às 00:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 45,
-  "offline_count": 27,
+  "online_count": 46,
+  "offline_count": 26,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -690,7 +690,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -4112,7 +4112,7 @@
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Cerebro",
@@ -4496,7 +4496,7 @@
           "name": "Brunaobringer",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Deca com Testo",
@@ -5550,7 +5550,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 00:08 (Brasília)",
+    "updated_at": "07/07/2026 às 00:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28485,6 +28485,24 @@
   },
   "deaths_global": [
     {
+      "time": "Jul 07, 2026 00:09",
+      "player": "Monstro Das Criptos",
+      "level": 1761,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 07, 2026 00:08",
+      "player": "Gizao",
+      "level": 1974,
+      "killedBy": "Nao Eh Poring",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 07, 2026 00:05",
       "player": "Monstro Das Criptos",
       "level": 1764,
@@ -28857,24 +28875,6 @@
       "time": "Jul 05, 2026 04:33",
       "player": "Guidao Palao",
       "level": 1481,
-      "killedBy": "Calveludo",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 05, 2026 04:31",
-      "player": "Lilian Faithkeeper",
-      "level": 819,
-      "killedBy": "Calveludo",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 05, 2026 04:19",
-      "player": "Rp Terror",
-      "level": 2000,
       "killedBy": "Calveludo",
       "maiorDano": "",
       "world": "Baiak",
