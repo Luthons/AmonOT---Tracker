@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 16:23 (Brasília)",
+  "updated_at": "07/07/2026 às 16:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -415,7 +415,7 @@
     },
     {
       "name": "Adjr",
-      "level": 1237,
+      "level": 1239,
       "resets": 26,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2817,8 +2817,8 @@
     },
     {
       "name": "Nagato Sorcerer",
-      "level": 1204,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2923,6 +2923,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "05/07/2026 às 12:11 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 16:24 (Brasília)"
         }
       ]
     },
@@ -3881,6 +3886,14 @@
       "online": true
     },
     {
+      "name": "Nagato Sorcerer",
+      "resets_total": 31,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 36,
       "resets_today": 1,
@@ -4047,14 +4060,6 @@
       "resets_week": 1,
       "vocation": "Elite Knight",
       "online": false
-    },
-    {
-      "name": "Nagato Sorcerer",
-      "resets_total": 30,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Red Hahaha",
@@ -4368,6 +4373,12 @@
           "online": false
         },
         {
+          "name": "Nagato Sorcerer",
+          "value": 31,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Ritoff Elite",
           "value": 31,
           "vocation": "Elite Knight",
@@ -4393,12 +4404,6 @@
         },
         {
           "name": "Lougon Baiakeiro",
-          "value": 30,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Nagato Sorcerer",
           "value": 30,
           "vocation": "Master Sorcerer",
           "online": true
@@ -4831,7 +4836,7 @@
         },
         {
           "name": "Adjr",
-          "value": 1237,
+          "value": 1239,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4851,12 +4856,6 @@
           "name": "Gizao",
           "value": 1211,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nagato Sorcerer",
-          "value": 1204,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5653,7 +5652,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 16:23 (Brasília)",
+    "updated_at": "07/07/2026 às 16:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 10,
@@ -28982,15 +28981,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Jul 06, 2026 00:34",
-      "player": "Brunaobringer",
-      "level": 2000,
-      "killedBy": "Pittao teensina",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -29050,7 +29040,7 @@
         "Moskito": 24,
         "Mu Baiakeiro": 10,
         "Mu Kina": 26,
-        "Nagato Sorcerer": 30,
+        "Nagato Sorcerer": 31,
         "Owsborn": 34,
         "Pally Tetss": 55,
         "Perez": 33,
@@ -44622,7 +44612,7 @@
           "Moskito": 24,
           "Mu Baiakeiro": 10,
           "Mu Kina": 26,
-          "Nagato Sorcerer": 30,
+          "Nagato Sorcerer": 31,
           "Owsborn": 34,
           "Pally Tetss": 55,
           "Perez": 33,
@@ -50145,6 +50135,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 15:31 (Brasília)",
           "hour_key": "2026-07-07-15"
+        },
+        {
+          "name": "Nagato Sorcerer",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 16:24 (Brasília)",
+          "hour_key": "2026-07-07-16"
         }
       ]
     },
@@ -58280,12 +58277,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 2777,
-      "resets_today": 13,
-      "resets_week": 118,
+      "total_current": 2778,
+      "resets_today": 14,
+      "resets_week": 119,
       "resets_month": 0,
-      "resets_lifetime": 120,
-      "avg_per_player": 38.0
+      "resets_lifetime": 121,
+      "avg_per_player": 38.1
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
