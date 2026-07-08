@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 00:11 (Brasília)",
+  "updated_at": "08/07/2026 às 00:12 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -416,8 +416,8 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 1080,
-      "resets": 14,
+      "level": 8,
+      "resets": 15,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -472,6 +472,11 @@
           "resets": 14,
           "gained": 1,
           "timestamp": "07/07/2026 às 16:31 (Brasília)"
+        },
+        {
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 00:12 (Brasília)"
         }
       ]
     },
@@ -3755,6 +3760,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Adolph Healer",
+      "resets_total": 15,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 43,
       "resets_today": 1,
@@ -3800,14 +3813,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Adolph Healer",
-      "resets_total": 14,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4463,7 +4468,7 @@
         },
         {
           "name": "Adolph Healer",
-          "value": 14,
+          "value": 15,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4838,12 +4843,6 @@
           "value": 1085,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 1080,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Owsborn",
@@ -5597,7 +5596,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 00:11 (Brasília)",
+    "updated_at": "08/07/2026 às 00:12 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28903,7 +28902,7 @@
         "Teylera Rp": 58,
         "Achilles": 18,
         "Adjr": 26,
-        "Adolph Healer": 14,
+        "Adolph Healer": 15,
         "Affey": 27,
         "Alba Baiakeiro": 51,
         "Apreciador De Casadas": 37,
@@ -44264,7 +44263,7 @@
           "Teylera Rp": 58,
           "Achilles": 18,
           "Adjr": 26,
-          "Adolph Healer": 14,
+          "Adolph Healer": 15,
           "Affey": 27,
           "Alba Baiakeiro": 51,
           "Apreciador De Casadas": 37,
@@ -49617,6 +49616,13 @@
           "gained": 1,
           "timestamp": "07/07/2026 às 23:46 (Brasília)",
           "hour_key": "2026-07-07-23"
+        },
+        {
+          "name": "Adolph Healer",
+          "resets": 15,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 00:12 (Brasília)",
+          "hour_key": "2026-07-08-00"
         }
       ]
     },
@@ -57280,11 +57286,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2817,
-      "resets_today": 2,
-      "resets_week": 102,
+      "total_current": 2818,
+      "resets_today": 3,
+      "resets_week": 103,
       "resets_month": 0,
-      "resets_lifetime": 119,
+      "resets_lifetime": 120,
       "avg_per_player": 38.1
     },
     "enemy_guild": {
