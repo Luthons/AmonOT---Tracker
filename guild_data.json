@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 15:57 (Brasília)",
+  "updated_at": "08/07/2026 às 15:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
-  "online_count": 52,
-  "offline_count": 22,
+  "online_count": 53,
+  "offline_count": 21,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -400,7 +400,7 @@
     },
     {
       "name": "Adjr",
-      "level": 625,
+      "level": 1015,
       "resets": 27,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3591,7 +3591,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 19,
@@ -4125,7 +4125,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -4504,7 +4504,7 @@
           "name": "Xeipe",
           "value": 26,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Kev",
@@ -4738,7 +4738,7 @@
           "name": "Xeipe",
           "value": 1840,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Lougon Baiakeiro",
@@ -4927,6 +4927,12 @@
           "online": false
         },
         {
+          "name": "Adjr",
+          "value": 1015,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Roginho",
           "value": 996,
           "vocation": "Master Sorcerer",
@@ -5015,12 +5021,6 @@
           "value": 733,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Adjr",
-          "value": 625,
-          "vocation": "Elder Druid",
-          "online": true
         }
       ]
     }
@@ -5690,7 +5690,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 15:57 (Brasília)",
+    "updated_at": "08/07/2026 às 15:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
