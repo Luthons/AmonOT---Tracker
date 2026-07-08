@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 16:07 (Brasília)",
+  "updated_at": "08/07/2026 às 16:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -3703,8 +3703,8 @@
     },
     {
       "name": "Zap Seco",
-      "level": 981,
-      "resets": 23,
+      "level": 8,
+      "resets": 24,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3809,12 +3809,25 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "07/07/2026 às 23:09 (Brasília)"
+        },
+        {
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 16:08 (Brasília)"
         }
       ]
     }
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Zap Seco",
+      "resets_total": 24,
+      "resets_today": 2,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
     {
       "name": "Adjr",
       "resets_total": 27,
@@ -3916,14 +3929,6 @@
       "resets_total": 55,
       "resets_today": 1,
       "resets_week": 3,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Zap Seco",
-      "resets_total": 23,
-      "resets_today": 1,
-      "resets_week": 6,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -4525,6 +4530,12 @@
           "online": true
         },
         {
+          "name": "Zap Seco",
+          "value": 24,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 23,
           "vocation": "Elder Druid",
@@ -4535,12 +4546,6 @@
           "value": 23,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Zap Seco",
-          "value": 23,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Vitao The Trader",
@@ -4949,12 +4954,6 @@
           "value": 990,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Zap Seco",
-          "value": 981,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Sonzacrazy",
@@ -5690,7 +5689,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 16:07 (Brasília)",
+    "updated_at": "08/07/2026 às 16:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28974,15 +28973,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Jul 06, 2026 05:49",
-      "player": "Perez",
-      "level": 1074,
-      "killedBy": "Cerebro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -29061,7 +29051,7 @@
         "VukVuk": 50,
         "Xeipe": 26,
         "Ynhaca Purah": 55,
-        "Zap Seco": 23
+        "Zap Seco": 24
       },
       "snapshots": {
         "2026-07-01-17": {
@@ -44006,7 +43996,7 @@
           "VukVuk": 50,
           "Xeipe": 26,
           "Ynhaca Purah": 55,
-          "Zap Seco": 23
+          "Zap Seco": 24
         }
       },
       "events": [
@@ -49378,6 +49368,13 @@
           "gained": 1,
           "timestamp": "08/07/2026 às 15:06 (Brasília)",
           "hour_key": "2026-07-08-15"
+        },
+        {
+          "name": "Zap Seco",
+          "resets": 24,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 16:08 (Brasília)",
+          "hour_key": "2026-07-08-16"
         }
       ]
     },
@@ -56657,11 +56654,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2829,
-      "resets_today": 14,
-      "resets_week": 112,
+      "total_current": 2830,
+      "resets_today": 15,
+      "resets_week": 113,
       "resets_month": 0,
-      "resets_lifetime": 119,
+      "resets_lifetime": 120,
       "avg_per_player": 38.2
     },
     "enemy_guild": {
