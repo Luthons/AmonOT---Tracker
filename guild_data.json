@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/07/2026 às 23:45 (Brasília)",
+  "updated_at": "07/07/2026 às 23:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1865,7 +1865,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1248,
+      "level": 1257,
       "resets": 80,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2613,8 +2613,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 1962,
-      "resets": 42,
+      "level": 8,
+      "resets": 43,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2654,12 +2654,17 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "04/07/2026 às 18:29 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 23:46 (Brasília)"
         }
       ]
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1314,
+      "level": 1343,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3600,7 +3605,7 @@
     },
     {
       "name": "Vitao The Trader",
-      "level": 1997,
+      "level": 2000,
       "resets": 20,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3851,6 +3856,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Melbiss",
+      "resets_total": 43,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Zap Seco",
       "resets_total": 23,
       "resets_today": 1,
@@ -4049,14 +4062,6 @@
       "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 42,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
-      "online": true
     },
     {
       "name": "Monstro Das Criptos",
@@ -4313,7 +4318,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 42,
+          "value": 43,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4690,6 +4695,12 @@
           "online": true
         },
         {
+          "name": "Vitao The Trader",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -4714,21 +4725,9 @@
           "online": true
         },
         {
-          "name": "Vitao The Trader",
-          "value": 1997,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1982,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Melbiss",
-          "value": 1962,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4871,7 +4870,7 @@
         },
         {
           "name": "Monstro Das Criptos",
-          "value": 1314,
+          "value": 1343,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4901,7 +4900,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1248,
+          "value": 1257,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5693,7 +5692,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/07/2026 às 23:45 (Brasília)",
+    "updated_at": "07/07/2026 às 23:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -29041,7 +29040,7 @@
         "Lougon Baiakeiro": 30,
         "Lukitas Brokenzada": 40,
         "Magabela": 50,
-        "Melbiss": 42,
+        "Melbiss": 43,
         "Monstro Das Criptos": 52,
         "Moskito": 24,
         "Mu Baiakeiro": 10,
@@ -44429,7 +44428,7 @@
           "Lougon Baiakeiro": 30,
           "Lukitas Brokenzada": 40,
           "Magabela": 50,
-          "Melbiss": 42,
+          "Melbiss": 43,
           "Monstro Das Criptos": 52,
           "Moskito": 24,
           "Mu Baiakeiro": 10,
@@ -49998,6 +49997,13 @@
           "resets": 23,
           "gained": 1,
           "timestamp": "07/07/2026 às 23:09 (Brasília)",
+          "hour_key": "2026-07-07-23"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 23:46 (Brasília)",
           "hour_key": "2026-07-07-23"
         }
       ]
@@ -57966,11 +57972,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2816,
-      "resets_today": 1,
-      "resets_week": 101,
+      "total_current": 2817,
+      "resets_today": 2,
+      "resets_week": 102,
       "resets_month": 0,
-      "resets_lifetime": 118,
+      "resets_lifetime": 119,
       "avg_per_player": 38.1
     },
     "enemy_guild": {
