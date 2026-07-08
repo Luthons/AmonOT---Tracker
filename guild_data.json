@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 18:09 (Brasília)",
+  "updated_at": "08/07/2026 às 18:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -65,7 +65,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1905,
+      "level": 1921,
       "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -655,7 +655,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1598,
+      "level": 1602,
       "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -717,7 +717,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1913,
+      "level": 1921,
       "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
@@ -900,7 +900,7 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 838,
+      "level": 873,
       "resets": 51,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1183,7 +1183,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 1948,
+      "level": 1959,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1840,7 +1840,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1842,
+      "level": 1979,
       "resets": 80,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1871,7 +1871,7 @@
     },
     {
       "name": "Kev",
-      "level": 1220,
+      "level": 1227,
       "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2049,7 +2049,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1680,
+      "level": 1682,
       "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2578,7 +2578,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1058,
+      "level": 1068,
       "resets": 43,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2629,7 +2629,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1545,
+      "level": 1564,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3529,7 +3529,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1685,
+      "level": 1692,
       "resets": 33,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3586,7 +3586,7 @@
     },
     {
       "name": "Xeipe",
-      "level": 1842,
+      "level": 1843,
       "resets": 26,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4716,6 +4716,12 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1979,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 1961,
           "vocation": "Master Sorcerer",
@@ -4723,20 +4729,20 @@
         },
         {
           "name": "Dvn Luktzeraah",
-          "value": 1948,
+          "value": 1959,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 1921,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Cerebro",
-          "value": 1913,
+          "value": 1921,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 1905,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4746,14 +4752,8 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1842,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Xeipe",
-          "value": 1842,
+          "value": 1843,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4782,20 +4782,20 @@
           "online": true
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 1692,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 1689,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 1685,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Lilian Faithkeeper",
-          "value": 1680,
+          "value": 1682,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4807,7 +4807,7 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1598,
+          "value": 1602,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4818,16 +4818,16 @@
           "online": false
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 1564,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Ritoff Elite",
           "value": 1563,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 1545,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Guidao Palao",
@@ -4885,7 +4885,7 @@
         },
         {
           "name": "Kev",
-          "value": 1220,
+          "value": 1227,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4914,15 +4914,15 @@
           "online": true
         },
         {
-          "name": "Roginho",
-          "value": 1062,
-          "vocation": "Master Sorcerer",
+          "name": "Melbiss",
+          "value": 1068,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 1058,
-          "vocation": "Elite Knight",
+          "name": "Roginho",
+          "value": 1062,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4999,7 +4999,7 @@
         },
         {
           "name": "Diegao Barba",
-          "value": 838,
+          "value": 873,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5701,7 +5701,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 18:09 (Brasília)",
+    "updated_at": "08/07/2026 às 18:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
