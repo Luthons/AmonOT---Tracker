@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 13:09 (Brasília)",
+  "updated_at": "08/07/2026 às 13:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -2482,8 +2482,8 @@
     },
     {
       "name": "Magabela",
-      "level": 2000,
-      "resets": 50,
+      "level": 8,
+      "resets": 51,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2558,6 +2558,11 @@
           "resets": 50,
           "gained": 1,
           "timestamp": "30/06/2026 às 22:23 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 13:10 (Brasília)"
         }
       ]
     },
@@ -3849,6 +3854,14 @@
       "online": true
     },
     {
+      "name": "Magabela",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 43,
       "resets_today": 1,
@@ -4194,6 +4207,12 @@
           "online": true
         },
         {
+          "name": "Magabela",
+          "value": 51,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Maguinn Hahaha",
           "value": 50,
           "vocation": "Elder Druid",
@@ -4227,12 +4246,6 @@
           "name": "Gokuu",
           "value": 50,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 50,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4654,12 +4667,6 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Magabela",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Pally Tetss",
@@ -5665,7 +5672,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 13:09 (Brasília)",
+    "updated_at": "08/07/2026 às 13:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -29012,7 +29019,7 @@
         "Lotus Lothbrook": 29,
         "Lougon Baiakeiro": 30,
         "Lukitas Brokenzada": 40,
-        "Magabela": 50,
+        "Magabela": 51,
         "Melbiss": 43,
         "Monstro Das Criptos": 52,
         "Moskito": 24,
@@ -44035,7 +44042,7 @@
           "Lotus Lothbrook": 29,
           "Lougon Baiakeiro": 30,
           "Lukitas Brokenzada": 40,
-          "Magabela": 50,
+          "Magabela": 51,
           "Melbiss": 43,
           "Monstro Das Criptos": 52,
           "Moskito": 24,
@@ -49410,6 +49417,13 @@
           "gained": 1,
           "timestamp": "08/07/2026 às 12:56 (Brasília)",
           "hour_key": "2026-07-08-12"
+        },
+        {
+          "name": "Magabela",
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 13:10 (Brasília)",
+          "hour_key": "2026-07-08-13"
         }
       ]
     },
@@ -56761,11 +56775,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2826,
-      "resets_today": 11,
-      "resets_week": 110,
+      "total_current": 2827,
+      "resets_today": 12,
+      "resets_week": 111,
       "resets_month": 0,
-      "resets_lifetime": 119,
+      "resets_lifetime": 120,
       "avg_per_player": 38.2
     },
     "enemy_guild": {
