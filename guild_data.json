@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 22:41 (Brasília)",
+  "updated_at": "08/07/2026 às 22:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -65,8 +65,8 @@
     },
     {
       "name": "Gizao",
-      "level": 1985,
-      "resets": 56,
+      "level": 278,
+      "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -166,6 +166,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "07/07/2026 às 11:01 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 22:42 (Brasília)"
         }
       ]
     },
@@ -3657,7 +3662,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1247,
+      "level": 1246,
       "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3850,9 +3855,9 @@
     },
     {
       "name": "Gizao",
-      "resets_total": 56,
+      "resets_total": 57,
       "resets_today": 0,
-      "resets_week": 3,
+      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4141,7 +4146,7 @@
         },
         {
           "name": "Gizao",
-          "value": 56,
+          "value": 57,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4692,12 +4697,6 @@
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 1985,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 1958,
           "vocation": "Elite Knight",
@@ -4831,7 +4830,7 @@
         },
         {
           "name": "Ynhaca Purah",
-          "value": 1247,
+          "value": 1246,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4990,6 +4989,12 @@
           "value": 714,
           "vocation": "Royal Paladin",
           "online": false
+        },
+        {
+          "name": "Gizao",
+          "value": 278,
+          "vocation": "Royal Paladin",
+          "online": true
         }
       ]
     }
@@ -5659,7 +5664,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 22:41 (Brasília)",
+    "updated_at": "08/07/2026 às 22:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28940,7 +28945,7 @@
     "resets": {
       "last_snapshot": {
         "Esfi Hahaha": 59,
-        "Gizao": 56,
+        "Gizao": 57,
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 50,
         "Punish Claude": 50,
@@ -43729,7 +43734,7 @@
         },
         "2026-07-08-22": {
           "Esfi Hahaha": 59,
-          "Gizao": 56,
+          "Gizao": 57,
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 50,
           "Punish Claude": 50,
@@ -49207,6 +49212,13 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "08/07/2026 às 22:41 (Brasília)",
+          "hour_key": "2026-07-08-22"
+        },
+        {
+          "name": "Gizao",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 22:42 (Brasília)",
           "hour_key": "2026-07-08-22"
         }
       ]
@@ -56343,11 +56355,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2834,
+      "total_current": 2835,
       "resets_today": 0,
-      "resets_week": 87,
+      "resets_week": 88,
       "resets_month": 0,
-      "resets_lifetime": 112,
+      "resets_lifetime": 113,
       "avg_per_player": 38.3
     },
     "enemy_guild": {
