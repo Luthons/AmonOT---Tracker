@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 22:39 (Brasília)",
+  "updated_at": "08/07/2026 às 22:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -2059,8 +2059,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1780,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2140,6 +2140,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "06/07/2026 às 08:33 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 22:41 (Brasília)"
         }
       ]
     },
@@ -3973,9 +3978,9 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "resets_total": 30,
+      "resets_total": 31,
       "resets_today": 0,
-      "resets_week": 3,
+      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4369,6 +4374,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 31,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Nagato Sorcerer",
           "value": 31,
           "vocation": "Master Sorcerer",
@@ -4396,12 +4407,6 @@
           "name": "Brunao Rei Denovo",
           "value": 30,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 30,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4714,12 +4719,6 @@
           "name": "Lougon Baiakeiro",
           "value": 1834,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1780,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5660,7 +5659,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 22:39 (Brasília)",
+    "updated_at": "08/07/2026 às 22:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28981,7 +28980,7 @@
         "Kev": 25,
         "Kiel": 60,
         "Kolwaski": 47,
-        "Lilian Faithkeeper": 30,
+        "Lilian Faithkeeper": 31,
         "Lipe Knight": 48,
         "Ljxiv": 27,
         "Loke": 53,
@@ -43770,7 +43769,7 @@
           "Kev": 25,
           "Kiel": 60,
           "Kolwaski": 47,
-          "Lilian Faithkeeper": 30,
+          "Lilian Faithkeeper": 31,
           "Lipe Knight": 48,
           "Ljxiv": 27,
           "Loke": 53,
@@ -49202,6 +49201,13 @@
           "gained": 1,
           "timestamp": "08/07/2026 às 21:56 (Brasília)",
           "hour_key": "2026-07-08-21"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 22:41 (Brasília)",
+          "hour_key": "2026-07-08-22"
         }
       ]
     },
@@ -56337,11 +56343,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2833,
+      "total_current": 2834,
       "resets_today": 0,
-      "resets_week": 86,
+      "resets_week": 87,
       "resets_month": 0,
-      "resets_lifetime": 111,
+      "resets_lifetime": 112,
       "avg_per_player": 38.3
     },
     "enemy_guild": {
