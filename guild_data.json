@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/07/2026 às 21:55 (Brasília)",
+  "updated_at": "08/07/2026 às 21:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -2145,8 +2145,8 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1794,
-      "resets": 47,
+      "level": 8,
+      "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2216,6 +2216,11 @@
           "resets": 47,
           "gained": 1,
           "timestamp": "07/07/2026 às 00:37 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 21:56 (Brasília)"
         }
       ]
     },
@@ -3919,6 +3924,14 @@
       "online": true
     },
     {
+      "name": "Lipe Knight",
+      "resets_total": 48,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Magabela",
       "resets_total": 51,
       "resets_today": 1,
@@ -4068,14 +4081,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 47,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -4296,6 +4301,12 @@
           "online": true
         },
         {
+          "name": "Lipe Knight",
+          "value": 48,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Ed farm",
           "value": 47,
           "vocation": "Elder Druid",
@@ -4305,12 +4316,6 @@
           "name": "Kolwaski",
           "value": 47,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 47,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4773,12 +4778,6 @@
           "name": "Lougon Baiakeiro",
           "value": 1830,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 1794,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5719,7 +5718,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/07/2026 às 21:55 (Brasília)",
+    "updated_at": "08/07/2026 às 21:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -29041,7 +29040,7 @@
         "Kiel": 60,
         "Kolwaski": 47,
         "Lilian Faithkeeper": 30,
-        "Lipe Knight": 47,
+        "Lipe Knight": 48,
         "Ljxiv": 27,
         "Loke": 53,
         "Loks": 33,
@@ -43856,7 +43855,7 @@
           "Kiel": 60,
           "Kolwaski": 47,
           "Lilian Faithkeeper": 30,
-          "Lipe Knight": 47,
+          "Lipe Knight": 48,
           "Ljxiv": 27,
           "Loke": 53,
           "Loks": 33,
@@ -49280,6 +49279,13 @@
           "gained": 1,
           "timestamp": "08/07/2026 às 18:36 (Brasília)",
           "hour_key": "2026-07-08-18"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 21:56 (Brasília)",
+          "hour_key": "2026-07-08-21"
         }
       ]
     },
@@ -56439,11 +56445,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2832,
-      "resets_today": 17,
-      "resets_week": 114,
+      "total_current": 2833,
+      "resets_today": 18,
+      "resets_week": 115,
       "resets_month": 0,
-      "resets_lifetime": 114,
+      "resets_lifetime": 115,
       "avg_per_player": 38.3
     },
     "enemy_guild": {
