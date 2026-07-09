@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/07/2026 às 16:32 (Brasília)",
+  "updated_at": "09/07/2026 às 16:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -3365,8 +3365,8 @@
     },
     {
       "name": "Roginho",
-      "level": 1278,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3401,6 +3401,11 @@
           "resets": 37,
           "gained": 1,
           "timestamp": "08/07/2026 às 03:43 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 16:33 (Brasília)"
         }
       ]
     },
@@ -3936,6 +3941,14 @@
       "online": true
     },
     {
+      "name": "Roginho",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 0,
@@ -4109,14 +4122,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Roginho",
-      "resets_total": 37,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -4371,16 +4376,16 @@
           "online": true
         },
         {
+          "name": "Roginho",
+          "value": 38,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 37,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Roginho",
-          "value": 37,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "End Zeus",
@@ -4902,12 +4907,6 @@
           "name": "Melbiss",
           "value": 1288,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Roginho",
-          "value": 1278,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5728,7 +5727,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/07/2026 às 16:32 (Brasília)",
+    "updated_at": "09/07/2026 às 16:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -29016,7 +29015,7 @@
         "Pestinha": 31,
         "Red Hahaha": 26,
         "Ritoff Elite": 31,
-        "Roginho": 37,
+        "Roginho": 38,
         "Royal Luthons": 46,
         "Rp Terror": 33,
         "Sonzacrazy": 7,
@@ -43337,7 +43336,7 @@
           "Pestinha": 31,
           "Red Hahaha": 26,
           "Ritoff Elite": 31,
-          "Roginho": 37,
+          "Roginho": 38,
           "Royal Luthons": 46,
           "Rp Terror": 33,
           "Sonzacrazy": 7,
@@ -48685,6 +48684,13 @@
           "gained": 1,
           "timestamp": "09/07/2026 às 14:20 (Brasília)",
           "hour_key": "2026-07-09-14"
+        },
+        {
+          "name": "Roginho",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 16:33 (Brasília)",
+          "hour_key": "2026-07-09-16"
         }
       ]
     },
@@ -55188,11 +55194,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2846,
-      "resets_today": 10,
-      "resets_week": 95,
+      "total_current": 2847,
+      "resets_today": 11,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 105,
+      "resets_lifetime": 106,
       "avg_per_player": 38.5
     },
     "enemy_guild": {
