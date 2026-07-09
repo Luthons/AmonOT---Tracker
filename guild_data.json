@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/07/2026 às 08:40 (Brasília)",
+  "updated_at": "09/07/2026 às 08:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1789,8 +1789,8 @@
     },
     {
       "name": "Its Gui",
-      "level": 1262,
-      "resets": 40,
+      "level": 8,
+      "resets": 41,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1825,6 +1825,11 @@
           "resets": 40,
           "gained": 1,
           "timestamp": "08/07/2026 às 00:24 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 08:41 (Brasília)"
         }
       ]
     },
@@ -3832,6 +3837,14 @@
       "online": true
     },
     {
+      "name": "Its Gui",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 0,
@@ -3917,14 +3930,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Its Gui",
-      "resets_total": 40,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4267,13 +4272,13 @@
           "online": true
         },
         {
-          "name": "Dreenho Baiakeiro",
-          "value": 40,
+          "name": "Its Gui",
+          "value": 41,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Its Gui",
+          "name": "Dreenho Baiakeiro",
           "value": 40,
           "vocation": "Elder Druid",
           "online": true
@@ -4834,12 +4839,6 @@
           "name": "Magabela",
           "value": 1287,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Its Gui",
-          "value": 1262,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5648,7 +5647,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/07/2026 às 08:40 (Brasília)",
+    "updated_at": "09/07/2026 às 08:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28910,7 +28909,7 @@
         "Hao Asakura": 32,
         "Henrique": 52,
         "Heroes Baiak": 28,
-        "Its Gui": 40,
+        "Its Gui": 41,
         "Jhonnys Trembolizado": 81,
         "Kev": 25,
         "Kiel": 60,
@@ -43439,7 +43438,7 @@
           "Hao Asakura": 32,
           "Henrique": 52,
           "Heroes Baiak": 28,
-          "Its Gui": 40,
+          "Its Gui": 41,
           "Jhonnys Trembolizado": 81,
           "Kev": 25,
           "Kiel": 60,
@@ -48757,6 +48756,13 @@
           "gained": 1,
           "timestamp": "09/07/2026 às 06:06 (Brasília)",
           "hour_key": "2026-07-09-06"
+        },
+        {
+          "name": "Its Gui",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 08:41 (Brasília)",
+          "hour_key": "2026-07-09-08"
         }
       ]
     },
@@ -55449,11 +55455,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2838,
-      "resets_today": 2,
-      "resets_week": 91,
+      "total_current": 2839,
+      "resets_today": 3,
+      "resets_week": 92,
       "resets_month": 0,
-      "resets_lifetime": 109,
+      "resets_lifetime": 110,
       "avg_per_player": 38.4
     },
     "enemy_guild": {
