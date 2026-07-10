@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/07/2026 às 23:21 (Brasília)",
+  "updated_at": "09/07/2026 às 23:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1290,7 +1290,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1068,
+      "level": 1079,
       "resets": 24,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2511,7 +2511,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 34,
@@ -2785,7 +2785,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 19,
@@ -4110,7 +4110,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Nagato Sorcerer",
@@ -4387,7 +4387,7 @@
           "name": "Lukitas Brokenzada",
           "value": 40,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Cheiro Dpneu",
@@ -4585,7 +4585,7 @@
           "name": "Moskito",
           "value": 24,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Zap Seco",
@@ -4807,7 +4807,7 @@
           "name": "Lukitas Brokenzada",
           "value": 1768,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Alba Baiakeiro",
@@ -4945,7 +4945,7 @@
           "name": "Moskito",
           "value": 1189,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Its Gui",
@@ -4978,15 +4978,15 @@
           "online": true
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 1071,
-          "vocation": "Royal Paladin",
+          "name": "Elder Lougon",
+          "value": 1079,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Elder Lougon",
-          "value": 1068,
-          "vocation": "Elder Druid",
+          "name": "Lilian Faithkeeper",
+          "value": 1071,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5753,7 +5753,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/07/2026 às 23:21 (Brasília)",
+    "updated_at": "09/07/2026 às 23:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
