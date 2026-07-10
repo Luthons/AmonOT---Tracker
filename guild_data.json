@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 00:43 (Brasília)",
+  "updated_at": "10/07/2026 às 00:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -65,8 +65,8 @@
     },
     {
       "name": "Gizao",
-      "level": 2001,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -161,6 +161,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "08/07/2026 às 22:42 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 00:44 (Brasília)"
         }
       ]
     },
@@ -3811,6 +3816,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Gizao",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Elder Lougon",
       "resets_total": 25,
       "resets_today": 1,
@@ -3839,14 +3852,6 @@
       "resets_total": 59,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Gizao",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4152,14 +4157,14 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
+          "name": "Gizao",
           "value": 58,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 57,
+          "name": "Teylera Rp",
+          "value": 58,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4580,12 +4585,6 @@
         {
           "name": "Teylera Rp",
           "value": 2003,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 2001,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5671,7 +5670,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 00:43 (Brasília)",
+    "updated_at": "10/07/2026 às 00:44 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28871,7 +28870,7 @@
     "resets": {
       "last_snapshot": {
         "Esfi Hahaha": 59,
-        "Gizao": 57,
+        "Gizao": 58,
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 51,
         "Punish Claude": 50,
@@ -42991,7 +42990,7 @@
         },
         "2026-07-10-00": {
           "Esfi Hahaha": 59,
-          "Gizao": 57,
+          "Gizao": 58,
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 51,
           "Punish Claude": 50,
@@ -48203,6 +48202,13 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "10/07/2026 às 00:14 (Brasília)",
+          "hour_key": "2026-07-10-00"
+        },
+        {
+          "name": "Gizao",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 00:44 (Brasília)",
           "hour_key": "2026-07-10-00"
         }
       ]
@@ -54236,11 +54242,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2854,
-      "resets_today": 3,
-      "resets_week": 91,
+      "total_current": 2855,
+      "resets_today": 4,
+      "resets_week": 92,
       "resets_month": 0,
-      "resets_lifetime": 96,
+      "resets_lifetime": 97,
       "avg_per_player": 38.6
     },
     "enemy_guild": {
