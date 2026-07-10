@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 18:06 (Brasília)",
+  "updated_at": "10/07/2026 às 18:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -3216,8 +3216,8 @@
     },
     {
       "name": "Perez",
-      "level": 1223,
-      "resets": 34,
+      "level": 8,
+      "resets": 35,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -3232,6 +3232,11 @@
           "resets": 34,
           "gained": 1,
           "timestamp": "09/07/2026 às 10:22 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 18:07 (Brasília)"
         }
       ]
     },
@@ -3936,6 +3941,14 @@
       "online": false
     },
     {
+      "name": "Perez",
+      "resets_total": 35,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Vinizerah On Amonot",
       "resets_total": 34,
       "resets_today": 1,
@@ -4397,6 +4410,12 @@
           "online": true
         },
         {
+          "name": "Perez",
+          "value": 35,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Loks",
           "value": 34,
           "vocation": "Elder Druid",
@@ -4407,12 +4426,6 @@
           "value": 34,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Perez",
-          "value": 34,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Vinizerah On Amonot",
@@ -4916,12 +4929,6 @@
           "name": "Dvn Luktzeraah",
           "value": 1403,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Perez",
-          "value": 1223,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5730,7 +5737,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 18:06 (Brasília)",
+    "updated_at": "10/07/2026 às 18:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28708,15 +28715,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Jul 07, 2026 01:05",
-      "player": "Achilles",
-      "level": 1958,
-      "killedBy": "MekZ",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -28780,7 +28778,7 @@
         "Nagato Sorcerer": 31,
         "Owsborn": 34,
         "Pally Tetss": 55,
-        "Perez": 34,
+        "Perez": 35,
         "Pestinha": 31,
         "Red Hahaha": 26,
         "Ritoff Elite": 31,
@@ -42464,7 +42462,7 @@
           "Nagato Sorcerer": 31,
           "Owsborn": 34,
           "Pally Tetss": 55,
-          "Perez": 34,
+          "Perez": 35,
           "Pestinha": 31,
           "Red Hahaha": 26,
           "Ritoff Elite": 31,
@@ -47683,6 +47681,13 @@
           "gained": 1,
           "timestamp": "10/07/2026 às 16:56 (Brasília)",
           "hour_key": "2026-07-10-16"
+        },
+        {
+          "name": "Perez",
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 18:07 (Brasília)",
+          "hour_key": "2026-07-10-18"
         }
       ]
     },
@@ -53318,8 +53323,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2863,
-      "resets_today": 12,
+      "total_current": 2864,
+      "resets_today": 13,
       "resets_week": 99,
       "resets_month": 0,
       "resets_lifetime": 100,
