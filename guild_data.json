@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/07/2026 às 23:32 (Brasília)",
+  "updated_at": "09/07/2026 às 23:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1290,8 +1290,8 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1079,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1356,6 +1356,11 @@
           "resets": 24,
           "gained": 1,
           "timestamp": "09/07/2026 às 10:42 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 23:33 (Brasília)"
         }
       ]
     },
@@ -3881,6 +3886,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Elder Lougon",
+      "resets_total": 25,
+      "resets_today": 1,
+      "resets_week": 9,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Esfi Hahaha",
       "resets_total": 59,
       "resets_today": 0,
@@ -3998,14 +4011,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Elder Lougon",
-      "resets_total": 24,
-      "resets_today": 0,
-      "resets_week": 8,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4564,6 +4569,12 @@
           "online": true
         },
         {
+          "name": "Elder Lougon",
+          "value": 25,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Kev",
           "value": 25,
           "vocation": "Royal Paladin",
@@ -4573,12 +4584,6 @@
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 24,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4975,12 +4980,6 @@
           "name": "Jhonnys Trembolizado",
           "value": 1092,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Elder Lougon",
-          "value": 1079,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5753,7 +5752,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/07/2026 às 23:32 (Brasília)",
+    "updated_at": "09/07/2026 às 23:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -29005,7 +29004,7 @@
         "Dreenho Baiakeiro": 41,
         "Dvn Luktzeraah": 47,
         "Ed farm": 47,
-        "Elder Lougon": 24,
+        "Elder Lougon": 25,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
         "End Zeus": 36,
@@ -43149,7 +43148,7 @@
           "Dreenho Baiakeiro": 41,
           "Dvn Luktzeraah": 47,
           "Ed farm": 47,
-          "Elder Lougon": 24,
+          "Elder Lougon": 25,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
           "End Zeus": 36,
@@ -48568,6 +48567,13 @@
           "gained": 1,
           "timestamp": "09/07/2026 às 21:05 (Brasília)",
           "hour_key": "2026-07-09-21"
+        },
+        {
+          "name": "Elder Lougon",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 23:33 (Brasília)",
+          "hour_key": "2026-07-09-23"
         }
       ]
     },
@@ -54910,11 +54916,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2851,
-      "resets_today": 0,
-      "resets_week": 88,
+      "total_current": 2852,
+      "resets_today": 1,
+      "resets_week": 89,
       "resets_month": 0,
-      "resets_lifetime": 93,
+      "resets_lifetime": 94,
       "avg_per_player": 38.5
     },
     "enemy_guild": {
