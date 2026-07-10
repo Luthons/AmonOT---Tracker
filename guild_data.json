@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 16:55 (Brasília)",
+  "updated_at": "10/07/2026 às 16:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1157,8 +1157,8 @@
     },
     {
       "name": "Dreenho Baiakeiro",
-      "level": 1095,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1213,6 +1213,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "09/07/2026 às 14:20 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 16:56 (Brasília)"
         }
       ]
     },
@@ -3875,6 +3880,14 @@
       "online": true
     },
     {
+      "name": "Dreenho Baiakeiro",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Elder Lougon",
       "resets_total": 25,
       "resets_today": 1,
@@ -4025,14 +4038,6 @@
       "resets_week": 2,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Dreenho Baiakeiro",
-      "resets_total": 41,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Dvn Luktzeraah",
@@ -4350,14 +4355,14 @@
           "online": true
         },
         {
-          "name": "Its Gui",
+          "name": "Dreenho Baiakeiro",
           "value": 42,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Dreenho Baiakeiro",
-          "value": 41,
+          "name": "Its Gui",
+          "value": 42,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4941,12 +4946,6 @@
           "name": "Xeipe",
           "value": 1119,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Dreenho Baiakeiro",
-          "value": 1095,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5725,7 +5724,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 16:55 (Brasília)",
+    "updated_at": "10/07/2026 às 16:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28740,7 +28739,7 @@
         "Deca com Testo": 32,
         "Diegao Barba": 51,
         "Dmonick": 52,
-        "Dreenho Baiakeiro": 41,
+        "Dreenho Baiakeiro": 42,
         "Dvn Luktzeraah": 47,
         "Ed farm": 47,
         "Elder Lougon": 25,
@@ -42476,7 +42475,7 @@
           "Deca com Testo": 32,
           "Diegao Barba": 51,
           "Dmonick": 52,
-          "Dreenho Baiakeiro": 41,
+          "Dreenho Baiakeiro": 42,
           "Dvn Luktzeraah": 47,
           "Ed farm": 47,
           "Elder Lougon": 25,
@@ -47723,6 +47722,13 @@
           "gained": 1,
           "timestamp": "10/07/2026 às 15:24 (Brasília)",
           "hour_key": "2026-07-10-15"
+        },
+        {
+          "name": "Dreenho Baiakeiro",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 16:56 (Brasília)",
+          "hour_key": "2026-07-10-16"
         }
       ]
     },
@@ -53402,11 +53408,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2862,
-      "resets_today": 11,
-      "resets_week": 98,
+      "total_current": 2863,
+      "resets_today": 12,
+      "resets_week": 99,
       "resets_month": 0,
-      "resets_lifetime": 100,
+      "resets_lifetime": 101,
       "avg_per_player": 38.7
     },
     "enemy_guild": {
