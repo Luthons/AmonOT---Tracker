@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 00:01 (Brasília)",
+  "updated_at": "10/07/2026 às 00:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
-  "online_count": 49,
-  "offline_count": 25,
+  "online_count": 50,
+  "offline_count": 24,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1449,7 +1449,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -3566,8 +3566,8 @@
     },
     {
       "name": "Xeipe",
-      "level": 2000,
-      "resets": 26,
+      "level": 8,
+      "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3612,6 +3612,11 @@
           "resets": 26,
           "gained": 1,
           "timestamp": "05/07/2026 às 17:56 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 00:02 (Brasília)"
         }
       ]
     },
@@ -3806,6 +3811,14 @@
       "resets_today": 1,
       "resets_week": 9,
       "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Xeipe",
+      "resets_total": 27,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4081,14 +4094,6 @@
       "online": true
     },
     {
-      "name": "Xeipe",
-      "resets_total": 26,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Ynhaca Purah",
       "resets_total": 55,
       "resets_today": 0,
@@ -4127,7 +4132,7 @@
           "name": "Friedrich Merz",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Kiel",
@@ -4460,6 +4465,12 @@
           "online": false
         },
         {
+          "name": "Xeipe",
+          "value": 27,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Charles",
           "value": 26,
           "vocation": "Exalted Monk",
@@ -4473,12 +4484,6 @@
         },
         {
           "name": "Red Hahaha",
-          "value": 26,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Xeipe",
           "value": 26,
           "vocation": "Royal Paladin",
           "online": true
@@ -4631,7 +4636,7 @@
           "name": "Friedrich Merz",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Gokuu",
@@ -4679,12 +4684,6 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Xeipe",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5667,7 +5666,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 00:01 (Brasília)",
+    "updated_at": "10/07/2026 às 00:02 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28937,7 +28936,7 @@
         "Vinizerah On Amonot": 33,
         "Vitao The Trader": 21,
         "VukVuk": 50,
-        "Xeipe": 26,
+        "Xeipe": 27,
         "Ynhaca Purah": 55,
         "Zap Seco": 24
       },
@@ -43057,7 +43056,7 @@
           "Vinizerah On Amonot": 33,
           "Vitao The Trader": 21,
           "VukVuk": 50,
-          "Xeipe": 26,
+          "Xeipe": 27,
           "Ynhaca Purah": 55,
           "Zap Seco": 24
         }
@@ -48186,6 +48185,13 @@
           "gained": 1,
           "timestamp": "09/07/2026 às 23:33 (Brasília)",
           "hour_key": "2026-07-09-23"
+        },
+        {
+          "name": "Xeipe",
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 00:02 (Brasília)",
+          "hour_key": "2026-07-10-00"
         }
       ]
     },
@@ -54218,12 +54224,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2852,
-      "resets_today": 1,
-      "resets_week": 89,
+      "total_current": 2853,
+      "resets_today": 2,
+      "resets_week": 90,
       "resets_month": 0,
-      "resets_lifetime": 94,
-      "avg_per_player": 38.5
+      "resets_lifetime": 95,
+      "avg_per_player": 38.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
