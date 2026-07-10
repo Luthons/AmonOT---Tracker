@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 05:29 (Brasília)",
+  "updated_at": "10/07/2026 às 05:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -2740,8 +2740,8 @@
     },
     {
       "name": "Moskito",
-      "level": 1253,
-      "resets": 24,
+      "level": 8,
+      "resets": 25,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2776,6 +2776,11 @@
           "resets": 24,
           "gained": 1,
           "timestamp": "04/07/2026 às 00:19 (Brasília)"
+        },
+        {
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 05:30 (Brasília)"
         }
       ]
     },
@@ -3853,6 +3858,14 @@
       "online": false
     },
     {
+      "name": "Moskito",
+      "resets_total": 25,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Xeipe",
       "resets_total": 27,
       "resets_today": 1,
@@ -4050,14 +4063,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": false
-    },
-    {
-      "name": "Moskito",
-      "resets_total": 24,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
       "online": false
     },
     {
@@ -4516,16 +4521,16 @@
           "online": true
         },
         {
+          "name": "Moskito",
+          "value": 25,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
           "online": true
-        },
-        {
-          "name": "Moskito",
-          "value": 24,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Zap Seco",
@@ -4862,12 +4867,6 @@
           "value": 1287,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Moskito",
-          "value": 1253,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Black Reaper",
@@ -5687,7 +5686,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 05:29 (Brasília)",
+    "updated_at": "10/07/2026 às 05:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28902,7 +28901,7 @@
         "Magabela": 51,
         "Melbiss": 43,
         "Monstro Das Criptos": 52,
-        "Moskito": 24,
+        "Moskito": 25,
         "Mu Baiakeiro": 10,
         "Mu Kina": 26,
         "Nagato Sorcerer": 31,
@@ -42902,7 +42901,7 @@
           "Magabela": 51,
           "Melbiss": 43,
           "Monstro Das Criptos": 52,
-          "Moskito": 24,
+          "Moskito": 25,
           "Mu Baiakeiro": 10,
           "Mu Kina": 26,
           "Nagato Sorcerer": 31,
@@ -48078,6 +48077,13 @@
           "gained": 1,
           "timestamp": "10/07/2026 às 00:47 (Brasília)",
           "hour_key": "2026-07-10-00"
+        },
+        {
+          "name": "Moskito",
+          "resets": 25,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 05:30 (Brasília)",
+          "hour_key": "2026-07-10-05"
         }
       ]
     },
@@ -53999,11 +54005,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2856,
-      "resets_today": 5,
-      "resets_week": 93,
+      "total_current": 2857,
+      "resets_today": 6,
+      "resets_week": 94,
       "resets_month": 0,
-      "resets_lifetime": 96,
+      "resets_lifetime": 97,
       "avg_per_player": 38.6
     },
     "enemy_guild": {
