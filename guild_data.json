@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 15:23 (Brasília)",
+  "updated_at": "10/07/2026 às 15:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1550,8 +1550,8 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1964,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1666,6 +1666,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "07/07/2026 às 13:52 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 15:24 (Brasília)"
         }
       ]
     },
@@ -3878,6 +3883,14 @@
       "online": true
     },
     {
+      "name": "Guidao Palao",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Its Gui",
       "resets_total": 42,
       "resets_today": 1,
@@ -4026,14 +4039,6 @@
       "resets_total": 47,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Guidao Palao",
-      "resets_total": 45,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4327,16 +4332,16 @@
           "online": true
         },
         {
+          "name": "Guidao Palao",
+          "value": 46,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Royal Luthons",
           "value": 46,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 45,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Melbiss",
@@ -4750,12 +4755,6 @@
           "name": "Lougon Baiakeiro",
           "value": 1976,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 1964,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5720,7 +5719,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 15:23 (Brasília)",
+    "updated_at": "10/07/2026 às 15:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28744,7 +28743,7 @@
         "End Zeus": 36,
         "Friedrich Merz": 62,
         "Gokuu": 50,
-        "Guidao Palao": 45,
+        "Guidao Palao": 46,
         "Hao Asakura": 32,
         "Henrique": 52,
         "Heroes Baiak": 28,
@@ -42504,7 +42503,7 @@
           "End Zeus": 36,
           "Friedrich Merz": 62,
           "Gokuu": 50,
-          "Guidao Palao": 45,
+          "Guidao Palao": 46,
           "Hao Asakura": 32,
           "Henrique": 52,
           "Heroes Baiak": 28,
@@ -47735,6 +47734,13 @@
           "gained": 1,
           "timestamp": "10/07/2026 às 13:37 (Brasília)",
           "hour_key": "2026-07-10-13"
+        },
+        {
+          "name": "Guidao Palao",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "10/07/2026 às 15:24 (Brasília)",
+          "hour_key": "2026-07-10-15"
         }
       ]
     },
@@ -53436,11 +53442,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2861,
-      "resets_today": 10,
-      "resets_week": 97,
+      "total_current": 2862,
+      "resets_today": 11,
+      "resets_week": 98,
       "resets_month": 0,
-      "resets_lifetime": 92,
+      "resets_lifetime": 93,
       "avg_per_player": 38.7
     },
     "enemy_guild": {
