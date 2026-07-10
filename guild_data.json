@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/07/2026 às 18:38 (Brasília)",
+  "updated_at": "10/07/2026 às 18:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 74,
-  "online_count": 54,
+  "total_members": 75,
+  "online_count": 55,
   "offline_count": 20,
   "members": [
     {
@@ -585,6 +585,16 @@
           "timestamp": "08/07/2026 às 18:27 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Akronus",
+      "level": 1678,
+      "resets": 37,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Alba Baiakeiro",
@@ -4398,6 +4408,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 37,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 37,
           "vocation": "Royal Paladin",
@@ -4852,6 +4868,12 @@
           "value": 1686,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Akronus",
+          "value": 1678,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Black Reaper",
@@ -5749,7 +5771,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/07/2026 às 18:38 (Brasília)",
+    "updated_at": "10/07/2026 às 18:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28742,6 +28764,7 @@
         "Adjr": 29,
         "Adolph Healer": 17,
         "Affey": 28,
+        "Akronus": 37,
         "Alba Baiakeiro": 51,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 54,
@@ -42426,6 +42449,7 @@
           "Adjr": 29,
           "Adolph Healer": 17,
           "Affey": 28,
+          "Akronus": 37,
           "Alba Baiakeiro": 51,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 54,
@@ -53334,8 +53358,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 74,
-      "total_current": 2864,
+      "num_members": 75,
+      "total_current": 2901,
       "resets_today": 13,
       "resets_week": 99,
       "resets_month": 0,
