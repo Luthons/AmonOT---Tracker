@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 08:22 (Brasília)",
+  "updated_at": "11/07/2026 às 08:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -697,8 +697,8 @@
     },
     {
       "name": "Black Reaper",
-      "level": 1960,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -713,6 +713,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "09/07/2026 às 14:09 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 08:23 (Brasília)"
         }
       ]
     },
@@ -3788,6 +3793,14 @@
       "online": true
     },
     {
+      "name": "Black Reaper",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 26,
       "resets_today": 1,
@@ -4415,6 +4428,12 @@
           "online": true
         },
         {
+          "name": "Black Reaper",
+          "value": 29,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 29,
           "vocation": "Royal Paladin",
@@ -4422,12 +4441,6 @@
         },
         {
           "name": "Affey",
-          "value": 28,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Black Reaper",
           "value": 28,
           "vocation": "Royal Paladin",
           "online": true
@@ -4705,12 +4718,6 @@
         {
           "name": "Gizao",
           "value": 1973,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Black Reaper",
-          "value": 1960,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5652,7 +5659,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 08:22 (Brasília)",
+    "updated_at": "11/07/2026 às 08:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28603,7 +28610,7 @@
         "Alba Baiakeiro": 52,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 54,
-        "Black Reaper": 28,
+        "Black Reaper": 29,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
@@ -41927,7 +41934,7 @@
           "Alba Baiakeiro": 52,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 54,
-          "Black Reaper": 28,
+          "Black Reaper": 29,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
@@ -46945,6 +46952,13 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "11/07/2026 às 08:14 (Brasília)",
+          "hour_key": "2026-07-11-08"
+        },
+        {
+          "name": "Black Reaper",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 08:23 (Brasília)",
           "hour_key": "2026-07-11-08"
         }
       ]
@@ -52119,8 +52133,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2907,
-      "resets_today": 4,
+      "total_current": 2908,
+      "resets_today": 5,
       "resets_week": 91,
       "resets_month": 0,
       "resets_lifetime": 96,
