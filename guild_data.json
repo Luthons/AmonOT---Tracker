@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 00:56 (Brasília)",
+  "updated_at": "11/07/2026 às 00:57 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -583,13 +583,19 @@
     },
     {
       "name": "Akronus",
-      "level": 1764,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 00:57 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Alba Baiakeiro",
@@ -3577,7 +3583,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1982,
+      "level": 1992,
       "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3755,6 +3761,14 @@
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Akronus",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
     {
       "name": "Kev",
       "resets_total": 26,
@@ -4263,14 +4277,14 @@
           "online": true
         },
         {
-          "name": "Roginho",
+          "name": "Akronus",
           "value": 38,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 37,
+          "name": "Roginho",
+          "value": 38,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4653,15 +4667,15 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 1987,
-          "vocation": "Elder Druid",
+          "name": "Ynhaca Purah",
+          "value": 1992,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
-          "value": 1982,
-          "vocation": "Master Sorcerer",
+          "name": "Monstro Das Criptos",
+          "value": 1987,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4717,12 +4731,6 @@
           "value": 1766,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Akronus",
-          "value": 1764,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -5626,7 +5634,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 00:56 (Brasília)",
+    "updated_at": "11/07/2026 às 00:57 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28583,7 +28591,7 @@
         "Adjr": 29,
         "Adolph Healer": 17,
         "Affey": 28,
-        "Akronus": 37,
+        "Akronus": 38,
         "Alba Baiakeiro": 52,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 54,
@@ -42115,7 +42123,7 @@
           "Adjr": 29,
           "Adolph Healer": 17,
           "Affey": 28,
-          "Akronus": 37,
+          "Akronus": 38,
           "Alba Baiakeiro": 52,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 54,
@@ -47116,6 +47124,13 @@
           "resets": 26,
           "gained": 1,
           "timestamp": "11/07/2026 às 00:43 (Brasília)",
+          "hour_key": "2026-07-11-00"
+        },
+        {
+          "name": "Akronus",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 00:57 (Brasília)",
           "hour_key": "2026-07-11-00"
         }
       ]
@@ -52466,8 +52481,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2904,
-      "resets_today": 1,
+      "total_current": 2905,
+      "resets_today": 2,
       "resets_week": 90,
       "resets_month": 0,
       "resets_lifetime": 99,
