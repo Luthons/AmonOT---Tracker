@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 10:16 (Brasília)",
+  "updated_at": "11/07/2026 às 10:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -920,8 +920,8 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 1277,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1010,6 +1010,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "09/07/2026 às 12:02 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 10:19 (Brasília)"
         }
       ]
     },
@@ -4106,6 +4111,14 @@
       "online": true
     },
     {
+      "name": "Cheiro Dpneu",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 26,
       "resets_today": 1,
@@ -4199,14 +4212,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Cheiro Dpneu",
-      "resets_total": 39,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4609,14 +4614,14 @@
           "online": true
         },
         {
-          "name": "Lukitas Brokenzada",
+          "name": "Cheiro Dpneu",
           "value": 40,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Cheiro Dpneu",
-          "value": 39,
+          "name": "Lukitas Brokenzada",
+          "value": 40,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -5153,12 +5158,6 @@
           "value": 1282,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Cheiro Dpneu",
-          "value": 1277,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Its Gui",
@@ -5984,7 +5983,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 10:15 (Brasília)",
+    "updated_at": "11/07/2026 às 10:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28941,7 +28940,7 @@
         "Brunaobringer": 50,
         "Cerebro": 51,
         "Charles": 26,
-        "Cheiro Dpneu": 39,
+        "Cheiro Dpneu": 40,
         "Deca com Testo": 32,
         "Diegao Barba": 51,
         "Dmonick": 52,
@@ -42214,7 +42213,7 @@
           "Brunaobringer": 50,
           "Cerebro": 51,
           "Charles": 26,
-          "Cheiro Dpneu": 39,
+          "Cheiro Dpneu": 40,
           "Deca com Testo": 32,
           "Diegao Barba": 51,
           "Dmonick": 52,
@@ -47241,6 +47240,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 09:54 (Brasília)",
           "hour_key": "2026-07-11-09"
+        },
+        {
+          "name": "Cheiro Dpneu",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 10:19 (Brasília)",
+          "hour_key": "2026-07-11-10"
         }
       ]
     },
@@ -52370,11 +52376,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2909,
-      "resets_today": 6,
-      "resets_week": 92,
+      "total_current": 2910,
+      "resets_today": 7,
+      "resets_week": 93,
       "resets_month": 0,
-      "resets_lifetime": 95,
+      "resets_lifetime": 96,
       "avg_per_player": 38.8
     },
     "enemy_guild": {
