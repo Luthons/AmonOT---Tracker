@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 11:46 (Brasília)",
+  "updated_at": "11/07/2026 às 11:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -400,8 +400,8 @@
     },
     {
       "name": "Adjr",
-      "level": 1041,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -431,6 +431,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "11/07/2026 às 08:14 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 11:47 (Brasília)"
         }
       ]
     },
@@ -3788,8 +3793,8 @@
   "resets_today": [
     {
       "name": "Adjr",
-      "resets_total": 30,
-      "resets_today": 1,
+      "resets_total": 31,
+      "resets_today": 2,
       "resets_week": 0,
       "vocation": "Elder Druid",
       "online": true
@@ -4404,6 +4409,12 @@
           "online": false
         },
         {
+          "name": "Adjr",
+          "value": 31,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Nagato Sorcerer",
           "value": 31,
           "vocation": "Master Sorcerer",
@@ -4420,12 +4431,6 @@
           "value": 31,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Adjr",
-          "value": 30,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Boingbringer",
@@ -4930,12 +4935,6 @@
           "value": 1055,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Adjr",
-          "value": 1041,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Royal Luthons",
@@ -5695,7 +5694,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 11:46 (Brasília)",
+    "updated_at": "11/07/2026 às 11:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28639,7 +28638,7 @@
         "Punish Claude": 50,
         "Teylera Rp": 58,
         "Achilles": 18,
-        "Adjr": 30,
+        "Adjr": 31,
         "Adolph Healer": 17,
         "Affey": 28,
         "Akronus": 38,
@@ -41887,7 +41886,7 @@
           "Punish Claude": 50,
           "Teylera Rp": 58,
           "Achilles": 18,
-          "Adjr": 30,
+          "Adjr": 31,
           "Adolph Healer": 17,
           "Affey": 28,
           "Akronus": 38,
@@ -46934,6 +46933,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 10:19 (Brasília)",
           "hour_key": "2026-07-11-10"
+        },
+        {
+          "name": "Adjr",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 11:47 (Brasília)",
+          "hour_key": "2026-07-11-11"
         }
       ]
     },
@@ -52041,8 +52047,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2910,
-      "resets_today": 7,
+      "total_current": 2911,
+      "resets_today": 8,
       "resets_week": 93,
       "resets_month": 0,
       "resets_lifetime": 96,
