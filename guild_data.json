@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/07/2026 às 13:08 (Brasília)",
+  "updated_at": "12/07/2026 às 13:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -395,7 +395,7 @@
     },
     {
       "name": "Adjr",
-      "level": 822,
+      "level": 921,
       "resets": 37,
       "vocation": "Elder Druid",
       "nick": "",
@@ -466,7 +466,7 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 1047,
+      "level": 1052,
       "resets": 18,
       "vocation": "Elder Druid",
       "nick": "",
@@ -547,7 +547,7 @@
     },
     {
       "name": "Affey",
-      "level": 863,
+      "level": 898,
       "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -649,7 +649,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1610,
+      "level": 1612,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1855,7 +1855,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1478,
+      "level": 1481,
       "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2216,7 +2216,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1990,
+      "level": 1991,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2348,7 +2348,7 @@
     },
     {
       "name": "Loks",
-      "level": 1944,
+      "level": 1951,
       "resets": 34,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2486,7 +2486,7 @@
     },
     {
       "name": "Lukitas Brokenzada",
-      "level": 1806,
+      "level": 1815,
       "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2527,7 +2527,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1995,
+      "level": 2000,
       "resets": 51,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3300,7 +3300,7 @@
     },
     {
       "name": "Roginho",
-      "level": 1310,
+      "level": 1321,
       "resets": 39,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4661,6 +4661,12 @@
           "online": false
         },
         {
+          "name": "Magabela",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -4703,20 +4709,14 @@
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 1995,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Lipe Knight",
-          "value": 1990,
+          "value": 1991,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1944,
+          "value": 1951,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4734,7 +4734,7 @@
         },
         {
           "name": "Lukitas Brokenzada",
-          "value": 1806,
+          "value": 1815,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4758,7 +4758,7 @@
         },
         {
           "name": "Alba Baiakeiro",
-          "value": 1610,
+          "value": 1612,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4782,7 +4782,7 @@
         },
         {
           "name": "Its Gui",
-          "value": 1478,
+          "value": 1481,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4830,7 +4830,7 @@
         },
         {
           "name": "Roginho",
-          "value": 1310,
+          "value": 1321,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4896,7 +4896,7 @@
         },
         {
           "name": "Adolph Healer",
-          "value": 1047,
+          "value": 1052,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4931,6 +4931,12 @@
           "online": true
         },
         {
+          "name": "Adjr",
+          "value": 921,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Hao Asakura",
           "value": 919,
           "vocation": "Master Sorcerer",
@@ -4943,16 +4949,16 @@
           "online": true
         },
         {
+          "name": "Affey",
+          "value": 898,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Affey",
-          "value": 863,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Black Reaper",
@@ -4965,12 +4971,6 @@
           "value": 826,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Adjr",
-          "value": 822,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -5658,7 +5658,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/07/2026 às 13:08 (Brasília)",
+    "updated_at": "12/07/2026 às 13:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
