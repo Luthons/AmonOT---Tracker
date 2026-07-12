@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 21:41 (Brasília)",
+  "updated_at": "11/07/2026 às 21:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -400,8 +400,8 @@
     },
     {
       "name": "Adjr",
-      "level": 1057,
-      "resets": 35,
+      "level": 8,
+      "resets": 36,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -456,6 +456,11 @@
           "resets": 35,
           "gained": 1,
           "timestamp": "11/07/2026 às 17:38 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 21:42 (Brasília)"
         }
       ]
     },
@@ -3807,8 +3812,8 @@
   "resets_today": [
     {
       "name": "Adjr",
-      "resets_total": 35,
-      "resets_today": 6,
+      "resets_total": 36,
+      "resets_today": 7,
       "resets_week": 0,
       "vocation": "Elder Druid",
       "online": true
@@ -4363,15 +4368,15 @@
           "online": false
         },
         {
-          "name": "End Zeus",
+          "name": "Adjr",
           "value": 36,
-          "vocation": "Master Sorcerer",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Adjr",
-          "value": 35,
-          "vocation": "Elder Druid",
+          "name": "End Zeus",
+          "value": 36,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4930,12 +4935,6 @@
           "name": "Perez",
           "value": 1072,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Adjr",
-          "value": 1057,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5690,7 +5689,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 21:41 (Brasília)",
+    "updated_at": "11/07/2026 às 21:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28634,7 +28633,7 @@
         "Punish Claude": 50,
         "Teylera Rp": 58,
         "Achilles": 18,
-        "Adjr": 35,
+        "Adjr": 36,
         "Adolph Healer": 18,
         "Affey": 29,
         "Akronus": 38,
@@ -41629,7 +41628,7 @@
           "Punish Claude": 50,
           "Teylera Rp": 58,
           "Achilles": 18,
-          "Adjr": 35,
+          "Adjr": 36,
           "Adolph Healer": 18,
           "Affey": 29,
           "Akronus": 38,
@@ -46738,6 +46737,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 21:36 (Brasília)",
           "hour_key": "2026-07-11-21"
+        },
+        {
+          "name": "Adjr",
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 21:42 (Brasília)",
+          "hour_key": "2026-07-11-21"
         }
       ]
     },
@@ -51625,8 +51631,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2892,
-      "resets_today": 16,
+      "total_current": 2893,
+      "resets_today": 17,
       "resets_week": 97,
       "resets_month": 0,
       "resets_lifetime": 97,
