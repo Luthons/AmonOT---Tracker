@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/07/2026 às 00:54 (Brasília)",
+  "updated_at": "12/07/2026 às 00:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1107,8 +1107,8 @@
     },
     {
       "name": "Dmonick",
-      "level": 2000,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1208,6 +1208,11 @@
           "resets": 52,
           "gained": 1,
           "timestamp": "09/07/2026 às 06:06 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 00:55 (Brasília)"
         }
       ]
     },
@@ -3764,6 +3769,14 @@
       "online": true
     },
     {
+      "name": "Dmonick",
+      "resets_total": 53,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Gizao",
       "resets_total": 58,
       "resets_today": 0,
@@ -3833,14 +3846,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Dmonick",
-      "resets_total": 52,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -4117,6 +4122,12 @@
           "online": true
         },
         {
+          "name": "Dmonick",
+          "value": 53,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Alba Baiakeiro",
           "value": 52,
           "vocation": "Elder Druid",
@@ -4126,12 +4137,6 @@
           "name": "Diegao Barba",
           "value": 52,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 52,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4564,12 +4569,6 @@
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5606,7 +5605,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/07/2026 às 00:54 (Brasília)",
+    "updated_at": "12/07/2026 às 00:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28566,7 +28565,7 @@
         "Cheiro Dpneu": 40,
         "Deca com Testo": 32,
         "Diegao Barba": 52,
-        "Dmonick": 52,
+        "Dmonick": 53,
         "Dreenho Baiakeiro": 42,
         "Dvn Luktzeraah": 47,
         "Ed farm": 47,
@@ -41483,7 +41482,7 @@
           "Cheiro Dpneu": 40,
           "Deca com Testo": 32,
           "Diegao Barba": 52,
-          "Dmonick": 52,
+          "Dmonick": 53,
           "Dreenho Baiakeiro": 42,
           "Dvn Luktzeraah": 47,
           "Ed farm": 47,
@@ -46401,6 +46400,13 @@
           "gained": 1,
           "timestamp": "12/07/2026 às 00:38 (Brasília)",
           "hour_key": "2026-07-12-00"
+        },
+        {
+          "name": "Dmonick",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 00:55 (Brasília)",
+          "hour_key": "2026-07-12-00"
         }
       ]
     },
@@ -51040,11 +51046,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2896,
-      "resets_today": 2,
-      "resets_week": 80,
+      "total_current": 2897,
+      "resets_today": 3,
+      "resets_week": 81,
       "resets_month": 0,
-      "resets_lifetime": 97,
+      "resets_lifetime": 98,
       "avg_per_player": 39.1
     },
     "enemy_guild": {
