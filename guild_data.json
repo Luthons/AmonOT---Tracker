@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 22:29 (Brasília)",
+  "updated_at": "11/07/2026 às 22:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -2603,8 +2603,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 1960,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2644,6 +2644,11 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "07/07/2026 às 23:46 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 22:30 (Brasília)"
         }
       ]
     },
@@ -3996,9 +4001,9 @@
     },
     {
       "name": "Melbiss",
-      "resets_total": 43,
+      "resets_total": 44,
       "resets_today": 0,
-      "resets_week": 1,
+      "resets_week": 2,
       "vocation": "Elite Knight",
       "online": true
     },
@@ -4273,7 +4278,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 43,
+          "value": 44,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4706,12 +4711,6 @@
         {
           "name": "Henrique",
           "value": 1997,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Melbiss",
-          "value": 1960,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5659,7 +5658,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 22:29 (Brasília)",
+    "updated_at": "11/07/2026 às 22:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28646,7 +28645,7 @@
         "Lougon Baiakeiro": 30,
         "Lukitas Brokenzada": 40,
         "Magabela": 51,
-        "Melbiss": 43,
+        "Melbiss": 44,
         "Monstro Das Criptos": 52,
         "Moskito": 25,
         "Mu Baiakeiro": 10,
@@ -41615,7 +41614,7 @@
           "Lougon Baiakeiro": 30,
           "Lukitas Brokenzada": 40,
           "Magabela": 51,
-          "Melbiss": 43,
+          "Melbiss": 44,
           "Monstro Das Criptos": 52,
           "Moskito": 25,
           "Mu Baiakeiro": 10,
@@ -46688,6 +46687,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 21:42 (Brasília)",
           "hour_key": "2026-07-11-21"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 22:30 (Brasília)",
+          "hour_key": "2026-07-11-22"
         }
       ]
     },
@@ -51553,11 +51559,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2893,
+      "total_current": 2894,
       "resets_today": 0,
-      "resets_week": 79,
+      "resets_week": 80,
       "resets_month": 0,
-      "resets_lifetime": 96,
+      "resets_lifetime": 97,
       "avg_per_player": 39.1
     },
     "enemy_guild": {
