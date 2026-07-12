@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/07/2026 às 21:29 (Brasília)",
+  "updated_at": "11/07/2026 às 21:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -976,8 +976,8 @@
     },
     {
       "name": "Diegao Barba",
-      "level": 1952,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1087,6 +1087,11 @@
           "resets": 51,
           "gained": 1,
           "timestamp": "08/07/2026 às 14:11 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 21:30 (Brasília)"
         }
       ]
     },
@@ -3836,6 +3841,14 @@
       "online": true
     },
     {
+      "name": "Diegao Barba",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 26,
       "resets_today": 1,
@@ -3928,14 +3941,6 @@
       "resets_total": 51,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Diegao Barba",
-      "resets_total": 51,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Elite Knight",
       "online": true
     },
@@ -4203,6 +4208,12 @@
           "online": true
         },
         {
+          "name": "Diegao Barba",
+          "value": 52,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 52,
           "vocation": "Master Sorcerer",
@@ -4228,12 +4239,6 @@
         },
         {
           "name": "Cerebro",
-          "value": 51,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Diegao Barba",
           "value": 51,
           "vocation": "Elite Knight",
           "online": true
@@ -4745,12 +4750,6 @@
         {
           "name": "Melbiss",
           "value": 1960,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Diegao Barba",
-          "value": 1952,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5692,7 +5691,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/07/2026 às 21:29 (Brasília)",
+    "updated_at": "11/07/2026 às 21:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28651,7 +28650,7 @@
         "Charles": 26,
         "Cheiro Dpneu": 40,
         "Deca com Testo": 32,
-        "Diegao Barba": 51,
+        "Diegao Barba": 52,
         "Dmonick": 52,
         "Dreenho Baiakeiro": 42,
         "Dvn Luktzeraah": 47,
@@ -41646,7 +41645,7 @@
           "Charles": 26,
           "Cheiro Dpneu": 40,
           "Deca com Testo": 32,
-          "Diegao Barba": 51,
+          "Diegao Barba": 52,
           "Dmonick": 52,
           "Dreenho Baiakeiro": 42,
           "Dvn Luktzeraah": 47,
@@ -46726,6 +46725,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 20:37 (Brasília)",
           "hour_key": "2026-07-11-20"
+        },
+        {
+          "name": "Diegao Barba",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "11/07/2026 às 21:30 (Brasília)",
+          "hour_key": "2026-07-11-21"
         }
       ]
     },
@@ -51613,11 +51619,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2890,
-      "resets_today": 14,
-      "resets_week": 95,
+      "total_current": 2891,
+      "resets_today": 15,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 95,
+      "resets_lifetime": 96,
       "avg_per_player": 39.1
     },
     "enemy_guild": {
