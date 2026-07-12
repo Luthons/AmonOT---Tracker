@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/07/2026 às 08:44 (Brasília)",
+  "updated_at": "12/07/2026 às 08:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -732,8 +732,8 @@
     },
     {
       "name": "Black Reaper",
-      "level": 866,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -763,6 +763,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "12/07/2026 às 00:38 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 08:45 (Brasília)"
         }
       ]
     },
@@ -3772,8 +3777,8 @@
   "resets_today": [
     {
       "name": "Black Reaper",
-      "resets_total": 31,
-      "resets_today": 2,
+      "resets_total": 32,
+      "resets_today": 3,
       "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": true
@@ -4338,6 +4343,12 @@
           "online": true
         },
         {
+          "name": "Black Reaper",
+          "value": 32,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Deca com Testo",
           "value": 32,
           "vocation": "Elite Knight",
@@ -4360,12 +4371,6 @@
           "value": 32,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Black Reaper",
-          "value": 31,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -4936,12 +4941,6 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Black Reaper",
-          "value": 866,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Elio Nervous",
@@ -5635,7 +5634,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/07/2026 às 08:44 (Brasília)",
+    "updated_at": "12/07/2026 às 08:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28586,7 +28585,7 @@
         "Alba Baiakeiro": 52,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 54,
-        "Black Reaper": 31,
+        "Black Reaper": 32,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
@@ -41295,7 +41294,7 @@
           "Alba Baiakeiro": 52,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 54,
-          "Black Reaper": 31,
+          "Black Reaper": 32,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
@@ -46243,6 +46242,13 @@
           "gained": 1,
           "timestamp": "12/07/2026 às 02:48 (Brasília)",
           "hour_key": "2026-07-12-02"
+        },
+        {
+          "name": "Black Reaper",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 08:45 (Brasília)",
+          "hour_key": "2026-07-12-08"
         }
       ]
     },
@@ -50706,8 +50712,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2899,
-      "resets_today": 5,
+      "total_current": 2900,
+      "resets_today": 6,
       "resets_week": 82,
       "resets_month": 0,
       "resets_lifetime": 96,
