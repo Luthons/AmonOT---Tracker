@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/07/2026 às 00:37 (Brasília)",
+  "updated_at": "12/07/2026 às 00:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
-  "online_count": 47,
-  "offline_count": 27,
+  "online_count": 48,
+  "offline_count": 26,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -207,7 +207,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 48,
@@ -727,8 +727,8 @@
     },
     {
       "name": "Black Reaper",
-      "level": 944,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -753,6 +753,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "11/07/2026 às 23:38 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 00:38 (Brasília)"
         }
       ]
     },
@@ -3752,8 +3757,8 @@
   "resets_today": [
     {
       "name": "Black Reaper",
-      "resets_total": 30,
-      "resets_today": 1,
+      "resets_total": 31,
+      "resets_today": 2,
       "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": true
@@ -3772,7 +3777,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Adolph Healer",
@@ -4145,7 +4150,7 @@
           "name": "Maguinn Hahaha",
           "value": 51,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Cerebro",
@@ -4334,6 +4339,12 @@
           "online": false
         },
         {
+          "name": "Black Reaper",
+          "value": 31,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Nagato Sorcerer",
           "value": 31,
           "vocation": "Master Sorcerer",
@@ -4350,12 +4361,6 @@
           "value": 31,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Black Reaper",
-          "value": 30,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Boingbringer",
@@ -4649,7 +4654,7 @@
           "name": "Maguinn Hahaha",
           "value": 1997,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Teylera Rp",
@@ -4884,12 +4889,6 @@
           "value": 951,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Black Reaper",
-          "value": 944,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Hao Asakura",
@@ -5607,7 +5606,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/07/2026 às 00:37 (Brasília)",
+    "updated_at": "12/07/2026 às 00:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28558,7 +28557,7 @@
         "Alba Baiakeiro": 52,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 54,
-        "Black Reaper": 30,
+        "Black Reaper": 31,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
@@ -41475,7 +41474,7 @@
           "Alba Baiakeiro": 52,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 54,
-          "Black Reaper": 30,
+          "Black Reaper": 31,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
@@ -46395,6 +46394,13 @@
           "gained": 1,
           "timestamp": "11/07/2026 às 23:38 (Brasília)",
           "hour_key": "2026-07-11-23"
+        },
+        {
+          "name": "Black Reaper",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 00:38 (Brasília)",
+          "hour_key": "2026-07-12-00"
         }
       ]
     },
@@ -51034,8 +51040,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2895,
-      "resets_today": 1,
+      "total_current": 2896,
+      "resets_today": 2,
       "resets_week": 80,
       "resets_month": 0,
       "resets_lifetime": 97,
