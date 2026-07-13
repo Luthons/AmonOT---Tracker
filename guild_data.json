@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/07/2026 às 22:21 (Brasília)",
+  "updated_at": "12/07/2026 às 22:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -762,8 +762,8 @@
     },
     {
       "name": "Black Reaper",
-      "level": 939,
-      "resets": 32,
+      "level": 8,
+      "resets": 33,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -798,6 +798,11 @@
           "resets": 32,
           "gained": 1,
           "timestamp": "12/07/2026 às 08:46 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 22:22 (Brasília)"
         }
       ]
     },
@@ -4384,16 +4389,16 @@
           "online": true
         },
         {
+          "name": "Black Reaper",
+          "value": 33,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 33,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Black Reaper",
-          "value": 32,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Deca com Testo",
@@ -4963,12 +4968,6 @@
           "name": "Zap Seco",
           "value": 940,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Black Reaper",
-          "value": 939,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5687,7 +5686,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/07/2026 às 22:21 (Brasília)",
+    "updated_at": "12/07/2026 às 22:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28638,7 +28637,7 @@
         "Alba Baiakeiro": 52,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 55,
-        "Black Reaper": 32,
+        "Black Reaper": 33,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
@@ -41344,7 +41343,7 @@
           "Alba Baiakeiro": 52,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 55,
-          "Black Reaper": 32,
+          "Black Reaper": 33,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
@@ -46376,6 +46375,13 @@
           "gained": 1,
           "timestamp": "12/07/2026 às 19:16 (Brasília)",
           "hour_key": "2026-07-12-19"
+        },
+        {
+          "name": "Black Reaper",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 22:22 (Brasília)",
+          "hour_key": "2026-07-12-22"
         }
       ]
     },
@@ -50531,7 +50537,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2912,
+      "total_current": 2913,
       "resets_today": 0,
       "resets_week": 95,
       "resets_month": 0,
