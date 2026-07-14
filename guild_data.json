@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 09:36 (Brasília)",
+  "updated_at": "14/07/2026 às 09:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1611,8 +1611,8 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 2000,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1722,6 +1722,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "10/07/2026 às 15:24 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 09:37 (Brasília)"
         }
       ]
     },
@@ -3734,6 +3739,14 @@
       "online": true
     },
     {
+      "name": "Guidao Palao",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lilian Faithkeeper",
       "resets_total": 34,
       "resets_today": 1,
@@ -3872,14 +3885,6 @@
     {
       "name": "Gokuu",
       "resets_total": 51,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Guidao Palao",
-      "resets_total": 46,
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
@@ -4216,7 +4221,7 @@
         },
         {
           "name": "Guidao Palao",
-          "value": 46,
+          "value": 47,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4596,12 +4601,6 @@
           "name": "Friedrich Merz",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5614,7 +5613,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 09:36 (Brasília)",
+    "updated_at": "14/07/2026 às 09:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28603,7 +28602,7 @@
         "End Zeus": 36,
         "Friedrich Merz": 62,
         "Gokuu": 51,
-        "Guidao Palao": 46,
+        "Guidao Palao": 47,
         "Hao Asakura": 32,
         "Henrique": 52,
         "Heroes Baiak": 28,
@@ -41385,7 +41384,7 @@
           "End Zeus": 36,
           "Friedrich Merz": 62,
           "Gokuu": 51,
-          "Guidao Palao": 46,
+          "Guidao Palao": 47,
           "Hao Asakura": 32,
           "Henrique": 52,
           "Heroes Baiak": 28,
@@ -46125,6 +46124,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 08:37 (Brasília)",
           "hour_key": "2026-07-14-08"
+        },
+        {
+          "name": "Guidao Palao",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 09:37 (Brasília)",
+          "hour_key": "2026-07-14-09"
         }
       ]
     },
@@ -49423,11 +49429,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2931,
-      "resets_today": 3,
-      "resets_week": 101,
+      "total_current": 2932,
+      "resets_today": 4,
+      "resets_week": 102,
       "resets_month": 0,
-      "resets_lifetime": 110,
+      "resets_lifetime": 111,
       "avg_per_player": 39.6
     },
     "enemy_guild": {
