@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 15:38 (Brasília)",
+  "updated_at": "14/07/2026 às 15:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 74,
-  "online_count": 49,
+  "total_members": 75,
+  "online_count": 50,
   "offline_count": 25,
   "members": [
     {
@@ -3427,6 +3427,16 @@
       "reset_history": []
     },
     {
+      "name": "Sorento Arrogante",
+      "level": 8,
+      "resets": 0,
+      "vocation": "Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Tsuru",
       "level": 879,
       "resets": 32,
@@ -4525,6 +4535,12 @@
           "value": 7,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Sorento Arrogante",
+          "value": 0,
+          "vocation": "Knight",
+          "online": true
         }
       ]
     },
@@ -5644,7 +5660,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 15:38 (Brasília)",
+    "updated_at": "14/07/2026 às 15:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28666,6 +28682,7 @@
         "Royal Luthons": 46,
         "Rp Terror": 33,
         "Sonzacrazy": 7,
+        "Sorento Arrogante": 0,
         "Tsuru": 32,
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 34,
@@ -41454,6 +41471,7 @@
           "Royal Luthons": 46,
           "Rp Terror": 33,
           "Sonzacrazy": 7,
+          "Sorento Arrogante": 0,
           "Tsuru": 32,
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 34,
@@ -49500,13 +49518,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 74,
+      "num_members": 75,
       "total_current": 2937,
       "resets_today": 9,
       "resets_week": 107,
       "resets_month": 0,
       "resets_lifetime": 108,
-      "avg_per_player": 39.7
+      "avg_per_player": 39.2
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
