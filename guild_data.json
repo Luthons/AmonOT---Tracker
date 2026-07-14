@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/07/2026 às 23:50 (Brasília)",
+  "updated_at": "13/07/2026 às 23:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -638,8 +638,8 @@
     },
     {
       "name": "Akronus",
-      "level": 1246,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -664,6 +664,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "13/07/2026 às 21:23 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "13/07/2026 às 23:51 (Brasília)"
         }
       ]
     },
@@ -3796,6 +3801,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 41,
       "resets_today": 1,
@@ -4301,15 +4314,15 @@
           "online": true
         },
         {
-          "name": "Dreenho Baiakeiro",
+          "name": "Akronus",
           "value": 42,
-          "vocation": "Elder Druid",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 41,
-          "vocation": "Master Sorcerer",
+          "name": "Dreenho Baiakeiro",
+          "value": 42,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4849,12 +4862,6 @@
         {
           "name": "Dmonick",
           "value": 1270,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1246,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5670,7 +5677,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/07/2026 às 23:50 (Brasília)",
+    "updated_at": "13/07/2026 às 23:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28617,7 +28624,7 @@
         "Adjr": 40,
         "Adolph Healer": 19,
         "Affey": 29,
-        "Akronus": 41,
+        "Akronus": 42,
         "Alba Baiakeiro": 53,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 55,
@@ -41380,7 +41387,7 @@
           "Adjr": 40,
           "Adolph Healer": 19,
           "Affey": 29,
-          "Akronus": 41,
+          "Akronus": 42,
           "Alba Baiakeiro": 53,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 55,
@@ -46304,6 +46311,13 @@
           "gained": 1,
           "timestamp": "13/07/2026 às 23:36 (Brasília)",
           "hour_key": "2026-07-13-23"
+        },
+        {
+          "name": "Akronus",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "13/07/2026 às 23:51 (Brasília)",
+          "hour_key": "2026-07-13-23"
         }
       ]
     },
@@ -49791,8 +49805,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2929,
-      "resets_today": 1,
+      "total_current": 2930,
+      "resets_today": 2,
       "resets_week": 100,
       "resets_month": 0,
       "resets_lifetime": 104,
