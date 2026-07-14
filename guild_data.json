@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 18:56 (Brasília)",
+  "updated_at": "14/07/2026 às 18:57 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -741,8 +741,8 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 2000,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -757,6 +757,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "12/07/2026 às 09:42 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 18:57 (Brasília)"
         }
       ]
     },
@@ -3790,6 +3795,14 @@
       "online": true
     },
     {
+      "name": "Baiakudinho",
+      "resets_total": 56,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Cerebro",
       "resets_total": 52,
       "resets_today": 1,
@@ -3867,14 +3880,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Baiakudinho",
-      "resets_total": 55,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4135,15 +4140,15 @@
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
+          "name": "Baiakudinho",
           "value": 56,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 55,
-          "vocation": "Royal Paladin",
+          "name": "Ynhaca Purah",
+          "value": 56,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4600,12 +4605,6 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5666,7 +5665,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 18:56 (Brasília)",
+    "updated_at": "14/07/2026 às 18:57 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28635,7 +28634,7 @@
         "Akronus": 42,
         "Alba Baiakeiro": 53,
         "Apreciador De Casadas": 37,
-        "Baiakudinho": 55,
+        "Baiakudinho": 56,
         "Black Reaper": 35,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
@@ -41430,7 +41429,7 @@
           "Akronus": 42,
           "Alba Baiakeiro": 53,
           "Apreciador De Casadas": 37,
-          "Baiakudinho": 55,
+          "Baiakudinho": 56,
           "Black Reaper": 35,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
@@ -46233,6 +46232,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 14:16 (Brasília)",
           "hour_key": "2026-07-14-14"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 18:57 (Brasília)",
+          "hour_key": "2026-07-14-18"
         }
       ]
     },
@@ -49531,11 +49537,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2937,
-      "resets_today": 9,
-      "resets_week": 107,
+      "total_current": 2938,
+      "resets_today": 10,
+      "resets_week": 108,
       "resets_month": 0,
-      "resets_lifetime": 106,
+      "resets_lifetime": 107,
       "avg_per_player": 39.2
     },
     "enemy_guild": {
