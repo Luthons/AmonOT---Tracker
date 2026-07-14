@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 11:53 (Brasília)",
+  "updated_at": "14/07/2026 às 11:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -3501,8 +3501,8 @@
     },
     {
       "name": "Xeipe",
-      "level": 1338,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3552,6 +3552,11 @@
           "resets": 28,
           "gained": 1,
           "timestamp": "12/07/2026 às 16:58 (Brasília)"
+        },
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 11:54 (Brasília)"
         }
       ]
     },
@@ -3765,6 +3770,14 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Xeipe",
+      "resets_total": 29,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4030,14 +4043,6 @@
       "resets_week": 1,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Xeipe",
-      "resets_total": 28,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Ynhaca Purah",
@@ -4405,16 +4410,16 @@
           "online": true
         },
         {
+          "name": "Xeipe",
+          "value": 29,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Heroes Baiak",
           "value": 28,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Xeipe",
-          "value": 28,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Charles",
@@ -4786,12 +4791,6 @@
           "name": "Loks",
           "value": 1370,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Xeipe",
-          "value": 1338,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5624,7 +5623,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 11:53 (Brasília)",
+    "updated_at": "14/07/2026 às 11:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28651,7 +28650,7 @@
         "Vinizerah On Amonot": 34,
         "Vitao The Trader": 21,
         "VukVuk": 50,
-        "Xeipe": 28,
+        "Xeipe": 29,
         "Ynhaca Purah": 56,
         "Zap Seco": 25
       },
@@ -41435,7 +41434,7 @@
           "Vinizerah On Amonot": 34,
           "Vitao The Trader": 21,
           "VukVuk": 50,
-          "Xeipe": 28,
+          "Xeipe": 29,
           "Ynhaca Purah": 56,
           "Zap Seco": 25
         }
@@ -46151,6 +46150,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 10:42 (Brasília)",
           "hour_key": "2026-07-14-10"
+        },
+        {
+          "name": "Xeipe",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 11:54 (Brasília)",
+          "hour_key": "2026-07-14-11"
         }
       ]
     },
@@ -49449,11 +49455,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2933,
-      "resets_today": 5,
-      "resets_week": 103,
+      "total_current": 2934,
+      "resets_today": 6,
+      "resets_week": 104,
       "resets_month": 0,
-      "resets_lifetime": 110,
+      "resets_lifetime": 111,
       "avg_per_player": 39.6
     },
     "enemy_guild": {
