@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 20:01 (Brasília)",
+  "updated_at": "14/07/2026 às 20:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -593,8 +593,8 @@
     },
     {
       "name": "Affey",
-      "level": 1234,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -668,6 +668,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "11/07/2026 às 20:37 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 20:04 (Brasília)"
         }
       ]
     },
@@ -4097,6 +4102,14 @@
       "online": true
     },
     {
+      "name": "Affey",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Akronus",
       "resets_total": 42,
       "resets_today": 1,
@@ -4191,14 +4204,6 @@
       "resets_week": 5,
       "vocation": "Elder Druid",
       "online": true
-    },
-    {
-      "name": "Affey",
-      "resets_total": 29,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": false
     },
     {
       "name": "Alba Baiakeiro",
@@ -4734,6 +4739,12 @@
           "online": false
         },
         {
+          "name": "Affey",
+          "value": 30,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Boingbringer",
           "value": 30,
           "vocation": "Master Sorcerer",
@@ -4744,12 +4755,6 @@
           "value": 30,
           "vocation": "Master Sorcerer",
           "online": true
-        },
-        {
-          "name": "Affey",
-          "value": 29,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Lotus Lothbrook",
@@ -5164,12 +5169,6 @@
           "value": 1278,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Affey",
-          "value": 1234,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Moskito",
@@ -5983,7 +5982,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 20:00 (Brasília)",
+    "updated_at": "14/07/2026 às 20:04 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28948,7 +28947,7 @@
         "Achilles": 18,
         "Adjr": 40,
         "Adolph Healer": 19,
-        "Affey": 29,
+        "Affey": 30,
         "Akronus": 42,
         "Alba Baiakeiro": 53,
         "Apreciador De Casadas": 37,
@@ -41747,7 +41746,7 @@
           "Achilles": 18,
           "Adjr": 40,
           "Adolph Healer": 19,
-          "Affey": 29,
+          "Affey": 30,
           "Akronus": 42,
           "Alba Baiakeiro": 53,
           "Apreciador De Casadas": 37,
@@ -46575,6 +46574,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 19:51 (Brasília)",
           "hour_key": "2026-07-14-19"
+        },
+        {
+          "name": "Affey",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 20:04 (Brasília)",
+          "hour_key": "2026-07-14-20"
         }
       ]
     },
@@ -49873,11 +49879,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2940,
-      "resets_today": 12,
-      "resets_week": 110,
+      "total_current": 2941,
+      "resets_today": 13,
+      "resets_week": 111,
       "resets_month": 0,
-      "resets_lifetime": 108,
+      "resets_lifetime": 109,
       "avg_per_player": 39.2
     },
     "enemy_guild": {
