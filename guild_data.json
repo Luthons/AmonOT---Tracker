@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 19:25 (Brasília)",
+  "updated_at": "14/07/2026 às 19:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -1992,8 +1992,8 @@
     },
     {
       "name": "Kev",
-      "level": 1424,
-      "resets": 26,
+      "level": 8,
+      "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2038,6 +2038,11 @@
           "resets": 26,
           "gained": 1,
           "timestamp": "11/07/2026 às 00:43 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 19:26 (Brasília)"
         }
       ]
     },
@@ -3819,6 +3824,14 @@
       "online": true
     },
     {
+      "name": "Kev",
+      "resets_total": 27,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 41,
       "resets_today": 1,
@@ -3951,14 +3964,6 @@
       "resets_total": 85,
       "resets_today": 0,
       "resets_week": 5,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kev",
-      "resets_total": 26,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4452,16 +4457,16 @@
           "online": false
         },
         {
+          "name": "Kev",
+          "value": 27,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Charles",
           "value": 26,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 26,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Mu Kina",
@@ -4810,12 +4815,6 @@
           "value": 1449,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 1424,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Ed farm",
@@ -5671,7 +5670,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 19:25 (Brasília)",
+    "updated_at": "14/07/2026 às 19:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28666,7 +28665,7 @@
         "Heroes Baiak": 28,
         "Its Gui": 43,
         "Jhonnys Trembolizado": 85,
-        "Kev": 26,
+        "Kev": 27,
         "Kiel": 61,
         "Kolwaski": 48,
         "Lilian Faithkeeper": 35,
@@ -41463,7 +41462,7 @@
           "Heroes Baiak": 28,
           "Its Gui": 43,
           "Jhonnys Trembolizado": 85,
-          "Kev": 26,
+          "Kev": 27,
           "Kiel": 61,
           "Kolwaski": 48,
           "Lilian Faithkeeper": 35,
@@ -46247,6 +46246,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 18:57 (Brasília)",
           "hour_key": "2026-07-14-18"
+        },
+        {
+          "name": "Kev",
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 19:26 (Brasília)",
+          "hour_key": "2026-07-14-19"
         }
       ]
     },
@@ -49545,11 +49551,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2938,
-      "resets_today": 10,
-      "resets_week": 108,
+      "total_current": 2939,
+      "resets_today": 11,
+      "resets_week": 109,
       "resets_month": 0,
-      "resets_lifetime": 106,
+      "resets_lifetime": 107,
       "avg_per_player": 39.2
     },
     "enemy_guild": {
