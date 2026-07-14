@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 20:24 (Brasília)",
+  "updated_at": "14/07/2026 às 20:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -2291,8 +2291,8 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 2053,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2367,6 +2367,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "10/07/2026 às 13:36 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 20:25 (Brasília)"
         }
       ]
     },
@@ -3858,6 +3863,14 @@
       "online": true
     },
     {
+      "name": "Lipe Knight",
+      "resets_total": 50,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 41,
       "resets_today": 1,
@@ -3999,14 +4012,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 49,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -4253,15 +4258,15 @@
           "online": true
         },
         {
-          "name": "VukVuk",
+          "name": "Lipe Knight",
           "value": 50,
-          "vocation": "Elder Druid",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Lipe Knight",
-          "value": 49,
-          "vocation": "Elite Knight",
+          "name": "VukVuk",
+          "value": 50,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4576,12 +4581,6 @@
       "name": "Level",
       "val_label": "Level",
       "entries": [
-        {
-          "name": "Lipe Knight",
-          "value": 2053,
-          "vocation": "Elite Knight",
-          "online": true
-        },
         {
           "name": "Dmonick",
           "value": 2003,
@@ -5694,7 +5693,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 20:24 (Brasília)",
+    "updated_at": "14/07/2026 às 20:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28693,7 +28692,7 @@
         "Kiel": 61,
         "Kolwaski": 48,
         "Lilian Faithkeeper": 35,
-        "Lipe Knight": 49,
+        "Lipe Knight": 50,
         "Loke": 54,
         "Loks": 35,
         "Lotus Lothbrook": 29,
@@ -41492,7 +41491,7 @@
           "Kiel": 61,
           "Kolwaski": 48,
           "Lilian Faithkeeper": 35,
-          "Lipe Knight": 49,
+          "Lipe Knight": 50,
           "Loke": 54,
           "Loks": 35,
           "Lotus Lothbrook": 29,
@@ -46293,6 +46292,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 20:04 (Brasília)",
           "hour_key": "2026-07-14-20"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 20:25 (Brasília)",
+          "hour_key": "2026-07-14-20"
         }
       ]
     },
@@ -49591,11 +49597,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2941,
-      "resets_today": 13,
-      "resets_week": 111,
+      "total_current": 2942,
+      "resets_today": 14,
+      "resets_week": 112,
       "resets_month": 0,
-      "resets_lifetime": 109,
+      "resets_lifetime": 110,
       "avg_per_player": 39.2
     },
     "enemy_guild": {
