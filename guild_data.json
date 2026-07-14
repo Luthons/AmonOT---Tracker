@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/07/2026 às 14:13 (Brasília)",
+  "updated_at": "14/07/2026 às 14:14 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 74,
@@ -1354,8 +1354,8 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 2000,
-      "resets": 47,
+      "level": 8,
+      "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1370,6 +1370,11 @@
           "resets": 47,
           "gained": 1,
           "timestamp": "09/07/2026 às 18:21 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 14:14 (Brasília)"
         }
       ]
     },
@@ -3783,6 +3788,14 @@
       "online": true
     },
     {
+      "name": "Dvn Luktzeraah",
+      "resets_total": 48,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Roginho",
       "resets_total": 41,
       "resets_today": 1,
@@ -3893,14 +3906,6 @@
       "resets_week": 2,
       "vocation": "Elder Druid",
       "online": true
-    },
-    {
-      "name": "Dvn Luktzeraah",
-      "resets_total": 47,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": false
     },
     {
       "name": "Elder Lougon",
@@ -4222,6 +4227,12 @@
           "online": true
         },
         {
+          "name": "Dvn Luktzeraah",
+          "value": 48,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Guidao Palao",
           "value": 48,
           "vocation": "Royal Paladin",
@@ -4232,12 +4243,6 @@
           "value": 48,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Dvn Luktzeraah",
-          "value": 47,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Ed farm",
@@ -4597,12 +4602,6 @@
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": false
-        },
-        {
-          "name": "Dvn Luktzeraah",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -5633,7 +5632,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/07/2026 às 14:13 (Brasília)",
+    "updated_at": "14/07/2026 às 14:14 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28614,7 +28613,7 @@
         "Diegao Barba": 52,
         "Dmonick": 54,
         "Dreenho Baiakeiro": 42,
-        "Dvn Luktzeraah": 47,
+        "Dvn Luktzeraah": 48,
         "Ed farm": 47,
         "Elder Lougon": 25,
         "Elder Luthons": 13,
@@ -41401,7 +41400,7 @@
           "Diegao Barba": 52,
           "Dmonick": 54,
           "Dreenho Baiakeiro": 42,
-          "Dvn Luktzeraah": 47,
+          "Dvn Luktzeraah": 48,
           "Ed farm": 47,
           "Elder Lougon": 25,
           "Elder Luthons": 13,
@@ -46184,6 +46183,13 @@
           "gained": 1,
           "timestamp": "14/07/2026 às 14:13 (Brasília)",
           "hour_key": "2026-07-14-14"
+        },
+        {
+          "name": "Dvn Luktzeraah",
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 14:14 (Brasília)",
+          "hour_key": "2026-07-14-14"
         }
       ]
     },
@@ -49482,11 +49488,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 74,
-      "total_current": 2936,
-      "resets_today": 8,
-      "resets_week": 106,
+      "total_current": 2937,
+      "resets_today": 9,
+      "resets_week": 107,
       "resets_month": 0,
-      "resets_lifetime": 109,
+      "resets_lifetime": 110,
       "avg_per_player": 39.7
     },
     "enemy_guild": {
