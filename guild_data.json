@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/07/2026 às 18:58 (Brasília)",
+  "updated_at": "15/07/2026 às 18:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
-  "online_count": 48,
-  "offline_count": 27,
+  "online_count": 49,
+  "offline_count": 26,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -471,7 +471,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 5,
@@ -557,7 +557,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 17,
@@ -1358,7 +1358,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 1549,
+      "level": 1589,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1532,7 +1532,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 37,
@@ -1980,7 +1980,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 20,
@@ -3135,7 +3135,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 23,
@@ -3706,7 +3706,7 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Akronus",
@@ -3762,7 +3762,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Alba Baiakeiro",
@@ -3850,7 +3850,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Gokuu",
@@ -3882,7 +3882,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Kiel",
@@ -4251,7 +4251,7 @@
           "name": "End Zeus",
           "value": 37,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Black Reaper",
@@ -4317,7 +4317,7 @@
           "name": "Affey",
           "value": 31,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lougon Baiakeiro",
@@ -4335,7 +4335,7 @@
           "name": "Pestinha",
           "value": 31,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Ritoff Elite",
@@ -4377,7 +4377,7 @@
           "name": "Kev",
           "value": 27,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Red Hahaha",
@@ -4437,7 +4437,7 @@
           "name": "Adolph Healer",
           "value": 19,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Achilles",
@@ -4677,7 +4677,13 @@
           "name": "Pestinha",
           "value": 1605,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
+        },
+        {
+          "name": "Dvn Luktzeraah",
+          "value": 1589,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Magabela",
@@ -4702,12 +4708,6 @@
           "value": 1563,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Dvn Luktzeraah",
-          "value": 1549,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Dreenho Baiakeiro",
@@ -4761,7 +4761,7 @@
           "name": "Adolph Healer",
           "value": 1333,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -4851,7 +4851,7 @@
           "name": "End Zeus",
           "value": 968,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Sonzacrazy",
@@ -4881,13 +4881,13 @@
           "name": "Affey",
           "value": 939,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Kev",
           "value": 927,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Hao Asakura",
@@ -5593,7 +5593,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/07/2026 às 18:58 (Brasília)",
+    "updated_at": "15/07/2026 às 18:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
