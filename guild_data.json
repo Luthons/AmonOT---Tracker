@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/07/2026 às 09:28 (Brasília)",
+  "updated_at": "15/07/2026 às 09:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
-  "online_count": 47,
-  "offline_count": 28,
+  "online_count": 46,
+  "offline_count": 29,
   "members": [
     {
       "name": "Esfi Hahaha",
@@ -1558,7 +1558,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 43,
@@ -3391,8 +3391,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 2000,
-      "resets": 34,
+      "level": 8,
+      "resets": 35,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -3422,6 +3422,11 @@
           "resets": 34,
           "gained": 1,
           "timestamp": "10/07/2026 às 08:36 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "15/07/2026 às 09:29 (Brasília)"
         }
       ]
     },
@@ -3715,6 +3720,14 @@
       "online": true
     },
     {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 35,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Maguinn Hahaha",
       "resets_total": 51,
       "resets_today": 0,
@@ -3832,7 +3845,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Guidao Palao",
@@ -3968,14 +3981,6 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 34,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -4127,7 +4132,7 @@
           "name": "Gokuu",
           "value": 51,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Punish Claude",
@@ -4268,16 +4273,16 @@
           "online": false
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 35,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Owsborn",
           "value": 34,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 34,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Rp Terror",
@@ -4574,12 +4579,6 @@
           "online": true
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -4667,7 +4666,7 @@
           "name": "Gokuu",
           "value": 1570,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Mu Baiakeiro",
@@ -5583,7 +5582,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/07/2026 às 09:28 (Brasília)",
+    "updated_at": "15/07/2026 às 09:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28608,7 +28607,7 @@
         "Sorento Arrogante": 0,
         "Tsuru": 32,
         "Ultimate Warrior": 25,
-        "Vinizerah On Amonot": 34,
+        "Vinizerah On Amonot": 35,
         "Vitao The Trader": 21,
         "VukVuk": 50,
         "Xeipe": 29,
@@ -41421,7 +41420,7 @@
           "Sorento Arrogante": 0,
           "Tsuru": 32,
           "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 34,
+          "Vinizerah On Amonot": 35,
           "Vitao The Trader": 21,
           "VukVuk": 50,
           "Xeipe": 29,
@@ -45979,6 +45978,13 @@
           "gained": 1,
           "timestamp": "15/07/2026 às 00:01 (Brasília)",
           "hour_key": "2026-07-15-00"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "15/07/2026 às 09:29 (Brasília)",
+          "hour_key": "2026-07-15-09"
         }
       ]
     },
@@ -49116,11 +49122,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2948,
-      "resets_today": 4,
-      "resets_week": 96,
+      "total_current": 2949,
+      "resets_today": 5,
+      "resets_week": 97,
       "resets_month": 0,
-      "resets_lifetime": 107,
+      "resets_lifetime": 108,
       "avg_per_player": 39.3
     },
     "enemy_guild": {
