@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/07/2026 às 15:08 (Brasília)",
+  "updated_at": "16/07/2026 às 15:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -269,7 +269,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1327,
+      "level": 1334,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -689,7 +689,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1558,
+      "level": 1698,
       "resets": 54,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1613,7 +1613,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1712,
+      "level": 1728,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1857,7 +1857,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1125,
+      "level": 1141,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2091,7 +2091,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1885,
+      "level": 1889,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2258,7 +2258,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1792,
+      "level": 1794,
       "resets": 50,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2467,7 +2467,7 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 1521,
+      "level": 1528,
       "resets": 31,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2549,7 +2549,7 @@
     },
     {
       "name": "Magabela",
-      "level": 8,
+      "level": 740,
       "resets": 53,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3165,7 +3165,7 @@
     },
     {
       "name": "Red Hahaha",
-      "level": 1313,
+      "level": 1319,
       "resets": 27,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3222,7 +3222,7 @@
     },
     {
       "name": "Roginho",
-      "level": 1150,
+      "level": 1170,
       "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4578,7 +4578,7 @@
         },
         {
           "name": "Kolwaski",
-          "value": 1885,
+          "value": 1889,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4602,7 +4602,7 @@
         },
         {
           "name": "Lipe Knight",
-          "value": 1792,
+          "value": 1794,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4632,7 +4632,7 @@
         },
         {
           "name": "Guidao Palao",
-          "value": 1712,
+          "value": 1728,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4640,6 +4640,12 @@
           "name": "Melbiss",
           "value": 1710,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "value": 1698,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4679,12 +4685,6 @@
           "online": false
         },
         {
-          "name": "Alba Baiakeiro",
-          "value": 1558,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Dreenho Baiakeiro",
           "value": 1543,
           "vocation": "Elder Druid",
@@ -4692,7 +4692,7 @@
         },
         {
           "name": "Lougon Baiakeiro",
-          "value": 1521,
+          "value": 1528,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4722,7 +4722,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 1327,
+          "value": 1334,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4733,16 +4733,16 @@
           "online": true
         },
         {
+          "name": "Red Hahaha",
+          "value": 1319,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "End Zeus",
           "value": 1317,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Red Hahaha",
-          "value": 1313,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -4763,20 +4763,20 @@
           "online": true
         },
         {
+          "name": "Roginho",
+          "value": 1170,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Moskito",
           "value": 1164,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Roginho",
-          "value": 1150,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Its Gui",
-          "value": 1125,
+          "value": 1141,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4857,6 +4857,12 @@
           "value": 826,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Magabela",
+          "value": 740,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Elder Luthons",
@@ -5556,7 +5562,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/07/2026 às 15:08 (Brasília)",
+    "updated_at": "16/07/2026 às 15:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
