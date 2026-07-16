@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/07/2026 às 22:00 (Brasília)",
+  "updated_at": "15/07/2026 às 22:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -684,8 +684,8 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1989,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -730,6 +730,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "13/07/2026 às 17:31 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "15/07/2026 às 22:01 (Brasília)"
         }
       ]
     },
@@ -3741,9 +3746,9 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "resets_total": 53,
+      "resets_total": 54,
       "resets_today": 0,
-      "resets_week": 2,
+      "resets_week": 3,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -4079,6 +4084,12 @@
           "online": true
         },
         {
+          "name": "Alba Baiakeiro",
+          "value": 54,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 54,
           "vocation": "Master Sorcerer",
@@ -4089,12 +4100,6 @@
           "value": 54,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "value": 53,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Monstro Das Criptos",
@@ -4593,12 +4598,6 @@
           "value": 1994,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "value": 1989,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Monstro Das Criptos",
@@ -5586,7 +5585,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/07/2026 às 22:00 (Brasília)",
+    "updated_at": "15/07/2026 às 22:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28553,7 +28552,7 @@
         "Adolph Healer": 20,
         "Affey": 31,
         "Akronus": 43,
-        "Alba Baiakeiro": 53,
+        "Alba Baiakeiro": 54,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
         "Black Reaper": 35,
@@ -41379,7 +41378,7 @@
           "Adolph Healer": 20,
           "Affey": 31,
           "Akronus": 43,
-          "Alba Baiakeiro": 53,
+          "Alba Baiakeiro": 54,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
           "Black Reaper": 35,
@@ -46030,6 +46029,13 @@
           "gained": 1,
           "timestamp": "15/07/2026 às 21:54 (Brasília)",
           "hour_key": "2026-07-15-21"
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "15/07/2026 às 22:01 (Brasília)",
+          "hour_key": "2026-07-15-22"
         }
       ]
     },
@@ -49167,9 +49173,9 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2953,
+      "total_current": 2954,
       "resets_today": 0,
-      "resets_week": 86,
+      "resets_week": 87,
       "resets_month": 0,
       "resets_lifetime": 100,
       "avg_per_player": 39.4
