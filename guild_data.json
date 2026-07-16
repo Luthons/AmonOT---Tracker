@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/07/2026 às 16:27 (Brasília)",
+  "updated_at": "16/07/2026 às 16:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 75,
@@ -269,8 +269,8 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1394,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -365,6 +365,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "16/07/2026 às 02:51 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 16:28 (Brasília)"
         }
       ]
     },
@@ -3668,9 +3673,9 @@
   "resets_today": [
     {
       "name": "Teylera Rp",
-      "resets_total": 59,
-      "resets_today": 1,
-      "resets_week": 1,
+      "resets_total": 60,
+      "resets_today": 2,
+      "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4024,13 +4029,13 @@
           "online": true
         },
         {
-          "name": "Esfi Hahaha",
-          "value": 59,
+          "name": "Teylera Rp",
+          "value": 60,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Teylera Rp",
+          "name": "Esfi Hahaha",
           "value": 59,
           "vocation": "Royal Paladin",
           "online": true
@@ -4706,12 +4711,6 @@
           "value": 1406,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 1394,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -5561,7 +5560,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/07/2026 às 16:27 (Brasília)",
+    "updated_at": "16/07/2026 às 16:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28531,7 +28530,7 @@
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 51,
         "Punish Claude": 50,
-        "Teylera Rp": 59,
+        "Teylera Rp": 60,
         "Achilles": 18,
         "Adjr": 40,
         "Adolph Healer": 20,
@@ -41372,7 +41371,7 @@
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 51,
           "Punish Claude": 50,
-          "Teylera Rp": 59,
+          "Teylera Rp": 60,
           "Achilles": 18,
           "Adjr": 40,
           "Adolph Healer": 20,
@@ -45931,6 +45930,13 @@
           "gained": 1,
           "timestamp": "16/07/2026 às 16:25 (Brasília)",
           "hour_key": "2026-07-16-16"
+        },
+        {
+          "name": "Teylera Rp",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 16:28 (Brasília)",
+          "hour_key": "2026-07-16-16"
         }
       ]
     },
@@ -48886,11 +48892,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 75,
-      "total_current": 2962,
-      "resets_today": 8,
-      "resets_week": 94,
+      "total_current": 2963,
+      "resets_today": 9,
+      "resets_week": 95,
       "resets_month": 0,
-      "resets_lifetime": 98,
+      "resets_lifetime": 99,
       "avg_per_player": 39.5
     },
     "enemy_guild": {
