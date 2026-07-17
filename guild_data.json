@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/07/2026 às 21:39 (Brasília)",
+  "updated_at": "16/07/2026 às 21:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 76,
@@ -3451,8 +3451,8 @@
     },
     {
       "name": "Vitao The Trader",
-      "level": 1200,
-      "resets": 21,
+      "level": 8,
+      "resets": 22,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3462,6 +3462,11 @@
           "resets": 21,
           "gained": 1,
           "timestamp": "08/07/2026 às 22:54 (Brasília)"
+        },
+        {
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 21:40 (Brasília)"
         }
       ]
     },
@@ -3782,6 +3787,14 @@
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Vitao The Trader",
+      "resets_total": 22,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -4447,7 +4460,7 @@
         },
         {
           "name": "Vitao The Trader",
-          "value": 21,
+          "value": 22,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4797,12 +4810,6 @@
           "name": "Its Gui",
           "value": 1229,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Vitao The Trader",
-          "value": 1200,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5617,7 +5624,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/07/2026 às 21:39 (Brasília)",
+    "updated_at": "16/07/2026 às 21:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28653,7 +28660,7 @@
         "Tsuru": 32,
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 35,
-        "Vitao The Trader": 21,
+        "Vitao The Trader": 22,
         "VukVuk": 50,
         "Xeipe": 29,
         "Ynhaca Purah": 56,
@@ -41505,7 +41512,7 @@
           "Tsuru": 32,
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 35,
-          "Vitao The Trader": 21,
+          "Vitao The Trader": 22,
           "VukVuk": 50,
           "Xeipe": 29,
           "Ynhaca Purah": 56,
@@ -46027,6 +46034,13 @@
           "gained": 1,
           "timestamp": "16/07/2026 às 20:02 (Brasília)",
           "hour_key": "2026-07-16-20"
+        },
+        {
+          "name": "Vitao The Trader",
+          "resets": 22,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 21:40 (Brasília)",
+          "hour_key": "2026-07-16-21"
         }
       ]
     },
@@ -48982,12 +48996,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 76,
-      "total_current": 3028,
-      "resets_today": 12,
-      "resets_week": 98,
+      "total_current": 3029,
+      "resets_today": 13,
+      "resets_week": 99,
       "resets_month": 0,
-      "resets_lifetime": 98,
-      "avg_per_player": 39.8
+      "resets_lifetime": 99,
+      "avg_per_player": 39.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
