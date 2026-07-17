@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/07/2026 às 22:41 (Brasília)",
+  "updated_at": "16/07/2026 às 22:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 76,
@@ -3533,8 +3533,8 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3574,6 +3574,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "08/07/2026 às 08:11 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 22:42 (Brasília)"
         }
       ]
     },
@@ -3991,9 +3996,9 @@
     },
     {
       "name": "Ynhaca Purah",
-      "resets_total": 56,
+      "resets_total": 57,
       "resets_today": 0,
-      "resets_week": 1,
+      "resets_week": 2,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -4061,15 +4066,15 @@
           "online": false
         },
         {
-          "name": "Baiakudinho",
-          "value": 56,
-          "vocation": "Royal Paladin",
+          "name": "Ynhaca Purah",
+          "value": 57,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
+          "name": "Baiakudinho",
           "value": 56,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4574,12 +4579,6 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5598,7 +5597,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/07/2026 às 22:41 (Brasília)",
+    "updated_at": "16/07/2026 às 22:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28637,7 +28636,7 @@
         "Vitao The Trader": 22,
         "VukVuk": 50,
         "Xeipe": 29,
-        "Ynhaca Purah": 56,
+        "Ynhaca Purah": 57,
         "Zap Seco": 25
       },
       "snapshots": {
@@ -41491,7 +41490,7 @@
           "Vitao The Trader": 22,
           "VukVuk": 50,
           "Xeipe": 29,
-          "Ynhaca Purah": 56,
+          "Ynhaca Purah": 57,
           "Zap Seco": 25
         }
       },
@@ -46017,6 +46016,13 @@
           "gained": 1,
           "timestamp": "16/07/2026 às 21:40 (Brasília)",
           "hour_key": "2026-07-16-21"
+        },
+        {
+          "name": "Ynhaca Purah",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "16/07/2026 às 22:42 (Brasília)",
+          "hour_key": "2026-07-16-22"
         }
       ]
     },
@@ -48972,11 +48978,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 76,
-      "total_current": 3029,
+      "total_current": 3030,
       "resets_today": 0,
-      "resets_week": 91,
+      "resets_week": 92,
       "resets_month": 0,
-      "resets_lifetime": 98,
+      "resets_lifetime": 99,
       "avg_per_player": 39.9
     },
     "enemy_guild": {
