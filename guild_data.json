@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/07/2026 às 16:47 (Brasília)",
+  "updated_at": "17/07/2026 às 16:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -638,8 +638,8 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1518,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -694,6 +694,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "16/07/2026 às 16:25 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 16:48 (Brasília)"
         }
       ]
     },
@@ -3610,6 +3615,14 @@
       "online": true
     },
     {
+      "name": "Alba Baiakeiro",
+      "resets_total": 56,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Cerebro",
       "resets_total": 53,
       "resets_today": 1,
@@ -3688,14 +3701,6 @@
       "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Alba Baiakeiro",
-      "resets_total": 55,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Baiakudinho",
@@ -3967,15 +3972,15 @@
           "online": true
         },
         {
-          "name": "Baiakudinho",
+          "name": "Alba Baiakeiro",
           "value": 56,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Alba Baiakeiro",
-          "value": 55,
-          "vocation": "Elder Druid",
+          "name": "Baiakudinho",
+          "value": 56,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4642,12 +4647,6 @@
           "name": "Roginho",
           "value": 1526,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "value": 1518,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -5522,7 +5521,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/07/2026 às 16:47 (Brasília)",
+    "updated_at": "17/07/2026 às 16:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28534,7 +28533,7 @@
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 45,
-        "Alba Baiakeiro": 55,
+        "Alba Baiakeiro": 56,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
         "Baunilha": 50,
@@ -41434,7 +41433,7 @@
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 45,
-          "Alba Baiakeiro": 55,
+          "Alba Baiakeiro": 56,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
           "Baunilha": 50,
@@ -45878,6 +45877,13 @@
           "gained": 1,
           "timestamp": "17/07/2026 às 14:42 (Brasília)",
           "hour_key": "2026-07-17-14"
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 16:48 (Brasília)",
+          "hour_key": "2026-07-17-16"
         }
       ]
     },
@@ -48623,11 +48629,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3126,
-      "resets_today": 5,
-      "resets_week": 97,
+      "total_current": 3127,
+      "resets_today": 6,
+      "resets_week": 98,
       "resets_month": 0,
-      "resets_lifetime": 92,
+      "resets_lifetime": 93,
       "avg_per_player": 40.1
     },
     "enemy_guild": {
