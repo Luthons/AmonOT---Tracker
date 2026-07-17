@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/07/2026 às 08:47 (Brasília)",
+  "updated_at": "17/07/2026 às 08:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 76,
@@ -1180,8 +1180,8 @@
     },
     {
       "name": "Dmonick",
-      "level": 2001,
-      "resets": 54,
+      "level": 8,
+      "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1266,6 +1266,11 @@
           "resets": 54,
           "gained": 1,
           "timestamp": "13/07/2026 às 16:57 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 08:48 (Brasília)"
         }
       ]
     },
@@ -3610,6 +3615,14 @@
       "online": true
     },
     {
+      "name": "Dmonick",
+      "resets_total": 55,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Red Hahaha",
       "resets_total": 29,
       "resets_today": 1,
@@ -3712,14 +3725,6 @@
       "resets_week": 1,
       "vocation": "Elite Knight",
       "online": false
-    },
-    {
-      "name": "Dmonick",
-      "resets_total": 54,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Dvn Luktzeraah",
@@ -3979,15 +3984,15 @@
           "online": true
         },
         {
-          "name": "Pally Tetss",
+          "name": "Dmonick",
           "value": 55,
-          "vocation": "Royal Paladin",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Dmonick",
-          "value": 54,
-          "vocation": "Master Sorcerer",
+          "name": "Pally Tetss",
+          "value": 55,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4390,12 +4395,6 @@
           "name": "Ultimate Warrior",
           "value": 2002,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 2001,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5498,7 +5497,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/07/2026 às 08:47 (Brasília)",
+    "updated_at": "17/07/2026 às 08:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28495,7 +28494,7 @@
         "Cheiro Dpneu": 41,
         "Deca com Testo": 32,
         "Diegao Barba": 52,
-        "Dmonick": 54,
+        "Dmonick": 55,
         "Dreenho Baiakeiro": 42,
         "Dvn Luktzeraah": 48,
         "Ed farm": 47,
@@ -41369,7 +41368,7 @@
           "Cheiro Dpneu": 41,
           "Deca com Testo": 32,
           "Diegao Barba": 52,
-          "Dmonick": 54,
+          "Dmonick": 55,
           "Dreenho Baiakeiro": 42,
           "Dvn Luktzeraah": 48,
           "Ed farm": 47,
@@ -45771,6 +45770,13 @@
           "gained": 1,
           "timestamp": "17/07/2026 às 02:26 (Brasília)",
           "hour_key": "2026-07-17-02"
+        },
+        {
+          "name": "Dmonick",
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 08:48 (Brasília)",
+          "hour_key": "2026-07-17-08"
         }
       ]
     },
@@ -48516,11 +48522,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 76,
-      "total_current": 3032,
-      "resets_today": 2,
-      "resets_week": 94,
+      "total_current": 3033,
+      "resets_today": 3,
+      "resets_week": 95,
       "resets_month": 0,
-      "resets_lifetime": 93,
+      "resets_lifetime": 94,
       "avg_per_player": 39.9
     },
     "enemy_guild": {
