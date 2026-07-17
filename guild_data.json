@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/07/2026 às 11:28 (Brasília)",
+  "updated_at": "17/07/2026 às 11:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -735,13 +735,19 @@
     },
     {
       "name": "Baunilha",
-      "level": 1226,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 11:29 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Black Reaper",
@@ -4019,6 +4025,12 @@
           "online": true
         },
         {
+          "name": "Baunilha",
+          "value": 50,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
@@ -4040,12 +4052,6 @@
           "name": "VukVuk",
           "value": 50,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 49,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4682,12 +4688,6 @@
           "name": "Akronus",
           "value": 1244,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 1226,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5484,7 +5484,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/07/2026 às 11:28 (Brasília)",
+    "updated_at": "17/07/2026 às 11:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28472,7 +28472,7 @@
         "Alba Baiakeiro": 55,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
-        "Baunilha": 49,
+        "Baunilha": 50,
         "Black Reaper": 35,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
@@ -41355,7 +41355,7 @@
           "Alba Baiakeiro": 55,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
-          "Baunilha": 49,
+          "Baunilha": 50,
           "Black Reaper": 35,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
@@ -45774,6 +45774,13 @@
           "gained": 1,
           "timestamp": "17/07/2026 às 08:48 (Brasília)",
           "hour_key": "2026-07-17-08"
+        },
+        {
+          "name": "Baunilha",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 11:29 (Brasília)",
+          "hour_key": "2026-07-17-11"
         }
       ]
     },
@@ -48519,7 +48526,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3082,
+      "total_current": 3083,
       "resets_today": 3,
       "resets_week": 95,
       "resets_month": 0,
