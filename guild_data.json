@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/07/2026 às 22:54 (Brasília)",
+  "updated_at": "17/07/2026 às 22:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -2346,8 +2346,8 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 2015,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2402,6 +2402,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "05/07/2026 às 20:34 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 22:55 (Brasília)"
         }
       ]
     },
@@ -3823,6 +3828,14 @@
       "online": true
     },
     {
+      "name": "Lotus Lothbrook",
+      "resets_total": 30,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lougon Baiakeiro",
       "resets_total": 31,
       "resets_today": 0,
@@ -4265,7 +4278,7 @@
         },
         {
           "name": "Lotus Lothbrook",
-          "value": 29,
+          "value": 30,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4386,12 +4399,6 @@
         {
           "name": "Kiel",
           "value": 2039,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 2015,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5519,7 +5526,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/07/2026 às 22:54 (Brasília)",
+    "updated_at": "17/07/2026 às 22:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28558,7 +28565,7 @@
         "Lipe Knight": 50,
         "Loke": 54,
         "Loks": 36,
-        "Lotus Lothbrook": 29,
+        "Lotus Lothbrook": 30,
         "Lougon Baiakeiro": 31,
         "Lukitas Brokenzada": 40,
         "Magabela": 53,
@@ -41477,7 +41484,7 @@
           "Lipe Knight": 50,
           "Loke": 54,
           "Loks": 36,
-          "Lotus Lothbrook": 29,
+          "Lotus Lothbrook": 30,
           "Lougon Baiakeiro": 31,
           "Lukitas Brokenzada": 40,
           "Magabela": 53,
@@ -45913,6 +45920,13 @@
           "gained": 1,
           "timestamp": "17/07/2026 às 22:06 (Brasília)",
           "hour_key": "2026-07-17-22"
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 22:55 (Brasília)",
+          "hour_key": "2026-07-17-22"
         }
       ]
     },
@@ -48658,11 +48672,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3130,
+      "total_current": 3131,
       "resets_today": 0,
-      "resets_week": 82,
+      "resets_week": 83,
       "resets_month": 0,
-      "resets_lifetime": 100,
+      "resets_lifetime": 101,
       "avg_per_player": 40.1
     },
     "enemy_guild": {
