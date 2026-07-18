@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/07/2026 às 13:46 (Brasília)",
+  "updated_at": "18/07/2026 às 13:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -602,8 +602,8 @@
     },
     {
       "name": "Akronus",
-      "level": 2000,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -652,6 +652,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "17/07/2026 às 01:16 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "18/07/2026 às 13:49 (Brasília)"
         }
       ]
     },
@@ -3855,6 +3860,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 8,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Dvn Luktzeraah",
       "resets_total": 50,
       "resets_today": 1,
@@ -3948,14 +3961,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 45,
-      "resets_today": 0,
-      "resets_week": 7,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -4338,6 +4343,12 @@
           "online": false
         },
         {
+          "name": "Akronus",
+          "value": 46,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Melbiss",
           "value": 46,
           "vocation": "Elite Knight",
@@ -4348,12 +4359,6 @@
           "value": 46,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Akronus",
-          "value": 45,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Its Gui",
@@ -4659,12 +4664,6 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5767,7 +5766,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/07/2026 às 13:45 (Brasília)",
+    "updated_at": "18/07/2026 às 13:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28769,7 +28768,7 @@
         "Adjr": 40,
         "Adolph Healer": 20,
         "Affey": 32,
-        "Akronus": 45,
+        "Akronus": 46,
         "Alba Baiakeiro": 56,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
@@ -41733,7 +41732,7 @@
           "Adjr": 40,
           "Adolph Healer": 20,
           "Affey": 32,
-          "Akronus": 45,
+          "Akronus": 46,
           "Alba Baiakeiro": 56,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
@@ -46066,6 +46065,13 @@
           "gained": 1,
           "timestamp": "18/07/2026 às 11:36 (Brasília)",
           "hour_key": "2026-07-18-11"
+        },
+        {
+          "name": "Akronus",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "18/07/2026 às 13:49 (Brasília)",
+          "hour_key": "2026-07-18-13"
         }
       ]
     },
@@ -48657,11 +48663,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3137,
-      "resets_today": 6,
-      "resets_week": 89,
+      "total_current": 3138,
+      "resets_today": 7,
+      "resets_week": 90,
       "resets_month": 0,
-      "resets_lifetime": 97,
+      "resets_lifetime": 98,
       "avg_per_player": 40.2
     },
     "enemy_guild": {
