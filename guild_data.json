@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/07/2026 às 09:58 (Brasília)",
+  "updated_at": "19/07/2026 às 09:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -2369,8 +2369,8 @@
     },
     {
       "name": "MekZera",
-      "level": 1050,
-      "resets": 44,
+      "level": 8,
+      "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2390,6 +2390,11 @@
           "resets": 44,
           "gained": 1,
           "timestamp": "18/07/2026 às 23:17 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 09:59 (Brasília)"
         }
       ]
     },
@@ -3362,6 +3367,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "MekZera",
+      "resets_total": 45,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Jhonnys Trembolizado",
       "resets_total": 88,
       "resets_today": 1,
@@ -3374,14 +3387,6 @@
       "resets_total": 36,
       "resets_today": 1,
       "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "MekZera",
-      "resets_total": 44,
-      "resets_today": 1,
-      "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -3849,15 +3854,15 @@
           "online": false
         },
         {
-          "name": "Its Gui",
-          "value": 44,
-          "vocation": "Elder Druid",
+          "name": "MekZera",
+          "value": 45,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "MekZera",
+          "name": "Its Gui",
           "value": 44,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4483,12 +4488,6 @@
           "value": 1055,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "MekZera",
-          "value": 1050,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Kev",
@@ -5254,7 +5253,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/07/2026 às 09:58 (Brasília)",
+    "updated_at": "19/07/2026 às 09:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28296,7 +28295,7 @@
         "Lougon Baiakeiro": 32,
         "Lukitas Brokenzada": 41,
         "Magabela": 53,
-        "MekZera": 44,
+        "MekZera": 45,
         "Melbiss": 46,
         "Monstro Das Criptos": 54,
         "Moskito": 25,
@@ -41246,7 +41245,7 @@
           "Lougon Baiakeiro": 32,
           "Lukitas Brokenzada": 41,
           "Magabela": 53,
-          "MekZera": 44,
+          "MekZera": 45,
           "Melbiss": 46,
           "Monstro Das Criptos": 54,
           "Moskito": 25,
@@ -45433,6 +45432,13 @@
           "gained": 1,
           "timestamp": "19/07/2026 às 08:46 (Brasília)",
           "hour_key": "2026-07-19-08"
+        },
+        {
+          "name": "MekZera",
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 09:59 (Brasília)",
+          "hour_key": "2026-07-19-09"
         }
       ]
     },
@@ -47814,12 +47820,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3091,
-      "resets_today": 3,
+      "total_current": 3092,
+      "resets_today": 4,
       "resets_week": 74,
       "resets_month": 0,
       "resets_lifetime": 85,
-      "avg_per_player": 40.1
+      "avg_per_player": 40.2
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
