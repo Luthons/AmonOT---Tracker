@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/07/2026 às 19:54 (Brasília)",
+  "updated_at": "19/07/2026 às 19:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -1906,8 +1906,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1041,
-      "resets": 36,
+      "level": 8,
+      "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2002,6 +2002,11 @@
           "resets": 36,
           "gained": 1,
           "timestamp": "19/07/2026 às 08:35 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 19:55 (Brasília)"
         }
       ]
     },
@@ -3382,6 +3387,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 37,
+      "resets_today": 2,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "MekZera",
       "resets_total": 45,
       "resets_today": 2,
@@ -3412,14 +3425,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 36,
-      "resets_today": 1,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Monstro Das Criptos",
@@ -3939,15 +3944,15 @@
           "online": false
         },
         {
-          "name": "Loks",
+          "name": "Lilian Faithkeeper",
           "value": 37,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 36,
-          "vocation": "Royal Paladin",
+          "name": "Loks",
+          "value": 37,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4518,12 +4523,6 @@
           "name": "Cheiro Dpneu",
           "value": 1047,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1041,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5284,7 +5283,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/07/2026 às 19:54 (Brasília)",
+    "updated_at": "19/07/2026 às 19:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28318,7 +28317,7 @@
         "Kev": 28,
         "Kiel": 61,
         "Kolwaski": 49,
-        "Lilian Faithkeeper": 36,
+        "Lilian Faithkeeper": 37,
         "Lipe Knight": 50,
         "Loke": 54,
         "Loks": 37,
@@ -41298,7 +41297,7 @@
           "Kev": 28,
           "Kiel": 61,
           "Kolwaski": 49,
-          "Lilian Faithkeeper": 36,
+          "Lilian Faithkeeper": 37,
           "Lipe Knight": 50,
           "Loke": 54,
           "Loks": 37,
@@ -45521,6 +45520,13 @@
           "gained": 1,
           "timestamp": "19/07/2026 às 19:12 (Brasília)",
           "hour_key": "2026-07-19-19"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 19:55 (Brasília)",
+          "hour_key": "2026-07-19-19"
         }
       ]
     },
@@ -47902,11 +47908,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3095,
-      "resets_today": 7,
-      "resets_week": 76,
+      "total_current": 3096,
+      "resets_today": 8,
+      "resets_week": 77,
       "resets_month": 0,
-      "resets_lifetime": 77,
+      "resets_lifetime": 78,
       "avg_per_player": 40.2
     },
     "enemy_guild": {
