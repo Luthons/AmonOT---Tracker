@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/07/2026 às 14:08 (Brasília)",
+  "updated_at": "19/07/2026 às 14:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -380,7 +380,7 @@
     },
     {
       "name": "Adolph Healer",
-      "level": 1205,
+      "level": 1208,
       "resets": 20,
       "vocation": "Elder Druid",
       "nick": "",
@@ -603,7 +603,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1652,
+      "level": 1664,
       "resets": 56,
       "vocation": "Elder Druid",
       "nick": "",
@@ -705,7 +705,7 @@
     },
     {
       "name": "Baunilha",
-      "level": 293,
+      "level": 821,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -903,7 +903,7 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 995,
+      "level": 1003,
       "resets": 41,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1014,7 +1014,7 @@
     },
     {
       "name": "Dmonick",
-      "level": 1912,
+      "level": 1935,
       "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1601,7 +1601,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1992,
+      "level": 2000,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2119,7 +2119,7 @@
     },
     {
       "name": "Loks",
-      "level": 1157,
+      "level": 1177,
       "resets": 37,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2206,7 +2206,7 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 1284,
+      "level": 1296,
       "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2379,7 +2379,7 @@
     },
     {
       "name": "MekZera",
-      "level": 898,
+      "level": 937,
       "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3213,7 +3213,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1819,
+      "level": 1833,
       "resets": 57,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4228,6 +4228,12 @@
           "online": true
         },
         {
+          "name": "Its Gui",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Lipe Knight",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -4294,14 +4300,8 @@
           "online": false
         },
         {
-          "name": "Its Gui",
-          "value": 1992,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Dmonick",
-          "value": 1912,
+          "value": 1935,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4313,7 +4313,7 @@
         },
         {
           "name": "Ynhaca Purah",
-          "value": 1819,
+          "value": 1833,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4349,7 +4349,7 @@
         },
         {
           "name": "Alba Baiakeiro",
-          "value": 1652,
+          "value": 1664,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4444,15 +4444,15 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1294,
-          "vocation": "Royal Paladin",
+          "name": "Lougon Baiakeiro",
+          "value": 1296,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Lougon Baiakeiro",
-          "value": 1284,
-          "vocation": "Master Sorcerer",
+          "name": "Gokuu",
+          "value": 1294,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4469,7 +4469,13 @@
         },
         {
           "name": "Adolph Healer",
-          "value": 1205,
+          "value": 1208,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Loks",
+          "value": 1177,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4478,12 +4484,6 @@
           "value": 1164,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Loks",
-          "value": 1157,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Vinizerah On Amonot",
@@ -4529,7 +4529,7 @@
         },
         {
           "name": "Cheiro Dpneu",
-          "value": 995,
+          "value": 1003,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4552,6 +4552,12 @@
           "online": false
         },
         {
+          "name": "MekZera",
+          "value": 937,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 934,
           "vocation": "Elder Druid",
@@ -4568,12 +4574,6 @@
           "value": 917,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "MekZera",
-          "value": 898,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Tsuru",
@@ -4594,6 +4594,12 @@
           "online": true
         },
         {
+          "name": "Baunilha",
+          "value": 821,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Luthons",
           "value": 733,
           "vocation": "Elder Druid",
@@ -4604,12 +4610,6 @@
           "value": 463,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Baunilha",
-          "value": 293,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Sorento Arrogante",
@@ -5285,7 +5285,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/07/2026 às 14:08 (Brasília)",
+    "updated_at": "19/07/2026 às 14:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
