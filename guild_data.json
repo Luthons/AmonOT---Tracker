@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/07/2026 às 23:16 (Brasília)",
+  "updated_at": "18/07/2026 às 23:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -2535,8 +2535,8 @@
     },
     {
       "name": "MekZera",
-      "level": 1210,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2551,6 +2551,11 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "18/07/2026 às 20:06 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "18/07/2026 às 23:17 (Brasília)"
         }
       ]
     },
@@ -3558,6 +3563,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "MekZera",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Gizao",
       "resets_total": 60,
       "resets_today": 0,
@@ -4050,7 +4063,7 @@
         },
         {
           "name": "MekZera",
-          "value": 43,
+          "value": 44,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4640,12 +4653,6 @@
           "name": "Akronus",
           "value": 1219,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "MekZera",
-          "value": 1210,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5454,7 +5461,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/07/2026 às 23:16 (Brasília)",
+    "updated_at": "18/07/2026 às 23:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28497,7 +28504,7 @@
         "Lougon Baiakeiro": 32,
         "Lukitas Brokenzada": 41,
         "Magabela": 53,
-        "MekZera": 43,
+        "MekZera": 44,
         "Melbiss": 46,
         "Monstro Das Criptos": 54,
         "Moskito": 25,
@@ -41417,7 +41424,7 @@
           "Lougon Baiakeiro": 32,
           "Lukitas Brokenzada": 41,
           "Magabela": 53,
-          "MekZera": 43,
+          "MekZera": 44,
           "Melbiss": 46,
           "Monstro Das Criptos": 54,
           "Moskito": 25,
@@ -45730,6 +45737,13 @@
           "gained": 1,
           "timestamp": "18/07/2026 às 20:06 (Brasília)",
           "hour_key": "2026-07-18-20"
+        },
+        {
+          "name": "MekZera",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "18/07/2026 às 23:17 (Brasília)",
+          "hour_key": "2026-07-18-23"
         }
       ]
     },
@@ -48321,8 +48335,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3140,
-      "resets_today": 0,
+      "total_current": 3141,
+      "resets_today": 1,
       "resets_week": 72,
       "resets_month": 0,
       "resets_lifetime": 88,
