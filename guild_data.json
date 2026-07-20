@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 03:09 (Brasília)",
+  "updated_at": "20/07/2026 às 03:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -532,7 +532,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1407,
+      "level": 1460,
       "resets": 47,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -802,7 +802,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1819,
+      "level": 1824,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -893,7 +893,7 @@
     },
     {
       "name": "Cheiro Dpneu",
-      "level": 1098,
+      "level": 1106,
       "resets": 41,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1126,7 +1126,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 1549,
+      "level": 1558,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1331,7 +1331,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 862,
+      "level": 924,
       "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1622,7 +1622,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1679,
+      "level": 1702,
       "resets": 88,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1693,7 +1693,7 @@
     },
     {
       "name": "Kev",
-      "level": 1299,
+      "level": 1308,
       "resets": 28,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2385,7 +2385,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1770,
+      "level": 1774,
       "resets": 46,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2436,7 +2436,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1457,
+      "level": 1487,
       "resets": 55,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3055,7 +3055,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1384,
+      "level": 1401,
       "resets": 36,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3132,7 +3132,7 @@
     },
     {
       "name": "Xeipe",
-      "level": 1752,
+      "level": 1755,
       "resets": 29,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -4245,7 +4245,7 @@
         },
         {
           "name": "Cerebro",
-          "value": 1819,
+          "value": 1824,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4263,8 +4263,14 @@
         },
         {
           "name": "Melbiss",
-          "value": 1770,
+          "value": 1774,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Xeipe",
+          "value": 1755,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4274,28 +4280,22 @@
           "online": false
         },
         {
-          "name": "Xeipe",
-          "value": 1752,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 1715,
           "vocation": "Master Sorcerer",
           "online": false
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1702,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 1689,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 1679,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Roginho",
@@ -4317,7 +4317,7 @@
         },
         {
           "name": "Dvn Luktzeraah",
-          "value": 1549,
+          "value": 1558,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4334,15 +4334,21 @@
           "online": true
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 1487,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Punish Claude",
           "value": 1463,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 1457,
-          "vocation": "Elder Druid",
+          "name": "Akronus",
+          "value": 1460,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4370,12 +4376,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 1407,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Ed farm",
           "value": 1406,
           "vocation": "Elder Druid",
@@ -4383,7 +4383,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1384,
+          "value": 1401,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4394,15 +4394,15 @@
           "online": false
         },
         {
-          "name": "Lipe Knight",
-          "value": 1300,
-          "vocation": "Elite Knight",
+          "name": "Kev",
+          "value": 1308,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Kev",
-          "value": 1299,
-          "vocation": "Royal Paladin",
+          "name": "Lipe Knight",
+          "value": 1300,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4431,7 +4431,7 @@
         },
         {
           "name": "Cheiro Dpneu",
-          "value": 1098,
+          "value": 1106,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4490,6 +4490,12 @@
           "online": false
         },
         {
+          "name": "Gokuu",
+          "value": 924,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Hao Asakura",
           "value": 919,
           "vocation": "Master Sorcerer",
@@ -4512,12 +4518,6 @@
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Gokuu",
-          "value": 862,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Elio Nervous",
@@ -5223,7 +5223,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 03:09 (Brasília)",
+    "updated_at": "20/07/2026 às 03:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
