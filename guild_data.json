@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 13:36 (Brasília)",
+  "updated_at": "20/07/2026 às 13:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -213,8 +213,8 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2004,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -269,6 +269,11 @@
           "resets": 60,
           "gained": 1,
           "timestamp": "16/07/2026 às 16:28 (Brasília)"
+        },
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 13:37 (Brasília)"
         }
       ]
     },
@@ -3385,6 +3390,14 @@
       "online": true
     },
     {
+      "name": "Teylera Rp",
+      "resets_total": 61,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 1,
@@ -3463,14 +3476,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Teylera Rp",
-      "resets_total": 60,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Adolph Healer",
@@ -3688,6 +3693,12 @@
           "online": true
         },
         {
+          "name": "Teylera Rp",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kiel",
           "value": 61,
           "vocation": "Royal Paladin",
@@ -3695,12 +3706,6 @@
         },
         {
           "name": "Gizao",
-          "value": 60,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teylera Rp",
           "value": 60,
           "vocation": "Royal Paladin",
           "online": true
@@ -4134,12 +4139,6 @@
         {
           "name": "Kiel",
           "value": 2039,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 2004,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -5261,7 +5260,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 13:36 (Brasília)",
+    "updated_at": "20/07/2026 às 13:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28231,7 +28230,7 @@
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 51,
         "Punish Claude": 51,
-        "Teylera Rp": 60,
+        "Teylera Rp": 61,
         "Achilles": 18,
         "Adjr": 40,
         "Adolph Healer": 20,
@@ -41265,7 +41264,7 @@
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 51,
           "Punish Claude": 51,
-          "Teylera Rp": 60,
+          "Teylera Rp": 61,
           "Achilles": 18,
           "Adjr": 40,
           "Adolph Healer": 20,
@@ -45490,6 +45489,13 @@
           "gained": 1,
           "timestamp": "20/07/2026 às 12:02 (Brasília)",
           "hour_key": "2026-07-20-12"
+        },
+        {
+          "name": "Teylera Rp",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 13:37 (Brasília)",
+          "hour_key": "2026-07-20-13"
         }
       ]
     },
@@ -47759,11 +47765,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3107,
-      "resets_today": 10,
-      "resets_week": 72,
+      "total_current": 3108,
+      "resets_today": 11,
+      "resets_week": 73,
       "resets_month": 0,
-      "resets_lifetime": 80,
+      "resets_lifetime": 81,
       "avg_per_player": 40.4
     },
     "enemy_guild": {
