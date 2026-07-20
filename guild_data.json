@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 00:16 (Brasília)",
+  "updated_at": "20/07/2026 às 00:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
-  "online_count": 40,
-  "offline_count": 37,
+  "online_count": 41,
+  "offline_count": 36,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -2139,16 +2139,12 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 2000,
-      "resets": 50,
+      "level": 8,
+      "resets": 51,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Jul 20, 2026, 00:01:21",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": true,
+      "online": true,
       "reset_history": [
         {
           "resets": 38,
@@ -2214,6 +2210,11 @@
           "resets": 50,
           "gained": 1,
           "timestamp": "14/07/2026 às 20:25 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 00:18 (Brasília)"
         }
       ]
     },
@@ -3648,6 +3649,14 @@
       "online": true
     },
     {
+      "name": "Lipe Knight",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Gizao",
       "resets_total": 60,
       "resets_today": 0,
@@ -3789,14 +3798,6 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": false
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 50,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
       "online": false
     },
     {
@@ -4043,6 +4044,12 @@
           "online": true
         },
         {
+          "name": "Lipe Knight",
+          "value": 51,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
@@ -4059,12 +4066,6 @@
           "value": 50,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 50,
-          "vocation": "Elite Knight",
-          "online": false
         },
         {
           "name": "VukVuk",
@@ -4461,12 +4462,6 @@
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": false
         },
         {
           "name": "Mu Kina",
@@ -5508,7 +5503,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 00:15 (Brasília)",
+    "updated_at": "20/07/2026 às 00:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28525,7 +28520,7 @@
         "Kiel": 61,
         "Kolwaski": 49,
         "Lilian Faithkeeper": 37,
-        "Lipe Knight": 50,
+        "Lipe Knight": 51,
         "Loke": 54,
         "Loks": 37,
         "Lotus Lothbrook": 30,
@@ -41520,7 +41515,7 @@
           "Kiel": 61,
           "Kolwaski": 49,
           "Lilian Faithkeeper": 37,
-          "Lipe Knight": 50,
+          "Lipe Knight": 51,
           "Loke": 54,
           "Loks": 37,
           "Lotus Lothbrook": 30,
@@ -45644,6 +45639,13 @@
           "gained": 1,
           "timestamp": "19/07/2026 às 23:03 (Brasília)",
           "hour_key": "2026-07-19-23"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 00:18 (Brasília)",
+          "hour_key": "2026-07-20-00"
         }
       ]
     },
@@ -47913,11 +47915,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3098,
-      "resets_today": 1,
-      "resets_week": 64,
+      "total_current": 3099,
+      "resets_today": 2,
+      "resets_week": 65,
       "resets_month": 0,
-      "resets_lifetime": 75,
+      "resets_lifetime": 76,
       "avg_per_player": 40.2
     },
     "enemy_guild": {
