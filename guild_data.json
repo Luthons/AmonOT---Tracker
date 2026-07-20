@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 03:08 (Brasília)",
+  "updated_at": "20/07/2026 às 03:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -593,7 +593,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1803,
+      "level": 1813,
       "resets": 56,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1300,7 +1300,7 @@
     },
     {
       "name": "End Zeus",
-      "level": 943,
+      "level": 971,
       "resets": 38,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1800,7 +1800,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 864,
+      "level": 893,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1972,7 +1972,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1294,
+      "level": 1300,
       "resets": 51,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2089,7 +2089,7 @@
     },
     {
       "name": "Loks",
-      "level": 1502,
+      "level": 1510,
       "resets": 37,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2176,7 +2176,7 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 1440,
+      "level": 1449,
       "resets": 32,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2349,7 +2349,7 @@
     },
     {
       "name": "MekZera",
-      "level": 679,
+      "level": 804,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3183,7 +3183,7 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1986,
+      "level": 1997,
       "resets": 57,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -4226,16 +4226,16 @@
           "online": true
         },
         {
+          "name": "Ynhaca Purah",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Loke",
           "value": 1994,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 1986,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Pestinha",
@@ -4251,7 +4251,7 @@
         },
         {
           "name": "Alba Baiakeiro",
-          "value": 1803,
+          "value": 1813,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4329,7 +4329,7 @@
         },
         {
           "name": "Loks",
-          "value": 1502,
+          "value": 1510,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4353,7 +4353,7 @@
         },
         {
           "name": "Lougon Baiakeiro",
-          "value": 1440,
+          "value": 1449,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4394,15 +4394,15 @@
           "online": false
         },
         {
-          "name": "Kev",
-          "value": 1299,
-          "vocation": "Royal Paladin",
+          "name": "Lipe Knight",
+          "value": 1300,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Lipe Knight",
-          "value": 1294,
-          "vocation": "Elite Knight",
+          "name": "Kev",
+          "value": 1299,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4460,6 +4460,12 @@
           "online": false
         },
         {
+          "name": "End Zeus",
+          "value": 971,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Sonzacrazy",
           "value": 967,
           "vocation": "Elder Druid",
@@ -4476,12 +4482,6 @@
           "value": 951,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "End Zeus",
-          "value": 943,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Lukitas Brokenzada",
@@ -4502,16 +4502,16 @@
           "online": false
         },
         {
+          "name": "Kolwaski",
+          "value": 893,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 879,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 864,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Gokuu",
@@ -4538,16 +4538,16 @@
           "online": false
         },
         {
+          "name": "MekZera",
+          "value": 804,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Luthons",
           "value": 733,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "MekZera",
-          "value": 679,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Sorento Arrogante",
@@ -5223,7 +5223,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 03:08 (Brasília)",
+    "updated_at": "20/07/2026 às 03:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
