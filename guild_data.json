@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 19:37 (Brasília)",
+  "updated_at": "20/07/2026 às 19:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -817,8 +817,8 @@
     },
     {
       "name": "Cerebro",
-      "level": 1939,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -893,6 +893,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "17/07/2026 às 13:39 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 19:38 (Brasília)"
         }
       ]
     },
@@ -3457,6 +3462,14 @@
       "online": true
     },
     {
+      "name": "Cerebro",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 1,
@@ -3582,14 +3595,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Cerebro",
-      "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -3796,6 +3801,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 54,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Gokuu",
           "value": 54,
           "vocation": "Royal Paladin",
@@ -3811,12 +3822,6 @@
           "name": "Magabela",
           "value": 54,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 53,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4304,12 +4309,6 @@
           "value": 1994,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Cerebro",
-          "value": 1939,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Xeipe",
@@ -5297,7 +5296,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 19:37 (Brasília)",
+    "updated_at": "20/07/2026 às 19:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28272,7 +28271,7 @@
         "Boingbringer": 30,
         "Brunao Rei Denovo": 30,
         "Brunaobringer": 50,
-        "Cerebro": 53,
+        "Cerebro": 54,
         "Charles": 26,
         "Cheiro Dpneu": 41,
         "Deca com Testo": 32,
@@ -41324,7 +41323,7 @@
           "Boingbringer": 30,
           "Brunao Rei Denovo": 30,
           "Brunaobringer": 50,
-          "Cerebro": 53,
+          "Cerebro": 54,
           "Charles": 26,
           "Cheiro Dpneu": 41,
           "Deca com Testo": 32,
@@ -45591,6 +45590,13 @@
           "gained": 1,
           "timestamp": "20/07/2026 às 19:35 (Brasília)",
           "hour_key": "2026-07-20-19"
+        },
+        {
+          "name": "Cerebro",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 19:38 (Brasília)",
+          "hour_key": "2026-07-20-19"
         }
       ]
     },
@@ -47860,11 +47866,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3115,
-      "resets_today": 18,
-      "resets_week": 79,
+      "total_current": 3116,
+      "resets_today": 19,
+      "resets_week": 80,
       "resets_month": 0,
-      "resets_lifetime": 81,
+      "resets_lifetime": 82,
       "avg_per_player": 40.5
     },
     "enemy_guild": {
