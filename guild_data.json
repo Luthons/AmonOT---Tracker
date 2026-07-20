@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/07/2026 às 23:02 (Brasília)",
+  "updated_at": "19/07/2026 às 23:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -1330,8 +1330,8 @@
     },
     {
       "name": "End Zeus",
-      "level": 1735,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1341,6 +1341,11 @@
           "resets": 37,
           "gained": 1,
           "timestamp": "14/07/2026 às 19:51 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 23:03 (Brasília)"
         }
       ]
     },
@@ -3392,6 +3397,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "End Zeus",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Gizao",
       "resets_total": 60,
       "resets_today": 0,
@@ -3477,14 +3490,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "End Zeus",
-      "resets_total": 37,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -3897,16 +3902,16 @@
           "online": false
         },
         {
+          "name": "End Zeus",
+          "value": 38,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 37,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "End Zeus",
-          "value": 37,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -4320,12 +4325,6 @@
           "name": "Xeipe",
           "value": 1742,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "End Zeus",
-          "value": 1735,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5260,7 +5259,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/07/2026 às 23:02 (Brasília)",
+    "updated_at": "19/07/2026 às 23:03 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28273,7 +28272,7 @@
         "Elder Lougon": 25,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
-        "End Zeus": 37,
+        "End Zeus": 38,
         "Friedrich Merz": 62,
         "Gokuu": 53,
         "Guidao Palao": 50,
@@ -41265,7 +41264,7 @@
           "Elder Lougon": 25,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
-          "End Zeus": 37,
+          "End Zeus": 38,
           "Friedrich Merz": 62,
           "Gokuu": 53,
           "Guidao Palao": 50,
@@ -45514,6 +45513,13 @@
           "gained": 1,
           "timestamp": "19/07/2026 às 21:54 (Brasília)",
           "hour_key": "2026-07-19-21"
+        },
+        {
+          "name": "End Zeus",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 23:03 (Brasília)",
+          "hour_key": "2026-07-19-23"
         }
       ]
     },
@@ -47895,11 +47901,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3097,
-      "resets_today": 0,
-      "resets_week": 63,
+      "total_current": 3098,
+      "resets_today": 1,
+      "resets_week": 64,
       "resets_month": 0,
-      "resets_lifetime": 74,
+      "resets_lifetime": 75,
       "avg_per_player": 40.2
     },
     "enemy_guild": {
