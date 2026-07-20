@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/07/2026 às 21:07 (Brasília)",
+  "updated_at": "19/07/2026 às 21:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -385,7 +385,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 5,
@@ -476,7 +476,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 20,
@@ -3472,7 +3472,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": true
+      "online": false
     },
     {
       "name": "Affey",
@@ -3480,7 +3480,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Akronus",
@@ -3989,7 +3989,7 @@
           "name": "Affey",
           "value": 32,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Deca com Testo",
@@ -4127,7 +4127,7 @@
           "name": "Adolph Healer",
           "value": 20,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Achilles",
@@ -4481,13 +4481,13 @@
           "name": "Affey",
           "value": 1235,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Adolph Healer",
           "value": 1230,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Moskito",
@@ -5295,7 +5295,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/07/2026 às 21:07 (Brasília)",
+    "updated_at": "19/07/2026 às 21:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
