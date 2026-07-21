@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/07/2026 às 22:54 (Brasília)",
+  "updated_at": "20/07/2026 às 22:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -1325,8 +1325,8 @@
     },
     {
       "name": "End Zeus",
-      "level": 1077,
-      "resets": 40,
+      "level": 8,
+      "resets": 41,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1351,6 +1351,11 @@
           "resets": 40,
           "gained": 1,
           "timestamp": "20/07/2026 às 15:39 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 22:55 (Brasília)"
         }
       ]
     },
@@ -3503,9 +3508,9 @@
     },
     {
       "name": "End Zeus",
-      "resets_total": 40,
+      "resets_total": 41,
       "resets_today": 0,
-      "resets_week": 3,
+      "resets_week": 4,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -3907,6 +3912,12 @@
           "online": false
         },
         {
+          "name": "End Zeus",
+          "value": 41,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 41,
           "vocation": "Elder Druid",
@@ -3917,12 +3928,6 @@
           "value": 40,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "End Zeus",
-          "value": 40,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Loks",
@@ -4479,12 +4484,6 @@
         {
           "name": "Dmonick",
           "value": 1142,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "End Zeus",
-          "value": 1077,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5282,7 +5281,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/07/2026 às 22:54 (Brasília)",
+    "updated_at": "20/07/2026 às 22:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28268,7 +28267,7 @@
         "Elder Lougon": 25,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
-        "End Zeus": 40,
+        "End Zeus": 41,
         "Friedrich Merz": 62,
         "Gokuu": 54,
         "Guidao Palao": 51,
@@ -41329,7 +41328,7 @@
           "Elder Lougon": 25,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
-          "End Zeus": 40,
+          "End Zeus": 41,
           "Friedrich Merz": 62,
           "Gokuu": 54,
           "Guidao Palao": 51,
@@ -45592,6 +45591,13 @@
           "gained": 1,
           "timestamp": "20/07/2026 às 19:39 (Brasília)",
           "hour_key": "2026-07-20-19"
+        },
+        {
+          "name": "End Zeus",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 22:55 (Brasília)",
+          "hour_key": "2026-07-20-22"
         }
       ]
     },
@@ -47861,11 +47867,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3116,
+      "total_current": 3117,
       "resets_today": 0,
-      "resets_week": 64,
+      "resets_week": 65,
       "resets_month": 0,
-      "resets_lifetime": 78,
+      "resets_lifetime": 79,
       "avg_per_player": 40.5
     },
     "enemy_guild": {
