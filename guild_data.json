@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 20:28 (Brasília)",
+  "updated_at": "21/07/2026 às 20:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
-  "online_count": 39,
-  "offline_count": 38,
+  "online_count": 40,
+  "offline_count": 37,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -598,12 +598,12 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1383,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 46,
@@ -664,6 +664,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "20/07/2026 às 18:35 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 20:29 (Brasília)"
         }
       ]
     },
@@ -3428,6 +3433,14 @@
       "online": true
     },
     {
+      "name": "Alba Baiakeiro",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Baunilha",
       "resets_total": 53,
       "resets_today": 1,
@@ -3537,14 +3550,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": false
-    },
-    {
-      "name": "Alba Baiakeiro",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elder Druid",
       "online": false
     },
     {
@@ -3747,16 +3752,16 @@
           "online": true
         },
         {
+          "name": "Alba Baiakeiro",
+          "value": 58,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Ynhaca Purah",
           "value": 58,
           "vocation": "Master Sorcerer",
           "online": true
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "value": 57,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Baiakudinho",
@@ -4427,12 +4432,6 @@
         {
           "name": "Ed farm",
           "value": 1406,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "value": 1383,
           "vocation": "Elder Druid",
           "online": false
         },
@@ -5290,7 +5289,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 20:28 (Brasília)",
+    "updated_at": "21/07/2026 às 20:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28257,7 +28256,7 @@
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 48,
-        "Alba Baiakeiro": 57,
+        "Alba Baiakeiro": 58,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
         "Baunilha": 53,
@@ -41378,7 +41377,7 @@
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 48,
-          "Alba Baiakeiro": 57,
+          "Alba Baiakeiro": 58,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
           "Baunilha": 53,
@@ -45604,6 +45603,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 18:54 (Brasília)",
           "hour_key": "2026-07-21-18"
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 20:29 (Brasília)",
+          "hour_key": "2026-07-21-20"
         }
       ]
     },
@@ -47663,11 +47669,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3129,
-      "resets_today": 12,
-      "resets_week": 75,
+      "total_current": 3130,
+      "resets_today": 13,
+      "resets_week": 76,
       "resets_month": 0,
-      "resets_lifetime": 76,
+      "resets_lifetime": 77,
       "avg_per_player": 40.6
     },
     "enemy_guild": {
