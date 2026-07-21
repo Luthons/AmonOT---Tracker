@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 18:53 (Brasília)",
+  "updated_at": "21/07/2026 às 18:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -3192,8 +3192,8 @@
     },
     {
       "name": "Xeipe",
-      "level": 1986,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -3238,6 +3238,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "14/07/2026 às 11:54 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 18:54 (Brasília)"
         }
       ]
     },
@@ -3492,6 +3497,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Xeipe",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -4040,6 +4053,12 @@
           "online": false
         },
         {
+          "name": "Xeipe",
+          "value": 30,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kev",
           "value": 29,
           "vocation": "Royal Paladin",
@@ -4050,12 +4069,6 @@
           "value": 29,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Xeipe",
-          "value": 29,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Heroes Baiak",
@@ -4272,12 +4285,6 @@
           "value": 1994,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Xeipe",
-          "value": 1986,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -5271,7 +5278,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 18:53 (Brasília)",
+    "updated_at": "21/07/2026 às 18:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28301,7 +28308,7 @@
         "Vinizerah On Amonot": 37,
         "Vitao The Trader": 22,
         "VukVuk": 50,
-        "Xeipe": 29,
+        "Xeipe": 30,
         "Ynhaca Purah": 58,
         "Zap Seco": 25
       },
@@ -41418,7 +41425,7 @@
           "Vinizerah On Amonot": 37,
           "Vitao The Trader": 22,
           "VukVuk": 50,
-          "Xeipe": 29,
+          "Xeipe": 30,
           "Ynhaca Purah": 58,
           "Zap Seco": 25
         }
@@ -45574,6 +45581,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 18:21 (Brasília)",
           "hour_key": "2026-07-21-18"
+        },
+        {
+          "name": "Xeipe",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 18:54 (Brasília)",
+          "hour_key": "2026-07-21-18"
         }
       ]
     },
@@ -47633,11 +47647,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3128,
-      "resets_today": 11,
-      "resets_week": 74,
+      "total_current": 3129,
+      "resets_today": 12,
+      "resets_week": 75,
       "resets_month": 0,
-      "resets_lifetime": 78,
+      "resets_lifetime": 79,
       "avg_per_player": 40.6
     },
     "enemy_guild": {
