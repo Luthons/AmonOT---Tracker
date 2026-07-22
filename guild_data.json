@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 12:49 (Brasília)",
+  "updated_at": "22/07/2026 às 12:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -1831,8 +1831,8 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1092,
-      "resets": 50,
+      "level": 8,
+      "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1897,6 +1897,11 @@
           "resets": 50,
           "gained": 1,
           "timestamp": "21/07/2026 às 08:24 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 12:50 (Brasília)"
         }
       ]
     },
@@ -3448,6 +3453,14 @@
       "online": true
     },
     {
+      "name": "Kolwaski",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lotus Lothbrook",
       "resets_total": 31,
       "resets_today": 1,
@@ -3588,14 +3601,6 @@
       "resets_total": 89,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kolwaski",
-      "resets_total": 50,
-      "resets_today": 0,
-      "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -3825,6 +3830,12 @@
           "online": true
         },
         {
+          "name": "Kolwaski",
+          "value": 51,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lipe Knight",
           "value": 51,
           "vocation": "Elite Knight",
@@ -3838,12 +3849,6 @@
         },
         {
           "name": "Dvn Luktzeraah",
-          "value": 50,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kolwaski",
           "value": 50,
           "vocation": "Royal Paladin",
           "online": true
@@ -4459,12 +4464,6 @@
           "value": 1159,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 1092,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Akronus",
@@ -5284,7 +5283,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 12:49 (Brasília)",
+    "updated_at": "22/07/2026 às 12:50 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28281,7 +28280,7 @@
         "Jhonnys Trembolizado": 89,
         "Kev": 30,
         "Kiel": 62,
-        "Kolwaski": 50,
+        "Kolwaski": 51,
         "Lilian Faithkeeper": 38,
         "Lipe Knight": 51,
         "Loke": 54,
@@ -41434,7 +41433,7 @@
           "Jhonnys Trembolizado": 89,
           "Kev": 30,
           "Kiel": 62,
-          "Kolwaski": 50,
+          "Kolwaski": 51,
           "Lilian Faithkeeper": 38,
           "Lipe Knight": 51,
           "Loke": 54,
@@ -45595,6 +45594,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 12:09 (Brasília)",
           "hour_key": "2026-07-22-12"
+        },
+        {
+          "name": "Kolwaski",
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 12:50 (Brasília)",
+          "hour_key": "2026-07-22-12"
         }
       ]
     },
@@ -47486,11 +47492,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3144,
-      "resets_today": 12,
-      "resets_week": 79,
+      "total_current": 3145,
+      "resets_today": 13,
+      "resets_week": 80,
       "resets_month": 0,
-      "resets_lifetime": 83,
+      "resets_lifetime": 84,
       "avg_per_player": 40.8
     },
     "enemy_guild": {
