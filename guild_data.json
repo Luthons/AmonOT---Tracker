@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 14:22 (Brasília)",
+  "updated_at": "22/07/2026 às 14:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -2390,8 +2390,8 @@
     },
     {
       "name": "MekZera",
-      "level": 931,
-      "resets": 48,
+      "level": 8,
+      "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2431,6 +2431,11 @@
           "resets": 48,
           "gained": 1,
           "timestamp": "22/07/2026 às 09:50 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 14:23 (Brasília)"
         }
       ]
     },
@@ -3413,6 +3418,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "MekZera",
+      "resets_total": 49,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Pestinha",
       "resets_total": 37,
       "resets_today": 2,
@@ -3474,14 +3487,6 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "MekZera",
-      "resets_total": 48,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -3867,7 +3872,7 @@
         },
         {
           "name": "MekZera",
-          "value": 48,
+          "value": 49,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4553,12 +4558,6 @@
           "name": "Magabela",
           "value": 939,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "MekZera",
-          "value": 931,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5289,7 +5288,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 14:22 (Brasília)",
+    "updated_at": "22/07/2026 às 14:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28286,7 +28285,7 @@
         "Lougon Baiakeiro": 32,
         "Lukitas Brokenzada": 41,
         "Magabela": 55,
-        "MekZera": 48,
+        "MekZera": 49,
         "Melbiss": 48,
         "Monstro Das Criptos": 55,
         "Moskito": 25,
@@ -41443,7 +41442,7 @@
           "Lougon Baiakeiro": 32,
           "Lukitas Brokenzada": 41,
           "Magabela": 55,
-          "MekZera": 48,
+          "MekZera": 49,
           "Melbiss": 48,
           "Monstro Das Criptos": 55,
           "Moskito": 25,
@@ -45602,6 +45601,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 12:51 (Brasília)",
           "hour_key": "2026-07-22-12"
+        },
+        {
+          "name": "MekZera",
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 14:23 (Brasília)",
+          "hour_key": "2026-07-22-14"
         }
       ]
     },
@@ -47493,12 +47499,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3145,
-      "resets_today": 13,
+      "total_current": 3146,
+      "resets_today": 14,
       "resets_week": 80,
       "resets_month": 0,
       "resets_lifetime": 84,
-      "avg_per_player": 40.8
+      "avg_per_player": 40.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
