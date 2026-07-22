@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 23:46 (Brasília)",
+  "updated_at": "21/07/2026 às 23:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
-  "online_count": 39,
-  "offline_count": 38,
+  "online_count": 38,
+  "offline_count": 39,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -103,11 +103,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Jul 21, 2026, 23:33:53",
-      "guild_rank": "The Leader",
-      "former_names": "Sallesbringer, Salles On Amonot",
-      "hidden": true,
+      "online": true,
       "reset_history": [
         {
           "resets": 65,
@@ -1709,11 +1705,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Jul 21, 2026, 23:38:52",
-      "guild_rank": "Member",
-      "former_names": "Parkert",
-      "hidden": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 52,
@@ -1964,8 +1956,8 @@
     },
     {
       "name": "Kiel",
-      "level": 2039,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2014,6 +2006,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "13/07/2026 às 00:19 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:49 (Brasília)"
         }
       ]
     },
@@ -3099,11 +3096,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Jul 21, 2026, 23:44:40",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": [
         {
           "resets": 26,
@@ -3763,6 +3756,14 @@
       "online": true
     },
     {
+      "name": "Kiel",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 48,
       "resets_today": 1,
@@ -3776,7 +3777,7 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Roginho",
@@ -4019,7 +4020,7 @@
           "name": "Yagoodz Hahaha",
           "value": 70,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Teylera Rp",
@@ -4034,16 +4035,16 @@
           "online": false
         },
         {
+          "name": "Kiel",
+          "value": 62,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Teko News",
           "value": 62,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "Kiel",
-          "value": 61,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Gizao",
@@ -4127,7 +4128,7 @@
           "name": "Henrique",
           "value": 52,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Maguinn Hahaha",
@@ -4277,7 +4278,7 @@
           "name": "Pestinha",
           "value": 36,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Black Reaper",
@@ -4478,12 +4479,6 @@
       "val_label": "Level",
       "entries": [
         {
-          "name": "Kiel",
-          "value": 2039,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Dmonick Hahaha",
           "value": 2002,
           "vocation": "Royal Paladin",
@@ -4493,7 +4488,7 @@
           "name": "Yagoodz Hahaha",
           "value": 2001,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Gizao",
@@ -4547,7 +4542,7 @@
           "name": "Henrique",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Its Gui",
@@ -4913,7 +4908,7 @@
           "name": "Pestinha",
           "value": 606,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Sorento Arrogante",
@@ -5589,7 +5584,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 23:45 (Brasília)",
+    "updated_at": "21/07/2026 às 23:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28585,7 +28580,7 @@
         "Its Gui": 44,
         "Jhonnys Trembolizado": 89,
         "Kev": 30,
-        "Kiel": 61,
+        "Kiel": 62,
         "Kolwaski": 50,
         "Lilian Faithkeeper": 38,
         "Lipe Knight": 51,
@@ -41712,7 +41707,7 @@
           "Its Gui": 44,
           "Jhonnys Trembolizado": 89,
           "Kev": 30,
-          "Kiel": 61,
+          "Kiel": 62,
           "Kolwaski": 50,
           "Lilian Faithkeeper": 38,
           "Lipe Knight": 51,
@@ -45958,6 +45953,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 23:29 (Brasília)",
           "hour_key": "2026-07-21-23"
+        },
+        {
+          "name": "Kiel",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:49 (Brasília)",
+          "hour_key": "2026-07-21-23"
         }
       ]
     },
@@ -48017,11 +48019,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3136,
-      "resets_today": 4,
-      "resets_week": 72,
+      "total_current": 3137,
+      "resets_today": 5,
+      "resets_week": 73,
       "resets_month": 0,
-      "resets_lifetime": 78,
+      "resets_lifetime": 79,
       "avg_per_player": 40.7
     },
     "enemy_guild": {
