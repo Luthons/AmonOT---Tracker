@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 23:28 (Brasília)",
+  "updated_at": "21/07/2026 às 23:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -2854,8 +2854,8 @@
     },
     {
       "name": "Pestinha",
-      "level": 830,
-      "resets": 35,
+      "level": 8,
+      "resets": 36,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2910,6 +2910,11 @@
           "resets": 35,
           "gained": 1,
           "timestamp": "21/07/2026 às 22:50 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:29 (Brasília)"
         }
       ]
     },
@@ -3458,6 +3463,14 @@
       "online": true
     },
     {
+      "name": "Pestinha",
+      "resets_total": 36,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Roginho",
       "resets_total": 43,
       "resets_today": 1,
@@ -3640,14 +3653,6 @@
       "resets_week": 2,
       "vocation": "Elder Druid",
       "online": false
-    },
-    {
-      "name": "Pestinha",
-      "resets_total": 35,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Red Hahaha",
@@ -3961,6 +3966,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 36,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Black Reaper",
           "value": 35,
           "vocation": "Royal Paladin",
@@ -3971,12 +3982,6 @@
           "value": 35,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Pestinha",
-          "value": 35,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Owsborn",
@@ -4570,12 +4575,6 @@
           "name": "Lilian Faithkeeper",
           "value": 835,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pestinha",
-          "value": 830,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5276,7 +5275,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 23:28 (Brasília)",
+    "updated_at": "21/07/2026 às 23:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28292,7 +28291,7 @@
         "Owsborn": 34,
         "Pally Tetss": 55,
         "Perez": 35,
-        "Pestinha": 35,
+        "Pestinha": 36,
         "Red Hahaha": 29,
         "Ritoff Elite": 31,
         "Roginho": 43,
@@ -41419,7 +41418,7 @@
           "Owsborn": 34,
           "Pally Tetss": 55,
           "Perez": 35,
-          "Pestinha": 35,
+          "Pestinha": 36,
           "Red Hahaha": 29,
           "Ritoff Elite": 31,
           "Roginho": 43,
@@ -45638,6 +45637,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 23:22 (Brasília)",
           "hour_key": "2026-07-21-23"
+        },
+        {
+          "name": "Pestinha",
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:29 (Brasília)",
+          "hour_key": "2026-07-21-23"
         }
       ]
     },
@@ -47697,11 +47703,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3135,
-      "resets_today": 3,
-      "resets_week": 71,
+      "total_current": 3136,
+      "resets_today": 4,
+      "resets_week": 72,
       "resets_month": 0,
-      "resets_lifetime": 77,
+      "resets_lifetime": 78,
       "avg_per_player": 40.7
     },
     "enemy_guild": {
