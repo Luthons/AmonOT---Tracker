@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 23:21 (Brasília)",
+  "updated_at": "21/07/2026 às 23:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -2982,8 +2982,8 @@
     },
     {
       "name": "Roginho",
-      "level": 1623,
-      "resets": 42,
+      "level": 8,
+      "resets": 43,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -3043,6 +3043,11 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "15/07/2026 às 21:54 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:22 (Brasília)"
         }
       ]
     },
@@ -3450,6 +3455,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Roginho",
+      "resets_total": 43,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -3888,16 +3901,16 @@
           "online": true
         },
         {
+          "name": "Roginho",
+          "value": 43,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Dreenho Baiakeiro",
           "value": 42,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Roginho",
-          "value": 42,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Cheiro Dpneu",
@@ -4340,12 +4353,6 @@
         {
           "name": "Dmonick",
           "value": 1657,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Roginho",
-          "value": 1623,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5269,7 +5276,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 23:21 (Brasília)",
+    "updated_at": "21/07/2026 às 23:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28288,7 +28295,7 @@
         "Pestinha": 35,
         "Red Hahaha": 29,
         "Ritoff Elite": 31,
-        "Roginho": 42,
+        "Roginho": 43,
         "Royal Luthons": 46,
         "Rp Terror": 33,
         "Sonzacrazy": 7,
@@ -41415,7 +41422,7 @@
           "Pestinha": 35,
           "Red Hahaha": 29,
           "Ritoff Elite": 31,
-          "Roginho": 42,
+          "Roginho": 43,
           "Royal Luthons": 46,
           "Rp Terror": 33,
           "Sonzacrazy": 7,
@@ -45624,6 +45631,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 23:16 (Brasília)",
           "hour_key": "2026-07-21-23"
+        },
+        {
+          "name": "Roginho",
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:22 (Brasília)",
+          "hour_key": "2026-07-21-23"
         }
       ]
     },
@@ -47683,11 +47697,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3134,
-      "resets_today": 2,
-      "resets_week": 70,
+      "total_current": 3135,
+      "resets_today": 3,
+      "resets_week": 71,
       "resets_month": 0,
-      "resets_lifetime": 76,
+      "resets_lifetime": 77,
       "avg_per_player": 40.7
     },
     "enemy_guild": {
