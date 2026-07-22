@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 20:19 (Brasília)",
+  "updated_at": "22/07/2026 às 20:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -1326,8 +1326,8 @@
     },
     {
       "name": "End Zeus",
-      "level": 995,
-      "resets": 42,
+      "level": 8,
+      "resets": 43,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1362,6 +1362,11 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "22/07/2026 às 14:53 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 20:20 (Brasília)"
         }
       ]
     },
@@ -3469,6 +3474,14 @@
       "online": true
     },
     {
+      "name": "End Zeus",
+      "resets_total": 43,
+      "resets_today": 2,
+      "resets_week": 6,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Akronus",
       "resets_total": 49,
       "resets_today": 1,
@@ -3497,14 +3510,6 @@
       "resets_total": 31,
       "resets_today": 1,
       "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "End Zeus",
-      "resets_total": 42,
-      "resets_today": 1,
-      "resets_week": 5,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -3950,6 +3955,12 @@
           "online": true
         },
         {
+          "name": "End Zeus",
+          "value": 43,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Roginho",
           "value": 43,
           "vocation": "Master Sorcerer",
@@ -3960,12 +3971,6 @@
           "value": 42,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "End Zeus",
-          "value": 42,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Cheiro Dpneu",
@@ -4577,12 +4582,6 @@
           "name": "Kolwaski",
           "value": 1007,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "End Zeus",
-          "value": 995,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5349,7 +5348,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 20:19 (Brasília)",
+    "updated_at": "22/07/2026 às 20:20 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28326,7 +28325,7 @@
         "Elder Lougon": 25,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
-        "End Zeus": 42,
+        "End Zeus": 43,
         "Friedrich Merz": 62,
         "Gokuu": 55,
         "Guidao Palao": 51,
@@ -41498,7 +41497,7 @@
           "Elder Lougon": 25,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
-          "End Zeus": 42,
+          "End Zeus": 43,
           "Friedrich Merz": 62,
           "Gokuu": 55,
           "Guidao Palao": 51,
@@ -45720,6 +45719,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 17:58 (Brasília)",
           "hour_key": "2026-07-22-17"
+        },
+        {
+          "name": "End Zeus",
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 20:20 (Brasília)",
+          "hour_key": "2026-07-22-20"
         }
       ]
     },
@@ -47611,11 +47617,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3195,
-      "resets_today": 19,
-      "resets_week": 83,
+      "total_current": 3196,
+      "resets_today": 20,
+      "resets_week": 84,
       "resets_month": 0,
-      "resets_lifetime": 84,
+      "resets_lifetime": 85,
       "avg_per_player": 41.0
     },
     "enemy_guild": {
