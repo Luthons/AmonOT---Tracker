@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/07/2026 às 23:14 (Brasília)",
+  "updated_at": "21/07/2026 às 23:15 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -1743,8 +1743,8 @@
     },
     {
       "name": "Kev",
-      "level": 1402,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1794,6 +1794,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "20/07/2026 às 19:08 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:15 (Brasília)"
         }
       ]
     },
@@ -3432,6 +3437,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Kev",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 48,
       "resets_today": 1,
@@ -3540,14 +3553,6 @@
       "resets_total": 89,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kev",
-      "resets_total": 29,
-      "resets_today": 0,
-      "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -4027,6 +4032,12 @@
           "online": true
         },
         {
+          "name": "Kev",
+          "value": 30,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 30,
           "vocation": "Royal Paladin",
@@ -4035,12 +4046,6 @@
         {
           "name": "Xeipe",
           "value": 30,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 29,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4397,12 +4402,6 @@
           "value": 1406,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 1402,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Teylera Rp",
@@ -5270,7 +5269,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "21/07/2026 às 23:14 (Brasília)",
+    "updated_at": "21/07/2026 às 23:15 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28265,7 +28264,7 @@
         "Heroes Baiak": 28,
         "Its Gui": 44,
         "Jhonnys Trembolizado": 89,
-        "Kev": 29,
+        "Kev": 30,
         "Kiel": 61,
         "Kolwaski": 50,
         "Lilian Faithkeeper": 38,
@@ -41392,7 +41391,7 @@
           "Heroes Baiak": 28,
           "Its Gui": 44,
           "Jhonnys Trembolizado": 89,
-          "Kev": 29,
+          "Kev": 30,
           "Kiel": 61,
           "Kolwaski": 50,
           "Lilian Faithkeeper": 38,
@@ -45618,6 +45617,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 23:14 (Brasília)",
           "hour_key": "2026-07-21-23"
+        },
+        {
+          "name": "Kev",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 23:15 (Brasília)",
+          "hour_key": "2026-07-21-23"
         }
       ]
     },
@@ -47677,11 +47683,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3133,
-      "resets_today": 1,
-      "resets_week": 69,
+      "total_current": 3134,
+      "resets_today": 2,
+      "resets_week": 70,
       "resets_month": 0,
-      "resets_lifetime": 75,
+      "resets_lifetime": 76,
       "avg_per_player": 40.7
     },
     "enemy_guild": {
