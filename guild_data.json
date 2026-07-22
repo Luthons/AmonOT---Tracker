@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 16:32 (Brasília)",
+  "updated_at": "22/07/2026 às 16:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -695,8 +695,8 @@
     },
     {
       "name": "Baunilha",
-      "level": 1302,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -721,6 +721,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "21/07/2026 às 14:56 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 16:33 (Brasília)"
         }
       ]
     },
@@ -3447,6 +3452,14 @@
       "online": true
     },
     {
+      "name": "Baunilha",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Brunao Rei Denovo",
       "resets_total": 31,
       "resets_today": 1,
@@ -3804,16 +3817,16 @@
           "online": true
         },
         {
+          "name": "Baunilha",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loke",
           "value": 54,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Baunilha",
-          "value": 53,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Henrique",
@@ -4432,12 +4445,6 @@
           "value": 1309,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Baunilha",
-          "value": 1302,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -5299,7 +5306,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 16:32 (Brasília)",
+    "updated_at": "22/07/2026 às 16:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28260,7 +28267,7 @@
         "Alba Baiakeiro": 58,
         "Apreciador De Casadas": 37,
         "Baiakudinho": 56,
-        "Baunilha": 53,
+        "Baunilha": 54,
         "Black Reaper": 35,
         "Boingbringer": 30,
         "Brunao Rei Denovo": 31,
@@ -41421,7 +41428,7 @@
           "Alba Baiakeiro": 58,
           "Apreciador De Casadas": 37,
           "Baiakudinho": 56,
-          "Baunilha": 53,
+          "Baunilha": 54,
           "Black Reaper": 35,
           "Boingbringer": 30,
           "Brunao Rei Denovo": 31,
@@ -45630,6 +45637,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 14:53 (Brasília)",
           "hour_key": "2026-07-22-14"
+        },
+        {
+          "name": "Baunilha",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 16:33 (Brasília)",
+          "hour_key": "2026-07-22-16"
         }
       ]
     },
@@ -47521,8 +47535,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3147,
-      "resets_today": 15,
+      "total_current": 3148,
+      "resets_today": 16,
       "resets_week": 81,
       "resets_month": 0,
       "resets_lifetime": 85,
