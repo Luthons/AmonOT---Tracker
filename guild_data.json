@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 10:32 (Brasília)",
+  "updated_at": "22/07/2026 às 10:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -2289,8 +2289,8 @@
     },
     {
       "name": "Magabela",
-      "level": 1863,
-      "resets": 54,
+      "level": 8,
+      "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2370,6 +2370,11 @@
           "resets": 54,
           "gained": 1,
           "timestamp": "20/07/2026 às 10:43 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 10:33 (Brasília)"
         }
       ]
     },
@@ -3438,6 +3443,14 @@
       "online": true
     },
     {
+      "name": "Magabela",
+      "resets_total": 55,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Master Sorcerer",
+      "online": false
+    },
+    {
       "name": "MekZera",
       "resets_total": 48,
       "resets_today": 1,
@@ -3622,14 +3635,6 @@
       "online": true
     },
     {
-      "name": "Magabela",
-      "resets_total": 54,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Master Sorcerer",
-      "online": false
-    },
-    {
       "name": "Monstro Das Criptos",
       "resets_total": 55,
       "resets_today": 0,
@@ -3761,6 +3766,12 @@
           "online": true
         },
         {
+          "name": "Magabela",
+          "value": 55,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 55,
           "vocation": "Elder Druid",
@@ -3776,12 +3787,6 @@
           "name": "Loke",
           "value": 54,
           "vocation": "Elite Knight",
-          "online": false
-        },
-        {
-          "name": "Magabela",
-          "value": 54,
-          "vocation": "Master Sorcerer",
           "online": false
         },
         {
@@ -4275,12 +4280,6 @@
           "value": 1888,
           "vocation": "Master Sorcerer",
           "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 1863,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Lotus Lothbrook",
@@ -5274,7 +5273,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 10:32 (Brasília)",
+    "updated_at": "22/07/2026 às 10:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28279,7 +28278,7 @@
         "Lotus Lothbrook": 30,
         "Lougon Baiakeiro": 32,
         "Lukitas Brokenzada": 41,
-        "Magabela": 54,
+        "Magabela": 55,
         "MekZera": 48,
         "Melbiss": 48,
         "Monstro Das Criptos": 55,
@@ -41428,7 +41427,7 @@
           "Lotus Lothbrook": 30,
           "Lougon Baiakeiro": 32,
           "Lukitas Brokenzada": 41,
-          "Magabela": 54,
+          "Magabela": 55,
           "MekZera": 48,
           "Melbiss": 48,
           "Monstro Das Criptos": 55,
@@ -45567,6 +45566,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 09:50 (Brasília)",
           "hour_key": "2026-07-22-09"
+        },
+        {
+          "name": "Magabela",
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 10:33 (Brasília)",
+          "hour_key": "2026-07-22-10"
         }
       ]
     },
@@ -47458,11 +47464,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3142,
-      "resets_today": 10,
-      "resets_week": 77,
+      "total_current": 3143,
+      "resets_today": 11,
+      "resets_week": 78,
       "resets_month": 0,
-      "resets_lifetime": 81,
+      "resets_lifetime": 82,
       "avg_per_player": 40.8
     },
     "enemy_guild": {
