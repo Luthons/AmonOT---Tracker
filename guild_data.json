@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/07/2026 às 00:43 (Brasília)",
+  "updated_at": "22/07/2026 às 00:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 77,
@@ -3075,8 +3075,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1288,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -3121,6 +3121,11 @@
           "resets": 37,
           "gained": 1,
           "timestamp": "21/07/2026 às 03:17 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 00:44 (Brasília)"
         }
       ]
     },
@@ -3412,6 +3417,14 @@
       "online": true
     },
     {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Punish Claude",
       "resets_total": 51,
       "resets_today": 0,
@@ -3594,14 +3607,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 37,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "Vitao The Trader",
@@ -3887,16 +3892,16 @@
           "online": true
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 38,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Apreciador De Casadas",
           "value": 37,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 37,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Pestinha",
@@ -4359,12 +4364,6 @@
           "value": 1289,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1288,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -5226,7 +5225,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "22/07/2026 às 00:43 (Brasília)",
+    "updated_at": "22/07/2026 às 00:44 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28253,7 +28252,7 @@
         "Teko News": 62,
         "Tsuru": 32,
         "Ultimate Warrior": 25,
-        "Vinizerah On Amonot": 37,
+        "Vinizerah On Amonot": 38,
         "Vitao The Trader": 22,
         "VukVuk": 50,
         "Xeipe": 30,
@@ -41382,7 +41381,7 @@
           "Teko News": 62,
           "Tsuru": 32,
           "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 37,
+          "Vinizerah On Amonot": 38,
           "Vitao The Trader": 22,
           "VukVuk": 50,
           "Xeipe": 30,
@@ -45464,6 +45463,13 @@
           "gained": 1,
           "timestamp": "21/07/2026 às 23:49 (Brasília)",
           "hour_key": "2026-07-21-23"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 00:44 (Brasília)",
+          "hour_key": "2026-07-22-00"
         }
       ]
     },
@@ -47355,12 +47361,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 77,
-      "total_current": 3137,
-      "resets_today": 5,
-      "resets_week": 73,
+      "total_current": 3138,
+      "resets_today": 6,
+      "resets_week": 74,
       "resets_month": 0,
-      "resets_lifetime": 79,
-      "avg_per_player": 40.7
+      "resets_lifetime": 80,
+      "avg_per_player": 40.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
