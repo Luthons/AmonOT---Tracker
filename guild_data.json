@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/07/2026 às 14:09 (Brasília)",
+  "updated_at": "23/07/2026 às 14:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -137,7 +137,7 @@
     },
     {
       "name": "Punish Claude",
-      "level": 1834,
+      "level": 1841,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -798,7 +798,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 881,
+      "level": 924,
       "resets": 56,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1346,7 +1346,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1984,
+      "level": 1995,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1891,7 +1891,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 913,
+      "level": 922,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2430,7 +2430,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1478,
+      "level": 1504,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2706,7 +2706,7 @@
     },
     {
       "name": "Nino",
-      "level": 1845,
+      "level": 1858,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3093,7 +3093,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 935,
+      "level": 962,
       "resets": 39,
       "vocation": "Elder Druid",
       "nick": "",
@@ -4230,16 +4230,16 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 1995,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loke",
           "value": 1994,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Gokuu",
-          "value": 1984,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lougon Baiakeiro",
@@ -4261,13 +4261,13 @@
         },
         {
           "name": "Nino",
-          "value": 1845,
+          "value": 1858,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Punish Claude",
-          "value": 1834,
+          "value": 1841,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4327,7 +4327,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1478,
+          "value": 1504,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4494,6 +4494,12 @@
           "online": false
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 962,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Black Reaper",
           "value": 955,
           "vocation": "Royal Paladin",
@@ -4506,9 +4512,15 @@
           "online": false
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 935,
-          "vocation": "Elder Druid",
+          "name": "Cerebro",
+          "value": 924,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "value": 922,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4522,18 +4534,6 @@
           "value": 917,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 913,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 881,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Tsuru",
@@ -5233,7 +5233,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "23/07/2026 às 14:09 (Brasília)",
+    "updated_at": "23/07/2026 às 14:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
