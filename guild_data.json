@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/07/2026 às 00:22 (Brasília)",
+  "updated_at": "23/07/2026 às 00:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -2099,8 +2099,8 @@
     },
     {
       "name": "Loks",
-      "level": 1601,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2135,6 +2135,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "21/07/2026 às 21:12 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 00:23 (Brasília)"
         }
       ]
     },
@@ -3376,6 +3381,14 @@
       "online": true
     },
     {
+      "name": "Loks",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Pestinha",
       "resets_total": 40,
       "resets_today": 1,
@@ -3493,14 +3506,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Loks",
-      "resets_total": 39,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -3845,6 +3850,12 @@
           "online": false
         },
         {
+          "name": "Loks",
+          "value": 40,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 40,
           "vocation": "Master Sorcerer",
@@ -3854,12 +3865,6 @@
           "name": "Lilian Faithkeeper",
           "value": 39,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 39,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4281,12 +4286,6 @@
           "value": 1682,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Loks",
-          "value": 1601,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Mu Baiakeiro",
@@ -5202,7 +5201,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "23/07/2026 às 00:22 (Brasília)",
+    "updated_at": "23/07/2026 às 00:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28194,7 +28193,7 @@
         "Lilian Faithkeeper": 39,
         "Lipe Knight": 51,
         "Loke": 54,
-        "Loks": 39,
+        "Loks": 40,
         "Lotus Lothbrook": 31,
         "Lougon Baiakeiro": 32,
         "Lukitas Brokenzada": 41,
@@ -41378,7 +41377,7 @@
           "Lilian Faithkeeper": 39,
           "Lipe Knight": 51,
           "Loke": 54,
-          "Loks": 39,
+          "Loks": 40,
           "Lotus Lothbrook": 31,
           "Lougon Baiakeiro": 32,
           "Lukitas Brokenzada": 41,
@@ -45424,6 +45423,13 @@
           "gained": 1,
           "timestamp": "22/07/2026 às 23:16 (Brasília)",
           "hour_key": "2026-07-22-23"
+        },
+        {
+          "name": "Loks",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 00:23 (Brasília)",
+          "hour_key": "2026-07-23-00"
         }
       ]
     },
@@ -47147,11 +47153,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3202,
-      "resets_today": 3,
-      "resets_week": 76,
+      "total_current": 3203,
+      "resets_today": 4,
+      "resets_week": 77,
       "resets_month": 0,
-      "resets_lifetime": 86,
+      "resets_lifetime": 87,
       "avg_per_player": 41.1
     },
     "enemy_guild": {
