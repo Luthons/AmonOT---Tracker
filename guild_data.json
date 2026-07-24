@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/07/2026 às 22:40 (Brasília)",
+  "updated_at": "23/07/2026 às 22:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -1295,8 +1295,8 @@
     },
     {
       "name": "End Zeus",
-      "level": 992,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1351,6 +1351,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "23/07/2026 às 15:05 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 22:41 (Brasília)"
         }
       ]
     },
@@ -3488,9 +3493,9 @@
     },
     {
       "name": "End Zeus",
-      "resets_total": 46,
+      "resets_total": 47,
       "resets_today": 0,
-      "resets_week": 9,
+      "resets_week": 10,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -3863,7 +3868,7 @@
         },
         {
           "name": "End Zeus",
-          "value": 46,
+          "value": 47,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4532,12 +4537,6 @@
           "value": 1029,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "End Zeus",
-          "value": 992,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Sonzacrazy",
@@ -5279,7 +5278,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/07/2026 às 22:40 (Brasília)",
+    "updated_at": "23/07/2026 às 22:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28274,7 +28273,7 @@
         "Elder Lougon": 25,
         "Elder Luthons": 13,
         "Elio Nervous": 23,
-        "End Zeus": 46,
+        "End Zeus": 47,
         "Friedrich Merz": 62,
         "Gokuu": 55,
         "Guidao Palao": 51,
@@ -41520,7 +41519,7 @@
           "Elder Lougon": 25,
           "Elder Luthons": 13,
           "Elio Nervous": 23,
-          "End Zeus": 46,
+          "End Zeus": 47,
           "Friedrich Merz": 62,
           "Gokuu": 55,
           "Guidao Palao": 51,
@@ -45658,6 +45657,13 @@
           "gained": 1,
           "timestamp": "23/07/2026 às 21:33 (Brasília)",
           "hour_key": "2026-07-23-21"
+        },
+        {
+          "name": "End Zeus",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 22:41 (Brasília)",
+          "hour_key": "2026-07-23-22"
         }
       ]
     },
@@ -47381,11 +47387,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3213,
+      "total_current": 3214,
       "resets_today": 0,
-      "resets_week": 90,
+      "resets_week": 91,
       "resets_month": 0,
-      "resets_lifetime": 86,
+      "resets_lifetime": 87,
       "avg_per_player": 41.2
     },
     "enemy_guild": {
