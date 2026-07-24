@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 08:21 (Brasília)",
+  "updated_at": "24/07/2026 às 08:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -2180,8 +2180,8 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 1146,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2226,6 +2226,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "22/07/2026 às 12:09 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 08:22 (Brasília)"
         }
       ]
     },
@@ -3403,6 +3408,14 @@
       "online": true
     },
     {
+      "name": "Lotus Lothbrook",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lougon Baiakeiro",
       "resets_total": 33,
       "resets_today": 1,
@@ -3568,14 +3581,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Lotus Lothbrook",
-      "resets_total": 31,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -3980,6 +3985,12 @@
           "online": false
         },
         {
+          "name": "Lotus Lothbrook",
+          "value": 32,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tsuru",
           "value": 32,
           "vocation": "Master Sorcerer",
@@ -3989,12 +4000,6 @@
           "name": "Brunao Rei Denovo",
           "value": 31,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 31,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4481,12 +4486,6 @@
           "name": "Monstro Das Criptos",
           "value": 1147,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 1146,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5271,7 +5270,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 08:21 (Brasília)",
+    "updated_at": "24/07/2026 às 08:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28292,7 +28291,7 @@
         "Lipe Knight": 52,
         "Loke": 54,
         "Loks": 41,
-        "Lotus Lothbrook": 31,
+        "Lotus Lothbrook": 32,
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
         "Magabela": 55,
@@ -41567,7 +41566,7 @@
           "Lipe Knight": 52,
           "Loke": 54,
           "Loks": 41,
-          "Lotus Lothbrook": 31,
+          "Lotus Lothbrook": 32,
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
           "Magabela": 55,
@@ -45612,6 +45611,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 04:31 (Brasília)",
           "hour_key": "2026-07-24-04"
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 08:22 (Brasília)",
+          "hour_key": "2026-07-24-08"
         }
       ]
     },
@@ -47132,12 +47138,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3258,
-      "resets_today": 4,
-      "resets_week": 95,
+      "total_current": 3259,
+      "resets_today": 5,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 94,
-      "avg_per_player": 41.2
+      "resets_lifetime": 95,
+      "avg_per_player": 41.3
     },
     "enemy_guild": {
       "guild": "MentaliTY",
