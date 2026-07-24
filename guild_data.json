@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 00:27 (Brasília)",
+  "updated_at": "24/07/2026 às 00:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 78,
-  "online_count": 44,
+  "total_members": 79,
+  "online_count": 45,
   "offline_count": 34,
   "members": [
     {
@@ -786,6 +786,16 @@
       "reset_history": []
     },
     {
+      "name": "Boltfly Peoplecry",
+      "level": 2000,
+      "resets": 40,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Brunao Rei Denovo",
       "level": 1214,
       "resets": 31,
@@ -1290,7 +1300,7 @@
     },
     {
       "name": "End Zeus",
-      "level": 714,
+      "level": 713,
       "resets": 47,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3882,6 +3892,12 @@
           "online": false
         },
         {
+          "name": "Boltfly Peoplecry",
+          "value": 40,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lilian Faithkeeper",
           "value": 40,
           "vocation": "Royal Paladin",
@@ -4156,6 +4172,12 @@
           "value": 2000,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Brunaobringer",
@@ -4561,7 +4583,7 @@
         },
         {
           "name": "End Zeus",
-          "value": 714,
+          "value": 713,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -5239,7 +5261,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 00:27 (Brasília)",
+    "updated_at": "24/07/2026 às 00:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28221,6 +28243,7 @@
         "Baunilha": 55,
         "Black Reaper": 35,
         "Boingbringer": 30,
+        "Boltfly Peoplecry": 40,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Cerebro": 56,
@@ -41471,6 +41494,7 @@
           "Baunilha": 55,
           "Black Reaper": 35,
           "Boingbringer": 30,
+          "Boltfly Peoplecry": 40,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Cerebro": 56,
@@ -47050,8 +47074,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 78,
-      "total_current": 3216,
+      "num_members": 79,
+      "total_current": 3256,
       "resets_today": 2,
       "resets_week": 93,
       "resets_month": 0,
