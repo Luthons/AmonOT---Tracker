@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 14:49 (Brasília)",
+  "updated_at": "24/07/2026 às 14:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -3074,13 +3074,19 @@
     },
     {
       "name": "Rp Terror",
-      "level": 2000,
-      "resets": 33,
+      "level": 8,
+      "resets": 34,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 14:50 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Sonzacrazy",
@@ -3476,6 +3482,14 @@
       "resets_total": 45,
       "resets_today": 1,
       "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Rp Terror",
+      "resets_total": 34,
+      "resets_today": 1,
+      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -3979,15 +3993,15 @@
           "online": false
         },
         {
-          "name": "Lougon Baiakeiro",
-          "value": 33,
-          "vocation": "Master Sorcerer",
+          "name": "Rp Terror",
+          "value": 34,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Rp Terror",
+          "name": "Lougon Baiakeiro",
           "value": 33,
-          "vocation": "Royal Paladin",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4280,12 +4294,6 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Rp Terror",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -5294,7 +5302,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 14:49 (Brasília)",
+    "updated_at": "24/07/2026 às 14:50 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28344,7 +28352,7 @@
         "Ritoff Elite": 31,
         "Roginho": 43,
         "Royal Luthons": 46,
-        "Rp Terror": 33,
+        "Rp Terror": 34,
         "Sonzacrazy": 7,
         "Sorento Arrogante": 0,
         "Teko News": 62,
@@ -41631,7 +41639,7 @@
           "Ritoff Elite": 31,
           "Roginho": 43,
           "Royal Luthons": 46,
-          "Rp Terror": 33,
+          "Rp Terror": 34,
           "Sonzacrazy": 7,
           "Sorento Arrogante": 0,
           "Teko News": 62,
@@ -45684,6 +45692,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 14:06 (Brasília)",
           "hour_key": "2026-07-24-14"
+        },
+        {
+          "name": "Rp Terror",
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 14:50 (Brasília)",
+          "hour_key": "2026-07-24-14"
         }
       ]
     },
@@ -47204,11 +47219,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3262,
-      "resets_today": 8,
-      "resets_week": 98,
+      "total_current": 3263,
+      "resets_today": 9,
+      "resets_week": 99,
       "resets_month": 0,
-      "resets_lifetime": 103,
+      "resets_lifetime": 104,
       "avg_per_player": 41.3
     },
     "enemy_guild": {
