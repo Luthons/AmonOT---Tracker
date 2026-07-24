@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 12:25 (Brasília)",
+  "updated_at": "24/07/2026 às 12:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -2736,13 +2736,19 @@
     },
     {
       "name": "Nino",
-      "level": 2000,
-      "resets": 44,
+      "level": 8,
+      "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 12:26 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Owsborn",
@@ -3453,6 +3459,14 @@
       "online": true
     },
     {
+      "name": "Nino",
+      "resets_total": 45,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Teylera Rp",
       "resets_total": 62,
       "resets_today": 0,
@@ -3864,15 +3878,15 @@
           "online": false
         },
         {
-          "name": "Its Gui",
-          "value": 44,
-          "vocation": "Elder Druid",
+          "name": "Nino",
+          "value": 45,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Nino",
+          "name": "Its Gui",
           "value": 44,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4245,12 +4259,6 @@
           "name": "Mu Kina",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Nino",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -5281,7 +5289,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 12:25 (Brasília)",
+    "updated_at": "24/07/2026 às 12:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28322,7 +28330,7 @@
         "Mu Baiakeiro": 10,
         "Mu Kina": 26,
         "Nagato Sorcerer": 31,
-        "Nino": 44,
+        "Nino": 45,
         "Owsborn": 34,
         "Pally Tetss": 55,
         "Perez": 35,
@@ -41605,7 +41613,7 @@
           "Mu Baiakeiro": 10,
           "Mu Kina": 26,
           "Nagato Sorcerer": 31,
-          "Nino": 44,
+          "Nino": 45,
           "Owsborn": 34,
           "Pally Tetss": 55,
           "Perez": 35,
@@ -45653,6 +45661,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 10:48 (Brasília)",
           "hour_key": "2026-07-24-10"
+        },
+        {
+          "name": "Nino",
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 12:26 (Brasília)",
+          "hour_key": "2026-07-24-12"
         }
       ]
     },
@@ -47173,8 +47188,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3260,
-      "resets_today": 6,
+      "total_current": 3261,
+      "resets_today": 7,
       "resets_week": 97,
       "resets_month": 0,
       "resets_lifetime": 94,
