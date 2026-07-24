@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/07/2026 às 23:08 (Brasília)",
+  "updated_at": "23/07/2026 às 23:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 78,
@@ -2470,8 +2470,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 1920,
-      "resets": 48,
+      "level": 8,
+      "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2521,6 +2521,11 @@
           "resets": 48,
           "gained": 1,
           "timestamp": "21/07/2026 às 23:14 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 23:09 (Brasília)"
         }
       ]
     },
@@ -3433,6 +3438,14 @@
       "online": true
     },
     {
+      "name": "Melbiss",
+      "resets_total": 49,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Teylera Rp",
       "resets_total": 62,
       "resets_today": 0,
@@ -3614,14 +3627,6 @@
       "resets_today": 0,
       "resets_week": 8,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 48,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -3861,7 +3866,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 48,
+          "value": 49,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4313,12 +4318,6 @@
           "name": "Ynhaca Purah",
           "value": 1930,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Melbiss",
-          "value": 1920,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -5283,7 +5282,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/07/2026 às 23:08 (Brasília)",
+    "updated_at": "23/07/2026 às 23:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28299,7 +28298,7 @@
         "Lukitas Brokenzada": 41,
         "Magabela": 55,
         "MekZera": 50,
-        "Melbiss": 48,
+        "Melbiss": 49,
         "Monstro Das Criptos": 55,
         "Moskito": 25,
         "Mu Baiakeiro": 10,
@@ -41547,7 +41546,7 @@
           "Lukitas Brokenzada": 41,
           "Magabela": 55,
           "MekZera": 50,
-          "Melbiss": 48,
+          "Melbiss": 49,
           "Monstro Das Criptos": 55,
           "Moskito": 25,
           "Mu Baiakeiro": 10,
@@ -45678,6 +45677,13 @@
           "gained": 1,
           "timestamp": "23/07/2026 às 23:05 (Brasília)",
           "hour_key": "2026-07-23-23"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 23:09 (Brasília)",
+          "hour_key": "2026-07-23-23"
         }
       ]
     },
@@ -47401,11 +47407,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 78,
-      "total_current": 3215,
-      "resets_today": 1,
-      "resets_week": 92,
+      "total_current": 3216,
+      "resets_today": 2,
+      "resets_week": 93,
       "resets_month": 0,
-      "resets_lifetime": 88,
+      "resets_lifetime": 89,
       "avg_per_player": 41.2
     },
     "enemy_guild": {
