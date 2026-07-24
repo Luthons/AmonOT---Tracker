@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 04:29 (Brasília)",
+  "updated_at": "24/07/2026 às 04:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -2231,8 +2231,8 @@
     },
     {
       "name": "Lougon Baiakeiro",
-      "level": 2000,
-      "resets": 32,
+      "level": 8,
+      "resets": 33,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2282,6 +2282,11 @@
           "resets": 32,
           "gained": 1,
           "timestamp": "18/07/2026 às 11:21 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 04:30 (Brasília)"
         }
       ]
     },
@@ -3398,6 +3403,14 @@
       "online": true
     },
     {
+      "name": "Lougon Baiakeiro",
+      "resets_total": 33,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 49,
       "resets_today": 1,
@@ -3564,14 +3577,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Lougon Baiakeiro",
-      "resets_total": 32,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Lukitas Brokenzada",
@@ -3945,6 +3950,12 @@
           "online": false
         },
         {
+          "name": "Lougon Baiakeiro",
+          "value": 33,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 33,
           "vocation": "Royal Paladin",
@@ -3967,12 +3978,6 @@
           "value": 32,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Lougon Baiakeiro",
-          "value": 32,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Tsuru",
@@ -4230,12 +4235,6 @@
           "name": "Kiel",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lougon Baiakeiro",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -5266,7 +5265,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 04:29 (Brasília)",
+    "updated_at": "24/07/2026 às 04:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28288,7 +28287,7 @@
         "Loke": 54,
         "Loks": 41,
         "Lotus Lothbrook": 31,
-        "Lougon Baiakeiro": 32,
+        "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
         "Magabela": 55,
         "MekZera": 50,
@@ -41551,7 +41550,7 @@
           "Loke": 54,
           "Loks": 41,
           "Lotus Lothbrook": 31,
-          "Lougon Baiakeiro": 32,
+          "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
           "Magabela": 55,
           "MekZera": 50,
@@ -45588,6 +45587,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 02:32 (Brasília)",
           "hour_key": "2026-07-24-02"
+        },
+        {
+          "name": "Lougon Baiakeiro",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 04:30 (Brasília)",
+          "hour_key": "2026-07-24-04"
         }
       ]
     },
@@ -47108,11 +47114,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3257,
-      "resets_today": 3,
-      "resets_week": 94,
+      "total_current": 3258,
+      "resets_today": 4,
+      "resets_week": 95,
       "resets_month": 0,
-      "resets_lifetime": 88,
+      "resets_lifetime": 89,
       "avg_per_player": 41.2
     },
     "enemy_guild": {
