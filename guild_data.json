@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 16:17 (Brasília)",
+  "updated_at": "24/07/2026 às 16:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
-  "online_count": 48,
-  "offline_count": 31,
+  "online_count": 50,
+  "offline_count": 29,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -137,8 +137,8 @@
     },
     {
       "name": "Punish Claude",
-      "level": 1982,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -148,6 +148,11 @@
           "resets": 51,
           "gained": 1,
           "timestamp": "16/07/2026 às 19:27 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 16:18 (Brasília)"
         }
       ]
     },
@@ -1209,7 +1214,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 13,
@@ -2312,7 +2317,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 40,
@@ -3435,6 +3440,14 @@
       "online": true
     },
     {
+      "name": "Punish Claude",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "End Zeus",
       "resets_total": 48,
       "resets_today": 1,
@@ -3640,7 +3653,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Magabela",
@@ -3812,6 +3825,12 @@
           "online": false
         },
         {
+          "name": "Punish Claude",
+          "value": 52,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Henrique",
           "value": 52,
           "vocation": "Elite Knight",
@@ -3827,12 +3846,6 @@
           "name": "Maguinn Hahaha",
           "value": 51,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Punish Claude",
-          "value": 51,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3941,7 +3954,7 @@
           "name": "Lukitas Brokenzada",
           "value": 41,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Adjr",
@@ -4103,7 +4116,7 @@
           "name": "Elder Lougon",
           "value": 25,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Moskito",
@@ -4334,12 +4347,6 @@
           "online": false
         },
         {
-          "name": "Punish Claude",
-          "value": 1982,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Lipe Knight",
           "value": 1982,
           "vocation": "Elite Knight",
@@ -4457,7 +4464,7 @@
           "name": "Elder Lougon",
           "value": 1415,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Ed farm",
@@ -4499,7 +4506,7 @@
           "name": "Lukitas Brokenzada",
           "value": 1310,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Nagato Sorcerer",
@@ -5319,7 +5326,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 16:17 (Brasília)",
+    "updated_at": "24/07/2026 às 16:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28306,7 +28313,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Maguinn Hahaha": 51,
-        "Punish Claude": 51,
+        "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
         "Adjr": 40,
@@ -41595,7 +41602,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Maguinn Hahaha": 51,
-          "Punish Claude": 51,
+          "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
           "Adjr": 40,
@@ -45725,6 +45732,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 15:49 (Brasília)",
           "hour_key": "2026-07-24-15"
+        },
+        {
+          "name": "Punish Claude",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 16:18 (Brasília)",
+          "hour_key": "2026-07-24-16"
         }
       ]
     },
@@ -47245,11 +47259,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3264,
-      "resets_today": 10,
-      "resets_week": 100,
+      "total_current": 3265,
+      "resets_today": 11,
+      "resets_week": 101,
       "resets_month": 0,
-      "resets_lifetime": 103,
+      "resets_lifetime": 104,
       "avg_per_player": 41.3
     },
     "enemy_guild": {
