@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 00:25 (Brasília)",
+  "updated_at": "25/07/2026 às 00:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 65,
+  "total_members": 63,
   "online_count": 43,
-  "offline_count": 22,
+  "offline_count": 20,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -2556,68 +2556,6 @@
       ]
     },
     {
-      "name": "Moskito",
-      "level": 1164,
-      "resets": 25,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 22,
-          "gained": 1,
-          "timestamp": "26/06/2026 às 13:54 (Brasília)"
-        },
-        {
-          "resets": 23,
-          "gained": 1,
-          "timestamp": "30/06/2026 às 11:12 (Brasília)"
-        },
-        {
-          "resets": 24,
-          "gained": 1,
-          "timestamp": "04/07/2026 às 00:19 (Brasília)"
-        },
-        {
-          "resets": 25,
-          "gained": 1,
-          "timestamp": "10/07/2026 às 05:31 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Mu Baiakeiro",
-      "level": 1574,
-      "resets": 10,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 7,
-          "gained": 1,
-          "timestamp": "26/06/2026 às 00:10 (Brasília)"
-        },
-        {
-          "resets": 8,
-          "gained": 1,
-          "timestamp": "27/06/2026 às 20:13 (Brasília)"
-        },
-        {
-          "resets": 9,
-          "gained": 1,
-          "timestamp": "29/06/2026 às 16:14 (Brasília)"
-        },
-        {
-          "resets": 10,
-          "gained": 1,
-          "timestamp": "01/07/2026 às 19:29 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Nino",
       "level": 1358,
       "resets": 45,
@@ -2635,7 +2573,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 2000,
+      "level": 1997,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3490,12 +3428,6 @@
           "online": false
         },
         {
-          "name": "Moskito",
-          "value": 25,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Elio Nervous",
           "value": 23,
           "vocation": "Elite Knight",
@@ -3522,12 +3454,6 @@
         {
           "name": "Elder Luthons",
           "value": 13,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Mu Baiakeiro",
-          "value": 10,
           "vocation": "Elder Druid",
           "online": false
         }
@@ -3640,12 +3566,6 @@
           "online": true
         },
         {
-          "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Teko News",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -3667,6 +3587,12 @@
           "name": "Maguinn Hahaha",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3746,12 +3672,6 @@
           "value": 1586,
           "vocation": "Elder Druid",
           "online": true
-        },
-        {
-          "name": "Mu Baiakeiro",
-          "value": 1574,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Dreenho Baiakeiro",
@@ -3848,12 +3768,6 @@
           "value": 1178,
           "vocation": "Elder Druid",
           "online": true
-        },
-        {
-          "name": "Moskito",
-          "value": 1164,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
@@ -4595,7 +4509,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 00:25 (Brasília)",
+    "updated_at": "25/07/2026 às 00:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27623,8 +27537,6 @@
         "MekZera": 52,
         "Melbiss": 49,
         "Monstro Das Criptos": 56,
-        "Moskito": 25,
-        "Mu Baiakeiro": 10,
         "Nino": 45,
         "Pally Tetss": 55,
         "Pestinha": 40,
@@ -40906,8 +40818,6 @@
           "MekZera": 52,
           "Melbiss": 49,
           "Monstro Das Criptos": 56,
-          "Moskito": 25,
-          "Mu Baiakeiro": 10,
           "Nino": 45,
           "Pally Tetss": 55,
           "Pestinha": 40,
@@ -46309,13 +46219,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 65,
-      "total_current": 2876,
+      "num_members": 63,
+      "total_current": 2841,
       "resets_today": 0,
       "resets_week": 95,
       "resets_month": 0,
       "resets_lifetime": 104,
-      "avg_per_player": 44.2
+      "avg_per_player": 45.1
     },
     "enemy_guild": {
       "guild": "MentaliTY",
