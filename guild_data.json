@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 00:34 (Brasília)",
+  "updated_at": "25/07/2026 às 00:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 51,
+  "total_members": 50,
   "online_count": 42,
-  "offline_count": 9,
+  "offline_count": 8,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -267,92 +267,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Adjr",
-      "level": 1754,
-      "resets": 40,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 26,
-          "gained": 1,
-          "timestamp": "07/07/2026 às 10:51 (Brasília)"
-        },
-        {
-          "resets": 27,
-          "gained": 1,
-          "timestamp": "08/07/2026 às 15:06 (Brasília)"
-        },
-        {
-          "resets": 28,
-          "gained": 1,
-          "timestamp": "09/07/2026 às 13:24 (Brasília)"
-        },
-        {
-          "resets": 29,
-          "gained": 1,
-          "timestamp": "10/07/2026 às 13:37 (Brasília)"
-        },
-        {
-          "resets": 30,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 08:14 (Brasília)"
-        },
-        {
-          "resets": 31,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 11:47 (Brasília)"
-        },
-        {
-          "resets": 32,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 13:47 (Brasília)"
-        },
-        {
-          "resets": 33,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 14:46 (Brasília)"
-        },
-        {
-          "resets": 34,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 15:52 (Brasília)"
-        },
-        {
-          "resets": 35,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 17:38 (Brasília)"
-        },
-        {
-          "resets": 36,
-          "gained": 1,
-          "timestamp": "11/07/2026 às 21:42 (Brasília)"
-        },
-        {
-          "resets": 37,
-          "gained": 1,
-          "timestamp": "12/07/2026 às 11:21 (Brasília)"
-        },
-        {
-          "resets": 38,
-          "gained": 1,
-          "timestamp": "12/07/2026 às 14:39 (Brasília)"
-        },
-        {
-          "resets": 39,
-          "gained": 1,
-          "timestamp": "12/07/2026 às 19:16 (Brasília)"
-        },
-        {
-          "resets": 40,
-          "gained": 1,
-          "timestamp": "13/07/2026 às 20:01 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Adolph Healer",
@@ -2904,12 +2818,6 @@
           "online": false
         },
         {
-          "name": "Adjr",
-          "value": 40,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "Boltfly Peoplecry",
           "value": 40,
           "vocation": "Royal Paladin",
@@ -3170,12 +3078,6 @@
         {
           "name": "Adolph Healer",
           "value": 1792,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Adjr",
-          "value": 1754,
           "vocation": "Elder Druid",
           "online": false
         },
@@ -3985,7 +3887,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 00:34 (Brasília)",
+    "updated_at": "25/07/2026 às 00:35 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26967,7 +26869,6 @@
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
-        "Adjr": 40,
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 50,
@@ -40236,7 +40137,6 @@
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
-          "Adjr": 40,
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 50,
@@ -45671,13 +45571,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 51,
-      "total_current": 2391,
+      "num_members": 50,
+      "total_current": 2351,
       "resets_today": 0,
       "resets_week": 92,
       "resets_month": 0,
       "resets_lifetime": 101,
-      "avg_per_player": 46.9
+      "avg_per_player": 47.0
     },
     "enemy_guild": {
       "guild": "MentaliTY",
