@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/07/2026 às 22:09 (Brasília)",
+  "updated_at": "24/07/2026 às 22:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -2154,8 +2154,8 @@
     },
     {
       "name": "Loks",
-      "level": 1393,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2200,6 +2200,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "23/07/2026 às 23:05 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 22:10 (Brasília)"
         }
       ]
     },
@@ -3592,9 +3597,9 @@
     },
     {
       "name": "Loks",
-      "resets_total": 41,
+      "resets_total": 42,
       "resets_today": 0,
-      "resets_week": 4,
+      "resets_week": 5,
       "vocation": "Elder Druid",
       "online": false
     },
@@ -3930,13 +3935,13 @@
           "online": false
         },
         {
-          "name": "Cheiro Dpneu",
-          "value": 41,
+          "name": "Loks",
+          "value": 42,
           "vocation": "Elder Druid",
           "online": false
         },
         {
-          "name": "Loks",
+          "name": "Cheiro Dpneu",
           "value": 41,
           "vocation": "Elder Druid",
           "online": false
@@ -4472,12 +4477,6 @@
         {
           "name": "Ed farm",
           "value": 1406,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Loks",
-          "value": 1393,
           "vocation": "Elder Druid",
           "online": false
         },
@@ -5323,7 +5322,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/07/2026 às 22:09 (Brasília)",
+    "updated_at": "24/07/2026 às 22:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28343,7 +28342,7 @@
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 53,
         "Loke": 54,
-        "Loks": 41,
+        "Loks": 42,
         "Lotus Lothbrook": 33,
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
@@ -41638,7 +41637,7 @@
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 53,
           "Loke": 54,
-          "Loks": 41,
+          "Loks": 42,
           "Lotus Lothbrook": 33,
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
@@ -45754,6 +45753,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 21:55 (Brasília)",
           "hour_key": "2026-07-24-21"
+        },
+        {
+          "name": "Loks",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "24/07/2026 às 22:10 (Brasília)",
+          "hour_key": "2026-07-24-22"
         }
       ]
     },
@@ -47274,11 +47280,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 79,
-      "total_current": 3268,
+      "total_current": 3269,
       "resets_today": 0,
-      "resets_week": 95,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 104,
+      "resets_lifetime": 105,
       "avg_per_player": 41.4
     },
     "enemy_guild": {
