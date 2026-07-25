@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 17:27 (Brasília)",
+  "updated_at": "25/07/2026 às 17:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -2278,8 +2278,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1829,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2334,6 +2334,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "23/07/2026 às 01:12 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 17:28 (Brasília)"
         }
       ]
     },
@@ -2450,6 +2455,14 @@
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2626,14 +2639,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 39,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2875,7 +2880,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 39,
+          "value": 40,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3111,12 +3116,6 @@
           "name": "Cerebro",
           "value": 1976,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1829,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3925,7 +3924,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 17:27 (Brasília)",
+    "updated_at": "25/07/2026 às 17:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26954,7 +26953,7 @@
         "Pestinha": 40,
         "Rp Terror": 34,
         "Teko News": 62,
-        "Vinizerah On Amonot": 39,
+        "Vinizerah On Amonot": 40,
         "Vitao The Trader": 22,
         "VukVuk": 50,
         "Ynhaca Purah": 58
@@ -39825,7 +39824,7 @@
           "Pestinha": 40,
           "Rp Terror": 34,
           "Teko News": 62,
-          "Vinizerah On Amonot": 39,
+          "Vinizerah On Amonot": 40,
           "Vitao The Trader": 22,
           "VukVuk": 50,
           "Ynhaca Purah": 58
@@ -43863,6 +43862,13 @@
           "gained": 1,
           "timestamp": "25/07/2026 às 11:29 (Brasília)",
           "hour_key": "2026-07-25-11"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 17:28 (Brasília)",
+          "hour_key": "2026-07-25-17"
         }
       ]
     },
@@ -45264,12 +45270,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2357,
-      "resets_today": 6,
-      "resets_week": 97,
+      "total_current": 2358,
+      "resets_today": 7,
+      "resets_week": 98,
       "resets_month": 0,
-      "resets_lifetime": 98,
-      "avg_per_player": 47.1
+      "resets_lifetime": 99,
+      "avg_per_player": 47.2
     },
     "enemy_guild": {
       "guild": "MentaliTY",
