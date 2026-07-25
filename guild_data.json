@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 00:50 (Brasília)",
+  "updated_at": "25/07/2026 às 00:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1031,8 +1031,8 @@
     },
     {
       "name": "End Zeus",
-      "level": 992,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -1102,6 +1102,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "24/07/2026 às 20:17 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 00:51 (Brasília)"
         }
       ]
     },
@@ -2383,6 +2388,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "End Zeus",
+      "resets_total": 50,
+      "resets_today": 1,
+      "resets_week": 13,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 0,
@@ -2452,14 +2465,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "End Zeus",
-      "resets_total": 49,
-      "resets_today": 0,
-      "resets_week": 12,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2770,15 +2775,15 @@
           "online": true
         },
         {
-          "name": "VukVuk",
+          "name": "End Zeus",
           "value": 50,
-          "vocation": "Elder Druid",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "End Zeus",
-          "value": 49,
-          "vocation": "Master Sorcerer",
+          "name": "VukVuk",
+          "value": 50,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3187,12 +3192,6 @@
           "name": "Punish Claude",
           "value": 1068,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "End Zeus",
-          "value": 992,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3887,7 +3886,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 00:50 (Brasília)",
+    "updated_at": "25/07/2026 às 00:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26884,7 +26883,7 @@
         "Deca com Testo": 32,
         "Dvn Luktzeraah": 50,
         "Elder Lougon": 25,
-        "End Zeus": 49,
+        "End Zeus": 50,
         "Gokuu": 55,
         "Guidao Palao": 51,
         "Henrique": 52,
@@ -40152,7 +40151,7 @@
           "Deca com Testo": 32,
           "Dvn Luktzeraah": 50,
           "Elder Lougon": 25,
-          "End Zeus": 49,
+          "End Zeus": 50,
           "Gokuu": 55,
           "Guidao Palao": 51,
           "Henrique": 52,
@@ -44171,6 +44170,13 @@
           "gained": 1,
           "timestamp": "24/07/2026 às 22:59 (Brasília)",
           "hour_key": "2026-07-24-22"
+        },
+        {
+          "name": "End Zeus",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 00:51 (Brasília)",
+          "hour_key": "2026-07-25-00"
         }
       ]
     },
@@ -45572,11 +45578,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2351,
-      "resets_today": 0,
-      "resets_week": 92,
+      "total_current": 2352,
+      "resets_today": 1,
+      "resets_week": 93,
       "resets_month": 0,
-      "resets_lifetime": 101,
+      "resets_lifetime": 102,
       "avg_per_player": 47.0
     },
     "enemy_guild": {
