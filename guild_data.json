@@ -677,8 +677,8 @@
     },
     {
       "name": "Baunilha",
-      "level": 1632,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -717,6 +717,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "23/07/2026 às 14:19 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 08:33 (Brasília)"
         }
       ]
     },
@@ -2593,6 +2598,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Baunilha",
+      "resets_total": 56,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "End Zeus",
       "resets_total": 50,
       "resets_today": 1,
@@ -2653,14 +2666,6 @@
       "resets_total": 57,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Baunilha",
-      "resets_total": 55,
-      "resets_today": 0,
-      "resets_week": 5,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2898,6 +2903,12 @@
           "online": true
         },
         {
+          "name": "Baunilha",
+          "value": 56,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 56,
           "vocation": "Elite Knight",
@@ -2907,12 +2918,6 @@
           "name": "Monstro Das Criptos",
           "value": 56,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 55,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3327,12 +3332,6 @@
           "name": "Pestinha",
           "value": 1648,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 1632,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4105,7 +4104,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 08:32 (Brasília)",
+    "updated_at": "25/07/2026 às 08:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27092,7 +27091,7 @@
         "Akronus": 50,
         "Alba Baiakeiro": 61,
         "Baiakudinho": 57,
-        "Baunilha": 55,
+        "Baunilha": 56,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 40,
         "Brunao Rei Denovo": 31,
@@ -40136,7 +40135,7 @@
           "Akronus": 50,
           "Alba Baiakeiro": 61,
           "Baiakudinho": 57,
-          "Baunilha": 55,
+          "Baunilha": 56,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 40,
           "Brunao Rei Denovo": 31,
@@ -44179,6 +44178,13 @@
           "gained": 1,
           "timestamp": "25/07/2026 às 01:49 (Brasília)",
           "hour_key": "2026-07-25-01"
+        },
+        {
+          "name": "Baunilha",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 08:33 (Brasília)",
+          "hour_key": "2026-07-25-08"
         }
       ]
     },
@@ -45580,11 +45586,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2353,
-      "resets_today": 2,
-      "resets_week": 93,
+      "total_current": 2354,
+      "resets_today": 3,
+      "resets_week": 94,
       "resets_month": 0,
-      "resets_lifetime": 102,
+      "resets_lifetime": 103,
       "avg_per_player": 47.1
     },
     "enemy_guild": {
