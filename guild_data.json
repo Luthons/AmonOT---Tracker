@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 01:48 (Brasília)",
+  "updated_at": "25/07/2026 às 01:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -2104,8 +2104,8 @@
     },
     {
       "name": "Nino",
-      "level": 1483,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2115,6 +2115,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "24/07/2026 às 12:26 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 01:49 (Brasília)"
         }
       ]
     },
@@ -2393,6 +2398,14 @@
       "resets_today": 1,
       "resets_week": 13,
       "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Nino",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2794,7 +2807,7 @@
         },
         {
           "name": "Nino",
-          "value": 45,
+          "value": 46,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3132,12 +3145,6 @@
           "name": "Monstro Das Criptos",
           "value": 1491,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Nino",
-          "value": 1483,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3892,7 +3899,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 01:48 (Brasília)",
+    "updated_at": "25/07/2026 às 01:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26907,7 +26914,7 @@
         "MekZera": 52,
         "Melbiss": 49,
         "Monstro Das Criptos": 56,
-        "Nino": 45,
+        "Nino": 46,
         "Pally Tetss": 55,
         "Pestinha": 40,
         "Rp Terror": 34,
@@ -40147,7 +40154,7 @@
           "MekZera": 52,
           "Melbiss": 49,
           "Monstro Das Criptos": 56,
-          "Nino": 45,
+          "Nino": 46,
           "Pally Tetss": 55,
           "Pestinha": 40,
           "Rp Terror": 34,
@@ -44155,6 +44162,13 @@
           "gained": 1,
           "timestamp": "25/07/2026 às 00:51 (Brasília)",
           "hour_key": "2026-07-25-00"
+        },
+        {
+          "name": "Nino",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 01:49 (Brasília)",
+          "hour_key": "2026-07-25-01"
         }
       ]
     },
@@ -45556,12 +45570,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2352,
-      "resets_today": 1,
+      "total_current": 2353,
+      "resets_today": 2,
       "resets_week": 93,
       "resets_month": 0,
       "resets_lifetime": 102,
-      "avg_per_player": 47.0
+      "avg_per_player": 47.1
     },
     "enemy_guild": {
       "guild": "MentaliTY",
