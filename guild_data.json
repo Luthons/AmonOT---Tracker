@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 00:19 (Brasília)",
+  "updated_at": "25/07/2026 às 00:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 79,
@@ -116,6 +116,47 @@
           "resets": 70,
           "gained": 1,
           "timestamp": "04/07/2026 às 01:44 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Dmonick",
+      "level": 2000,
+      "resets": 56,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 10:59 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 06:06 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 00:56 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "13/07/2026 às 16:57 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 08:48 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 11:50 (Brasília)"
         }
       ]
     },
@@ -1037,47 +1078,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Dmonick",
-      "level": 2000,
-      "resets": 56,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 51,
-          "gained": 1,
-          "timestamp": "07/07/2026 às 10:59 (Brasília)"
-        },
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "09/07/2026 às 06:06 (Brasília)"
-        },
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "12/07/2026 às 00:56 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "13/07/2026 às 16:57 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "17/07/2026 às 08:48 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "20/07/2026 às 11:50 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Dreenho Baiakeiro",
@@ -2012,7 +2012,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1197,
+      "level": 1214,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3387,6 +3387,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Dmonick",
+      "resets_total": 56,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Punish Claude",
       "resets_total": 52,
       "resets_today": 0,
@@ -3448,14 +3456,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Dmonick",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -3708,15 +3708,15 @@
           "online": true
         },
         {
-          "name": "Cerebro",
-          "value": 56,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Dmonick",
           "value": 56,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Cerebro",
+          "value": 56,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4146,6 +4146,12 @@
           "online": true
         },
         {
+          "name": "Dmonick",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -4179,12 +4185,6 @@
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4459,7 +4459,7 @@
         },
         {
           "name": "Lipe Knight",
-          "value": 1197,
+          "value": 1214,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -5263,7 +5263,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 00:19 (Brasília)",
+    "updated_at": "25/07/2026 às 00:20 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28240,6 +28240,7 @@
         "Dmonick Hahaha": 59,
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
+        "Dmonick": 56,
         "Maguinn Hahaha": 51,
         "Punish Claude": 52,
         "Teylera Rp": 62,
@@ -28261,7 +28262,6 @@
         "Charles": 26,
         "Cheiro Dpneu": 41,
         "Deca com Testo": 32,
-        "Dmonick": 56,
         "Dreenho Baiakeiro": 42,
         "Dvn Luktzeraah": 50,
         "Ed farm": 47,
@@ -41537,6 +41537,7 @@
           "Dmonick Hahaha": 59,
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
+          "Dmonick": 56,
           "Maguinn Hahaha": 51,
           "Punish Claude": 52,
           "Teylera Rp": 62,
@@ -41558,7 +41559,6 @@
           "Charles": 26,
           "Cheiro Dpneu": 41,
           "Deca com Testo": 32,
-          "Dmonick": 56,
           "Dreenho Baiakeiro": 42,
           "Dvn Luktzeraah": 50,
           "Ed farm": 47,
