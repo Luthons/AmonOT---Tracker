@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 09:21 (Brasília)",
+  "updated_at": "26/07/2026 às 09:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1356,8 +1356,8 @@
     },
     {
       "name": "Kev",
-      "level": 1900,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1412,6 +1412,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "21/07/2026 às 23:16 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 09:22 (Brasília)"
         }
       ]
     },
@@ -2408,6 +2413,14 @@
       "online": true
     },
     {
+      "name": "Kev",
+      "resets_total": 31,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kiel",
       "resets_total": 64,
       "resets_today": 1,
@@ -2514,14 +2527,6 @@
     {
       "name": "Jhonnys Trembolizado",
       "resets_total": 90,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kev",
-      "resets_total": 30,
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
@@ -2887,16 +2892,16 @@
           "online": true
         },
         {
+          "name": "Kev",
+          "value": 31,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boingbringer",
           "value": 30,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 30,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -3070,12 +3075,6 @@
           "name": "Magabela",
           "value": 1906,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 1900,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3896,7 +3895,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 09:21 (Brasília)",
+    "updated_at": "26/07/2026 às 09:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26917,7 +26916,7 @@
         "Henrique": 52,
         "Its Gui": 44,
         "Jhonnys Trembolizado": 90,
-        "Kev": 30,
+        "Kev": 31,
         "Kiel": 64,
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 54,
@@ -39350,7 +39349,7 @@
           "Henrique": 52,
           "Its Gui": 44,
           "Jhonnys Trembolizado": 90,
-          "Kev": 30,
+          "Kev": 31,
           "Kiel": 64,
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 54,
@@ -43244,6 +43243,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 08:24 (Brasília)",
           "hour_key": "2026-07-26-08"
+        },
+        {
+          "name": "Kev",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 09:22 (Brasília)",
+          "hour_key": "2026-07-26-09"
         }
       ]
     },
@@ -44491,11 +44497,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2364,
-      "resets_today": 5,
-      "resets_week": 96,
+      "total_current": 2365,
+      "resets_today": 6,
+      "resets_week": 97,
       "resets_month": 0,
-      "resets_lifetime": 100,
+      "resets_lifetime": 101,
       "avg_per_player": 47.3
     },
     "enemy_guild": {
