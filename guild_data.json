@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 10:38 (Brasília)",
+  "updated_at": "26/07/2026 às 10:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
-  "online_count": 42,
-  "offline_count": 8,
+  "online_count": 44,
+  "offline_count": 6,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -260,7 +260,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -2053,8 +2053,8 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2109,6 +2109,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "24/07/2026 às 02:32 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 10:39 (Brasília)"
         }
       ]
     },
@@ -2140,7 +2145,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 52,
@@ -2459,6 +2464,14 @@
       "online": true
     },
     {
+      "name": "Monstro Das Criptos",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 0,
@@ -2595,14 +2608,6 @@
       "online": true
     },
     {
-      "name": "Monstro Das Criptos",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
-      "online": true
-    },
-    {
       "name": "Pestinha",
       "resets_total": 40,
       "resets_today": 0,
@@ -2708,6 +2713,12 @@
           "online": true
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 57,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 56,
           "vocation": "Master Sorcerer",
@@ -2726,12 +2737,6 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 56,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Gokuu",
           "value": 55,
           "vocation": "Royal Paladin",
@@ -2741,7 +2746,7 @@
           "name": "Pally Tetss",
           "value": 55,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Lipe Knight",
@@ -2939,7 +2944,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         }
       ]
     },
@@ -3044,16 +3049,10 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Pally Tetss",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "VukVuk",
@@ -3071,7 +3070,7 @@
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Teko News",
@@ -3915,7 +3914,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 10:38 (Brasília)",
+    "updated_at": "26/07/2026 às 10:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26947,7 +26946,7 @@
         "Magabela": 56,
         "MekZera": 52,
         "Melbiss": 50,
-        "Monstro Das Criptos": 56,
+        "Monstro Das Criptos": 57,
         "Nino": 46,
         "Pally Tetss": 55,
         "Pestinha": 40,
@@ -39353,7 +39352,7 @@
           "Magabela": 56,
           "MekZera": 52,
           "Melbiss": 50,
-          "Monstro Das Criptos": 56,
+          "Monstro Das Criptos": 57,
           "Nino": 46,
           "Pally Tetss": 55,
           "Pestinha": 40,
@@ -43250,6 +43249,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 09:51 (Brasília)",
           "hour_key": "2026-07-26-09"
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 10:39 (Brasília)",
+          "hour_key": "2026-07-26-10"
         }
       ]
     },
@@ -44497,11 +44503,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2366,
-      "resets_today": 7,
-      "resets_week": 97,
+      "total_current": 2367,
+      "resets_today": 8,
+      "resets_week": 98,
       "resets_month": 0,
-      "resets_lifetime": 101,
+      "resets_lifetime": 102,
       "avg_per_player": 47.3
     },
     "enemy_guild": {
