@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 19:27 (Brasília)",
+  "updated_at": "26/07/2026 às 19:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1681,8 +1681,8 @@
     },
     {
       "name": "Loks",
-      "level": 1374,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1737,6 +1737,11 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "25/07/2026 às 11:29 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 19:28 (Brasília)"
         }
       ]
     },
@@ -2497,6 +2502,14 @@
       "online": true
     },
     {
+      "name": "Loks",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "MekZera",
       "resets_total": 53,
       "resets_today": 1,
@@ -2606,14 +2619,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Loks",
-      "resets_total": 43,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2859,7 +2864,7 @@
         },
         {
           "name": "Loks",
-          "value": 43,
+          "value": 44,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3185,12 +3190,6 @@
           "name": "Rp Terror",
           "value": 1393,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 1374,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3939,7 +3938,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 19:27 (Brasília)",
+    "updated_at": "26/07/2026 às 19:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26964,7 +26963,7 @@
         "Kiel": 64,
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 54,
-        "Loks": 43,
+        "Loks": 44,
         "Lotus Lothbrook": 35,
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
@@ -39127,7 +39126,7 @@
           "Kiel": 64,
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 54,
-          "Loks": 43,
+          "Loks": 44,
           "Lotus Lothbrook": 35,
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
@@ -43073,6 +43072,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 18:44 (Brasília)",
           "hour_key": "2026-07-26-18"
+        },
+        {
+          "name": "Loks",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 19:28 (Brasília)",
+          "hour_key": "2026-07-26-19"
         }
       ]
     },
@@ -44320,12 +44326,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2372,
-      "resets_today": 13,
-      "resets_week": 102,
+      "total_current": 2373,
+      "resets_today": 14,
+      "resets_week": 103,
       "resets_month": 0,
-      "resets_lifetime": 103,
-      "avg_per_player": 47.4
+      "resets_lifetime": 104,
+      "avg_per_player": 47.5
     },
     "enemy_guild": {
       "guild": "MentaliTY",
