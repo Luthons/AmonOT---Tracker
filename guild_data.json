@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 08:23 (Brasília)",
+  "updated_at": "26/07/2026 às 08:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1721,8 +1721,8 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 1036,
-      "resets": 33,
+      "level": 8,
+      "resets": 34,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1767,6 +1767,11 @@
           "resets": 33,
           "gained": 1,
           "timestamp": "24/07/2026 às 15:49 (Brasília)"
+        },
+        {
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 08:24 (Brasília)"
         }
       ]
     },
@@ -2419,6 +2424,14 @@
       "online": true
     },
     {
+      "name": "Lotus Lothbrook",
+      "resets_total": 34,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 0,
@@ -2528,14 +2541,6 @@
       "resets_today": 0,
       "resets_week": 6,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Lotus Lothbrook",
-      "resets_total": 33,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2846,14 +2851,14 @@
           "online": true
         },
         {
-          "name": "Rp Terror",
+          "name": "Lotus Lothbrook",
           "value": 34,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Lotus Lothbrook",
-          "value": 33,
+          "name": "Rp Terror",
+          "value": 34,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3203,12 +3208,6 @@
           "name": "Alba Baiakeiro",
           "value": 1081,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 1036,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3891,7 +3890,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 08:23 (Brasília)",
+    "updated_at": "26/07/2026 às 08:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26917,7 +26916,7 @@
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 54,
         "Loks": 43,
-        "Lotus Lothbrook": 33,
+        "Lotus Lothbrook": 34,
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
         "Magabela": 56,
@@ -39377,7 +39376,7 @@
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 54,
           "Loks": 43,
-          "Lotus Lothbrook": 33,
+          "Lotus Lothbrook": 34,
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
           "Magabela": 56,
@@ -43259,6 +43258,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 07:43 (Brasília)",
           "hour_key": "2026-07-26-07"
+        },
+        {
+          "name": "Lotus Lothbrook",
+          "resets": 34,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 08:24 (Brasília)",
+          "hour_key": "2026-07-26-08"
         }
       ]
     },
@@ -44506,11 +44512,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2363,
-      "resets_today": 4,
-      "resets_week": 95,
+      "total_current": 2364,
+      "resets_today": 5,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 99,
+      "resets_lifetime": 100,
       "avg_per_player": 47.3
     },
     "enemy_guild": {
