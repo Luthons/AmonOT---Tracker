@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 20:23 (Brasília)",
+  "updated_at": "26/07/2026 às 20:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 50,
-  "online_count": 44,
+  "total_members": 51,
+  "online_count": 45,
   "offline_count": 6,
   "members": [
     {
@@ -2195,6 +2195,16 @@
       ]
     },
     {
+      "name": "Pedim Kitbota",
+      "level": 1335,
+      "resets": 51,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Pestinha",
       "level": 1921,
       "resets": 40,
@@ -2827,6 +2837,12 @@
           "online": true
         },
         {
+          "name": "Pedim Kitbota",
+          "value": 51,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
@@ -3202,6 +3218,12 @@
           "name": "Alba Baiakeiro",
           "value": 1366,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Pedim Kitbota",
+          "value": 1335,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3950,7 +3972,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 20:23 (Brasília)",
+    "updated_at": "26/07/2026 às 20:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26903,6 +26925,15 @@
       "isPvp": true
     },
     {
+      "time": "Jul 25, 2026 03:04",
+      "player": "Pedim Kitbota",
+      "level": 1936,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 24, 2026 09:39",
       "player": "Melbiss",
       "level": 1237,
@@ -26924,6 +26955,15 @@
       "time": "Jul 23, 2026 17:52",
       "player": "Guidao Palao",
       "level": 1893,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Jul 23, 2026 17:45",
+      "player": "Pedim Kitbota",
+      "level": 1135,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
@@ -26985,6 +27025,7 @@
         "Monstro Das Criptos": 57,
         "Nino": 46,
         "Pally Tetss": 55,
+        "Pedim Kitbota": 51,
         "Pestinha": 40,
         "Rp Terror": 34,
         "Teko News": 62,
@@ -39121,6 +39162,7 @@
           "Monstro Das Criptos": 57,
           "Nino": 46,
           "Pally Tetss": 55,
+          "Pedim Kitbota": 51,
           "Pestinha": 40,
           "Rp Terror": 34,
           "Teko News": 62,
@@ -44310,8 +44352,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 50,
-      "total_current": 2373,
+      "num_members": 51,
+      "total_current": 2424,
       "resets_today": 14,
       "resets_week": 103,
       "resets_month": 0,
