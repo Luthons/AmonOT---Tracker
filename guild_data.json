@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 12:35 (Brasília)",
+  "updated_at": "26/07/2026 às 12:36 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -162,8 +162,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 999,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -173,6 +173,11 @@
           "resets": 52,
           "gained": 1,
           "timestamp": "26/07/2026 às 09:51 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 12:36 (Brasília)"
         }
       ]
     },
@@ -2414,8 +2419,8 @@
   "resets_today": [
     {
       "name": "El Diablo",
-      "resets_total": 52,
-      "resets_today": 1,
+      "resets_total": 53,
+      "resets_today": 2,
       "resets_week": 0,
       "vocation": "Elder Druid",
       "online": true
@@ -2761,7 +2766,7 @@
         },
         {
           "name": "El Diablo",
-          "value": 52,
+          "value": 53,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3214,12 +3219,6 @@
           "value": 1126,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "El Diablo",
-          "value": 999,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Cerebro",
@@ -3925,7 +3924,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 12:35 (Brasília)",
+    "updated_at": "26/07/2026 às 12:36 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26921,7 +26920,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 56,
-        "El Diablo": 52,
+        "El Diablo": 53,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -39273,7 +39272,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 56,
-          "El Diablo": 52,
+          "El Diablo": 53,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -43220,6 +43219,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 12:21 (Brasília)",
           "hour_key": "2026-07-26-12"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 12:36 (Brasília)",
+          "hour_key": "2026-07-26-12"
         }
       ]
     },
@@ -44467,8 +44473,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2368,
-      "resets_today": 9,
+      "total_current": 2369,
+      "resets_today": 10,
       "resets_week": 99,
       "resets_month": 0,
       "resets_lifetime": 102,
