@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/07/2026 às 07:42 (Brasília)",
+  "updated_at": "26/07/2026 às 07:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -701,8 +701,8 @@
     },
     {
       "name": "Cerebro",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -782,6 +782,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "23/07/2026 às 08:32 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 07:43 (Brasília)"
         }
       ]
     },
@@ -2390,6 +2395,14 @@
       "online": true
     },
     {
+      "name": "Cerebro",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Kiel",
       "resets_total": 64,
       "resets_today": 1,
@@ -2459,14 +2472,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Cerebro",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2673,6 +2678,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 57,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 56,
           "vocation": "Master Sorcerer",
@@ -2682,12 +2693,6 @@
           "name": "Baunilha",
           "value": 56,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 56,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -2982,12 +2987,6 @@
           "name": "Brunaobringer",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 2000,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3886,7 +3885,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/07/2026 às 07:42 (Brasília)",
+    "updated_at": "26/07/2026 às 07:43 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26896,7 +26895,7 @@
         "Boltfly Peoplecry": 40,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
-        "Cerebro": 56,
+        "Cerebro": 57,
         "Cheiro Dpneu": 41,
         "Deca com Testo": 32,
         "Dvn Luktzeraah": 50,
@@ -39383,7 +39382,7 @@
           "Boltfly Peoplecry": 40,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
-          "Cerebro": 56,
+          "Cerebro": 57,
           "Cheiro Dpneu": 41,
           "Deca com Testo": 32,
           "Dvn Luktzeraah": 50,
@@ -43274,6 +43273,13 @@
           "gained": 1,
           "timestamp": "26/07/2026 às 00:49 (Brasília)",
           "hour_key": "2026-07-26-00"
+        },
+        {
+          "name": "Cerebro",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 07:43 (Brasília)",
+          "hour_key": "2026-07-26-07"
         }
       ]
     },
@@ -44521,12 +44527,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2362,
-      "resets_today": 3,
-      "resets_week": 94,
+      "total_current": 2363,
+      "resets_today": 4,
+      "resets_week": 95,
       "resets_month": 0,
-      "resets_lifetime": 99,
-      "avg_per_player": 47.2
+      "resets_lifetime": 100,
+      "avg_per_player": 47.3
     },
     "enemy_guild": {
       "guild": "MentaliTY",
