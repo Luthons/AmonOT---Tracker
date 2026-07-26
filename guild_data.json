@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 23:23 (Brasília)",
+  "updated_at": "25/07/2026 às 23:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1589,8 +1589,8 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 2001,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1665,6 +1665,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "24/07/2026 às 21:55 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 23:24 (Brasília)"
         }
       ]
     },
@@ -2417,6 +2422,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Lipe Knight",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 56,
       "resets_today": 0,
@@ -2542,14 +2555,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lipe Knight",
-      "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2751,7 +2756,7 @@
         },
         {
           "name": "Lipe Knight",
-          "value": 53,
+          "value": 54,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2969,12 +2974,6 @@
           "name": "Guidao Palao",
           "value": 2006,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lipe Knight",
-          "value": 2001,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3921,7 +3920,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 23:23 (Brasília)",
+    "updated_at": "25/07/2026 às 23:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26936,7 +26935,7 @@
         "Kev": 30,
         "Kiel": 63,
         "Lilian Faithkeeper": 40,
-        "Lipe Knight": 53,
+        "Lipe Knight": 54,
         "Loks": 43,
         "Lotus Lothbrook": 33,
         "Lougon Baiakeiro": 33,
@@ -39639,7 +39638,7 @@
           "Kev": 30,
           "Kiel": 63,
           "Lilian Faithkeeper": 40,
-          "Lipe Knight": 53,
+          "Lipe Knight": 54,
           "Loks": 43,
           "Lotus Lothbrook": 33,
           "Lougon Baiakeiro": 33,
@@ -43705,6 +43704,13 @@
           "gained": 1,
           "timestamp": "25/07/2026 às 17:40 (Brasília)",
           "hour_key": "2026-07-25-17"
+        },
+        {
+          "name": "Lipe Knight",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 23:24 (Brasília)",
+          "hour_key": "2026-07-25-23"
         }
       ]
     },
@@ -45106,11 +45112,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2359,
-      "resets_today": 0,
-      "resets_week": 91,
+      "total_current": 2360,
+      "resets_today": 1,
+      "resets_week": 92,
       "resets_month": 0,
-      "resets_lifetime": 98,
+      "resets_lifetime": 99,
       "avg_per_player": 47.2
     },
     "enemy_guild": {
