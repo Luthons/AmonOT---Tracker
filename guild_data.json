@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/07/2026 às 23:56 (Brasília)",
+  "updated_at": "25/07/2026 às 23:57 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 50,
@@ -1437,8 +1437,8 @@
     },
     {
       "name": "Kiel",
-      "level": 2000,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1483,6 +1483,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "22/07/2026 às 23:16 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 23:57 (Brasília)"
         }
       ]
     },
@@ -2422,6 +2427,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Kiel",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 54,
       "resets_today": 1,
@@ -2536,14 +2549,6 @@
     {
       "name": "Kev",
       "resets_total": 30,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kiel",
-      "resets_total": 63,
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
@@ -2666,7 +2671,7 @@
         },
         {
           "name": "Kiel",
-          "value": 63,
+          "value": 64,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3056,12 +3061,6 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kiel",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -3920,7 +3919,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/07/2026 às 23:56 (Brasília)",
+    "updated_at": "25/07/2026 às 23:57 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26933,7 +26932,7 @@
         "Its Gui": 44,
         "Jhonnys Trembolizado": 90,
         "Kev": 30,
-        "Kiel": 63,
+        "Kiel": 64,
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 54,
         "Loks": 43,
@@ -39636,7 +39635,7 @@
           "Its Gui": 44,
           "Jhonnys Trembolizado": 90,
           "Kev": 30,
-          "Kiel": 63,
+          "Kiel": 64,
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 54,
           "Loks": 43,
@@ -43711,6 +43710,13 @@
           "gained": 1,
           "timestamp": "25/07/2026 às 23:24 (Brasília)",
           "hour_key": "2026-07-25-23"
+        },
+        {
+          "name": "Kiel",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "25/07/2026 às 23:57 (Brasília)",
+          "hour_key": "2026-07-25-23"
         }
       ]
     },
@@ -45112,11 +45118,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 50,
-      "total_current": 2360,
-      "resets_today": 1,
-      "resets_week": 92,
+      "total_current": 2361,
+      "resets_today": 2,
+      "resets_week": 93,
       "resets_month": 0,
-      "resets_lifetime": 99,
+      "resets_lifetime": 100,
       "avg_per_player": 47.2
     },
     "enemy_guild": {
