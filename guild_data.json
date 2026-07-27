@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/07/2026 às 14:07 (Brasília)",
+  "updated_at": "27/07/2026 às 14:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 51,
-  "online_count": 40,
-  "offline_count": 11,
+  "online_count": 39,
+  "offline_count": 12,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -2298,12 +2298,12 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1418,
-      "resets": 40,
+      "level": 8,
+      "resets": 41,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 30,
@@ -2359,6 +2359,11 @@
           "resets": 40,
           "gained": 1,
           "timestamp": "25/07/2026 às 17:28 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:08 (Brasília)"
         }
       ]
     },
@@ -2481,6 +2486,14 @@
       "resets_week": 4,
       "vocation": "Elite Knight",
       "online": true
+    },
+    {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elder Druid",
+      "online": false
     },
     {
       "name": "Punish Claude",
@@ -2640,14 +2653,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 40,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2876,6 +2881,12 @@
           "online": false
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 41,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
           "name": "Boltfly Peoplecry",
           "value": 40,
           "vocation": "Royal Paladin",
@@ -2892,12 +2903,6 @@
           "value": 40,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 40,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -3203,12 +3208,6 @@
           "name": "Ynhaca Purah",
           "value": 1451,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1418,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3951,7 +3950,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/07/2026 às 14:07 (Brasília)",
+    "updated_at": "27/07/2026 às 14:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26990,7 +26989,7 @@
         "Pestinha": 40,
         "Rp Terror": 34,
         "Teko News": 62,
-        "Vinizerah On Amonot": 40,
+        "Vinizerah On Amonot": 41,
         "Vitao The Trader": 22,
         "VukVuk": 50,
         "Ynhaca Purah": 59
@@ -38659,7 +38658,7 @@
           "Pestinha": 40,
           "Rp Terror": 34,
           "Teko News": 62,
-          "Vinizerah On Amonot": 40,
+          "Vinizerah On Amonot": 41,
           "Vitao The Trader": 22,
           "VukVuk": 50,
           "Ynhaca Purah": 59
@@ -42508,6 +42507,13 @@
           "gained": 1,
           "timestamp": "27/07/2026 às 11:53 (Brasília)",
           "hour_key": "2026-07-27-11"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:08 (Brasília)",
+          "hour_key": "2026-07-27-14"
         }
       ]
     },
@@ -43657,11 +43663,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 51,
-      "total_current": 2431,
-      "resets_today": 5,
-      "resets_week": 88,
+      "total_current": 2432,
+      "resets_today": 6,
+      "resets_week": 89,
       "resets_month": 0,
-      "resets_lifetime": 95,
+      "resets_lifetime": 96,
       "avg_per_player": 47.7
     },
     "enemy_guild": {
