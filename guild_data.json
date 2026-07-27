@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/07/2026 às 14:40 (Brasília)",
+  "updated_at": "27/07/2026 às 14:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 51,
@@ -640,8 +640,8 @@
     },
     {
       "name": "Baunilha",
-      "level": 1754,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -681,6 +681,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "25/07/2026 às 08:33 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:41 (Brasília)"
         }
       ]
     },
@@ -2477,6 +2482,14 @@
       "online": true
     },
     {
+      "name": "Baunilha",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Cerebro",
       "resets_total": 58,
       "resets_today": 1,
@@ -2529,14 +2542,6 @@
       "resets_total": 57,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Baunilha",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2742,6 +2747,12 @@
           "online": true
         },
         {
+          "name": "Baunilha",
+          "value": 57,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Magabela",
           "value": 57,
           "vocation": "Master Sorcerer",
@@ -2757,12 +2768,6 @@
           "name": "Dmonick",
           "value": 56,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 56,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3128,12 +3133,6 @@
         {
           "name": "Baiakudinho",
           "value": 1764,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 1754,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3955,7 +3954,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/07/2026 às 14:40 (Brasília)",
+    "updated_at": "27/07/2026 às 14:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26960,7 +26959,7 @@
         "Akronus": 52,
         "Alba Baiakeiro": 63,
         "Baiakudinho": 57,
-        "Baunilha": 56,
+        "Baunilha": 57,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 40,
         "Brunao Rei Denovo": 31,
@@ -38629,7 +38628,7 @@
           "Akronus": 52,
           "Alba Baiakeiro": 63,
           "Baiakudinho": 57,
-          "Baunilha": 56,
+          "Baunilha": 57,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 40,
           "Brunao Rei Denovo": 31,
@@ -42526,6 +42525,13 @@
           "gained": 1,
           "timestamp": "27/07/2026 às 14:11 (Brasília)",
           "hour_key": "2026-07-27-14"
+        },
+        {
+          "name": "Baunilha",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:41 (Brasília)",
+          "hour_key": "2026-07-27-14"
         }
       ]
     },
@@ -43675,11 +43681,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 51,
-      "total_current": 2433,
-      "resets_today": 7,
-      "resets_week": 90,
+      "total_current": 2434,
+      "resets_today": 8,
+      "resets_week": 91,
       "resets_month": 0,
-      "resets_lifetime": 97,
+      "resets_lifetime": 98,
       "avg_per_player": 47.7
     },
     "enemy_guild": {
