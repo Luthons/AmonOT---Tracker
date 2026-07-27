@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/07/2026 às 16:44 (Brasília)",
+  "updated_at": "27/07/2026 às 16:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 51,
-  "online_count": 40,
+  "total_members": 52,
+  "online_count": 41,
   "offline_count": 11,
   "members": [
     {
@@ -1523,6 +1523,77 @@
       ]
     },
     {
+      "name": "Kolwaski",
+      "level": 708,
+      "resets": 53,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "27/06/2026 às 12:35 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "29/06/2026 às 19:01 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "01/07/2026 às 09:51 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "02/07/2026 às 18:19 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "04/07/2026 às 01:31 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "05/07/2026 às 13:48 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "07/07/2026 às 08:26 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "08/07/2026 às 12:56 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "12/07/2026 às 14:49 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "19/07/2026 às 11:40 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 08:24 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "22/07/2026 às 12:51 (Brasília)"
+        }
+      ]
+    },
+    {
       "name": "Lilian Faithkeeper",
       "level": 1546,
       "resets": 40,
@@ -2604,6 +2675,14 @@
       "online": true
     },
     {
+      "name": "Kolwaski",
+      "resets_total": 53,
+      "resets_today": 0,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lilian Faithkeeper",
       "resets_total": 40,
       "resets_today": 0,
@@ -2809,6 +2888,12 @@
         {
           "name": "Pally Tetss",
           "value": 55,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 53,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3302,6 +3387,12 @@
           "name": "Vinizerah On Amonot",
           "value": 761,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 708,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3984,7 +4075,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/07/2026 às 16:44 (Brasília)",
+    "updated_at": "27/07/2026 às 16:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26937,6 +27028,15 @@
       "isPvp": true
     },
     {
+      "time": "Jul 25, 2026 15:50",
+      "player": "Kolwaski",
+      "level": 820,
+      "killedBy": "Royal Sniper",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 25, 2026 15:49",
       "player": "End Zeus",
       "level": 942,
@@ -26998,6 +27098,7 @@
         "Jhonnys Trembolizado": 90,
         "Kev": 31,
         "Kiel": 65,
+        "Kolwaski": 53,
         "Lilian Faithkeeper": 40,
         "Lipe Knight": 55,
         "Loks": 44,
@@ -38615,6 +38716,7 @@
           "Jhonnys Trembolizado": 90,
           "Kev": 31,
           "Kiel": 65,
+          "Kolwaski": 53,
           "Lilian Faithkeeper": 40,
           "Lipe Knight": 55,
           "Loks": 44,
@@ -43663,13 +43765,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 51,
-      "total_current": 2436,
+      "num_members": 52,
+      "total_current": 2489,
       "resets_today": 10,
-      "resets_week": 93,
+      "resets_week": 97,
       "resets_month": 0,
-      "resets_lifetime": 98,
-      "avg_per_player": 47.8
+      "resets_lifetime": 102,
+      "avg_per_player": 47.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
