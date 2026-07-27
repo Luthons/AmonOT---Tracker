@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/07/2026 às 14:45 (Brasília)",
+  "updated_at": "27/07/2026 às 14:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 51,
@@ -121,8 +121,8 @@
     },
     {
       "name": "Dmonick",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -157,6 +157,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "20/07/2026 às 11:50 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:46 (Brasília)"
         }
       ]
     },
@@ -2458,6 +2463,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Dmonick",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "El Diablo",
       "resets_total": 55,
       "resets_today": 1,
@@ -2741,6 +2754,12 @@
           "online": true
         },
         {
+          "name": "Dmonick",
+          "value": 57,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
           "value": 57,
           "vocation": "Royal Paladin",
@@ -2762,12 +2781,6 @@
           "name": "Monstro Das Criptos",
           "value": 57,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 56,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3014,12 +3027,6 @@
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3954,7 +3961,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/07/2026 às 14:45 (Brasília)",
+    "updated_at": "27/07/2026 às 14:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26949,7 +26956,7 @@
         "Dmonick Hahaha": 59,
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
-        "Dmonick": 56,
+        "Dmonick": 57,
         "El Diablo": 55,
         "Punish Claude": 52,
         "Teylera Rp": 62,
@@ -38618,7 +38625,7 @@
           "Dmonick Hahaha": 59,
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
-          "Dmonick": 56,
+          "Dmonick": 57,
           "El Diablo": 55,
           "Punish Claude": 52,
           "Teylera Rp": 62,
@@ -42532,6 +42539,13 @@
           "gained": 1,
           "timestamp": "27/07/2026 às 14:41 (Brasília)",
           "hour_key": "2026-07-27-14"
+        },
+        {
+          "name": "Dmonick",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:46 (Brasília)",
+          "hour_key": "2026-07-27-14"
         }
       ]
     },
@@ -43681,11 +43695,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 51,
-      "total_current": 2434,
-      "resets_today": 8,
-      "resets_week": 91,
+      "total_current": 2435,
+      "resets_today": 9,
+      "resets_week": 92,
       "resets_month": 0,
-      "resets_lifetime": 98,
+      "resets_lifetime": 99,
       "avg_per_player": 47.7
     },
     "enemy_guild": {
