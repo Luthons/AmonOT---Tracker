@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/07/2026 às 22:02 (Brasília)",
+  "updated_at": "27/07/2026 às 22:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -167,7 +167,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 857,
+      "level": 855,
       "resets": 57,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2260,8 +2260,8 @@
     },
     {
       "name": "Nino",
-      "level": 1861,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2276,6 +2276,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "25/07/2026 às 01:49 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 22:03 (Brasília)"
         }
       ]
     },
@@ -2989,15 +2994,15 @@
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 46,
-          "vocation": "Elder Druid",
+          "name": "Nino",
+          "value": 47,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Nino",
+          "name": "Loks",
           "value": 46,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3241,12 +3246,6 @@
           "online": true
         },
         {
-          "name": "Nino",
-          "value": 1861,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "MekZera",
           "value": 1833,
           "vocation": "Royal Paladin",
@@ -3422,7 +3421,7 @@
         },
         {
           "name": "El Diablo",
-          "value": 857,
+          "value": 855,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4100,7 +4099,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/07/2026 às 22:02 (Brasília)",
+    "updated_at": "27/07/2026 às 22:03 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27134,7 +27133,7 @@
         "MekZera": 53,
         "Melbiss": 50,
         "Monstro Das Criptos": 57,
-        "Nino": 46,
+        "Nino": 47,
         "Osh Don": 49,
         "Pally Tetss": 55,
         "Pedim Kitbota": 51,
@@ -38605,7 +38604,7 @@
           "MekZera": 53,
           "Melbiss": 50,
           "Monstro Das Criptos": 57,
-          "Nino": 46,
+          "Nino": 47,
           "Osh Don": 49,
           "Pally Tetss": 55,
           "Pedim Kitbota": 51,
@@ -42531,6 +42530,13 @@
           "gained": 1,
           "timestamp": "27/07/2026 às 21:57 (Brasília)",
           "hour_key": "2026-07-27-21"
+        },
+        {
+          "name": "Nino",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 22:03 (Brasília)",
+          "hour_key": "2026-07-27-22"
         }
       ]
     },
@@ -43680,7 +43686,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2543,
+      "total_current": 2544,
       "resets_today": 0,
       "resets_week": 86,
       "resets_month": 0,
