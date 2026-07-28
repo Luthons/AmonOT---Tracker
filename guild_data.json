@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 00:34 (Brasília)",
+  "updated_at": "28/07/2026 às 00:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -2262,13 +2262,19 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1855,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 00:35 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Pestinha",
@@ -2369,7 +2375,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1094,
+      "level": 1104,
       "resets": 41,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2513,6 +2519,14 @@
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Pedim Kitbota",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
     {
       "name": "Dmonick",
       "resets_total": 57,
@@ -2881,6 +2895,12 @@
           "online": true
         },
         {
+          "name": "Pedim Kitbota",
+          "value": 52,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "End Zeus",
           "value": 51,
           "vocation": "Master Sorcerer",
@@ -2890,12 +2910,6 @@
           "name": "Guidao Palao",
           "value": 51,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pedim Kitbota",
-          "value": 51,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3199,12 +3213,6 @@
           "online": true
         },
         {
-          "name": "Pedim Kitbota",
-          "value": 1855,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Lipe Knight",
           "value": 1788,
           "vocation": "Elite Knight",
@@ -3338,7 +3346,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1094,
+          "value": 1104,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4046,7 +4054,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 00:34 (Brasília)",
+    "updated_at": "28/07/2026 às 00:35 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27083,7 +27091,7 @@
         "Nino": 47,
         "Osh Don": 49,
         "Pally Tetss": 55,
-        "Pedim Kitbota": 51,
+        "Pedim Kitbota": 52,
         "Pestinha": 40,
         "Rp Terror": 34,
         "Teko News": 62,
@@ -38506,7 +38514,7 @@
           "Nino": 47,
           "Osh Don": 49,
           "Pally Tetss": 55,
-          "Pedim Kitbota": 51,
+          "Pedim Kitbota": 52,
           "Pestinha": 40,
           "Rp Terror": 34,
           "Teko News": 62,
@@ -42261,6 +42269,13 @@
           "gained": 1,
           "timestamp": "27/07/2026 às 22:55 (Brasília)",
           "hour_key": "2026-07-27-22"
+        },
+        {
+          "name": "Pedim Kitbota",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 00:35 (Brasília)",
+          "hour_key": "2026-07-28-00"
         }
       ]
     },
@@ -43368,8 +43383,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2545,
-      "resets_today": 0,
+      "total_current": 2546,
+      "resets_today": 1,
       "resets_week": 87,
       "resets_month": 0,
       "resets_lifetime": 100,
