@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 11:53 (Brasília)",
+  "updated_at": "28/07/2026 às 11:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -437,8 +437,8 @@
     },
     {
       "name": "Akronus",
-      "level": 1842,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -518,6 +518,11 @@
           "resets": 52,
           "gained": 1,
           "timestamp": "27/07/2026 às 10:36 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 11:54 (Brasília)"
         }
       ]
     },
@@ -2558,6 +2563,14 @@
       "online": true
     },
     {
+      "name": "Akronus",
+      "resets_total": 53,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Baiakudinho",
       "resets_total": 58,
       "resets_today": 1,
@@ -2620,14 +2633,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 52,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Master Sorcerer",
-      "online": true
     },
     {
       "name": "Alba Baiakeiro",
@@ -2909,6 +2914,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 53,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Kolwaski",
           "value": 53,
           "vocation": "Royal Paladin",
@@ -2919,12 +2930,6 @@
           "value": 52,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Akronus",
-          "value": 52,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Henrique",
@@ -3248,12 +3253,6 @@
           "name": "Monstro Das Criptos",
           "value": 1930,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1842,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4098,7 +4097,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 11:53 (Brasília)",
+    "updated_at": "28/07/2026 às 11:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27109,7 +27108,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
-        "Akronus": 52,
+        "Akronus": 53,
         "Alba Baiakeiro": 63,
         "Baiakudinho": 58,
         "Baunilha": 57,
@@ -38268,7 +38267,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
-          "Akronus": 52,
+          "Akronus": 53,
           "Alba Baiakeiro": 63,
           "Baiakudinho": 58,
           "Baunilha": 57,
@@ -42107,6 +42106,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 11:13 (Brasília)",
           "hour_key": "2026-07-28-11"
+        },
+        {
+          "name": "Akronus",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 11:54 (Brasília)",
+          "hour_key": "2026-07-28-11"
         }
       ]
     },
@@ -43214,11 +43220,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2552,
-      "resets_today": 7,
-      "resets_week": 92,
+      "total_current": 2553,
+      "resets_today": 8,
+      "resets_week": 93,
       "resets_month": 0,
-      "resets_lifetime": 100,
+      "resets_lifetime": 101,
       "avg_per_player": 48.2
     },
     "enemy_guild": {
