@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 14:39 (Brasília)",
+  "updated_at": "28/07/2026 às 14:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -4103,7 +4103,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 14:39 (Brasília)",
+    "updated_at": "28/07/2026 às 14:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27038,15 +27038,6 @@
   },
   "deaths_global": [
     {
-      "time": "Jul 28, 2026 06:21",
-      "player": "MekZera",
-      "level": 2000,
-      "killedBy": "Dmonick Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Jul 27, 2026 03:22",
       "player": "Achilles",
       "level": 2000,
@@ -43529,7 +43520,7 @@
   ],
   "errors": [
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
-    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
+    "Inimigos (Fuba Empire): Erro de conexão: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
 }
