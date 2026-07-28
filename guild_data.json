@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 08:49 (Brasília)",
+  "updated_at": "28/07/2026 às 08:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -604,8 +604,8 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 2000,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -630,6 +630,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "23/07/2026 às 15:57 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 08:50 (Brasília)"
         }
       ]
     },
@@ -2520,6 +2525,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Baiakudinho",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Pedim Kitbota",
       "resets_total": 52,
       "resets_today": 1,
@@ -2557,14 +2570,6 @@
       "resets_today": 0,
       "resets_week": 5,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Baiakudinho",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2805,6 +2810,12 @@
           "online": true
         },
         {
+          "name": "Baiakudinho",
+          "value": 58,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 58,
           "vocation": "Elite Knight",
@@ -2820,12 +2831,6 @@
           "name": "El Diablo",
           "value": 57,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 57,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3121,12 +3126,6 @@
           "value": 2000,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Boingbringer",
@@ -4060,7 +4059,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 08:49 (Brasília)",
+    "updated_at": "28/07/2026 às 08:50 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27073,7 +27072,7 @@
         "Affey": 32,
         "Akronus": 52,
         "Alba Baiakeiro": 63,
-        "Baiakudinho": 57,
+        "Baiakudinho": 58,
         "Baunilha": 57,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 40,
@@ -38304,7 +38303,7 @@
           "Affey": 32,
           "Akronus": 52,
           "Alba Baiakeiro": 63,
-          "Baiakudinho": 57,
+          "Baiakudinho": 58,
           "Baunilha": 57,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 40,
@@ -42099,6 +42098,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 00:35 (Brasília)",
           "hour_key": "2026-07-28-00"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 08:50 (Brasília)",
+          "hour_key": "2026-07-28-08"
         }
       ]
     },
@@ -43206,12 +43212,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2546,
-      "resets_today": 1,
-      "resets_week": 87,
+      "total_current": 2547,
+      "resets_today": 2,
+      "resets_week": 88,
       "resets_month": 0,
-      "resets_lifetime": 98,
-      "avg_per_player": 48.0
+      "resets_lifetime": 99,
+      "avg_per_player": 48.1
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
