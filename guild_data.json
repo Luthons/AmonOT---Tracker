@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 09:13 (Brasília)",
+  "updated_at": "28/07/2026 às 09:14 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -162,7 +162,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 936,
+      "level": 940,
       "resets": 57,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2288,8 +2288,8 @@
     },
     {
       "name": "Pestinha",
-      "level": 2002,
-      "resets": 40,
+      "level": 8,
+      "resets": 41,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2354,6 +2354,11 @@
           "resets": 40,
           "gained": 1,
           "timestamp": "22/07/2026 às 23:08 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 09:14 (Brasília)"
         }
       ]
     },
@@ -2554,6 +2559,14 @@
       "online": true
     },
     {
+      "name": "Pestinha",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 57,
       "resets_today": 0,
@@ -2719,14 +2732,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Pestinha",
-      "resets_total": 40,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2983,6 +2988,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 41,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
           "value": 41,
           "vocation": "Elder Druid",
@@ -2998,12 +3009,6 @@
           "name": "Lilian Faithkeeper",
           "value": 40,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pestinha",
-          "value": 40,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3094,12 +3099,6 @@
           "name": "Guidao Palao",
           "value": 2006,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pestinha",
-          "value": 2002,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3380,7 +3379,7 @@
         },
         {
           "name": "El Diablo",
-          "value": 936,
+          "value": 940,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4064,7 +4063,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 09:13 (Brasília)",
+    "updated_at": "28/07/2026 às 09:14 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27111,7 +27110,7 @@
         "Osh Don": 49,
         "Pally Tetss": 55,
         "Pedim Kitbota": 52,
-        "Pestinha": 40,
+        "Pestinha": 41,
         "Rp Terror": 34,
         "Teko News": 62,
         "Vinizerah On Amonot": 41,
@@ -38318,7 +38317,7 @@
           "Osh Don": 49,
           "Pally Tetss": 55,
           "Pedim Kitbota": 52,
-          "Pestinha": 40,
+          "Pestinha": 41,
           "Rp Terror": 34,
           "Teko News": 62,
           "Vinizerah On Amonot": 41,
@@ -42093,6 +42092,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 09:13 (Brasília)",
           "hour_key": "2026-07-28-09"
+        },
+        {
+          "name": "Pestinha",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 09:14 (Brasília)",
+          "hour_key": "2026-07-28-09"
         }
       ]
     },
@@ -43200,11 +43206,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2548,
-      "resets_today": 3,
-      "resets_week": 89,
+      "total_current": 2549,
+      "resets_today": 4,
+      "resets_week": 90,
       "resets_month": 0,
-      "resets_lifetime": 99,
+      "resets_lifetime": 100,
       "avg_per_player": 48.1
     },
     "enemy_guild": {
