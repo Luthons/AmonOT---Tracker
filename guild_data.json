@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 15:49 (Brasília)",
+  "updated_at": "28/07/2026 às 15:50 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
@@ -167,8 +167,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 982,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -208,6 +208,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "28/07/2026 às 11:13 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 15:50 (Brasília)"
         }
       ]
     },
@@ -2560,19 +2565,19 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "El Diablo",
+      "resets_total": 59,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 58,
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "El Diablo",
-      "resets_total": 58,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2847,6 +2852,12 @@
           "online": true
         },
         {
+          "name": "El Diablo",
+          "value": 59,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Ynhaca Purah",
           "value": 59,
           "vocation": "Master Sorcerer",
@@ -2856,12 +2867,6 @@
           "name": "Dmonick",
           "value": 58,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 58,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3402,12 +3407,6 @@
           "name": "Baiakudinho",
           "value": 993,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 982,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4108,7 +4107,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 15:49 (Brasília)",
+    "updated_at": "28/07/2026 às 15:50 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27113,7 +27112,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 58,
-        "El Diablo": 58,
+        "El Diablo": 59,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -38176,7 +38175,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 58,
-          "El Diablo": 58,
+          "El Diablo": 59,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -42035,6 +42034,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 15:24 (Brasília)",
           "hour_key": "2026-07-28-15"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 15:50 (Brasília)",
+          "hour_key": "2026-07-28-15"
         }
       ]
     },
@@ -43142,8 +43148,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2554,
-      "resets_today": 9,
+      "total_current": 2555,
+      "resets_today": 10,
       "resets_week": 94,
       "resets_month": 0,
       "resets_lifetime": 98,
