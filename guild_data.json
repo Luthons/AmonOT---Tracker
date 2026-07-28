@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 18:28 (Brasília)",
+  "updated_at": "28/07/2026 às 18:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 53,
-  "online_count": 44,
-  "offline_count": 9,
+  "online_count": 43,
+  "offline_count": 10,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -167,8 +167,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 936,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -213,6 +213,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "28/07/2026 às 15:51 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 18:29 (Brasília)"
         }
       ]
     },
@@ -1924,7 +1929,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 27,
@@ -2571,8 +2576,8 @@
   "resets_today": [
     {
       "name": "El Diablo",
-      "resets_total": 59,
-      "resets_today": 2,
+      "resets_total": 60,
+      "resets_today": 3,
       "resets_week": 0,
       "vocation": "Elder Druid",
       "online": true
@@ -2751,7 +2756,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Magabela",
@@ -2851,15 +2856,15 @@
           "online": true
         },
         {
-          "name": "Dmonick Hahaha",
-          "value": 59,
-          "vocation": "Royal Paladin",
+          "name": "El Diablo",
+          "value": 60,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "El Diablo",
+          "name": "Dmonick Hahaha",
           "value": 59,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3070,7 +3075,7 @@
           "name": "Lougon Baiakeiro",
           "value": 33,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Affey",
@@ -3262,7 +3267,7 @@
           "name": "Lougon Baiakeiro",
           "value": 1937,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Alba Baiakeiro",
@@ -3430,12 +3435,6 @@
           "name": "MekZera",
           "value": 998,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 936,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4118,7 +4117,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 18:28 (Brasília)",
+    "updated_at": "28/07/2026 às 18:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27123,7 +27122,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 58,
-        "El Diablo": 59,
+        "El Diablo": 60,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -38114,7 +38113,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 58,
-          "El Diablo": 59,
+          "El Diablo": 60,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -41987,6 +41986,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 17:28 (Brasília)",
           "hour_key": "2026-07-28-17"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 18:29 (Brasília)",
+          "hour_key": "2026-07-28-18"
         }
       ]
     },
@@ -43094,8 +43100,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 53,
-      "total_current": 2556,
-      "resets_today": 11,
+      "total_current": 2557,
+      "resets_today": 12,
       "resets_week": 95,
       "resets_month": 0,
       "resets_lifetime": 98,
