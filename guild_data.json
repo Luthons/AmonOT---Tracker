@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/07/2026 às 14:19 (Brasília)",
+  "updated_at": "29/07/2026 às 14:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2416,8 +2416,8 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1932,
-      "resets": 34,
+      "level": 8,
+      "resets": 35,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2427,6 +2427,11 @@
           "resets": 34,
           "gained": 1,
           "timestamp": "24/07/2026 às 14:50 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "29/07/2026 às 14:20 (Brasília)"
         }
       ]
     },
@@ -2706,6 +2711,14 @@
       "online": false
     },
     {
+      "name": "Rp Terror",
+      "resets_total": 35,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 58,
       "resets_today": 0,
@@ -2839,14 +2852,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Rp Terror",
-      "resets_total": 34,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -3152,7 +3157,7 @@
         },
         {
           "name": "Rp Terror",
-          "value": 34,
+          "value": 35,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3352,12 +3357,6 @@
           "name": "Lougon Baiakeiro",
           "value": 1969,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Rp Terror",
-          "value": 1932,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4226,7 +4225,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/07/2026 às 14:19 (Brasília)",
+    "updated_at": "29/07/2026 às 14:20 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27249,7 +27248,7 @@
         "Pally Tetss": 55,
         "Pedim Kitbota": 53,
         "Pestinha": 41,
-        "Rp Terror": 34,
+        "Rp Terror": 35,
         "Rusha Rp": 62,
         "Teko News": 63,
         "Vinizerah On Amonot": 41,
@@ -37820,7 +37819,7 @@
           "Pally Tetss": 55,
           "Pedim Kitbota": 53,
           "Pestinha": 41,
-          "Rp Terror": 34,
+          "Rp Terror": 35,
           "Rusha Rp": 62,
           "Teko News": 63,
           "Vinizerah On Amonot": 41,
@@ -41567,6 +41566,13 @@
           "gained": 1,
           "timestamp": "29/07/2026 às 10:11 (Brasília)",
           "hour_key": "2026-07-29-10"
+        },
+        {
+          "name": "Rp Terror",
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "29/07/2026 às 14:20 (Brasília)",
+          "hour_key": "2026-07-29-14"
         }
       ]
     },
@@ -42653,11 +42659,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2737,
-      "resets_today": 9,
-      "resets_week": 85,
+      "total_current": 2738,
+      "resets_today": 10,
+      "resets_week": 86,
       "resets_month": 0,
-      "resets_lifetime": 89,
+      "resets_lifetime": 90,
       "avg_per_player": 48.9
     },
     "enemy_guild": {
