@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 23:06 (Brasília)",
+  "updated_at": "28/07/2026 às 23:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2353,8 +2353,8 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1773,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -2364,6 +2364,11 @@
           "resets": 52,
           "gained": 1,
           "timestamp": "28/07/2026 às 00:35 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 23:07 (Brasília)"
         }
       ]
     },
@@ -2678,6 +2683,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Pedim Kitbota",
+      "resets_total": 53,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -3048,6 +3061,12 @@
           "online": true
         },
         {
+          "name": "Pedim Kitbota",
+          "value": 53,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Punish Claude",
           "value": 52,
           "vocation": "Royal Paladin",
@@ -3057,12 +3076,6 @@
           "name": "Henrique",
           "value": 52,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Pedim Kitbota",
-          "value": 52,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3375,12 +3388,6 @@
           "name": "Rp Terror",
           "value": 1796,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pedim Kitbota",
-          "value": 1773,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4237,7 +4244,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 23:06 (Brasília)",
+    "updated_at": "28/07/2026 às 23:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27285,7 +27292,7 @@
         "Nino": 47,
         "Osh Don": 49,
         "Pally Tetss": 55,
-        "Pedim Kitbota": 52,
+        "Pedim Kitbota": 53,
         "Pestinha": 41,
         "Rp Terror": 34,
         "Rusha Rp": 62,
@@ -38171,7 +38178,7 @@
           "Nino": 47,
           "Osh Don": 49,
           "Pally Tetss": 55,
-          "Pedim Kitbota": 52,
+          "Pedim Kitbota": 53,
           "Pestinha": 41,
           "Rp Terror": 34,
           "Rusha Rp": 62,
@@ -42046,6 +42053,13 @@
           "gained": 1,
           "timestamp": "28/07/2026 às 23:01 (Brasília)",
           "hour_key": "2026-07-28-23"
+        },
+        {
+          "name": "Pedim Kitbota",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 23:07 (Brasília)",
+          "hour_key": "2026-07-28-23"
         }
       ]
     },
@@ -43153,12 +43167,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2729,
-      "resets_today": 1,
+      "total_current": 2730,
+      "resets_today": 2,
       "resets_week": 79,
       "resets_month": 0,
       "resets_lifetime": 93,
-      "avg_per_player": 48.7
+      "avg_per_player": 48.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
