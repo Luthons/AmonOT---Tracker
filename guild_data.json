@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "28/07/2026 às 21:38 (Brasília)",
+  "updated_at": "28/07/2026 às 21:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 55,
-  "online_count": 45,
-  "offline_count": 10,
+  "total_members": 56,
+  "online_count": 43,
+  "offline_count": 13,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -457,7 +457,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 38,
@@ -1257,6 +1257,16 @@
           "timestamp": "02/07/2026 às 20:13 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Henrique Arqueiro",
+      "level": 1114,
+      "resets": 51,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
     },
     {
       "name": "Its Gui",
@@ -2271,7 +2281,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 45,
@@ -2328,7 +2338,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1767,
+      "level": 1772,
       "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2671,7 +2681,7 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Baiakudinho",
@@ -3016,7 +3026,7 @@
           "name": "Akronus",
           "value": 53,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Kolwaski",
@@ -3053,6 +3063,12 @@
           "value": 51,
           "vocation": "Royal Paladin",
           "online": true
+        },
+        {
+          "name": "Henrique Arqueiro",
+          "value": 51,
+          "vocation": "Royal Paladin",
+          "online": false
         },
         {
           "name": "Brunaobringer",
@@ -3094,7 +3110,7 @@
           "name": "Nino",
           "value": 47,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Its Gui",
@@ -3368,7 +3384,7 @@
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1767,
+          "value": 1772,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3388,7 +3404,7 @@
           "name": "Nino",
           "value": 1707,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
@@ -3490,7 +3506,7 @@
           "name": "Akronus",
           "value": 1225,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Kolwaski",
@@ -3509,6 +3525,12 @@
           "value": 1133,
           "vocation": "Elite Knight",
           "online": true
+        },
+        {
+          "name": "Henrique Arqueiro",
+          "value": 1114,
+          "vocation": "Royal Paladin",
+          "online": false
         },
         {
           "name": "Baiakudinho",
@@ -4214,7 +4236,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "28/07/2026 às 21:38 (Brasília)",
+    "updated_at": "28/07/2026 às 21:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27242,6 +27264,7 @@
         "Gokuu": 56,
         "Guidao Palao": 51,
         "Henrique": 52,
+        "Henrique Arqueiro": 51,
         "Its Gui": 44,
         "Jhonnys Trembolizado": 91,
         "Jishuka": 55,
@@ -38169,6 +38192,7 @@
           "Gokuu": 56,
           "Guidao Palao": 51,
           "Henrique": 52,
+          "Henrique Arqueiro": 51,
           "Its Gui": 44,
           "Jhonnys Trembolizado": 91,
           "Jishuka": 55,
@@ -43141,13 +43165,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 55,
-      "total_current": 2674,
+      "num_members": 56,
+      "total_current": 2725,
       "resets_today": 12,
       "resets_week": 95,
       "resets_month": 0,
       "resets_lifetime": 95,
-      "avg_per_player": 48.6
+      "avg_per_player": 48.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
