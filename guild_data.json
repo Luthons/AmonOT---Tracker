@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "29/07/2026 às 20:52 (Brasília)",
+  "updated_at": "29/07/2026 às 20:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -157,8 +157,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 1013,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -213,6 +213,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "28/07/2026 às 22:21 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "29/07/2026 às 20:53 (Brasília)"
         }
       ]
     },
@@ -1413,7 +1418,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1658,
+      "level": 1687,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2659,6 +2664,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "El Diablo",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Baunilha",
       "resets_total": 58,
       "resets_today": 1,
@@ -2936,6 +2949,12 @@
           "online": true
         },
         {
+          "name": "El Diablo",
+          "value": 62,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -2945,12 +2964,6 @@
           "name": "Rusha Rp",
           "value": 62,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 61,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3417,18 +3430,12 @@
         },
         {
           "name": "Jishuka",
-          "value": 1658,
+          "value": 1687,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Henrique Arqueiro",
-          "value": 1635,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jishuka",
           "value": 1635,
           "vocation": "Royal Paladin",
           "online": true
@@ -3539,12 +3546,6 @@
           "name": "Lipe Knight",
           "value": 1027,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 1013,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4251,7 +4252,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "29/07/2026 às 20:52 (Brasília)",
+    "updated_at": "29/07/2026 às 20:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27238,7 +27239,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 58,
-        "El Diablo": 61,
+        "El Diablo": 62,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -37680,7 +37681,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 58,
-          "El Diablo": 61,
+          "El Diablo": 62,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -41507,6 +41508,13 @@
           "gained": 1,
           "timestamp": "29/07/2026 às 19:04 (Brasília)",
           "hour_key": "2026-07-29-19"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "29/07/2026 às 20:53 (Brasília)",
+          "hour_key": "2026-07-29-20"
         }
       ]
     },
@@ -42593,8 +42601,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2742,
-      "resets_today": 14,
+      "total_current": 2743,
+      "resets_today": 15,
       "resets_week": 90,
       "resets_month": 0,
       "resets_lifetime": 90,
