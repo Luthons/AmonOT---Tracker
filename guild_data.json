@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/07/2026 às 18:46 (Brasília)",
+  "updated_at": "30/07/2026 às 18:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -157,8 +157,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 985,
-      "resets": 64,
+      "level": 8,
+      "resets": 65,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -228,6 +228,11 @@
           "resets": 64,
           "gained": 1,
           "timestamp": "30/07/2026 às 13:05 (Brasília)"
+        },
+        {
+          "resets": 65,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 18:47 (Brasília)"
         }
       ]
     },
@@ -2615,8 +2620,8 @@
   "resets_today": [
     {
       "name": "El Diablo",
-      "resets_total": 64,
-      "resets_today": 2,
+      "resets_total": 65,
+      "resets_today": 3,
       "resets_week": 0,
       "vocation": "Elder Druid",
       "online": true
@@ -2873,15 +2878,15 @@
           "online": true
         },
         {
-          "name": "Kiel",
+          "name": "El Diablo",
           "value": 65,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 64,
-          "vocation": "Elder Druid",
+          "name": "Kiel",
+          "value": 65,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3506,12 +3511,6 @@
           "name": "Lipe Knight",
           "value": 1003,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 985,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4206,7 +4205,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/07/2026 às 18:46 (Brasília)",
+    "updated_at": "30/07/2026 às 18:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27247,7 +27246,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 59,
-        "El Diablo": 64,
+        "El Diablo": 65,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -37205,7 +37204,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 59,
-          "El Diablo": 64,
+          "El Diablo": 65,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -40871,6 +40870,13 @@
           "gained": 1,
           "timestamp": "30/07/2026 às 13:05 (Brasília)",
           "hour_key": "2026-07-30-13"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 65,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 18:47 (Brasília)",
+          "hour_key": "2026-07-30-18"
         }
       ]
     },
@@ -41936,8 +41942,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2754,
-      "resets_today": 11,
+      "total_current": 2755,
+      "resets_today": 12,
       "resets_week": 83,
       "resets_month": 0,
       "resets_lifetime": 86,
