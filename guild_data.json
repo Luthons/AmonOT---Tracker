@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/07/2026 às 05:31 (Brasília)",
+  "updated_at": "30/07/2026 às 05:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -1572,8 +1572,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1000,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1653,6 +1653,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "29/07/2026 às 05:22 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 05:32 (Brasília)"
         }
       ]
     },
@@ -2608,6 +2613,14 @@
       "online": true
     },
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "MekZera",
       "resets_total": 56,
       "resets_today": 1,
@@ -2708,14 +2721,6 @@
       "resets_total": 53,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 41,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -3059,6 +3064,12 @@
           "online": true
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 42,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boltfly Peoplecry",
           "value": 41,
           "vocation": "Royal Paladin",
@@ -3069,12 +3080,6 @@
           "value": 41,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 41,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lukitas Brokenzada",
@@ -3475,12 +3480,6 @@
         {
           "name": "Gokuu",
           "value": 1126,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1000,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4176,7 +4175,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/07/2026 às 05:31 (Brasília)",
+    "updated_at": "30/07/2026 às 05:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27238,7 +27237,7 @@
         "Kev": 31,
         "Kiel": 65,
         "Kolwaski": 53,
-        "Lilian Faithkeeper": 41,
+        "Lilian Faithkeeper": 42,
         "Lipe Knight": 57,
         "Loks": 50,
         "Lotus Lothbrook": 35,
@@ -37482,7 +37481,7 @@
           "Kev": 31,
           "Kiel": 65,
           "Kolwaski": 53,
-          "Lilian Faithkeeper": 41,
+          "Lilian Faithkeeper": 42,
           "Lipe Knight": 57,
           "Loks": 50,
           "Lotus Lothbrook": 35,
@@ -41076,6 +41075,13 @@
           "gained": 1,
           "timestamp": "30/07/2026 às 01:07 (Brasília)",
           "hour_key": "2026-07-30-01"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 05:32 (Brasília)",
+          "hour_key": "2026-07-30-05"
         }
       ]
     },
@@ -42141,11 +42147,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2748,
-      "resets_today": 5,
-      "resets_week": 78,
+      "total_current": 2749,
+      "resets_today": 6,
+      "resets_week": 79,
       "resets_month": 0,
-      "resets_lifetime": 87,
+      "resets_lifetime": 88,
       "avg_per_player": 49.1
     },
     "enemy_guild": {
