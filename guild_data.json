@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "30/07/2026 às 00:22 (Brasília)",
+  "updated_at": "30/07/2026 às 00:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -152,8 +152,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 938,
-      "resets": 62,
+      "level": 8,
+      "resets": 63,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -213,6 +213,11 @@
           "resets": 62,
           "gained": 1,
           "timestamp": "29/07/2026 às 20:53 (Brasília)"
+        },
+        {
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 00:23 (Brasília)"
         }
       ]
     },
@@ -2254,7 +2259,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1681,
+      "level": 1740,
       "resets": 53,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2564,6 +2569,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "El Diablo",
+      "resets_total": 63,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Gokuu",
       "resets_total": 57,
       "resets_today": 1,
@@ -2819,15 +2832,15 @@
           "online": true
         },
         {
-          "name": "Teko News",
+          "name": "El Diablo",
           "value": 63,
-          "vocation": "Exalted Monk",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 62,
-          "vocation": "Elder Druid",
+          "name": "Teko News",
+          "value": 63,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3305,6 +3318,12 @@
           "online": true
         },
         {
+          "name": "Pedim Kitbota",
+          "value": 1740,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
           "value": 1735,
           "vocation": "Elder Druid",
@@ -3332,12 +3351,6 @@
           "name": "Henrique Arqueiro",
           "value": 1687,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pedim Kitbota",
-          "value": 1681,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3440,12 +3453,6 @@
           "name": "Lilian Faithkeeper",
           "value": 969,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 938,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4140,7 +4147,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "30/07/2026 às 00:22 (Brasília)",
+    "updated_at": "30/07/2026 às 00:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27172,7 +27179,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 58,
-        "El Diablo": 62,
+        "El Diablo": 63,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -37526,7 +37533,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 58,
-          "El Diablo": 62,
+          "El Diablo": 63,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -41122,6 +41129,13 @@
           "gained": 1,
           "timestamp": "29/07/2026 às 23:29 (Brasília)",
           "hour_key": "2026-07-29-23"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 00:23 (Brasília)",
+          "hour_key": "2026-07-30-00"
         }
       ]
     },
@@ -42187,8 +42201,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2744,
-      "resets_today": 1,
+      "total_current": 2745,
+      "resets_today": 2,
       "resets_week": 76,
       "resets_month": 0,
       "resets_lifetime": 85,
