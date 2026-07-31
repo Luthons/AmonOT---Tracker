@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/07/2026 às 13:29 (Brasília)",
+  "updated_at": "31/07/2026 às 13:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2248,13 +2248,19 @@
     },
     {
       "name": "Osh Don",
-      "level": 2000,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 13:30 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Pally Tetss",
@@ -2615,6 +2621,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Osh Don",
+      "resets_total": 50,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -3029,6 +3043,12 @@
           "online": true
         },
         {
+          "name": "Osh Don",
+          "value": 50,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "VukVuk",
           "value": 50,
           "vocation": "Elder Druid",
@@ -3036,12 +3056,6 @@
         },
         {
           "name": "Nino",
-          "value": 49,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Osh Don",
           "value": 49,
           "vocation": "Royal Paladin",
           "online": true
@@ -3279,12 +3293,6 @@
           "value": 2000,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Osh Don",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Pally Tetss",
@@ -4170,7 +4178,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/07/2026 às 13:29 (Brasília)",
+    "updated_at": "31/07/2026 às 13:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27261,7 +27269,7 @@
         "Melbiss": 52,
         "Monstro Das Criptos": 58,
         "Nino": 49,
-        "Osh Don": 49,
+        "Osh Don": 50,
         "Pally Tetss": 55,
         "Pedim Kitbota": 55,
         "Pestinha": 41,
@@ -36787,7 +36795,7 @@
           "Melbiss": 52,
           "Monstro Das Criptos": 58,
           "Nino": 49,
-          "Osh Don": 49,
+          "Osh Don": 50,
           "Pally Tetss": 55,
           "Pedim Kitbota": 55,
           "Pestinha": 41,
@@ -40251,6 +40259,13 @@
           "gained": 1,
           "timestamp": "31/07/2026 às 11:49 (Brasília)",
           "hour_key": "2026-07-31-11"
+        },
+        {
+          "name": "Osh Don",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 13:30 (Brasília)",
+          "hour_key": "2026-07-31-13"
         }
       ]
     },
@@ -41260,8 +41275,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2766,
-      "resets_today": 7,
+      "total_current": 2767,
+      "resets_today": 8,
       "resets_week": 76,
       "resets_month": 0,
       "resets_lifetime": 83,
