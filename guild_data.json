@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/07/2026 às 16:54 (Brasília)",
+  "updated_at": "31/07/2026 às 16:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -147,7 +147,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 870,
+      "level": 885,
       "resets": 67,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1287,8 +1287,8 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 2000,
-      "resets": 92,
+      "level": 8,
+      "resets": 93,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1373,6 +1373,11 @@
           "resets": 92,
           "gained": 1,
           "timestamp": "29/07/2026 às 17:52 (Brasília)"
+        },
+        {
+          "resets": 93,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 16:55 (Brasília)"
         }
       ]
     },
@@ -2618,6 +2623,14 @@
       "online": true
     },
     {
+      "name": "Jhonnys Trembolizado",
+      "resets_total": 93,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 59,
       "resets_today": 1,
@@ -2728,14 +2741,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
-    },
-    {
-      "name": "Jhonnys Trembolizado",
-      "resets_total": 92,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": false
     },
     {
       "name": "Kev",
@@ -2850,7 +2855,7 @@
       "entries": [
         {
           "name": "Jhonnys Trembolizado",
-          "value": 92,
+          "value": 93,
           "vocation": "Royal Paladin",
           "online": false
         },
@@ -3287,12 +3292,6 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Kiel",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3516,7 +3515,7 @@
         },
         {
           "name": "El Diablo",
-          "value": 870,
+          "value": 885,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4194,7 +4193,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/07/2026 às 16:54 (Brasília)",
+    "updated_at": "31/07/2026 às 16:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27278,7 +27277,7 @@
         "Henrique": 52,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
-        "Jhonnys Trembolizado": 92,
+        "Jhonnys Trembolizado": 93,
         "Jishuka": 56,
         "Kev": 31,
         "Kiel": 65,
@@ -36735,7 +36734,7 @@
           "Henrique": 52,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
-          "Jhonnys Trembolizado": 92,
+          "Jhonnys Trembolizado": 93,
           "Jishuka": 56,
           "Kev": 31,
           "Kiel": 65,
@@ -40236,6 +40235,13 @@
           "gained": 1,
           "timestamp": "31/07/2026 às 14:19 (Brasília)",
           "hour_key": "2026-07-31-14"
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "resets": 93,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 16:55 (Brasília)",
+          "hour_key": "2026-07-31-16"
         }
       ]
     },
@@ -41245,12 +41251,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2769,
-      "resets_today": 10,
-      "resets_week": 77,
+      "total_current": 2770,
+      "resets_today": 11,
+      "resets_week": 78,
       "resets_month": 0,
-      "resets_lifetime": 82,
-      "avg_per_player": 49.4
+      "resets_lifetime": 83,
+      "avg_per_player": 49.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
