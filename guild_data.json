@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/07/2026 às 00:30 (Brasília)",
+  "updated_at": "31/07/2026 às 00:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2253,8 +2253,8 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1963,
-      "resets": 54,
+      "level": 8,
+      "resets": 55,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -2274,6 +2274,11 @@
           "resets": 54,
           "gained": 1,
           "timestamp": "30/07/2026 às 00:29 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 00:31 (Brasília)"
         }
       ]
     },
@@ -2566,6 +2571,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Pedim Kitbota",
+      "resets_total": 55,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -2916,15 +2929,15 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 54,
-          "vocation": "Master Sorcerer",
+          "name": "Pedim Kitbota",
+          "value": 55,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
-          "name": "Pedim Kitbota",
+          "name": "Akronus",
           "value": 54,
-          "vocation": "Exalted Monk",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3256,12 +3269,6 @@
           "value": 1997,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Pedim Kitbota",
-          "value": 1963,
-          "vocation": "Exalted Monk",
-          "online": true
         },
         {
           "name": "Osh Don",
@@ -4129,7 +4136,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/07/2026 às 00:30 (Brasília)",
+    "updated_at": "31/07/2026 às 00:31 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27213,7 +27220,7 @@
         "Nino": 49,
         "Osh Don": 49,
         "Pally Tetss": 55,
-        "Pedim Kitbota": 54,
+        "Pedim Kitbota": 55,
         "Pestinha": 41,
         "Rp Terror": 35,
         "Rusha Rp": 62,
@@ -37038,7 +37045,7 @@
           "Nino": 49,
           "Osh Don": 49,
           "Pally Tetss": 55,
-          "Pedim Kitbota": 54,
+          "Pedim Kitbota": 55,
           "Pestinha": 41,
           "Rp Terror": 35,
           "Rusha Rp": 62,
@@ -40465,6 +40472,13 @@
           "gained": 1,
           "timestamp": "31/07/2026 às 00:13 (Brasília)",
           "hour_key": "2026-07-31-00"
+        },
+        {
+          "name": "Pedim Kitbota",
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 00:31 (Brasília)",
+          "hour_key": "2026-07-31-00"
         }
       ]
     },
@@ -41474,8 +41488,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2761,
-      "resets_today": 2,
+      "total_current": 2762,
+      "resets_today": 3,
       "resets_week": 72,
       "resets_month": 0,
       "resets_lifetime": 86,
