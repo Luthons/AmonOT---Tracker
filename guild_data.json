@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 12:08 (Brasília)",
+  "updated_at": "01/08/2026 às 12:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
-  "online_count": 45,
-  "offline_count": 11,
+  "online_count": 44,
+  "offline_count": 12,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -885,7 +885,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 13,
@@ -2992,7 +2992,7 @@
           "name": "Elder Lougon",
           "value": 25,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Vitao The Trader",
@@ -3286,7 +3286,7 @@
           "name": "Elder Lougon",
           "value": 1472,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Guidao Palao",
@@ -4016,7 +4016,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 12:08 (Brasília)",
+    "updated_at": "01/08/2026 às 12:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27005,15 +27005,6 @@
       "isPvp": true
     },
     {
-      "time": "Jul 31, 2026 13:43",
-      "player": "Alba Baiakeiro",
-      "level": 878,
-      "killedBy": "Cerebro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Jul 31, 2026 01:03",
       "player": "Kiel",
       "level": 2000,
@@ -41050,7 +41041,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
