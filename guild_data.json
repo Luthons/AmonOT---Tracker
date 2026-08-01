@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 08:57 (Brasília)",
+  "updated_at": "01/08/2026 às 08:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
-  "online_count": 41,
-  "offline_count": 14,
+  "online_count": 42,
+  "offline_count": 13,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -1262,7 +1262,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 23,
@@ -2535,7 +2535,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Kiel",
@@ -2954,7 +2954,7 @@
           "name": "Kev",
           "value": 31,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Boingbringer",
@@ -3218,7 +3218,7 @@
           "name": "Kev",
           "value": 1677,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Affey",
@@ -3990,7 +3990,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 08:57 (Brasília)",
+    "updated_at": "01/08/2026 às 08:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -41022,7 +41022,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
