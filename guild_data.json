@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/07/2026 às 21:24 (Brasília)",
+  "updated_at": "31/07/2026 às 21:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -1113,8 +1113,8 @@
     },
     {
       "name": "Gokuu",
-      "level": 1984,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1149,6 +1149,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "29/07/2026 às 23:29 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 21:25 (Brasília)"
         }
       ]
     },
@@ -2630,6 +2635,14 @@
       "online": true
     },
     {
+      "name": "Gokuu",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Guidao Palao",
       "resets_total": 52,
       "resets_today": 1,
@@ -2764,14 +2777,6 @@
       "resets_week": 2,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Gokuu",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Kev",
@@ -2979,15 +2984,15 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
+          "name": "Gokuu",
           "value": 58,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 57,
-          "vocation": "Royal Paladin",
+          "name": "Monstro Das Criptos",
+          "value": 58,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3360,12 +3365,6 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Gokuu",
-          "value": 1984,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4222,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/07/2026 às 21:24 (Brasília)",
+    "updated_at": "31/07/2026 às 21:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27310,7 +27309,7 @@
         "Dvn Luktzeraah": 50,
         "Elder Lougon": 25,
         "End Zeus": 51,
-        "Gokuu": 57,
+        "Gokuu": 58,
         "Guidao Palao": 52,
         "Henrique": 52,
         "Henrique Arqueiro": 51,
@@ -36652,7 +36651,7 @@
           "Dvn Luktzeraah": 50,
           "Elder Lougon": 25,
           "End Zeus": 51,
-          "Gokuu": 57,
+          "Gokuu": 58,
           "Guidao Palao": 52,
           "Henrique": 52,
           "Henrique Arqueiro": 51,
@@ -40186,6 +40185,13 @@
           "gained": 1,
           "timestamp": "31/07/2026 às 20:16 (Brasília)",
           "hour_key": "2026-07-31-20"
+        },
+        {
+          "name": "Gokuu",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "31/07/2026 às 21:25 (Brasília)",
+          "hour_key": "2026-07-31-21"
         }
       ]
     },
@@ -41195,11 +41201,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2773,
-      "resets_today": 14,
-      "resets_week": 79,
+      "total_current": 2774,
+      "resets_today": 15,
+      "resets_week": 80,
       "resets_month": 0,
-      "resets_lifetime": 79,
+      "resets_lifetime": 80,
       "avg_per_player": 49.5
     },
     "enemy_guild": {
