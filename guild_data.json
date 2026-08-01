@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 00:31 (Brasília)",
+  "updated_at": "01/08/2026 às 00:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -73,16 +73,12 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1997,
+      "level": 2000,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Jul 31, 2026, 23:57:12",
-      "guild_rank": "The Leader",
-      "former_names": "Sallesbringer, Salles On Amonot",
-      "hidden": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 69,
@@ -417,11 +413,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Jul 31, 2026, 10:29:54",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 26,
@@ -1149,7 +1141,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1085,
+      "level": 1084,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2949,7 +2941,7 @@
           "name": "Yagoodz Hahaha",
           "value": 70,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "El Diablo",
@@ -3225,7 +3217,7 @@
           "name": "Affey",
           "value": 32,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Deca com Testo",
@@ -3297,6 +3289,12 @@
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 2000,
+          "vocation": "Elite Knight",
           "online": false
         },
         {
@@ -3408,12 +3406,6 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 1997,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Adolph Healer",
           "value": 1997,
           "vocation": "Elder Druid",
@@ -3501,7 +3493,7 @@
           "name": "Affey",
           "value": 1618,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Lukitas Brokenzada",
@@ -3583,7 +3575,7 @@
         },
         {
           "name": "Guidao Palao",
-          "value": 1085,
+          "value": 1084,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4285,7 +4277,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 00:30 (Brasília)",
+    "updated_at": "01/08/2026 às 00:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27219,33 +27211,6 @@
     ]
   },
   "deaths_global": [
-    {
-      "time": "Jul 31, 2026 13:43",
-      "player": "Alba Baiakeiro",
-      "level": 878,
-      "killedBy": "Cerebro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 31, 2026 01:03",
-      "player": "Kiel",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 31, 2026 00:53",
-      "player": "Akronus",
-      "level": 1847,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
     {
       "time": "Jul 30, 2026 15:23",
       "player": "Achilles",
