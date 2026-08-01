@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 06:09 (Brasília)",
+  "updated_at": "01/08/2026 às 06:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -753,7 +753,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1897,
+      "level": 1908,
       "resets": 60,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1007,7 +1007,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1505,
+      "level": 1522,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1191,7 +1191,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1633,
+      "level": 1652,
       "resets": 93,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1994,7 +1994,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1351,
+      "level": 1360,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2111,7 +2111,7 @@
     },
     {
       "name": "Nino",
-      "level": 1261,
+      "level": 1280,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3226,7 +3226,7 @@
         },
         {
           "name": "Cerebro",
-          "value": 1897,
+          "value": 1908,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3279,15 +3279,15 @@
           "online": false
         },
         {
-          "name": "Alba Baiakeiro",
-          "value": 1651,
-          "vocation": "Elder Druid",
+          "name": "Jhonnys Trembolizado",
+          "value": 1652,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1633,
-          "vocation": "Royal Paladin",
+          "name": "Alba Baiakeiro",
+          "value": 1651,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3310,7 +3310,7 @@
         },
         {
           "name": "Gokuu",
-          "value": 1505,
+          "value": 1522,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3333,16 +3333,16 @@
           "online": true
         },
         {
+          "name": "Melbiss",
+          "value": 1360,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Punish Claude",
           "value": 1355,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 1351,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Guidao Palao",
@@ -3358,7 +3358,7 @@
         },
         {
           "name": "Nino",
-          "value": 1261,
+          "value": 1280,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4066,7 +4066,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 06:09 (Brasília)",
+    "updated_at": "01/08/2026 às 06:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -41070,8 +41070,8 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
+    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
   ]
 }
