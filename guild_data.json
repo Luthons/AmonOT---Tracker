@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 02:09 (Brasília)",
+  "updated_at": "01/08/2026 às 02:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -518,7 +518,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1589,
+      "level": 1601,
       "resets": 65,
       "vocation": "Elder Druid",
       "nick": "",
@@ -604,7 +604,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1945,
+      "level": 1958,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -706,7 +706,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 689,
+      "level": 803,
       "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -753,7 +753,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1823,
+      "level": 1841,
       "resets": 60,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1007,7 +1007,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1379,
+      "level": 1428,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1053,7 +1053,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1218,
+      "level": 1221,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1287,7 +1287,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1704,
+      "level": 1738,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1415,7 +1415,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1765,
+      "level": 1772,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1557,7 +1557,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1778,
+      "level": 1791,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1643,7 +1643,7 @@
     },
     {
       "name": "Loks",
-      "level": 1886,
+      "level": 1895,
       "resets": 51,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1893,7 +1893,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1852,
+      "level": 1857,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1994,7 +1994,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1308,
+      "level": 1319,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2111,7 +2111,7 @@
     },
     {
       "name": "Nino",
-      "level": 1149,
+      "level": 1186,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2152,7 +2152,7 @@
     },
     {
       "name": "Ntka",
-      "level": 1996,
+      "level": 2000,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2285,7 +2285,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1381,
+      "level": 1389,
       "resets": 35,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2348,7 +2348,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1467,
+      "level": 1479,
       "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3172,6 +3172,12 @@
           "online": true
         },
         {
+          "name": "Ntka",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Pally Tetss",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3196,27 +3202,27 @@
           "online": false
         },
         {
-          "name": "Ntka",
-          "value": 1996,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Baiakudinho",
-          "value": 1945,
+          "value": 1958,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1886,
+          "value": 1895,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "MekZera",
-          "value": 1852,
+          "value": 1857,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Cerebro",
+          "value": 1841,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3232,16 +3238,16 @@
           "online": true
         },
         {
-          "name": "Cerebro",
-          "value": 1823,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Brunao Rei Denovo",
           "value": 1811,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Lipe Knight",
+          "value": 1791,
+          "vocation": "Elite Knight",
+          "online": true
         },
         {
           "name": "Pestinha",
@@ -3250,20 +3256,14 @@
           "online": false
         },
         {
-          "name": "Lipe Knight",
-          "value": 1778,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Kolwaski",
-          "value": 1765,
+          "value": 1772,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Jishuka",
-          "value": 1704,
+          "value": 1738,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3287,7 +3287,7 @@
         },
         {
           "name": "Alba Baiakeiro",
-          "value": 1589,
+          "value": 1601,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3304,16 +3304,16 @@
           "online": false
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 1479,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1475,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1467,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Baunilha",
@@ -3322,14 +3322,14 @@
           "online": true
         },
         {
-          "name": "Rp Terror",
-          "value": 1381,
+          "name": "Gokuu",
+          "value": 1428,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1379,
+          "name": "Rp Terror",
+          "value": 1389,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3340,26 +3340,26 @@
           "online": false
         },
         {
+          "name": "Melbiss",
+          "value": 1319,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Lilian Faithkeeper",
           "value": 1308,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 1308,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Guidao Palao",
-          "value": 1218,
+          "value": 1221,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Nino",
-          "value": 1149,
+          "value": 1186,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3389,7 +3389,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 689,
+          "value": 803,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -4061,7 +4061,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 02:09 (Brasília)",
+    "updated_at": "01/08/2026 às 02:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -41148,7 +41148,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
