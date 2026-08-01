@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 02:38 (Brasília)",
+  "updated_at": "01/08/2026 às 02:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
-  "online_count": 38,
-  "offline_count": 18,
+  "online_count": 39,
+  "offline_count": 17,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -1196,7 +1196,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 77,
@@ -2591,7 +2591,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     },
     {
       "name": "Kev",
@@ -2724,7 +2724,7 @@
           "name": "Jhonnys Trembolizado",
           "value": 93,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Yagoodz Hahaha",
@@ -3300,7 +3300,7 @@
           "name": "Jhonnys Trembolizado",
           "value": 1582,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Ynhaca Purah",
@@ -4060,7 +4060,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 02:38 (Brasília)",
+    "updated_at": "01/08/2026 às 02:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26995,6 +26995,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 01, 2026 01:29",
+      "player": "MekZera",
+      "level": 1855,
+      "killedBy": "Pally Tetss",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Jul 31, 2026 13:43",
       "player": "Alba Baiakeiro",
       "level": 878,
@@ -41145,8 +41154,8 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
+    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
+    "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
 }
