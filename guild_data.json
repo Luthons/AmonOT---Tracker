@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 08:34 (Brasília)",
+  "updated_at": "01/08/2026 às 08:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 56,
+  "total_members": 55,
   "online_count": 39,
-  "offline_count": 17,
+  "offline_count": 16,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -635,62 +635,6 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "28/07/2026 às 08:50 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Baunilha",
-      "level": 1438,
-      "resets": 58,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "17/07/2026 às 11:29 (Brasília)"
-        },
-        {
-          "resets": 51,
-          "gained": 1,
-          "timestamp": "19/07/2026 às 13:07 (Brasília)"
-        },
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "20/07/2026 às 14:31 (Brasília)"
-        },
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "21/07/2026 às 14:56 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "22/07/2026 às 16:33 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "23/07/2026 às 14:19 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "25/07/2026 às 08:33 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 14:41 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "29/07/2026 às 17:09 (Brasília)"
         }
       ]
     },
@@ -2554,14 +2498,6 @@
       "online": true
     },
     {
-      "name": "Baunilha",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": false
-    },
-    {
       "name": "Cerebro",
       "resets_total": 60,
       "resets_today": 0,
@@ -2815,12 +2751,6 @@
           "value": 58,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Baunilha",
-          "value": 58,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Gokuu",
@@ -3330,12 +3260,6 @@
           "name": "Elder Lougon",
           "value": 1475,
           "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Baunilha",
-          "value": 1438,
-          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -4066,7 +3990,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 08:34 (Brasília)",
+    "updated_at": "01/08/2026 às 08:35 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27143,15 +27067,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Jul 29, 2026 18:15",
-      "player": "Baunilha",
-      "level": 624,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27170,7 +27085,6 @@
         "Akronus": 54,
         "Alba Baiakeiro": 65,
         "Baiakudinho": 58,
-        "Baunilha": 58,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
         "Brunao Rei Denovo": 31,
@@ -36349,7 +36263,6 @@
           "Akronus": 54,
           "Alba Baiakeiro": 65,
           "Baiakudinho": 58,
-          "Baunilha": 58,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
           "Brunao Rei Denovo": 31,
@@ -40734,13 +40647,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 56,
-      "total_current": 2783,
+      "num_members": 55,
+      "total_current": 2725,
       "resets_today": 2,
-      "resets_week": 90,
+      "resets_week": 88,
       "resets_month": 0,
-      "resets_lifetime": 76,
-      "avg_per_player": 49.7
+      "resets_lifetime": 74,
+      "avg_per_player": 49.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
