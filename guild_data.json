@@ -27006,33 +27006,6 @@
       "isPvp": true
     },
     {
-      "time": "Jul 31, 2026 13:43",
-      "player": "Alba Baiakeiro",
-      "level": 878,
-      "killedBy": "Cerebro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 31, 2026 01:03",
-      "player": "Kiel",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 31, 2026 00:53",
-      "player": "Akronus",
-      "level": 1847,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Jul 30, 2026 15:23",
       "player": "Achilles",
       "level": 2000,
@@ -41039,7 +41012,7 @@
   ],
   "errors": [
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
-    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
+    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
 }
