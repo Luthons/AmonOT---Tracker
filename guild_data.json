@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 00:04 (Brasília)",
+  "updated_at": "01/08/2026 às 00:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -706,8 +706,8 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 2002,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -717,6 +717,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "29/07/2026 às 00:42 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "01/08/2026 às 00:05 (Brasília)"
         }
       ]
     },
@@ -2183,7 +2188,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1725,
+      "level": 1723,
       "resets": 55,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2488,6 +2493,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Boltfly Peoplecry",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 59,
       "resets_today": 0,
@@ -2532,14 +2545,6 @@
       "resets_total": 58,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Boltfly Peoplecry",
-      "resets_total": 41,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2939,6 +2944,12 @@
           "online": true
         },
         {
+          "name": "Boltfly Peoplecry",
+          "value": 42,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lilian Faithkeeper",
           "value": 42,
           "vocation": "Royal Paladin",
@@ -2948,12 +2959,6 @@
           "name": "Vinizerah On Amonot",
           "value": 42,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 41,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3061,12 +3066,6 @@
         {
           "name": "Rusha Rp",
           "value": 2037,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 2002,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3252,7 +3251,7 @@
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1725,
+          "value": 1723,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -4056,7 +4055,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 00:04 (Brasília)",
+    "updated_at": "01/08/2026 às 00:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27126,7 +27125,7 @@
         "Baiakudinho": 58,
         "Baunilha": 58,
         "Boingbringer": 30,
-        "Boltfly Peoplecry": 41,
+        "Boltfly Peoplecry": 42,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Cerebro": 60,
@@ -36428,7 +36427,7 @@
           "Baiakudinho": 58,
           "Baunilha": 58,
           "Boingbringer": 30,
-          "Boltfly Peoplecry": 41,
+          "Boltfly Peoplecry": 42,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Cerebro": 60,
@@ -39810,6 +39809,13 @@
           "gained": 1,
           "timestamp": "31/07/2026 às 21:47 (Brasília)",
           "hour_key": "2026-07-31-21"
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "01/08/2026 às 00:05 (Brasília)",
+          "hour_key": "2026-08-01-00"
         }
       ]
     },
@@ -40798,11 +40804,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2781,
-      "resets_today": 0,
-      "resets_week": 88,
+      "total_current": 2782,
+      "resets_today": 1,
+      "resets_week": 89,
       "resets_month": 0,
-      "resets_lifetime": 76,
+      "resets_lifetime": 77,
       "avg_per_player": 49.7
     },
     "enemy_guild": {
