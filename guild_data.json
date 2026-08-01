@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 03:44 (Brasília)",
+  "updated_at": "01/08/2026 às 03:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -300,7 +300,7 @@
     },
     {
       "name": "Achilles",
-      "level": 2000,
+      "level": 1998,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3099,12 +3099,6 @@
           "online": true
         },
         {
-          "name": "Achilles",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Akronus",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3198,6 +3192,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Achilles",
+          "value": 1998,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4066,7 +4066,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 03:44 (Brasília)",
+    "updated_at": "01/08/2026 às 03:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27001,6 +27001,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 01, 2026 03:45",
+      "player": "Achilles",
+      "level": 2000,
+      "killedBy": "Kraugel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 01, 2026 01:29",
       "player": "MekZera",
       "level": 1855,
@@ -27085,15 +27094,6 @@
       "time": "Jul 29, 2026 18:15",
       "player": "Baunilha",
       "level": 624,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Jul 29, 2026 15:52",
-      "player": "Baiakudinho",
-      "level": 1468,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
