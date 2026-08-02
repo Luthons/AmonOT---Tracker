@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 04:08 (Brasília)",
+  "updated_at": "02/08/2026 às 04:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -417,7 +417,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1657,
+      "level": 1690,
       "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -518,7 +518,7 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 1965,
+      "level": 1988,
       "resets": 65,
       "vocation": "Elder Druid",
       "nick": "",
@@ -604,7 +604,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1409,
+      "level": 1418,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -655,7 +655,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1605,
+      "level": 1612,
       "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -941,7 +941,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1937,
+      "level": 1954,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -987,7 +987,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1655,
+      "level": 1660,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1063,7 +1063,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1997,
+      "level": 2000,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1210,7 +1210,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1836,
+      "level": 1880,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1236,7 +1236,7 @@
     },
     {
       "name": "Kev",
-      "level": 1770,
+      "level": 1774,
       "resets": 31,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1556,7 +1556,7 @@
     },
     {
       "name": "Loks",
-      "level": 1405,
+      "level": 1416,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1801,7 +1801,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1060,
+      "level": 1080,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1907,7 +1907,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1902,
+      "level": 1909,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2024,7 +2024,7 @@
     },
     {
       "name": "Nino",
-      "level": 1614,
+      "level": 1625,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2198,7 +2198,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1160,
+      "level": 1171,
       "resets": 36,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3046,6 +3046,12 @@
           "online": true
         },
         {
+          "name": "Its Gui",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3112,27 +3118,27 @@
           "online": false
         },
         {
-          "name": "Its Gui",
-          "value": 1997,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Alba Baiakeiro",
-          "value": 1965,
+          "value": 1988,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Gokuu",
-          "value": 1937,
+          "value": 1954,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Melbiss",
-          "value": 1902,
+          "value": 1909,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Jishuka",
+          "value": 1880,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3140,12 +3146,6 @@
           "value": 1874,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Jishuka",
-          "value": 1836,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Cheiro Dpneu",
@@ -3167,8 +3167,14 @@
         },
         {
           "name": "Kev",
-          "value": 1770,
+          "value": 1774,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Akronus",
+          "value": 1690,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3178,14 +3184,8 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 1657,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Guidao Palao",
-          "value": 1655,
+          "value": 1660,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3203,13 +3203,13 @@
         },
         {
           "name": "Nino",
-          "value": 1614,
+          "value": 1625,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1605,
+          "value": 1612,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3227,13 +3227,13 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1409,
+          "value": 1418,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1405,
+          "value": 1416,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3245,7 +3245,7 @@
         },
         {
           "name": "Rp Terror",
-          "value": 1160,
+          "value": 1171,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3257,7 +3257,7 @@
         },
         {
           "name": "MekZera",
-          "value": 1060,
+          "value": 1080,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3953,7 +3953,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 04:08 (Brasília)",
+    "updated_at": "02/08/2026 às 04:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
