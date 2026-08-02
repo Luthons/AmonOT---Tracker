@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 14:08 (Brasília)",
+  "updated_at": "02/08/2026 às 14:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -137,7 +137,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1081,
+      "level": 1082,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -371,7 +371,7 @@
     },
     {
       "name": "Affey",
-      "level": 1644,
+      "level": 1656,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -655,7 +655,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1675,
+      "level": 1683,
       "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -865,7 +865,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1494,
+      "level": 1495,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -987,7 +987,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1702,
+      "level": 1780,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1210,7 +1210,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 816,
+      "level": 920,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1566,7 +1566,7 @@
     },
     {
       "name": "Loks",
-      "level": 1514,
+      "level": 1521,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1259,
+      "level": 1335,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2208,7 +2208,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1283,
+      "level": 1292,
       "resets": 36,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3192,15 +3192,15 @@
           "online": false
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 1712,
-          "vocation": "Elder Druid",
+          "name": "Guidao Palao",
+          "value": 1780,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 1702,
-          "vocation": "Royal Paladin",
+          "name": "Vinizerah On Amonot",
+          "value": 1712,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3211,7 +3211,13 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1675,
+          "value": 1683,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Affey",
+          "value": 1656,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3222,20 +3228,14 @@
           "online": false
         },
         {
-          "name": "Affey",
-          "value": 1644,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Loks",
-          "value": 1514,
+          "value": 1521,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Elder Lougon",
-          "value": 1494,
+          "value": 1495,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3258,6 +3258,12 @@
           "online": false
         },
         {
+          "name": "MekZera",
+          "value": 1335,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Osh Don",
           "value": 1293,
           "vocation": "Royal Paladin",
@@ -3265,13 +3271,7 @@
         },
         {
           "name": "Rp Terror",
-          "value": 1283,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "MekZera",
-          "value": 1259,
+          "value": 1292,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3283,7 +3283,7 @@
         },
         {
           "name": "El Diablo",
-          "value": 1081,
+          "value": 1082,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3292,6 +3292,12 @@
           "value": 1034,
           "vocation": "Royal Paladin",
           "online": false
+        },
+        {
+          "name": "Jishuka",
+          "value": 920,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Kev",
@@ -3304,12 +3310,6 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Jishuka",
-          "value": 816,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -3979,7 +3979,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 14:08 (Brasília)",
+    "updated_at": "02/08/2026 às 14:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
