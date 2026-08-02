@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 18:09 (Brasília)",
+  "updated_at": "02/08/2026 às 18:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -305,7 +305,7 @@
     },
     {
       "name": "Achilles",
-      "level": 1998,
+      "level": 1999,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -604,7 +604,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1485,
+      "level": 1490,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -655,7 +655,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1703,
+      "level": 1712,
       "resets": 42,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -865,7 +865,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1499,
+      "level": 1501,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -987,7 +987,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1876,
+      "level": 1879,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1241,7 +1241,7 @@
     },
     {
       "name": "Kev",
-      "level": 1026,
+      "level": 1040,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1338,7 +1338,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1874,
+      "level": 1875,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1566,7 +1566,7 @@
     },
     {
       "name": "Loks",
-      "level": 1869,
+      "level": 1888,
       "resets": 52,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1469,
+      "level": 1500,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1983,7 +1983,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1008,
+      "level": 1054,
       "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2039,7 +2039,7 @@
     },
     {
       "name": "Nino",
-      "level": 1745,
+      "level": 1810,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2090,7 +2090,7 @@
     },
     {
       "name": "Osh Don",
-      "level": 1308,
+      "level": 1317,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2116,7 +2116,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 952,
+      "level": 1012,
       "resets": 56,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2218,7 +2218,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1319,
+      "level": 1328,
       "resets": 36,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2281,7 +2281,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1734,
+      "level": 1742,
       "resets": 42,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3143,7 +3143,7 @@
         },
         {
           "name": "Achilles",
-          "value": 1998,
+          "value": 1999,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3160,6 +3160,12 @@
           "online": true
         },
         {
+          "name": "Loks",
+          "value": 1888,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Akronus",
           "value": 1880,
           "vocation": "Master Sorcerer",
@@ -3167,20 +3173,14 @@
         },
         {
           "name": "Guidao Palao",
-          "value": 1876,
+          "value": 1879,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Kolwaski",
-          "value": 1874,
+          "value": 1875,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 1869,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3196,26 +3196,26 @@
           "online": true
         },
         {
+          "name": "Nino",
+          "value": 1810,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 1784,
           "vocation": "Master Sorcerer",
           "online": false
         },
         {
-          "name": "Nino",
-          "value": 1745,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Vinizerah On Amonot",
-          "value": 1734,
+          "value": 1742,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1703,
+          "value": 1712,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3233,13 +3233,19 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 1499,
+          "value": 1501,
           "vocation": "Elder Druid",
           "online": true
         },
         {
+          "name": "MekZera",
+          "value": 1500,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
-          "value": 1485,
+          "value": 1490,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3250,12 +3256,6 @@
           "online": false
         },
         {
-          "name": "MekZera",
-          "value": 1469,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Punish Claude",
           "value": 1355,
           "vocation": "Royal Paladin",
@@ -3263,13 +3263,13 @@
         },
         {
           "name": "Rp Terror",
-          "value": 1319,
+          "value": 1328,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Osh Don",
-          "value": 1308,
+          "value": 1317,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3286,26 +3286,26 @@
           "online": false
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 1054,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Kev",
+          "value": 1040,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 1034,
           "vocation": "Royal Paladin",
           "online": false
         },
         {
-          "name": "Kev",
-          "value": 1026,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 1008,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Pedim Kitbota",
-          "value": 952,
+          "value": 1012,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3989,7 +3989,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 18:09 (Brasília)",
+    "updated_at": "02/08/2026 às 18:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
