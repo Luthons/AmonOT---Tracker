@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 18:41 (Brasília)",
+  "updated_at": "02/08/2026 às 18:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2039,8 +2039,8 @@
     },
     {
       "name": "Nino",
-      "level": 1843,
-      "resets": 50,
+      "level": 8,
+      "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2075,6 +2075,11 @@
           "resets": 50,
           "gained": 1,
           "timestamp": "31/07/2026 às 21:47 (Brasília)"
+        },
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 18:42 (Brasília)"
         }
       ]
     },
@@ -2445,6 +2450,14 @@
       "online": true
     },
     {
+      "name": "Nino",
+      "resets_total": 51,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Pedim Kitbota",
       "resets_total": 56,
       "resets_today": 1,
@@ -2586,14 +2599,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Nino",
-      "resets_total": 50,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2836,6 +2841,12 @@
           "online": true
         },
         {
+          "name": "Nino",
+          "value": 51,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
@@ -2843,12 +2854,6 @@
         },
         {
           "name": "Dvn Luktzeraah",
-          "value": 50,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nino",
           "value": 50,
           "vocation": "Royal Paladin",
           "online": true
@@ -3180,12 +3185,6 @@
         {
           "name": "Kolwaski",
           "value": 1875,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nino",
-          "value": 1843,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3989,7 +3988,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 18:41 (Brasília)",
+    "updated_at": "02/08/2026 às 18:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27249,7 +27248,7 @@
         "MekZera": 60,
         "Melbiss": 52,
         "Monstro Das Criptos": 59,
-        "Nino": 50,
+        "Nino": 51,
         "Ntka": 57,
         "Osh Don": 50,
         "Pally Tetss": 55,
@@ -36630,7 +36629,7 @@
           "MekZera": 60,
           "Melbiss": 52,
           "Monstro Das Criptos": 59,
-          "Nino": 50,
+          "Nino": 51,
           "Ntka": 57,
           "Osh Don": 50,
           "Pally Tetss": 55,
@@ -39865,6 +39864,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 14:57 (Brasília)",
           "hour_key": "2026-08-02-14"
+        },
+        {
+          "name": "Nino",
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 18:42 (Brasília)",
+          "hour_key": "2026-08-02-18"
         }
       ]
     },
@@ -40825,11 +40831,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2796,
-      "resets_today": 4,
-      "resets_week": 87,
+      "total_current": 2797,
+      "resets_today": 5,
+      "resets_week": 88,
       "resets_month": 0,
-      "resets_lifetime": 84,
+      "resets_lifetime": 85,
       "avg_per_player": 49.9
     },
     "enemy_guild": {
