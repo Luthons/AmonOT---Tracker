@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 20:47 (Brasília)",
+  "updated_at": "02/08/2026 às 20:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -417,12 +417,12 @@
     },
     {
       "name": "Akronus",
-      "level": 663,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 38,
@@ -523,6 +523,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "02/08/2026 às 19:53 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 20:48 (Brasília)"
         }
       ]
     },
@@ -2316,7 +2321,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 32,
@@ -2452,11 +2457,11 @@
   "resets_today": [
     {
       "name": "Akronus",
-      "resets_total": 57,
-      "resets_today": 2,
-      "resets_week": 6,
+      "resets_total": 58,
+      "resets_today": 3,
+      "resets_week": 7,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Pedim Kitbota",
@@ -2656,7 +2661,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Ynhaca Purah",
@@ -2782,6 +2787,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 58,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
           "name": "Forsa Sem Futuro",
           "value": 58,
           "vocation": "Royal Paladin",
@@ -2791,12 +2802,6 @@
           "name": "Gokuu",
           "value": 58,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 57,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -2917,7 +2922,7 @@
           "name": "Vinizerah On Amonot",
           "value": 42,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Cheiro Dpneu",
@@ -3217,7 +3222,7 @@
           "name": "Vinizerah On Amonot",
           "value": 1759,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Boltfly Peoplecry",
@@ -3331,12 +3336,6 @@
           "name": "Jhonnys Trembolizado",
           "value": 768,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 663,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4013,7 +4012,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 20:47 (Brasília)",
+    "updated_at": "02/08/2026 às 20:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27276,7 +27275,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
-        "Akronus": 57,
+        "Akronus": 58,
         "Alba Baiakeiro": 65,
         "Baiakudinho": 59,
         "Boingbringer": 30,
@@ -36668,7 +36667,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
-          "Akronus": 57,
+          "Akronus": 58,
           "Alba Baiakeiro": 65,
           "Baiakudinho": 59,
           "Boingbringer": 30,
@@ -39978,6 +39977,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 20:44 (Brasília)",
           "hour_key": "2026-08-02-20"
+        },
+        {
+          "name": "Akronus",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 20:48 (Brasília)",
+          "hour_key": "2026-08-02-20"
         }
       ]
     },
@@ -40938,12 +40944,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2802,
-      "resets_today": 10,
-      "resets_week": 93,
+      "total_current": 2803,
+      "resets_today": 11,
+      "resets_week": 94,
       "resets_month": 0,
-      "resets_lifetime": 94,
-      "avg_per_player": 50.0
+      "resets_lifetime": 95,
+      "avg_per_player": 50.1
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
