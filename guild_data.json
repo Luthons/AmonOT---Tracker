@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 22:41 (Brasília)",
+  "updated_at": "01/08/2026 às 22:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -142,8 +142,8 @@
     },
     {
       "name": "El Diablo",
-      "level": 1000,
-      "resets": 70,
+      "level": 8,
+      "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -243,6 +243,11 @@
           "resets": 70,
           "gained": 1,
           "timestamp": "01/08/2026 às 14:57 (Brasília)"
+        },
+        {
+          "resets": 71,
+          "gained": 1,
+          "timestamp": "01/08/2026 às 22:42 (Brasília)"
         }
       ]
     },
@@ -2496,9 +2501,9 @@
     },
     {
       "name": "El Diablo",
-      "resets_total": 70,
+      "resets_total": 71,
       "resets_today": 0,
-      "resets_week": 16,
+      "resets_week": 17,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -2700,15 +2705,15 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 70,
-          "vocation": "Elite Knight",
+          "name": "El Diablo",
+          "value": 71,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "El Diablo",
+          "name": "Yagoodz Hahaha",
           "value": 70,
-          "vocation": "Elder Druid",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3346,12 +3351,6 @@
           "value": 1034,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "El Diablo",
-          "value": 1000,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "MekZera",
@@ -4039,7 +4038,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 22:41 (Brasília)",
+    "updated_at": "01/08/2026 às 22:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27170,7 +27169,7 @@
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
         "Dmonick": 59,
-        "El Diablo": 70,
+        "El Diablo": 71,
         "Punish Claude": 52,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -36431,7 +36430,7 @@
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
           "Dmonick": 59,
-          "El Diablo": 70,
+          "El Diablo": 71,
           "Punish Claude": 52,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -39887,6 +39886,13 @@
           "gained": 1,
           "timestamp": "01/08/2026 às 20:47 (Brasília)",
           "hour_key": "2026-08-01-20"
+        },
+        {
+          "name": "El Diablo",
+          "resets": 71,
+          "gained": 1,
+          "timestamp": "01/08/2026 às 22:42 (Brasília)",
+          "hour_key": "2026-08-01-22"
         }
       ]
     },
@@ -40875,12 +40881,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2791,
+      "total_current": 2792,
       "resets_today": 0,
-      "resets_week": 83,
+      "resets_week": 84,
       "resets_month": 0,
-      "resets_lifetime": 93,
-      "avg_per_player": 49.8
+      "resets_lifetime": 94,
+      "avg_per_player": 49.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
