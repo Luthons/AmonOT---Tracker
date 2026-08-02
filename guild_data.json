@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "01/08/2026 às 23:44 (Brasília)",
+  "updated_at": "01/08/2026 às 23:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -437,7 +437,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1312,
+      "level": 1480,
       "resets": 55,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3305,6 +3305,12 @@
           "online": false
         },
         {
+          "name": "Akronus",
+          "value": 1480,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1472,
           "vocation": "Elder Druid",
@@ -3326,12 +3332,6 @@
           "name": "Loks",
           "value": 1324,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1312,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4044,7 +4044,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "01/08/2026 às 23:44 (Brasília)",
+    "updated_at": "01/08/2026 às 23:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
