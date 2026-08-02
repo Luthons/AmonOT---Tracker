@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 19:50 (Brasília)",
+  "updated_at": "02/08/2026 às 19:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -1119,8 +1119,8 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 2000,
-      "resets": 93,
+      "level": 8,
+      "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1210,6 +1210,11 @@
           "resets": 93,
           "gained": 1,
           "timestamp": "31/07/2026 às 16:55 (Brasília)"
+        },
+        {
+          "resets": 94,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 19:51 (Brasília)"
         }
       ]
     },
@@ -2439,6 +2444,14 @@
       "online": true
     },
     {
+      "name": "Jhonnys Trembolizado",
+      "resets_total": 94,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Jishuka",
       "resets_total": 59,
       "resets_today": 1,
@@ -2539,14 +2552,6 @@
       "resets_total": 52,
       "resets_today": 0,
       "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Jhonnys Trembolizado",
-      "resets_total": 93,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2655,7 +2660,7 @@
       "entries": [
         {
           "name": "Jhonnys Trembolizado",
-          "value": 93,
+          "value": 94,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3095,12 +3100,6 @@
           "name": "Its Gui",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3999,7 +3998,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 19:50 (Brasília)",
+    "updated_at": "02/08/2026 às 19:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27280,7 +27279,7 @@
         "Henrique": 52,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
-        "Jhonnys Trembolizado": 93,
+        "Jhonnys Trembolizado": 94,
         "Jishuka": 59,
         "Kev": 32,
         "Kiel": 65,
@@ -36667,7 +36666,7 @@
           "Henrique": 52,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
-          "Jhonnys Trembolizado": 93,
+          "Jhonnys Trembolizado": 94,
           "Jishuka": 59,
           "Kev": 32,
           "Kiel": 65,
@@ -39931,6 +39930,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 18:52 (Brasília)",
           "hour_key": "2026-08-02-18"
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "resets": 94,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 19:51 (Brasília)",
+          "hour_key": "2026-08-02-19"
         }
       ]
     },
@@ -40891,11 +40897,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2798,
-      "resets_today": 6,
-      "resets_week": 89,
+      "total_current": 2799,
+      "resets_today": 7,
+      "resets_week": 90,
       "resets_month": 0,
-      "resets_lifetime": 91,
+      "resets_lifetime": 92,
       "avg_per_player": 50.0
     },
     "enemy_guild": {
