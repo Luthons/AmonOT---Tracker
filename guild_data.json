@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 12:25 (Brasília)",
+  "updated_at": "02/08/2026 às 12:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -1210,8 +1210,8 @@
     },
     {
       "name": "Jishuka",
-      "level": 2000,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1231,6 +1231,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "31/07/2026 às 20:16 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 12:26 (Brasília)"
         }
       ]
     },
@@ -2406,6 +2411,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Jishuka",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kev",
       "resets_total": 32,
       "resets_today": 1,
@@ -2711,6 +2724,12 @@
           "online": true
         },
         {
+          "name": "Jishuka",
+          "value": 59,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lipe Knight",
           "value": 59,
           "vocation": "Elite Knight",
@@ -2724,12 +2743,6 @@
         },
         {
           "name": "Gokuu",
-          "value": 58,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jishuka",
           "value": 58,
           "vocation": "Royal Paladin",
           "online": true
@@ -3078,12 +3091,6 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jishuka",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -3966,7 +3973,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 12:25 (Brasília)",
+    "updated_at": "02/08/2026 às 12:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27140,7 +27147,7 @@
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
         "Jhonnys Trembolizado": 93,
-        "Jishuka": 58,
+        "Jishuka": 59,
         "Kev": 32,
         "Kiel": 65,
         "Kolwaski": 53,
@@ -36485,7 +36492,7 @@
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
           "Jhonnys Trembolizado": 93,
-          "Jishuka": 58,
+          "Jishuka": 59,
           "Kev": 32,
           "Kiel": 65,
           "Kolwaski": 53,
@@ -39713,6 +39720,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 11:21 (Brasília)",
           "hour_key": "2026-08-02-11"
+        },
+        {
+          "name": "Jishuka",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 12:26 (Brasília)",
+          "hour_key": "2026-08-02-12"
         }
       ]
     },
@@ -40673,8 +40687,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2793,
-      "resets_today": 1,
+      "total_current": 2794,
+      "resets_today": 2,
       "resets_week": 85,
       "resets_month": 0,
       "resets_lifetime": 86,
