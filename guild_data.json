@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 14:13 (Brasília)",
+  "updated_at": "02/08/2026 às 14:14 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -1983,8 +1983,8 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 2000,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2029,6 +2029,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "28/07/2026 às 23:01 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 14:14 (Brasília)"
         }
       ]
     },
@@ -2427,6 +2432,14 @@
       "online": true
     },
     {
+      "name": "Monstro Das Criptos",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 59,
       "resets_today": 0,
@@ -2560,14 +2573,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Monstro Das Criptos",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2736,6 +2741,12 @@
           "online": true
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 59,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Forsa Sem Futuro",
           "value": 58,
           "vocation": "Royal Paladin",
@@ -2745,12 +2756,6 @@
           "name": "Gokuu",
           "value": 58,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 58,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3105,12 +3110,6 @@
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 2000,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3979,7 +3978,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 14:13 (Brasília)",
+    "updated_at": "02/08/2026 às 14:14 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27238,7 +27237,7 @@
         "Magabela": 57,
         "MekZera": 60,
         "Melbiss": 52,
-        "Monstro Das Criptos": 58,
+        "Monstro Das Criptos": 59,
         "Nino": 50,
         "Ntka": 57,
         "Osh Don": 50,
@@ -36595,7 +36594,7 @@
           "Magabela": 57,
           "MekZera": 60,
           "Melbiss": 52,
-          "Monstro Das Criptos": 58,
+          "Monstro Das Criptos": 59,
           "Nino": 50,
           "Ntka": 57,
           "Osh Don": 50,
@@ -39817,6 +39816,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 12:26 (Brasília)",
           "hour_key": "2026-08-02-12"
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 14:14 (Brasília)",
+          "hour_key": "2026-08-02-14"
         }
       ]
     },
@@ -40777,11 +40783,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2794,
-      "resets_today": 2,
-      "resets_week": 85,
+      "total_current": 2795,
+      "resets_today": 3,
+      "resets_week": 86,
       "resets_month": 0,
-      "resets_lifetime": 86,
+      "resets_lifetime": 87,
       "avg_per_player": 49.9
     },
     "enemy_guild": {
