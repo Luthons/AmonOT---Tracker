@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/08/2026 às 14:58 (Brasília)",
+  "updated_at": "03/08/2026 às 14:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -2238,7 +2238,7 @@
     },
     {
       "name": "Teko News",
-      "level": 1998,
+      "level": 1997,
       "resets": 63,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2254,7 +2254,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1243,
+      "level": 1378,
       "resets": 43,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3106,7 +3106,7 @@
         },
         {
           "name": "Teko News",
-          "value": 1998,
+          "value": 1997,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3219,6 +3219,12 @@
           "online": true
         },
         {
+          "name": "Vinizerah On Amonot",
+          "value": 1378,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 1371,
           "vocation": "Royal Paladin",
@@ -3234,12 +3240,6 @@
           "name": "Kev",
           "value": 1255,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1243,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3934,7 +3934,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/08/2026 às 14:58 (Brasília)",
+    "updated_at": "03/08/2026 às 14:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26868,6 +26868,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 03, 2026 14:58",
+      "player": "Vinizerah On Amonot",
+      "level": 1379,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 03, 2026 14:58",
+      "player": "Teko News",
+      "level": 1998,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 03, 2026 14:56",
       "player": "Teko News",
