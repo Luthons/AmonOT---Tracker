@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/08/2026 às 00:55 (Brasília)",
+  "updated_at": "03/08/2026 às 00:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -407,8 +407,8 @@
     },
     {
       "name": "Akronus",
-      "level": 719,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -523,6 +523,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "02/08/2026 às 22:51 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "03/08/2026 às 00:56 (Brasília)"
         }
       ]
     },
@@ -2405,6 +2410,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 8,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 59,
       "resets_today": 0,
@@ -2418,14 +2431,6 @@
       "resets_today": 0,
       "resets_week": 14,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 7,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2674,6 +2679,12 @@
           "online": false
         },
         {
+          "name": "Akronus",
+          "value": 60,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 60,
           "vocation": "Elite Knight",
@@ -2699,12 +2710,6 @@
         },
         {
           "name": "Dmonick",
-          "value": 59,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Akronus",
           "value": 59,
           "vocation": "Master Sorcerer",
           "online": true
@@ -3290,12 +3295,6 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Akronus",
-          "value": 719,
-          "vocation": "Master Sorcerer",
-          "online": true
         }
       ]
     }
@@ -3965,7 +3964,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/08/2026 às 00:55 (Brasília)",
+    "updated_at": "03/08/2026 às 00:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27300,7 +27299,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
-        "Akronus": 59,
+        "Akronus": 60,
         "Alba Baiakeiro": 65,
         "Baiakudinho": 59,
         "Boingbringer": 30,
@@ -36712,7 +36711,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
-          "Akronus": 59,
+          "Akronus": 60,
           "Alba Baiakeiro": 65,
           "Baiakudinho": 59,
           "Boingbringer": 30,
@@ -39910,6 +39909,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 22:51 (Brasília)",
           "hour_key": "2026-08-02-22"
+        },
+        {
+          "name": "Akronus",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "03/08/2026 às 00:56 (Brasília)",
+          "hour_key": "2026-08-03-00"
         }
       ]
     },
@@ -40835,11 +40841,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2806,
-      "resets_today": 0,
-      "resets_week": 82,
+      "total_current": 2807,
+      "resets_today": 1,
+      "resets_week": 83,
       "resets_month": 0,
-      "resets_lifetime": 97,
+      "resets_lifetime": 98,
       "avg_per_player": 50.1
     },
     "enemy_guild": {
