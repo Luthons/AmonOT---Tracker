@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/08/2026 às 21:24 (Brasília)",
+  "updated_at": "02/08/2026 às 21:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2321,8 +2321,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1782,
-      "resets": 42,
+      "level": 8,
+      "resets": 43,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2382,6 +2382,11 @@
           "resets": 42,
           "gained": 1,
           "timestamp": "31/07/2026 às 08:10 (Brasília)"
+        },
+        {
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 21:25 (Brasília)"
         }
       ]
     },
@@ -2533,6 +2538,14 @@
       "online": true
     },
     {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 43,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 59,
       "resets_today": 0,
@@ -2658,14 +2671,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 42,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2918,15 +2923,15 @@
           "online": true
         },
         {
-          "name": "Boltfly Peoplecry",
-          "value": 42,
-          "vocation": "Royal Paladin",
+          "name": "Vinizerah On Amonot",
+          "value": 43,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Vinizerah On Amonot",
+          "name": "Boltfly Peoplecry",
           "value": 42,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3222,12 +3227,6 @@
           "value": 1784,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1782,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Affey",
@@ -4029,7 +4028,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/08/2026 às 21:24 (Brasília)",
+    "updated_at": "02/08/2026 às 21:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27334,7 +27333,7 @@
         "Rp Terror": 36,
         "Rusha Rp": 62,
         "Teko News": 63,
-        "Vinizerah On Amonot": 42,
+        "Vinizerah On Amonot": 43,
         "Vitao The Trader": 22,
         "VukVuk": 50,
         "Ynhaca Purah": 60
@@ -36731,7 +36730,7 @@
           "Rp Terror": 36,
           "Rusha Rp": 62,
           "Teko News": 63,
-          "Vinizerah On Amonot": 42,
+          "Vinizerah On Amonot": 43,
           "Vitao The Trader": 22,
           "VukVuk": 50,
           "Ynhaca Purah": 60
@@ -40013,6 +40012,13 @@
           "gained": 1,
           "timestamp": "02/08/2026 às 20:59 (Brasília)",
           "hour_key": "2026-08-02-20"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 43,
+          "gained": 1,
+          "timestamp": "02/08/2026 às 21:25 (Brasília)",
+          "hour_key": "2026-08-02-21"
         }
       ]
     },
@@ -40973,11 +40979,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2804,
-      "resets_today": 12,
-      "resets_week": 95,
+      "total_current": 2805,
+      "resets_today": 13,
+      "resets_week": 96,
       "resets_month": 0,
-      "resets_lifetime": 95,
+      "resets_lifetime": 96,
       "avg_per_player": 50.1
     },
     "enemy_guild": {
