@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/08/2026 às 17:28 (Brasília)",
+  "updated_at": "03/08/2026 às 17:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -76,7 +76,7 @@
     },
     {
       "name": "Dmonick",
-      "level": 2000,
+      "level": 1998,
       "resets": 59,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2961,12 +2961,6 @@
           "online": true
         },
         {
-          "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3120,6 +3114,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Dmonick",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3934,7 +3934,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/08/2026 às 17:28 (Brasília)",
+    "updated_at": "03/08/2026 às 17:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26868,6 +26868,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 03, 2026 17:28",
+      "player": "Dmonick",
+      "level": 2000,
+      "killedBy": "End Zeus",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 03, 2026 14:58",
       "player": "Vinizerah On Amonot",
