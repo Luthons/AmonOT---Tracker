@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/08/2026 às 18:08 (Brasília)",
+  "updated_at": "03/08/2026 às 18:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -407,7 +407,7 @@
     },
     {
       "name": "Akronus",
-      "level": 951,
+      "level": 999,
       "resets": 60,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -619,7 +619,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1608,
+      "level": 1611,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1109,7 +1109,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1655,
+      "level": 1673,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1210,7 +1210,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1670,
+      "level": 1686,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1241,7 +1241,7 @@
     },
     {
       "name": "Kev",
-      "level": 1281,
+      "level": 1289,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1333,7 +1333,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1971,
+      "level": 1976,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1384,7 +1384,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1230,
+      "level": 1303,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1551,7 +1551,7 @@
     },
     {
       "name": "Loks",
-      "level": 1684,
+      "level": 1698,
       "resets": 53,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1662,7 +1662,7 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 1394,
+      "level": 1406,
       "resets": 36,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1978,7 +1978,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1457,
+      "level": 1475,
       "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2029,7 +2029,7 @@
     },
     {
       "name": "Nino",
-      "level": 1485,
+      "level": 1495,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2095,7 +2095,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1722,
+      "level": 1737,
       "resets": 57,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2254,7 +2254,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1413,
+      "level": 1431,
       "resets": 43,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3124,7 +3124,7 @@
         },
         {
           "name": "Kolwaski",
-          "value": 1971,
+          "value": 1976,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3142,8 +3142,14 @@
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1722,
+          "value": 1737,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Loks",
+          "value": 1698,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3153,9 +3159,9 @@
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 1684,
-          "vocation": "Elder Druid",
+          "name": "Jishuka",
+          "value": 1686,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3165,14 +3171,8 @@
           "online": false
         },
         {
-          "name": "Jishuka",
-          "value": 1670,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
-          "value": 1655,
+          "value": 1673,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3184,7 +3184,7 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1608,
+          "value": 1611,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3196,7 +3196,7 @@
         },
         {
           "name": "Nino",
-          "value": 1485,
+          "value": 1495,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3207,26 +3207,26 @@
           "online": false
         },
         {
+          "name": "Monstro Das Criptos",
+          "value": 1475,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 1472,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 1457,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Vinizerah On Amonot",
-          "value": 1413,
+          "value": 1431,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Lotus Lothbrook",
-          "value": 1394,
+          "value": 1406,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3237,8 +3237,14 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 1303,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kev",
-          "value": 1281,
+          "value": 1289,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3249,14 +3255,8 @@
           "online": true
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 1230,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Akronus",
-          "value": 951,
+          "value": 999,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3934,7 +3934,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/08/2026 às 18:08 (Brasília)",
+    "updated_at": "03/08/2026 às 18:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
