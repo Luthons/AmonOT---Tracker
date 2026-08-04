@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 05:08 (Brasília)",
+  "updated_at": "04/08/2026 às 05:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -706,7 +706,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1044,
+      "level": 1081,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -925,7 +925,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1568,
+      "level": 1574,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1946,
+      "level": 1960,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1110,
+      "level": 1147,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1225,7 +1225,7 @@
     },
     {
       "name": "Kev",
-      "level": 1360,
+      "level": 1368,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Loks",
-      "level": 1544,
+      "level": 1564,
       "resets": 54,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1886,7 +1886,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1832,
+      "level": 1835,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1952,7 +1952,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1813,
+      "level": 1823,
       "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Nino",
-      "level": 1068,
+      "level": 1105,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2074,7 +2074,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1061,
+      "level": 1118,
       "resets": 58,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2186,7 +2186,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 887,
+      "level": 905,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3099,7 +3099,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1946,
+          "value": 1960,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3111,8 +3111,14 @@
         },
         {
           "name": "Melbiss",
-          "value": 1832,
+          "value": 1835,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Monstro Das Criptos",
+          "value": 1823,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3120,12 +3126,6 @@
           "value": 1818,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 1813,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Affey",
@@ -3153,13 +3153,13 @@
         },
         {
           "name": "Gokuu",
-          "value": 1568,
+          "value": 1574,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1544,
+          "value": 1564,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3189,7 +3189,7 @@
         },
         {
           "name": "Kev",
-          "value": 1360,
+          "value": 1368,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3207,31 +3207,31 @@
         },
         {
           "name": "Jishuka",
-          "value": 1110,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nino",
-          "value": 1068,
+          "value": 1147,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1061,
+          "value": 1118,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
+          "name": "Nino",
+          "value": 1105,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
-          "value": 1044,
+          "value": 1081,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Rp Terror",
-          "value": 887,
+          "value": 905,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3915,7 +3915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 05:08 (Brasília)",
+    "updated_at": "04/08/2026 às 05:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
