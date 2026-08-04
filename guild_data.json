@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 06:08 (Brasília)",
+  "updated_at": "04/08/2026 às 06:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -706,7 +706,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1081,
+      "level": 1115,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -828,7 +828,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 1996,
+      "level": 1997,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -925,7 +925,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1574,
+      "level": 1593,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1960,
+      "level": 1974,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1147,
+      "level": 1182,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1225,7 +1225,7 @@
     },
     {
       "name": "Kev",
-      "level": 1368,
+      "level": 1376,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1363,7 +1363,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1331,
+      "level": 1335,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Loks",
-      "level": 1564,
+      "level": 1584,
       "resets": 54,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1886,7 +1886,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1835,
+      "level": 1838,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1952,7 +1952,7 @@
     },
     {
       "name": "Monstro Das Criptos",
-      "level": 1823,
+      "level": 1832,
       "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Nino",
-      "level": 1105,
+      "level": 1140,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2074,7 +2074,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1118,
+      "level": 1158,
       "resets": 58,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2186,7 +2186,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 905,
+      "level": 920,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3080,6 +3080,12 @@
           "online": true
         },
         {
+          "name": "Dvn Luktzeraah",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lougon Baiakeiro",
           "value": 1997,
           "vocation": "Master Sorcerer",
@@ -3092,15 +3098,15 @@
           "online": true
         },
         {
-          "name": "Dvn Luktzeraah",
-          "value": 1996,
+          "name": "Jhonnys Trembolizado",
+          "value": 1974,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1960,
-          "vocation": "Royal Paladin",
+          "name": "Melbiss",
+          "value": 1838,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3110,14 +3116,8 @@
           "online": false
         },
         {
-          "name": "Melbiss",
-          "value": 1835,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
-          "value": 1823,
+          "value": 1832,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3146,20 +3146,20 @@
           "online": false
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 1577,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Gokuu",
-          "value": 1574,
+          "value": 1593,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1564,
+          "value": 1584,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "value": 1577,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3189,7 +3189,7 @@
         },
         {
           "name": "Kev",
-          "value": 1368,
+          "value": 1376,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3201,37 +3201,37 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1331,
+          "value": 1335,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Jishuka",
-          "value": 1147,
+          "value": 1182,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1118,
+          "value": 1158,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
           "name": "Nino",
-          "value": 1105,
+          "value": 1140,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Cerebro",
-          "value": 1081,
+          "value": 1115,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Rp Terror",
-          "value": 905,
+          "value": 920,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3915,7 +3915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 06:08 (Brasília)",
+    "updated_at": "04/08/2026 às 06:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
