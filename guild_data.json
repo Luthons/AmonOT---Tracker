@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 10:20 (Brasília)",
+  "updated_at": "04/08/2026 às 10:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 56,
-  "online_count": 43,
+  "total_members": 57,
+  "online_count": 44,
   "offline_count": 13,
   "members": [
     {
@@ -2017,6 +2017,16 @@
       ]
     },
     {
+      "name": "Nidaria Mayo",
+      "level": 1826,
+      "resets": 51,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Nino",
       "level": 1259,
       "resets": 52,
@@ -2801,6 +2811,12 @@
           "online": true
         },
         {
+          "name": "Nidaria Mayo",
+          "value": 51,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Brunaobringer",
           "value": 50,
           "vocation": "Elder Druid",
@@ -3140,6 +3156,12 @@
           "name": "Brunao Rei Denovo",
           "value": 1829,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Nidaria Mayo",
+          "value": 1826,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3942,7 +3964,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 10:20 (Brasília)",
+    "updated_at": "04/08/2026 às 10:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27167,6 +27189,7 @@
         "MekZera": 60,
         "Melbiss": 53,
         "Monstro Das Criptos": 59,
+        "Nidaria Mayo": 51,
         "Nino": 52,
         "Ntka": 57,
         "Pally Tetss": 55,
@@ -36695,6 +36718,7 @@
           "MekZera": 60,
           "Melbiss": 53,
           "Monstro Das Criptos": 59,
+          "Nidaria Mayo": 51,
           "Nino": 52,
           "Ntka": 57,
           "Pally Tetss": 55,
@@ -40706,8 +40730,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 56,
-      "total_current": 2822,
+      "num_members": 57,
+      "total_current": 2873,
       "resets_today": 3,
       "resets_week": 80,
       "resets_month": 0,
