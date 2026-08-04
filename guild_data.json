@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 08:08 (Brasília)",
+  "updated_at": "04/08/2026 às 08:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -976,7 +976,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1998,
+      "level": 2000,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1047,7 +1047,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1998,
+      "level": 2000,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1214,
+      "level": 1246,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Loks",
-      "level": 1602,
+      "level": 1621,
       "resets": 54,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2186,7 +2186,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 933,
+      "level": 950,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3002,6 +3002,12 @@
           "online": true
         },
         {
+          "name": "Guidao Palao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Henrique",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3011,6 +3017,12 @@
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Its Gui",
+          "value": 2000,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3058,18 +3070,6 @@
         {
           "name": "VukVuk",
           "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Its Gui",
-          "value": 1998,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3146,15 +3146,15 @@
           "online": false
         },
         {
-          "name": "Gokuu",
-          "value": 1610,
-          "vocation": "Royal Paladin",
+          "name": "Loks",
+          "value": 1621,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 1602,
-          "vocation": "Elder Druid",
+          "name": "Gokuu",
+          "value": 1610,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3207,7 +3207,7 @@
         },
         {
           "name": "Jishuka",
-          "value": 1214,
+          "value": 1246,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3231,7 +3231,7 @@
         },
         {
           "name": "Rp Terror",
-          "value": 933,
+          "value": 950,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3915,7 +3915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 08:08 (Brasília)",
+    "updated_at": "04/08/2026 às 08:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
