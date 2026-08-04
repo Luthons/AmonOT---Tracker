@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 10:37 (Brasília)",
+  "updated_at": "04/08/2026 às 10:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -522,8 +522,8 @@
     },
     {
       "name": "Alba Baiakeiro",
-      "level": 2000,
-      "resets": 65,
+      "level": 8,
+      "resets": 66,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -603,6 +603,11 @@
           "resets": 65,
           "gained": 1,
           "timestamp": "31/07/2026 às 11:49 (Brasília)"
+        },
+        {
+          "resets": 66,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 10:38 (Brasília)"
         }
       ]
     },
@@ -2421,6 +2426,14 @@
       "online": true
     },
     {
+      "name": "Alba Baiakeiro",
+      "resets_total": 66,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Gokuu",
       "resets_total": 60,
       "resets_today": 1,
@@ -2457,14 +2470,6 @@
       "resets_total": 71,
       "resets_today": 0,
       "resets_week": 10,
-      "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Alba Baiakeiro",
-      "resets_total": 65,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Elder Druid",
       "online": true
     },
@@ -2631,7 +2636,7 @@
         },
         {
           "name": "Alba Baiakeiro",
-          "value": 65,
+          "value": 66,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -2997,12 +3002,6 @@
         },
         {
           "name": "Adolph Healer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Alba Baiakeiro",
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
@@ -3963,7 +3962,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 10:37 (Brasília)",
+    "updated_at": "04/08/2026 às 10:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27146,7 +27145,7 @@
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 61,
-        "Alba Baiakeiro": 65,
+        "Alba Baiakeiro": 66,
         "Baiakudinho": 59,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
@@ -36675,7 +36674,7 @@
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 61,
-          "Alba Baiakeiro": 65,
+          "Alba Baiakeiro": 66,
           "Baiakudinho": 59,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
@@ -39838,6 +39837,13 @@
           "gained": 1,
           "timestamp": "04/08/2026 às 10:23 (Brasília)",
           "hour_key": "2026-08-04-10"
+        },
+        {
+          "name": "Alba Baiakeiro",
+          "resets": 66,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 10:38 (Brasília)",
+          "hour_key": "2026-08-04-10"
         }
       ]
     },
@@ -40728,11 +40734,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2874,
-      "resets_today": 4,
-      "resets_week": 81,
+      "total_current": 2875,
+      "resets_today": 5,
+      "resets_week": 82,
       "resets_month": 0,
-      "resets_lifetime": 83,
+      "resets_lifetime": 84,
       "avg_per_player": 50.4
     },
     "enemy_guild": {
