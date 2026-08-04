@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 00:57 (Brasília)",
+  "updated_at": "04/08/2026 às 00:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -828,7 +828,7 @@
     },
     {
       "name": "Dvn Luktzeraah",
-      "level": 1998,
+      "level": 1996,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -976,7 +976,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 2000,
+      "level": 1998,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3002,12 +3002,6 @@
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3074,7 +3068,7 @@
           "online": true
         },
         {
-          "name": "Dvn Luktzeraah",
+          "name": "Guidao Palao",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3094,6 +3088,12 @@
         {
           "name": "MekZera",
           "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Dvn Luktzeraah",
+          "value": 1996,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3915,7 +3915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 00:57 (Brasília)",
+    "updated_at": "04/08/2026 às 00:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26849,6 +26849,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 04, 2026 00:57",
+      "player": "Dvn Luktzeraah",
+      "level": 1998,
+      "killedBy": "Polessi Old Legend",
+      "maiorDano": "Banca Kina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 04, 2026 00:57",
+      "player": "Guidao Palao",
+      "level": 2000,
+      "killedBy": "Polessi Old Legend",
+      "maiorDano": "Banca Kina",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 04, 2026 00:51",
       "player": "Dvn Luktzeraah",
