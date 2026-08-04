@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/08/2026 às 23:10 (Brasília)",
+  "updated_at": "03/08/2026 às 23:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -2049,7 +2049,7 @@
     },
     {
       "name": "Nino",
-      "level": 860,
+      "level": 862,
       "resets": 52,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2232,8 +2232,8 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1491,
-      "resets": 36,
+      "level": 8,
+      "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2253,6 +2253,11 @@
           "resets": 36,
           "gained": 1,
           "timestamp": "01/08/2026 às 02:20 (Brasília)"
+        },
+        {
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "03/08/2026 às 23:11 (Brasília)"
         }
       ]
     },
@@ -2424,6 +2429,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Rp Terror",
+      "resets_total": 37,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 59,
       "resets_today": 0,
@@ -2589,14 +2602,6 @@
       "resets_today": 0,
       "resets_week": 6,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Rp Terror",
-      "resets_total": 36,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2881,16 +2886,16 @@
           "online": false
         },
         {
+          "name": "Rp Terror",
+          "value": 37,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 36,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Rp Terror",
-          "value": 36,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lougon Baiakeiro",
@@ -3205,12 +3210,6 @@
           "online": true
         },
         {
-          "name": "Rp Terror",
-          "value": 1491,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Ynhaca Purah",
           "value": 1481,
           "vocation": "Master Sorcerer",
@@ -3260,7 +3259,7 @@
         },
         {
           "name": "Nino",
-          "value": 860,
+          "value": 862,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3956,7 +3955,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/08/2026 às 23:10 (Brasília)",
+    "updated_at": "03/08/2026 às 23:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27176,7 +27175,7 @@
         "Pally Tetss": 55,
         "Pedim Kitbota": 58,
         "Pestinha": 41,
-        "Rp Terror": 36,
+        "Rp Terror": 37,
         "Rusha Rp": 62,
         "Teko News": 63,
         "Vinizerah On Amonot": 43,
@@ -36679,7 +36678,7 @@
           "Pally Tetss": 55,
           "Pedim Kitbota": 58,
           "Pestinha": 41,
-          "Rp Terror": 36,
+          "Rp Terror": 37,
           "Rusha Rp": 62,
           "Teko News": 63,
           "Vinizerah On Amonot": 43,
@@ -39887,6 +39886,13 @@
           "gained": 1,
           "timestamp": "03/08/2026 às 22:57 (Brasília)",
           "hour_key": "2026-08-03-22"
+        },
+        {
+          "name": "Rp Terror",
+          "resets": 37,
+          "gained": 1,
+          "timestamp": "03/08/2026 às 23:11 (Brasília)",
+          "hour_key": "2026-08-03-23"
         }
       ]
     },
@@ -40812,12 +40818,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 55,
-      "total_current": 2763,
-      "resets_today": 0,
-      "resets_week": 77,
+      "total_current": 2764,
+      "resets_today": 1,
+      "resets_week": 78,
       "resets_month": 0,
-      "resets_lifetime": 86,
-      "avg_per_player": 50.2
+      "resets_lifetime": 87,
+      "avg_per_player": 50.3
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
