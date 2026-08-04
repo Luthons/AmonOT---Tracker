@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 04:15 (Brasília)",
+  "updated_at": "04/08/2026 às 04:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -1444,7 +1444,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 2000,
+      "level": 1998,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3026,12 +3026,6 @@
           "online": true
         },
         {
-          "name": "Lipe Knight",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3071,6 +3065,12 @@
           "name": "Guidao Palao",
           "value": 1998,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Lipe Knight",
+          "value": 1998,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3915,7 +3915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 04:15 (Brasília)",
+    "updated_at": "04/08/2026 às 04:16 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26849,6 +26849,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 04, 2026 04:16",
+      "player": "Lipe Knight",
+      "level": 2000,
+      "killedBy": "Monkchia",
+      "maiorDano": "Nutellinha Druid",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 04, 2026 03:51",
       "player": "Vinizerah On Amonot",
