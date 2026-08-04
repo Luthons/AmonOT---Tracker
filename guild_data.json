@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 08:57 (Brasília)",
+  "updated_at": "04/08/2026 às 08:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 55,
+  "total_members": 56,
   "online_count": 41,
-  "offline_count": 14,
+  "offline_count": 15,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -1024,6 +1024,16 @@
           "timestamp": "31/07/2026 às 10:02 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Haony",
+      "level": 836,
+      "resets": 56,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Henrique",
@@ -2222,7 +2232,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2627,7 +2637,7 @@
           "name": "Rusha Rp",
           "value": 62,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Akronus",
@@ -2722,6 +2732,12 @@
         {
           "name": "Ntka",
           "value": 57,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Haony",
+          "value": 56,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2927,7 +2943,7 @@
           "name": "Rusha Rp",
           "value": 2034,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Gizao",
@@ -3232,6 +3248,12 @@
         {
           "name": "Rp Terror",
           "value": 950,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Haony",
+          "value": 836,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3915,7 +3937,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 08:57 (Brasília)",
+    "updated_at": "04/08/2026 às 08:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27057,6 +27079,15 @@
       "isPvp": true
     },
     {
+      "time": "Aug 03, 2026 09:08",
+      "player": "Haony",
+      "level": 1725,
+      "killedBy": "MekZera",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 03, 2026 02:10",
       "player": "Gokuu",
       "level": 2000,
@@ -27139,6 +27170,7 @@
         "Forsa Sem Futuro": 58,
         "Gokuu": 59,
         "Guidao Palao": 52,
+        "Haony": 56,
         "Henrique": 52,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
@@ -36660,6 +36692,7 @@
           "Forsa Sem Futuro": 58,
           "Gokuu": 59,
           "Guidao Palao": 52,
+          "Haony": 56,
           "Henrique": 52,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
@@ -40682,13 +40715,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 55,
-      "total_current": 2765,
+      "num_members": 56,
+      "total_current": 2821,
       "resets_today": 2,
       "resets_week": 79,
       "resets_month": 0,
       "resets_lifetime": 84,
-      "avg_per_player": 50.3
+      "avg_per_player": 50.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
