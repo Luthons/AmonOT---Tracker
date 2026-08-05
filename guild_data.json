@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 21:20 (Brasília)",
+  "updated_at": "04/08/2026 às 21:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -548,8 +548,8 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1013,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -589,6 +589,11 @@
           "resets": 60,
           "gained": 1,
           "timestamp": "04/08/2026 às 15:12 (Brasília)"
+        },
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:21 (Brasília)"
         }
       ]
     },
@@ -2428,6 +2433,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Baiakudinho",
+      "resets_total": 61,
+      "resets_today": 2,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Akronus",
       "resets_total": 61,
       "resets_today": 1,
@@ -2441,14 +2454,6 @@
       "resets_today": 1,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Baiakudinho",
-      "resets_total": 60,
-      "resets_today": 1,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2681,6 +2686,12 @@
           "online": true
         },
         {
+          "name": "Baiakudinho",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 61,
           "vocation": "Elite Knight",
@@ -2688,12 +2699,6 @@
         },
         {
           "name": "Gizao",
-          "value": 60,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
           "value": 60,
           "vocation": "Royal Paladin",
           "online": true
@@ -3301,12 +3306,6 @@
         {
           "name": "Haony",
           "value": 1118,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 1013,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3984,7 +3983,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 21:20 (Brasília)",
+    "updated_at": "04/08/2026 às 21:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27195,7 +27194,7 @@
         "Affey": 32,
         "Akronus": 61,
         "Alba Baiakeiro": 66,
-        "Baiakudinho": 60,
+        "Baiakudinho": 61,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
         "Brunao Rei Denovo": 31,
@@ -36759,7 +36758,7 @@
           "Affey": 32,
           "Akronus": 61,
           "Alba Baiakeiro": 66,
-          "Baiakudinho": 60,
+          "Baiakudinho": 61,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
           "Brunao Rei Denovo": 31,
@@ -39942,6 +39941,13 @@
           "gained": 1,
           "timestamp": "04/08/2026 às 15:12 (Brasília)",
           "hour_key": "2026-08-04-15"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:21 (Brasília)",
+          "hour_key": "2026-08-04-21"
         }
       ]
     },
@@ -40832,11 +40838,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2877,
-      "resets_today": 7,
-      "resets_week": 84,
+      "total_current": 2878,
+      "resets_today": 8,
+      "resets_week": 85,
       "resets_month": 0,
-      "resets_lifetime": 84,
+      "resets_lifetime": 85,
       "avg_per_player": 50.5
     },
     "enemy_guild": {
