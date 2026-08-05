@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 10:50 (Brasília)",
+  "updated_at": "05/08/2026 às 10:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 58,
@@ -337,8 +337,8 @@
     },
     {
       "name": "Akronus",
-      "level": 1951,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -463,6 +463,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "03/08/2026 às 23:53 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 10:51 (Brasília)"
         }
       ]
     },
@@ -2449,6 +2454,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 9,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Alba Baiakeiro",
       "resets_total": 67,
       "resets_today": 1,
@@ -2525,14 +2538,6 @@
       "resets_total": 60,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 61,
-      "resets_today": 0,
-      "resets_week": 8,
       "vocation": "Master Sorcerer",
       "online": true
     },
@@ -2714,6 +2719,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 62,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -2729,12 +2740,6 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 61,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3191,12 +3196,6 @@
           "name": "Melbiss",
           "value": 1970,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1951,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4029,7 +4028,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 10:50 (Brasília)",
+    "updated_at": "05/08/2026 às 10:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27151,15 +27150,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 04, 2026 01:04",
-      "player": "Baiakudinho",
-      "level": 1658,
-      "killedBy": "Polessi Old Legend",
-      "maiorDano": "Banca Kina",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27175,7 +27165,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
-        "Akronus": 61,
+        "Akronus": 62,
         "Alba Baiakeiro": 67,
         "Baiakudinho": 62,
         "Boingbringer": 30,
@@ -36754,7 +36744,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
-          "Akronus": 61,
+          "Akronus": 62,
           "Alba Baiakeiro": 67,
           "Baiakudinho": 62,
           "Boingbringer": 30,
@@ -39905,6 +39895,13 @@
           "gained": 1,
           "timestamp": "05/08/2026 às 10:12 (Brasília)",
           "hour_key": "2026-08-05-10"
+        },
+        {
+          "name": "Akronus",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 10:51 (Brasília)",
+          "hour_key": "2026-08-05-10"
         }
       ]
     },
@@ -40767,11 +40764,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 58,
-      "total_current": 2915,
-      "resets_today": 7,
-      "resets_week": 83,
+      "total_current": 2916,
+      "resets_today": 8,
+      "resets_week": 84,
       "resets_month": 0,
-      "resets_lifetime": 88,
+      "resets_lifetime": 89,
       "avg_per_player": 50.3
     },
     "enemy_guild": {
