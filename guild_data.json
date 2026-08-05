@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 08:09 (Brasília)",
+  "updated_at": "05/08/2026 às 08:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Dmonick Hahaha",
-      "level": 1390,
+      "level": 1473,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Gizao",
-      "level": 1625,
+      "level": 1645,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -646,7 +646,7 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 1889,
+      "level": 1891,
       "resets": 31,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -672,7 +672,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1620,
+      "level": 1639,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -820,7 +820,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1614,
+      "level": 1617,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -982,7 +982,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1634,
+      "level": 1648,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1089,7 +1089,7 @@
     },
     {
       "name": "Haony",
-      "level": 1152,
+      "level": 1162,
       "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1287,7 +1287,7 @@
     },
     {
       "name": "Kev",
-      "level": 1435,
+      "level": 1442,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1420,7 +1420,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1470,
+      "level": 1473,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1582,7 +1582,7 @@
     },
     {
       "name": "Loks",
-      "level": 1679,
+      "level": 1697,
       "resets": 55,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1897,7 +1897,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1958,
+      "level": 1961,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2024,7 +2024,7 @@
     },
     {
       "name": "Nino",
-      "level": 1580,
+      "level": 1598,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2100,7 +2100,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1943,
+      "level": 1957,
       "resets": 58,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2146,7 +2146,7 @@
     },
     {
       "name": "Pestinha",
-      "level": 8,
+      "level": 282,
       "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2217,7 +2217,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1256,
+      "level": 1267,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3158,8 +3158,14 @@
         },
         {
           "name": "Melbiss",
-          "value": 1958,
+          "value": 1961,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Pedim Kitbota",
+          "value": 1957,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3169,14 +3175,8 @@
           "online": true
         },
         {
-          "name": "Pedim Kitbota",
-          "value": 1943,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Brunao Rei Denovo",
-          "value": 1889,
+          "value": 1891,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3193,44 +3193,44 @@
           "online": false
         },
         {
+          "name": "Loks",
+          "value": 1697,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 1680,
           "vocation": "Elder Druid",
           "online": false
         },
         {
-          "name": "Loks",
-          "value": 1679,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Gokuu",
-          "value": 1634,
+          "value": 1648,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Gizao",
-          "value": 1625,
+          "value": 1645,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Cerebro",
-          "value": 1620,
+          "value": 1639,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "El Diablo",
-          "value": 1614,
+          "value": 1617,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Nino",
-          "value": 1580,
+          "value": 1598,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3259,8 +3259,20 @@
           "online": false
         },
         {
+          "name": "Dmonick Hahaha",
+          "value": 1473,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lilian Faithkeeper",
-          "value": 1470,
+          "value": 1473,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kev",
+          "value": 1442,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3271,18 +3283,6 @@
           "online": true
         },
         {
-          "name": "Kev",
-          "value": 1435,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Dmonick Hahaha",
-          "value": 1390,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Punish Claude",
           "value": 1355,
           "vocation": "Royal Paladin",
@@ -3290,13 +3290,13 @@
         },
         {
           "name": "Rp Terror",
-          "value": 1256,
+          "value": 1267,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Haony",
-          "value": 1152,
+          "value": 1162,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3311,6 +3311,12 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Pestinha",
+          "value": 282,
+          "vocation": "Master Sorcerer",
+          "online": true
         }
       ]
     }
@@ -3980,7 +3986,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 08:09 (Brasília)",
+    "updated_at": "05/08/2026 às 08:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
