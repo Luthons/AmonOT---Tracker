@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 14:17 (Brasília)",
+  "updated_at": "05/08/2026 às 14:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 58,
-  "online_count": 51,
-  "offline_count": 7,
+  "online_count": 50,
+  "offline_count": 8,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -2278,13 +2278,19 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 2032,
-      "resets": 62,
+      "level": 8,
+      "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "reset_history": []
+      "online": false,
+      "reset_history": [
+        {
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 14:18 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Teko News",
@@ -2523,6 +2529,14 @@
       "online": true
     },
     {
+      "name": "Rusha Rp",
+      "resets_total": 63,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Teko News",
       "resets_total": 64,
       "resets_today": 1,
@@ -2718,6 +2732,12 @@
           "online": true
         },
         {
+          "name": "Rusha Rp",
+          "value": 63,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Teylera Rp",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -2739,12 +2759,6 @@
           "name": "Cerebro",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Rusha Rp",
-          "value": 62,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3035,12 +3049,6 @@
       "name": "Level",
       "val_label": "Level",
       "entries": [
-        {
-          "name": "Rusha Rp",
-          "value": 2032,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
         {
           "name": "Yagoodz Hahaha",
           "value": 2000,
@@ -4051,7 +4059,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 14:17 (Brasília)",
+    "updated_at": "05/08/2026 às 14:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27256,7 +27264,7 @@
         "Pedim Kitbota": 58,
         "Pestinha": 42,
         "Rp Terror": 37,
-        "Rusha Rp": 62,
+        "Rusha Rp": 63,
         "Teko News": 64,
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 44,
@@ -36843,7 +36851,7 @@
           "Pedim Kitbota": 58,
           "Pestinha": 42,
           "Rp Terror": 37,
-          "Rusha Rp": 62,
+          "Rusha Rp": 63,
           "Teko News": 64,
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 44,
@@ -39967,6 +39975,13 @@
           "gained": 1,
           "timestamp": "05/08/2026 às 11:03 (Brasília)",
           "hour_key": "2026-08-05-11"
+        },
+        {
+          "name": "Rusha Rp",
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 14:18 (Brasília)",
+          "hour_key": "2026-08-05-14"
         }
       ]
     },
@@ -40829,11 +40844,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 58,
-      "total_current": 2917,
-      "resets_today": 9,
-      "resets_week": 85,
+      "total_current": 2918,
+      "resets_today": 10,
+      "resets_week": 86,
       "resets_month": 0,
-      "resets_lifetime": 89,
+      "resets_lifetime": 90,
       "avg_per_player": 50.3
     },
     "enemy_guild": {
