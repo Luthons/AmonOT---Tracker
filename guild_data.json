@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 08:08 (Brasília)",
+  "updated_at": "05/08/2026 às 08:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
-  "online_count": 46,
-  "offline_count": 11,
+  "online_count": 47,
+  "offline_count": 10,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -2146,12 +2146,12 @@
     },
     {
       "name": "Pestinha",
-      "level": 2000,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 31,
@@ -2207,6 +2207,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "28/07/2026 às 09:14 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 08:09 (Brasília)"
         }
       ]
     },
@@ -2414,6 +2419,14 @@
       "resets_today": 1,
       "resets_week": 4,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Pestinha",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2868,6 +2881,12 @@
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 42,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Cheiro Dpneu",
           "value": 41,
           "vocation": "Elder Druid",
@@ -2877,12 +2896,6 @@
           "name": "Lukitas Brokenzada",
           "value": 41,
           "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "Pestinha",
-          "value": 41,
-          "vocation": "Master Sorcerer",
           "online": false
         },
         {
@@ -3130,12 +3143,6 @@
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Pestinha",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Teko News",
@@ -3973,7 +3980,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 08:08 (Brasília)",
+    "updated_at": "05/08/2026 às 08:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27239,7 +27246,7 @@
         "Ntka": 57,
         "Pally Tetss": 55,
         "Pedim Kitbota": 58,
-        "Pestinha": 41,
+        "Pestinha": 42,
         "Rp Terror": 37,
         "Rusha Rp": 62,
         "Teko News": 63,
@@ -36814,7 +36821,7 @@
           "Ntka": 57,
           "Pally Tetss": 55,
           "Pedim Kitbota": 58,
-          "Pestinha": 41,
+          "Pestinha": 42,
           "Rp Terror": 37,
           "Rusha Rp": 62,
           "Teko News": 63,
@@ -39883,6 +39890,13 @@
           "gained": 1,
           "timestamp": "05/08/2026 às 04:50 (Brasília)",
           "hour_key": "2026-08-05-04"
+        },
+        {
+          "name": "Pestinha",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 08:09 (Brasília)",
+          "hour_key": "2026-08-05-08"
         }
       ]
     },
@@ -40745,11 +40759,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2884,
-      "resets_today": 1,
-      "resets_week": 77,
+      "total_current": 2885,
+      "resets_today": 2,
+      "resets_week": 78,
       "resets_month": 0,
-      "resets_lifetime": 83,
+      "resets_lifetime": 84,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
