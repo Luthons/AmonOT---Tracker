@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 09:37 (Brasília)",
+  "updated_at": "05/08/2026 às 09:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -677,7 +677,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1653,
+      "level": 1654,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2268,8 +2268,8 @@
     },
     {
       "name": "Teko News",
-      "level": 2000,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -2279,6 +2279,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "28/07/2026 às 21:53 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 09:38 (Brasília)"
         }
       ]
     },
@@ -2453,6 +2458,14 @@
       "resets_today": 1,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
+      "name": "Teko News",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -2670,7 +2683,7 @@
         },
         {
           "name": "Teko News",
-          "value": 63,
+          "value": 64,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3143,12 +3156,6 @@
           "online": true
         },
         {
-          "name": "Teko News",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3216,7 +3223,7 @@
         },
         {
           "name": "Cerebro",
-          "value": 1653,
+          "value": 1654,
           "vocation": "Elite Knight",
           "online": false
         },
@@ -3990,7 +3997,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 09:37 (Brasília)",
+    "updated_at": "05/08/2026 às 09:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27232,7 +27239,7 @@
         "Pestinha": 42,
         "Rp Terror": 37,
         "Rusha Rp": 62,
-        "Teko News": 63,
+        "Teko News": 64,
         "Vinizerah On Amonot": 44,
         "Vitao The Trader": 22,
         "VukVuk": 50,
@@ -36808,7 +36815,7 @@
           "Pestinha": 42,
           "Rp Terror": 37,
           "Rusha Rp": 62,
-          "Teko News": 63,
+          "Teko News": 64,
           "Vinizerah On Amonot": 44,
           "Vitao The Trader": 22,
           "VukVuk": 50,
@@ -39895,6 +39902,13 @@
           "gained": 1,
           "timestamp": "05/08/2026 às 09:10 (Brasília)",
           "hour_key": "2026-08-05-09"
+        },
+        {
+          "name": "Teko News",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 09:38 (Brasília)",
+          "hour_key": "2026-08-05-09"
         }
       ]
     },
@@ -40757,12 +40771,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2887,
-      "resets_today": 4,
-      "resets_week": 80,
+      "total_current": 2888,
+      "resets_today": 5,
+      "resets_week": 81,
       "resets_month": 0,
-      "resets_lifetime": 85,
-      "avg_per_player": 50.6
+      "resets_lifetime": 86,
+      "avg_per_player": 50.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
