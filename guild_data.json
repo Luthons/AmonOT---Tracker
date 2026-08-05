@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 21:46 (Brasília)",
+  "updated_at": "04/08/2026 às 21:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -82,8 +82,8 @@
     },
     {
       "name": "Dmonick",
-      "level": 2000,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -137,6 +137,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "30/07/2026 às 10:11 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:49 (Brasília)"
         }
       ]
     },
@@ -2679,6 +2684,14 @@
       "online": true
     },
     {
+      "name": "Dmonick",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Akronus",
       "resets_total": 61,
       "resets_today": 1,
@@ -2740,14 +2753,6 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Dmonick",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2942,6 +2947,12 @@
           "online": true
         },
         {
+          "name": "Dmonick",
+          "value": 60,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
@@ -2975,12 +2986,6 @@
           "name": "Dmonick Hahaha",
           "value": 59,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 59,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3239,12 +3244,6 @@
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4215,7 +4214,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 21:45 (Brasília)",
+    "updated_at": "04/08/2026 às 21:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27417,7 +27416,7 @@
         "Dmonick Hahaha": 59,
         "Gizao": 60,
         "Yagoodz Hahaha": 70,
-        "Dmonick": 59,
+        "Dmonick": 60,
         "Magabela": 57,
         "Punish Claude": 52,
         "Teylera Rp": 62,
@@ -36981,7 +36980,7 @@
           "Dmonick Hahaha": 59,
           "Gizao": 60,
           "Yagoodz Hahaha": 70,
-          "Dmonick": 59,
+          "Dmonick": 60,
           "Magabela": 57,
           "Punish Claude": 52,
           "Teylera Rp": 62,
@@ -40194,6 +40193,13 @@
           "gained": 1,
           "timestamp": "04/08/2026 às 21:41 (Brasília)",
           "hour_key": "2026-08-04-21"
+        },
+        {
+          "name": "Dmonick",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:49 (Brasília)",
+          "hour_key": "2026-08-04-21"
         }
       ]
     },
@@ -41084,11 +41090,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2880,
-      "resets_today": 10,
-      "resets_week": 87,
+      "total_current": 2881,
+      "resets_today": 11,
+      "resets_week": 88,
       "resets_month": 0,
-      "resets_lifetime": 87,
+      "resets_lifetime": 88,
       "avg_per_player": 50.5
     },
     "enemy_guild": {
