@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/08/2026 às 22:01 (Brasília)",
+  "updated_at": "04/08/2026 às 22:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 57,
@@ -29,8 +29,8 @@
     },
     {
       "name": "Gizao",
-      "level": 2000,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -69,6 +69,11 @@
           "resets": 60,
           "gained": 1,
           "timestamp": "14/07/2026 às 23:27 (Brasília)"
+        },
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 22:04 (Brasília)"
         }
       ]
     },
@@ -2690,6 +2695,14 @@
       "online": true
     },
     {
+      "name": "Gizao",
+      "resets_total": 61,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 60,
       "resets_today": 0,
@@ -2929,6 +2942,12 @@
           "online": true
         },
         {
+          "name": "Gizao",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Akronus",
           "value": 61,
           "vocation": "Master Sorcerer",
@@ -2948,12 +2967,6 @@
         },
         {
           "name": "Dmonick Hahaha",
-          "value": 60,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Gizao",
           "value": 60,
           "vocation": "Royal Paladin",
           "online": true
@@ -3231,12 +3244,6 @@
         {
           "name": "Rusha Rp",
           "value": 2032,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4214,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/08/2026 às 22:00 (Brasília)",
+    "updated_at": "04/08/2026 às 22:04 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27387,7 +27394,7 @@
     "resets": {
       "last_snapshot": {
         "Dmonick Hahaha": 60,
-        "Gizao": 60,
+        "Gizao": 61,
         "Yagoodz Hahaha": 70,
         "Dmonick": 60,
         "Magabela": 57,
@@ -36952,7 +36959,7 @@
         },
         "2026-08-04-22": {
           "Dmonick Hahaha": 60,
-          "Gizao": 60,
+          "Gizao": 61,
           "Yagoodz Hahaha": 70,
           "Dmonick": 60,
           "Magabela": 57,
@@ -40181,6 +40188,13 @@
           "gained": 1,
           "timestamp": "04/08/2026 às 21:58 (Brasília)",
           "hour_key": "2026-08-04-21"
+        },
+        {
+          "name": "Gizao",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 22:04 (Brasília)",
+          "hour_key": "2026-08-04-22"
         }
       ]
     },
@@ -41071,11 +41085,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 57,
-      "total_current": 2882,
+      "total_current": 2883,
       "resets_today": 0,
-      "resets_week": 75,
+      "resets_week": 76,
       "resets_month": 0,
-      "resets_lifetime": 86,
+      "resets_lifetime": 87,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
