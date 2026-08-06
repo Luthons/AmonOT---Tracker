@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/08/2026 às 14:21 (Brasília)",
+  "updated_at": "06/08/2026 às 14:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
-  "online_count": 52,
-  "offline_count": 7,
+  "online_count": 50,
+  "offline_count": 9,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -1033,8 +1033,8 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1650,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1084,6 +1084,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "05/08/2026 às 10:02 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 14:59 (Brasília)"
         }
       ]
     },
@@ -1282,12 +1287,12 @@
     },
     {
       "name": "Kev",
-      "level": 1579,
+      "level": 1582,
       "resets": 32,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 26,
@@ -1405,7 +1410,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 996,
+      "level": 1002,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1902,7 +1907,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 43,
@@ -2474,6 +2479,14 @@
       "online": false
     },
     {
+      "name": "Guidao Palao",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Loks",
       "resets_total": 56,
       "resets_today": 1,
@@ -2487,7 +2500,7 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
-      "online": true
+      "online": false
     },
     {
       "name": "Pedim Kitbota",
@@ -2594,14 +2607,6 @@
       "online": true
     },
     {
-      "name": "Guidao Palao",
-      "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Jhonnys Trembolizado",
       "resets_total": 94,
       "resets_today": 0,
@@ -2623,7 +2628,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Lilian Faithkeeper",
@@ -2881,22 +2886,22 @@
           "online": true
         },
         {
+          "name": "Guidao Palao",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Melbiss",
           "value": 54,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Punish Claude",
           "value": 53,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Guidao Palao",
-          "value": 53,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Kolwaski",
@@ -3022,7 +3027,7 @@
           "name": "Kev",
           "value": 32,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Brunao Rei Denovo",
@@ -3337,22 +3342,16 @@
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 1650,
+          "name": "Kev",
+          "value": 1582,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lotus Lothbrook",
           "value": 1582,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 1579,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -3386,7 +3385,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 996,
+          "value": 1002,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3406,7 +3405,7 @@
           "name": "Melbiss",
           "value": 787,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Royal Sniper",
@@ -4082,7 +4081,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/08/2026 às 14:21 (Brasília)",
+    "updated_at": "06/08/2026 às 14:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27186,51 +27185,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 05, 2026 11:11",
-      "player": "MekZera",
-      "level": 1035,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 05, 2026 11:10",
-      "player": "Dmonick Hahaha",
-      "level": 1527,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 05, 2026 11:10",
-      "player": "MekZera",
-      "level": 1036,
-      "killedBy": "Atreus Oldking",
-      "maiorDano": "Julian Alvarez",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 05, 2026 11:08",
-      "player": "MekZera",
-      "level": 1037,
-      "killedBy": "Atreus Oldking",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 05, 2026 09:20",
-      "player": "Ultimate Warrior",
-      "level": 2000,
-      "killedBy": "Fazendeiro Ricaria",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27261,7 +27215,7 @@
         "Elder Lougon": 25,
         "Forsa Sem Futuro": 58,
         "Gokuu": 60,
-        "Guidao Palao": 53,
+        "Guidao Palao": 54,
         "Haony": 56,
         "Henrique": 52,
         "Henrique Arqueiro": 51,
@@ -36914,7 +36868,7 @@
           "Elder Lougon": 25,
           "Forsa Sem Futuro": 58,
           "Gokuu": 60,
-          "Guidao Palao": 53,
+          "Guidao Palao": 54,
           "Haony": 56,
           "Henrique": 52,
           "Henrique Arqueiro": 51,
@@ -40044,6 +39998,13 @@
           "gained": 1,
           "timestamp": "06/08/2026 às 12:05 (Brasília)",
           "hour_key": "2026-08-06-12"
+        },
+        {
+          "name": "Guidao Palao",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 14:59 (Brasília)",
+          "hour_key": "2026-08-06-14"
         }
       ]
     },
@@ -40898,11 +40859,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 2987,
-      "resets_today": 6,
-      "resets_week": 78,
+      "total_current": 2988,
+      "resets_today": 7,
+      "resets_week": 79,
       "resets_month": 0,
-      "resets_lifetime": 83,
+      "resets_lifetime": 84,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
