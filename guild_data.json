@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/08/2026 às 23:46 (Brasília)",
+  "updated_at": "05/08/2026 às 23:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
-  "online_count": 46,
-  "offline_count": 13,
+  "online_count": 45,
+  "offline_count": 14,
   "members": [
     {
       "name": "Dmonick Hahaha",
@@ -342,12 +342,12 @@
     },
     {
       "name": "Akronus",
-      "level": 1404,
+      "level": 1742,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 38,
@@ -2135,7 +2135,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2360,7 +2360,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 33,
@@ -2545,7 +2545,7 @@
       "resets_today": 0,
       "resets_week": 8,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Alba Baiakeiro",
@@ -2729,7 +2729,7 @@
       "resets_today": 0,
       "resets_week": 4,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -2790,7 +2790,7 @@
           "name": "Akronus",
           "value": 62,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Baiakudinho",
@@ -2886,7 +2886,7 @@
           "name": "Ntka",
           "value": 57,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Haony",
@@ -2976,7 +2976,7 @@
           "name": "Vinizerah On Amonot",
           "value": 45,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Its Gui",
@@ -3234,7 +3234,7 @@
           "name": "Ntka",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Pally Tetss",
@@ -3309,6 +3309,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 1742,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
           "name": "Affey",
           "value": 1733,
           "vocation": "Royal Paladin",
@@ -3381,12 +3387,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 1404,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 1401,
           "vocation": "Elite Knight",
@@ -3420,7 +3420,7 @@
           "name": "Vinizerah On Amonot",
           "value": 1007,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Pestinha",
@@ -4114,7 +4114,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "05/08/2026 às 23:46 (Brasília)",
+    "updated_at": "05/08/2026 às 23:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
