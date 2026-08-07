@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/08/2026 às 23:16 (Brasília)",
+  "updated_at": "06/08/2026 às 23:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 58,
-  "online_count": 42,
+  "total_members": 57,
+  "online_count": 41,
   "offline_count": 16,
   "members": [
     {
@@ -2308,47 +2308,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Ynhaca Purah",
-      "level": 758,
-      "resets": 61,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "08/07/2026 às 08:11 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "16/07/2026 às 22:42 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "20/07/2026 às 08:27 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "26/07/2026 às 18:44 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "29/07/2026 às 16:33 (Brasília)"
-        },
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "06/08/2026 às 22:37 (Brasília)"
-        }
-      ]
     }
   ],
   "enemy_guilds": [],
@@ -2568,14 +2527,6 @@
       "resets_week": 3,
       "vocation": "Elder Druid",
       "online": true
-    },
-    {
-      "name": "Ynhaca Purah",
-      "resets_total": 61,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
-      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -2678,12 +2629,6 @@
           "name": "Royal Sniper",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 61,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3273,12 +3218,6 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 758,
-          "vocation": "Master Sorcerer",
-          "online": true
         }
       ]
     }
@@ -3948,7 +3887,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/08/2026 às 23:16 (Brasília)",
+    "updated_at": "06/08/2026 às 23:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26928,15 +26867,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 06, 2026 15:05",
-      "player": "Ynhaca Purah",
-      "level": 1785,
-      "killedBy": "Forsa Sem Futuro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 06, 2026 13:31",
       "player": "Achilles",
       "level": 1995,
@@ -27059,8 +26989,7 @@
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 45,
         "Vitao The Trader": 22,
-        "VukVuk": 50,
-        "Ynhaca Purah": 61
+        "VukVuk": 50
       },
       "snapshots": {
         "2026-07-30-19": {
@@ -36723,8 +36652,7 @@
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 45,
           "Vitao The Trader": 22,
-          "VukVuk": 50,
-          "Ynhaca Purah": 61
+          "VukVuk": 50
         }
       },
       "events": [
@@ -40702,13 +40630,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 58,
-      "total_current": 2933,
+      "num_members": 57,
+      "total_current": 2872,
       "resets_today": 0,
-      "resets_week": 64,
+      "resets_week": 63,
       "resets_month": 0,
-      "resets_lifetime": 80,
-      "avg_per_player": 50.6
+      "resets_lifetime": 79,
+      "avg_per_player": 50.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
