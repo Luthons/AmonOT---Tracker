@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/08/2026 às 23:37 (Brasília)",
+  "updated_at": "06/08/2026 às 23:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 58,
@@ -483,13 +483,19 @@
     },
     {
       "name": "Albatrozz",
-      "level": 2000,
-      "resets": 67,
+      "level": 8,
+      "resets": 68,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 68,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 23:38 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Baiakudinho",
@@ -2364,6 +2370,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Albatrozz",
+      "resets_total": 68,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 62,
       "resets_today": 1,
@@ -2606,7 +2620,7 @@
         },
         {
           "name": "Albatrozz",
-          "value": 67,
+          "value": 68,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -2990,12 +3004,6 @@
         },
         {
           "name": "Adolph Healer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Albatrozz",
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
@@ -3944,7 +3952,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/08/2026 às 23:37 (Brasília)",
+    "updated_at": "06/08/2026 às 23:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27037,7 +27045,7 @@
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 63,
-        "Albatrozz": 67,
+        "Albatrozz": 68,
         "Baiakudinho": 62,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
@@ -36701,7 +36709,7 @@
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 63,
-          "Albatrozz": 67,
+          "Albatrozz": 68,
           "Baiakudinho": 62,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
@@ -39879,6 +39887,13 @@
           "gained": 1,
           "timestamp": "06/08/2026 às 23:33 (Brasília)",
           "hour_key": "2026-08-06-23"
+        },
+        {
+          "name": "Albatrozz",
+          "resets": 68,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 23:38 (Brasília)",
+          "hour_key": "2026-08-06-23"
         }
       ]
     },
@@ -40733,8 +40748,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 58,
-      "total_current": 2930,
-      "resets_today": 1,
+      "total_current": 2931,
+      "resets_today": 2,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 80,
