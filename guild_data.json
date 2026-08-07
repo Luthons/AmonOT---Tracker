@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/08/2026 às 22:36 (Brasília)",
+  "updated_at": "06/08/2026 às 22:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -2034,7 +2034,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 1521,
+      "level": 1554,
       "resets": 59,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2357,8 +2357,8 @@
     },
     {
       "name": "Ynhaca Purah",
-      "level": 1854,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2388,6 +2388,11 @@
           "resets": 60,
           "gained": 1,
           "timestamp": "29/07/2026 às 16:33 (Brasília)"
+        },
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 22:37 (Brasília)"
         }
       ]
     }
@@ -2609,6 +2614,14 @@
       "resets_week": 3,
       "vocation": "Elder Druid",
       "online": true
+    },
+    {
+      "name": "Ynhaca Purah",
+      "resets_total": 61,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -2714,6 +2727,12 @@
           "online": true
         },
         {
+          "name": "Ynhaca Purah",
+          "value": 61,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Dmonick Hahaha",
           "value": 60,
           "vocation": "Royal Paladin",
@@ -2729,12 +2748,6 @@
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ynhaca Purah",
-          "value": 60,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3206,12 +3219,6 @@
           "online": true
         },
         {
-          "name": "Ynhaca Purah",
-          "value": 1854,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Cheiro Dpneu",
           "value": 1835,
           "vocation": "Elder Druid",
@@ -3267,7 +3274,7 @@
         },
         {
           "name": "Pedim Kitbota",
-          "value": 1521,
+          "value": 1554,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3993,7 +4000,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/08/2026 às 22:36 (Brasília)",
+    "updated_at": "06/08/2026 às 22:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27106,7 +27113,7 @@
         "Vinizerah On Amonot": 45,
         "Vitao The Trader": 22,
         "VukVuk": 50,
-        "Ynhaca Purah": 60
+        "Ynhaca Purah": 61
       },
       "snapshots": {
         "2026-07-30-18": {
@@ -36768,7 +36775,7 @@
           "Vinizerah On Amonot": 45,
           "Vitao The Trader": 22,
           "VukVuk": 50,
-          "Ynhaca Purah": 60
+          "Ynhaca Purah": 61
         }
       },
       "events": [
@@ -39886,6 +39893,13 @@
           "gained": 1,
           "timestamp": "06/08/2026 às 20:04 (Brasília)",
           "hour_key": "2026-08-06-20"
+        },
+        {
+          "name": "Ynhaca Purah",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 22:37 (Brasília)",
+          "hour_key": "2026-08-06-22"
         }
       ]
     },
@@ -40740,11 +40754,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 2989,
+      "total_current": 2990,
       "resets_today": 0,
-      "resets_week": 63,
+      "resets_week": 64,
       "resets_month": 0,
-      "resets_lifetime": 80,
+      "resets_lifetime": 81,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
