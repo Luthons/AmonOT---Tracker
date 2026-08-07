@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/08/2026 às 23:51 (Brasília)",
+  "updated_at": "06/08/2026 às 23:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 58,
@@ -483,7 +483,7 @@
     },
     {
       "name": "Albatrozz",
-      "level": 355,
+      "level": 639,
       "resets": 68,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1034,7 +1034,7 @@
     },
     {
       "name": "Henrique",
-      "level": 2000,
+      "level": 1997,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3057,12 +3057,6 @@
           "online": true
         },
         {
-          "name": "Henrique",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3150,6 +3144,12 @@
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Henrique",
+          "value": 1997,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3285,15 +3285,15 @@
           "online": false
         },
         {
-          "name": "Lipe Knight",
-          "value": 431,
-          "vocation": "Elite Knight",
+          "name": "Albatrozz",
+          "value": 639,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Albatrozz",
-          "value": 355,
-          "vocation": "Elder Druid",
+          "name": "Lipe Knight",
+          "value": 431,
+          "vocation": "Elite Knight",
           "online": true
         }
       ]
@@ -3964,7 +3964,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/08/2026 às 23:51 (Brasília)",
+    "updated_at": "06/08/2026 às 23:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26898,6 +26898,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 06, 2026 23:52",
+      "player": "Henrique",
+      "level": 2000,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 06, 2026 23:44",
       "player": "Henrique Arqueiro",
