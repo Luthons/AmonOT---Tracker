@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 19:42 (Brasília)",
+  "updated_at": "07/08/2026 às 19:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -1482,8 +1482,8 @@
     },
     {
       "name": "Loks",
-      "level": 2000,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1603,6 +1603,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "05/08/2026 às 23:08 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 19:43 (Brasília)"
         }
       ]
     },
@@ -2393,6 +2398,14 @@
       "online": true
     },
     {
+      "name": "Loks",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
       "name": "Royal Sniper",
       "resets_total": 62,
       "resets_today": 1,
@@ -2527,14 +2540,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
-    },
-    {
-      "name": "Loks",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Elder Druid",
-      "online": false
     },
     {
       "name": "MekZera",
@@ -2752,6 +2757,12 @@
           "online": true
         },
         {
+          "name": "Loks",
+          "value": 57,
+          "vocation": "Elder Druid",
+          "online": false
+        },
+        {
           "name": "Ntka",
           "value": 57,
           "vocation": "Royal Paladin",
@@ -2762,12 +2773,6 @@
           "value": 56,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 56,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Pally Tetss",
@@ -3116,12 +3121,6 @@
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Lougon Baiakeiro",
@@ -3995,7 +3994,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 19:42 (Brasília)",
+    "updated_at": "07/08/2026 às 19:43 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27232,7 +27231,7 @@
         "Kolwaski": 53,
         "Lilian Faithkeeper": 44,
         "Lipe Knight": 62,
-        "Loks": 56,
+        "Loks": 57,
         "Lotus Lothbrook": 36,
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
@@ -36960,7 +36959,7 @@
           "Kolwaski": 53,
           "Lilian Faithkeeper": 44,
           "Lipe Knight": 62,
-          "Loks": 56,
+          "Loks": 57,
           "Lotus Lothbrook": 36,
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
@@ -40036,6 +40035,13 @@
           "gained": 1,
           "timestamp": "07/08/2026 às 17:46 (Brasília)",
           "hour_key": "2026-08-07-17"
+        },
+        {
+          "name": "Loks",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 19:43 (Brasília)",
+          "hour_key": "2026-08-07-19"
         }
       ]
     },
@@ -40890,12 +40896,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 60,
-      "total_current": 3050,
-      "resets_today": 7,
-      "resets_week": 68,
+      "total_current": 3051,
+      "resets_today": 8,
+      "resets_week": 69,
       "resets_month": 0,
-      "resets_lifetime": 74,
-      "avg_per_player": 50.8
+      "resets_lifetime": 75,
+      "avg_per_player": 50.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
