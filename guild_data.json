@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 08:45 (Brasília)",
+  "updated_at": "07/08/2026 às 08:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -68,6 +68,93 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
+    },
+    {
+      "name": "Albatrozz",
+      "level": 1104,
+      "resets": 68,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 68,
+          "gained": 1,
+          "timestamp": "06/08/2026 às 23:38 (Brasília)"
+        }
+      ]
+    },
+    {
+      "name": "Cerebro",
+      "level": 2000,
+      "resets": 62,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 51,
+          "gained": 1,
+          "timestamp": "09/07/2026 às 18:02 (Brasília)"
+        },
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "14/07/2026 às 14:13 (Brasília)"
+        },
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "17/07/2026 às 13:39 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "20/07/2026 às 19:39 (Brasília)"
+        },
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "21/07/2026 às 11:36 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "23/07/2026 às 08:32 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "26/07/2026 às 07:43 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 09:57 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "29/07/2026 às 19:04 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 01:07 (Brasília)"
+        },
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "03/08/2026 às 21:53 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "05/08/2026 às 11:03 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Dmonick",
@@ -462,22 +549,6 @@
       ]
     },
     {
-      "name": "Albatrozz",
-      "level": 1104,
-      "resets": 68,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 68,
-          "gained": 1,
-          "timestamp": "06/08/2026 às 23:38 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Baiakudinho",
       "level": 1753,
       "resets": 62,
@@ -584,77 +655,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Cerebro",
-      "level": 2000,
-      "resets": 62,
-      "vocation": "Elite Knight",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 51,
-          "gained": 1,
-          "timestamp": "09/07/2026 às 18:02 (Brasília)"
-        },
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "14/07/2026 às 14:13 (Brasília)"
-        },
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "17/07/2026 às 13:39 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "20/07/2026 às 19:39 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "21/07/2026 às 11:36 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "23/07/2026 às 08:32 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "26/07/2026 às 07:43 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 09:57 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "29/07/2026 às 19:04 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 01:07 (Brasília)"
-        },
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 21:53 (Brasília)"
-        },
-        {
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 11:03 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Cheiro Dpneu",
@@ -2362,6 +2362,14 @@
       "online": true
     },
     {
+      "name": "Cerebro",
+      "resets_total": 62,
+      "resets_today": 0,
+      "resets_week": 2,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Dmonick",
       "resets_total": 60,
       "resets_today": 0,
@@ -2399,14 +2407,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Cerebro",
-      "resets_total": 62,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2609,6 +2609,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 62,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -2618,12 +2624,6 @@
           "name": "Baiakudinho",
           "value": 62,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 62,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -2969,6 +2969,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3008,12 +3014,6 @@
           "name": "Brunaobringer",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 2000,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3948,7 +3948,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 08:45 (Brasília)",
+    "updated_at": "07/08/2026 às 08:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27060,6 +27060,8 @@
         "Dmonick Hahaha": 60,
         "Gizao": 61,
         "Yagoodz Hahaha": 70,
+        "Albatrozz": 68,
+        "Cerebro": 62,
         "Dmonick": 60,
         "Magabela": 57,
         "Punish Claude": 53,
@@ -27068,13 +27070,11 @@
         "Adolph Healer": 20,
         "Affey": 32,
         "Akronus": 63,
-        "Albatrozz": 68,
         "Baiakudinho": 62,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
-        "Cerebro": 62,
         "Cheiro Dpneu": 41,
         "Deca com Testo": 32,
         "Dvn Luktzeraah": 50,
@@ -36752,6 +36752,8 @@
           "Dmonick Hahaha": 60,
           "Gizao": 61,
           "Yagoodz Hahaha": 70,
+          "Albatrozz": 68,
+          "Cerebro": 62,
           "Dmonick": 60,
           "Magabela": 57,
           "Punish Claude": 53,
@@ -36760,13 +36762,11 @@
           "Adolph Healer": 20,
           "Affey": 32,
           "Akronus": 63,
-          "Albatrozz": 68,
           "Baiakudinho": 62,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
-          "Cerebro": 62,
           "Cheiro Dpneu": 41,
           "Deca com Testo": 32,
           "Dvn Luktzeraah": 50,
