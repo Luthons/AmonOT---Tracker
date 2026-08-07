@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 00:06 (Brasília)",
+  "updated_at": "07/08/2026 às 00:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 58,
-  "online_count": 44,
+  "total_members": 59,
+  "online_count": 45,
   "offline_count": 14,
   "members": [
     {
@@ -2106,6 +2106,16 @@
       ]
     },
     {
+      "name": "Php Eruim",
+      "level": 816,
+      "resets": 61,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Royal Sniper",
       "level": 1496,
       "resets": 61,
@@ -2628,6 +2638,12 @@
           "name": "MekZera",
           "value": 61,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Php Eruim",
+          "value": 61,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3223,6 +3239,12 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Php Eruim",
+          "value": 816,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Albatrozz",
@@ -3904,7 +3926,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 00:06 (Brasília)",
+    "updated_at": "07/08/2026 às 00:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26938,6 +26960,15 @@
       "isPvp": true
     },
     {
+      "time": "Aug 06, 2026 15:05",
+      "player": "Php Eruim",
+      "level": 1785,
+      "killedBy": "Forsa Sem Futuro",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 06, 2026 13:31",
       "player": "Achilles",
       "level": 1995,
@@ -27045,6 +27076,7 @@
         "Pally Tetss": 55,
         "Pedim Kitbota": 59,
         "Pestinha": 42,
+        "Php Eruim": 61,
         "Royal Sniper": 61,
         "Rp Terror": 38,
         "Rusha Rp": 63,
@@ -36711,6 +36743,7 @@
           "Pally Tetss": 55,
           "Pedim Kitbota": 59,
           "Pestinha": 42,
+          "Php Eruim": 61,
           "Royal Sniper": 61,
           "Rp Terror": 38,
           "Rusha Rp": 63,
@@ -40584,13 +40617,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 58,
-      "total_current": 2931,
+      "num_members": 59,
+      "total_current": 2992,
       "resets_today": 2,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 80,
-      "avg_per_player": 50.5
+      "avg_per_player": 50.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
