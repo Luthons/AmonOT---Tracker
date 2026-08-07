@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 18:14 (Brasília)",
+  "updated_at": "07/08/2026 às 18:15 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 59,
-  "online_count": 46,
+  "total_members": 60,
+  "online_count": 47,
   "offline_count": 13,
   "members": [
     {
@@ -552,6 +552,16 @@
           "timestamp": "16/07/2026 às 00:31 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Amelior",
+      "level": 1782,
+      "resets": 52,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Baiakudinho",
@@ -2796,6 +2806,12 @@
           "online": true
         },
         {
+          "name": "Amelior",
+          "value": 52,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Henrique",
           "value": 52,
           "vocation": "Elite Knight",
@@ -3200,6 +3216,12 @@
         {
           "name": "Lipe Knight",
           "value": 1786,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Amelior",
+          "value": 1782,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3973,7 +3995,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 18:14 (Brasília)",
+    "updated_at": "07/08/2026 às 18:15 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26908,6 +26930,33 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 07, 2026 17:59",
+      "player": "Amelior",
+      "level": 1783,
+      "killedBy": "Vitao Old Legend",
+      "maiorDano": "Banca Kina",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 07, 2026 17:58",
+      "player": "Amelior",
+      "level": 1785,
+      "killedBy": "Open Detheca",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 07, 2026 17:55",
+      "player": "Amelior",
+      "level": 1786,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 07, 2026 17:48",
       "player": "Teylera Rp",
       "level": 2000,
@@ -27079,6 +27128,15 @@
       "isPvp": true
     },
     {
+      "time": "Aug 06, 2026 17:40",
+      "player": "Amelior",
+      "level": 1203,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 06, 2026 17:02",
       "player": "Haony",
       "level": 1692,
@@ -27104,6 +27162,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
+        "Amelior": 52,
         "Baiakudinho": 62,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 42,
@@ -36827,6 +36886,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
+          "Amelior": 52,
           "Baiakudinho": 62,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 42,
@@ -40780,8 +40840,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 59,
-      "total_current": 2998,
+      "num_members": 60,
+      "total_current": 3050,
       "resets_today": 7,
       "resets_week": 68,
       "resets_month": 0,
