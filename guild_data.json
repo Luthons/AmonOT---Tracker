@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 17:44 (Brasília)",
+  "updated_at": "07/08/2026 às 17:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -360,8 +360,8 @@
     },
     {
       "name": "Magabela",
-      "level": 2000,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -401,6 +401,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "26/07/2026 às 21:27 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 17:45 (Brasília)"
         }
       ]
     },
@@ -2354,6 +2359,14 @@
       "online": true
     },
     {
+      "name": "Magabela",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Jishuka",
       "resets_total": 62,
       "resets_today": 1,
@@ -2717,15 +2730,15 @@
           "online": true
         },
         {
-          "name": "Forsa Sem Futuro",
+          "name": "Magabela",
           "value": 58,
-          "vocation": "Royal Paladin",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 57,
-          "vocation": "Master Sorcerer",
+          "name": "Forsa Sem Futuro",
+          "value": 58,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2982,12 +2995,6 @@
         },
         {
           "name": "Dmonick",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
           "online": true
@@ -3960,7 +3967,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 17:44 (Brasília)",
+    "updated_at": "07/08/2026 às 17:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27085,7 +27092,7 @@
         "Albatrozz": 68,
         "Cerebro": 62,
         "Dmonick": 60,
-        "Magabela": 57,
+        "Magabela": 58,
         "Punish Claude": 53,
         "Teylera Rp": 62,
         "Achilles": 18,
@@ -36805,7 +36812,7 @@
           "Albatrozz": 68,
           "Cerebro": 62,
           "Dmonick": 60,
-          "Magabela": 57,
+          "Magabela": 58,
           "Punish Claude": 53,
           "Teylera Rp": 62,
           "Achilles": 18,
@@ -39904,6 +39911,13 @@
           "gained": 1,
           "timestamp": "07/08/2026 às 14:41 (Brasília)",
           "hour_key": "2026-08-07-14"
+        },
+        {
+          "name": "Magabela",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 17:45 (Brasília)",
+          "hour_key": "2026-08-07-17"
         }
       ]
     },
@@ -40758,11 +40772,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 2997,
-      "resets_today": 6,
-      "resets_week": 67,
+      "total_current": 2998,
+      "resets_today": 7,
+      "resets_week": 68,
       "resets_month": 0,
-      "resets_lifetime": 74,
+      "resets_lifetime": 75,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
