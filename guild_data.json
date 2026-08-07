@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 09:55 (Brasília)",
+  "updated_at": "07/08/2026 às 09:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -2184,8 +2184,8 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 2000,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2195,6 +2195,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "05/08/2026 às 14:18 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 09:56 (Brasília)"
         }
       ]
     },
@@ -2356,6 +2361,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Elite Knight",
+      "online": true
+    },
+    {
+      "name": "Rusha Rp",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2535,14 +2548,6 @@
       "online": true
     },
     {
-      "name": "Rusha Rp",
-      "resets_total": 63,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Teko News",
       "resets_total": 64,
       "resets_today": 0,
@@ -2596,6 +2601,12 @@
           "online": true
         },
         {
+          "name": "Rusha Rp",
+          "value": 64,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Teko News",
           "value": 64,
           "vocation": "Exalted Monk",
@@ -2605,12 +2616,6 @@
           "name": "Akronus",
           "value": 63,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Rusha Rp",
-          "value": 63,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3109,12 +3114,6 @@
           "name": "Pedim Kitbota",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Rusha Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3947,7 +3946,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 09:55 (Brasília)",
+    "updated_at": "07/08/2026 às 09:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27092,7 +27091,7 @@
         "Php Eruim": 61,
         "Royal Sniper": 61,
         "Rp Terror": 38,
-        "Rusha Rp": 63,
+        "Rusha Rp": 64,
         "Teko News": 64,
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 45,
@@ -36788,7 +36787,7 @@
           "Php Eruim": 61,
           "Royal Sniper": 61,
           "Rp Terror": 38,
-          "Rusha Rp": 63,
+          "Rusha Rp": 64,
           "Teko News": 64,
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 45,
@@ -39813,6 +39812,13 @@
           "gained": 1,
           "timestamp": "07/08/2026 às 09:28 (Brasília)",
           "hour_key": "2026-08-07-09"
+        },
+        {
+          "name": "Rusha Rp",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 09:56 (Brasília)",
+          "hour_key": "2026-08-07-09"
         }
       ]
     },
@@ -40667,12 +40673,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 60,
-      "total_current": 3033,
-      "resets_today": 3,
-      "resets_week": 65,
+      "total_current": 3034,
+      "resets_today": 4,
+      "resets_week": 66,
       "resets_month": 0,
-      "resets_lifetime": 76,
-      "avg_per_player": 50.5
+      "resets_lifetime": 77,
+      "avg_per_player": 50.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
