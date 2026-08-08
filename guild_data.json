@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 15:30 (Brasília)",
+  "updated_at": "08/08/2026 às 15:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -2078,8 +2078,8 @@
     },
     {
       "name": "Php Eruim",
-      "level": 1243,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2094,6 +2094,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "07/08/2026 às 21:05 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 15:31 (Brasília)"
         }
       ]
     },
@@ -2360,6 +2365,14 @@
       "online": true
     },
     {
+      "name": "Php Eruim",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Dmonick Hahaha",
       "resets_total": 60,
       "resets_today": 0,
@@ -2587,6 +2600,12 @@
           "online": true
         },
         {
+          "name": "Php Eruim",
+          "value": 64,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rusha Rp",
           "value": 64,
           "vocation": "Royal Paladin",
@@ -2596,12 +2615,6 @@
           "name": "Teko News",
           "value": 64,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Php Eruim",
-          "value": 63,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3214,12 +3227,6 @@
           "name": "Vinizerah On Amonot",
           "value": 1288,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Php Eruim",
-          "value": 1243,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3926,7 +3933,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 15:30 (Brasília)",
+    "updated_at": "08/08/2026 às 15:31 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27130,7 +27137,7 @@
         "Pally Tetss": 55,
         "Pedim Kitbota": 59,
         "Pestinha": 42,
-        "Php Eruim": 63,
+        "Php Eruim": 64,
         "Royal Sniper": 62,
         "Rp Terror": 38,
         "Rusha Rp": 64,
@@ -37095,7 +37102,7 @@
           "Pally Tetss": 55,
           "Pedim Kitbota": 59,
           "Pestinha": 42,
-          "Php Eruim": 63,
+          "Php Eruim": 64,
           "Royal Sniper": 62,
           "Rp Terror": 38,
           "Rusha Rp": 64,
@@ -40081,6 +40088,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 14:42 (Brasília)",
           "hour_key": "2026-08-08-14"
+        },
+        {
+          "name": "Php Eruim",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 15:31 (Brasília)",
+          "hour_key": "2026-08-08-15"
         }
       ]
     },
@@ -40935,8 +40949,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 3018,
-      "resets_today": 6,
+      "total_current": 3019,
+      "resets_today": 7,
       "resets_week": 63,
       "resets_month": 0,
       "resets_lifetime": 71,
