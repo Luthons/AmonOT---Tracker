@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 18:53 (Brasília)",
+  "updated_at": "08/08/2026 às 18:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -1961,7 +1961,7 @@
     },
     {
       "name": "Pedim Kitbota",
-      "level": 2000,
+      "level": 1997,
       "resets": 59,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3129,12 +3129,6 @@
           "online": true
         },
         {
-          "name": "Pedim Kitbota",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3144,6 +3138,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Pedim Kitbota",
+          "value": 1997,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3952,7 +3952,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 18:53 (Brasília)",
+    "updated_at": "08/08/2026 às 18:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26887,6 +26887,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 08, 2026 18:53",
+      "player": "Pedim Kitbota",
+      "level": 2000,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 08, 2026 17:02",
       "player": "Nidaria Mayo",
       "level": 875,
@@ -27053,15 +27062,6 @@
       "player": "Albatrozz",
       "level": 1608,
       "killedBy": "Nutellinhashow",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 07, 2026 18:30",
-      "player": "Lipe Knight",
-      "level": 1793,
-      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
