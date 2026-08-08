@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 14:41 (Brasília)",
+  "updated_at": "08/08/2026 às 14:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -1869,13 +1869,19 @@
     },
     {
       "name": "Nidaria Mayo",
-      "level": 2000,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 14:42 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Nino",
@@ -2346,6 +2352,14 @@
       "online": true
     },
     {
+      "name": "Nidaria Mayo",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Dmonick Hahaha",
       "resets_total": 60,
       "resets_today": 0,
@@ -2747,15 +2761,15 @@
           "online": true
         },
         {
-          "name": "Henrique Arqueiro",
-          "value": 51,
-          "vocation": "Royal Paladin",
+          "name": "Nidaria Mayo",
+          "value": 52,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
-          "name": "Nidaria Mayo",
+          "name": "Henrique Arqueiro",
           "value": 51,
-          "vocation": "Exalted Monk",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3062,12 +3076,6 @@
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Nidaria Mayo",
-          "value": 2000,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3912,7 +3920,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 14:41 (Brasília)",
+    "updated_at": "08/08/2026 às 14:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27119,7 +27127,7 @@
         "MekZera": 61,
         "Melbiss": 55,
         "Monstro Das Criptos": 59,
-        "Nidaria Mayo": 51,
+        "Nidaria Mayo": 52,
         "Nino": 53,
         "Ntka": 57,
         "Pally Tetss": 55,
@@ -37081,7 +37089,7 @@
           "MekZera": 61,
           "Melbiss": 55,
           "Monstro Das Criptos": 59,
-          "Nidaria Mayo": 51,
+          "Nidaria Mayo": 52,
           "Nino": 53,
           "Ntka": 57,
           "Pally Tetss": 55,
@@ -40066,6 +40074,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 10:10 (Brasília)",
           "hour_key": "2026-08-08-10"
+        },
+        {
+          "name": "Nidaria Mayo",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 14:42 (Brasília)",
+          "hour_key": "2026-08-08-14"
         }
       ]
     },
@@ -40920,12 +40935,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 3017,
-      "resets_today": 5,
+      "total_current": 3018,
+      "resets_today": 6,
       "resets_week": 63,
       "resets_month": 0,
       "resets_lifetime": 71,
-      "avg_per_player": 51.1
+      "avg_per_player": 51.2
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
