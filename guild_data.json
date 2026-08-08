@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/08/2026 às 21:40 (Brasília)",
+  "updated_at": "07/08/2026 às 21:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -71,8 +71,8 @@
     },
     {
       "name": "Akronus",
-      "level": 1981,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -212,6 +212,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "06/08/2026 às 20:04 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 21:41 (Brasília)"
         }
       ]
     },
@@ -2371,6 +2376,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 10,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Albatrozz",
       "resets_total": 68,
       "resets_today": 1,
@@ -2448,14 +2461,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 63,
-      "resets_today": 0,
-      "resets_week": 9,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2648,6 +2653,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 64,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Rusha Rp",
           "value": 64,
           "vocation": "Royal Paladin",
@@ -2657,12 +2668,6 @@
           "name": "Teko News",
           "value": 64,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 63,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3191,12 +3196,6 @@
           "name": "Nidaria Mayo",
           "value": 1996,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1981,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4005,7 +4004,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/08/2026 às 21:40 (Brasília)",
+    "updated_at": "07/08/2026 às 21:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27216,7 +27215,7 @@
         "Dmonick Hahaha": 60,
         "Gizao": 61,
         "Yagoodz Hahaha": 70,
-        "Akronus": 63,
+        "Akronus": 64,
         "Albatrozz": 68,
         "Cerebro": 62,
         "Dmonick": 60,
@@ -36952,7 +36951,7 @@
           "Dmonick Hahaha": 60,
           "Gizao": 61,
           "Yagoodz Hahaha": 70,
-          "Akronus": 63,
+          "Akronus": 64,
           "Albatrozz": 68,
           "Cerebro": 62,
           "Dmonick": 60,
@@ -40077,6 +40076,13 @@
           "gained": 1,
           "timestamp": "07/08/2026 às 21:05 (Brasília)",
           "hour_key": "2026-08-07-21"
+        },
+        {
+          "name": "Akronus",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "07/08/2026 às 21:41 (Brasília)",
+          "hour_key": "2026-08-07-21"
         }
       ]
     },
@@ -40931,11 +40937,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 60,
-      "total_current": 3052,
-      "resets_today": 8,
-      "resets_week": 69,
+      "total_current": 3053,
+      "resets_today": 9,
+      "resets_week": 70,
       "resets_month": 0,
-      "resets_lifetime": 74,
+      "resets_lifetime": 75,
       "avg_per_player": 50.9
     },
     "enemy_guild": {
