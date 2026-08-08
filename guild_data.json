@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 10:09 (Brasília)",
+  "updated_at": "08/08/2026 às 10:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -56,7 +56,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1998,
+      "level": 2000,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -360,7 +360,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1554,
+      "level": 1586,
       "resets": 58,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -535,7 +535,7 @@
     },
     {
       "name": "Amelior",
-      "level": 1883,
+      "level": 1891,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -805,7 +805,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1676,
+      "level": 1678,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -826,7 +826,7 @@
     },
     {
       "name": "Forsa Sem Futuro",
-      "level": 1998,
+      "level": 2000,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -892,7 +892,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 1185,
+      "level": 1214,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -953,13 +953,19 @@
     },
     {
       "name": "Haony",
-      "level": 1996,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 10:10 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Henrique",
@@ -1090,7 +1096,7 @@
     },
     {
       "name": "Jishuka",
-      "level": 1953,
+      "level": 1956,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1136,7 +1142,7 @@
     },
     {
       "name": "Kev",
-      "level": 939,
+      "level": 954,
       "resets": 33,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1223,7 +1229,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 979,
+      "level": 994,
       "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1259,7 +1265,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1317,
+      "level": 1322,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1416,7 +1422,7 @@
     },
     {
       "name": "Loks",
-      "level": 1676,
+      "level": 1686,
       "resets": 57,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1746,7 +1752,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1189,
+      "level": 1198,
       "resets": 55,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1863,7 +1869,7 @@
     },
     {
       "name": "Nidaria Mayo",
-      "level": 1996,
+      "level": 2000,
       "resets": 51,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2066,7 +2072,7 @@
     },
     {
       "name": "Php Eruim",
-      "level": 1221,
+      "level": 1238,
       "resets": 63,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2144,7 +2150,7 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 1908,
+      "level": 1923,
       "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2196,7 +2202,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1154,
+      "level": 1161,
       "resets": 46,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2304,6 +2310,14 @@
       "resets_total": 55,
       "resets_today": 1,
       "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Haony",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2667,6 +2681,12 @@
           "online": true
         },
         {
+          "name": "Haony",
+          "value": 57,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loks",
           "value": 57,
           "vocation": "Elder Druid",
@@ -2675,12 +2695,6 @@
         {
           "name": "Ntka",
           "value": 57,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 56,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2901,6 +2915,12 @@
           "online": true
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -2973,6 +2993,12 @@
           "online": true
         },
         {
+          "name": "Forsa Sem Futuro",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3033,6 +3059,12 @@
           "online": true
         },
         {
+          "name": "Nidaria Mayo",
+          "value": 2000,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Ntka",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3063,32 +3095,8 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 1998,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Forsa Sem Futuro",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Teko News",
           "value": 1997,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 1996,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Nidaria Mayo",
-          "value": 1996,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3100,7 +3108,7 @@
         },
         {
           "name": "Jishuka",
-          "value": 1953,
+          "value": 1956,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3112,13 +3120,13 @@
         },
         {
           "name": "Rusha Rp",
-          "value": 1908,
+          "value": 1923,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Amelior",
-          "value": 1883,
+          "value": 1891,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3147,14 +3155,14 @@
           "online": true
         },
         {
-          "name": "Elder Lougon",
-          "value": 1676,
+          "name": "Loks",
+          "value": 1686,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 1676,
+          "name": "Elder Lougon",
+          "value": 1678,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3166,7 +3174,7 @@
         },
         {
           "name": "Magabela",
-          "value": 1554,
+          "value": 1586,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3184,43 +3192,43 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1317,
+          "value": 1322,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Php Eruim",
-          "value": 1221,
+          "value": 1238,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 1189,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Guidao Palao",
-          "value": 1185,
+          "value": 1214,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
+          "name": "Melbiss",
+          "value": 1198,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
-          "value": 1154,
+          "value": 1161,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Kolwaski",
-          "value": 979,
+          "value": 994,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Kev",
-          "value": 939,
+          "value": 954,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3898,7 +3906,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 10:09 (Brasília)",
+    "updated_at": "08/08/2026 às 10:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27105,7 +27113,7 @@
         "Forsa Sem Futuro": 58,
         "Gokuu": 60,
         "Guidao Palao": 55,
-        "Haony": 56,
+        "Haony": 57,
         "Henrique": 52,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
@@ -37053,7 +37061,7 @@
           "Forsa Sem Futuro": 58,
           "Gokuu": 60,
           "Guidao Palao": 55,
-          "Haony": 56,
+          "Haony": 57,
           "Henrique": 52,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
@@ -40049,6 +40057,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 01:13 (Brasília)",
           "hour_key": "2026-08-08-01"
+        },
+        {
+          "name": "Haony",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 10:10 (Brasília)",
+          "hour_key": "2026-08-08-10"
         }
       ]
     },
@@ -40903,8 +40918,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 3016,
-      "resets_today": 4,
+      "total_current": 3017,
+      "resets_today": 5,
       "resets_week": 63,
       "resets_month": 0,
       "resets_lifetime": 72,
