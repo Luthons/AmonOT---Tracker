@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 18:00 (Brasília)",
+  "updated_at": "08/08/2026 às 18:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -2104,8 +2104,8 @@
     },
     {
       "name": "Royal Sniper",
-      "level": 2000,
-      "resets": 62,
+      "level": 8,
+      "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2120,6 +2120,11 @@
           "resets": 62,
           "gained": 1,
           "timestamp": "07/08/2026 às 14:41 (Brasília)"
+        },
+        {
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 18:01 (Brasília)"
         }
       ]
     },
@@ -2373,6 +2378,14 @@
       "online": true
     },
     {
+      "name": "Royal Sniper",
+      "resets_total": 63,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Dmonick Hahaha",
       "resets_total": 60,
       "resets_today": 0,
@@ -2618,6 +2631,12 @@
           "online": true
         },
         {
+          "name": "Royal Sniper",
+          "value": 63,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 62,
           "vocation": "Elite Knight",
@@ -2645,12 +2664,6 @@
           "name": "Lipe Knight",
           "value": 62,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Royal Sniper",
-          "value": 62,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3113,12 +3126,6 @@
           "name": "Pedim Kitbota",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Royal Sniper",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3939,7 +3946,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 18:00 (Brasília)",
+    "updated_at": "08/08/2026 às 18:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27162,7 +27169,7 @@
         "Pedim Kitbota": 59,
         "Pestinha": 42,
         "Php Eruim": 64,
-        "Royal Sniper": 62,
+        "Royal Sniper": 63,
         "Rp Terror": 38,
         "Rusha Rp": 64,
         "Teko News": 64,
@@ -37136,7 +37143,7 @@
           "Pedim Kitbota": 59,
           "Pestinha": 42,
           "Php Eruim": 64,
-          "Royal Sniper": 62,
+          "Royal Sniper": 63,
           "Rp Terror": 38,
           "Rusha Rp": 64,
           "Teko News": 64,
@@ -40128,6 +40135,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 15:31 (Brasília)",
           "hour_key": "2026-08-08-15"
+        },
+        {
+          "name": "Royal Sniper",
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 18:01 (Brasília)",
+          "hour_key": "2026-08-08-18"
         }
       ]
     },
@@ -40982,8 +40996,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 3019,
-      "resets_today": 7,
+      "total_current": 3020,
+      "resets_today": 8,
       "resets_week": 63,
       "resets_month": 0,
       "resets_lifetime": 66,
