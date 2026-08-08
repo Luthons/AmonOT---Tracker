@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 05:07 (Brasília)",
+  "updated_at": "08/08/2026 às 05:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -826,7 +826,7 @@
     },
     {
       "name": "Forsa Sem Futuro",
-      "level": 2000,
+      "level": 1997,
       "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2961,12 +2961,6 @@
           "online": true
         },
         {
-          "name": "Forsa Sem Futuro",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3073,6 +3067,12 @@
           "value": 1997,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Forsa Sem Futuro",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "MekZera",
@@ -3898,7 +3898,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 05:07 (Brasília)",
+    "updated_at": "08/08/2026 às 05:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26832,6 +26832,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 08, 2026 05:07",
+      "player": "Forsa Sem Futuro",
+      "level": 2000,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 08, 2026 05:05",
       "player": "Magabela",
