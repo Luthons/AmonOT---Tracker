@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 00:50 (Brasília)",
+  "updated_at": "08/08/2026 às 00:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -974,7 +974,7 @@
     },
     {
       "name": "Haony",
-      "level": 1974,
+      "level": 1975,
       "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1244,8 +1244,8 @@
     },
     {
       "name": "Kolwaski",
-      "level": 2003,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1270,6 +1270,11 @@
           "resets": 51,
           "gained": 1,
           "timestamp": "22/07/2026 às 12:51 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 00:51 (Brasília)"
         }
       ]
     },
@@ -2324,6 +2329,14 @@
       "online": true
     },
     {
+      "name": "Kolwaski",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 55,
       "resets_today": 1,
@@ -2711,16 +2724,16 @@
           "online": true
         },
         {
+          "name": "Kolwaski",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Punish Claude",
           "value": 53,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 53,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nino",
@@ -2899,12 +2912,6 @@
         {
           "name": "Nino",
           "value": 2013,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kolwaski",
-          "value": 2003,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3114,7 +3121,7 @@
         },
         {
           "name": "Haony",
-          "value": 1974,
+          "value": 1975,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3918,7 +3925,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 00:50 (Brasília)",
+    "updated_at": "08/08/2026 às 00:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27152,7 +27159,7 @@
         "Jishuka": 62,
         "Kev": 33,
         "Kiel": 65,
-        "Kolwaski": 53,
+        "Kolwaski": 54,
         "Lilian Faithkeeper": 44,
         "Lipe Knight": 62,
         "Loks": 57,
@@ -36900,7 +36907,7 @@
           "Jishuka": 62,
           "Kev": 33,
           "Kiel": 65,
-          "Kolwaski": 53,
+          "Kolwaski": 54,
           "Lilian Faithkeeper": 44,
           "Lipe Knight": 62,
           "Loks": 57,
@@ -39874,6 +39881,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 00:04 (Brasília)",
           "hour_key": "2026-08-08-00"
+        },
+        {
+          "name": "Kolwaski",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "08/08/2026 às 00:51 (Brasília)",
+          "hour_key": "2026-08-08-00"
         }
       ]
     },
@@ -40728,11 +40742,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 60,
-      "total_current": 3055,
-      "resets_today": 2,
-      "resets_week": 61,
+      "total_current": 3056,
+      "resets_today": 3,
+      "resets_week": 62,
       "resets_month": 0,
-      "resets_lifetime": 74,
+      "resets_lifetime": 75,
       "avg_per_player": 50.9
     },
     "enemy_guild": {
