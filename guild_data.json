@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 19:01 (Brasília)",
+  "updated_at": "08/08/2026 às 19:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -1077,7 +1077,7 @@
     },
     {
       "name": "Henrique",
-      "level": 2000,
+      "level": 1998,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3293,12 +3293,6 @@
           "online": true
         },
         {
-          "name": "Henrique",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3374,6 +3368,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Henrique",
+          "value": 1998,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4188,7 +4188,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 19:00 (Brasília)",
+    "updated_at": "08/08/2026 às 19:04 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27123,6 +27123,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 08, 2026 19:03",
+      "player": "Henrique",
+      "level": 2000,
+      "killedBy": "Nutellinhashow",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 08, 2026 19:00",
       "player": "Pedim Kitbota",
       "level": 1997,
@@ -27289,15 +27298,6 @@
       "player": "MekZera",
       "level": 1997,
       "killedBy": "Nutellinhashow",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 07, 2026 19:02",
-      "player": "MekZera",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
