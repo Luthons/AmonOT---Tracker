@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 20:09 (Brasília)",
+  "updated_at": "09/08/2026 às 20:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -91,7 +91,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1416,
+      "level": 1457,
       "resets": 66,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -273,7 +273,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1998,
+      "level": 2000,
       "resets": 62,
       "vocation": "Elite Knight",
       "nick": "",
@@ -339,7 +339,7 @@
     },
     {
       "name": "Magabela",
-      "level": 858,
+      "level": 941,
       "resets": 59,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -539,7 +539,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1311,
+      "level": 1334,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -626,7 +626,7 @@
     },
     {
       "name": "Brunao Rei Denovo",
-      "level": 1999,
+      "level": 2000,
       "resets": 31,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -849,7 +849,7 @@
     },
     {
       "name": "Guidao Palao",
-      "level": 903,
+      "level": 1061,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -920,7 +920,7 @@
     },
     {
       "name": "Haony",
-      "level": 1436,
+      "level": 1442,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -936,7 +936,7 @@
     },
     {
       "name": "Henrique",
-      "level": 1990,
+      "level": 1995,
       "resets": 52,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1109,7 +1109,7 @@
     },
     {
       "name": "Kev",
-      "level": 1177,
+      "level": 1187,
       "resets": 33,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1232,7 +1232,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 614,
+      "level": 624,
       "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 1816,
+      "level": 1820,
       "resets": 36,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1613,7 +1613,7 @@
     },
     {
       "name": "MekZera",
-      "level": 932,
+      "level": 949,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1729,7 +1729,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1700,
+      "level": 1716,
       "resets": 55,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1938,7 +1938,7 @@
     },
     {
       "name": "Pestinha",
-      "level": 1447,
+      "level": 1456,
       "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2030,7 +2030,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1549,
+      "level": 1555,
       "resets": 38,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2066,7 +2066,7 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 1528,
+      "level": 1549,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2102,7 +2102,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1373,
+      "level": 1379,
       "resets": 47,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2764,6 +2764,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2803,6 +2809,12 @@
           "name": "Boltfly Peoplecry",
           "value": 2000,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Brunao Rei Denovo",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -2902,18 +2914,6 @@
           "online": true
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 1999,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 1998,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Its Gui",
           "value": 1998,
           "vocation": "Elder Druid",
@@ -2921,7 +2921,7 @@
         },
         {
           "name": "Henrique",
-          "value": 1990,
+          "value": 1995,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2939,7 +2939,7 @@
         },
         {
           "name": "Lotus Lothbrook",
-          "value": 1816,
+          "value": 1820,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2950,51 +2950,57 @@
           "online": false
         },
         {
+          "name": "Melbiss",
+          "value": 1716,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1700,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 1700,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
-          "value": 1549,
+          "value": 1555,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Rusha Rp",
-          "value": 1528,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Pestinha",
-          "value": 1447,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 1436,
+          "value": 1549,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Akronus",
-          "value": 1416,
+          "value": 1457,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
+          "name": "Pestinha",
+          "value": 1456,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Haony",
+          "value": 1442,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
-          "value": 1373,
+          "value": 1379,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Baiakudinho",
+          "value": 1334,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3004,12 +3010,6 @@
           "online": false
         },
         {
-          "name": "Baiakudinho",
-          "value": 1311,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Coriinga",
           "value": 1294,
           "vocation": "Master Sorcerer",
@@ -3017,7 +3017,7 @@
         },
         {
           "name": "Kev",
-          "value": 1177,
+          "value": 1187,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3034,20 +3034,20 @@
           "online": false
         },
         {
-          "name": "MekZera",
-          "value": 932,
+          "name": "Guidao Palao",
+          "value": 1061,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Guidao Palao",
-          "value": 903,
+          "name": "MekZera",
+          "value": 949,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Magabela",
-          "value": 858,
+          "value": 941,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3059,7 +3059,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 614,
+          "value": 624,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -3731,7 +3731,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 20:09 (Brasília)",
+    "updated_at": "09/08/2026 às 20:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
