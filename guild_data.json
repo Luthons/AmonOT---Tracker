@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 17:55 (Brasília)",
+  "updated_at": "09/08/2026 às 17:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Dmonick",
-      "level": 1998,
+      "level": 1997,
       "resets": 60,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -273,7 +273,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1991,
+      "level": 1990,
       "resets": 62,
       "vocation": "Elite Knight",
       "nick": "",
@@ -659,22 +659,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Dmonick Hahaha",
-      "level": 2000,
-      "resets": 60,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:58 (Brasília)"
-        }
-      ]
     },
     {
       "name": "El Diablo",
@@ -2220,6 +2204,16 @@
       ]
     },
     {
+      "name": "Voidshot",
+      "level": 2000,
+      "resets": 60,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
       "name": "VukVuk",
       "level": 2000,
       "resets": 50,
@@ -2315,14 +2309,6 @@
     {
       "name": "Punish Claude",
       "resets_total": 53,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": false
-    },
-    {
-      "name": "Dmonick Hahaha",
-      "resets_total": 60,
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
@@ -2526,16 +2512,16 @@
           "online": true
         },
         {
-          "name": "Dmonick Hahaha",
-          "value": 60,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
           "online": true
+        },
+        {
+          "name": "Voidshot",
+          "value": 60,
+          "vocation": "Royal Paladin",
+          "online": false
         },
         {
           "name": "Magabela",
@@ -2838,12 +2824,6 @@
           "online": true
         },
         {
-          "name": "Dmonick Hahaha",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -2922,21 +2902,27 @@
           "online": false
         },
         {
+          "name": "Voidshot",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Dmonick",
-          "value": 1998,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Ntka",
           "value": 1998,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Dmonick",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -2947,7 +2933,7 @@
         },
         {
           "name": "Cerebro",
-          "value": 1991,
+          "value": 1990,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3751,7 +3737,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 17:55 (Brasília)",
+    "updated_at": "09/08/2026 às 17:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26687,6 +26673,24 @@
   "deaths_global": [
     {
       "time": "Aug 09, 2026 17:55",
+      "player": "Dmonick",
+      "level": 1998,
+      "killedBy": "Teko News",
+      "maiorDano": "Sauron Protagonista",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 17:55",
+      "player": "Cerebro",
+      "level": 1991,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 17:55",
       "player": "Magabela",
       "level": 549,
       "killedBy": "Dmonick",
@@ -27014,7 +27018,6 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Deca com Testo": 32,
-        "Dmonick Hahaha": 60,
         "El Diablo": 71,
         "Elder Lougon": 25,
         "Gokuu": 60,
@@ -27049,6 +27052,7 @@
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 47,
         "Vitao The Trader": 22,
+        "Voidshot": 60,
         "VukVuk": 50
       },
       "snapshots": {
@@ -36978,7 +36982,6 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Deca com Testo": 32,
-          "Dmonick Hahaha": 60,
           "El Diablo": 71,
           "Elder Lougon": 25,
           "Gokuu": 60,
@@ -37013,6 +37016,7 @@
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 47,
           "Vitao The Trader": 22,
+          "Voidshot": 60,
           "VukVuk": 50
         }
       },
@@ -40840,9 +40844,9 @@
       "num_members": 55,
       "total_current": 2801,
       "resets_today": 7,
-      "resets_week": 57,
+      "resets_week": 56,
       "resets_month": 0,
-      "resets_lifetime": 67,
+      "resets_lifetime": 66,
       "avg_per_player": 50.9
     },
     "enemy_guild": {
