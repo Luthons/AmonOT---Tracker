@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 17:04 (Brasília)",
+  "updated_at": "09/08/2026 às 17:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -338,22 +338,6 @@
       ]
     },
     {
-      "name": "Dmonick Hahaha",
-      "level": 2000,
-      "resets": 60,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:58 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Magabela",
       "level": 2000,
       "resets": 58,
@@ -670,6 +654,22 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
+    },
+    {
+      "name": "Dmonick Hahaha",
+      "level": 2000,
+      "resets": 60,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:58 (Brasília)"
+        }
+      ]
     },
     {
       "name": "El Diablo",
@@ -2338,14 +2338,6 @@
       "online": true
     },
     {
-      "name": "Dmonick Hahaha",
-      "resets_total": 60,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Magabela",
       "resets_total": 58,
       "resets_today": 0,
@@ -2360,6 +2352,14 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
+    },
+    {
+      "name": "Dmonick Hahaha",
+      "resets_total": 60,
+      "resets_today": 0,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
     },
     {
       "name": "Gokuu",
@@ -2839,12 +2839,6 @@
           "online": true
         },
         {
-          "name": "Dmonick Hahaha",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -2908,6 +2902,12 @@
           "name": "Deca com Testo",
           "value": 2000,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Dmonick Hahaha",
+          "value": 2000,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3812,7 +3812,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 17:04 (Brasília)",
+    "updated_at": "09/08/2026 às 17:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26899,7 +26899,6 @@
         "Akronus": 66,
         "Albatrozz": 69,
         "Cerebro": 62,
-        "Dmonick Hahaha": 60,
         "Magabela": 58,
         "Punish Claude": 53,
         "Teylera Rp": 62,
@@ -26914,6 +26913,7 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Deca com Testo": 32,
+        "Dmonick Hahaha": 60,
         "El Diablo": 71,
         "Elder Lougon": 25,
         "Gokuu": 60,
@@ -36864,7 +36864,6 @@
           "Akronus": 66,
           "Albatrozz": 69,
           "Cerebro": 62,
-          "Dmonick Hahaha": 60,
           "Magabela": 58,
           "Punish Claude": 53,
           "Teylera Rp": 62,
@@ -36879,6 +36878,7 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Deca com Testo": 32,
+          "Dmonick Hahaha": 60,
           "El Diablo": 71,
           "Elder Lougon": 25,
           "Gokuu": 60,
