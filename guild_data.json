@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 00:12 (Brasília)",
+  "updated_at": "09/08/2026 às 00:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -2207,8 +2207,8 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1356,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2278,6 +2278,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "07/08/2026 às 12:52 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "09/08/2026 às 00:13 (Brasília)"
         }
       ]
     },
@@ -2316,6 +2321,14 @@
       "resets_today": 1,
       "resets_week": 3,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Vinizerah On Amonot",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -2500,14 +2513,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Vinizerah On Amonot",
-      "resets_total": 46,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elder Druid",
       "online": true
     }
   ],
@@ -2759,7 +2764,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 46,
+          "value": 47,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3164,12 +3169,6 @@
           "value": 1358,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "value": 1356,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Melbiss",
@@ -3893,7 +3892,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 00:12 (Brasília)",
+    "updated_at": "09/08/2026 às 00:13 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26995,7 +26994,7 @@
         "Rusha Rp": 65,
         "Teko News": 64,
         "Ultimate Warrior": 25,
-        "Vinizerah On Amonot": 46,
+        "Vinizerah On Amonot": 47,
         "Vitao The Trader": 22,
         "VukVuk": 50
       },
@@ -36987,7 +36986,7 @@
           "Rusha Rp": 65,
           "Teko News": 64,
           "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 46,
+          "Vinizerah On Amonot": 47,
           "Vitao The Trader": 22,
           "VukVuk": 50
         }
@@ -39918,6 +39917,13 @@
           "gained": 1,
           "timestamp": "08/08/2026 às 23:05 (Brasília)",
           "hour_key": "2026-08-08-23"
+        },
+        {
+          "name": "Vinizerah On Amonot",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "09/08/2026 às 00:13 (Brasília)",
+          "hour_key": "2026-08-09-00"
         }
       ]
     },
@@ -40772,11 +40778,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 59,
-      "total_current": 3026,
-      "resets_today": 1,
-      "resets_week": 54,
+      "total_current": 3027,
+      "resets_today": 2,
+      "resets_week": 55,
       "resets_month": 0,
-      "resets_lifetime": 69,
+      "resets_lifetime": 70,
       "avg_per_player": 51.3
     },
     "enemy_guild": {
