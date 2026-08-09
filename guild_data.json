@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 12:17 (Brasília)",
+  "updated_at": "09/08/2026 às 12:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 59,
-  "online_count": 47,
+  "total_members": 57,
+  "online_count": 45,
   "offline_count": 12,
   "members": [
     {
@@ -808,16 +808,6 @@
       "level": 1705,
       "resets": 25,
       "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
-    },
-    {
-      "name": "Forsa Sem Futuro",
-      "level": 2000,
-      "resets": 58,
-      "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
@@ -2180,27 +2170,6 @@
       ]
     },
     {
-      "name": "Teko News",
-      "level": 2000,
-      "resets": 64,
-      "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 21:53 (Brasília)"
-        },
-        {
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 09:38 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Ultimate Warrior",
       "level": 2000,
       "resets": 25,
@@ -2511,14 +2480,6 @@
       "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
-    },
-    {
-      "name": "Teko News",
-      "resets_total": 64,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Exalted Monk",
-      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -2573,12 +2534,6 @@
           "name": "Php Eruim",
           "value": 64,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Teko News",
-          "value": 64,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -2663,12 +2618,6 @@
           "name": "Magabela",
           "value": 58,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Forsa Sem Futuro",
-          "value": 58,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2996,12 +2945,6 @@
           "online": true
         },
         {
-          "name": "Forsa Sem Futuro",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3065,12 +3008,6 @@
           "name": "Pally Tetss",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teko News",
-          "value": 2000,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3903,7 +3840,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 12:17 (Brasília)",
+    "updated_at": "09/08/2026 às 12:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26955,15 +26892,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 08, 2026 05:07",
-      "player": "Forsa Sem Futuro",
-      "level": 2000,
-      "killedBy": "Nutellinhashow",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 08, 2026 05:05",
       "player": "Magabela",
       "level": 1542,
@@ -27035,7 +26963,6 @@
         "Dvn Luktzeraah": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
-        "Forsa Sem Futuro": 58,
         "Gokuu": 60,
         "Guidao Palao": 56,
         "Haony": 57,
@@ -27066,7 +26993,6 @@
         "Royal Sniper": 63,
         "Rp Terror": 38,
         "Rusha Rp": 65,
-        "Teko News": 64,
         "Ultimate Warrior": 25,
         "Vinizerah On Amonot": 47,
         "Vitao The Trader": 22,
@@ -37003,7 +36929,6 @@
           "Dvn Luktzeraah": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
-          "Forsa Sem Futuro": 58,
           "Gokuu": 60,
           "Guidao Palao": 56,
           "Haony": 57,
@@ -37034,7 +36959,6 @@
           "Royal Sniper": 63,
           "Rp Terror": 38,
           "Rusha Rp": 65,
-          "Teko News": 64,
           "Ultimate Warrior": 25,
           "Vinizerah On Amonot": 47,
           "Vitao The Trader": 22,
@@ -40834,13 +40758,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 59,
-      "total_current": 3028,
+      "num_members": 57,
+      "total_current": 2906,
       "resets_today": 3,
-      "resets_week": 56,
+      "resets_week": 55,
       "resets_month": 0,
-      "resets_lifetime": 70,
-      "avg_per_player": 51.3
+      "resets_lifetime": 69,
+      "avg_per_player": 51.0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
