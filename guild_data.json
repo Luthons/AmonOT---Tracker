@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/08/2026 às 23:44 (Brasília)",
+  "updated_at": "08/08/2026 às 23:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 59,
@@ -473,7 +473,7 @@
     },
     {
       "name": "Achilles",
-      "level": 2000,
+      "level": 1997,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2961,12 +2961,6 @@
           "online": true
         },
         {
-          "name": "Achilles",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Amelior",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3102,6 +3096,12 @@
           "name": "Brunao Rei Denovo",
           "value": 1998,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Achilles",
+          "value": 1997,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3934,7 +3934,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/08/2026 às 23:44 (Brasília)",
+    "updated_at": "08/08/2026 às 23:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26868,6 +26868,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 08, 2026 23:44",
+      "player": "Achilles",
+      "level": 2000,
+      "killedBy": "Open Detheca",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 08, 2026 20:47",
       "player": "Brunao Rei Denovo",
