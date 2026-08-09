@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 18:52 (Brasília)",
+  "updated_at": "09/08/2026 às 18:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -648,6 +648,16 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Coriinga",
+      "level": 1223,
+      "resets": 64,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
       "reset_history": []
     },
     {
@@ -1983,32 +1993,6 @@
       ]
     },
     {
-      "name": "Php Eruim",
-      "level": 1223,
-      "resets": 64,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 12:24 (Brasília)"
-        },
-        {
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 21:05 (Brasília)"
-        },
-        {
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 15:31 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Royal Sniper",
       "level": 2000,
       "resets": 63,
@@ -2452,16 +2436,16 @@
           "online": true
         },
         {
+          "name": "Coriinga",
+          "value": 64,
+          "vocation": "Master Sorcerer",
+          "online": false
+        },
+        {
           "name": "Jishuka",
           "value": 64,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Php Eruim",
-          "value": 64,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Baiakudinho",
@@ -3028,7 +3012,7 @@
           "online": true
         },
         {
-          "name": "Php Eruim",
+          "name": "Coriinga",
           "value": 1223,
           "vocation": "Master Sorcerer",
           "online": false
@@ -3737,7 +3721,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 18:52 (Brasília)",
+    "updated_at": "09/08/2026 às 18:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27017,6 +27001,7 @@
         "Boltfly Peoplecry": 42,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
+        "Coriinga": 64,
         "Deca com Testo": 32,
         "El Diablo": 71,
         "Elder Lougon": 25,
@@ -27045,7 +27030,6 @@
         "Ntka": 57,
         "Pally Tetss": 55,
         "Pestinha": 42,
-        "Php Eruim": 64,
         "Royal Sniper": 63,
         "Rp Terror": 38,
         "Rusha Rp": 65,
@@ -36980,6 +36964,7 @@
           "Boltfly Peoplecry": 42,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
+          "Coriinga": 64,
           "Deca com Testo": 32,
           "El Diablo": 71,
           "Elder Lougon": 25,
@@ -37008,7 +36993,6 @@
           "Ntka": 57,
           "Pally Tetss": 55,
           "Pestinha": 42,
-          "Php Eruim": 64,
           "Royal Sniper": 63,
           "Rp Terror": 38,
           "Rusha Rp": 65,
