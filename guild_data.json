@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 20:46 (Brasília)",
+  "updated_at": "09/08/2026 às 20:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
-  "online_count": 44,
-  "offline_count": 12,
+  "online_count": 43,
+  "offline_count": 13,
   "members": [
     {
       "name": "Dmonick",
@@ -574,6 +574,16 @@
           "timestamp": "16/07/2026 às 00:31 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Albatroz",
+      "level": 1075,
+      "resets": 52,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
     },
     {
       "name": "Amelior",
@@ -2027,26 +2037,6 @@
       ]
     },
     {
-      "name": "Nidaria Mayo",
-      "level": 1075,
-      "resets": 52,
-      "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "last_login": "Aug 09, 2026, 20:45:06",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": true,
-      "reset_history": [
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 14:42 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Nino",
       "level": 2013,
       "resets": 53,
@@ -2824,6 +2814,12 @@
           "online": true
         },
         {
+          "name": "Albatroz",
+          "value": 52,
+          "vocation": "Exalted Monk",
+          "online": false
+        },
+        {
           "name": "Amelior",
           "value": 52,
           "vocation": "Elite Knight",
@@ -2833,12 +2829,6 @@
           "name": "Henrique",
           "value": 52,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Nidaria Mayo",
-          "value": 52,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3268,10 +3258,10 @@
           "online": true
         },
         {
-          "name": "Nidaria Mayo",
+          "name": "Albatroz",
           "value": 1075,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Guidao Palao",
@@ -3977,7 +3967,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 20:45 (Brasília)",
+    "updated_at": "09/08/2026 às 20:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27269,6 +27259,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Affey": 32,
+        "Albatroz": 52,
         "Amelior": 52,
         "Baiakudinho": 63,
         "Boingbringer": 30,
@@ -27300,7 +27291,6 @@
         "MekZera": 62,
         "Melbiss": 55,
         "Monstro Das Criptos": 59,
-        "Nidaria Mayo": 52,
         "Nino": 53,
         "Ntka": 57,
         "Pally Tetss": 55,
@@ -37231,6 +37221,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Affey": 32,
+          "Albatroz": 52,
           "Amelior": 52,
           "Baiakudinho": 63,
           "Boingbringer": 30,
@@ -37262,7 +37253,6 @@
           "MekZera": 62,
           "Melbiss": 55,
           "Monstro Das Criptos": 59,
-          "Nidaria Mayo": 52,
           "Nino": 53,
           "Ntka": 57,
           "Pally Tetss": 55,
