@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 20:28 (Brasília)",
+  "updated_at": "09/08/2026 às 20:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 55,
-  "online_count": 43,
-  "offline_count": 12,
+  "total_members": 56,
+  "online_count": 42,
+  "offline_count": 14,
   "members": [
     {
       "name": "Dmonick",
@@ -1108,6 +1108,16 @@
       ]
     },
     {
+      "name": "Kashambao",
+      "level": 902,
+      "resets": 53,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Kev",
       "level": 1187,
       "resets": 33,
@@ -1530,7 +1540,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 30,
@@ -1943,7 +1953,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 32,
@@ -2386,7 +2396,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Rp Terror",
@@ -2578,6 +2588,12 @@
           "online": false
         },
         {
+          "name": "Kashambao",
+          "value": 53,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Nino",
           "value": 53,
           "vocation": "Royal Paladin",
@@ -2647,7 +2663,7 @@
           "name": "Pestinha",
           "value": 42,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Lukitas Brokenzada",
@@ -2665,7 +2681,7 @@
           "name": "Lotus Lothbrook",
           "value": 36,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Kev",
@@ -2941,7 +2957,7 @@
           "name": "Lotus Lothbrook",
           "value": 1821,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lukitas Brokenzada",
@@ -2977,7 +2993,7 @@
           "name": "Pestinha",
           "value": 1459,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Akronus",
@@ -3049,6 +3065,12 @@
           "name": "Magabela",
           "value": 941,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Kashambao",
+          "value": 902,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3731,7 +3753,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 20:28 (Brasília)",
+    "updated_at": "09/08/2026 às 20:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26997,6 +27019,15 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
+    },
+    {
+      "time": "Aug 08, 2026 17:45",
+      "player": "Kashambao",
+      "level": 1434,
+      "killedBy": "Nutellinha Druid",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
     }
   ],
   "history": {
@@ -27032,6 +27063,7 @@
         "Its Gui": 44,
         "Jhonnys Trembolizado": 94,
         "Jishuka": 64,
+        "Kashambao": 53,
         "Kev": 33,
         "Kiel": 65,
         "Kolwaski": 54,
@@ -36993,6 +37025,7 @@
           "Its Gui": 44,
           "Jhonnys Trembolizado": 94,
           "Jishuka": 64,
+          "Kashambao": 53,
           "Kev": 33,
           "Kiel": 65,
           "Kolwaski": 54,
@@ -40855,8 +40888,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 55,
-      "total_current": 2803,
+      "num_members": 56,
+      "total_current": 2856,
       "resets_today": 9,
       "resets_week": 58,
       "resets_month": 0,
