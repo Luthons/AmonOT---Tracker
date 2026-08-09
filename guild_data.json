@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 17:39 (Brasília)",
+  "updated_at": "09/08/2026 às 17:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -273,7 +273,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 1998,
+      "level": 1997,
       "resets": 62,
       "vocation": "Elite Knight",
       "nick": "",
@@ -339,7 +339,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1998,
+      "level": 1996,
       "resets": 58,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -921,7 +921,7 @@
     },
     {
       "name": "Haony",
-      "level": 1356,
+      "level": 1422,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2935,21 +2935,21 @@
           "online": true
         },
         {
-          "name": "Cerebro",
+          "name": "Ntka",
           "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Cerebro",
+          "value": 1997,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Magabela",
-          "value": 1998,
+          "value": 1996,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Ntka",
-          "value": 1998,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3013,15 +3013,15 @@
           "online": true
         },
         {
-          "name": "Vinizerah On Amonot",
-          "value": 1362,
-          "vocation": "Elder Druid",
+          "name": "Haony",
+          "value": 1422,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Haony",
-          "value": 1356,
-          "vocation": "Royal Paladin",
+          "name": "Vinizerah On Amonot",
+          "value": 1362,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3746,7 +3746,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 17:39 (Brasília)",
+    "updated_at": "09/08/2026 às 17:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26681,6 +26681,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 09, 2026 17:39",
+      "player": "Haony",
+      "level": 1423,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 17:39",
+      "player": "Guidao Palao",
+      "level": 780,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 17:39",
+      "player": "Magabela",
+      "level": 1998,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 17:39",
+      "player": "Cerebro",
+      "level": 1998,
+      "killedBy": "Sauron Protagonista",
+      "maiorDano": "Teko News",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 09, 2026 17:37",
       "player": "Guidao Palao",
       "level": 781,
@@ -26803,6 +26839,15 @@
       "level": 863,
       "killedBy": "Polessi Old Legend",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 08, 2026 15:47",
+      "player": "Vinizerah On Amonot",
+      "level": 1293,
+      "killedBy": "Open Detheca",
+      "maiorDano": "Banca Kina",
       "world": "Baiak",
       "isPvp": true
     }
