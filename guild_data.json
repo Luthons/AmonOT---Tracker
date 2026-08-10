@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 23:08 (Brasília)",
+  "updated_at": "09/08/2026 às 23:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -529,7 +529,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 1437,
+      "level": 1436,
       "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -803,7 +803,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1998,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2911,12 +2911,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Its Gui",
           "value": 1998,
           "vocation": "Elder Druid",
@@ -2930,6 +2924,12 @@
         },
         {
           "name": "Boltfly Peoplecry",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
           "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
@@ -3020,7 +3020,7 @@
         },
         {
           "name": "Albatroz",
-          "value": 1437,
+          "value": 1436,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3746,7 +3746,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 23:08 (Brasília)",
+    "updated_at": "09/08/2026 às 23:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26680,6 +26680,33 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 09, 2026 23:09",
+      "player": "Guidao Palao",
+      "level": 1479,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 23:09",
+      "player": "Gokuu",
+      "level": 1998,
+      "killedBy": "Banca Kina",
+      "maiorDano": "Polessi Old Legend",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 09, 2026 23:09",
+      "player": "Albatroz",
+      "level": 1437,
+      "killedBy": "Holly Sapetah",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 09, 2026 23:01",
       "player": "Gokuu",
