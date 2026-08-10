@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/08/2026 às 12:06 (Brasília)",
+  "updated_at": "10/08/2026 às 12:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
@@ -1068,13 +1068,19 @@
     },
     {
       "name": "Kashambao",
-      "level": 1736,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 12:07 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Kev",
@@ -1129,7 +1135,7 @@
     },
     {
       "name": "Kiel",
-      "level": 2000,
+      "level": 1997,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2193,6 +2199,14 @@
       "online": true
     },
     {
+      "name": "Kashambao",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 56,
       "resets_today": 1,
@@ -2522,6 +2536,12 @@
           "online": true
         },
         {
+          "name": "Kashambao",
+          "value": 54,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kolwaski",
           "value": 54,
           "vocation": "Royal Paladin",
@@ -2532,12 +2552,6 @@
           "value": 53,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kashambao",
-          "value": 53,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Nino",
@@ -2804,12 +2818,6 @@
           "online": true
         },
         {
-          "name": "Kiel",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Lipe Knight",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -2864,6 +2872,12 @@
           "online": true
         },
         {
+          "name": "Kiel",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Rusha Rp",
           "value": 1984,
           "vocation": "Royal Paladin",
@@ -2884,12 +2898,6 @@
         {
           "name": "Guidao Palao",
           "value": 1760,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 1736,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3675,7 +3683,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/08/2026 às 12:06 (Brasília)",
+    "updated_at": "10/08/2026 às 12:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27020,7 +27028,7 @@
         "Its Gui": 44,
         "Jhonnys Trembolizado": 94,
         "Jishuka": 65,
-        "Kashambao": 53,
+        "Kashambao": 54,
         "Kev": 33,
         "Kiel": 65,
         "Kolwaski": 54,
@@ -36954,7 +36962,7 @@
           "Its Gui": 44,
           "Jhonnys Trembolizado": 94,
           "Jishuka": 65,
-          "Kashambao": 53,
+          "Kashambao": 54,
           "Kev": 33,
           "Kiel": 65,
           "Kolwaski": 54,
@@ -39900,6 +39908,13 @@
           "gained": 1,
           "timestamp": "10/08/2026 às 09:48 (Brasília)",
           "hour_key": "2026-08-10-09"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 12:07 (Brasília)",
+          "hour_key": "2026-08-10-12"
         }
       ]
     },
@@ -40754,8 +40769,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 54,
-      "total_current": 2797,
-      "resets_today": 4,
+      "total_current": 2798,
+      "resets_today": 5,
       "resets_week": 56,
       "resets_month": 0,
       "resets_lifetime": 61,
