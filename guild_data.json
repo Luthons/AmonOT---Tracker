@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/08/2026 às 20:08 (Brasília)",
+  "updated_at": "10/08/2026 às 20:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -86,7 +86,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1947,
+      "level": 1945,
       "resets": 67,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -252,7 +252,7 @@
     },
     {
       "name": "Albatrozz",
-      "level": 2000,
+      "level": 1998,
       "resets": 69,
       "vocation": "Elder Druid",
       "nick": "",
@@ -273,7 +273,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 2000,
+      "level": 1998,
       "resets": 62,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2763,18 +2763,6 @@
           "online": true
         },
         {
-          "name": "Albatrozz",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Cerebro",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2913,6 +2901,18 @@
           "online": true
         },
         {
+          "name": "Albatrozz",
+          "value": 1998,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Cerebro",
+          "value": 1998,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Its Gui",
           "value": 1998,
           "vocation": "Elder Druid",
@@ -2920,7 +2920,7 @@
         },
         {
           "name": "Akronus",
-          "value": 1947,
+          "value": 1945,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -3730,7 +3730,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/08/2026 às 20:08 (Brasília)",
+    "updated_at": "10/08/2026 às 20:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26665,6 +26665,33 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 10, 2026 20:09",
+      "player": "Albatrozz",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 10, 2026 20:08",
+      "player": "Akronus",
+      "level": 1947,
+      "killedBy": "Magabela",
+      "maiorDano": "Only Cash",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 10, 2026 20:08",
+      "player": "Cerebro",
+      "level": 2000,
+      "killedBy": "Akronus",
+      "maiorDano": "Teko News",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 10, 2026 20:01",
       "player": "Akronus",
       "level": 1948,
@@ -26956,51 +26983,6 @@
       "time": "Aug 09, 2026 17:41",
       "player": "Cerebro",
       "level": 1997,
-      "killedBy": "Sauron Protagonista",
-      "maiorDano": "Teko News",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 09, 2026 17:41",
-      "player": "Haony",
-      "level": 1422,
-      "killedBy": "Teko News",
-      "maiorDano": "Sauron Protagonista",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 09, 2026 17:39",
-      "player": "Haony",
-      "level": 1423,
-      "killedBy": "Sauron Protagonista",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 09, 2026 17:39",
-      "player": "Guidao Palao",
-      "level": 780,
-      "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 09, 2026 17:39",
-      "player": "Magabela",
-      "level": 1998,
-      "killedBy": "Sauron Protagonista",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 09, 2026 17:39",
-      "player": "Cerebro",
-      "level": 1998,
       "killedBy": "Sauron Protagonista",
       "maiorDano": "Teko News",
       "world": "Baiak",
