@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/08/2026 às 08:23 (Brasília)",
+  "updated_at": "10/08/2026 às 08:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
@@ -86,8 +86,8 @@
     },
     {
       "name": "Akronus",
-      "level": 1936,
-      "resets": 66,
+      "level": 8,
+      "resets": 67,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -242,6 +242,11 @@
           "resets": 66,
           "gained": 1,
           "timestamp": "09/08/2026 às 13:39 (Brasília)"
+        },
+        {
+          "resets": 67,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 08:24 (Brasília)"
         }
       ]
     },
@@ -2159,6 +2164,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Akronus",
+      "resets_total": 67,
+      "resets_today": 1,
+      "resets_week": 7,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Boltfly Peoplecry",
       "resets_total": 43,
       "resets_today": 1,
@@ -2188,14 +2201,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Akronus",
-      "resets_total": 66,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2375,7 +2380,7 @@
         },
         {
           "name": "Akronus",
-          "value": 66,
+          "value": 67,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -2857,12 +2862,6 @@
           "name": "Rusha Rp",
           "value": 1944,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1936,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3665,7 +3664,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/08/2026 às 08:23 (Brasília)",
+    "updated_at": "10/08/2026 às 08:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26983,7 +26982,7 @@
       "last_snapshot": {
         "Dmonick": 60,
         "Gizao": 61,
-        "Akronus": 66,
+        "Akronus": 67,
         "Albatrozz": 69,
         "Cerebro": 62,
         "Magabela": 59,
@@ -36925,7 +36924,7 @@
         "2026-08-10-08": {
           "Dmonick": 60,
           "Gizao": 61,
-          "Akronus": 66,
+          "Akronus": 67,
           "Albatrozz": 69,
           "Cerebro": 62,
           "Magabela": 59,
@@ -39884,6 +39883,13 @@
           "gained": 1,
           "timestamp": "10/08/2026 às 07:50 (Brasília)",
           "hour_key": "2026-08-10-07"
+        },
+        {
+          "name": "Akronus",
+          "resets": 67,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 08:24 (Brasília)",
+          "hour_key": "2026-08-10-08"
         }
       ]
     },
@@ -40738,11 +40744,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 54,
-      "total_current": 2795,
-      "resets_today": 2,
-      "resets_week": 54,
+      "total_current": 2796,
+      "resets_today": 3,
+      "resets_week": 55,
       "resets_month": 0,
-      "resets_lifetime": 59,
+      "resets_lifetime": 60,
       "avg_per_player": 51.8
     },
     "enemy_guild": {
