@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 22:55 (Brasília)",
+  "updated_at": "09/08/2026 às 22:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2008,8 +2008,8 @@
     },
     {
       "name": "Royal Sniper",
-      "level": 2000,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2029,6 +2029,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "08/08/2026 às 18:01 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "09/08/2026 às 22:56 (Brasília)"
         }
       ]
     },
@@ -2462,6 +2467,12 @@
           "online": true
         },
         {
+          "name": "Royal Sniper",
+          "value": 64,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
           "value": 63,
           "vocation": "Royal Paladin",
@@ -2471,12 +2482,6 @@
           "name": "Lipe Knight",
           "value": 63,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Royal Sniper",
-          "value": 63,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2895,12 +2900,6 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Royal Sniper",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -3747,7 +3746,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 22:55 (Brasília)",
+    "updated_at": "09/08/2026 às 22:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27084,7 +27083,7 @@
         "Ntka": 57,
         "Pally Tetss": 55,
         "Pestinha": 42,
-        "Royal Sniper": 63,
+        "Royal Sniper": 64,
         "Rp Terror": 38,
         "Rusha Rp": 65,
         "Ultimate Warrior": 25,
@@ -37046,7 +37045,7 @@
           "Ntka": 57,
           "Pally Tetss": 55,
           "Pestinha": 42,
-          "Royal Sniper": 63,
+          "Royal Sniper": 64,
           "Rp Terror": 38,
           "Rusha Rp": 65,
           "Ultimate Warrior": 25,
@@ -40038,6 +40037,13 @@
           "gained": 1,
           "timestamp": "09/08/2026 às 19:23 (Brasília)",
           "hour_key": "2026-08-09-19"
+        },
+        {
+          "name": "Royal Sniper",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "09/08/2026 às 22:56 (Brasília)",
+          "hour_key": "2026-08-09-22"
         }
       ]
     },
@@ -40892,7 +40898,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2856,
+      "total_current": 2857,
       "resets_today": 0,
       "resets_week": 52,
       "resets_month": 0,
