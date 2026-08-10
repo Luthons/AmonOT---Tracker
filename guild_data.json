@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/08/2026 às 23:01 (Brasília)",
+  "updated_at": "09/08/2026 às 23:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -803,7 +803,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2839,12 +2839,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -2914,6 +2908,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 1998,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3746,7 +3746,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/08/2026 às 23:01 (Brasília)",
+    "updated_at": "09/08/2026 às 23:02 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26680,6 +26680,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 09, 2026 23:01",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 09, 2026 23:00",
       "player": "Its Gui",
