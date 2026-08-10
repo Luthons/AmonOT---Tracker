@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "10/08/2026 às 17:07 (Brasília)",
+  "updated_at": "10/08/2026 às 17:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
@@ -493,13 +493,19 @@
     },
     {
       "name": "Albatroz",
-      "level": 1689,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 17:08 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Amelior",
@@ -2188,6 +2194,14 @@
       "online": true
     },
     {
+      "name": "Albatroz",
+      "resets_total": 53,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Boltfly Peoplecry",
       "resets_total": 43,
       "resets_today": 1,
@@ -2559,15 +2573,15 @@
           "online": false
         },
         {
-          "name": "Nino",
+          "name": "Albatroz",
           "value": 53,
-          "vocation": "Royal Paladin",
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
-          "name": "Albatroz",
-          "value": 52,
-          "vocation": "Exalted Monk",
+          "name": "Nino",
+          "value": 53,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2922,12 +2936,6 @@
           "name": "MekZera",
           "value": 1690,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Albatroz",
-          "value": 1689,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3694,7 +3702,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "10/08/2026 às 17:07 (Brasília)",
+    "updated_at": "10/08/2026 às 17:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27003,7 +27011,7 @@
         "Yagoodz Hahaha": 70,
         "Achilles": 18,
         "Adolph Healer": 20,
-        "Albatroz": 52,
+        "Albatroz": 53,
         "Amelior": 52,
         "Baiakudinho": 63,
         "Boingbringer": 30,
@@ -36928,7 +36936,7 @@
           "Yagoodz Hahaha": 70,
           "Achilles": 18,
           "Adolph Healer": 20,
-          "Albatroz": 52,
+          "Albatroz": 53,
           "Amelior": 52,
           "Baiakudinho": 63,
           "Boingbringer": 30,
@@ -39906,6 +39914,13 @@
           "gained": 1,
           "timestamp": "10/08/2026 às 12:55 (Brasília)",
           "hour_key": "2026-08-10-12"
+        },
+        {
+          "name": "Albatroz",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "10/08/2026 às 17:08 (Brasília)",
+          "hour_key": "2026-08-10-17"
         }
       ]
     },
@@ -40760,12 +40775,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 54,
-      "total_current": 2799,
-      "resets_today": 6,
+      "total_current": 2800,
+      "resets_today": 7,
       "resets_week": 57,
       "resets_month": 0,
       "resets_lifetime": 62,
-      "avg_per_player": 51.8
+      "avg_per_player": 51.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
