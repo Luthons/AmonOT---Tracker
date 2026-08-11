@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 01:21 (Brasília)",
+  "updated_at": "11/08/2026 às 01:22 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -509,8 +509,8 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1998,
-      "resets": 63,
+      "level": 8,
+      "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -560,6 +560,11 @@
           "resets": 63,
           "gained": 1,
           "timestamp": "09/08/2026 às 03:28 (Brasília)"
+        },
+        {
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 01:22 (Brasília)"
         }
       ]
     },
@@ -866,7 +871,7 @@
     },
     {
       "name": "Henrique Arqueiro",
-      "level": 2000,
+      "level": 1998,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2136,6 +2141,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Baiakudinho",
+      "resets_total": 64,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Akronus",
       "resets_total": 67,
       "resets_today": 0,
@@ -2166,14 +2179,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Baiakudinho",
-      "resets_total": 63,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
     },
     {
       "name": "Boltfly Peoplecry",
@@ -2343,6 +2348,12 @@
           "online": true
         },
         {
+          "name": "Baiakudinho",
+          "value": 64,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Coriinga",
           "value": 64,
           "vocation": "Master Sorcerer",
@@ -2357,12 +2368,6 @@
         {
           "name": "Royal Sniper",
           "value": 64,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 63,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2733,12 +2738,6 @@
           "online": true
         },
         {
-          "name": "Henrique Arqueiro",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2817,7 +2816,7 @@
           "online": true
         },
         {
-          "name": "Baiakudinho",
+          "name": "Henrique Arqueiro",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3622,7 +3621,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 01:21 (Brasília)",
+    "updated_at": "11/08/2026 às 01:22 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26557,6 +26556,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 11, 2026 01:21",
+      "player": "Henrique Arqueiro",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "Crow Oz",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 11, 2026 01:04",
       "player": "Boltfly Peoplecry",
       "level": 1502,
@@ -26807,7 +26815,7 @@
         "Adolph Healer": 20,
         "Albatroz": 53,
         "Amelior": 52,
-        "Baiakudinho": 63,
+        "Baiakudinho": 64,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 43,
         "Brunao Rei Denovo": 31,
@@ -36732,7 +36740,7 @@
           "Adolph Healer": 20,
           "Albatroz": 53,
           "Amelior": 52,
-          "Baiakudinho": 63,
+          "Baiakudinho": 64,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 43,
           "Brunao Rei Denovo": 31,
@@ -39604,6 +39612,13 @@
           "gained": 1,
           "timestamp": "11/08/2026 às 00:51 (Brasília)",
           "hour_key": "2026-08-11-00"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 64,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 01:22 (Brasília)",
+          "hour_key": "2026-08-11-01"
         }
       ]
     },
@@ -40458,12 +40473,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 55,
-      "total_current": 2857,
-      "resets_today": 0,
-      "resets_week": 44,
+      "total_current": 2858,
+      "resets_today": 1,
+      "resets_week": 45,
       "resets_month": 0,
-      "resets_lifetime": 55,
-      "avg_per_player": 51.9
+      "resets_lifetime": 56,
+      "avg_per_player": 52.0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
