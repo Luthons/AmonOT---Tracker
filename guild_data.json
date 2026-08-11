@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 02:02 (Brasília)",
+  "updated_at": "11/08/2026 às 02:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -94,7 +94,7 @@
     },
     {
       "name": "Akronus",
-      "level": 2000,
+      "level": 1998,
       "resets": 67,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2892,12 +2892,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3033,6 +3027,12 @@
           "name": "Its Gui",
           "value": 1999,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Akronus",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3841,7 +3841,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 02:02 (Brasília)",
+    "updated_at": "11/08/2026 às 02:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26775,6 +26775,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 11, 2026 02:04",
+      "player": "Akronus",
+      "level": 2000,
+      "killedBy": "Harry Kane",
+      "maiorDano": "Crow Oz",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 11, 2026 01:21",
       "player": "Henrique Arqueiro",
