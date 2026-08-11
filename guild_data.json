@@ -1,60 +1,30 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 08:22 (Brasília)",
+  "updated_at": "11/08/2026 às 08:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 55,
-  "online_count": 45,
+  "total_members": 54,
+  "online_count": 44,
   "offline_count": 10,
   "members": [
     {
-      "name": "Dmonick",
-      "level": 2049,
-      "resets": 60,
-      "vocation": "Master Sorcerer",
+      "name": "Albatrozz",
+      "level": 2041,
+      "resets": 69,
+      "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
       "reset_history": [
         {
-          "resets": 53,
+          "resets": 68,
           "gained": 1,
-          "timestamp": "12/07/2026 às 00:56 (Brasília)"
+          "timestamp": "06/08/2026 às 23:38 (Brasília)"
         },
         {
-          "resets": 54,
+          "resets": 69,
           "gained": 1,
-          "timestamp": "13/07/2026 às 16:57 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "17/07/2026 às 08:48 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "20/07/2026 às 11:50 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 14:46 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 15:24 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 10:11 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:49 (Brasília)"
+          "timestamp": "08/08/2026 às 20:58 (Brasília)"
         }
       ]
     },
@@ -242,27 +212,6 @@
           "resets": 67,
           "gained": 1,
           "timestamp": "10/08/2026 às 08:24 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Albatrozz",
-      "level": 2041,
-      "resets": 69,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 68,
-          "gained": 1,
-          "timestamp": "06/08/2026 às 23:38 (Brasília)"
-        },
-        {
-          "resets": 69,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 20:58 (Brasília)"
         }
       ]
     },
@@ -2396,12 +2345,6 @@
           "online": true
         },
         {
-          "name": "Dmonick",
-          "value": 60,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
@@ -2635,12 +2578,6 @@
       "name": "Level",
       "val_label": "Level",
       "entries": [
-        {
-          "name": "Dmonick",
-          "value": 2049,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
         {
           "name": "Albatrozz",
           "value": 2041,
@@ -3627,7 +3564,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 08:22 (Brasília)",
+    "updated_at": "11/08/2026 às 08:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26607,15 +26544,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 11, 2026 02:13",
-      "player": "Dmonick",
-      "level": 2051,
-      "killedBy": "Crow Oz",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 11, 2026 02:04",
       "player": "Akronus",
       "level": 2000,
@@ -26862,10 +26790,9 @@
   "history": {
     "resets": {
       "last_snapshot": {
-        "Dmonick": 60,
+        "Albatrozz": 69,
         "Gizao": 61,
         "Akronus": 67,
-        "Albatrozz": 69,
         "Cerebro": 62,
         "Magabela": 59,
         "Punish Claude": 53,
@@ -36787,10 +36714,9 @@
           "VukVuk": 50
         },
         "2026-08-11-08": {
-          "Dmonick": 60,
+          "Albatrozz": 69,
           "Gizao": 61,
           "Akronus": 67,
-          "Albatrozz": 69,
           "Cerebro": 62,
           "Magabela": 59,
           "Punish Claude": 53,
@@ -40532,13 +40458,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 55,
-      "total_current": 2858,
+      "num_members": 54,
+      "total_current": 2798,
       "resets_today": 1,
       "resets_week": 45,
       "resets_month": 0,
-      "resets_lifetime": 53,
-      "avg_per_player": 52.0
+      "resets_lifetime": 52,
+      "avg_per_player": 51.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
