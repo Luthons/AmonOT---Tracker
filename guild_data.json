@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 14:18 (Brasília)",
+  "updated_at": "11/08/2026 às 14:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
-  "online_count": 44,
-  "offline_count": 10,
+  "online_count": 43,
+  "offline_count": 11,
   "members": [
     {
       "name": "Albatrozz",
@@ -35,7 +35,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 59,
@@ -591,7 +591,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -830,7 +830,7 @@
     },
     {
       "name": "Henrique Arqueiro",
-      "level": 2000,
+      "level": 1997,
       "resets": 51,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2098,7 +2098,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     }
   ],
@@ -2335,7 +2335,7 @@
           "name": "Coriinga",
           "value": 64,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Lipe Knight",
@@ -2365,7 +2365,7 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Gokuu",
@@ -2491,7 +2491,7 @@
           "name": "VukVuk",
           "value": 50,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Vinizerah On Amonot",
@@ -2692,12 +2692,6 @@
           "online": true
         },
         {
-          "name": "Henrique Arqueiro",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2743,6 +2737,12 @@
           "name": "Gizao",
           "value": 1997,
           "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Henrique Arqueiro",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2773,7 +2773,7 @@
           "name": "VukVuk",
           "value": 1997,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Magabela",
@@ -2875,7 +2875,7 @@
           "name": "Coriinga",
           "value": 1460,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Vinizerah On Amonot",
@@ -3587,7 +3587,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 14:18 (Brasília)",
+    "updated_at": "11/08/2026 às 14:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26522,6 +26522,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 11, 2026 14:18",
+      "player": "Henrique Arqueiro",
+      "level": 2000,
+      "killedBy": "Crow Oz",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 11, 2026 13:50",
       "player": "Kiel",
       "level": 2000,
@@ -26850,15 +26859,6 @@
       "player": "Haony",
       "level": 1670,
       "killedBy": "Crow Oz",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 10, 2026 20:32",
-      "player": "Gokuu",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
