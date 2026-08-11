@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 16:46 (Brasília)",
+  "updated_at": "11/08/2026 às 16:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
@@ -1055,7 +1055,7 @@
     },
     {
       "name": "Kiel",
-      "level": 2000,
+      "level": 1997,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2708,12 +2708,6 @@
           "online": true
         },
         {
-          "name": "Kiel",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "MekZera",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2769,6 +2763,12 @@
         },
         {
           "name": "Jishuka",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kiel",
           "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
@@ -3597,7 +3597,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 16:46 (Brasília)",
+    "updated_at": "11/08/2026 às 16:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26532,6 +26532,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 11, 2026 16:46",
+      "player": "Kiel",
+      "level": 2000,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 11, 2026 15:47",
       "player": "Gokuu",
       "level": 2005,
@@ -26969,15 +26978,6 @@
       "level": 1947,
       "killedBy": "Magabela",
       "maiorDano": "Only Cash",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 10, 2026 20:08",
-      "player": "Cerebro",
-      "level": 2000,
-      "killedBy": "Akronus",
-      "maiorDano": "Teko News",
       "world": "Baiak",
       "isPvp": true
     }
