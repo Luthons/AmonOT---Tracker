@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 13:43 (Brasília)",
+  "updated_at": "11/08/2026 às 13:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 54,
@@ -727,8 +727,8 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1549,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -738,6 +738,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "11/08/2026 às 00:51 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 13:44 (Brasília)"
         }
       ]
     },
@@ -2381,16 +2386,16 @@
           "online": true
         },
         {
+          "name": "Flecha Fofa",
+          "value": 59,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 59,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 58,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Loks",
@@ -2864,12 +2869,6 @@
           "name": "Pestinha",
           "value": 1557,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 1549,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3582,7 +3581,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 13:43 (Brasília)",
+    "updated_at": "11/08/2026 às 13:44 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26946,7 +26945,7 @@
         "El Diablo": 71,
         "Elder Lougon": 25,
         "Feijao Baiakeironato": 54,
-        "Flecha Fofa": 58,
+        "Flecha Fofa": 59,
         "Gokuu": 60,
         "Haony": 57,
         "Henrique": 52,
@@ -36864,7 +36863,7 @@
           "El Diablo": 71,
           "Elder Lougon": 25,
           "Feijao Baiakeironato": 54,
-          "Flecha Fofa": 58,
+          "Flecha Fofa": 59,
           "Gokuu": 60,
           "Haony": 57,
           "Henrique": 52,
@@ -39748,6 +39747,13 @@
           "gained": 1,
           "timestamp": "11/08/2026 às 13:23 (Brasília)",
           "hour_key": "2026-08-11-13"
+        },
+        {
+          "name": "Flecha Fofa",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 13:44 (Brasília)",
+          "hour_key": "2026-08-11-13"
         }
       ]
     },
@@ -40602,7 +40608,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 54,
-      "total_current": 2800,
+      "total_current": 2801,
       "resets_today": 3,
       "resets_week": 46,
       "resets_month": 0,
