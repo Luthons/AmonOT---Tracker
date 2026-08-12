@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 01:09 (Brasília)",
+  "updated_at": "12/08/2026 às 01:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -422,7 +422,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 1787,
+      "level": 1799,
       "resets": 53,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -438,17 +438,23 @@
     },
     {
       "name": "Amelior",
-      "level": 2000,
-      "resets": 52,
+      "level": 8,
+      "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 01:10 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Baiakudinho",
-      "level": 1629,
+      "level": 1646,
       "resets": 64,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -514,7 +520,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1704,
+      "level": 1742,
       "resets": 43,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -707,7 +713,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1517,
+      "level": 1523,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -728,7 +734,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1998,
+      "level": 2000,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -984,7 +990,7 @@
     },
     {
       "name": "Kev",
-      "level": 1642,
+      "level": 1646,
       "resets": 33,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1097,7 +1103,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1360,
+      "level": 1365,
       "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1173,7 +1179,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1760,
+      "level": 1781,
       "resets": 65,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1264,7 +1270,7 @@
     },
     {
       "name": "Loks",
-      "level": 690,
+      "level": 841,
       "resets": 59,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1609,7 +1615,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 847,
+      "level": 912,
       "resets": 57,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1792,7 +1798,7 @@
     },
     {
       "name": "Obrabo",
-      "level": 559,
+      "level": 619,
       "resets": 29,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1884,7 +1890,7 @@
     },
     {
       "name": "Royal Sniper",
-      "level": 1608,
+      "level": 1674,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1992,7 +1998,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1005,
+      "level": 1007,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2094,7 +2100,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1991,
+      "level": 1992,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2115,6 +2121,14 @@
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Amelior",
+      "resets_total": 53,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
     {
       "name": "Kashambao",
       "resets_total": 55,
@@ -2469,15 +2483,15 @@
           "online": true
         },
         {
-          "name": "Nino",
+          "name": "Amelior",
           "value": 53,
-          "vocation": "Royal Paladin",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Amelior",
-          "value": 52,
-          "vocation": "Elite Knight",
+          "name": "Nino",
+          "value": 53,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2685,12 +2699,6 @@
           "online": false
         },
         {
-          "name": "Amelior",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Boingbringer",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -2718,6 +2726,12 @@
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 2000,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2769,12 +2783,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Lougon Baiakeiro",
           "value": 1997,
           "vocation": "Master Sorcerer",
@@ -2788,7 +2796,7 @@
         },
         {
           "name": "Voidshot",
-          "value": 1991,
+          "value": 1992,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2818,13 +2826,13 @@
         },
         {
           "name": "Albatroz",
-          "value": 1787,
+          "value": 1799,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
           "name": "Lipe Knight",
-          "value": 1760,
+          "value": 1781,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2836,7 +2844,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1704,
+          "value": 1742,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2847,20 +2855,20 @@
           "online": false
         },
         {
-          "name": "Kev",
-          "value": 1642,
+          "name": "Royal Sniper",
+          "value": 1674,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Baiakudinho",
-          "value": 1629,
+          "value": 1646,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Royal Sniper",
-          "value": 1608,
+          "name": "Kev",
+          "value": 1646,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2878,7 +2886,7 @@
         },
         {
           "name": "Flecha Fofa",
-          "value": 1517,
+          "value": 1523,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2890,7 +2898,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1360,
+          "value": 1365,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2902,14 +2910,20 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1005,
+          "value": 1007,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Melbiss",
-          "value": 847,
+          "value": 912,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Loks",
+          "value": 841,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -2925,14 +2939,8 @@
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 690,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Obrabo",
-          "value": 559,
+          "value": 619,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3610,7 +3618,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 01:09 (Brasília)",
+    "updated_at": "12/08/2026 às 01:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27099,7 +27107,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Albatroz": 53,
-        "Amelior": 52,
+        "Amelior": 53,
         "Baiakudinho": 64,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 43,
@@ -36988,7 +36996,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Albatroz": 53,
-          "Amelior": 52,
+          "Amelior": 53,
           "Baiakudinho": 64,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 43,
@@ -39820,6 +39828,13 @@
           "gained": 1,
           "timestamp": "11/08/2026 às 23:47 (Brasília)",
           "hour_key": "2026-08-11-23"
+        },
+        {
+          "name": "Amelior",
+          "resets": 53,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 01:10 (Brasília)",
+          "hour_key": "2026-08-12-01"
         }
       ]
     },
@@ -40674,8 +40689,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 55,
-      "total_current": 2838,
-      "resets_today": 3,
+      "total_current": 2839,
+      "resets_today": 4,
       "resets_week": 48,
       "resets_month": 0,
       "resets_lifetime": 54,
