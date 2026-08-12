@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 14:20 (Brasília)",
+  "updated_at": "12/08/2026 às 14:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -355,7 +355,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1997,
+      "level": 1995,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -744,7 +744,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1664,
+      "level": 1692,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2848,6 +2848,12 @@
           "online": true
         },
         {
+          "name": "Teylera Rp",
+          "value": 1995,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
           "value": 1984,
           "vocation": "Royal Paladin",
@@ -2896,6 +2902,12 @@
           "online": true
         },
         {
+          "name": "Flecha Fofa",
+          "value": 1692,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Rp Terror",
           "value": 1689,
           "vocation": "Royal Paladin",
@@ -2906,12 +2918,6 @@
           "value": 1671,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 1664,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Magabela",
@@ -3677,7 +3683,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 14:20 (Brasília)",
+    "updated_at": "12/08/2026 às 14:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26613,6 +26619,15 @@
   "deaths_global": [
     {
       "time": "Aug 12, 2026 14:20",
+      "player": "Teylera Rp",
+      "level": 1997,
+      "killedBy": "Khanriel",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 14:20",
       "player": "Flecha Fofa",
       "level": 1693,
       "killedBy": "Panuto Hahaha",
@@ -27292,15 +27307,6 @@
       "level": 2000,
       "killedBy": "Osh Don",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 12, 2026 01:19",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Teko News",
-      "maiorDano": "Osh Don",
       "world": "Baiak",
       "isPvp": true
     }
