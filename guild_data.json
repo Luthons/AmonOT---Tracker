@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 11:37 (Brasília)",
+  "updated_at": "12/08/2026 às 11:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2029,7 +2029,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1052,
+      "level": 1054,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2131,7 +2131,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2790,12 +2790,6 @@
           "online": false
         },
         {
-          "name": "Voidshot",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -2809,6 +2803,12 @@
         },
         {
           "name": "Henrique Arqueiro",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Voidshot",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -2953,7 +2953,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1052,
+          "value": 1054,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3667,7 +3667,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 11:37 (Brasília)",
+    "updated_at": "12/08/2026 às 11:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26602,6 +26602,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 12, 2026 11:38",
+      "player": "Vinizerah On Amonot",
+      "level": 1055,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 11:37",
+      "player": "Voidshot",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 12, 2026 11:35",
       "player": "Teylera Rp",
       "level": 1999,
@@ -27106,15 +27124,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 12, 2026 00:48",
-      "player": "Vinizerah On Amonot",
-      "level": 1007,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 12, 2026 00:47",
       "player": "Akronus",
       "level": 1963,
@@ -27298,15 +27307,6 @@
       "time": "Aug 11, 2026 23:30",
       "player": "Yagoodz Hahaha",
       "level": 2000,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "Julian Alvarez",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 11, 2026 23:29",
-      "player": "Jhonnys Trembolizado",
-      "level": 2011,
       "killedBy": "Nao Eh Pedim",
       "maiorDano": "Julian Alvarez",
       "world": "Baiak",
