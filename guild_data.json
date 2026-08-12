@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 09:38 (Brasília)",
+  "updated_at": "12/08/2026 às 09:39 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 55,
-  "online_count": 41,
+  "total_members": 56,
+  "online_count": 42,
   "offline_count": 14,
   "members": [
     {
@@ -1834,6 +1834,16 @@
       ]
     },
     {
+      "name": "palinhp",
+      "level": 1302,
+      "resets": 52,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Pally Tetss",
       "level": 2000,
       "resets": 55,
@@ -2516,6 +2526,12 @@
           "online": true
         },
         {
+          "name": "palinhp",
+          "value": 52,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Henrique Arqueiro",
           "value": 51,
           "vocation": "Royal Paladin",
@@ -2916,6 +2932,12 @@
           "value": 1462,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "palinhp",
+          "value": 1302,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Jishuka",
@@ -3645,7 +3667,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 09:38 (Brasília)",
+    "updated_at": "12/08/2026 às 09:39 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27249,6 +27271,7 @@
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 29,
+        "palinhp": 52,
         "Pally Tetss": 55,
         "Pestinha": 42,
         "Royal Sniper": 65,
@@ -37116,6 +37139,7 @@
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 29,
+          "palinhp": 52,
           "Pally Tetss": 55,
           "Pestinha": 42,
           "Royal Sniper": 65,
@@ -40781,8 +40805,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 55,
-      "total_current": 2820,
+      "num_members": 56,
+      "total_current": 2872,
       "resets_today": 5,
       "resets_week": 49,
       "resets_month": 0,
