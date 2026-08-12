@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 11:41 (Brasília)",
+  "updated_at": "12/08/2026 às 11:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -739,7 +739,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1617,
+      "level": 1616,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -985,7 +985,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 992,
+      "level": 1104,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2911,7 +2911,7 @@
         },
         {
           "name": "Flecha Fofa",
-          "value": 1617,
+          "value": 1616,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2952,6 +2952,12 @@
           "online": true
         },
         {
+          "name": "Kashambao",
+          "value": 1104,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Vinizerah On Amonot",
           "value": 1054,
           "vocation": "Elder Druid",
@@ -2967,12 +2973,6 @@
           "name": "Amelior",
           "value": 999,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 992,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3667,7 +3667,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 11:41 (Brasília)",
+    "updated_at": "12/08/2026 às 11:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26602,6 +26602,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 12, 2026 11:42",
+      "player": "Flecha Fofa",
+      "level": 1617,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 11:42",
+      "player": "Kashambao",
+      "level": 1104,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Atreus Oldking",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 12, 2026 11:38",
       "player": "Vinizerah On Amonot",
       "level": 1055,
@@ -27289,15 +27307,6 @@
       "time": "Aug 11, 2026 23:34",
       "player": "Magabela",
       "level": 1528,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 11, 2026 23:30",
-      "player": "MekZera",
-      "level": 2035,
       "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
