@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 12:25 (Brasília)",
+  "updated_at": "12/08/2026 às 12:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -821,8 +821,8 @@
     },
     {
       "name": "Haony",
-      "level": 1979,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -832,6 +832,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "08/08/2026 às 10:10 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 12:26 (Brasília)"
         }
       ]
     },
@@ -2174,6 +2179,14 @@
       "online": true
     },
     {
+      "name": "Haony",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kashambao",
       "resets_total": 55,
       "resets_today": 1,
@@ -2234,14 +2247,6 @@
       "resets_total": 64,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Haony",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2466,7 +2471,7 @@
         },
         {
           "name": "Haony",
-          "value": 57,
+          "value": 58,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2839,12 +2844,6 @@
         {
           "name": "Teylera Rp",
           "value": 1990,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 1979,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3672,7 +3671,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 12:25 (Brasília)",
+    "updated_at": "12/08/2026 às 12:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27408,7 +27407,7 @@
         "Feijao Baiakeironato": 54,
         "Flecha Fofa": 59,
         "Gokuu": 60,
-        "Haony": 57,
+        "Haony": 58,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
         "Jhonnys Trembolizado": 94,
@@ -37273,7 +37272,7 @@
           "Feijao Baiakeironato": 54,
           "Flecha Fofa": 59,
           "Gokuu": 60,
-          "Haony": 57,
+          "Haony": 58,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
           "Jhonnys Trembolizado": 94,
@@ -40114,6 +40113,13 @@
           "gained": 1,
           "timestamp": "12/08/2026 às 11:55 (Brasília)",
           "hour_key": "2026-08-12-11"
+        },
+        {
+          "name": "Haony",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 12:26 (Brasília)",
+          "hour_key": "2026-08-12-12"
         }
       ]
     },
@@ -40968,11 +40974,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 56,
-      "total_current": 2873,
-      "resets_today": 6,
-      "resets_week": 50,
+      "total_current": 2874,
+      "resets_today": 7,
+      "resets_week": 51,
       "resets_month": 0,
-      "resets_lifetime": 53,
+      "resets_lifetime": 54,
       "avg_per_player": 51.3
     },
     "enemy_guild": {
