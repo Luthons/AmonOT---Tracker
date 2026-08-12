@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 20:24 (Brasília)",
+  "updated_at": "12/08/2026 às 20:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 56,
-  "online_count": 43,
+  "total_members": 57,
+  "online_count": 44,
   "offline_count": 13,
   "members": [
     {
@@ -1854,6 +1854,16 @@
       ]
     },
     {
+      "name": "padim ed",
+      "level": 1771,
+      "resets": 32,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "palinhp",
       "level": 1620,
       "resets": 52,
@@ -2602,6 +2612,12 @@
           "online": true
         },
         {
+          "name": "padim ed",
+          "value": 32,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Brunao Rei Denovo",
           "value": 31,
           "vocation": "Master Sorcerer",
@@ -2856,6 +2872,12 @@
         {
           "name": "Elder Lougon",
           "value": 1778,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "padim ed",
+          "value": 1771,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3653,7 +3675,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 20:24 (Brasília)",
+    "updated_at": "12/08/2026 às 20:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27158,6 +27180,7 @@
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 29,
+        "padim ed": 32,
         "palinhp": 52,
         "Pally Tetss": 55,
         "Pestinha": 42,
@@ -37003,6 +37026,7 @@
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 29,
+          "padim ed": 32,
           "palinhp": 52,
           "Pally Tetss": 55,
           "Pestinha": 42,
@@ -40697,13 +40721,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 56,
-      "total_current": 2850,
+      "num_members": 57,
+      "total_current": 2882,
       "resets_today": 9,
       "resets_week": 48,
       "resets_month": 0,
       "resets_lifetime": 49,
-      "avg_per_player": 50.9
+      "avg_per_player": 50.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
