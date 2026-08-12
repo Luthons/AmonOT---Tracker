@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 00:47 (Brasília)",
+  "updated_at": "12/08/2026 às 00:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1963,
+      "level": 1962,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -728,7 +728,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1992,7 +1992,7 @@
     },
     {
       "name": "Vinizerah On Amonot",
-      "level": 1007,
+      "level": 1006,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2721,12 +2721,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -2781,6 +2775,12 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lougon Baiakeiro",
           "value": 1997,
           "vocation": "Master Sorcerer",
@@ -2794,7 +2794,7 @@
         },
         {
           "name": "Akronus",
-          "value": 1963,
+          "value": 1962,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -2902,7 +2902,7 @@
         },
         {
           "name": "Vinizerah On Amonot",
-          "value": 1007,
+          "value": 1006,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3610,7 +3610,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 00:47 (Brasília)",
+    "updated_at": "12/08/2026 às 00:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26545,6 +26545,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 12, 2026 00:48",
+      "player": "Voidshot",
+      "level": 1994,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 00:48",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 00:48",
+      "player": "Vinizerah On Amonot",
+      "level": 1007,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 12, 2026 00:47",
+      "player": "Akronus",
+      "level": 1963,
+      "killedBy": "Crow Oz",
+      "maiorDano": "Julian Alvarez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 12, 2026 00:35",
       "player": "Akronus",
       "level": 1965,
@@ -27045,15 +27081,6 @@
       "level": 2000,
       "killedBy": "Nutellinha Druid",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 11, 2026 02:04",
-      "player": "Akronus",
-      "level": 2000,
-      "killedBy": "Harry Kane",
-      "maiorDano": "Crow Oz",
       "world": "Baiak",
       "isPvp": true
     }
