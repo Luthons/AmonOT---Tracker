@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 11:25 (Brasília)",
+  "updated_at": "12/08/2026 às 11:26 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -30,7 +30,7 @@
     },
     {
       "name": "Gizao",
-      "level": 2000,
+      "level": 1997,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2706,12 +2706,6 @@
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Akronus",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -2822,6 +2816,12 @@
         {
           "name": "Henrique Arqueiro",
           "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3667,7 +3667,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 11:25 (Brasília)",
+    "updated_at": "12/08/2026 às 11:26 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26601,6 +26601,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 12, 2026 11:26",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 12, 2026 11:17",
       "player": "Cerebro",
