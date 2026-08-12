@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 11:16 (Brasília)",
+  "updated_at": "12/08/2026 às 11:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -355,7 +355,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
+      "level": 1998,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -719,7 +719,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1763,
+      "level": 1761,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2724,12 +2724,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Adolph Healer",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -2820,6 +2814,12 @@
           "online": true
         },
         {
+          "name": "Teylera Rp",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Henrique Arqueiro",
           "value": 1998,
           "vocation": "Royal Paladin",
@@ -2893,7 +2893,7 @@
         },
         {
           "name": "Elder Lougon",
-          "value": 1763,
+          "value": 1761,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3667,7 +3667,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 11:16 (Brasília)",
+    "updated_at": "12/08/2026 às 11:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26601,6 +26601,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 12, 2026 11:17",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 12, 2026 10:44",
       "player": "Flecha Fofa",
