@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 00:46 (Brasília)",
+  "updated_at": "12/08/2026 às 00:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
-  "online_count": 38,
-  "offline_count": 17,
+  "online_count": 39,
+  "offline_count": 16,
   "members": [
     {
       "name": "Albatrozz",
@@ -1649,7 +1649,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2032,
+      "level": 2030,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1973,11 +1973,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Aug 11, 2026, 22:05:03",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 29,
@@ -2306,7 +2302,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1994,
+      "level": 1992,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2800,7 +2796,7 @@
           "name": "Obrabo",
           "value": 29,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -2846,7 +2842,7 @@
         },
         {
           "name": "MekZera",
-          "value": 2032,
+          "value": 2030,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3008,7 +3004,7 @@
         },
         {
           "name": "Voidshot",
-          "value": 1994,
+          "value": 1992,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3154,7 +3150,7 @@
           "name": "Obrabo",
           "value": 346,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -3830,7 +3826,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 00:45 (Brasília)",
+    "updated_at": "12/08/2026 às 00:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26765,6 +26761,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 12, 2026 00:49",
+      "player": "MekZera",
+      "level": 2032,
+      "killedBy": "Polessi Old Legend",
+      "maiorDano": "Osh Don",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 12, 2026 00:48",
       "player": "Voidshot",
       "level": 1994,
@@ -27289,15 +27294,6 @@
     {
       "time": "Aug 11, 2026 04:09",
       "player": "Royal Sniper",
-      "level": 2000,
-      "killedBy": "Nutellinha Druid",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 11, 2026 03:20",
-      "player": "Jishuka",
       "level": 2000,
       "killedBy": "Nutellinha Druid",
       "maiorDano": "",
