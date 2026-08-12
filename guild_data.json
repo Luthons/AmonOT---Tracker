@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 23:06 (Brasília)",
+  "updated_at": "11/08/2026 às 23:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -1639,8 +1639,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 1920,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1705,6 +1705,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "10/08/2026 às 09:48 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 23:07 (Brasília)"
         }
       ]
     },
@@ -2146,6 +2151,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Melbiss",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Akronus",
       "resets_total": 68,
       "resets_today": 0,
@@ -2255,14 +2268,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 56,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2443,15 +2448,15 @@
           "online": false
         },
         {
-          "name": "Ntka",
+          "name": "Melbiss",
           "value": 57,
-          "vocation": "Royal Paladin",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 56,
-          "vocation": "Elite Knight",
+          "name": "Ntka",
+          "value": 57,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2825,12 +2830,6 @@
           "value": 1951,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 1920,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Lukitas Brokenzada",
@@ -3626,7 +3625,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 23:06 (Brasília)",
+    "updated_at": "11/08/2026 às 23:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27018,7 +27017,7 @@
         "Lougon Baiakeiro": 33,
         "Lukitas Brokenzada": 41,
         "MekZera": 62,
-        "Melbiss": 56,
+        "Melbiss": 57,
         "Monstro Das Criptos": 59,
         "Nino": 53,
         "Ntka": 57,
@@ -36911,7 +36910,7 @@
           "Lougon Baiakeiro": 33,
           "Lukitas Brokenzada": 41,
           "MekZera": 62,
-          "Melbiss": 56,
+          "Melbiss": 57,
           "Monstro Das Criptos": 59,
           "Nino": 53,
           "Ntka": 57,
@@ -39826,6 +39825,13 @@
           "gained": 1,
           "timestamp": "11/08/2026 às 21:57 (Brasília)",
           "hour_key": "2026-08-11-21"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 23:07 (Brasília)",
+          "hour_key": "2026-08-11-23"
         }
       ]
     },
@@ -40680,12 +40686,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 55,
-      "total_current": 2835,
-      "resets_today": 0,
-      "resets_week": 46,
+      "total_current": 2836,
+      "resets_today": 1,
+      "resets_week": 47,
       "resets_month": 0,
-      "resets_lifetime": 55,
-      "avg_per_player": 51.5
+      "resets_lifetime": 56,
+      "avg_per_player": 51.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
