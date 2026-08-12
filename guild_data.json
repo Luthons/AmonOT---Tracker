@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/08/2026 às 21:56 (Brasília)",
+  "updated_at": "11/08/2026 às 21:57 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 55,
@@ -1822,13 +1822,19 @@
     },
     {
       "name": "Obrabo",
-      "level": 981,
-      "resets": 28,
+      "level": 8,
+      "resets": 29,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 21:57 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Pally Tetss",
@@ -2610,7 +2616,7 @@
         },
         {
           "name": "Obrabo",
-          "value": 28,
+          "value": 29,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2936,12 +2942,6 @@
           "name": "Magabela",
           "value": 1165,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Obrabo",
-          "value": 981,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3636,7 +3636,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/08/2026 às 21:56 (Brasília)",
+    "updated_at": "11/08/2026 às 21:57 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27032,7 +27032,7 @@
         "Monstro Das Criptos": 59,
         "Nino": 53,
         "Ntka": 57,
-        "Obrabo": 28,
+        "Obrabo": 29,
         "Pally Tetss": 55,
         "Pestinha": 42,
         "Royal Sniper": 65,
@@ -36929,7 +36929,7 @@
           "Monstro Das Criptos": 59,
           "Nino": 53,
           "Ntka": 57,
-          "Obrabo": 28,
+          "Obrabo": 29,
           "Pally Tetss": 55,
           "Pestinha": 42,
           "Royal Sniper": 65,
@@ -39833,6 +39833,13 @@
           "gained": 1,
           "timestamp": "11/08/2026 às 21:54 (Brasília)",
           "hour_key": "2026-08-11-21"
+        },
+        {
+          "name": "Obrabo",
+          "resets": 29,
+          "gained": 1,
+          "timestamp": "11/08/2026 às 21:57 (Brasília)",
+          "hour_key": "2026-08-11-21"
         }
       ]
     },
@@ -40687,7 +40694,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 55,
-      "total_current": 2834,
+      "total_current": 2835,
       "resets_today": 8,
       "resets_week": 51,
       "resets_month": 0,
