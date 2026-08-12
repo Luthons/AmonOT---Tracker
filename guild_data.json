@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 14:12 (Brasília)",
+  "updated_at": "12/08/2026 às 14:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 56,
@@ -2141,7 +2141,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 2000,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2812,12 +2812,6 @@
           "online": false
         },
         {
-          "name": "Voidshot",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -2834,6 +2828,12 @@
           "value": 1997,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Voidshot",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Cerebro",
@@ -3677,7 +3677,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 14:12 (Brasília)",
+    "updated_at": "12/08/2026 às 14:13 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26611,6 +26611,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 12, 2026 14:13",
+      "player": "Voidshot",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 12, 2026 14:10",
       "player": "Rusha Rp",
