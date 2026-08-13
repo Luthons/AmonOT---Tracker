@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 23:54 (Brasília)",
+  "updated_at": "12/08/2026 às 23:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 61,
@@ -1992,13 +1992,19 @@
     },
     {
       "name": "Rofmao",
-      "level": 989,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 23:55 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Rp Terror",
@@ -2592,7 +2598,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 43,
+          "value": 44,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3051,12 +3057,6 @@
           "value": 1030,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Rofmao",
-          "value": 989,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Vitao The Trader",
@@ -3750,7 +3750,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 23:54 (Brasília)",
+    "updated_at": "12/08/2026 às 23:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27298,7 +27298,7 @@
         "palinhp": 52,
         "Pally Tetss": 55,
         "Pestinha": 42,
-        "Rofmao": 43,
+        "Rofmao": 44,
         "Rp Terror": 38,
         "Rusha Rp": 65,
         "Ultimate Warrior": 25,
@@ -37151,7 +37151,7 @@
           "palinhp": 52,
           "Pally Tetss": 55,
           "Pestinha": 42,
-          "Rofmao": 43,
+          "Rofmao": 44,
           "Rp Terror": 38,
           "Rusha Rp": 65,
           "Ultimate Warrior": 25,
@@ -40004,6 +40004,13 @@
           "gained": 1,
           "timestamp": "12/08/2026 às 21:52 (Brasília)",
           "hour_key": "2026-08-12-21"
+        },
+        {
+          "name": "Rofmao",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 23:55 (Brasília)",
+          "hour_key": "2026-08-12-23"
         }
       ]
     },
@@ -40858,12 +40865,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 61,
-      "total_current": 3028,
+      "total_current": 3029,
       "resets_today": 0,
       "resets_week": 46,
       "resets_month": 0,
       "resets_lifetime": 50,
-      "avg_per_player": 49.6
+      "avg_per_player": 49.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
