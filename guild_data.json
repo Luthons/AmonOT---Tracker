@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 23:50 (Brasília)",
+  "updated_at": "12/08/2026 às 23:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 60,
-  "online_count": 44,
+  "total_members": 61,
+  "online_count": 45,
   "offline_count": 16,
   "members": [
     {
@@ -1991,6 +1991,16 @@
       ]
     },
     {
+      "name": "Rofmao",
+      "level": 989,
+      "resets": 43,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Rp Terror",
       "level": 1689,
       "resets": 38,
@@ -2581,6 +2591,12 @@
           "online": true
         },
         {
+          "name": "Rofmao",
+          "value": 43,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 42,
           "vocation": "Master Sorcerer",
@@ -3035,6 +3051,12 @@
           "value": 1030,
           "vocation": "Royal Paladin",
           "online": false
+        },
+        {
+          "name": "Rofmao",
+          "value": 989,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Vitao The Trader",
@@ -3728,7 +3750,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 23:50 (Brasília)",
+    "updated_at": "12/08/2026 às 23:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27276,6 +27298,7 @@
         "palinhp": 52,
         "Pally Tetss": 55,
         "Pestinha": 42,
+        "Rofmao": 43,
         "Rp Terror": 38,
         "Rusha Rp": 65,
         "Ultimate Warrior": 25,
@@ -37128,6 +37151,7 @@
           "palinhp": 52,
           "Pally Tetss": 55,
           "Pestinha": 42,
+          "Rofmao": 43,
           "Rp Terror": 38,
           "Rusha Rp": 65,
           "Ultimate Warrior": 25,
@@ -40833,13 +40857,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 60,
-      "total_current": 2985,
+      "num_members": 61,
+      "total_current": 3028,
       "resets_today": 0,
       "resets_week": 46,
       "resets_month": 0,
       "resets_lifetime": 50,
-      "avg_per_player": 49.8
+      "avg_per_player": 49.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
