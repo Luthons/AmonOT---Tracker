@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 14:44 (Brasília)",
+  "updated_at": "13/08/2026 às 14:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 62,
-  "online_count": 48,
+  "total_members": 63,
+  "online_count": 49,
   "offline_count": 14,
   "members": [
     {
@@ -746,6 +746,16 @@
       "name": "Feijao Baiakeironato",
       "level": 2000,
       "resets": 54,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Flam Ham Bum",
+      "level": 709,
+      "resets": 38,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2570,6 +2580,12 @@
           "online": false
         },
         {
+          "name": "Flam Ham Bum",
+          "value": 38,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 38,
           "vocation": "Royal Paladin",
@@ -3030,6 +3046,12 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Flam Ham Bum",
+          "value": 709,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Obrabo",
@@ -3705,7 +3727,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 14:44 (Brasília)",
+    "updated_at": "13/08/2026 às 14:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27071,6 +27093,7 @@
         "Elder Lougon": 25,
         "Ethernal Pally": 37,
         "Feijao Baiakeironato": 54,
+        "Flam Ham Bum": 38,
         "Flecha Fofa": 60,
         "Gokuu": 60,
         "Haony": 58,
@@ -36958,6 +36981,7 @@
           "Elder Lougon": 25,
           "Ethernal Pally": 37,
           "Feijao Baiakeironato": 54,
+          "Flam Ham Bum": 38,
           "Flecha Fofa": 60,
           "Gokuu": 60,
           "Haony": 58,
@@ -40638,13 +40662,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 62,
-      "total_current": 3089,
+      "num_members": 63,
+      "total_current": 3127,
       "resets_today": 5,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 43,
-      "avg_per_player": 49.8
+      "avg_per_player": 49.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
