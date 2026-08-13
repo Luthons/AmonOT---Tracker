@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 17:22 (Brasília)",
+  "updated_at": "13/08/2026 às 17:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 65,
@@ -406,7 +406,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 2000,
+      "level": 1998,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2762,12 +2762,6 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -2879,6 +2873,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 1998,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3777,7 +3777,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 17:22 (Brasília)",
+    "updated_at": "13/08/2026 às 17:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26711,6 +26711,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 13, 2026 17:23",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 13, 2026 17:22",
+      "player": "Jhonnys Trembolizado",
+      "level": 1997,
+      "killedBy": "Teko News",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 13, 2026 17:08",
       "player": "Flecha Fofa",
