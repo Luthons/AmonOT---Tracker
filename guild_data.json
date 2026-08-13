@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 16:39 (Brasília)",
+  "updated_at": "13/08/2026 às 16:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 64,
-  "online_count": 51,
+  "total_members": 65,
+  "online_count": 52,
   "offline_count": 13,
   "members": [
     {
@@ -2082,6 +2082,16 @@
       ]
     },
     {
+      "name": "Snowzeraah",
+      "level": 792,
+      "resets": 37,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "Tadala De Cinco",
       "level": 1082,
       "resets": 61,
@@ -2626,6 +2636,12 @@
           "online": true
         },
         {
+          "name": "Snowzeraah",
+          "value": 37,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kev",
           "value": 34,
           "vocation": "Royal Paladin",
@@ -3074,6 +3090,12 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Snowzeraah",
+          "value": 792,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Obrabo",
@@ -3755,7 +3777,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 16:39 (Brasília)",
+    "updated_at": "13/08/2026 às 16:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27056,6 +27078,7 @@
         "Rofmao": 44,
         "Rp Terror": 38,
         "Rusha Rp": 65,
+        "Snowzeraah": 37,
         "Tadala De Cinco": 61,
         "Thats My Way": 39,
         "Ultimate Warrior": 25,
@@ -36954,6 +36977,7 @@
           "Rofmao": 44,
           "Rp Terror": 38,
           "Rusha Rp": 65,
+          "Snowzeraah": 37,
           "Tadala De Cinco": 61,
           "Thats My Way": 39,
           "Ultimate Warrior": 25,
@@ -40609,13 +40633,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 64,
-      "total_current": 3167,
+      "num_members": 65,
+      "total_current": 3204,
       "resets_today": 5,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 42,
-      "avg_per_player": 49.5
+      "avg_per_player": 49.3
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
