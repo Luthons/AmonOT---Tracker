@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 12:14 (Brasília)",
+  "updated_at": "13/08/2026 às 12:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 62,
@@ -841,8 +841,8 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 2000,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -861,6 +861,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "11/08/2026 às 13:44 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 12:17 (Brasília)"
         }
       ]
     },
@@ -2381,6 +2386,14 @@
       "online": true
     },
     {
+      "name": "Flecha Fofa",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lotus Lothbrook",
       "resets_total": 38,
       "resets_today": 1,
@@ -2626,6 +2639,12 @@
           "online": true
         },
         {
+          "name": "Flecha Fofa",
+          "value": 60,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
@@ -2634,12 +2653,6 @@
         {
           "name": "Voidshot",
           "value": 60,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 59,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2983,12 +2996,6 @@
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3935,7 +3942,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 12:13 (Brasília)",
+    "updated_at": "13/08/2026 às 12:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27265,7 +27272,7 @@
         "Elder Lougon": 25,
         "Ethernal Pally": 37,
         "Feijao Baiakeironato": 54,
-        "Flecha Fofa": 59,
+        "Flecha Fofa": 60,
         "Gokuu": 60,
         "Haony": 58,
         "HEFESTO": 40,
@@ -37146,7 +37153,7 @@
           "Elder Lougon": 25,
           "Ethernal Pally": 37,
           "Feijao Baiakeironato": 54,
-          "Flecha Fofa": 59,
+          "Flecha Fofa": 60,
           "Gokuu": 60,
           "Haony": 58,
           "HEFESTO": 40,
@@ -39959,6 +39966,13 @@
           "gained": 1,
           "timestamp": "13/08/2026 às 10:26 (Brasília)",
           "hour_key": "2026-08-13-10"
+        },
+        {
+          "name": "Flecha Fofa",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 12:17 (Brasília)",
+          "hour_key": "2026-08-13-12"
         }
       ]
     },
@@ -40813,8 +40827,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 62,
-      "total_current": 3087,
-      "resets_today": 3,
+      "total_current": 3088,
+      "resets_today": 4,
       "resets_week": 43,
       "resets_month": 0,
       "resets_lifetime": 43,
