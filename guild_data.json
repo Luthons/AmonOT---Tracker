@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/08/2026 às 21:51 (Brasília)",
+  "updated_at": "12/08/2026 às 21:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 60,
@@ -1890,13 +1890,19 @@
     },
     {
       "name": "padim ed",
-      "level": 1828,
-      "resets": 32,
+      "level": 8,
+      "resets": 33,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 21:52 (Brasília)"
+        }
+      ]
     },
     {
       "name": "palinhp",
@@ -2653,15 +2659,15 @@
           "online": true
         },
         {
-          "name": "Affey",
-          "value": 32,
-          "vocation": "Royal Paladin",
+          "name": "padim ed",
+          "value": 33,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "padim ed",
+          "name": "Affey",
           "value": 32,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2921,12 +2927,6 @@
           "value": 1836,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "padim ed",
-          "value": 1828,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -3746,7 +3746,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/08/2026 às 21:51 (Brasília)",
+    "updated_at": "12/08/2026 às 21:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27290,7 +27290,7 @@
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 29,
-        "padim ed": 32,
+        "padim ed": 33,
         "palinhp": 52,
         "Pally Tetss": 55,
         "Pestinha": 42,
@@ -37138,7 +37138,7 @@
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 29,
-          "padim ed": 32,
+          "padim ed": 33,
           "palinhp": 52,
           "Pally Tetss": 55,
           "Pestinha": 42,
@@ -39987,6 +39987,13 @@
           "gained": 1,
           "timestamp": "12/08/2026 às 20:26 (Brasília)",
           "hour_key": "2026-08-12-20"
+        },
+        {
+          "name": "padim ed",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "12/08/2026 às 21:52 (Brasília)",
+          "hour_key": "2026-08-12-21"
         }
       ]
     },
@@ -40841,12 +40848,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 60,
-      "total_current": 2984,
+      "total_current": 2985,
       "resets_today": 10,
       "resets_week": 49,
       "resets_month": 0,
       "resets_lifetime": 50,
-      "avg_per_player": 49.7
+      "avg_per_player": 49.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
