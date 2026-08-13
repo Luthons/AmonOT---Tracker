@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 12:58 (Brasília)",
+  "updated_at": "13/08/2026 às 12:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 62,
-  "online_count": 48,
-  "offline_count": 14,
+  "online_count": 49,
+  "offline_count": 13,
   "members": [
     {
       "name": "Albatrozz",
@@ -14,7 +14,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 68,
@@ -438,7 +438,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 53,
@@ -847,12 +847,12 @@
     },
     {
       "name": "HEFESTO",
-      "level": 1244,
+      "level": 1243,
       "resets": 40,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2135,7 +2135,7 @@
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Exalted Monk",
-      "online": false
+      "online": true
     },
     {
       "name": "Flecha Fofa",
@@ -2167,7 +2167,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elder Druid",
-      "online": false
+      "online": true
     },
     {
       "name": "Akronus",
@@ -2310,7 +2310,7 @@
           "name": "Albatrozz",
           "value": 69,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Akronus",
@@ -2454,7 +2454,7 @@
           "name": "Albatroz",
           "value": 54,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Feijao Baiakeironato",
@@ -2556,7 +2556,7 @@
           "name": "HEFESTO",
           "value": 40,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Welljacob",
@@ -2670,7 +2670,7 @@
           "name": "Albatrozz",
           "value": 2038,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "MekZera",
@@ -2958,13 +2958,13 @@
           "name": "Albatroz",
           "value": 1268,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "HEFESTO",
-          "value": 1244,
+          "value": 1243,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Hurtles Ownsz",
@@ -3694,7 +3694,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 12:58 (Brasília)",
+    "updated_at": "13/08/2026 às 12:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26628,6 +26628,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 13, 2026 12:58",
+      "player": "HEFESTO",
+      "level": 1244,
+      "killedBy": "Holly Sapetah",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 13, 2026 12:31",
       "player": "MekZera",
