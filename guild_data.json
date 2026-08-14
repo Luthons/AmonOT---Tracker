@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 15:23 (Brasília)",
+  "updated_at": "14/08/2026 às 15:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -769,8 +769,8 @@
     },
     {
       "name": "Flam Ham Bum",
-      "level": 1265,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -780,6 +780,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "13/08/2026 às 15:40 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 15:24 (Brasília)"
         }
       ]
     },
@@ -2229,6 +2234,14 @@
       "online": true
     },
     {
+      "name": "Flam Ham Bum",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 58,
       "resets_today": 1,
@@ -2670,6 +2683,12 @@
           "online": false
         },
         {
+          "name": "Flam Ham Bum",
+          "value": 40,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "HEFESTO",
           "value": 40,
           "vocation": "Elite Knight",
@@ -2685,12 +2704,6 @@
           "name": "Welljacob",
           "value": 40,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Flam Ham Bum",
-          "value": 39,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3112,12 +3125,6 @@
           "value": 1281,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "Flam Ham Bum",
-          "value": 1265,
-          "vocation": "Master Sorcerer",
-          "online": true
         },
         {
           "name": "Boltfly Peoplecry",
@@ -3853,7 +3860,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 15:23 (Brasília)",
+    "updated_at": "14/08/2026 às 15:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27193,7 +27200,7 @@
         "Elder Lougon": 25,
         "Ethernal Pally": 38,
         "Feijao Baiakeironato": 54,
-        "Flam Ham Bum": 39,
+        "Flam Ham Bum": 40,
         "Flecha Fofa": 60,
         "Gokuu": 60,
         "Haony": 58,
@@ -37265,7 +37272,7 @@
           "Elder Lougon": 25,
           "Ethernal Pally": 38,
           "Feijao Baiakeironato": 54,
-          "Flam Ham Bum": 39,
+          "Flam Ham Bum": 40,
           "Flecha Fofa": 60,
           "Gokuu": 60,
           "Haony": 58,
@@ -40082,6 +40089,13 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 15:19 (Brasília)",
           "hour_key": "2026-08-14-15"
+        },
+        {
+          "name": "Flam Ham Bum",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 15:24 (Brasília)",
+          "hour_key": "2026-08-14-15"
         }
       ]
     },
@@ -40936,8 +40950,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3335,
-      "resets_today": 8,
+      "total_current": 3336,
+      "resets_today": 9,
       "resets_week": 43,
       "resets_month": 0,
       "resets_lifetime": 45,
