@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 01:58 (Brasília)",
+  "updated_at": "14/08/2026 às 01:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
-  "online_count": 50,
-  "offline_count": 17,
+  "online_count": 49,
+  "offline_count": 18,
   "members": [
     {
       "name": "Albatrozz",
@@ -738,7 +738,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2692,7 +2692,7 @@
           "name": "Elder Lougon",
           "value": 25,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -2944,7 +2944,7 @@
           "name": "Elder Lougon",
           "value": 1818,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Rp Terror",
@@ -3794,7 +3794,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 01:58 (Brasília)",
+    "updated_at": "14/08/2026 às 01:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26728,6 +26728,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 14, 2026 01:59",
+      "player": "Welljacob",
+      "level": 847,
+      "killedBy": "Nutellinha Druid",
+      "maiorDano": "Polessi Old Legend",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 14, 2026 01:53",
       "player": "Elder Lougon",
