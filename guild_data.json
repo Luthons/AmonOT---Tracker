@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 00:23 (Brasília)",
+  "updated_at": "14/08/2026 às 00:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -907,7 +907,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 2000,
+      "level": 1998,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2833,12 +2833,6 @@
           "online": true
         },
         {
-          "name": "Its Gui",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Kiel",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2890,6 +2884,12 @@
           "name": "Gokuu",
           "value": 1998,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Its Gui",
+          "value": 1998,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3788,7 +3788,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 00:23 (Brasília)",
+    "updated_at": "14/08/2026 às 00:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26722,6 +26722,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 14, 2026 00:24",
+      "player": "Its Gui",
+      "level": 2000,
+      "killedBy": "Nutellinha Druid",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 14, 2026 00:17",
       "player": "Kashambao",
