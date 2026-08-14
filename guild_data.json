@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 23:15 (Brasília)",
+  "updated_at": "13/08/2026 às 23:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 66,
-  "online_count": 50,
+  "total_members": 67,
+  "online_count": 51,
   "offline_count": 16,
   "members": [
     {
@@ -613,6 +613,16 @@
       "nick": "",
       "rank": "Member",
       "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Dede Knight",
+      "level": 1435,
+      "resets": 44,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
       "reset_history": []
     },
     {
@@ -2599,6 +2609,12 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 44,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Its Gui",
           "value": 44,
           "vocation": "Elder Druid",
@@ -3040,6 +3056,12 @@
           "name": "Rofmao",
           "value": 1439,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Dede Knight",
+          "value": 1435,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3800,7 +3822,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 23:15 (Brasília)",
+    "updated_at": "13/08/2026 às 23:16 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26798,6 +26820,24 @@
       "isPvp": true
     },
     {
+      "time": "Aug 13, 2026 18:25",
+      "player": "Dede Knight",
+      "level": 667,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 13, 2026 18:04",
+      "player": "Dede Knight",
+      "level": 667,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 13, 2026 17:44",
       "player": "Jhonnys Trembolizado",
       "level": 1998,
@@ -27197,6 +27237,7 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
+        "Dede Knight": 44,
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
@@ -37142,6 +37183,7 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
+          "Dede Knight": 44,
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
@@ -40887,13 +40929,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 66,
-      "total_current": 3284,
+      "num_members": 67,
+      "total_current": 3328,
       "resets_today": 1,
       "resets_week": 41,
       "resets_month": 0,
       "resets_lifetime": 45,
-      "avg_per_player": 49.8
+      "avg_per_player": 49.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
