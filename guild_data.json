@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 05:09 (Brasília)",
+  "updated_at": "14/08/2026 às 05:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Albatrozz",
-      "level": 1969,
+      "level": 1970,
       "resets": 70,
       "vocation": "Elder Druid",
       "nick": "",
@@ -448,7 +448,7 @@
     },
     {
       "name": "Amelior",
-      "level": 1582,
+      "level": 1594,
       "resets": 53,
       "vocation": "Elite Knight",
       "nick": "",
@@ -464,7 +464,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1795,
+      "level": 1810,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -530,7 +530,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1010,
+      "level": 1042,
       "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -779,7 +779,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1600,
+      "level": 1620,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1015,7 +1015,7 @@
     },
     {
       "name": "Kev",
-      "level": 1255,
+      "level": 1268,
       "resets": 34,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1092,7 +1092,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 971,
+      "level": 988,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1128,7 +1128,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1846,
+      "level": 1849,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1194,7 +1194,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 1736,
+      "level": 1754,
       "resets": 67,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1290,7 +1290,7 @@
     },
     {
       "name": "Loks",
-      "level": 1463,
+      "level": 1484,
       "resets": 60,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1503,7 +1503,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1395,
+      "level": 1414,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1882,7 +1882,7 @@
     },
     {
       "name": "palinhp",
-      "level": 1494,
+      "level": 1509,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2088,7 +2088,7 @@
     },
     {
       "name": "Tadala De Cinco",
-      "level": 1263,
+      "level": 1273,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2918,8 +2918,14 @@
         },
         {
           "name": "Albatrozz",
-          "value": 1969,
+          "value": 1970,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "value": 1849,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2927,12 +2933,6 @@
           "value": 1848,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1846,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Haony",
@@ -2947,14 +2947,14 @@
           "online": false
         },
         {
-          "name": "Rp Terror",
-          "value": 1805,
+          "name": "Baiakudinho",
+          "value": 1810,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 1795,
+          "name": "Rp Terror",
+          "value": 1805,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2966,7 +2966,7 @@
         },
         {
           "name": "Lipe Knight",
-          "value": 1736,
+          "value": 1754,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2984,13 +2984,13 @@
         },
         {
           "name": "Flecha Fofa",
-          "value": 1600,
+          "value": 1620,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Amelior",
-          "value": 1582,
+          "value": 1594,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3002,13 +3002,13 @@
         },
         {
           "name": "palinhp",
-          "value": 1494,
+          "value": 1509,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Loks",
-          "value": 1463,
+          "value": 1484,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3032,7 +3032,7 @@
         },
         {
           "name": "Luiscrazynear",
-          "value": 1395,
+          "value": 1414,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3056,13 +3056,13 @@
         },
         {
           "name": "Tadala De Cinco",
-          "value": 1263,
+          "value": 1273,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Kev",
-          "value": 1255,
+          "value": 1268,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3080,7 +3080,13 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1010,
+          "value": 1042,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 988,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3089,12 +3095,6 @@
           "value": 972,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 971,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Obrabo",
@@ -3794,7 +3794,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 05:09 (Brasília)",
+    "updated_at": "14/08/2026 às 05:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
