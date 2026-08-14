@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 21:12 (Brasília)",
+  "updated_at": "13/08/2026 às 21:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 65,
@@ -268,7 +268,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 2000,
+      "level": 1998,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1010,8 +1010,8 @@
     },
     {
       "name": "Kashambao",
-      "level": 1917,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1026,6 +1026,11 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "11/08/2026 às 23:47 (Brasília)"
+        },
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 21:13 (Brasília)"
         }
       ]
     },
@@ -2210,6 +2215,14 @@
       "online": true
     },
     {
+      "name": "Kashambao",
+      "resets_total": 56,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kolwaski",
       "resets_total": 55,
       "resets_today": 1,
@@ -2496,7 +2509,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 55,
+          "value": 56,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2777,12 +2790,6 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2891,6 +2898,12 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Yagoodz Hahaha",
           "value": 1998,
           "vocation": "Elite Knight",
@@ -2900,12 +2913,6 @@
           "name": "Lougon Baiakeiro",
           "value": 1997,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 1917,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3792,7 +3799,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 21:12 (Brasília)",
+    "updated_at": "13/08/2026 às 21:13 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26727,6 +26734,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 13, 2026 21:12",
+      "player": "Jhonnys Trembolizado",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 13, 2026 19:39",
       "player": "Lougon Baiakeiro",
       "level": 2000,
@@ -27112,15 +27128,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 12, 2026 19:43",
-      "player": "Ethernal Pally",
-      "level": 1372,
-      "killedBy": "Only Cash",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27158,7 +27165,7 @@
         "Hurtles Ownsz": 24,
         "Its Gui": 44,
         "Jishuka": 66,
-        "Kashambao": 55,
+        "Kashambao": 56,
         "Kev": 34,
         "Kiel": 65,
         "Kolwaski": 55,
@@ -37087,7 +37094,7 @@
           "Hurtles Ownsz": 24,
           "Its Gui": 44,
           "Jishuka": 66,
-          "Kashambao": 55,
+          "Kashambao": 56,
           "Kev": 34,
           "Kiel": 65,
           "Kolwaski": 55,
@@ -39936,6 +39943,13 @@
           "gained": 1,
           "timestamp": "13/08/2026 às 18:20 (Brasília)",
           "hour_key": "2026-08-13-18"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 21:13 (Brasília)",
+          "hour_key": "2026-08-13-21"
         }
       ]
     },
@@ -40790,12 +40804,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 65,
-      "total_current": 3207,
-      "resets_today": 7,
+      "total_current": 3208,
+      "resets_today": 8,
       "resets_week": 46,
       "resets_month": 0,
       "resets_lifetime": 46,
-      "avg_per_player": 49.3
+      "avg_per_player": 49.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
