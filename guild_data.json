@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 22:00 (Brasília)",
+  "updated_at": "13/08/2026 às 22:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 65,
-  "online_count": 51,
+  "total_members": 66,
+  "online_count": 52,
   "offline_count": 14,
   "members": [
     {
@@ -642,6 +642,16 @@
       "reset_history": []
     },
     {
+      "name": "Ed Da Deepweb",
+      "level": 997,
+      "resets": 50,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
       "name": "El Diablo",
       "level": 2000,
       "resets": 71,
@@ -1154,7 +1164,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1557,
+      "level": 1628,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2555,6 +2565,12 @@
           "online": true
         },
         {
+          "name": "Ed Da Deepweb",
+          "value": 50,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "VukVuk",
           "value": 50,
           "vocation": "Elder Druid",
@@ -2969,6 +2985,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 1628,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Haony",
           "value": 1603,
           "vocation": "Royal Paladin",
@@ -2978,12 +3000,6 @@
           "name": "Albatrozz",
           "value": 1586,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1557,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3062,6 +3078,12 @@
           "name": "Lipe Knight",
           "value": 1034,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 997,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3780,7 +3802,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 22:00 (Brasília)",
+    "updated_at": "13/08/2026 às 22:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27169,6 +27191,7 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
+        "Ed Da Deepweb": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
         "Ethernal Pally": 37,
@@ -37104,6 +37127,7 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
+          "Ed Da Deepweb": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
           "Ethernal Pally": 37,
@@ -40833,8 +40857,8 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 65,
-      "total_current": 3209,
+      "num_members": 66,
+      "total_current": 3259,
       "resets_today": 0,
       "resets_week": 41,
       "resets_month": 0,
