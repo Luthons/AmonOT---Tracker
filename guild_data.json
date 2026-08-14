@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 23:08 (Brasília)",
+  "updated_at": "13/08/2026 às 23:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 67,
-  "online_count": 53,
-  "offline_count": 14,
+  "total_members": 66,
+  "online_count": 50,
+  "offline_count": 16,
   "members": [
     {
       "name": "Albatrozz",
@@ -421,7 +421,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -437,32 +437,6 @@
           "resets": 20,
           "gained": 1,
           "timestamp": "15/07/2026 às 20:50 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Affey",
-      "level": 1898,
-      "resets": 32,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 30,
-          "gained": 1,
-          "timestamp": "14/07/2026 às 20:04 (Brasília)"
-        },
-        {
-          "resets": 31,
-          "gained": 1,
-          "timestamp": "15/07/2026 às 00:01 (Brasília)"
-        },
-        {
-          "resets": 32,
-          "gained": 1,
-          "timestamp": "16/07/2026 às 00:31 (Brasília)"
         }
       ]
     },
@@ -933,7 +907,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -2707,12 +2681,6 @@
           "online": true
         },
         {
-          "name": "Affey",
-          "value": 32,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Brunao Rei Denovo",
           "value": 31,
           "vocation": "Master Sorcerer",
@@ -2746,7 +2714,7 @@
           "name": "Hurtles Ownsz",
           "value": 24,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Vitao The Trader",
@@ -2764,7 +2732,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -2932,7 +2900,7 @@
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Its Gui",
@@ -2943,12 +2911,6 @@
         {
           "name": "Ethernal Pally",
           "value": 1987,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Affey",
-          "value": 1898,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3076,7 +3038,7 @@
           "name": "Hurtles Ownsz",
           "value": 1281,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Luiscrazynear",
@@ -3830,7 +3792,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 23:08 (Brasília)",
+    "updated_at": "13/08/2026 às 23:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27219,7 +27181,6 @@
         "Yagoodz Hahaha": 70,
         "Achilles": 18,
         "Adolph Healer": 20,
-        "Affey": 32,
         "Albatroz": 54,
         "Amelior": 53,
         "Baiakudinho": 65,
@@ -37165,7 +37126,6 @@
           "Yagoodz Hahaha": 70,
           "Achilles": 18,
           "Adolph Healer": 20,
-          "Affey": 32,
           "Albatroz": 54,
           "Amelior": 53,
           "Baiakudinho": 65,
@@ -40912,13 +40872,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 67,
-      "total_current": 3315,
+      "num_members": 66,
+      "total_current": 3283,
       "resets_today": 0,
       "resets_week": 41,
       "resets_month": 0,
       "resets_lifetime": 45,
-      "avg_per_player": 49.5
+      "avg_per_player": 49.7
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
