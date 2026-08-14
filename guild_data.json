@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 23:10 (Brasília)",
+  "updated_at": "13/08/2026 às 23:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 66,
@@ -2184,17 +2184,31 @@
     },
     {
       "name": "Welljacob",
-      "level": 1867,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 23:11 (Brasília)"
+        }
+      ]
     }
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Welljacob",
+      "resets_total": 40,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
     {
       "name": "Albatrozz",
       "resets_total": 70,
@@ -2621,6 +2635,12 @@
           "online": true
         },
         {
+          "name": "Welljacob",
+          "value": 40,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Flam Ham Bum",
           "value": 39,
           "vocation": "Master Sorcerer",
@@ -2631,12 +2651,6 @@
           "value": 39,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Welljacob",
-          "value": 39,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -2925,12 +2939,6 @@
           "value": 1997,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "Welljacob",
-          "value": 1867,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lukitas Brokenzada",
@@ -3792,7 +3800,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 23:10 (Brasília)",
+    "updated_at": "13/08/2026 às 23:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27236,7 +27244,7 @@
         "Vitao The Trader": 22,
         "Voidshot": 60,
         "VukVuk": 50,
-        "Welljacob": 39
+        "Welljacob": 40
       },
       "snapshots": {
         "2026-08-07-00": {
@@ -37181,7 +37189,7 @@
           "Vitao The Trader": 22,
           "Voidshot": 60,
           "VukVuk": 50,
-          "Welljacob": 39
+          "Welljacob": 40
         }
       },
       "events": [
@@ -40019,6 +40027,13 @@
           "gained": 1,
           "timestamp": "13/08/2026 às 22:53 (Brasília)",
           "hour_key": "2026-08-13-22"
+        },
+        {
+          "name": "Welljacob",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 23:11 (Brasília)",
+          "hour_key": "2026-08-13-23"
         }
       ]
     },
@@ -40873,12 +40888,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 66,
-      "total_current": 3283,
-      "resets_today": 0,
+      "total_current": 3284,
+      "resets_today": 1,
       "resets_week": 41,
       "resets_month": 0,
       "resets_lifetime": 45,
-      "avg_per_player": 49.7
+      "avg_per_player": 49.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
