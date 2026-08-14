@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 23:42 (Brasília)",
+  "updated_at": "13/08/2026 às 23:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -758,7 +758,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 2000,
+      "level": 1998,
       "resets": 37,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2861,12 +2861,6 @@
           "online": true
         },
         {
-          "name": "Ethernal Pally",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -2936,6 +2930,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Ethernal Pally",
+          "value": 1998,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3828,7 +3828,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 23:42 (Brasília)",
+    "updated_at": "13/08/2026 às 23:43 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26763,6 +26763,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 13, 2026 23:43",
+      "player": "Ethernal Pally",
+      "level": 2000,
+      "killedBy": "Monkchia",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 13, 2026 23:39",
       "player": "Welljacob",
       "level": 589,
@@ -27227,15 +27236,6 @@
       "level": 2000,
       "killedBy": "Nutellinha Druid",
       "maiorDano": "Atreus Oldking",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 13, 2026 00:49",
-      "player": "Its Gui",
-      "level": 2001,
-      "killedBy": "Atreus Oldking",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
