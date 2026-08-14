@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 20:17 (Brasília)",
+  "updated_at": "14/08/2026 às 20:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -1561,8 +1561,8 @@
     },
     {
       "name": "MekZera",
-      "level": 2014,
-      "resets": 62,
+      "level": 8,
+      "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1672,6 +1672,11 @@
           "resets": 62,
           "gained": 1,
           "timestamp": "09/08/2026 às 18:57 (Brasília)"
+        },
+        {
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 20:18 (Brasília)"
         }
       ]
     },
@@ -2273,6 +2278,14 @@
       "online": true
     },
     {
+      "name": "MekZera",
+      "resets_total": 63,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 58,
       "resets_today": 1,
@@ -2409,14 +2422,6 @@
       "online": false
     },
     {
-      "name": "MekZera",
-      "resets_total": 62,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Rusha Rp",
       "resets_total": 65,
       "resets_today": 0,
@@ -2498,6 +2503,12 @@
           "online": false
         },
         {
+          "name": "MekZera",
+          "value": 63,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 62,
           "vocation": "Elite Knight",
@@ -2505,12 +2516,6 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 62,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "MekZera",
           "value": 62,
           "vocation": "Royal Paladin",
           "online": true
@@ -2842,12 +2847,6 @@
         {
           "name": "Rusha Rp",
           "value": 2016,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "MekZera",
-          "value": 2014,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3903,7 +3902,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 20:17 (Brasília)",
+    "updated_at": "14/08/2026 às 20:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27254,7 +27253,7 @@
         "Lougon Baiakeiro": 33,
         "Luiscrazynear": 45,
         "Lukitas Brokenzada": 41,
-        "MekZera": 62,
+        "MekZera": 63,
         "Melbiss": 58,
         "Monstro Das Criptos": 59,
         "Mugunza": 56,
@@ -37363,7 +37362,7 @@
           "Lougon Baiakeiro": 33,
           "Luiscrazynear": 45,
           "Lukitas Brokenzada": 41,
-          "MekZera": 62,
+          "MekZera": 63,
           "Melbiss": 58,
           "Monstro Das Criptos": 59,
           "Mugunza": 56,
@@ -40188,6 +40187,13 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 18:38 (Brasília)",
           "hour_key": "2026-08-14-18"
+        },
+        {
+          "name": "MekZera",
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 20:18 (Brasília)",
+          "hour_key": "2026-08-14-20"
         }
       ]
     },
@@ -41042,12 +41048,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3339,
-      "resets_today": 12,
-      "resets_week": 44,
+      "total_current": 3340,
+      "resets_today": 13,
+      "resets_week": 45,
       "resets_month": 0,
-      "resets_lifetime": 44,
-      "avg_per_player": 49.8
+      "resets_lifetime": 45,
+      "avg_per_player": 49.9
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
