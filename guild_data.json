@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 12:39 (Brasília)",
+  "updated_at": "14/08/2026 às 12:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -743,13 +743,19 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 2000,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 12:40 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Feijao Baiakeironato",
@@ -2196,6 +2202,14 @@
       "online": true
     },
     {
+      "name": "Ethernal Pally",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 58,
       "resets_today": 1,
@@ -2661,6 +2675,12 @@
           "online": true
         },
         {
+          "name": "Ethernal Pally",
+          "value": 38,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lotus Lothbrook",
           "value": 38,
           "vocation": "Royal Paladin",
@@ -2675,12 +2695,6 @@
         {
           "name": "Snowzeraah",
           "value": 38,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ethernal Pally",
-          "value": 37,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2856,12 +2870,6 @@
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Ethernal Pally",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3826,7 +3834,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 12:39 (Brasília)",
+    "updated_at": "14/08/2026 às 12:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27209,7 +27217,7 @@
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
-        "Ethernal Pally": 37,
+        "Ethernal Pally": 38,
         "Feijao Baiakeironato": 54,
         "Flam Ham Bum": 39,
         "Flecha Fofa": 60,
@@ -37257,7 +37265,7 @@
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
-          "Ethernal Pally": 37,
+          "Ethernal Pally": 38,
           "Feijao Baiakeironato": 54,
           "Flam Ham Bum": 39,
           "Flecha Fofa": 60,
@@ -40055,6 +40063,13 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 11:02 (Brasília)",
           "hour_key": "2026-08-14-11"
+        },
+        {
+          "name": "Ethernal Pally",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 12:40 (Brasília)",
+          "hour_key": "2026-08-14-12"
         }
       ]
     },
@@ -40909,8 +40924,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3332,
-      "resets_today": 5,
+      "total_current": 3333,
+      "resets_today": 6,
       "resets_week": 43,
       "resets_month": 0,
       "resets_lifetime": 45,
