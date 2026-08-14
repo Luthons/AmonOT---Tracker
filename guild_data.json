@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 00:16 (Brasília)",
+  "updated_at": "14/08/2026 às 00:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -384,7 +384,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
+      "level": 1997,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1121,7 +1121,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1377,
+      "level": 1380,
       "resets": 56,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3047,12 +3047,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3170,6 +3164,12 @@
           "name": "Cerebro",
           "value": 1997,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3294,7 +3294,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1377,
+          "value": 1380,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4056,7 +4056,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 00:15 (Brasília)",
+    "updated_at": "14/08/2026 às 00:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26990,6 +26990,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 14, 2026 00:17",
+      "player": "Kashambao",
+      "level": 1381,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 14, 2026 00:11",
       "player": "Ntka",
