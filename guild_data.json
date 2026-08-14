@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 21:53 (Brasília)",
+  "updated_at": "13/08/2026 às 21:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 65,
@@ -576,7 +576,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1743,
+      "level": 1746,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -826,7 +826,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2843,12 +2843,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -2915,6 +2909,12 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Lougon Baiakeiro",
           "value": 1997,
           "vocation": "Master Sorcerer",
@@ -2970,7 +2970,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1743,
+          "value": 1746,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3804,7 +3804,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 21:53 (Brasília)",
+    "updated_at": "13/08/2026 às 21:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26738,6 +26738,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 13, 2026 21:53",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 13, 2026 21:53",
       "player": "Boltfly Peoplecry",
