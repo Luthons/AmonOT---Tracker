@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 14:43 (Brasília)",
+  "updated_at": "14/08/2026 às 14:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -2094,8 +2094,8 @@
     },
     {
       "name": "Snowzeraah",
-      "level": 1000,
-      "resets": 38,
+      "level": 8,
+      "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2105,6 +2105,11 @@
           "resets": 38,
           "gained": 1,
           "timestamp": "14/08/2026 às 11:02 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 14:44 (Brasília)"
         }
       ]
     },
@@ -2194,6 +2199,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Snowzeraah",
+      "resets_total": 39,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Boltfly Peoplecry",
       "resets_total": 45,
       "resets_today": 1,
@@ -2220,14 +2233,6 @@
     {
       "name": "Rofmao",
       "resets_total": 45,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Snowzeraah",
-      "resets_total": 38,
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Royal Paladin",
@@ -2669,6 +2674,12 @@
           "online": true
         },
         {
+          "name": "Snowzeraah",
+          "value": 39,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Thats My Way",
           "value": 39,
           "vocation": "Master Sorcerer",
@@ -2688,12 +2699,6 @@
         },
         {
           "name": "Rp Terror",
-          "value": 38,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Snowzeraah",
           "value": 38,
           "vocation": "Royal Paladin",
           "online": true
@@ -3140,12 +3145,6 @@
           "name": "Flam Ham Bum",
           "value": 1003,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Snowzeraah",
-          "value": 1000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3840,7 +3839,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 14:43 (Brasília)",
+    "updated_at": "14/08/2026 às 14:44 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27242,7 +27241,7 @@
         "Rofmao": 45,
         "Rp Terror": 38,
         "Rusha Rp": 65,
-        "Snowzeraah": 38,
+        "Snowzeraah": 39,
         "Tadala De Cinco": 61,
         "Thats My Way": 39,
         "Ultimate Warrior": 25,
@@ -37306,7 +37305,7 @@
           "Rofmao": 45,
           "Rp Terror": 38,
           "Rusha Rp": 65,
-          "Snowzeraah": 38,
+          "Snowzeraah": 39,
           "Tadala De Cinco": 61,
           "Thats My Way": 39,
           "Ultimate Warrior": 25,
@@ -40074,6 +40073,13 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 12:41 (Brasília)",
           "hour_key": "2026-08-14-12"
+        },
+        {
+          "name": "Snowzeraah",
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 14:44 (Brasília)",
+          "hour_key": "2026-08-14-14"
         }
       ]
     },
@@ -40928,12 +40934,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3333,
-      "resets_today": 6,
+      "total_current": 3334,
+      "resets_today": 7,
       "resets_week": 43,
       "resets_month": 0,
       "resets_lifetime": 45,
-      "avg_per_player": 49.7
+      "avg_per_player": 49.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
