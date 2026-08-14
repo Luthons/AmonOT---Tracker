@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/08/2026 às 22:52 (Brasília)",
+  "updated_at": "13/08/2026 às 22:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -505,7 +505,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1694,
+      "level": 1703,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1164,7 +1164,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1630,
+      "level": 1829,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1824,13 +1824,19 @@
     },
     {
       "name": "Mugunza",
-      "level": 1901,
-      "resets": 55,
+      "level": 8,
+      "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 22:53 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Nino",
@@ -2050,7 +2056,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1060,
+      "level": 1439,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2515,15 +2521,15 @@
           "online": true
         },
         {
-          "name": "Kolwaski",
-          "value": 55,
-          "vocation": "Royal Paladin",
+          "name": "Mugunza",
+          "value": 56,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Mugunza",
+          "name": "Kolwaski",
           "value": 55,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2941,12 +2947,6 @@
           "online": true
         },
         {
-          "name": "Mugunza",
-          "value": 1901,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Affey",
           "value": 1898,
           "vocation": "Royal Paladin",
@@ -2971,6 +2971,12 @@
           "online": false
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 1829,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1816,
           "vocation": "Elder Druid",
@@ -2990,7 +2996,7 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1694,
+          "value": 1703,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3011,12 +3017,6 @@
           "value": 1656,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 1630,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Haony",
@@ -3053,6 +3053,12 @@
           "value": 1462,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Rofmao",
+          "value": 1439,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "palinhp",
@@ -3100,12 +3106,6 @@
           "name": "padim ed",
           "value": 1076,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Rofmao",
-          "value": 1060,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3830,7 +3830,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/08/2026 às 22:52 (Brasília)",
+    "updated_at": "13/08/2026 às 22:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27247,7 +27247,7 @@
         "MekZera": 62,
         "Melbiss": 57,
         "Monstro Das Criptos": 59,
-        "Mugunza": 55,
+        "Mugunza": 56,
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 29,
@@ -37184,7 +37184,7 @@
           "MekZera": 62,
           "Melbiss": 57,
           "Monstro Das Criptos": 59,
-          "Mugunza": 55,
+          "Mugunza": 56,
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 29,
@@ -40034,6 +40034,13 @@
           "gained": 1,
           "timestamp": "13/08/2026 às 21:44 (Brasília)",
           "hour_key": "2026-08-13-21"
+        },
+        {
+          "name": "Mugunza",
+          "resets": 56,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 22:53 (Brasília)",
+          "hour_key": "2026-08-13-22"
         }
       ]
     },
@@ -40888,7 +40895,7 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3314,
+      "total_current": 3315,
       "resets_today": 0,
       "resets_week": 41,
       "resets_month": 0,
