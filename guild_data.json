@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 00:14 (Brasília)",
+  "updated_at": "14/08/2026 às 00:15 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -530,8 +530,8 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1866,
-      "resets": 44,
+      "level": 8,
+      "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -556,6 +556,11 @@
           "resets": 44,
           "gained": 1,
           "timestamp": "12/08/2026 às 11:55 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 00:15 (Brasília)"
         }
       ]
     },
@@ -2167,6 +2172,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Boltfly Peoplecry",
+      "resets_total": 45,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Welljacob",
       "resets_total": 40,
       "resets_today": 1,
@@ -2211,14 +2224,6 @@
       "resets_total": 65,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Boltfly Peoplecry",
-      "resets_total": 44,
-      "resets_today": 0,
-      "resets_week": 2,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2559,7 +2564,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 44,
+          "value": 45,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2908,12 +2913,6 @@
         {
           "name": "Ntka",
           "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 1866,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3789,7 +3788,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 00:14 (Brasília)",
+    "updated_at": "14/08/2026 às 00:15 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27173,7 +27172,7 @@
         "Amelior": 53,
         "Baiakudinho": 65,
         "Boingbringer": 30,
-        "Boltfly Peoplecry": 44,
+        "Boltfly Peoplecry": 45,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
@@ -37127,7 +37126,7 @@
           "Amelior": 53,
           "Baiakudinho": 65,
           "Boingbringer": 30,
-          "Boltfly Peoplecry": 44,
+          "Boltfly Peoplecry": 45,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
@@ -39905,6 +39904,13 @@
           "gained": 1,
           "timestamp": "13/08/2026 às 23:11 (Brasília)",
           "hour_key": "2026-08-13-23"
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 00:15 (Brasília)",
+          "hour_key": "2026-08-14-00"
         }
       ]
     },
@@ -40759,11 +40765,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3328,
-      "resets_today": 1,
-      "resets_week": 41,
+      "total_current": 3329,
+      "resets_today": 2,
+      "resets_week": 42,
       "resets_month": 0,
-      "resets_lifetime": 45,
+      "resets_lifetime": 46,
       "avg_per_player": 49.7
     },
     "enemy_guild": {
