@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "14/08/2026 às 07:59 (Brasília)",
+  "updated_at": "14/08/2026 às 08:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -1656,8 +1656,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 2000,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1722,6 +1722,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "11/08/2026 às 23:08 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 08:00 (Brasília)"
         }
       ]
     },
@@ -2180,6 +2185,14 @@
       "online": true
     },
     {
+      "name": "Melbiss",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Welljacob",
       "resets_total": 40,
       "resets_today": 1,
@@ -2297,14 +2310,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2462,7 +2467,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 57,
+          "value": 58,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2842,12 +2847,6 @@
           "name": "Lougon Baiakeiro",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Melbiss",
-          "value": 2000,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3794,7 +3793,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "14/08/2026 às 07:59 (Brasília)",
+    "updated_at": "14/08/2026 às 08:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27308,7 +27307,7 @@
         "Luiscrazynear": 44,
         "Lukitas Brokenzada": 41,
         "MekZera": 62,
-        "Melbiss": 57,
+        "Melbiss": 58,
         "Monstro Das Criptos": 59,
         "Mugunza": 56,
         "Nino": 53,
@@ -27332,68 +27331,6 @@
         "Welljacob": 40
       },
       "snapshots": {
-        "2026-08-07-08": {
-          "Dmonick Hahaha": 60,
-          "Gizao": 61,
-          "Yagoodz Hahaha": 70,
-          "Akronus": 63,
-          "Albatrozz": 68,
-          "Cerebro": 62,
-          "Dmonick": 60,
-          "Magabela": 57,
-          "Punish Claude": 53,
-          "Teylera Rp": 62,
-          "Achilles": 18,
-          "Adolph Healer": 20,
-          "Affey": 32,
-          "Baiakudinho": 62,
-          "Boingbringer": 30,
-          "Boltfly Peoplecry": 42,
-          "Brunao Rei Denovo": 31,
-          "Brunaobringer": 50,
-          "Cheiro Dpneu": 41,
-          "Deca com Testo": 32,
-          "Dvn Luktzeraah": 50,
-          "El Diablo": 71,
-          "Elder Lougon": 25,
-          "Forsa Sem Futuro": 58,
-          "Gokuu": 60,
-          "Guidao Palao": 54,
-          "Haony": 56,
-          "Henrique": 52,
-          "Henrique Arqueiro": 51,
-          "Its Gui": 44,
-          "Jhonnys Trembolizado": 94,
-          "Jishuka": 61,
-          "Kev": 32,
-          "Kiel": 65,
-          "Kolwaski": 53,
-          "Lilian Faithkeeper": 44,
-          "Lipe Knight": 62,
-          "Loks": 56,
-          "Lotus Lothbrook": 36,
-          "Lougon Baiakeiro": 33,
-          "Lukitas Brokenzada": 41,
-          "Lulamolusco": 40,
-          "MekZera": 61,
-          "Melbiss": 54,
-          "Monstro Das Criptos": 59,
-          "Nidaria Mayo": 51,
-          "Nino": 53,
-          "Ntka": 57,
-          "Pally Tetss": 55,
-          "Pedim Kitbota": 59,
-          "Pestinha": 42,
-          "Php Eruim": 61,
-          "Royal Sniper": 61,
-          "Rp Terror": 38,
-          "Rusha Rp": 63,
-          "Teko News": 64,
-          "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 45,
-          "Vitao The Trader": 22,
-          "VukVuk": 50
-        },
         "2026-08-07-09": {
           "Dmonick Hahaha": 60,
           "Gizao": 61,
@@ -37340,6 +37277,75 @@
           "Voidshot": 60,
           "VukVuk": 50,
           "Welljacob": 40
+        },
+        "2026-08-14-08": {
+          "Albatrozz": 70,
+          "Gizao": 61,
+          "Akronus": 68,
+          "Cerebro": 62,
+          "Jhonnys Trembolizado": 94,
+          "Magabela": 60,
+          "Teylera Rp": 62,
+          "Yagoodz Hahaha": 70,
+          "Achilles": 18,
+          "Adolph Healer": 20,
+          "Albatroz": 54,
+          "Amelior": 53,
+          "Baiakudinho": 65,
+          "Boingbringer": 30,
+          "Boltfly Peoplecry": 45,
+          "Brunao Rei Denovo": 31,
+          "Brunaobringer": 50,
+          "Coriinga": 64,
+          "Dede Knight": 44,
+          "Ed Da Deepweb": 50,
+          "El Diablo": 71,
+          "Elder Lougon": 25,
+          "Ethernal Pally": 37,
+          "Feijao Baiakeironato": 54,
+          "Flam Ham Bum": 39,
+          "Flecha Fofa": 60,
+          "Gokuu": 60,
+          "Haony": 58,
+          "HEFESTO": 40,
+          "Henrique Arqueiro": 51,
+          "Hurtles Ownsz": 24,
+          "Its Gui": 44,
+          "Jishuka": 66,
+          "Kashambao": 56,
+          "Kev": 34,
+          "Kiel": 65,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 46,
+          "Lipe Knight": 67,
+          "Loks": 60,
+          "Lotus Lothbrook": 38,
+          "Lougon Baiakeiro": 33,
+          "Luiscrazynear": 44,
+          "Lukitas Brokenzada": 41,
+          "MekZera": 62,
+          "Melbiss": 58,
+          "Monstro Das Criptos": 59,
+          "Mugunza": 56,
+          "Nino": 53,
+          "Ntka": 57,
+          "Obrabo": 29,
+          "padim ed": 33,
+          "palinhp": 53,
+          "Pally Tetss": 55,
+          "Pestinha": 42,
+          "Punish Claude": 53,
+          "Rofmao": 44,
+          "Rp Terror": 38,
+          "Rusha Rp": 65,
+          "Snowzeraah": 37,
+          "Tadala De Cinco": 61,
+          "Thats My Way": 39,
+          "Ultimate Warrior": 25,
+          "Vitao The Trader": 22,
+          "Voidshot": 60,
+          "VukVuk": 50,
+          "Welljacob": 40
         }
       },
       "events": [
@@ -40072,13 +40078,19 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 00:16 (Brasília)",
           "hour_key": "2026-08-14-00"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "14/08/2026 às 08:00 (Brasília)",
+          "hour_key": "2026-08-14-08"
         }
       ]
     },
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-07-08": {},
         "2026-08-07-09": {},
         "2026-08-07-10": {},
         "2026-08-07-11": {},
@@ -40245,7 +40257,8 @@
         "2026-08-14-04": {},
         "2026-08-14-05": {},
         "2026-08-14-06": {},
-        "2026-08-14-07": {}
+        "2026-08-14-07": {},
+        "2026-08-14-08": {}
       },
       "events": []
     },
@@ -40926,11 +40939,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 67,
-      "total_current": 3329,
-      "resets_today": 2,
-      "resets_week": 42,
+      "total_current": 3330,
+      "resets_today": 3,
+      "resets_week": 43,
       "resets_month": 0,
-      "resets_lifetime": 46,
+      "resets_lifetime": 45,
       "avg_per_player": 49.7
     },
     "enemy_guild": {
