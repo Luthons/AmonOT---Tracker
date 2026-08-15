@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/08/2026 às 14:45 (Brasília)",
+  "updated_at": "15/08/2026 às 14:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -867,8 +867,8 @@
     },
     {
       "name": "Haony",
-      "level": 2015,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -883,6 +883,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "12/08/2026 às 12:26 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 14:46 (Brasília)"
         }
       ]
     },
@@ -2259,6 +2264,14 @@
       "online": true
     },
     {
+      "name": "Haony",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Hurtles Ownsz",
       "resets_total": 25,
       "resets_today": 1,
@@ -2335,14 +2348,6 @@
       "resets_total": 45,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Haony",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2566,16 +2571,16 @@
           "online": true
         },
         {
+          "name": "Haony",
+          "value": 59,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 59,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Haony",
-          "value": 58,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Melbiss",
@@ -2856,12 +2861,6 @@
         {
           "name": "Rusha Rp",
           "value": 2016,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 2015,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3917,7 +3916,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/08/2026 às 14:45 (Brasília)",
+    "updated_at": "15/08/2026 às 14:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27332,7 +27331,7 @@
         "Flam Ham Bum": 40,
         "Flecha Fofa": 60,
         "Gokuu": 60,
-        "Haony": 58,
+        "Haony": 59,
         "HEFESTO": 40,
         "Henrique Arqueiro": 51,
         "Hurtles Ownsz": 25,
@@ -37601,7 +37600,7 @@
           "Flam Ham Bum": 40,
           "Flecha Fofa": 60,
           "Gokuu": 60,
-          "Haony": 58,
+          "Haony": 59,
           "HEFESTO": 40,
           "Henrique Arqueiro": 51,
           "Hurtles Ownsz": 25,
@@ -40430,6 +40429,13 @@
           "gained": 1,
           "timestamp": "15/08/2026 às 14:36 (Brasília)",
           "hour_key": "2026-08-15-14"
+        },
+        {
+          "name": "Haony",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 14:46 (Brasília)",
+          "hour_key": "2026-08-15-14"
         }
       ]
     },
@@ -41284,11 +41290,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3406,
-      "resets_today": 5,
-      "resets_week": 37,
+      "total_current": 3407,
+      "resets_today": 6,
+      "resets_week": 38,
       "resets_month": 0,
-      "resets_lifetime": 41,
+      "resets_lifetime": 42,
       "avg_per_player": 50.1
     },
     "enemy_guild": {
