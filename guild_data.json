@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/08/2026 às 18:45 (Brasília)",
+  "updated_at": "15/08/2026 às 18:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 67,
@@ -748,7 +748,7 @@
     },
     {
       "name": "Feijao Baiakeironato",
-      "level": 2000,
+      "level": 1997,
       "resets": 54,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2035,7 +2035,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1084,
+      "level": 1085,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2950,12 +2950,6 @@
           "online": true
         },
         {
-          "name": "Feijao Baiakeironato",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Flecha Fofa",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3037,6 +3031,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Feijao Baiakeironato",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3179,7 +3179,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 1084,
+          "value": 1085,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3899,7 +3899,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/08/2026 às 18:45 (Brasília)",
+    "updated_at": "15/08/2026 às 18:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26833,6 +26833,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 15, 2026 18:46",
+      "player": "Rofmao",
+      "level": 1086,
+      "killedBy": "Tajuquinha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 15, 2026 18:45",
+      "player": "Feijao Baiakeironato",
+      "level": 2000,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 15, 2026 14:15",
       "player": "Rofmao",
