@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/08/2026 às 10:30 (Brasília)",
+  "updated_at": "15/08/2026 às 10:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -2035,8 +2035,8 @@
     },
     {
       "name": "Rofmao",
-      "level": 1609,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2051,6 +2051,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "14/08/2026 às 10:34 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 10:31 (Brasília)"
         }
       ]
     },
@@ -2231,6 +2236,14 @@
     {
       "name": "Kashambao",
       "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Rofmao",
+      "resets_total": 46,
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Royal Paladin",
@@ -2626,6 +2639,12 @@
           "online": true
         },
         {
+          "name": "Rofmao",
+          "value": 46,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boltfly Peoplecry",
           "value": 45,
           "vocation": "Royal Paladin",
@@ -2641,12 +2660,6 @@
           "name": "Luiscrazynear",
           "value": 45,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Rofmao",
-          "value": 45,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3084,12 +3097,6 @@
         {
           "name": "Welljacob",
           "value": 1651,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Rofmao",
-          "value": 1609,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3863,7 +3870,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/08/2026 às 10:30 (Brasília)",
+    "updated_at": "15/08/2026 às 10:31 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27290,7 +27297,7 @@
         "Pally Tetss": 55,
         "Pestinha": 42,
         "Punish Claude": 53,
-        "Rofmao": 45,
+        "Rofmao": 46,
         "Rp Terror": 38,
         "Rusha Rp": 65,
         "Snowzeraah": 39,
@@ -37523,7 +37530,7 @@
           "Pally Tetss": 55,
           "Pestinha": 42,
           "Punish Claude": 53,
-          "Rofmao": 45,
+          "Rofmao": 46,
           "Rp Terror": 38,
           "Rusha Rp": 65,
           "Snowzeraah": 39,
@@ -40294,6 +40301,13 @@
           "gained": 1,
           "timestamp": "15/08/2026 às 03:08 (Brasília)",
           "hour_key": "2026-08-15-03"
+        },
+        {
+          "name": "Rofmao",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 10:31 (Brasília)",
+          "hour_key": "2026-08-15-10"
         }
       ]
     },
@@ -41148,8 +41162,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3402,
-      "resets_today": 1,
+      "total_current": 3403,
+      "resets_today": 2,
       "resets_week": 37,
       "resets_month": 0,
       "resets_lifetime": 41,
