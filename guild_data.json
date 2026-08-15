@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "15/08/2026 às 03:07 (Brasília)",
+  "updated_at": "15/08/2026 às 03:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -989,8 +989,8 @@
     },
     {
       "name": "Kashambao",
-      "level": 1760,
-      "resets": 56,
+      "level": 8,
+      "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1010,6 +1010,11 @@
           "resets": 56,
           "gained": 1,
           "timestamp": "13/08/2026 às 21:14 (Brasília)"
+        },
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 03:08 (Brasília)"
         }
       ]
     },
@@ -2224,6 +2229,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Kashambao",
+      "resets_total": 57,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Albatrozz",
       "resets_total": 70,
       "resets_today": 0,
@@ -2517,14 +2530,14 @@
           "online": true
         },
         {
-          "name": "Ntka",
+          "name": "Kashambao",
           "value": 57,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Kashambao",
-          "value": 56,
+          "name": "Ntka",
+          "value": 57,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3030,12 +3043,6 @@
           "name": "Ed Da Deepweb",
           "value": 1801,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 1760,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3850,7 +3857,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "15/08/2026 às 03:07 (Brasília)",
+    "updated_at": "15/08/2026 às 03:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27253,7 +27260,7 @@
         "Hurtles Ownsz": 24,
         "Its Gui": 44,
         "Jishuka": 66,
-        "Kashambao": 56,
+        "Kashambao": 57,
         "Kawik": 60,
         "Kev": 34,
         "Kiel": 65,
@@ -37423,7 +37430,7 @@
           "Hurtles Ownsz": 24,
           "Its Gui": 44,
           "Jishuka": 66,
-          "Kashambao": 56,
+          "Kashambao": 57,
           "Kawik": 60,
           "Kev": 34,
           "Kiel": 65,
@@ -40211,6 +40218,13 @@
           "gained": 1,
           "timestamp": "14/08/2026 às 20:57 (Brasília)",
           "hour_key": "2026-08-14-20"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "15/08/2026 às 03:08 (Brasília)",
+          "hour_key": "2026-08-15-03"
         }
       ]
     },
@@ -41065,8 +41079,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3401,
-      "resets_today": 0,
+      "total_current": 3402,
+      "resets_today": 1,
       "resets_week": 37,
       "resets_month": 0,
       "resets_lifetime": 42,
