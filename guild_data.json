@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:47 (Brasília)",
+  "updated_at": "16/08/2026 às 19:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -580,7 +580,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 851,
+      "level": 950,
       "resets": 46,
       "vocation": "Elite Knight",
       "nick": "",
@@ -764,7 +764,7 @@
     },
     {
       "name": "Fearless",
-      "level": 1992,
+      "level": 1991,
       "resets": 61,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3162,7 +3162,7 @@
         },
         {
           "name": "Fearless",
-          "value": 1992,
+          "value": 1991,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3305,6 +3305,12 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 950,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Hurtles Ownsz",
           "value": 898,
           "vocation": "Exalted Monk",
@@ -3325,12 +3331,6 @@
         {
           "name": "Obrabo",
           "value": 860,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Dede Knight",
-          "value": 851,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4026,7 +4026,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:47 (Brasília)",
+    "updated_at": "16/08/2026 às 19:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26961,6 +26961,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 19:48",
+      "player": "Fearless",
+      "level": 1992,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Lautaro Martinez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 19:45",
       "player": "Akronus",
       "level": 1994,
@@ -26980,18 +26989,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27227,6 +27236,15 @@
       "level": 2000,
       "killedBy": "Killua",
       "maiorDano": "Amelior",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 18:40",
+      "player": "Its Gui",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27483,6 +27501,15 @@
       "isPvp": true
     },
     {
+      "time": "Aug 15, 2026 19:11",
+      "player": "Elder Lougon",
+      "level": 1847,
+      "killedBy": "Forsa Sem Futuro",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 15, 2026 19:06",
       "player": "Kashambao",
       "level": 1408,
@@ -27532,15 +27559,6 @@
       "player": "Boltfly Peoplecry",
       "level": 1798,
       "killedBy": "Only Cash",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 11:23",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Nutellinha Druid",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
