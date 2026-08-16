@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 20:10 (Brasília)",
+  "updated_at": "16/08/2026 às 20:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -371,7 +371,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1992,
+      "level": 2000,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2987,6 +2987,12 @@
           "online": true
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -3135,12 +3141,6 @@
           "value": 1994,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Yagoodz Hahaha",
-          "value": 1992,
-          "vocation": "Elite Knight",
-          "online": false
         },
         {
           "name": "Jhonnys Trembolizado",
@@ -4032,7 +4032,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 20:10 (Brasília)",
+    "updated_at": "16/08/2026 às 20:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26967,6 +26967,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 20:11",
+      "player": "Yagoodz Hahaha",
+      "level": 2003,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 20:03",
       "player": "Flecha Fofa",
       "level": 1981,
@@ -27049,18 +27058,18 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Jhonnys Trembolizado",
-      "level": 1994,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Haony",
+      "level": 1580,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27274,18 +27283,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27382,18 +27391,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27427,15 +27436,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Fearless",
       "level": 1995,
       "killedBy": "Lautaro Martinez",
@@ -27454,9 +27454,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27467,6 +27467,15 @@
       "level": 1994,
       "killedBy": "Panuto Hahaha",
       "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27880,15 +27889,6 @@
       "player": "Elder Lougon",
       "level": 1847,
       "killedBy": "Forsa Sem Futuro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 19:06",
-      "player": "Kashambao",
-      "level": 1408,
-      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
