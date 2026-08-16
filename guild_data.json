@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 15:10 (Brasília)",
+  "updated_at": "16/08/2026 às 15:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1896,7 +1896,7 @@
     },
     {
       "name": "Ntka",
-      "level": 2000,
+      "level": 1998,
       "resets": 57,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3058,12 +3058,6 @@
           "online": true
         },
         {
-          "name": "Ntka",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Pally Tetss",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3089,6 +3083,12 @@
         },
         {
           "name": "Baiakudinho",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Ntka",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3941,7 +3941,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 15:10 (Brasília)",
+    "updated_at": "16/08/2026 às 15:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26875,6 +26875,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 16, 2026 15:10",
+      "player": "Ntka",
+      "level": 2000,
+      "killedBy": "Only Cash",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 16, 2026 15:08",
       "player": "Mugunza",
