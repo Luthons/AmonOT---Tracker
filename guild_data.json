@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 14:31 (Brasília)",
+  "updated_at": "16/08/2026 às 14:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1906,8 +1906,8 @@
     },
     {
       "name": "Obrabo",
-      "level": 1715,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1917,6 +1917,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "11/08/2026 às 21:57 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 14:32 (Brasília)"
         }
       ]
     },
@@ -2331,6 +2336,14 @@
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Elder Druid",
+      "online": true
+    },
+    {
+      "name": "Obrabo",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2812,7 +2825,7 @@
         },
         {
           "name": "Obrabo",
-          "value": 29,
+          "value": 30,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3103,12 +3116,6 @@
           "value": 1848,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Obrabo",
-          "value": 1715,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Welljacob",
@@ -3928,7 +3935,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 14:31 (Brasília)",
+    "updated_at": "16/08/2026 às 14:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27412,7 +27419,7 @@
         "Mugunza": 56,
         "Nino": 53,
         "Ntka": 57,
-        "Obrabo": 29,
+        "Obrabo": 30,
         "padim ed": 35,
         "palinhp": 53,
         "Pally Tetss": 55,
@@ -37965,7 +37972,7 @@
           "Mugunza": 56,
           "Nino": 53,
           "Ntka": 57,
-          "Obrabo": 29,
+          "Obrabo": 30,
           "padim ed": 35,
           "palinhp": 53,
           "Pally Tetss": 55,
@@ -40784,6 +40791,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 12:42 (Brasília)",
           "hour_key": "2026-08-16-12"
+        },
+        {
+          "name": "Obrabo",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 14:32 (Brasília)",
+          "hour_key": "2026-08-16-14"
         }
       ]
     },
@@ -41638,8 +41652,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3411,
-      "resets_today": 9,
+      "total_current": 3412,
+      "resets_today": 10,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 37,
