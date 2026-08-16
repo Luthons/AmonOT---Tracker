@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 15:12 (Brasília)",
+  "updated_at": "16/08/2026 às 15:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1041,13 +1041,19 @@
     },
     {
       "name": "Kawik",
-      "level": 2005,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 15:13 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Kev",
@@ -2315,6 +2321,14 @@
       "online": true
     },
     {
+      "name": "Kawik",
+      "resets_total": 61,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 68,
       "resets_today": 1,
@@ -2560,6 +2574,12 @@
           "online": true
         },
         {
+          "name": "Kawik",
+          "value": 61,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Flecha Fofa",
           "value": 60,
           "vocation": "Royal Paladin",
@@ -2569,12 +2589,6 @@
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kawik",
-          "value": 60,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -2888,12 +2902,6 @@
           "value": 2008,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kawik",
-          "value": 2005,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -3941,7 +3949,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 15:12 (Brasília)",
+    "updated_at": "16/08/2026 às 15:13 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27399,7 +27407,7 @@
         "Its Gui": 44,
         "Jishuka": 66,
         "Kashambao": 58,
-        "Kawik": 60,
+        "Kawik": 61,
         "Kev": 34,
         "Kiel": 65,
         "Kolwaski": 55,
@@ -37964,7 +37972,7 @@
           "Its Gui": 44,
           "Jishuka": 66,
           "Kashambao": 58,
-          "Kawik": 60,
+          "Kawik": 61,
           "Kev": 34,
           "Kiel": 65,
           "Kolwaski": 55,
@@ -40807,6 +40815,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 14:32 (Brasília)",
           "hour_key": "2026-08-16-14"
+        },
+        {
+          "name": "Kawik",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 15:13 (Brasília)",
+          "hour_key": "2026-08-16-15"
         }
       ]
     },
@@ -41661,8 +41676,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3412,
-      "resets_today": 10,
+      "total_current": 3413,
+      "resets_today": 11,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 37,
