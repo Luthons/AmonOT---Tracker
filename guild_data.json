@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 12:12 (Brasília)",
+  "updated_at": "16/08/2026 às 12:13 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1912,8 +1912,8 @@
     },
     {
       "name": "padim ed",
-      "level": 1836,
-      "resets": 34,
+      "level": 8,
+      "resets": 35,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1933,6 +1933,11 @@
           "resets": 35,
           "gained": 1,
           "timestamp": "16/08/2026 às 10:33 (Brasília)"
+        },
+        {
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 12:13 (Brasília)"
         }
       ]
     },
@@ -2297,6 +2302,14 @@
     {
       "name": "Luiscrazynear",
       "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": false
+    },
+    {
+      "name": "padim ed",
+      "resets_total": 35,
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Elder Druid",
@@ -2758,15 +2771,15 @@
           "online": false
         },
         {
-          "name": "Kev",
-          "value": 34,
-          "vocation": "Royal Paladin",
+          "name": "padim ed",
+          "value": 35,
+          "vocation": "Elder Druid",
           "online": false
         },
         {
-          "name": "padim ed",
+          "name": "Kev",
           "value": 34,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -3090,12 +3103,6 @@
         {
           "name": "Lukitas Brokenzada",
           "value": 1848,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
-          "name": "padim ed",
-          "value": 1836,
           "vocation": "Elder Druid",
           "online": false
         },
@@ -3905,7 +3912,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 12:12 (Brasília)",
+    "updated_at": "16/08/2026 às 12:13 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27399,7 +27406,7 @@
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 29,
-        "padim ed": 34,
+        "padim ed": 35,
         "palinhp": 53,
         "Pally Tetss": 55,
         "Pestinha": 42,
@@ -37928,7 +37935,7 @@
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 29,
-          "padim ed": 34,
+          "padim ed": 35,
           "palinhp": 53,
           "Pally Tetss": 55,
           "Pestinha": 42,
@@ -40725,6 +40732,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 10:33 (Brasília)",
           "hour_key": "2026-08-16-10"
+        },
+        {
+          "name": "padim ed",
+          "resets": 35,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 12:13 (Brasília)",
+          "hour_key": "2026-08-16-12"
         }
       ]
     },
@@ -41579,8 +41593,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3408,
-      "resets_today": 6,
+      "total_current": 3409,
+      "resets_today": 7,
       "resets_week": 40,
       "resets_month": 0,
       "resets_lifetime": 36,
