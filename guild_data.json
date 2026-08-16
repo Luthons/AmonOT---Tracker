@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:28 (Brasília)",
+  "updated_at": "16/08/2026 às 19:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 68,
-  "online_count": 54,
+  "total_members": 69,
+  "online_count": 55,
   "offline_count": 14,
   "members": [
     {
@@ -761,6 +761,16 @@
           "timestamp": "14/08/2026 às 12:41 (Brasília)"
         }
       ]
+    },
+    {
+      "name": "Fearless",
+      "level": 1991,
+      "resets": 61,
+      "vocation": "Elder Druid",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
     },
     {
       "name": "Feijao Baiakeironato",
@@ -2624,6 +2634,12 @@
           "online": false
         },
         {
+          "name": "Fearless",
+          "value": 61,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Kawik",
           "value": 61,
           "vocation": "Elite Knight",
@@ -3143,6 +3159,12 @@
           "name": "Ntka",
           "value": 1997,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Fearless",
+          "value": 1991,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4005,7 +4027,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:28 (Brasília)",
+    "updated_at": "16/08/2026 às 19:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27380,6 +27402,7 @@
         "El Diablo": 71,
         "Elder Lougon": 25,
         "Ethernal Pally": 38,
+        "Fearless": 61,
         "Feijao Baiakeironato": 54,
         "Flam Ham Bum": 41,
         "Flecha Fofa": 60,
@@ -37996,6 +38019,7 @@
           "El Diablo": 71,
           "Elder Lougon": 25,
           "Ethernal Pally": 38,
+          "Fearless": 61,
           "Feijao Baiakeironato": 54,
           "Flam Ham Bum": 41,
           "Flecha Fofa": 60,
@@ -41745,13 +41769,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 68,
-      "total_current": 3418,
+      "num_members": 69,
+      "total_current": 3479,
       "resets_today": 16,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 44,
-      "avg_per_player": 50.3
+      "avg_per_player": 50.4
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
