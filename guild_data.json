@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 20:14 (Brasília)",
+  "updated_at": "16/08/2026 às 20:15 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -2304,8 +2304,8 @@
     },
     {
       "name": "Welljacob",
-      "level": 1714,
-      "resets": 40,
+      "level": 8,
+      "resets": 41,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2315,6 +2315,11 @@
           "resets": 40,
           "gained": 1,
           "timestamp": "13/08/2026 às 23:11 (Brasília)"
+        },
+        {
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 20:15 (Brasília)"
         }
       ]
     }
@@ -2448,6 +2453,14 @@
       "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": false
+    },
+    {
+      "name": "Welljacob",
+      "resets_total": 41,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
     },
     {
       "name": "Albatrozz",
@@ -2849,15 +2862,15 @@
           "online": false
         },
         {
-          "name": "Thats My Way",
-          "value": 40,
-          "vocation": "Master Sorcerer",
+          "name": "Welljacob",
+          "value": 41,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Welljacob",
+          "name": "Thats My Way",
           "value": 40,
-          "vocation": "Royal Paladin",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3217,12 +3230,6 @@
         {
           "name": "Rofmao",
           "value": 1766,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Welljacob",
-          "value": 1714,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4032,7 +4039,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 20:14 (Brasília)",
+    "updated_at": "16/08/2026 às 20:15 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27400,18 +27407,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27445,15 +27452,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27466,6 +27464,15 @@
       "player": "padim ed",
       "level": 1407,
       "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27974,7 +27981,7 @@
         "Vitao The Trader": 22,
         "Voidshot": 60,
         "VukVuk": 50,
-        "Welljacob": 40
+        "Welljacob": 41
       },
       "snapshots": {
         "2026-08-09-21": {
@@ -38604,7 +38611,7 @@
           "Vitao The Trader": 22,
           "Voidshot": 60,
           "VukVuk": 50,
-          "Welljacob": 40
+          "Welljacob": 41
         }
       },
       "events": [
@@ -41463,6 +41470,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 19:37 (Brasília)",
           "hour_key": "2026-08-16-19"
+        },
+        {
+          "name": "Welljacob",
+          "resets": 41,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 20:15 (Brasília)",
+          "hour_key": "2026-08-16-20"
         }
       ]
     },
@@ -42317,8 +42331,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3480,
-      "resets_today": 17,
+      "total_current": 3481,
+      "resets_today": 18,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 44,
