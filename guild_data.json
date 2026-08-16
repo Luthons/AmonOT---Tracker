@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 00:40 (Brasília)",
+  "updated_at": "16/08/2026 às 00:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -570,8 +570,8 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1527,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -581,6 +581,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "14/08/2026 às 20:57 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 00:41 (Brasília)"
         }
       ]
     },
@@ -2238,6 +2243,14 @@
       "online": true
     },
     {
+      "name": "Dede Knight",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Luiscrazynear",
       "resets_total": 46,
       "resets_today": 1,
@@ -2621,6 +2634,12 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 46,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Eckoss",
           "value": 46,
           "vocation": "Royal Paladin",
@@ -2643,12 +2662,6 @@
           "value": 46,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Dede Knight",
-          "value": 45,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Its Gui",
@@ -3098,12 +3111,6 @@
           "name": "Kev",
           "value": 1558,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Dede Knight",
-          "value": 1527,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3864,7 +3871,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 00:40 (Brasília)",
+    "updated_at": "16/08/2026 às 00:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27269,7 +27276,7 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
-        "Dede Knight": 45,
+        "Dede Knight": 46,
         "Eckoss": 46,
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
@@ -37627,7 +37634,7 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
-          "Dede Knight": 45,
+          "Dede Knight": 46,
           "Eckoss": 46,
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
@@ -40424,6 +40431,13 @@
           "gained": 1,
           "timestamp": "15/08/2026 às 23:41 (Brasília)",
           "hour_key": "2026-08-15-23"
+        },
+        {
+          "name": "Dede Knight",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 00:41 (Brasília)",
+          "hour_key": "2026-08-16-00"
         }
       ]
     },
@@ -41278,8 +41292,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3404,
-      "resets_today": 2,
+      "total_current": 3405,
+      "resets_today": 3,
       "resets_week": 38,
       "resets_month": 0,
       "resets_lifetime": 37,
