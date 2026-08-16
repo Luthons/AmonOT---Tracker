@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:51 (Brasília)",
+  "updated_at": "16/08/2026 às 19:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Albatrozz",
-      "level": 1991,
+      "level": 1988,
       "resets": 70,
       "vocation": "Elder Druid",
       "nick": "",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1990,
+      "level": 1988,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -248,7 +248,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1998,
+      "level": 1997,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -810,7 +810,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1988,
+      "level": 1987,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2016,7 +2016,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1994,
+      "level": 1991,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3114,7 +3114,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1998,
+          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3144,20 +3144,8 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 1994,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Albatrozz",
           "value": 1991,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1990,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3167,8 +3155,20 @@
           "online": true
         },
         {
-          "name": "Flecha Fofa",
+          "name": "Albatrozz",
           "value": 1988,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Akronus",
+          "value": 1988,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Flecha Fofa",
+          "value": 1987,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4026,7 +4026,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:51 (Brasília)",
+    "updated_at": "16/08/2026 às 19:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26961,6 +26961,78 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 19:52",
+      "player": "Pally Tetss",
+      "level": 1992,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "Julian Alvarez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:52",
+      "player": "Albatrozz",
+      "level": 1990,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "Jhonnys Trembolizado",
+      "level": 1998,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "Flecha Fofa",
+      "level": 1988,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Lautaro Martinez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "Pally Tetss",
+      "level": 1994,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "Akronus",
+      "level": 1990,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:51",
+      "player": "Albatrozz",
+      "level": 1991,
+      "killedBy": "Killua",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 19:50",
       "player": "Akronus",
       "level": 1991,
@@ -27097,18 +27169,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27151,15 +27223,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27169,10 +27232,10 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Flecha Fofa",
-      "level": 1994,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Khanriel",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27182,6 +27245,15 @@
       "level": 2000,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Flecha Fofa",
+      "level": 1994,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27632,15 +27704,6 @@
       "level": 2000,
       "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 14:15",
-      "player": "Rofmao",
-      "level": 973,
-      "killedBy": "Open Detheca",
-      "maiorDano": "Only Cash",
       "world": "Baiak",
       "isPvp": true
     }
