@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:45 (Brasília)",
+  "updated_at": "16/08/2026 às 19:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Albatrozz",
-      "level": 1995,
+      "level": 1994,
       "resets": 70,
       "vocation": "Elder Druid",
       "nick": "",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1994,
+      "level": 1992,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -371,7 +371,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1998,
+      "level": 1997,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -764,7 +764,7 @@
     },
     {
       "name": "Fearless",
-      "level": 1994,
+      "level": 1992,
       "resets": 61,
       "vocation": "Elder Druid",
       "nick": "",
@@ -810,7 +810,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1993,
+      "level": 1991,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1196,7 +1196,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 542,
+      "level": 541,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2016,7 +2016,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1997,
+      "level": 1995,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3119,15 +3119,15 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 1998,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 1997,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 1997,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3138,24 +3138,12 @@
         },
         {
           "name": "Pally Tetss",
-          "value": 1997,
+          "value": 1995,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Albatrozz",
-          "value": 1995,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Akronus",
-          "value": 1994,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Fearless",
           "value": 1994,
           "vocation": "Elder Druid",
           "online": true
@@ -3167,8 +3155,20 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 1992,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Fearless",
+          "value": 1992,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Flecha Fofa",
-          "value": 1993,
+          "value": 1991,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3348,7 +3348,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 542,
+          "value": 541,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4026,7 +4026,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:45 (Brasília)",
+    "updated_at": "16/08/2026 às 19:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26961,10 +26961,82 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Akronus",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Flecha Fofa",
+      "level": 1993,
+      "killedBy": "Khanriel",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Fearless",
+      "level": 1994,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:45",
+      "player": "Pally Tetss",
+      "level": 1997,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 19:44",
       "player": "Fearless",
       "level": 1995,
       "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -26980,9 +27052,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -26993,15 +27065,6 @@
       "level": 1994,
       "killedBy": "Panuto Hahaha",
       "maiorDano": "Khanriel",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27478,24 +27541,6 @@
       "player": "Its Gui",
       "level": 2000,
       "killedBy": "Nutellinha Druid",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 11:17",
-      "player": "Kashambao",
-      "level": 1024,
-      "killedBy": "Nutellinha Druid",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 10:21",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
