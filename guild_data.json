@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:32 (Brasília)",
+  "updated_at": "16/08/2026 às 19:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -764,7 +764,7 @@
     },
     {
       "name": "Fearless",
-      "level": 1991,
+      "level": 1997,
       "resets": 61,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3144,6 +3144,12 @@
           "online": true
         },
         {
+          "name": "Fearless",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Flecha Fofa",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -3159,12 +3165,6 @@
           "name": "Ntka",
           "value": 1994,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Fearless",
-          "value": 1991,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4027,7 +4027,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:32 (Brasília)",
+    "updated_at": "16/08/2026 às 19:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26962,6 +26962,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 19:33",
+      "player": "Fearless",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 19:32",
       "player": "Ntka",
       "level": 1997,
@@ -27379,15 +27388,6 @@
       "time": "Aug 15, 2026 04:24",
       "player": "Hurtles Ownsz",
       "level": 1300,
-      "killedBy": "Knighterror",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 03:54",
-      "player": "Kev",
-      "level": 1472,
       "killedBy": "Knighterror",
       "maiorDano": "",
       "world": "Baiak",
