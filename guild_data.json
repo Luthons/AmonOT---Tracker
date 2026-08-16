@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 19:40 (Brasília)",
+  "updated_at": "16/08/2026 às 19:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Albatrozz",
-      "level": 1998,
+      "level": 1997,
       "resets": 70,
       "vocation": "Elder Druid",
       "nick": "",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1997,
+      "level": 1995,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -810,7 +810,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1995,
+      "level": 1994,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3125,21 +3125,15 @@
           "online": true
         },
         {
-          "name": "Albatrozz",
-          "value": 1998,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Pally Tetss",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Akronus",
+          "name": "Albatrozz",
           "value": 1997,
-          "vocation": "Master Sorcerer",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3155,6 +3149,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 1995,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Fearless",
           "value": 1995,
           "vocation": "Elder Druid",
@@ -3162,7 +3162,7 @@
         },
         {
           "name": "Flecha Fofa",
-          "value": 1995,
+          "value": 1994,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4026,7 +4026,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 19:40 (Brasília)",
+    "updated_at": "16/08/2026 às 19:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26961,6 +26961,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 19:41",
+      "player": "Pally Tetss",
+      "level": 1998,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:41",
+      "player": "Akronus",
+      "level": 1997,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:40",
+      "player": "Albatrozz",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:40",
+      "player": "Flecha Fofa",
+      "level": 1995,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 19:37",
       "player": "Albatrozz",
       "level": 2000,
@@ -27406,15 +27442,6 @@
       "player": "Its Gui",
       "level": 2000,
       "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 05:00",
-      "player": "Ntka",
-      "level": 2000,
-      "killedBy": "Guizinho Fofinho",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
