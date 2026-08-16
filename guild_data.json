@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 17:36 (Brasília)",
+  "updated_at": "16/08/2026 às 17:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -601,13 +601,19 @@
     },
     {
       "name": "Eckoss",
-      "level": 1854,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 17:37 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Ed Da Deepweb",
@@ -2323,6 +2329,14 @@
       "online": true
     },
     {
+      "name": "Eckoss",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Hurtles Ownsz",
       "resets_total": 26,
       "resets_today": 1,
@@ -2724,6 +2738,12 @@
           "online": true
         },
         {
+          "name": "Eckoss",
+          "value": 47,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boltfly Peoplecry",
           "value": 46,
           "vocation": "Royal Paladin",
@@ -2733,12 +2753,6 @@
           "name": "Dede Knight",
           "value": 46,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Eckoss",
-          "value": 46,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3135,12 +3149,6 @@
           "name": "Elder Lougon",
           "value": 1869,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Eckoss",
-          "value": 1854,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3973,7 +3981,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 17:36 (Brasília)",
+    "updated_at": "16/08/2026 às 17:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27307,7 +27315,7 @@
         "Brunaobringer": 50,
         "Coriinga": 64,
         "Dede Knight": 46,
-        "Eckoss": 46,
+        "Eckoss": 47,
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
@@ -37897,7 +37905,7 @@
           "Brunaobringer": 50,
           "Coriinga": 64,
           "Dede Knight": 46,
-          "Eckoss": 46,
+          "Eckoss": 47,
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
@@ -40777,6 +40785,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 16:09 (Brasília)",
           "hour_key": "2026-08-16-16"
+        },
+        {
+          "name": "Eckoss",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 17:37 (Brasília)",
+          "hour_key": "2026-08-16-17"
         }
       ]
     },
@@ -41631,8 +41646,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3415,
-      "resets_today": 13,
+      "total_current": 3416,
+      "resets_today": 14,
       "resets_week": 43,
       "resets_month": 0,
       "resets_lifetime": 36,
