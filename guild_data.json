@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 18:02 (Brasília)",
+  "updated_at": "16/08/2026 às 18:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1186,8 +1186,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 2001,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1247,6 +1247,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "12/08/2026 às 08:58 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 18:03 (Brasília)"
         }
       ]
     },
@@ -2374,6 +2379,14 @@
       "online": true
     },
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 47,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 68,
       "resets_today": 1,
@@ -2472,14 +2485,6 @@
     {
       "name": "Kolwaski",
       "resets_total": 55,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "resets_total": 46,
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
@@ -2757,6 +2762,12 @@
           "online": true
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 47,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boltfly Peoplecry",
           "value": 46,
           "vocation": "Royal Paladin",
@@ -2766,12 +2777,6 @@
           "name": "Dede Knight",
           "value": 46,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 46,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2947,12 +2952,6 @@
           "value": 2008,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 2001,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Albatrozz",
@@ -3988,7 +3987,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 18:02 (Brasília)",
+    "updated_at": "16/08/2026 às 18:03 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27281,15 +27280,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 15, 2026 00:48",
-      "player": "Achilles",
-      "level": 2000,
-      "killedBy": "Quasenada",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27333,7 +27323,7 @@
         "Kev": 34,
         "Kiel": 65,
         "Kolwaski": 55,
-        "Lilian Faithkeeper": 46,
+        "Lilian Faithkeeper": 47,
         "Lipe Knight": 68,
         "Loks": 60,
         "Lotus Lothbrook": 39,
@@ -37936,7 +37926,7 @@
           "Kev": 34,
           "Kiel": 65,
           "Kolwaski": 55,
-          "Lilian Faithkeeper": 46,
+          "Lilian Faithkeeper": 47,
           "Lipe Knight": 68,
           "Loks": 60,
           "Lotus Lothbrook": 39,
@@ -40810,6 +40800,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 17:49 (Brasília)",
           "hour_key": "2026-08-16-17"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 18:03 (Brasília)",
+          "hour_key": "2026-08-16-18"
         }
       ]
     },
@@ -41664,12 +41661,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3417,
-      "resets_today": 15,
-      "resets_week": 43,
+      "total_current": 3418,
+      "resets_today": 16,
+      "resets_week": 44,
       "resets_month": 0,
-      "resets_lifetime": 35,
-      "avg_per_player": 50.2
+      "resets_lifetime": 36,
+      "avg_per_player": 50.3
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
