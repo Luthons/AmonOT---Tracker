@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 16:05 (Brasília)",
+  "updated_at": "16/08/2026 às 16:06 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -427,8 +427,8 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 2000,
-      "resets": 66,
+      "level": 8,
+      "resets": 67,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -483,6 +483,11 @@
           "resets": 66,
           "gained": 1,
           "timestamp": "14/08/2026 às 17:59 (Brasília)"
+        },
+        {
+          "resets": 67,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 16:06 (Brasília)"
         }
       ]
     },
@@ -2289,6 +2294,14 @@
       "online": true
     },
     {
+      "name": "Baiakudinho",
+      "resets_total": 67,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Boltfly Peoplecry",
       "resets_total": 46,
       "resets_today": 1,
@@ -2390,14 +2403,6 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Baiakudinho",
-      "resets_total": 66,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2509,7 +2514,7 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 66,
+          "value": 67,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3955,7 +3960,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 16:05 (Brasília)",
+    "updated_at": "16/08/2026 às 16:06 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27345,7 +27350,7 @@
         "Achilles": 18,
         "Adolph Healer": 20,
         "Albatroz": 55,
-        "Baiakudinho": 66,
+        "Baiakudinho": 67,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 46,
         "Brunao Rei Denovo": 31,
@@ -37922,7 +37927,7 @@
           "Achilles": 18,
           "Adolph Healer": 20,
           "Albatroz": 55,
-          "Baiakudinho": 66,
+          "Baiakudinho": 67,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 46,
           "Brunao Rei Denovo": 31,
@@ -40795,6 +40800,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 15:13 (Brasília)",
           "hour_key": "2026-08-16-15"
+        },
+        {
+          "name": "Baiakudinho",
+          "resets": 67,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 16:06 (Brasília)",
+          "hour_key": "2026-08-16-16"
         }
       ]
     },
@@ -41649,11 +41661,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3413,
-      "resets_today": 11,
-      "resets_week": 42,
+      "total_current": 3414,
+      "resets_today": 12,
+      "resets_week": 43,
       "resets_month": 0,
-      "resets_lifetime": 36,
+      "resets_lifetime": 37,
       "avg_per_player": 50.2
     },
     "enemy_guild": {
