@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 20:15 (Brasília)",
+  "updated_at": "16/08/2026 às 20:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -1499,8 +1499,8 @@
     },
     {
       "name": "Lotus Lothbrook",
-      "level": 1071,
-      "resets": 39,
+      "level": 8,
+      "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1555,6 +1555,11 @@
           "resets": 39,
           "gained": 1,
           "timestamp": "16/08/2026 às 07:26 (Brasília)"
+        },
+        {
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 20:16 (Brasília)"
         }
       ]
     },
@@ -2319,13 +2324,21 @@
         {
           "resets": 41,
           "gained": 1,
-          "timestamp": "16/08/2026 às 20:15 (Brasília)"
+          "timestamp": "16/08/2026 às 20:16 (Brasília)"
         }
       ]
     }
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Lotus Lothbrook",
+      "resets_total": 40,
+      "resets_today": 2,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
     {
       "name": "Luiscrazynear",
       "resets_total": 47,
@@ -2420,14 +2433,6 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Lotus Lothbrook",
-      "resets_total": 39,
-      "resets_today": 1,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2868,15 +2873,15 @@
           "online": true
         },
         {
-          "name": "Thats My Way",
+          "name": "Lotus Lothbrook",
           "value": 40,
-          "vocation": "Master Sorcerer",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Lotus Lothbrook",
-          "value": 39,
-          "vocation": "Royal Paladin",
+          "name": "Thats My Way",
+          "value": 40,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3304,12 +3309,6 @@
           "value": 1205,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "value": 1071,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Dede Knight",
@@ -4039,7 +4038,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 20:15 (Brasília)",
+    "updated_at": "16/08/2026 às 20:16 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27955,7 +27954,7 @@
         "Lilian Faithkeeper": 47,
         "Lipe Knight": 68,
         "Loks": 60,
-        "Lotus Lothbrook": 39,
+        "Lotus Lothbrook": 40,
         "Lougon Baiakeiro": 33,
         "Luiscrazynear": 47,
         "Lukitas Brokenzada": 41,
@@ -38585,7 +38584,7 @@
           "Lilian Faithkeeper": 47,
           "Lipe Knight": 68,
           "Loks": 60,
-          "Lotus Lothbrook": 39,
+          "Lotus Lothbrook": 40,
           "Lougon Baiakeiro": 33,
           "Luiscrazynear": 47,
           "Lukitas Brokenzada": 41,
@@ -41472,10 +41471,17 @@
           "hour_key": "2026-08-16-19"
         },
         {
+          "name": "Lotus Lothbrook",
+          "resets": 40,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 20:16 (Brasília)",
+          "hour_key": "2026-08-16-20"
+        },
+        {
           "name": "Welljacob",
           "resets": 41,
           "gained": 1,
-          "timestamp": "16/08/2026 às 20:15 (Brasília)",
+          "timestamp": "16/08/2026 às 20:16 (Brasília)",
           "hour_key": "2026-08-16-20"
         }
       ]
@@ -42331,12 +42337,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3481,
-      "resets_today": 18,
-      "resets_week": 44,
+      "total_current": 3482,
+      "resets_today": 19,
+      "resets_week": 45,
       "resets_month": 0,
-      "resets_lifetime": 44,
-      "avg_per_player": 50.4
+      "resets_lifetime": 45,
+      "avg_per_player": 50.5
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
