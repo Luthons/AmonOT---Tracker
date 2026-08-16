@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 12:39 (Brasília)",
+  "updated_at": "16/08/2026 às 12:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1005,8 +1005,8 @@
     },
     {
       "name": "Kashambao",
-      "level": 1878,
-      "resets": 57,
+      "level": 8,
+      "resets": 58,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1031,6 +1031,11 @@
           "resets": 57,
           "gained": 1,
           "timestamp": "15/08/2026 às 03:08 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 12:40 (Brasília)"
         }
       ]
     },
@@ -2297,6 +2302,14 @@
       "online": true
     },
     {
+      "name": "Kashambao",
+      "resets_total": 58,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Lipe Knight",
       "resets_total": 68,
       "resets_today": 1,
@@ -2373,14 +2386,6 @@
       "resets_total": 66,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kashambao",
-      "resets_total": 57,
-      "resets_today": 0,
-      "resets_week": 4,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2584,15 +2589,15 @@
           "online": false
         },
         {
-          "name": "Melbiss",
+          "name": "Kashambao",
           "value": 58,
-          "vocation": "Elite Knight",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Kashambao",
-          "value": 57,
-          "vocation": "Royal Paladin",
+          "name": "Melbiss",
+          "value": 58,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3085,12 +3090,6 @@
           "name": "Kawik",
           "value": 1897,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 1878,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3923,7 +3922,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 12:39 (Brasília)",
+    "updated_at": "16/08/2026 às 12:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27398,7 +27397,7 @@
         "Hurtles Ownsz": 26,
         "Its Gui": 44,
         "Jishuka": 66,
-        "Kashambao": 57,
+        "Kashambao": 58,
         "Kawik": 60,
         "Kev": 34,
         "Kiel": 65,
@@ -37927,7 +37926,7 @@
           "Hurtles Ownsz": 26,
           "Its Gui": 44,
           "Jishuka": 66,
-          "Kashambao": 57,
+          "Kashambao": 58,
           "Kawik": 60,
           "Kev": 34,
           "Kiel": 65,
@@ -40757,6 +40756,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 12:22 (Brasília)",
           "hour_key": "2026-08-16-12"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 12:40 (Brasília)",
+          "hour_key": "2026-08-16-12"
         }
       ]
     },
@@ -41611,12 +41617,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 68,
-      "total_current": 3410,
-      "resets_today": 8,
-      "resets_week": 41,
+      "total_current": 3411,
+      "resets_today": 9,
+      "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 37,
-      "avg_per_player": 50.1
+      "avg_per_player": 50.2
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
