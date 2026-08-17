@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 21:31 (Brasília)",
+  "updated_at": "16/08/2026 às 21:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -580,8 +580,8 @@
     },
     {
       "name": "Dede Knight",
-      "level": 985,
-      "resets": 46,
+      "level": 8,
+      "resets": 47,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -596,6 +596,11 @@
           "resets": 46,
           "gained": 1,
           "timestamp": "16/08/2026 às 00:42 (Brasília)"
+        },
+        {
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 21:32 (Brasília)"
         }
       ]
     },
@@ -2332,6 +2337,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Dede Knight",
+      "resets_total": 47,
+      "resets_today": 2,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Lotus Lothbrook",
       "resets_total": 40,
       "resets_today": 2,
@@ -2369,14 +2382,6 @@
       "resets_today": 1,
       "resets_week": 4,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Dede Knight",
-      "resets_total": 46,
-      "resets_today": 1,
-      "resets_week": 0,
-      "vocation": "Elite Knight",
       "online": true
     },
     {
@@ -2803,6 +2808,12 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 47,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Eckoss",
           "value": 47,
           "vocation": "Royal Paladin",
@@ -2824,12 +2835,6 @@
           "name": "Boltfly Peoplecry",
           "value": 46,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Dede Knight",
-          "value": 46,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3311,12 +3316,6 @@
           "value": 1205,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Dede Knight",
-          "value": 985,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Kawik",
@@ -4052,7 +4051,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 21:31 (Brasília)",
+    "updated_at": "16/08/2026 às 21:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27222,18 +27221,18 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Jhonnys Trembolizado",
-      "level": 1994,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Haony",
+      "level": 1580,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27447,18 +27446,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27627,19 +27626,19 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
+      "player": "Flecha Fofa",
+      "level": 1994,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Flecha Fofa",
-      "level": 1994,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Khanriel",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -28006,7 +28005,7 @@
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
-        "Dede Knight": 46,
+        "Dede Knight": 47,
         "Eckoss": 47,
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
@@ -38649,7 +38648,7 @@
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
-          "Dede Knight": 46,
+          "Dede Knight": 47,
           "Eckoss": 47,
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
@@ -41573,6 +41572,13 @@
           "gained": 1,
           "timestamp": "16/08/2026 às 20:29 (Brasília)",
           "hour_key": "2026-08-16-20"
+        },
+        {
+          "name": "Dede Knight",
+          "resets": 47,
+          "gained": 1,
+          "timestamp": "16/08/2026 às 21:32 (Brasília)",
+          "hour_key": "2026-08-16-21"
         }
       ]
     },
@@ -42427,8 +42433,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3483,
-      "resets_today": 20,
+      "total_current": 3484,
+      "resets_today": 21,
       "resets_week": 45,
       "resets_month": 0,
       "resets_lifetime": 45,
