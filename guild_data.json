@@ -1,15 +1,15 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 23:09 (Brasília)",
+  "updated_at": "16/08/2026 às 23:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
-  "online_count": 52,
-  "offline_count": 16,
+  "online_count": 51,
+  "offline_count": 17,
   "members": [
     {
       "name": "Albatrozz",
-      "level": 2003,
+      "level": 2002,
       "resets": 70,
       "vocation": "Elder Druid",
       "nick": "",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1986,
+      "level": 1998,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -923,7 +923,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 41,
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 475,
+      "level": 474,
       "resets": 48,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2712,7 +2712,7 @@
           "name": "HEFESTO",
           "value": 41,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Lukitas Brokenzada",
@@ -2860,7 +2860,7 @@
         },
         {
           "name": "Albatrozz",
-          "value": 2003,
+          "value": 2002,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -2991,6 +2991,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Ed Da Deepweb",
           "value": 1998,
           "vocation": "Elder Druid",
@@ -3051,12 +3057,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 1986,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 1936,
           "vocation": "Royal Paladin",
@@ -3066,7 +3066,7 @@
           "name": "HEFESTO",
           "value": 1884,
           "vocation": "Elite Knight",
-          "online": true
+          "online": false
         },
         {
           "name": "Elder Lougon",
@@ -3220,7 +3220,7 @@
         },
         {
           "name": "Luiscrazynear",
-          "value": 475,
+          "value": 474,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3898,7 +3898,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 23:09 (Brasília)",
+    "updated_at": "16/08/2026 às 23:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26833,6 +26833,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 23:10",
+      "player": "Akronus",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 23:09",
+      "player": "Flecha Fofa",
+      "level": 1999,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 23:09",
+      "player": "Luiscrazynear",
+      "level": 475,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 23:09",
+      "player": "Albatrozz",
+      "level": 2003,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 23:01",
       "player": "Luiscrazynear",
       "level": 475,
@@ -27140,9 +27176,9 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27509,15 +27545,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Lilian Faithkeeper",
-      "level": 542,
-      "killedBy": "Khanriel",
-      "maiorDano": "Nao Eh Pedim",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "padim ed",
       "level": 1407,
       "killedBy": "Nao Eh Pedim",
@@ -27531,6 +27558,15 @@
       "level": 1995,
       "killedBy": "Lautaro Martinez",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27810,51 +27846,6 @@
       "level": 1667,
       "killedBy": "Khanriel",
       "maiorDano": "Only Cash",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 09:32",
-      "player": "Achilles",
-      "level": 1998,
-      "killedBy": "Nozarashi",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 08:49",
-      "player": "Kashambao",
-      "level": 1867,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 07:06",
-      "player": "Rp Terror",
-      "level": 1939,
-      "killedBy": "Knighterror",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 04:01",
-      "player": "Lilian Faithkeeper",
-      "level": 2003,
-      "killedBy": "Guizinho Fofinho",
-      "maiorDano": "Tajuquinha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 03:50",
-      "player": "Dede Knight",
-      "level": 679,
-      "killedBy": "Guizinho Fofinho",
-      "maiorDano": "Tajuquinha",
       "world": "Baiak",
       "isPvp": true
     }
