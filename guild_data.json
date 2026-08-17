@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 18:26 (Brasília)",
+  "updated_at": "17/08/2026 às 18:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
-  "online_count": 48,
-  "offline_count": 21,
+  "online_count": 49,
+  "offline_count": 20,
   "members": [
     {
       "name": "Albatrozz",
@@ -830,7 +830,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -2258,7 +2258,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 40,
@@ -2319,7 +2319,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 40,
@@ -2603,7 +2603,7 @@
           "name": "Fearless",
           "value": 61,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Kawik",
@@ -2819,13 +2819,13 @@
           "name": "Thats My Way",
           "value": 41,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Welljacob",
           "value": 41,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Lotus Lothbrook",
@@ -3047,7 +3047,7 @@
           "name": "Fearless",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Feijao Baiakeironato",
@@ -3143,7 +3143,7 @@
           "name": "Welljacob",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Nino",
@@ -3269,7 +3269,7 @@
           "name": "Thats My Way",
           "value": 1268,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Magabela",
@@ -3999,7 +3999,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 18:26 (Brasília)",
+    "updated_at": "17/08/2026 às 18:27 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27709,19 +27709,19 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Lilian Faithkeeper",
-      "level": 542,
-      "killedBy": "Khanriel",
-      "maiorDano": "Nao Eh Pedim",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
