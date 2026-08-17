@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 08:46 (Brasília)",
+  "updated_at": "17/08/2026 às 08:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -386,7 +386,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 1839,
+      "level": 1856,
       "resets": 56,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3068,6 +3068,12 @@
           "online": false
         },
         {
+          "name": "Albatroz",
+          "value": 1856,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Eckoss",
           "value": 1850,
           "vocation": "Royal Paladin",
@@ -3078,12 +3084,6 @@
           "value": 1848,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Albatroz",
-          "value": 1839,
-          "vocation": "Exalted Monk",
-          "online": true
         },
         {
           "name": "Kev",
@@ -3879,7 +3879,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 08:46 (Brasília)",
+    "updated_at": "17/08/2026 às 08:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27409,18 +27409,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27562,15 +27562,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27584,6 +27575,15 @@
       "level": 1407,
       "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
