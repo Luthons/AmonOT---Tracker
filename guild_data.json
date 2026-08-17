@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 21:04 (Brasília)",
+  "updated_at": "16/08/2026 às 21:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -14,7 +14,11 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
+      "last_login": "Aug 16, 2026, 20:59:04",
+      "guild_rank": "The Leader",
+      "former_names": "Alba Baiakeiro",
+      "hidden": true,
       "reset_history": [
         {
           "resets": 68,
@@ -254,6 +258,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Aug 16, 2026, 20:59:33",
+      "guild_rank": "Vice-Leader",
+      "former_names": "Hozuk",
+      "hidden": true,
       "reset_history": [
         {
           "resets": 87,
@@ -2315,6 +2323,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Aug 16, 2026, 20:59:07",
+      "guild_rank": "Member",
+      "former_names": "",
+      "hidden": false,
       "reset_history": [
         {
           "resets": 40,
@@ -4052,7 +4064,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 21:04 (Brasília)",
+    "updated_at": "16/08/2026 às 21:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27195,18 +27207,18 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Jhonnys Trembolizado",
-      "level": 1994,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Haony",
+      "level": 1580,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27528,18 +27540,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27573,18 +27585,27 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
