@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 15:57 (Brasília)",
+  "updated_at": "17/08/2026 às 15:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -804,8 +804,8 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 2000,
-      "resets": 38,
+      "level": 8,
+      "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -815,6 +815,11 @@
           "resets": 38,
           "gained": 1,
           "timestamp": "14/08/2026 às 12:41 (Brasília)"
+        },
+        {
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 15:58 (Brasília)"
         }
       ]
     },
@@ -2367,6 +2372,14 @@
       "online": true
     },
     {
+      "name": "Ethernal Pally",
+      "resets_total": 39,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Kashambao",
       "resets_total": 59,
       "resets_today": 1,
@@ -2817,7 +2830,7 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 38,
+          "value": 39,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3023,12 +3036,6 @@
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Ethernal Pally",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3981,7 +3988,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 15:57 (Brasília)",
+    "updated_at": "17/08/2026 às 15:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27637,18 +27644,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27682,10 +27689,10 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27700,10 +27707,10 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Lilian Faithkeeper",
-      "level": 542,
-      "killedBy": "Khanriel",
-      "maiorDano": "Nao Eh Pedim",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27833,7 +27840,7 @@
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
         "Elder Lougon": 25,
-        "Ethernal Pally": 38,
+        "Ethernal Pally": 39,
         "Fearless": 61,
         "Feijao Baiakeironato": 54,
         "Flam Ham Bum": 41,
@@ -38730,7 +38737,7 @@
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
           "Elder Lougon": 25,
-          "Ethernal Pally": 38,
+          "Ethernal Pally": 39,
           "Fearless": 61,
           "Feijao Baiakeironato": 54,
           "Flam Ham Bum": 41,
@@ -41648,6 +41655,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 14:36 (Brasília)",
           "hour_key": "2026-08-17-14"
+        },
+        {
+          "name": "Ethernal Pally",
+          "resets": 39,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 15:58 (Brasília)",
+          "hour_key": "2026-08-17-15"
         }
       ]
     },
@@ -42502,8 +42516,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3488,
-      "resets_today": 7,
+      "total_current": 3489,
+      "resets_today": 8,
       "resets_week": 41,
       "resets_month": 0,
       "resets_lifetime": 44,
