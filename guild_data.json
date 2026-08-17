@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 22:40 (Brasília)",
+  "updated_at": "16/08/2026 às 22:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -508,7 +508,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1444,
+      "level": 1839,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -758,7 +758,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 2000,
+      "level": 1997,
       "resets": 38,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2908,12 +2908,6 @@
           "online": true
         },
         {
-          "name": "Ethernal Pally",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Fearless",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3022,6 +3016,12 @@
           "online": true
         },
         {
+          "name": "Ethernal Pally",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Voidshot",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -3070,6 +3070,12 @@
           "online": false
         },
         {
+          "name": "Boltfly Peoplecry",
+          "value": 1839,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kev",
           "value": 1707,
           "vocation": "Royal Paladin",
@@ -3115,12 +3121,6 @@
           "name": "padim ed",
           "value": 1457,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 1444,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3893,7 +3893,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 22:40 (Brasília)",
+    "updated_at": "16/08/2026 às 22:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27072,18 +27072,18 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Jhonnys Trembolizado",
-      "level": 1994,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Haony",
+      "level": 1580,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27450,6 +27450,15 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27462,15 +27471,6 @@
       "player": "padim ed",
       "level": 1407,
       "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
