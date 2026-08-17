@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 20:24 (Brasília)",
+  "updated_at": "17/08/2026 às 20:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -974,8 +974,8 @@
     },
     {
       "name": "HEFESTO",
-      "level": 1925,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -985,6 +985,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "15/08/2026 às 20:49 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 20:25 (Brasília)"
         }
       ]
     },
@@ -2403,6 +2408,14 @@
       "online": true
     },
     {
+      "name": "HEFESTO",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Hurtles Ownsz",
       "resets_total": 27,
       "resets_today": 1,
@@ -2812,6 +2825,12 @@
           "online": true
         },
         {
+          "name": "HEFESTO",
+          "value": 42,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Pestinha",
           "value": 42,
           "vocation": "Master Sorcerer",
@@ -2833,12 +2852,6 @@
           "name": "Flam Ham Bum",
           "value": 41,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "HEFESTO",
-          "value": 41,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3187,12 +3200,6 @@
           "name": "Elder Lougon",
           "value": 1934,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "HEFESTO",
-          "value": 1925,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4025,7 +4032,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 20:24 (Brasília)",
+    "updated_at": "17/08/2026 às 20:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27623,7 +27630,7 @@
         "Flecha Fofa": 60,
         "Gokuu": 60,
         "Haony": 60,
-        "HEFESTO": 41,
+        "HEFESTO": 42,
         "Henrique Arqueiro": 51,
         "Hurtles Ownsz": 27,
         "Its Gui": 44,
@@ -38592,7 +38599,7 @@
           "Flecha Fofa": 60,
           "Gokuu": 60,
           "Haony": 60,
-          "HEFESTO": 41,
+          "HEFESTO": 42,
           "Henrique Arqueiro": 51,
           "Hurtles Ownsz": 27,
           "Its Gui": 44,
@@ -41531,6 +41538,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 20:13 (Brasília)",
           "hour_key": "2026-08-17-20"
+        },
+        {
+          "name": "HEFESTO",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 20:25 (Brasília)",
+          "hour_key": "2026-08-17-20"
         }
       ]
     },
@@ -42385,8 +42399,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3492,
-      "resets_today": 11,
+      "total_current": 3493,
+      "resets_today": 12,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 42,
