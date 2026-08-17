@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 20:31 (Brasília)",
+  "updated_at": "17/08/2026 às 20:34 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -896,7 +896,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1420,
+      "level": 1418,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1177,7 +1177,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1682,
+      "level": 1684,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1442,7 +1442,7 @@
     },
     {
       "name": "Lipe Knight",
-      "level": 2046,
+      "level": 2043,
       "resets": 68,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2067,7 +2067,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 1994,
+      "level": 1991,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2186,8 +2186,8 @@
     },
     {
       "name": "padim ed",
-      "level": 1724,
-      "resets": 35,
+      "level": 8,
+      "resets": 36,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2216,6 +2216,11 @@
           "resets": 35,
           "gained": 1,
           "timestamp": "16/08/2026 às 12:13 (Brasília)"
+        },
+        {
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 20:34 (Brasília)"
         }
       ]
     },
@@ -2515,7 +2520,7 @@
     },
     {
       "name": "Thats My Way",
-      "level": 1268,
+      "level": 1266,
       "resets": 41,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2705,6 +2710,14 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "padim ed",
+      "resets_total": 36,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
       "online": true
     },
     {
@@ -3162,7 +3175,7 @@
         },
         {
           "name": "padim ed",
-          "value": 35,
+          "value": 36,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3246,7 +3259,7 @@
         },
         {
           "name": "Lipe Knight",
-          "value": 2046,
+          "value": 2043,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3461,15 +3474,15 @@
           "online": true
         },
         {
-          "name": "Mugunza",
-          "value": 1994,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Kawik",
           "value": 1992,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Mugunza",
+          "value": 1991,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3521,14 +3534,8 @@
           "online": false
         },
         {
-          "name": "padim ed",
-          "value": 1724,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Kashambao",
-          "value": 1682,
+          "value": 1684,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3564,13 +3571,13 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1420,
+          "value": 1418,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Thats My Way",
-          "value": 1268,
+          "value": 1266,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -4308,7 +4315,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 20:30 (Brasília)",
+    "updated_at": "17/08/2026 às 20:34 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27929,7 +27936,7 @@
         "Nino": 53,
         "Ntka": 57,
         "Obrabo": 30,
-        "padim ed": 35,
+        "padim ed": 36,
         "palinhp": 53,
         "Pally Tetss": 55,
         "Pestinha": 42,
@@ -38898,7 +38905,7 @@
           "Nino": 53,
           "Ntka": 57,
           "Obrabo": 30,
-          "padim ed": 35,
+          "padim ed": 36,
           "palinhp": 53,
           "Pally Tetss": 55,
           "Pestinha": 42,
@@ -41821,6 +41828,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 20:25 (Brasília)",
           "hour_key": "2026-08-17-20"
+        },
+        {
+          "name": "padim ed",
+          "resets": 36,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 20:34 (Brasília)",
+          "hour_key": "2026-08-17-20"
         }
       ]
     },
@@ -42675,8 +42689,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3493,
-      "resets_today": 12,
+      "total_current": 3494,
+      "resets_today": 13,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 42,
