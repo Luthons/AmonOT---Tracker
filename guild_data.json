@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 16:46 (Brasília)",
+  "updated_at": "17/08/2026 às 16:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -943,8 +943,8 @@
     },
     {
       "name": "Haony",
-      "level": 1900,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -964,6 +964,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "15/08/2026 às 14:46 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 16:47 (Brasília)"
         }
       ]
     },
@@ -2380,6 +2385,14 @@
       "online": true
     },
     {
+      "name": "Haony",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Kashambao",
       "resets_total": 59,
       "resets_today": 1,
@@ -2417,14 +2430,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": false
-    },
-    {
-      "name": "Haony",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": false
     },
     {
@@ -2625,6 +2630,12 @@
           "online": true
         },
         {
+          "name": "Haony",
+          "value": 60,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
           "name": "Loks",
           "value": 60,
           "vocation": "Elder Druid",
@@ -2635,12 +2646,6 @@
           "value": 60,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 59,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Kashambao",
@@ -3162,12 +3167,6 @@
           "name": "HEFESTO",
           "value": 1921,
           "vocation": "Elite Knight",
-          "online": false
-        },
-        {
-          "name": "Haony",
-          "value": 1900,
-          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -3994,7 +3993,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 16:46 (Brasília)",
+    "updated_at": "17/08/2026 às 16:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27542,18 +27541,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27650,18 +27649,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27695,15 +27694,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27722,10 +27712,19 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Flecha Fofa",
+      "level": 1994,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27825,7 +27824,7 @@
         "Flam Ham Bum": 41,
         "Flecha Fofa": 60,
         "Gokuu": 60,
-        "Haony": 59,
+        "Haony": 60,
         "HEFESTO": 41,
         "Henrique Arqueiro": 51,
         "Hurtles Ownsz": 26,
@@ -38737,7 +38736,7 @@
           "Flam Ham Bum": 41,
           "Flecha Fofa": 60,
           "Gokuu": 60,
-          "Haony": 59,
+          "Haony": 60,
           "HEFESTO": 41,
           "Henrique Arqueiro": 51,
           "Hurtles Ownsz": 26,
@@ -41656,6 +41655,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 15:58 (Brasília)",
           "hour_key": "2026-08-17-15"
+        },
+        {
+          "name": "Haony",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 16:47 (Brasília)",
+          "hour_key": "2026-08-17-16"
         }
       ]
     },
@@ -42510,11 +42516,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3489,
-      "resets_today": 8,
-      "resets_week": 41,
+      "total_current": 3490,
+      "resets_today": 9,
+      "resets_week": 42,
       "resets_month": 0,
-      "resets_lifetime": 43,
+      "resets_lifetime": 44,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
