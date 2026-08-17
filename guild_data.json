@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 22:59 (Brasília)",
+  "updated_at": "16/08/2026 às 23:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 8,
+      "level": 475,
       "resets": 48,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1815,7 +1815,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 2000,
+      "level": 1998,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2062,7 +2062,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1542,
+      "level": 1584,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2967,12 +2967,6 @@
           "online": false
         },
         {
-          "name": "Mugunza",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Nino",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3030,6 +3024,12 @@
           "name": "MekZera",
           "value": 1998,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Mugunza",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3117,14 +3117,14 @@
           "online": true
         },
         {
-          "name": "Haony",
-          "value": 1581,
+          "name": "Rofmao",
+          "value": 1584,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Rofmao",
-          "value": 1542,
+          "name": "Haony",
+          "value": 1581,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3217,6 +3217,12 @@
           "value": 536,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Luiscrazynear",
+          "value": 475,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Albatroz",
@@ -3892,7 +3898,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 22:59 (Brasília)",
+    "updated_at": "16/08/2026 às 23:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26827,6 +26833,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 16, 2026 23:00",
+      "player": "Luiscrazynear",
+      "level": 475,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 23:00",
+      "player": "Mugunza",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Famosa",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 16, 2026 22:58",
       "player": "MekZera",
       "level": 2000,
@@ -27323,18 +27347,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27476,27 +27500,27 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Fearless",
       "level": 1995,
       "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27899,62 +27923,6 @@
         "Welljacob": 41
       },
       "snapshots": {
-        "2026-08-09-23": {
-          "Dmonick": 60,
-          "Gizao": 61,
-          "Akronus": 66,
-          "Albatrozz": 69,
-          "Cerebro": 62,
-          "Magabela": 59,
-          "Punish Claude": 53,
-          "Teylera Rp": 62,
-          "Yagoodz Hahaha": 70,
-          "Achilles": 18,
-          "Adolph Healer": 20,
-          "Albatroz": 52,
-          "Amelior": 52,
-          "Baiakudinho": 63,
-          "Boingbringer": 30,
-          "Boltfly Peoplecry": 43,
-          "Brunao Rei Denovo": 31,
-          "Brunaobringer": 50,
-          "Coriinga": 64,
-          "El Diablo": 71,
-          "Elder Lougon": 25,
-          "Gokuu": 60,
-          "Guidao Palao": 57,
-          "Haony": 57,
-          "Henrique": 52,
-          "Henrique Arqueiro": 51,
-          "Its Gui": 44,
-          "Jhonnys Trembolizado": 94,
-          "Jishuka": 64,
-          "Kashambao": 53,
-          "Kev": 33,
-          "Kiel": 65,
-          "Kolwaski": 54,
-          "Lilian Faithkeeper": 45,
-          "Lipe Knight": 63,
-          "Loks": 57,
-          "Lotus Lothbrook": 36,
-          "Lougon Baiakeiro": 33,
-          "Lukitas Brokenzada": 41,
-          "MekZera": 62,
-          "Melbiss": 55,
-          "Monstro Das Criptos": 59,
-          "Nino": 53,
-          "Ntka": 57,
-          "Pally Tetss": 55,
-          "Pestinha": 42,
-          "Royal Sniper": 64,
-          "Rp Terror": 38,
-          "Rusha Rp": 65,
-          "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 47,
-          "Vitao The Trader": 22,
-          "Voidshot": 60,
-          "VukVuk": 50
-        },
         "2026-08-10-00": {
           "Dmonick": 60,
           "Gizao": 61,
@@ -38552,6 +38520,76 @@
           "Voidshot": 60,
           "VukVuk": 50,
           "Welljacob": 41
+        },
+        "2026-08-16-23": {
+          "Albatrozz": 70,
+          "Gizao": 61,
+          "Akronus": 68,
+          "Cerebro": 62,
+          "Jhonnys Trembolizado": 94,
+          "Magabela": 61,
+          "Teylera Rp": 62,
+          "Yagoodz Hahaha": 70,
+          "Achilles": 18,
+          "Adolph Healer": 20,
+          "Albatroz": 56,
+          "Baiakudinho": 67,
+          "Boingbringer": 30,
+          "Boltfly Peoplecry": 46,
+          "Brunao Rei Denovo": 31,
+          "Brunaobringer": 50,
+          "Coriinga": 64,
+          "Dede Knight": 47,
+          "Eckoss": 47,
+          "Ed Da Deepweb": 50,
+          "El Diablo": 71,
+          "Elder Lougon": 25,
+          "Ethernal Pally": 38,
+          "Fearless": 61,
+          "Feijao Baiakeironato": 54,
+          "Flam Ham Bum": 41,
+          "Flecha Fofa": 60,
+          "Gokuu": 60,
+          "Haony": 59,
+          "HEFESTO": 41,
+          "Henrique Arqueiro": 51,
+          "Hurtles Ownsz": 26,
+          "Its Gui": 44,
+          "Kashambao": 58,
+          "Kawik": 61,
+          "Kev": 34,
+          "Kiel": 65,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 47,
+          "Lipe Knight": 68,
+          "Loks": 60,
+          "Lotus Lothbrook": 40,
+          "Lougon Baiakeiro": 33,
+          "Luiscrazynear": 48,
+          "Lukitas Brokenzada": 41,
+          "MekZera": 63,
+          "Melbiss": 58,
+          "Monstro Das Criptos": 59,
+          "Mugunza": 56,
+          "Nino": 53,
+          "Ntka": 57,
+          "Obrabo": 30,
+          "padim ed": 35,
+          "palinhp": 53,
+          "Pally Tetss": 55,
+          "Pestinha": 42,
+          "Punish Claude": 53,
+          "Rofmao": 47,
+          "Rp Terror": 38,
+          "Rusha Rp": 65,
+          "Snowzeraah": 41,
+          "Tadala De Cinco": 62,
+          "Thats My Way": 41,
+          "Ultimate Warrior": 25,
+          "Vitao The Trader": 22,
+          "Voidshot": 60,
+          "VukVuk": 50,
+          "Welljacob": 41
         }
       },
       "events": [
@@ -41458,7 +41496,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-09-23": {},
         "2026-08-10-00": {},
         "2026-08-10-01": {},
         "2026-08-10-02": {},
@@ -41625,7 +41662,8 @@
         "2026-08-16-19": {},
         "2026-08-16-20": {},
         "2026-08-16-21": {},
-        "2026-08-16-22": {}
+        "2026-08-16-22": {},
+        "2026-08-16-23": {}
       },
       "events": []
     },
