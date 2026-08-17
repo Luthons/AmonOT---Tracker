@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 21:37 (Brasília)",
+  "updated_at": "16/08/2026 às 21:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -248,7 +248,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1979,
+      "level": 1987,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1953,7 +1953,7 @@
     },
     {
       "name": "Obrabo",
-      "level": 924,
+      "level": 938,
       "resets": 30,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3198,6 +3198,12 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1987,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Akronus",
           "value": 1986,
           "vocation": "Master Sorcerer",
@@ -3206,12 +3212,6 @@
         {
           "name": "Pally Tetss",
           "value": 1984,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 1979,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3324,15 +3324,15 @@
           "online": true
         },
         {
-          "name": "Hurtles Ownsz",
-          "value": 934,
-          "vocation": "Exalted Monk",
+          "name": "Obrabo",
+          "value": 938,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Obrabo",
-          "value": 924,
-          "vocation": "Elite Knight",
+          "name": "Hurtles Ownsz",
+          "value": 934,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4057,7 +4057,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 21:37 (Brasília)",
+    "updated_at": "16/08/2026 às 21:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27227,18 +27227,18 @@
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Haony",
-      "level": 1580,
-      "killedBy": "Panuto Hahaha",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 20:01",
-      "player": "Jhonnys Trembolizado",
-      "level": 1994,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Haony",
+      "level": 1580,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27605,15 +27605,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Lilian Faithkeeper",
       "level": 542,
       "killedBy": "Khanriel",
@@ -27632,9 +27623,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27645,6 +27636,15 @@
       "level": 1994,
       "killedBy": "Panuto Hahaha",
       "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
