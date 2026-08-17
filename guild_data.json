@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "16/08/2026 às 23:06 (Brasília)",
+  "updated_at": "16/08/2026 às 23:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -918,7 +918,7 @@
     },
     {
       "name": "HEFESTO",
-      "level": 1369,
+      "level": 1884,
       "resets": 41,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3063,6 +3063,12 @@
           "online": true
         },
         {
+          "name": "HEFESTO",
+          "value": 1884,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1879,
           "vocation": "Elder Druid",
@@ -3151,12 +3157,6 @@
           "value": 1376,
           "vocation": "Exalted Monk",
           "online": false
-        },
-        {
-          "name": "HEFESTO",
-          "value": 1369,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Tadala De Cinco",
@@ -3898,7 +3898,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "16/08/2026 às 23:06 (Brasília)",
+    "updated_at": "16/08/2026 às 23:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27509,15 +27509,6 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
       "player": "Fearless",
       "level": 1995,
       "killedBy": "Lautaro Martinez",
@@ -27536,10 +27527,10 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Flecha Fofa",
-      "level": 1994,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Khanriel",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27549,6 +27540,15 @@
       "level": 2000,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 16, 2026 19:44",
+      "player": "Flecha Fofa",
+      "level": 1994,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
