@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 02:07 (Brasília)",
+  "updated_at": "17/08/2026 às 02:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 68,
@@ -426,7 +426,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 1689,
+      "level": 1740,
       "resets": 56,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1787,
+      "level": 1836,
       "resets": 67,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -545,7 +545,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1858,
+      "level": 1882,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -638,7 +638,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1466,
+      "level": 1472,
       "resets": 47,
       "vocation": "Elite Knight",
       "nick": "",
@@ -668,7 +668,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1725,
+      "level": 1746,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -702,7 +702,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1999,
+      "level": 2000,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -817,7 +817,7 @@
     },
     {
       "name": "Elder Lougon",
-      "level": 1885,
+      "level": 1889,
       "resets": 25,
       "vocation": "Elder Druid",
       "nick": "",
@@ -989,7 +989,7 @@
     },
     {
       "name": "Haony",
-      "level": 1581,
+      "level": 1582,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1132,7 +1132,7 @@
     },
     {
       "name": "Kawik",
-      "level": 1644,
+      "level": 1660,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1152,7 +1152,7 @@
     },
     {
       "name": "Kev",
-      "level": 1723,
+      "level": 1730,
       "resets": 34,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1237,7 +1237,7 @@
     },
     {
       "name": "Kolwaski",
-      "level": 1666,
+      "level": 1678,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1277,7 +1277,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 835,
+      "level": 874,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1677,7 +1677,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 509,
+      "level": 720,
       "resets": 48,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2096,7 +2096,7 @@
     },
     {
       "name": "padim ed",
-      "level": 1513,
+      "level": 1533,
       "resets": 35,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2473,7 +2473,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1997,
+      "level": 2000,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2501,7 +2501,7 @@
     },
     {
       "name": "Welljacob",
-      "level": 1856,
+      "level": 1890,
       "resets": 41,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3185,6 +3185,12 @@
           "online": true
         },
         {
+          "name": "El Diablo",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Ethernal Pally",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3275,14 +3281,14 @@
           "online": false
         },
         {
-          "name": "VukVuk",
+          "name": "Voidshot",
           "value": 2000,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 1999,
+          "name": "VukVuk",
+          "value": 2000,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3299,20 +3305,20 @@
           "online": true
         },
         {
-          "name": "Voidshot",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 1936,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
+          "name": "Welljacob",
+          "value": 1890,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
-          "value": 1885,
+          "value": 1889,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3324,13 +3330,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1858,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Welljacob",
-          "value": 1856,
+          "value": 1882,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3342,32 +3342,38 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1787,
+          "value": 1836,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1725,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kev",
-          "value": 1723,
+          "value": 1746,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Albatroz",
-          "value": 1689,
+          "value": 1740,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
-          "name": "Kolwaski",
-          "value": 1666,
+          "name": "Kev",
+          "value": 1730,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 1678,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kawik",
+          "value": 1660,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3375,12 +3381,6 @@
           "value": 1656,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Kawik",
-          "value": 1644,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Rofmao",
@@ -3396,13 +3396,13 @@
         },
         {
           "name": "Haony",
-          "value": 1581,
+          "value": 1582,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "padim ed",
-          "value": 1513,
+          "value": 1533,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3414,7 +3414,7 @@
         },
         {
           "name": "Dede Knight",
-          "value": 1466,
+          "value": 1472,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3438,7 +3438,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 835,
+          "value": 874,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3447,6 +3447,12 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Luiscrazynear",
+          "value": 720,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Snowzeraah",
@@ -3465,12 +3471,6 @@
           "value": 536,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Luiscrazynear",
-          "value": 509,
-          "vocation": "Elder Druid",
-          "online": true
         }
       ]
     }
@@ -4140,7 +4140,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 02:06 (Brasília)",
+    "updated_at": "17/08/2026 às 02:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27661,18 +27661,18 @@
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Fearless",
-      "level": 1991,
-      "killedBy": "Julian Alvarez",
+      "player": "Haony",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:48",
-      "player": "Haony",
-      "level": 1581,
-      "killedBy": "Lautaro Martinez",
+      "player": "Fearless",
+      "level": 1991,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27769,18 +27769,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27814,9 +27814,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27832,19 +27832,19 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
+      "player": "Lilian Faithkeeper",
+      "level": 542,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Flecha Fofa",
-      "level": 1994,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Khanriel",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
