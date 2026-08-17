@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 18:37 (Brasília)",
+  "updated_at": "17/08/2026 às 18:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 69,
@@ -1000,8 +1000,8 @@
     },
     {
       "name": "Hurtles Ownsz",
-      "level": 1376,
-      "resets": 26,
+      "level": 8,
+      "resets": 27,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -1016,6 +1016,11 @@
           "resets": 26,
           "gained": 1,
           "timestamp": "16/08/2026 às 10:04 (Brasília)"
+        },
+        {
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 18:38 (Brasília)"
         }
       ]
     },
@@ -2393,6 +2398,14 @@
       "online": true
     },
     {
+      "name": "Hurtles Ownsz",
+      "resets_total": 27,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": false
+    },
+    {
       "name": "Kashambao",
       "resets_total": 59,
       "resets_today": 1,
@@ -2883,7 +2896,7 @@
         },
         {
           "name": "Hurtles Ownsz",
-          "value": 26,
+          "value": 27,
           "vocation": "Exalted Monk",
           "online": false
         },
@@ -3258,12 +3271,6 @@
           "value": 1439,
           "vocation": "Exalted Monk",
           "online": true
-        },
-        {
-          "name": "Hurtles Ownsz",
-          "value": 1376,
-          "vocation": "Exalted Monk",
-          "online": false
         },
         {
           "name": "Thats My Way",
@@ -3999,7 +4006,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 18:37 (Brasília)",
+    "updated_at": "17/08/2026 às 18:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27673,18 +27680,18 @@
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Yagoodz Hahaha",
-      "level": 1998,
-      "killedBy": "Khanriel",
+      "player": "Albatrozz",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 16, 2026 19:45",
-      "player": "Albatrozz",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "Yagoodz Hahaha",
+      "level": 1998,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27718,9 +27725,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "padim ed",
-      "level": 1407,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Fearless",
+      "level": 1995,
+      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27736,9 +27743,9 @@
     },
     {
       "time": "Aug 16, 2026 19:44",
-      "player": "Fearless",
-      "level": 1995,
-      "killedBy": "Lautaro Martinez",
+      "player": "padim ed",
+      "level": 1407,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27757,15 +27764,6 @@
       "player": "Yagoodz Hahaha",
       "level": 2000,
       "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 19:44",
-      "player": "Akronus",
-      "level": 1995,
-      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27806,7 +27804,7 @@
         "Haony": 60,
         "HEFESTO": 41,
         "Henrique Arqueiro": 51,
-        "Hurtles Ownsz": 26,
+        "Hurtles Ownsz": 27,
         "Its Gui": 44,
         "Kashambao": 59,
         "Kawik": 61,
@@ -38747,7 +38745,7 @@
           "Haony": 60,
           "HEFESTO": 41,
           "Henrique Arqueiro": 51,
-          "Hurtles Ownsz": 26,
+          "Hurtles Ownsz": 27,
           "Its Gui": 44,
           "Kashambao": 59,
           "Kawik": 61,
@@ -41670,6 +41668,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 16:47 (Brasília)",
           "hour_key": "2026-08-17-16"
+        },
+        {
+          "name": "Hurtles Ownsz",
+          "resets": 27,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 18:38 (Brasília)",
+          "hour_key": "2026-08-17-18"
         }
       ]
     },
@@ -42524,8 +42529,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 69,
-      "total_current": 3490,
-      "resets_today": 9,
+      "total_current": 3491,
+      "resets_today": 10,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 44,
