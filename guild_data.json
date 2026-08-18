@@ -2250,8 +2250,8 @@
     },
     {
       "name": "Snowzeraah",
-      "level": 1056,
-      "resets": 44,
+      "level": 8,
+      "resets": 45,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2291,6 +2291,11 @@
           "resets": 44,
           "gained": 1,
           "timestamp": "18/08/2026 às 08:57 (Brasília)"
+        },
+        {
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 11:45 (Brasília)"
         }
       ]
     },
@@ -2402,8 +2407,8 @@
   "resets_today": [
     {
       "name": "Snowzeraah",
-      "resets_total": 44,
-      "resets_today": 2,
+      "resets_total": 45,
+      "resets_today": 3,
       "resets_week": 0,
       "vocation": "Royal Paladin",
       "online": true
@@ -2856,15 +2861,15 @@
           "online": true
         },
         {
-          "name": "Its Gui",
-          "value": 44,
-          "vocation": "Elder Druid",
+          "name": "Snowzeraah",
+          "value": 45,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Snowzeraah",
+          "name": "Its Gui",
           "value": 44,
-          "vocation": "Royal Paladin",
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3370,12 +3375,6 @@
           "value": 1136,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Snowzeraah",
-          "value": 1056,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Albatroz",
@@ -27022,89 +27021,224 @@
   },
   "deaths_global": [
     {
-      "time": "Aug 18, 2026 11:29",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 11:28",
-      "player": "Jhonnys Trembolizado",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:45",
-      "player": "Balinho",
-      "level": 2004,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:45",
-      "player": "Flecha Fofa",
-      "level": 1992,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Khanriel",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:45",
-      "player": "Voidshot",
-      "level": 1994,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:44",
-      "player": "MekZera",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:44",
+      "time": "Aug 18, 2026 10:37",
       "player": "Teylera Rp",
-      "level": 1988,
-      "killedBy": "Khanriel",
+      "level": 1991,
+      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:44",
-      "player": "Gokuu",
-      "level": 2001,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:44",
-      "player": "Akronus",
+      "time": "Aug 18, 2026 10:37",
+      "player": "Jhonnys Trembolizado",
       "level": 1989,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:37",
+      "player": "Gokuu",
+      "level": 2004,
       "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:44",
-      "player": "Ed Da Deepweb",
+      "time": "Aug 18, 2026 10:32",
+      "player": "Jhonnys Trembolizado",
+      "level": 1991,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:31",
+      "player": "Yagoodz Hahaha",
+      "level": 1992,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:31",
+      "player": "Jhonnys Trembolizado",
+      "level": 1992,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Khanriel",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Yagoodz Hahaha",
+      "level": 1995,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Voidshot",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Kawik",
+      "level": 2000,
+      "killedBy": "Crow Oz",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Akronus",
+      "level": 1991,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Balinho",
+      "level": 2007,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:27",
+      "player": "Flecha Fofa",
+      "level": 1997,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:26",
+      "player": "Jhonnys Trembolizado",
+      "level": 1995,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:25",
+      "player": "Voidshot",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:23",
+      "player": "Gokuu",
+      "level": 2005,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:23",
+      "player": "Balinho",
+      "level": 2008,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:22",
+      "player": "Yagoodz Hahaha",
+      "level": 1997,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:22",
+      "player": "Flecha Fofa",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Teylera Rp",
+      "level": 1998,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Balinho",
+      "level": 2011,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Akronus",
+      "level": 1993,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Gokuu",
+      "level": 2007,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:20",
+      "player": "Jhonnys Trembolizado",
       "level": 1997,
       "killedBy": "Khanriel",
       "maiorDano": "",
@@ -27112,135 +27246,54 @@
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:41",
-      "player": "Kashambao",
-      "level": 1002,
-      "killedBy": "Teko News",
+      "time": "Aug 18, 2026 10:20",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:40",
-      "player": "Flecha Fofa",
-      "level": 1994,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:40",
-      "player": "Jhonnys Trembolizado",
-      "level": 1984,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:40",
-      "player": "Snowzeraah",
-      "level": 716,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:40",
-      "player": "Voidshot",
-      "level": 1995,
-      "killedBy": "Osh Don",
-      "maiorDano": "Panuto Hahaha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:40",
-      "player": "Jhonnys Trembolizado",
-      "level": 1985,
+      "time": "Aug 18, 2026 10:18",
+      "player": "Balinho",
+      "level": 2013,
       "killedBy": "Panuto Hahaha",
       "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:39",
-      "player": "Teylera Rp",
-      "level": 1989,
-      "killedBy": "Khanriel",
+      "time": "Aug 18, 2026 10:17",
+      "player": "Boltfly Peoplecry",
+      "level": 1560,
+      "killedBy": "Amelior",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:39",
-      "player": "Jhonnys Trembolizado",
-      "level": 1987,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:39",
+      "time": "Aug 18, 2026 10:16",
       "player": "Flecha Fofa",
-      "level": 1995,
+      "level": 2000,
       "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:39",
-      "player": "Akronus",
-      "level": 1990,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:39",
+      "time": "Aug 18, 2026 10:16",
       "player": "Gokuu",
-      "level": 2002,
+      "level": 2008,
       "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
-      "time": "Aug 18, 2026 10:38",
-      "player": "Balinho",
-      "level": 2006,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:38",
-      "player": "Voidshot",
-      "level": 1997,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:38",
-      "player": "Jhonnys Trembolizado",
-      "level": 1988,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:38",
-      "player": "Ed Da Deepweb",
-      "level": 1999,
+      "time": "Aug 18, 2026 10:16",
+      "player": "Akronus",
+      "level": 1994,
       "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
@@ -27440,7 +27493,7 @@
         "Rofmao": 48,
         "Rp Terror": 38,
         "Rusha Rp": 65,
-        "Snowzeraah": 44,
+        "Snowzeraah": 45,
         "Tadala De Cinco": 62,
         "Thats My Way": 41,
         "Ultimate Warrior": 25,
@@ -38657,7 +38710,7 @@
           "Rofmao": 48,
           "Rp Terror": 38,
           "Rusha Rp": 65,
-          "Snowzeraah": 44,
+          "Snowzeraah": 45,
           "Tadala De Cinco": 62,
           "Thats My Way": 41,
           "Ultimate Warrior": 25,
@@ -41586,6 +41639,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 11:31 (Brasília)",
           "hour_key": "2026-08-18-11"
+        },
+        {
+          "name": "Snowzeraah",
+          "resets": 45,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 11:45 (Brasília)",
+          "hour_key": "2026-08-18-11"
         }
       ]
     },
@@ -42440,8 +42500,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3652,
-      "resets_today": 8,
+      "total_current": 3653,
+      "resets_today": 9,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 46,
@@ -42816,6 +42876,6 @@
   "errors": [
     "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
+    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
   ]
 }
