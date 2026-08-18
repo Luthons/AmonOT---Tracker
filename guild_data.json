@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:51 (Brasília)",
+  "updated_at": "17/08/2026 às 21:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -2020,7 +2020,7 @@
     },
     {
       "name": "palinhp",
-      "level": 2008,
+      "level": 2006,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2133,7 +2133,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1969,
+      "level": 1968,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3022,15 +3022,15 @@
           "online": false
         },
         {
-          "name": "palinhp",
-          "value": 2008,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 2007,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "palinhp",
+          "value": 2006,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3239,7 +3239,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 1969,
+          "value": 1968,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4073,7 +4073,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:51 (Brasília)",
+    "updated_at": "17/08/2026 às 21:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27008,6 +27008,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 21:51",
+      "player": "palinhp",
+      "level": 2008,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:51",
+      "player": "Rofmao",
+      "level": 1969,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 21:49",
       "player": "Kashambao",
       "level": 1735,
@@ -27270,18 +27288,18 @@
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Flecha Fofa",
-      "level": 1997,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Dede Knight",
+      "level": 1140,
+      "killedBy": "Kashambao",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Dede Knight",
-      "level": 1140,
-      "killedBy": "Kashambao",
+      "player": "Flecha Fofa",
+      "level": 1997,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
