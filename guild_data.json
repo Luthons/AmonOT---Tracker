@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:46 (Brasília)",
+  "updated_at": "17/08/2026 às 21:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -254,7 +254,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1984,
+      "level": 1982,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -767,7 +767,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 2000,
+      "level": 1997,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1191,7 +1191,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1735,
+      "level": 1734,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2587,7 +2587,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1995,
+      "level": 1994,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3368,12 +3368,6 @@
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3470,6 +3464,12 @@
           "online": true
         },
         {
+          "name": "El Diablo",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "MekZera",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -3482,16 +3482,16 @@
           "online": true
         },
         {
-          "name": "Voidshot",
-          "value": 1995,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Akronus",
           "value": 1994,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Voidshot",
+          "value": 1994,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Cerebro",
@@ -3507,7 +3507,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1984,
+          "value": 1982,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3567,7 +3567,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1735,
+          "value": 1734,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4353,7 +4353,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:45 (Brasília)",
+    "updated_at": "17/08/2026 às 21:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27287,6 +27287,33 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 17, 2026 21:49",
+      "player": "Kashambao",
+      "level": 1735,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:49",
+      "player": "Voidshot",
+      "level": 1995,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:49",
+      "player": "Jhonnys Trembolizado",
+      "level": 1984,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 17, 2026 21:48",
       "player": "Ethernal Pally",
