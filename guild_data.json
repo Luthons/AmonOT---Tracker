@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 17:36 (Brasília)",
+  "updated_at": "18/08/2026 às 17:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -2311,8 +2311,8 @@
     },
     {
       "name": "Tadala De Cinco",
-      "level": 1989,
-      "resets": 62,
+      "level": 8,
+      "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2322,6 +2322,11 @@
           "resets": 62,
           "gained": 1,
           "timestamp": "15/08/2026 às 13:32 (Brasília)"
+        },
+        {
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 17:37 (Brasília)"
         }
       ]
     },
@@ -2474,6 +2479,14 @@
     {
       "name": "palinhp",
       "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
+      "name": "Tadala De Cinco",
+      "resets_total": 63,
       "resets_today": 1,
       "resets_week": 0,
       "vocation": "Royal Paladin",
@@ -2657,6 +2670,12 @@
           "online": true
         },
         {
+          "name": "Tadala De Cinco",
+          "value": 63,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Cerebro",
           "value": 62,
           "vocation": "Elite Knight",
@@ -2664,12 +2683,6 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 62,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Tadala De Cinco",
           "value": 62,
           "vocation": "Royal Paladin",
           "online": true
@@ -3271,12 +3284,6 @@
         {
           "name": "Jhonnys Trembolizado",
           "value": 1994,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Tadala De Cinco",
-          "value": 1989,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4116,7 +4123,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 17:36 (Brasília)",
+    "updated_at": "18/08/2026 às 17:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28001,7 +28008,7 @@
         "Rp Terror": 38,
         "Rusha Rp": 65,
         "Snowzeraah": 45,
-        "Tadala De Cinco": 62,
+        "Tadala De Cinco": 63,
         "Thats My Way": 41,
         "Ultimate Warrior": 25,
         "Vitao The Trader": 22,
@@ -39326,7 +39333,7 @@
           "Rp Terror": 38,
           "Rusha Rp": 65,
           "Snowzeraah": 45,
-          "Tadala De Cinco": 62,
+          "Tadala De Cinco": 63,
           "Thats My Way": 41,
           "Ultimate Warrior": 25,
           "Vitao The Trader": 22,
@@ -42275,6 +42282,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 15:23 (Brasília)",
           "hour_key": "2026-08-18-15"
+        },
+        {
+          "name": "Tadala De Cinco",
+          "resets": 63,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 17:37 (Brasília)",
+          "hour_key": "2026-08-18-17"
         }
       ]
     },
@@ -43129,8 +43143,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3655,
-      "resets_today": 11,
+      "total_current": 3656,
+      "resets_today": 12,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 42,
