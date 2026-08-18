@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 20:58 (Brasília)",
+  "updated_at": "17/08/2026 às 21:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -335,7 +335,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
+      "level": 1997,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -825,7 +825,7 @@
     },
     {
       "name": "Fearless",
-      "level": 1998,
+      "level": 1995,
       "resets": 61,
       "vocation": "Elder Druid",
       "nick": "",
@@ -871,7 +871,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 2000,
+      "level": 1995,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3064,12 +3064,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Adolph Healer",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3109,12 +3103,6 @@
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Flecha Fofa",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3214,9 +3202,21 @@
           "online": true
         },
         {
+          "name": "Teylera Rp",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Fearless",
-          "value": 1998,
+          "value": 1995,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Flecha Fofa",
+          "value": 1995,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4073,7 +4073,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 20:58 (Brasília)",
+    "updated_at": "17/08/2026 às 21:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27008,6 +27008,51 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 21:00",
+      "player": "Fearless",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:00",
+      "player": "Flecha Fofa",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 20:59",
+      "player": "Kashambao",
+      "level": 1741,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 20:59",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 20:59",
+      "player": "Flecha Fofa",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 20:22",
       "player": "Feijao Baiakeironato",
       "level": 2000,
@@ -27537,42 +27582,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 21:18",
-      "player": "Voidshot",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 21:15",
-      "player": "El Diablo",
-      "level": 1997,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 21:07",
-      "player": "Jhonnys Trembolizado",
-      "level": 1982,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 20:59",
-      "player": "Jhonnys Trembolizado",
-      "level": 1985,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27650,63 +27659,6 @@
         "Welljacob": 42
       },
       "snapshots": {
-        "2026-08-10-21": {
-          "Dmonick": 60,
-          "Gizao": 61,
-          "Akronus": 67,
-          "Albatrozz": 69,
-          "Cerebro": 62,
-          "Magabela": 59,
-          "Punish Claude": 53,
-          "Teylera Rp": 62,
-          "Yagoodz Hahaha": 70,
-          "Achilles": 18,
-          "Adolph Healer": 20,
-          "Albatroz": 53,
-          "Amelior": 52,
-          "Baiakudinho": 63,
-          "Boingbringer": 30,
-          "Boltfly Peoplecry": 43,
-          "Brunao Rei Denovo": 31,
-          "Brunaobringer": 50,
-          "Coriinga": 64,
-          "El Diablo": 71,
-          "Elder Lougon": 25,
-          "Feijao Baiakeironato": 54,
-          "Gokuu": 60,
-          "Guidao Palao": 57,
-          "Haony": 57,
-          "Henrique": 52,
-          "Henrique Arqueiro": 51,
-          "Its Gui": 44,
-          "Jhonnys Trembolizado": 94,
-          "Jishuka": 65,
-          "Kashambao": 54,
-          "Kev": 33,
-          "Kiel": 65,
-          "Kolwaski": 54,
-          "Lilian Faithkeeper": 45,
-          "Lipe Knight": 64,
-          "Loks": 58,
-          "Lotus Lothbrook": 36,
-          "Lougon Baiakeiro": 33,
-          "Lukitas Brokenzada": 41,
-          "MekZera": 62,
-          "Melbiss": 56,
-          "Monstro Das Criptos": 59,
-          "Nino": 53,
-          "Ntka": 57,
-          "Pally Tetss": 55,
-          "Pestinha": 42,
-          "Royal Sniper": 64,
-          "Rp Terror": 38,
-          "Rusha Rp": 65,
-          "Ultimate Warrior": 25,
-          "Vinizerah On Amonot": 48,
-          "Vitao The Trader": 22,
-          "Voidshot": 60,
-          "VukVuk": 50
-        },
         "2026-08-10-22": {
           "Dmonick": 60,
           "Gizao": 61,
@@ -38618,6 +38570,78 @@
           "Voidshot": 60,
           "VukVuk": 50,
           "Welljacob": 42
+        },
+        "2026-08-17-21": {
+          "Albatrozz": 70,
+          "Gizao": 61,
+          "Akronus": 68,
+          "Cerebro": 62,
+          "Jhonnys Trembolizado": 94,
+          "Magabela": 61,
+          "Teylera Rp": 62,
+          "Yagoodz Hahaha": 70,
+          "Achilles": 18,
+          "Adolph Healer": 20,
+          "Albatroz": 57,
+          "Baiakudinho": 68,
+          "Boingbringer": 30,
+          "Boltfly Peoplecry": 47,
+          "Brunao Rei Denovo": 31,
+          "Brunaobringer": 50,
+          "Coriinga": 64,
+          "Dede Knight": 48,
+          "Dmonick": 60,
+          "Eckoss": 48,
+          "Ed Da Deepweb": 50,
+          "El Diablo": 71,
+          "Elder Lougon": 25,
+          "Ethernal Pally": 39,
+          "Fearless": 61,
+          "Feijao Baiakeironato": 54,
+          "Flam Ham Bum": 41,
+          "Flecha Fofa": 60,
+          "Garuvuvinha": 60,
+          "Gokuu": 60,
+          "Haony": 60,
+          "HEFESTO": 42,
+          "Henrique Arqueiro": 51,
+          "Hurtles Ownsz": 27,
+          "Its Gui": 44,
+          "Kashambao": 59,
+          "Kawik": 61,
+          "Kev": 34,
+          "Kiel": 65,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 47,
+          "Lipe Knight": 68,
+          "Loks": 60,
+          "Lotus Lothbrook": 40,
+          "Lougon Baiakeiro": 33,
+          "Luiscrazynear": 48,
+          "Lukitas Brokenzada": 41,
+          "MekZera": 63,
+          "Melbiss": 58,
+          "Monstro Das Criptos": 59,
+          "Mugunza": 56,
+          "Nino": 53,
+          "Ntka": 57,
+          "Obrabo": 30,
+          "padim ed": 36,
+          "palinhp": 53,
+          "Pally Tetss": 55,
+          "Pestinha": 42,
+          "Punish Claude": 53,
+          "Rofmao": 47,
+          "Rp Terror": 38,
+          "Rusha Rp": 65,
+          "Snowzeraah": 42,
+          "Tadala De Cinco": 62,
+          "Thats My Way": 41,
+          "Ultimate Warrior": 25,
+          "Vitao The Trader": 22,
+          "Voidshot": 60,
+          "VukVuk": 50,
+          "Welljacob": 42
         }
       },
       "events": [
@@ -41538,7 +41562,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-10-21": {},
         "2026-08-10-22": {},
         "2026-08-10-23": {},
         "2026-08-11-00": {},
@@ -41705,7 +41728,8 @@
         "2026-08-17-17": {},
         "2026-08-17-18": {},
         "2026-08-17-19": {},
-        "2026-08-17-20": {}
+        "2026-08-17-20": {},
+        "2026-08-17-21": {}
       },
       "events": []
     },
