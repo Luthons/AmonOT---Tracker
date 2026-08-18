@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:57 (Brasília)",
+  "updated_at": "17/08/2026 às 21:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -238,7 +238,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1982,
+      "level": 1981,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -356,7 +356,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 2007,
+      "level": 2006,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -907,7 +907,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2035,7 +2035,7 @@
     },
     {
       "name": "palinhp",
-      "level": 2006,
+      "level": 2005,
       "resets": 53,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2215,7 +2215,7 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 2015,
+      "level": 2013,
       "resets": 65,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3040,7 +3040,7 @@
         },
         {
           "name": "Rusha Rp",
-          "value": 2015,
+          "value": 2013,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3052,13 +3052,13 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 2007,
+          "value": 2006,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "palinhp",
-          "value": 2006,
+          "value": 2005,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3120,12 +3120,6 @@
           "name": "Feijao Baiakeironato",
           "value": 2000,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3207,6 +3201,12 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Paca",
           "value": 1998,
           "vocation": "Elder Druid",
@@ -3262,7 +3262,7 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1982,
+          "value": 1981,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4102,7 +4102,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:57 (Brasília)",
+    "updated_at": "17/08/2026 às 21:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27037,6 +27037,51 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 21:57",
+      "player": "Rusha Rp",
+      "level": 2015,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:57",
+      "player": "Yagoodz Hahaha",
+      "level": 2007,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:57",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:57",
+      "player": "palinhp",
+      "level": 2006,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:57",
+      "player": "Jhonnys Trembolizado",
+      "level": 1982,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 21:56",
       "player": "Dede Knight",
       "level": 1136,
@@ -27371,18 +27416,18 @@
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Flecha Fofa",
-      "level": 1997,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Dede Knight",
+      "level": 1140,
+      "killedBy": "Kashambao",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Dede Knight",
-      "level": 1140,
-      "killedBy": "Kashambao",
+      "player": "Flecha Fofa",
+      "level": 1997,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27923,42 +27968,6 @@
       "player": "Kashambao",
       "level": 1672,
       "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 18:58",
-      "player": "Jhonnys Trembolizado",
-      "level": 1995,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 18:58",
-      "player": "Yagoodz Hahaha",
-      "level": 1997,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 18:57",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 18:57",
-      "player": "Jhonnys Trembolizado",
-      "level": 1997,
-      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
