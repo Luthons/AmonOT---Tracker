@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 07:16 (Brasília)",
+  "updated_at": "18/08/2026 às 07:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1046,8 +1046,8 @@
     },
     {
       "name": "Kashambao",
-      "level": 2000,
-      "resets": 59,
+      "level": 8,
+      "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1082,6 +1082,11 @@
           "resets": 59,
           "gained": 1,
           "timestamp": "17/08/2026 às 07:06 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 07:17 (Brasília)"
         }
       ]
     },
@@ -2371,6 +2376,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Kashambao",
+      "resets_total": 60,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Luiscrazynear",
       "resets_total": 49,
       "resets_today": 1,
@@ -2455,14 +2468,6 @@
       "resets_total": 60,
       "resets_today": 0,
       "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Kashambao",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 5,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -2668,6 +2673,12 @@
           "online": true
         },
         {
+          "name": "Kashambao",
+          "value": 60,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loks",
           "value": 60,
           "vocation": "Elder Druid",
@@ -2676,12 +2687,6 @@
         {
           "name": "Voidshot",
           "value": 60,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 59,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3079,12 +3084,6 @@
           "name": "Its Gui",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4043,7 +4042,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 07:16 (Brasília)",
+    "updated_at": "18/08/2026 às 07:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27375,19 +27374,19 @@
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Paca",
-      "level": 2000,
-      "killedBy": "Yagoodz Hahaha",
-      "maiorDano": "",
+      "player": "Kashambao",
+      "level": 1734,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Kashambao",
-      "level": 1734,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "Khanriel",
+      "player": "Paca",
+      "level": 2000,
+      "killedBy": "Yagoodz Hahaha",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27493,7 +27492,7 @@
         "Henrique Arqueiro": 51,
         "Hurtles Ownsz": 27,
         "Its Gui": 44,
-        "Kashambao": 59,
+        "Kashambao": 60,
         "Kawik": 61,
         "Kev": 34,
         "Kiel": 65,
@@ -38639,7 +38638,7 @@
           "Henrique Arqueiro": 51,
           "Hurtles Ownsz": 27,
           "Its Gui": 44,
-          "Kashambao": 59,
+          "Kashambao": 60,
           "Kawik": 61,
           "Kev": 34,
           "Kiel": 65,
@@ -41568,6 +41567,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 04:48 (Brasília)",
           "hour_key": "2026-08-18-04"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 07:17 (Brasília)",
+          "hour_key": "2026-08-18-07"
         }
       ]
     },
@@ -42422,11 +42428,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 3597,
-      "resets_today": 4,
-      "resets_week": 42,
+      "total_current": 3598,
+      "resets_today": 5,
+      "resets_week": 43,
       "resets_month": 0,
-      "resets_lifetime": 44,
+      "resets_lifetime": 45,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
