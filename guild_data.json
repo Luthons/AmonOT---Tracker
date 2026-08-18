@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:56 (Brasília)",
+  "updated_at": "17/08/2026 às 21:57 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
-  "online_count": 54,
-  "offline_count": 17,
+  "online_count": 56,
+  "offline_count": 15,
   "members": [
     {
       "name": "Albatrozz",
@@ -56,7 +56,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 46,
@@ -912,7 +912,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 54,
@@ -1963,8 +1963,8 @@
     },
     {
       "name": "Obrabo",
-      "level": 1756,
-      "resets": 30,
+      "level": 8,
+      "resets": 31,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1979,6 +1979,11 @@
           "resets": 30,
           "gained": 1,
           "timestamp": "16/08/2026 às 14:32 (Brasília)"
+        },
+        {
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 21:57 (Brasília)"
         }
       ]
     },
@@ -2457,6 +2462,14 @@
       "online": true
     },
     {
+      "name": "Obrabo",
+      "resets_total": 31,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "padim ed",
       "resets_total": 36,
       "resets_today": 1,
@@ -2494,7 +2507,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": false
+      "online": true
     },
     {
       "name": "Magabela",
@@ -2603,7 +2616,7 @@
           "name": "Akronus",
           "value": 68,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -2705,7 +2718,7 @@
           "name": "Gokuu",
           "value": 60,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Haony",
@@ -2954,16 +2967,16 @@
           "online": true
         },
         {
+          "name": "Obrabo",
+          "value": 31,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Boingbringer",
           "value": 30,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Obrabo",
-          "value": 30,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Hurtles Ownsz",
@@ -3113,7 +3126,7 @@
           "name": "Gokuu",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Henrique Arqueiro",
@@ -3227,7 +3240,7 @@
           "name": "Akronus",
           "value": 1994,
           "vocation": "Master Sorcerer",
-          "online": false
+          "online": true
         },
         {
           "name": "Voidshot",
@@ -3294,12 +3307,6 @@
           "value": 1787,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Obrabo",
-          "value": 1756,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Pestinha",
@@ -4095,7 +4102,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:56 (Brasília)",
+    "updated_at": "17/08/2026 às 21:57 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27040,19 +27047,19 @@
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Kashambao",
-      "level": 1734,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "Khanriel",
+      "player": "Paca",
+      "level": 2000,
+      "killedBy": "Yagoodz Hahaha",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Paca",
-      "level": 2000,
-      "killedBy": "Yagoodz Hahaha",
-      "maiorDano": "",
+      "player": "Kashambao",
+      "level": 1734,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27157,18 +27164,18 @@
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Voidshot",
-      "level": 1998,
-      "killedBy": "Julian Alvarez",
+      "player": "Akronus",
+      "level": 1995,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Akronus",
-      "level": 1995,
-      "killedBy": "Khanriel",
+      "player": "Voidshot",
+      "level": 1998,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -28013,7 +28020,7 @@
         "Mugunza": 56,
         "Nino": 53,
         "Ntka": 57,
-        "Obrabo": 30,
+        "Obrabo": 31,
         "Paca": 37,
         "padim ed": 36,
         "palinhp": 53,
@@ -38999,7 +39006,7 @@
           "Mugunza": 56,
           "Nino": 53,
           "Ntka": 57,
-          "Obrabo": 30,
+          "Obrabo": 31,
           "Paca": 37,
           "padim ed": 36,
           "palinhp": 53,
@@ -41931,6 +41938,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 20:34 (Brasília)",
           "hour_key": "2026-08-17-20"
+        },
+        {
+          "name": "Obrabo",
+          "resets": 31,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 21:57 (Brasília)",
+          "hour_key": "2026-08-17-21"
         }
       ]
     },
@@ -42785,8 +42799,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 3591,
-      "resets_today": 13,
+      "total_current": 3592,
+      "resets_today": 14,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 42,
