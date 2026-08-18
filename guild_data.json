@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 17:52 (Brasília)",
+  "updated_at": "18/08/2026 às 17:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1611,7 +1611,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1041,
+      "level": 1040,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1998,
+      "level": 1997,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3252,12 +3252,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
@@ -3279,6 +3273,12 @@
           "name": "Its Gui",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "MekZera",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3409,7 +3409,7 @@
         },
         {
           "name": "Luiscrazynear",
-          "value": 1041,
+          "value": 1040,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4123,7 +4123,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 17:52 (Brasília)",
+    "updated_at": "18/08/2026 às 17:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27059,6 +27059,24 @@
   "deaths_global": [
     {
       "time": "Aug 18, 2026 17:52",
+      "player": "MekZera",
+      "level": 1998,
+      "killedBy": "Holly Sapetah",
+      "maiorDano": "Crow Oz",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 17:52",
+      "player": "Luiscrazynear",
+      "level": 1041,
+      "killedBy": "Crow Oz",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 17:52",
       "player": "Balinho",
       "level": 2039,
       "killedBy": "Crow Oz",
@@ -27927,15 +27945,6 @@
       "level": 1994,
       "killedBy": "Khanriel",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:16",
-      "player": "Balinho",
-      "level": 2014,
-      "killedBy": "Khanriel",
-      "maiorDano": "Julian Alvarez",
       "world": "Baiak",
       "isPvp": true
     }
