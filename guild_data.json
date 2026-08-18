@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 17:27 (Brasília)",
+  "updated_at": "18/08/2026 às 17:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -233,7 +233,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 2000,
+      "level": 1997,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -683,7 +683,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 2000,
+      "level": 1997,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3089,12 +3089,6 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3120,12 +3114,6 @@
         },
         {
           "name": "Brunaobringer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Ed Da Deepweb",
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
@@ -3257,6 +3245,12 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
@@ -3267,6 +3261,12 @@
           "value": 1997,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Its Gui",
@@ -4116,7 +4116,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 17:27 (Brasília)",
+    "updated_at": "18/08/2026 às 17:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27050,6 +27050,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 18, 2026 17:27",
+      "player": "Ed Da Deepweb",
+      "level": 2000,
+      "killedBy": "Killua",
+      "maiorDano": "Tajuquinha",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 18, 2026 17:27",
       "player": "Jhonnys Trembolizado",
