@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 11:29 (Brasília)",
+  "updated_at": "18/08/2026 às 11:31 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 57,
-  "offline_count": 15,
+  "online_count": 58,
+  "offline_count": 14,
   "members": [
     {
       "name": "Albatrozz",
@@ -233,7 +233,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1999,
+      "level": 1997,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -351,7 +351,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 2000,
+      "level": 1997,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -855,12 +855,12 @@
     },
     {
       "name": "Flam Ham Bum",
-      "level": 1509,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 39,
@@ -876,6 +876,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "16/08/2026 às 17:49 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 11:31 (Brasília)"
         }
       ]
     },
@@ -2412,6 +2417,14 @@
       "online": true
     },
     {
+      "name": "Flam Ham Bum",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Kashambao",
       "resets_total": 60,
       "resets_today": 1,
@@ -2855,6 +2868,12 @@
           "online": true
         },
         {
+          "name": "Flam Ham Bum",
+          "value": 42,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "HEFESTO",
           "value": 42,
           "vocation": "Elite Knight",
@@ -2871,12 +2890,6 @@
           "value": 42,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Flam Ham Bum",
-          "value": 41,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Lukitas Brokenzada",
@@ -3065,12 +3078,6 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -3209,12 +3216,6 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1999,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Kawik",
           "value": 1999,
           "vocation": "Elite Knight",
@@ -3225,6 +3226,18 @@
           "value": 1998,
           "vocation": "Master Sorcerer",
           "online": false
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 1997,
+          "vocation": "Elite Knight",
+          "online": true
         },
         {
           "name": "Adolph Healer",
@@ -3309,12 +3322,6 @@
           "value": 1559,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Flam Ham Bum",
-          "value": 1509,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Coriinga",
@@ -4080,7 +4087,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 11:29 (Brasília)",
+    "updated_at": "18/08/2026 às 11:31 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27015,6 +27022,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 11:29",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 11:28",
+      "player": "Jhonnys Trembolizado",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 10:45",
       "player": "Balinho",
       "level": 2004,
@@ -27249,6 +27274,384 @@
       "isPvp": true
     },
     {
+      "time": "Aug 18, 2026 10:32",
+      "player": "Jhonnys Trembolizado",
+      "level": 1991,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:31",
+      "player": "Yagoodz Hahaha",
+      "level": 1992,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:31",
+      "player": "Jhonnys Trembolizado",
+      "level": 1992,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Jhonnys Trembolizado",
+      "level": 1994,
+      "killedBy": "Khanriel",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Yagoodz Hahaha",
+      "level": 1995,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:30",
+      "player": "Voidshot",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Kawik",
+      "level": 2000,
+      "killedBy": "Crow Oz",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Akronus",
+      "level": 1991,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:28",
+      "player": "Balinho",
+      "level": 2007,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:27",
+      "player": "Flecha Fofa",
+      "level": 1997,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:26",
+      "player": "Jhonnys Trembolizado",
+      "level": 1995,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:25",
+      "player": "Voidshot",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:23",
+      "player": "Gokuu",
+      "level": 2005,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:23",
+      "player": "Balinho",
+      "level": 2008,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:22",
+      "player": "Yagoodz Hahaha",
+      "level": 1997,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:22",
+      "player": "Flecha Fofa",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Teylera Rp",
+      "level": 1998,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Balinho",
+      "level": 2011,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Akronus",
+      "level": 1993,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:21",
+      "player": "Gokuu",
+      "level": 2007,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:20",
+      "player": "Jhonnys Trembolizado",
+      "level": 1997,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:20",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:18",
+      "player": "Balinho",
+      "level": 2013,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:17",
+      "player": "Boltfly Peoplecry",
+      "level": 1560,
+      "killedBy": "Amelior",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:16",
+      "player": "Flecha Fofa",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:16",
+      "player": "Gokuu",
+      "level": 2008,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:16",
+      "player": "Akronus",
+      "level": 1994,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:16",
+      "player": "Balinho",
+      "level": 2014,
+      "killedBy": "Khanriel",
+      "maiorDano": "Julian Alvarez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:10",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:08",
+      "player": "Jhonnys Trembolizado",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:08",
+      "player": "Melbiss",
+      "level": 922,
+      "killedBy": "Crow Oz",
+      "maiorDano": "Atreus Oldking",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 10:06",
+      "player": "Balinho",
+      "level": 2017,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:53",
+      "player": "MekZera",
+      "level": 1997,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:52",
+      "player": "Lilian Faithkeeper",
+      "level": 1312,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:48",
+      "player": "Ed Da Deepweb",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:42",
+      "player": "Lipe Knight",
+      "level": 2036,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:13",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 09:12",
+      "player": "Jhonnys Trembolizado",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 08:51",
+      "player": "Yagoodz Hahaha",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 08:50",
+      "player": "Jhonnys Trembolizado",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 08:46",
+      "player": "Balinho",
+      "level": 2019,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 06:16",
       "player": "Gokuu",
       "level": 2011,
@@ -27378,7 +27781,7 @@
         "Ethernal Pally": 39,
         "Fearless": 61,
         "Feijao Baiakeironato": 54,
-        "Flam Ham Bum": 41,
+        "Flam Ham Bum": 42,
         "Flecha Fofa": 60,
         "Garuvuvinha": 60,
         "Gokuu": 60,
@@ -38595,7 +38998,7 @@
           "Ethernal Pally": 39,
           "Fearless": 61,
           "Feijao Baiakeironato": 54,
-          "Flam Ham Bum": 41,
+          "Flam Ham Bum": 42,
           "Flecha Fofa": 60,
           "Garuvuvinha": 60,
           "Gokuu": 60,
@@ -41554,6 +41957,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 09:01 (Brasília)",
           "hour_key": "2026-08-18-09"
+        },
+        {
+          "name": "Flam Ham Bum",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 11:31 (Brasília)",
+          "hour_key": "2026-08-18-11"
         }
       ]
     },
@@ -42408,8 +42818,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3651,
-      "resets_today": 7,
+      "total_current": 3652,
+      "resets_today": 8,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 46,
