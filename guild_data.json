@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 00:31 (Brasília)",
+  "updated_at": "18/08/2026 às 00:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1581,8 +1581,8 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1997,
-      "resets": 48,
+      "level": 8,
+      "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -1617,6 +1617,11 @@
           "resets": 48,
           "gained": 1,
           "timestamp": "16/08/2026 às 22:50 (Brasília)"
+        },
+        {
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 00:32 (Brasília)"
         }
       ]
     },
@@ -2361,6 +2366,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Luiscrazynear",
+      "resets_total": 49,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Melbiss",
       "resets_total": 59,
       "resets_today": 1,
@@ -2750,6 +2763,12 @@
           "online": true
         },
         {
+          "name": "Luiscrazynear",
+          "value": 49,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Dede Knight",
           "value": 48,
           "vocation": "Elite Knight",
@@ -2759,12 +2778,6 @@
           "name": "Eckoss",
           "value": 48,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Luiscrazynear",
-          "value": 48,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3153,12 +3166,6 @@
         },
         {
           "name": "El Diablo",
-          "value": 1997,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Luiscrazynear",
           "value": 1997,
           "vocation": "Elder Druid",
           "online": true
@@ -4017,7 +4024,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 00:31 (Brasília)",
+    "updated_at": "18/08/2026 às 00:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27540,7 +27547,7 @@
         "Loks": 60,
         "Lotus Lothbrook": 40,
         "Lougon Baiakeiro": 33,
-        "Luiscrazynear": 48,
+        "Luiscrazynear": 49,
         "Lukitas Brokenzada": 41,
         "MekZera": 63,
         "Melbiss": 59,
@@ -38574,7 +38581,7 @@
           "Loks": 60,
           "Lotus Lothbrook": 40,
           "Lougon Baiakeiro": 33,
-          "Luiscrazynear": 48,
+          "Luiscrazynear": 49,
           "Lukitas Brokenzada": 41,
           "MekZera": 63,
           "Melbiss": 59,
@@ -41479,6 +41486,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 23:07 (Brasília)",
           "hour_key": "2026-08-17-23"
+        },
+        {
+          "name": "Luiscrazynear",
+          "resets": 49,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 00:32 (Brasília)",
+          "hour_key": "2026-08-18-00"
         }
       ]
     },
@@ -42333,8 +42347,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 3595,
-      "resets_today": 2,
+      "total_current": 3596,
+      "resets_today": 3,
       "resets_week": 42,
       "resets_month": 0,
       "resets_lifetime": 44,
