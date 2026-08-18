@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:31 (Brasília)",
+  "updated_at": "17/08/2026 às 21:34 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -254,7 +254,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1990,
+      "level": 1988,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -653,7 +653,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1141,
+      "level": 1140,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1147,7 +1147,7 @@
     },
     {
       "name": "Hurtles Ownsz",
-      "level": 533,
+      "level": 550,
       "resets": 27,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -2175,7 +2175,7 @@
     },
     {
       "name": "Obrabo",
-      "level": 1646,
+      "level": 1743,
       "resets": 30,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2200,7 +2200,7 @@
     },
     {
       "name": "padim ed",
-      "level": 449,
+      "level": 731,
       "resets": 36,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2369,7 +2369,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1963,
+      "level": 1971,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3507,13 +3507,13 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 1990,
+          "value": 1988,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Rofmao",
-          "value": 1963,
+          "value": 1971,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3560,15 +3560,15 @@
           "online": false
         },
         {
-          "name": "Kashambao",
-          "value": 1738,
-          "vocation": "Royal Paladin",
+          "name": "Obrabo",
+          "value": 1743,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Obrabo",
-          "value": 1646,
-          "vocation": "Elite Knight",
+          "name": "Kashambao",
+          "value": 1738,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3621,7 +3621,7 @@
         },
         {
           "name": "Dede Knight",
-          "value": 1141,
+          "value": 1140,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3662,6 +3662,12 @@
           "online": false
         },
         {
+          "name": "padim ed",
+          "value": 731,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Welljacob",
           "value": 723,
           "vocation": "Royal Paladin",
@@ -3669,7 +3675,7 @@
         },
         {
           "name": "Hurtles Ownsz",
-          "value": 533,
+          "value": 550,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3678,12 +3684,6 @@
           "value": 506,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "padim ed",
-          "value": 449,
-          "vocation": "Elder Druid",
-          "online": true
         }
       ]
     }
@@ -4353,7 +4353,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:30 (Brasília)",
+    "updated_at": "17/08/2026 às 21:34 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27287,6 +27287,42 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 17, 2026 21:34",
+      "player": "Akronus",
+      "level": 2000,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:33",
+      "player": "Rofmao",
+      "level": 1972,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:33",
+      "player": "Dede Knight",
+      "level": 1141,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:33",
+      "player": "Jhonnys Trembolizado",
+      "level": 1990,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 17, 2026 21:32",
       "player": "Dede Knight",
