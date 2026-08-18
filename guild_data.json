@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 10:16 (Brasília)",
+  "updated_at": "18/08/2026 às 10:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 54,
-  "offline_count": 18,
+  "online_count": 55,
+  "offline_count": 17,
   "members": [
     {
       "name": "Albatrozz",
@@ -541,7 +541,7 @@
     },
     {
       "name": "Balinho",
-      "level": 2013,
+      "level": 2011,
       "resets": 51,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -667,7 +667,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1656,
+      "level": 1657,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1152,11 +1152,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Aug 18, 2026, 10:08:43",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": true,
+      "online": true,
       "reset_history": []
     },
     {
@@ -3074,7 +3070,7 @@
           "name": "Henrique Arqueiro",
           "value": 51,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Brunaobringer",
@@ -3299,15 +3295,15 @@
           "online": true
         },
         {
-          "name": "Balinho",
-          "value": 2013,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Rusha Rp",
           "value": 2012,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Balinho",
+          "value": 2011,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3392,7 +3388,7 @@
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Its Gui",
@@ -3582,7 +3578,7 @@
         },
         {
           "name": "Dede Knight",
-          "value": 1656,
+          "value": 1657,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4368,7 +4364,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 10:15 (Brasília)",
+    "updated_at": "18/08/2026 às 10:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27302,6 +27298,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 18, 2026 10:18",
+      "player": "Balinho",
+      "level": 2013,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 18, 2026 10:17",
       "player": "Boltfly Peoplecry",
