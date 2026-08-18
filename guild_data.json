@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 15:15 (Brasília)",
+  "updated_at": "18/08/2026 às 15:16 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -683,7 +683,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1998,
+      "level": 1996,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3232,12 +3232,6 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
-          "value": 1998,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Henrique Arqueiro",
           "value": 1998,
           "vocation": "Royal Paladin",
@@ -3258,6 +3252,12 @@
         {
           "name": "Its Gui",
           "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 1996,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4103,7 +4103,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 15:15 (Brasília)",
+    "updated_at": "18/08/2026 às 15:16 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27038,6 +27038,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 15:16",
+      "player": "Ed Da Deepweb",
+      "level": 1998,
+      "killedBy": "Osh Don",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 15:12",
       "player": "Yagoodz Hahaha",
       "level": 2000,
@@ -27736,15 +27745,6 @@
       "level": 1994,
       "killedBy": "Khanriel",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:16",
-      "player": "Balinho",
-      "level": 2014,
-      "killedBy": "Khanriel",
-      "maiorDano": "Julian Alvarez",
       "world": "Baiak",
       "isPvp": true
     },
