@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:45 (Brasília)",
+  "updated_at": "17/08/2026 às 21:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -1658,7 +1658,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1998,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3130,12 +3130,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3181,6 +3175,12 @@
           "name": "Achilles",
           "value": 1998,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "MekZera",
+          "value": 1998,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4073,7 +4073,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:45 (Brasília)",
+    "updated_at": "17/08/2026 às 21:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27008,6 +27008,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 21:45",
+      "player": "Dede Knight",
+      "level": 1136,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:45",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nao Eh Pedim",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 21:41",
       "player": "Dede Knight",
       "level": 1137,
@@ -27778,15 +27796,6 @@
       "level": 995,
       "killedBy": "Holly Sapetah",
       "maiorDano": "Open Detheca",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 09:56",
-      "player": "Rp Terror",
-      "level": 1992,
-      "killedBy": "Killua",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
