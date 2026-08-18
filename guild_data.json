@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 10:43 (Brasília)",
+  "updated_at": "18/08/2026 às 10:44 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -4080,7 +4080,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 10:43 (Brasília)",
+    "updated_at": "18/08/2026 às 10:44 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27679,15 +27679,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 23:45",
-      "player": "Dede Knight",
-      "level": 1631,
-      "killedBy": "Khanriel",
-      "maiorDano": "Osh Don",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -43107,7 +43098,7 @@
   ],
   "errors": [
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
-    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
+    "Inimigos (Fuba Empire): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
 }
