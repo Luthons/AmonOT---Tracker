@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 23:27 (Brasília)",
+  "updated_at": "17/08/2026 às 23:28 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -673,7 +673,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 2000,
+      "level": 1998,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -907,7 +907,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1999,
+      "level": 2011,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2996,6 +2996,12 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 2011,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "palinhp",
           "value": 2005,
           "vocation": "Royal Paladin",
@@ -3057,12 +3063,6 @@
         },
         {
           "name": "Brunaobringer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Ed Da Deepweb",
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
@@ -3176,9 +3176,9 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1999,
-          "vocation": "Royal Paladin",
+          "name": "Ed Da Deepweb",
+          "value": 1998,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -4047,7 +4047,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 23:27 (Brasília)",
+    "updated_at": "17/08/2026 às 23:28 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26981,6 +26981,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 17, 2026 23:27",
+      "player": "Ed Da Deepweb",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 23:27",
+      "player": "Gokuu",
+      "level": 2012,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 17, 2026 23:27",
       "player": "Dede Knight",
