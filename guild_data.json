@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 15:22 (Brasília)",
+  "updated_at": "18/08/2026 às 15:23 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -814,7 +814,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1906,
+      "level": 1905,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2044,8 +2044,8 @@
     },
     {
       "name": "palinhp",
-      "level": 2005,
-      "resets": 53,
+      "level": 8,
+      "resets": 54,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2055,6 +2055,11 @@
           "resets": 53,
           "gained": 1,
           "timestamp": "13/08/2026 às 10:26 (Brasília)"
+        },
+        {
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 15:23 (Brasília)"
         }
       ]
     },
@@ -2467,6 +2472,14 @@
       "online": false
     },
     {
+      "name": "palinhp",
+      "resets_total": 54,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Albatrozz",
       "resets_total": 70,
       "resets_today": 0,
@@ -2782,13 +2795,13 @@
           "online": true
         },
         {
-          "name": "Nino",
-          "value": 53,
+          "name": "palinhp",
+          "value": 54,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "palinhp",
+          "name": "Nino",
           "value": 53,
           "vocation": "Royal Paladin",
           "online": true
@@ -3046,12 +3059,6 @@
           "online": true
         },
         {
-          "name": "palinhp",
-          "value": 2005,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Albatrozz",
           "value": 2002,
           "vocation": "Elder Druid",
@@ -3287,7 +3294,7 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1906,
+          "value": 1905,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4103,7 +4110,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 15:22 (Brasília)",
+    "updated_at": "18/08/2026 às 15:23 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27038,6 +27045,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 15:23",
+      "player": "Voidshot",
+      "level": 2001,
+      "killedBy": "Teko News",
+      "maiorDano": "Osh Don",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 15:23",
+      "player": "Luiscrazynear",
+      "level": 946,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 15:22",
+      "player": "Ed Da Deepweb",
+      "level": 1997,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 15:22",
+      "player": "Ethernal Pally",
+      "level": 1906,
+      "killedBy": "Teko News",
+      "maiorDano": "Osh Don",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 15:16",
       "player": "Ethernal Pally",
       "level": 1907,
@@ -27944,7 +27987,7 @@
         "Obrabo": 32,
         "Paca": 37,
         "padim ed": 36,
-        "palinhp": 53,
+        "palinhp": 54,
         "Pally Tetss": 55,
         "Pestinha": 42,
         "Punish Claude": 53,
@@ -39233,7 +39276,7 @@
           "Obrabo": 32,
           "Paca": 37,
           "padim ed": 36,
-          "palinhp": 53,
+          "palinhp": 54,
           "Pally Tetss": 55,
           "Pestinha": 42,
           "Punish Claude": 53,
@@ -42183,6 +42226,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 14:52 (Brasília)",
           "hour_key": "2026-08-18-14"
+        },
+        {
+          "name": "palinhp",
+          "resets": 54,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 15:23 (Brasília)",
+          "hour_key": "2026-08-18-15"
         }
       ]
     },
@@ -43037,8 +43087,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3654,
-      "resets_today": 10,
+      "total_current": 3655,
+      "resets_today": 11,
       "resets_week": 44,
       "resets_month": 0,
       "resets_lifetime": 43,
