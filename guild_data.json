@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 23:46 (Brasília)",
+  "updated_at": "17/08/2026 às 23:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -753,7 +753,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1998,
+      "level": 1997,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3442,13 +3442,7 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
-          "value": 1998,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Luiscrazynear",
+          "name": "Flecha Fofa",
           "value": 1998,
           "vocation": "Elder Druid",
           "online": true
@@ -3470,6 +3464,12 @@
           "value": 1997,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "El Diablo",
@@ -4331,7 +4331,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 23:45 (Brasília)",
+    "updated_at": "17/08/2026 às 23:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27266,6 +27266,51 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 23:48",
+      "player": "Ed Da Deepweb",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "Nutellinha Druid",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 23:45",
+      "player": "Flecha Fofa",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 23:45",
+      "player": "Albatroz",
+      "level": 1911,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 23:45",
+      "player": "Dede Knight",
+      "level": 1631,
+      "killedBy": "Khanriel",
+      "maiorDano": "Osh Don",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 23:45",
+      "player": "Yagoodz Hahaha",
+      "level": 2001,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 23:44",
       "player": "Jhonnys Trembolizado",
       "level": 1997,
@@ -27519,19 +27564,19 @@
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Kashambao",
-      "level": 1734,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "Khanriel",
+      "player": "Paca",
+      "level": 2000,
+      "killedBy": "Yagoodz Hahaha",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Paca",
-      "level": 2000,
-      "killedBy": "Yagoodz Hahaha",
-      "maiorDano": "",
+      "player": "Kashambao",
+      "level": 1734,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27636,18 +27681,18 @@
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Akronus",
-      "level": 1995,
-      "killedBy": "Khanriel",
+      "player": "Voidshot",
+      "level": 1998,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Voidshot",
-      "level": 1998,
-      "killedBy": "Julian Alvarez",
+      "player": "Akronus",
+      "level": 1995,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27784,141 +27829,6 @@
       "level": 1996,
       "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:35",
-      "player": "Akronus",
-      "level": 1998,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "Teko News",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:35",
-      "player": "Jhonnys Trembolizado",
-      "level": 1987,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:35",
-      "player": "Dede Knight",
-      "level": 1139,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:35",
-      "player": "Lipe Knight",
-      "level": 2043,
-      "killedBy": "Khanriel",
-      "maiorDano": "Nao Eh Pedim",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:35",
-      "player": "Elder Lougon",
-      "level": 1939,
-      "killedBy": "Lipe Knight",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Cerebro",
-      "level": 1997,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Flecha Fofa",
-      "level": 1997,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Dede Knight",
-      "level": 1140,
-      "killedBy": "Kashambao",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Rofmao",
-      "level": 1971,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Ethernal Pally",
-      "level": 1425,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Jhonnys Trembolizado",
-      "level": 1988,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:34",
-      "player": "Akronus",
-      "level": 2000,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "Khanriel",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:33",
-      "player": "Rofmao",
-      "level": 1972,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "Khanriel",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:33",
-      "player": "Dede Knight",
-      "level": 1141,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:33",
-      "player": "Jhonnys Trembolizado",
-      "level": 1990,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     }
