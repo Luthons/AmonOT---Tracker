@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 00:11 (Brasília)",
+  "updated_at": "18/08/2026 às 00:14 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -379,7 +379,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 2006,
+      "level": 2003,
       "resets": 70,
       "vocation": "Elite Knight",
       "nick": "",
@@ -748,7 +748,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1997,
+      "level": 1995,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3250,15 +3250,15 @@
           "online": true
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 2006,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "palinhp",
           "value": 2005,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 2003,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3442,14 +3442,14 @@
           "online": false
         },
         {
-          "name": "Ed Da Deepweb",
+          "name": "El Diablo",
           "value": 1997,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 1997,
+          "name": "Ed Da Deepweb",
+          "value": 1995,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4301,7 +4301,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 00:10 (Brasília)",
+    "updated_at": "18/08/2026 às 00:14 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27236,6 +27236,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 00:14",
+      "player": "Ed Da Deepweb",
+      "level": 1997,
+      "killedBy": "Teko News",
+      "maiorDano": "Nutellinha Druid",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 23:59",
       "player": "Yagoodz Hahaha",
       "level": 2000,
@@ -27669,18 +27678,18 @@
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Voidshot",
-      "level": 1998,
-      "killedBy": "Julian Alvarez",
+      "player": "Akronus",
+      "level": 1995,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:47",
-      "player": "Akronus",
-      "level": 1995,
-      "killedBy": "Khanriel",
+      "player": "Voidshot",
+      "level": 1998,
+      "killedBy": "Julian Alvarez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27770,15 +27779,6 @@
       "time": "Aug 17, 2026 21:36",
       "player": "Ethernal Pally",
       "level": 1424,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 17, 2026 21:36",
-      "player": "Flecha Fofa",
-      "level": 1994,
       "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
