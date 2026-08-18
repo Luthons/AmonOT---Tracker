@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 10:26 (Brasília)",
+  "updated_at": "18/08/2026 às 10:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -233,7 +233,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1995,
+      "level": 1994,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3215,15 +3215,15 @@
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
-          "value": 1995,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 1995,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Jhonnys Trembolizado",
+          "value": 1994,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4080,7 +4080,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 10:26 (Brasília)",
+    "updated_at": "18/08/2026 às 10:27 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27015,6 +27015,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 10:26",
+      "player": "Jhonnys Trembolizado",
+      "level": 1995,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 10:25",
       "player": "Voidshot",
       "level": 2000,
@@ -27262,78 +27271,6 @@
       "player": "Jhonnys Trembolizado",
       "level": 2000,
       "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 08:51",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 08:50",
-      "player": "Jhonnys Trembolizado",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 08:46",
-      "player": "Balinho",
-      "level": 2019,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 06:16",
-      "player": "Gokuu",
-      "level": 2011,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 06:09",
-      "player": "Yagoodz Hahaha",
-      "level": 2001,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 06:08",
-      "player": "Jhonnys Trembolizado",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 03:31",
-      "player": "Paca",
-      "level": 2000,
-      "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 03:30",
-      "player": "Luiscrazynear",
-      "level": 787,
-      "killedBy": "Teko News",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -42971,7 +42908,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
   ]
