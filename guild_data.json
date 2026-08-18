@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 17:51 (Brasília)",
+  "updated_at": "18/08/2026 às 17:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -493,7 +493,7 @@
     },
     {
       "name": "Balinho",
-      "level": 2039,
+      "level": 2037,
       "resets": 51,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -1611,7 +1611,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1042,
+      "level": 1041,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1998,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3049,7 +3049,7 @@
         },
         {
           "name": "Balinho",
-          "value": 2039,
+          "value": 2037,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3180,12 +3180,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3253,6 +3247,12 @@
         },
         {
           "name": "Kolwaski",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "MekZera",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3409,7 +3409,7 @@
         },
         {
           "name": "Luiscrazynear",
-          "value": 1042,
+          "value": 1041,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4123,7 +4123,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 17:51 (Brasília)",
+    "updated_at": "18/08/2026 às 17:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27058,6 +27058,33 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 18, 2026 17:52",
+      "player": "Balinho",
+      "level": 2039,
+      "killedBy": "Crow Oz",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 17:51",
+      "player": "Luiscrazynear",
+      "level": 1042,
+      "killedBy": "Open Detheca",
+      "maiorDano": "Vinizerah On Amonot",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 18, 2026 17:51",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Crow Oz",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 17:51",
       "player": "Balinho",
       "level": 2040,
@@ -27909,24 +27936,6 @@
       "level": 2014,
       "killedBy": "Khanriel",
       "maiorDano": "Julian Alvarez",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:10",
-      "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:08",
-      "player": "Jhonnys Trembolizado",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
