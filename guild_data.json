@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 23:01 (Brasília)",
+  "updated_at": "17/08/2026 às 23:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -2175,8 +2175,8 @@
     },
     {
       "name": "Obrabo",
-      "level": 1260,
-      "resets": 31,
+      "level": 8,
+      "resets": 32,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2200,6 +2200,11 @@
           "resets": 31,
           "gained": 1,
           "timestamp": "17/08/2026 às 21:57 (Brasília)"
+        },
+        {
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 23:04 (Brasília)"
         }
       ]
     },
@@ -2671,6 +2676,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Obrabo",
+      "resets_total": 32,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Albatrozz",
       "resets_total": 70,
       "resets_today": 0,
@@ -2793,14 +2806,6 @@
     {
       "name": "Melbiss",
       "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Obrabo",
-      "resets_total": 31,
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
@@ -3186,15 +3191,15 @@
           "online": true
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 31,
-          "vocation": "Master Sorcerer",
+          "name": "Obrabo",
+          "value": 32,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "Obrabo",
+          "name": "Brunao Rei Denovo",
           "value": 31,
-          "vocation": "Elite Knight",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3596,12 +3601,6 @@
         {
           "name": "Dede Knight",
           "value": 1267,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Obrabo",
-          "value": 1260,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4333,7 +4332,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 23:00 (Brasília)",
+    "updated_at": "17/08/2026 às 23:04 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27404,19 +27403,19 @@
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Paca",
-      "level": 2000,
-      "killedBy": "Yagoodz Hahaha",
-      "maiorDano": "",
+      "player": "Kashambao",
+      "level": 1734,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:54",
-      "player": "Kashambao",
-      "level": 1734,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "Khanriel",
+      "player": "Paca",
+      "level": 2000,
+      "killedBy": "Yagoodz Hahaha",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27728,18 +27727,18 @@
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Dede Knight",
-      "level": 1140,
-      "killedBy": "Kashambao",
+      "player": "Flecha Fofa",
+      "level": 1997,
+      "killedBy": "Nao Eh Pedim",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 17, 2026 21:34",
-      "player": "Flecha Fofa",
-      "level": 1997,
-      "killedBy": "Nao Eh Pedim",
+      "player": "Dede Knight",
+      "level": 1140,
+      "killedBy": "Kashambao",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -28044,7 +28043,7 @@
         "Mugunza": 56,
         "Nino": 53,
         "Ntka": 57,
-        "Obrabo": 31,
+        "Obrabo": 32,
         "Paca": 37,
         "padim ed": 36,
         "palinhp": 53,
@@ -39062,7 +39061,7 @@
           "Mugunza": 56,
           "Nino": 53,
           "Ntka": 57,
-          "Obrabo": 31,
+          "Obrabo": 32,
           "Paca": 37,
           "padim ed": 36,
           "palinhp": 53,
@@ -42008,6 +42007,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 22:23 (Brasília)",
           "hour_key": "2026-08-17-22"
+        },
+        {
+          "name": "Obrabo",
+          "resets": 32,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 23:04 (Brasília)",
+          "hour_key": "2026-08-17-23"
         }
       ]
     },
@@ -42862,9 +42868,9 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 3593,
-      "resets_today": 0,
-      "resets_week": 40,
+      "total_current": 3594,
+      "resets_today": 1,
+      "resets_week": 41,
       "resets_month": 0,
       "resets_lifetime": 44,
       "avg_per_player": 50.6
