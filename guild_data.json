@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 23:06 (Brasília)",
+  "updated_at": "17/08/2026 às 23:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -585,7 +585,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1267,
+      "level": 1635,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -907,7 +907,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1998,
+      "level": 1999,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1051,7 +1051,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1733,
+      "level": 2000,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1774,8 +1774,8 @@
     },
     {
       "name": "Melbiss",
-      "level": 2009,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -1840,6 +1840,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "14/08/2026 às 08:01 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 23:07 (Brasília)"
         }
       ]
     },
@@ -2153,7 +2158,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 8,
+      "level": 1263,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2392,6 +2397,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Melbiss",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Obrabo",
       "resets_total": 32,
       "resets_today": 1,
@@ -2517,14 +2530,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Melbiss",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
       "online": true
     }
   ],
@@ -2691,16 +2696,16 @@
           "online": true
         },
         {
+          "name": "Melbiss",
+          "value": 59,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Monstro Das Criptos",
           "value": 59,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 58,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Albatroz",
@@ -2991,12 +2996,6 @@
           "online": true
         },
         {
-          "name": "Melbiss",
-          "value": 2009,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "palinhp",
           "value": 2005,
           "vocation": "Royal Paladin",
@@ -3075,6 +3074,12 @@
           "online": true
         },
         {
+          "name": "Kashambao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kawik",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3130,7 +3135,7 @@
         },
         {
           "name": "Gokuu",
-          "value": 1998,
+          "value": 1999,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3255,9 +3260,9 @@
           "online": false
         },
         {
-          "name": "Kashambao",
-          "value": 1733,
-          "vocation": "Royal Paladin",
+          "name": "Dede Knight",
+          "value": 1635,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3309,9 +3314,9 @@
           "online": false
         },
         {
-          "name": "Dede Knight",
-          "value": 1267,
-          "vocation": "Elite Knight",
+          "name": "Rofmao",
+          "value": 1263,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4042,7 +4047,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 23:06 (Brasília)",
+    "updated_at": "17/08/2026 às 23:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27748,7 +27753,7 @@
         "Luiscrazynear": 48,
         "Lukitas Brokenzada": 41,
         "MekZera": 63,
-        "Melbiss": 58,
+        "Melbiss": 59,
         "Monstro Das Criptos": 59,
         "Mugunza": 56,
         "Nino": 53,
@@ -38766,7 +38771,7 @@
           "Luiscrazynear": 48,
           "Lukitas Brokenzada": 41,
           "MekZera": 63,
-          "Melbiss": 58,
+          "Melbiss": 59,
           "Monstro Das Criptos": 59,
           "Mugunza": 56,
           "Nino": 53,
@@ -41724,6 +41729,13 @@
           "gained": 1,
           "timestamp": "17/08/2026 às 23:04 (Brasília)",
           "hour_key": "2026-08-17-23"
+        },
+        {
+          "name": "Melbiss",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "17/08/2026 às 23:07 (Brasília)",
+          "hour_key": "2026-08-17-23"
         }
       ]
     },
@@ -42578,11 +42590,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 71,
-      "total_current": 3594,
-      "resets_today": 1,
-      "resets_week": 41,
+      "total_current": 3595,
+      "resets_today": 2,
+      "resets_week": 42,
       "resets_month": 0,
-      "resets_lifetime": 44,
+      "resets_lifetime": 45,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
