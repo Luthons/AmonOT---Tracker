@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 01:06 (Brasília)",
+  "updated_at": "18/08/2026 às 01:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -1743,7 +1743,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 749,
+      "level": 841,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3333,6 +3333,12 @@
           "online": false
         },
         {
+          "name": "Melbiss",
+          "value": 841,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Hurtles Ownsz",
           "value": 839,
           "vocation": "Exalted Monk",
@@ -3343,12 +3349,6 @@
           "value": 826,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 749,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "HEFESTO",
@@ -4024,7 +4024,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 01:06 (Brasília)",
+    "updated_at": "18/08/2026 às 01:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26958,6 +26958,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 18, 2026 01:06",
+      "player": "Melbiss",
+      "level": 841,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 18, 2026 00:58",
       "player": "Teylera Rp",
