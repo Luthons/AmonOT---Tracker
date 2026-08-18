@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 09:47 (Brasília)",
+  "updated_at": "18/08/2026 às 09:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -673,7 +673,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 2000,
+      "level": 1997,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -2235,7 +2235,7 @@
     },
     {
       "name": "Snowzeraah",
-      "level": 554,
+      "level": 635,
       "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3061,12 +3061,6 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3203,6 +3197,12 @@
           "value": 1997,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "MekZera",
@@ -3380,7 +3380,7 @@
         },
         {
           "name": "Snowzeraah",
-          "value": 554,
+          "value": 635,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4058,7 +4058,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 09:47 (Brasília)",
+    "updated_at": "18/08/2026 às 09:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26992,6 +26992,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 18, 2026 09:48",
+      "player": "Ed Da Deepweb",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 18, 2026 09:42",
       "player": "Lipe Knight",
