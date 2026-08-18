@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "17/08/2026 às 21:00 (Brasília)",
+  "updated_at": "17/08/2026 às 21:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 2000,
+      "level": 1998,
       "resets": 68,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -585,7 +585,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1141,
+      "level": 1140,
       "resets": 48,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1051,7 +1051,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1740,
+      "level": 1738,
       "resets": 59,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3052,12 +3052,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3196,6 +3190,12 @@
           "online": true
         },
         {
+          "name": "Akronus",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 1998,
           "vocation": "Exalted Monk",
@@ -3281,7 +3281,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1740,
+          "value": 1738,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3341,7 +3341,7 @@
         },
         {
           "name": "Dede Knight",
-          "value": 1141,
+          "value": 1140,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -4073,7 +4073,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "17/08/2026 às 21:00 (Brasília)",
+    "updated_at": "17/08/2026 às 21:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27008,6 +27008,33 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 17, 2026 21:01",
+      "player": "Kashambao",
+      "level": 1740,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:01",
+      "player": "Akronus",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 17, 2026 21:00",
+      "player": "Dede Knight",
+      "level": 1141,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 17, 2026 21:00",
       "player": "Fearless",
       "level": 1998,
@@ -27562,24 +27589,6 @@
       "level": 2000,
       "killedBy": "Lautaro Martinez",
       "maiorDano": "Teko News",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 22:57",
-      "player": "El Diablo",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 16, 2026 21:47",
-      "player": "Jhonnys Trembolizado",
-      "level": 1990,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
