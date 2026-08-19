@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 17:26 (Brasília)",
+  "updated_at": "19/08/2026 às 17:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Gizao",
-      "level": 2000,
+      "level": 1997,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3165,12 +3165,6 @@
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Cerebro",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3335,6 +3329,12 @@
         {
           "name": "Ntka",
           "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4216,7 +4216,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 17:26 (Brasília)",
+    "updated_at": "19/08/2026 às 17:27 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27151,6 +27151,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 19, 2026 17:26",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 19, 2026 17:23",
       "player": "MekZera",
       "level": 2000,
@@ -27533,15 +27542,6 @@
       "player": "Ntka",
       "level": 2000,
       "killedBy": "Famosa",
-      "maiorDano": "Crow Oz",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 17:52",
-      "player": "MekZera",
-      "level": 1998,
-      "killedBy": "Holly Sapetah",
       "maiorDano": "Crow Oz",
       "world": "Baiak",
       "isPvp": true
