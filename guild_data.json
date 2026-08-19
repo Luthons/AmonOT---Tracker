@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 16:51 (Brasília)",
+  "updated_at": "19/08/2026 às 16:52 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -325,7 +325,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1998,
+      "level": 1997,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1885,7 +1885,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 2000,
+      "level": 1998,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -2070,7 +2070,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 2000,
+      "level": 1998,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3278,12 +3278,6 @@
           "online": false
         },
         {
-          "name": "Mugunza",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Nino",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3299,12 +3293,6 @@
           "name": "Paca",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Pally Tetss",
-          "value": 2000,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3326,15 +3314,27 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
+          "name": "Fearless",
+          "value": 1998,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Mugunza",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Pally Tetss",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Fearless",
-          "value": 1998,
-          "vocation": "Elder Druid",
+          "name": "Teylera Rp",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4209,7 +4209,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 16:51 (Brasília)",
+    "updated_at": "19/08/2026 às 16:52 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27145,6 +27145,24 @@
   "deaths_global": [
     {
       "time": "Aug 19, 2026 16:51",
+      "player": "Pally Tetss",
+      "level": 2000,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Vinizerah On Amonot",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 16:51",
+      "player": "Teylera Rp",
+      "level": 1998,
+      "killedBy": "Famosa",
+      "maiorDano": "Vinizerah On Amonot",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 16:51",
       "player": "Mugunza",
       "level": 2000,
       "killedBy": "Holly Sapetah",
@@ -27500,15 +27518,6 @@
       "level": 1695,
       "killedBy": "Famosa",
       "maiorDano": "Holly Sapetah",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 17:30",
-      "player": "Jhonnys Trembolizado",
-      "level": 1997,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
