@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 20:28 (Brasília)",
+  "updated_at": "19/08/2026 às 20:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -274,8 +274,8 @@
     },
     {
       "name": "Magabela",
-      "level": 1970,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -320,6 +320,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "16/08/2026 às 08:35 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 20:29 (Brasília)"
         }
       ]
     },
@@ -2469,6 +2474,14 @@
       "online": true
     },
     {
+      "name": "Magabela",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 2,
+      "vocation": "Master Sorcerer",
+      "online": true
+    },
+    {
       "name": "Baiakudinho",
       "resets_total": 69,
       "resets_today": 1,
@@ -2554,14 +2567,6 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elder Druid",
-      "online": true
-    },
-    {
-      "name": "Magabela",
-      "resets_total": 61,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Master Sorcerer",
       "online": true
     },
     {
@@ -2770,6 +2775,12 @@
           "online": true
         },
         {
+          "name": "Magabela",
+          "value": 62,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -2779,12 +2790,6 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 61,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -3373,12 +3378,6 @@
           "name": "Elder Lougon",
           "value": 1986,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 1970,
-          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4235,7 +4234,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 20:28 (Brasília)",
+    "updated_at": "19/08/2026 às 20:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27655,7 +27654,7 @@
         "Akronus": 69,
         "Cerebro": 62,
         "Jhonnys Trembolizado": 94,
-        "Magabela": 61,
+        "Magabela": 62,
         "Teylera Rp": 62,
         "Yagoodz Hahaha": 70,
         "Achilles": 18,
@@ -39463,7 +39462,7 @@
           "Akronus": 69,
           "Cerebro": 62,
           "Jhonnys Trembolizado": 94,
-          "Magabela": 61,
+          "Magabela": 62,
           "Teylera Rp": 62,
           "Yagoodz Hahaha": 70,
           "Achilles": 18,
@@ -42508,6 +42507,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 19:12 (Brasília)",
           "hour_key": "2026-08-19-19"
+        },
+        {
+          "name": "Magabela",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 20:29 (Brasília)",
+          "hour_key": "2026-08-19-20"
         }
       ]
     },
@@ -43362,11 +43368,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3701,
-      "resets_today": 11,
-      "resets_week": 60,
+      "total_current": 3702,
+      "resets_today": 12,
+      "resets_week": 61,
       "resets_month": 0,
-      "resets_lifetime": 60,
+      "resets_lifetime": 61,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
