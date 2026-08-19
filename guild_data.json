@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 23:06 (Brasília)",
+  "updated_at": "18/08/2026 às 23:07 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -1035,8 +1035,8 @@
     },
     {
       "name": "Hurtles Ownsz",
-      "level": 979,
-      "resets": 27,
+      "level": 8,
+      "resets": 28,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -1056,6 +1056,11 @@
           "resets": 27,
           "gained": 1,
           "timestamp": "17/08/2026 às 18:39 (Brasília)"
+        },
+        {
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:07 (Brasília)"
         }
       ]
     },
@@ -2441,6 +2446,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Hurtles Ownsz",
+      "resets_total": 28,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Albatrozz",
       "resets_total": 70,
       "resets_today": 0,
@@ -2510,14 +2523,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Hurtles Ownsz",
-      "resets_total": 27,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -3027,7 +3032,7 @@
         },
         {
           "name": "Hurtles Ownsz",
-          "value": 27,
+          "value": 28,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3455,12 +3460,6 @@
           "name": "Melbiss",
           "value": 1058,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Hurtles Ownsz",
-          "value": 979,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4167,7 +4166,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 23:06 (Brasília)",
+    "updated_at": "18/08/2026 às 23:07 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27913,7 +27912,7 @@
         "Haony": 60,
         "HEFESTO": 42,
         "Henrique Arqueiro": 51,
-        "Hurtles Ownsz": 27,
+        "Hurtles Ownsz": 28,
         "Its Gui": 44,
         "Kashambao": 60,
         "Kawik": 61,
@@ -39345,7 +39344,7 @@
           "Haony": 60,
           "HEFESTO": 42,
           "Henrique Arqueiro": 51,
-          "Hurtles Ownsz": 27,
+          "Hurtles Ownsz": 28,
           "Its Gui": 44,
           "Kashambao": 60,
           "Kawik": 61,
@@ -42347,6 +42346,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 21:57 (Brasília)",
           "hour_key": "2026-08-18-21"
+        },
+        {
+          "name": "Hurtles Ownsz",
+          "resets": 28,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:07 (Brasília)",
+          "hour_key": "2026-08-18-23"
         }
       ]
     },
@@ -43201,12 +43207,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3690,
-      "resets_today": 0,
-      "resets_week": 52,
+      "total_current": 3691,
+      "resets_today": 1,
+      "resets_week": 53,
       "resets_month": 0,
       "resets_lifetime": 41,
-      "avg_per_player": 50.5
+      "avg_per_player": 50.6
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
