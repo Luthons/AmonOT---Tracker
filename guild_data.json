@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 17:16 (Brasília)",
+  "updated_at": "19/08/2026 às 17:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -1142,7 +1142,7 @@
     },
     {
       "name": "Kawik",
-      "level": 2000,
+      "level": 1998,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -2244,8 +2244,8 @@
     },
     {
       "name": "Rusha Rp",
-      "level": 2010,
-      "resets": 65,
+      "level": 8,
+      "resets": 66,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2265,6 +2265,11 @@
           "resets": 65,
           "gained": 1,
           "timestamp": "08/08/2026 às 23:05 (Brasília)"
+        },
+        {
+          "resets": 66,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 17:17 (Brasília)"
         }
       ]
     },
@@ -2515,6 +2520,14 @@
       "online": true
     },
     {
+      "name": "Rusha Rp",
+      "resets_total": 66,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Thats My Way",
       "resets_total": 42,
       "resets_today": 1,
@@ -2708,13 +2721,13 @@
           "online": true
         },
         {
-          "name": "Kiel",
-          "value": 65,
+          "name": "Rusha Rp",
+          "value": 66,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Rusha Rp",
+          "name": "Kiel",
           "value": 65,
           "vocation": "Royal Paladin",
           "online": true
@@ -3134,12 +3147,6 @@
           "online": true
         },
         {
-          "name": "Rusha Rp",
-          "value": 2010,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Albatrozz",
           "value": 2002,
           "vocation": "Elder Druid",
@@ -3230,12 +3237,6 @@
           "online": true
         },
         {
-          "name": "Kawik",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Kev",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3323,6 +3324,12 @@
           "name": "Its Gui",
           "value": 1998,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Kawik",
+          "value": 1998,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4209,7 +4216,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 17:16 (Brasília)",
+    "updated_at": "19/08/2026 às 17:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27615,7 +27622,7 @@
         "Punish Claude": 53,
         "Rofmao": 48,
         "Rp Terror": 39,
-        "Rusha Rp": 65,
+        "Rusha Rp": 66,
         "Snowzeraah": 45,
         "Tadala De Cinco": 63,
         "Thats My Way": 42,
@@ -39371,7 +39378,7 @@
           "Punish Claude": 53,
           "Rofmao": 48,
           "Rp Terror": 39,
-          "Rusha Rp": 65,
+          "Rusha Rp": 66,
           "Snowzeraah": 45,
           "Tadala De Cinco": 63,
           "Thats My Way": 42,
@@ -42344,6 +42351,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 12:11 (Brasília)",
           "hour_key": "2026-08-19-12"
+        },
+        {
+          "name": "Rusha Rp",
+          "resets": 66,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 17:17 (Brasília)",
+          "hour_key": "2026-08-19-17"
         }
       ]
     },
@@ -43198,11 +43212,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3699,
-      "resets_today": 9,
-      "resets_week": 59,
+      "total_current": 3700,
+      "resets_today": 10,
+      "resets_week": 60,
       "resets_month": 0,
-      "resets_lifetime": 44,
+      "resets_lifetime": 45,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
