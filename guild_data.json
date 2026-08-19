@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 23:54 (Brasília)",
+  "updated_at": "18/08/2026 às 23:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -2352,8 +2352,8 @@
     },
     {
       "name": "Thats My Way",
-      "level": 1583,
-      "resets": 41,
+      "level": 8,
+      "resets": 42,
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
@@ -2368,6 +2368,11 @@
           "resets": 41,
           "gained": 1,
           "timestamp": "16/08/2026 às 20:29 (Brasília)"
+        },
+        {
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:55 (Brasília)"
         }
       ]
     },
@@ -2478,6 +2483,14 @@
       "resets_week": 4,
       "vocation": "Exalted Monk",
       "online": true
+    },
+    {
+      "name": "Thats My Way",
+      "resets_total": 42,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Master Sorcerer",
+      "online": false
     },
     {
       "name": "Albatrozz",
@@ -2971,15 +2984,15 @@
           "online": false
         },
         {
-          "name": "Lukitas Brokenzada",
-          "value": 41,
-          "vocation": "Elder Druid",
+          "name": "Thats My Way",
+          "value": 42,
+          "vocation": "Master Sorcerer",
           "online": false
         },
         {
-          "name": "Thats My Way",
+          "name": "Lukitas Brokenzada",
           "value": 41,
-          "vocation": "Master Sorcerer",
+          "vocation": "Elder Druid",
           "online": false
         },
         {
@@ -3395,12 +3408,6 @@
           "value": 1700,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Thats My Way",
-          "value": 1583,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Haony",
@@ -4178,7 +4185,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 23:54 (Brasília)",
+    "updated_at": "18/08/2026 às 23:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27866,7 +27873,7 @@
         "Rusha Rp": 65,
         "Snowzeraah": 45,
         "Tadala De Cinco": 63,
-        "Thats My Way": 41,
+        "Thats My Way": 42,
         "Tio Bringer": 32,
         "Ultimate Warrior": 25,
         "Vitao The Trader": 22,
@@ -39298,7 +39305,7 @@
           "Rusha Rp": 65,
           "Snowzeraah": 45,
           "Tadala De Cinco": 63,
-          "Thats My Way": 41,
+          "Thats My Way": 42,
           "Tio Bringer": 32,
           "Ultimate Warrior": 25,
           "Vitao The Trader": 22,
@@ -42289,6 +42296,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 23:40 (Brasília)",
           "hour_key": "2026-08-18-23"
+        },
+        {
+          "name": "Thats My Way",
+          "resets": 42,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:55 (Brasília)",
+          "hour_key": "2026-08-18-23"
         }
       ]
     },
@@ -43143,8 +43157,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3693,
-      "resets_today": 3,
+      "total_current": 3694,
+      "resets_today": 4,
       "resets_week": 54,
       "resets_month": 0,
       "resets_lifetime": 42,
