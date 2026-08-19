@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "18/08/2026 às 23:20 (Brasília)",
+  "updated_at": "18/08/2026 às 23:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -513,8 +513,8 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 2000,
-      "resets": 47,
+      "level": 8,
+      "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -554,6 +554,11 @@
           "resets": 47,
           "gained": 1,
           "timestamp": "17/08/2026 às 13:57 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:21 (Brasília)"
         }
       ]
     },
@@ -2446,6 +2451,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Boltfly Peoplecry",
+      "resets_total": 48,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Hurtles Ownsz",
       "resets_total": 28,
       "resets_today": 1,
@@ -2480,14 +2493,6 @@
     {
       "name": "Baiakudinho",
       "resets_total": 68,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Boltfly Peoplecry",
-      "resets_total": 47,
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
@@ -2887,6 +2892,12 @@
           "online": true
         },
         {
+          "name": "Boltfly Peoplecry",
+          "value": 48,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Dede Knight",
           "value": 48,
           "vocation": "Elite Knight",
@@ -2903,12 +2914,6 @@
           "value": 48,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 47,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -3179,12 +3184,6 @@
           "value": 2000,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Brunao Rei Denovo",
@@ -4172,7 +4171,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "18/08/2026 às 23:20 (Brasília)",
+    "updated_at": "18/08/2026 às 23:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27889,7 +27888,7 @@
         "Baiakudinho": 68,
         "Balinho": 51,
         "Boingbringer": 30,
-        "Boltfly Peoplecry": 47,
+        "Boltfly Peoplecry": 48,
         "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
         "Coriinga": 64,
@@ -39321,7 +39320,7 @@
           "Baiakudinho": 68,
           "Balinho": 51,
           "Boingbringer": 30,
-          "Boltfly Peoplecry": 47,
+          "Boltfly Peoplecry": 48,
           "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
           "Coriinga": 64,
@@ -42350,6 +42349,13 @@
           "gained": 1,
           "timestamp": "18/08/2026 às 23:07 (Brasília)",
           "hour_key": "2026-08-18-23"
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "18/08/2026 às 23:21 (Brasília)",
+          "hour_key": "2026-08-18-23"
         }
       ]
     },
@@ -43204,11 +43210,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3691,
-      "resets_today": 1,
-      "resets_week": 53,
+      "total_current": 3692,
+      "resets_today": 2,
+      "resets_week": 54,
       "resets_month": 0,
-      "resets_lifetime": 41,
+      "resets_lifetime": 42,
       "avg_per_player": 50.6
     },
     "enemy_guild": {
