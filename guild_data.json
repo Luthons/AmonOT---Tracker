@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 16:53 (Brasília)",
+  "updated_at": "19/08/2026 às 16:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -325,7 +325,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1997,
+      "level": 1995,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1885,7 +1885,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 1998,
+      "level": 1997,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3320,20 +3320,8 @@
           "online": true
         },
         {
-          "name": "Mugunza",
-          "value": 1998,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Pally Tetss",
           "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teylera Rp",
-          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3341,6 +3329,18 @@
           "name": "Its Gui",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Mugunza",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
+          "value": 1995,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4209,7 +4209,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 16:53 (Brasília)",
+    "updated_at": "19/08/2026 às 16:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27144,6 +27144,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 19, 2026 16:54",
+      "player": "Teylera Rp",
+      "level": 1997,
+      "killedBy": "Forsa Sem Futuro",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 16:54",
+      "player": "Mugunza",
+      "level": 1998,
+      "killedBy": "Gandalf Of Magician",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 19, 2026 16:51",
       "player": "Pally Tetss",
       "level": 2000,
@@ -27509,15 +27527,6 @@
       "level": 1043,
       "killedBy": "Famosa",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 17:39",
-      "player": "Dede Knight",
-      "level": 1695,
-      "killedBy": "Famosa",
-      "maiorDano": "Holly Sapetah",
       "world": "Baiak",
       "isPvp": true
     }
