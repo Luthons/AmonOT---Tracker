@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 06:37 (Brasília)",
+  "updated_at": "19/08/2026 às 06:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -172,7 +172,7 @@
     },
     {
       "name": "Cerebro",
-      "level": 2000,
+      "level": 1997,
       "resets": 62,
       "vocation": "Elite Knight",
       "nick": "",
@@ -371,7 +371,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 1648,
+      "level": 1655,
       "resets": 58,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3153,12 +3153,6 @@
           "online": false
         },
         {
-          "name": "Cerebro",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3303,6 +3297,12 @@
           "online": true
         },
         {
+          "name": "Cerebro",
+          "value": 1997,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Ed Da Deepweb",
           "value": 1997,
           "vocation": "Elder Druid",
@@ -3382,7 +3382,7 @@
         },
         {
           "name": "Albatroz",
-          "value": 1648,
+          "value": 1655,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -4186,7 +4186,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 06:37 (Brasília)",
+    "updated_at": "19/08/2026 às 06:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27121,6 +27121,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 19, 2026 06:38",
+      "player": "Albatroz",
+      "level": 1657,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 06:37",
+      "player": "Cerebro",
+      "level": 2000,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 19, 2026 06:20",
       "player": "Teylera Rp",
       "level": 1999,
@@ -27297,15 +27315,6 @@
       "level": 2039,
       "killedBy": "Crow Oz",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 17:51",
-      "player": "Luiscrazynear",
-      "level": 1042,
-      "killedBy": "Open Detheca",
-      "maiorDano": "Vinizerah On Amonot",
       "world": "Baiak",
       "isPvp": true
     },
@@ -27672,15 +27681,6 @@
     {
       "time": "Aug 18, 2026 11:29",
       "player": "Yagoodz Hahaha",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 11:28",
-      "player": "Jhonnys Trembolizado",
       "level": 2000,
       "killedBy": "Khanriel",
       "maiorDano": "",
