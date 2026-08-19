@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 00:00 (Brasília)",
+  "updated_at": "19/08/2026 às 00:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -1122,7 +1122,7 @@
     },
     {
       "name": "Kawik",
-      "level": 2000,
+      "level": 1998,
       "resets": 61,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3213,12 +3213,6 @@
           "online": true
         },
         {
-          "name": "Kawik",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Kev",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3312,6 +3306,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Kawik",
+          "value": 1998,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4150,7 +4150,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 00:00 (Brasília)",
+    "updated_at": "19/08/2026 às 00:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27085,6 +27085,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 19, 2026 00:01",
+      "player": "Paca",
+      "level": 2000,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 00:00",
+      "player": "Kawik",
+      "level": 2000,
+      "killedBy": "Teko News",
+      "maiorDano": "Vinizerah On Amonot",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 18, 2026 23:59",
       "player": "Melbiss",
       "level": 1066,
@@ -27134,15 +27152,6 @@
       "player": "Ntka",
       "level": 2000,
       "killedBy": "Famosa",
-      "maiorDano": "Crow Oz",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 17:52",
-      "player": "MekZera",
-      "level": 1998,
-      "killedBy": "Holly Sapetah",
       "maiorDano": "Crow Oz",
       "world": "Baiak",
       "isPvp": true
@@ -27745,15 +27754,6 @@
       "time": "Aug 18, 2026 10:38",
       "player": "Jhonnys Trembolizado",
       "level": 1988,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 18, 2026 10:38",
-      "player": "Ed Da Deepweb",
-      "level": 1999,
       "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
