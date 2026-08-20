@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 07:01 (Brasília)",
+  "updated_at": "20/08/2026 às 07:04 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1211,8 +1211,8 @@
     },
     {
       "name": "Kashambao",
-      "level": 1921,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -1261,6 +1261,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "19/08/2026 às 06:55 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 07:04 (Brasília)"
         }
       ]
     },
@@ -2723,6 +2728,14 @@
       "online": true
     },
     {
+      "name": "Kashambao",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Voidshot",
       "resets_total": 61,
       "resets_today": 1,
@@ -2808,14 +2821,6 @@
       "resets_today": 0,
       "resets_week": 5,
       "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
-      "name": "Kashambao",
-      "resets_total": 61,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -3036,6 +3041,12 @@
           "online": true
         },
         {
+          "name": "Kashambao",
+          "value": 62,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
@@ -3049,12 +3060,6 @@
         },
         {
           "name": "Haony",
-          "value": 61,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
           "value": 61,
           "vocation": "Royal Paladin",
           "online": true
@@ -3620,12 +3625,6 @@
         {
           "name": "Eckoss",
           "value": 1953,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 1921,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4471,7 +4470,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 07:00 (Brasília)",
+    "updated_at": "20/08/2026 às 07:04 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28164,7 +28163,7 @@
         "Henrique Arqueiro": 51,
         "Hurtles Ownsz": 29,
         "Its Gui": 44,
-        "Kashambao": 61,
+        "Kashambao": 62,
         "Kawik": 61,
         "Kev": 34,
         "Kiel": 65,
@@ -40098,7 +40097,7 @@
           "Henrique Arqueiro": 51,
           "Hurtles Ownsz": 29,
           "Its Gui": 44,
-          "Kashambao": 61,
+          "Kashambao": 62,
           "Kawik": 61,
           "Kev": 34,
           "Kiel": 65,
@@ -43028,6 +43027,13 @@
           "gained": 1,
           "timestamp": "20/08/2026 às 02:52 (Brasília)",
           "hour_key": "2026-08-20-02"
+        },
+        {
+          "name": "Kashambao",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 07:04 (Brasília)",
+          "hour_key": "2026-08-20-07"
         }
       ]
     },
@@ -43882,11 +43888,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3655,
-      "resets_today": 3,
-      "resets_week": 86,
+      "total_current": 3656,
+      "resets_today": 4,
+      "resets_week": 87,
       "resets_month": 0,
-      "resets_lifetime": 78,
+      "resets_lifetime": 79,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
