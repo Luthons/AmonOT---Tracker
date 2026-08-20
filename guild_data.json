@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 23:40 (Brasília)",
+  "updated_at": "19/08/2026 às 23:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 2001,
+      "level": 1999,
       "resets": 69,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -937,7 +937,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1998,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3172,12 +3172,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 2001,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Flecha Fofa",
           "value": 2001,
           "vocation": "Royal Paladin",
@@ -3346,15 +3340,15 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
+          "name": "Akronus",
           "value": 1999,
-          "vocation": "Elder Druid",
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 1998,
-          "vocation": "Royal Paladin",
+          "name": "Ed Da Deepweb",
+          "value": 1999,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3373,6 +3367,12 @@
           "name": "El Diablo",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4235,7 +4235,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 23:40 (Brasília)",
+    "updated_at": "19/08/2026 às 23:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27169,6 +27169,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 19, 2026 23:40",
+      "player": "Gokuu",
+      "level": 1998,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:40",
+      "player": "Akronus",
+      "level": 2001,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 19, 2026 23:40",
       "player": "Ed Da Deepweb",
