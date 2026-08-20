@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 17:54 (Brasília)",
+  "updated_at": "20/08/2026 às 17:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -996,8 +996,8 @@
     },
     {
       "name": "Hurtles Ownsz",
-      "level": 1019,
-      "resets": 29,
+      "level": 8,
+      "resets": 30,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -1027,6 +1027,11 @@
           "resets": 29,
           "gained": 1,
           "timestamp": "19/08/2026 às 21:20 (Brasília)"
+        },
+        {
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 17:55 (Brasília)"
         }
       ]
     },
@@ -2402,6 +2407,14 @@
       "online": true
     },
     {
+      "name": "Hurtles Ownsz",
+      "resets_total": 30,
+      "resets_today": 1,
+      "resets_week": 6,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Kashambao",
       "resets_total": 62,
       "resets_today": 1,
@@ -2479,14 +2492,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Hurtles Ownsz",
-      "resets_total": 29,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -2994,7 +2999,7 @@
         },
         {
           "name": "Hurtles Ownsz",
-          "value": 29,
+          "value": 30,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -3404,12 +3409,6 @@
           "name": "Rp Terror",
           "value": 1091,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Hurtles Ownsz",
-          "value": 1019,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4116,7 +4115,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 17:54 (Brasília)",
+    "updated_at": "20/08/2026 às 17:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27887,7 +27886,7 @@
         "Haony": 61,
         "HEFESTO": 42,
         "Henrique Arqueiro": 51,
-        "Hurtles Ownsz": 29,
+        "Hurtles Ownsz": 30,
         "Its Gui": 44,
         "Kashambao": 62,
         "Kawik": 61,
@@ -39912,7 +39911,7 @@
           "Haony": 61,
           "HEFESTO": 42,
           "Henrique Arqueiro": 51,
-          "Hurtles Ownsz": 29,
+          "Hurtles Ownsz": 30,
           "Its Gui": 44,
           "Kashambao": 62,
           "Kawik": 61,
@@ -42878,6 +42877,13 @@
           "gained": 1,
           "timestamp": "20/08/2026 às 14:44 (Brasília)",
           "hour_key": "2026-08-20-14"
+        },
+        {
+          "name": "Hurtles Ownsz",
+          "resets": 30,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 17:55 (Brasília)",
+          "hour_key": "2026-08-20-17"
         }
       ]
     },
@@ -43732,11 +43738,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 70,
-      "total_current": 3549,
-      "resets_today": 8,
-      "resets_week": 84,
+      "total_current": 3550,
+      "resets_today": 9,
+      "resets_week": 85,
       "resets_month": 0,
-      "resets_lifetime": 86,
+      "resets_lifetime": 87,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
