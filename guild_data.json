@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 21:07 (Brasília)",
+  "updated_at": "19/08/2026 às 21:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
-  "online_count": 56,
-  "offline_count": 17,
+  "online_count": 55,
+  "offline_count": 18,
   "members": [
     {
       "name": "Albatrozz",
@@ -2013,8 +2013,8 @@
     },
     {
       "name": "padim ed",
-      "level": 1646,
-      "resets": 37,
+      "level": 8,
+      "resets": 38,
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
@@ -2049,6 +2049,11 @@
           "resets": 37,
           "gained": 1,
           "timestamp": "18/08/2026 às 21:57 (Brasília)"
+        },
+        {
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 21:08 (Brasília)"
         }
       ]
     },
@@ -2218,7 +2223,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 34,
@@ -2530,6 +2535,14 @@
       "online": true
     },
     {
+      "name": "padim ed",
+      "resets_total": 38,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Elder Druid",
+      "online": true
+    },
+    {
       "name": "Rofmao",
       "resets_total": 49,
       "resets_today": 1,
@@ -2543,7 +2556,7 @@
       "resets_today": 1,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Rusha Rp",
@@ -2664,14 +2677,6 @@
       "resets_week": 3,
       "vocation": "Elite Knight",
       "online": false
-    },
-    {
-      "name": "padim ed",
-      "resets_total": 37,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elder Druid",
-      "online": true
     },
     {
       "name": "palinhp",
@@ -3048,16 +3053,16 @@
           "name": "Rp Terror",
           "value": 39,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
-          "name": "Paca",
-          "value": 37,
+          "name": "padim ed",
+          "value": 38,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "padim ed",
+          "name": "Paca",
           "value": 37,
           "vocation": "Elder Druid",
           "online": true
@@ -3429,12 +3434,6 @@
           "online": true
         },
         {
-          "name": "padim ed",
-          "value": 1646,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Baiakudinho",
           "value": 1634,
           "vocation": "Royal Paladin",
@@ -3546,7 +3545,7 @@
           "name": "Rp Terror",
           "value": 941,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Vitao The Trader",
@@ -4234,7 +4233,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 21:07 (Brasília)",
+    "updated_at": "19/08/2026 às 21:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27750,7 +27749,7 @@
         "Ntka": 57,
         "Obrabo": 32,
         "Paca": 37,
-        "padim ed": 37,
+        "padim ed": 38,
         "palinhp": 54,
         "Pally Tetss": 55,
         "Pestinha": 42,
@@ -39571,7 +39570,7 @@
           "Ntka": 57,
           "Obrabo": 32,
           "Paca": 37,
-          "padim ed": 37,
+          "padim ed": 38,
           "palinhp": 54,
           "Pally Tetss": 55,
           "Pestinha": 42,
@@ -42572,6 +42571,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 20:31 (Brasília)",
           "hour_key": "2026-08-19-20"
+        },
+        {
+          "name": "padim ed",
+          "resets": 38,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 21:08 (Brasília)",
+          "hour_key": "2026-08-19-21"
         }
       ]
     },
@@ -43426,11 +43432,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3702,
-      "resets_today": 12,
-      "resets_week": 61,
+      "total_current": 3703,
+      "resets_today": 13,
+      "resets_week": 62,
       "resets_month": 0,
-      "resets_lifetime": 61,
+      "resets_lifetime": 62,
       "avg_per_player": 50.7
     },
     "enemy_guild": {
