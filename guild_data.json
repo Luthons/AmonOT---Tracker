@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 10:50 (Brasília)",
+  "updated_at": "20/08/2026 às 10:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -689,7 +689,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1992,
+      "level": 1991,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -892,7 +892,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 2001,
+      "level": 1999,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3158,12 +3158,6 @@
           "online": true
         },
         {
-          "name": "Flecha Fofa",
-          "value": 2001,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3332,6 +3326,12 @@
           "online": true
         },
         {
+          "name": "Flecha Fofa",
+          "value": 1999,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Teylera Rp",
           "value": 1998,
           "vocation": "Royal Paladin",
@@ -3351,7 +3351,7 @@
         },
         {
           "name": "Ed Da Deepweb",
-          "value": 1992,
+          "value": 1991,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4221,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 10:50 (Brasília)",
+    "updated_at": "20/08/2026 às 10:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27156,6 +27156,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 10:51",
+      "player": "Ed Da Deepweb",
+      "level": 1992,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 10:50",
+      "player": "Flecha Fofa",
+      "level": 2001,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 10:49",
       "player": "Flecha Fofa",
       "level": 2002,
@@ -27421,6 +27439,15 @@
       "player": "Luiscrazynear",
       "level": 1840,
       "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 00:16",
+      "player": "Yagoodz Hahaha",
+      "level": 1997,
+      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -27872,15 +27899,6 @@
       "level": 2000,
       "killedBy": "Guizinho Fofinho",
       "maiorDano": "Tajuquinha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 17:19",
-      "player": "Teylera Rp",
-      "level": 1998,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
