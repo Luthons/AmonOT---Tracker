@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 02:50 (Brasília)",
+  "updated_at": "20/08/2026 às 02:51 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -2363,13 +2363,19 @@
     },
     {
       "name": "Voidshot",
-      "level": 2000,
-      "resets": 60,
+      "level": 8,
+      "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 02:51 (Brasília)"
+        }
+      ]
     },
     {
       "name": "VukVuk",
@@ -2426,6 +2432,14 @@
       "resets_today": 1,
       "resets_week": 5,
       "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
+      "name": "Voidshot",
+      "resets_total": 61,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -2764,6 +2778,12 @@
           "online": true
         },
         {
+          "name": "Voidshot",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Dmonick",
           "value": 60,
           "vocation": "Master Sorcerer",
@@ -2791,12 +2811,6 @@
           "name": "Loks",
           "value": 60,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Voidshot",
-          "value": 60,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3308,12 +3322,6 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Voidshot",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "VukVuk",
@@ -4169,7 +4177,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 02:50 (Brasília)",
+    "updated_at": "20/08/2026 às 02:51 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27815,7 +27823,7 @@
         "Tio Bringer": 32,
         "Ultimate Warrior": 25,
         "Vitao The Trader": 22,
-        "Voidshot": 60,
+        "Voidshot": 61,
         "VukVuk": 50,
         "Welljacob": 44
       },
@@ -39694,7 +39702,7 @@
           "Tio Bringer": 32,
           "Ultimate Warrior": 25,
           "Vitao The Trader": 22,
-          "Voidshot": 60,
+          "Voidshot": 61,
           "VukVuk": 50,
           "Welljacob": 44
         }
@@ -42583,6 +42591,13 @@
           "gained": 1,
           "timestamp": "20/08/2026 às 01:24 (Brasília)",
           "hour_key": "2026-08-20-01"
+        },
+        {
+          "name": "Voidshot",
+          "resets": 61,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 02:51 (Brasília)",
+          "hour_key": "2026-08-20-02"
         }
       ]
     },
@@ -43437,11 +43452,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3654,
-      "resets_today": 2,
-      "resets_week": 85,
+      "total_current": 3655,
+      "resets_today": 3,
+      "resets_week": 86,
       "resets_month": 0,
-      "resets_lifetime": 77,
+      "resets_lifetime": 78,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
