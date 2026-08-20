@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 14:57 (Brasília)",
+  "updated_at": "20/08/2026 às 14:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 55,
-  "offline_count": 17,
+  "online_count": 54,
+  "offline_count": 18,
   "members": [
     {
       "name": "Albatrozz",
@@ -315,7 +315,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1996,
+      "level": 1993,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -903,7 +903,7 @@
     },
     {
       "name": "Flecha Fofa",
-      "level": 1999,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -985,7 +985,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 57,
@@ -1613,7 +1613,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1921,
+      "level": 1923,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1669,7 +1669,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1998,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2149,7 +2149,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1601,
+      "level": 1602,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2390,7 +2390,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1168,
+      "level": 1201,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2563,7 +2563,7 @@
       "resets_today": 0,
       "resets_week": 3,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "HEFESTO",
@@ -2820,7 +2820,7 @@
           "name": "Haony",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Kawik",
@@ -3261,12 +3261,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3315,13 +3309,13 @@
           "online": true
         },
         {
-          "name": "Flecha Fofa",
-          "value": 1999,
+          "name": "Jhonnys Trembolizado",
+          "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Jhonnys Trembolizado",
+          "name": "MekZera",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3330,6 +3324,12 @@
           "name": "El Diablo",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Flecha Fofa",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -3358,7 +3358,7 @@
         },
         {
           "name": "Teylera Rp",
-          "value": 1996,
+          "value": 1993,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3370,7 +3370,7 @@
         },
         {
           "name": "Luiscrazynear",
-          "value": 1921,
+          "value": 1923,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3442,7 +3442,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 1601,
+          "value": 1602,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3456,7 +3456,7 @@
           "name": "Haony",
           "value": 1480,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Coriinga",
@@ -3483,6 +3483,12 @@
           "online": true
         },
         {
+          "name": "Voidshot",
+          "value": 1201,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Thats My Way",
           "value": 1182,
           "vocation": "Master Sorcerer",
@@ -3493,12 +3499,6 @@
           "value": 1175,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Voidshot",
-          "value": 1168,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Melbiss",
@@ -4240,7 +4240,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 14:57 (Brasília)",
+    "updated_at": "20/08/2026 às 14:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27174,6 +27174,60 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 20, 2026 14:58",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 14:58",
+      "player": "Rofmao",
+      "level": 1603,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 14:57",
+      "player": "Flecha Fofa",
+      "level": 1999,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 14:57",
+      "player": "Luiscrazynear",
+      "level": 1925,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 14:57",
+      "player": "Teylera Rp",
+      "level": 1996,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 14:57",
+      "player": "Voidshot",
+      "level": 1202,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 20, 2026 14:53",
       "player": "Teylera Rp",
