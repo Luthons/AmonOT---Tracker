@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 19:20 (Brasília)",
+  "updated_at": "20/08/2026 às 19:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 2000,
+      "level": 1997,
       "resets": 69,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -3070,12 +3070,6 @@
           "online": true
         },
         {
-          "name": "Akronus",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Jhonnys Trembolizado",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3211,6 +3205,12 @@
           "name": "Gizao",
           "value": 1997,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Akronus",
+          "value": 1997,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
@@ -4121,7 +4121,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 19:20 (Brasília)",
+    "updated_at": "20/08/2026 às 19:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27056,6 +27056,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 19:21",
+      "player": "Akronus",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 19:13",
       "player": "Lougon Baiakeiro",
       "level": 2000,
@@ -27880,15 +27889,6 @@
       "level": 1847,
       "killedBy": "Killua",
       "maiorDano": "Amelior",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 10:47",
-      "player": "Albatroz",
-      "level": 897,
-      "killedBy": "Teko News",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
