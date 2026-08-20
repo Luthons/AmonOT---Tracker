@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 09:47 (Brasília)",
+  "updated_at": "20/08/2026 às 09:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
-  "online_count": 52,
-  "offline_count": 20,
+  "online_count": 53,
+  "offline_count": 19,
   "members": [
     {
       "name": "Albatrozz",
@@ -483,13 +483,19 @@
     },
     {
       "name": "Balinho",
-      "level": 2033,
-      "resets": 51,
+      "level": 8,
+      "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 09:48 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Boingbringer",
@@ -595,7 +601,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 45,
@@ -2445,6 +2451,14 @@
       "online": true
     },
     {
+      "name": "Balinho",
+      "resets_total": 52,
+      "resets_today": 1,
+      "resets_week": 0,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Eckoss",
       "resets_total": 49,
       "resets_today": 1,
@@ -2893,7 +2907,7 @@
         },
         {
           "name": "Balinho",
-          "value": 51,
+          "value": 52,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -2925,7 +2939,7 @@
           "name": "Dede Knight",
           "value": 49,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Eckoss",
@@ -3123,12 +3137,6 @@
           "name": "Garuvuvinha",
           "value": 2036,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Balinho",
-          "value": 2033,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -3399,7 +3407,7 @@
           "name": "Dede Knight",
           "value": 1738,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Boltfly Peoplecry",
@@ -4201,7 +4209,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 09:47 (Brasília)",
+    "updated_at": "20/08/2026 às 09:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27925,7 +27933,7 @@
         "Adolph Healer": 20,
         "Albatroz": 59,
         "Baiakudinho": 69,
-        "Balinho": 51,
+        "Balinho": 52,
         "Boingbringer": 30,
         "Boltfly Peoplecry": 48,
         "Brunao Rei Denovo": 31,
@@ -39881,7 +39889,7 @@
           "Adolph Healer": 20,
           "Albatroz": 59,
           "Baiakudinho": 69,
-          "Balinho": 51,
+          "Balinho": 52,
           "Boingbringer": 30,
           "Boltfly Peoplecry": 48,
           "Brunao Rei Denovo": 31,
@@ -42848,6 +42856,13 @@
           "gained": 1,
           "timestamp": "20/08/2026 às 09:22 (Brasília)",
           "hour_key": "2026-08-20-09"
+        },
+        {
+          "name": "Balinho",
+          "resets": 52,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 09:48 (Brasília)",
+          "hour_key": "2026-08-20-09"
         }
       ]
     },
@@ -43702,8 +43717,8 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3657,
-      "resets_today": 5,
+      "total_current": 3658,
+      "resets_today": 6,
       "resets_week": 87,
       "resets_month": 0,
       "resets_lifetime": 77,
