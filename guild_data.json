@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 07:46 (Brasília)",
+  "updated_at": "20/08/2026 às 07:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -284,7 +284,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1571,
+      "level": 1580,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1835,7 +1835,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1997,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3539,12 +3539,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3623,6 +3617,12 @@
           "online": true
         },
         {
+          "name": "MekZera",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Eckoss",
           "value": 1962,
           "vocation": "Royal Paladin",
@@ -3689,15 +3689,15 @@
           "online": true
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 1579,
-          "vocation": "Royal Paladin",
+          "name": "Magabela",
+          "value": 1580,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 1571,
-          "vocation": "Master Sorcerer",
+          "name": "Lilian Faithkeeper",
+          "value": 1579,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4482,7 +4482,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 07:45 (Brasília)",
+    "updated_at": "20/08/2026 às 07:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27416,6 +27416,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 20, 2026 07:49",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 07:48",
+      "player": "Magabela",
+      "level": 1581,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 20, 2026 07:41",
       "player": "El Diablo",
