@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 23:05 (Brasília)",
+  "updated_at": "19/08/2026 às 23:06 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -2453,8 +2453,8 @@
     },
     {
       "name": "Welljacob",
-      "level": 1900,
-      "resets": 43,
+      "level": 8,
+      "resets": 44,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -2479,12 +2479,25 @@
           "resets": 43,
           "gained": 1,
           "timestamp": "18/08/2026 às 21:11 (Brasília)"
+        },
+        {
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 23:06 (Brasília)"
         }
       ]
     }
   ],
   "enemy_guilds": [],
   "resets_today": [
+    {
+      "name": "Welljacob",
+      "resets_total": 44,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
     {
       "name": "Akronus",
       "resets_total": 69,
@@ -2692,14 +2705,6 @@
       "resets_week": 3,
       "vocation": "Master Sorcerer",
       "online": false
-    },
-    {
-      "name": "Welljacob",
-      "resets_total": 43,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -3009,16 +3014,16 @@
           "online": true
         },
         {
+          "name": "Welljacob",
+          "value": 44,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Flam Ham Bum",
           "value": 43,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Welljacob",
-          "value": 43,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "HEFESTO",
@@ -3390,12 +3395,6 @@
           "name": "Elder Lougon",
           "value": 1986,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Welljacob",
-          "value": 1900,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4246,7 +4245,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 23:05 (Brasília)",
+    "updated_at": "19/08/2026 às 23:06 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27886,7 +27885,7 @@
         "Vitao The Trader": 22,
         "Voidshot": 60,
         "VukVuk": 50,
-        "Welljacob": 43
+        "Welljacob": 44
       },
       "snapshots": {
         "2026-08-13-00": {
@@ -39732,7 +39731,7 @@
           "Vitao The Trader": 22,
           "Voidshot": 60,
           "VukVuk": 50,
-          "Welljacob": 43
+          "Welljacob": 44
         }
       },
       "events": [
@@ -42745,6 +42744,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 22:49 (Brasília)",
           "hour_key": "2026-08-19-22"
+        },
+        {
+          "name": "Welljacob",
+          "resets": 44,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 23:06 (Brasília)",
+          "hour_key": "2026-08-19-23"
         }
       ]
     },
@@ -43599,11 +43605,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3706,
-      "resets_today": 0,
-      "resets_week": 83,
+      "total_current": 3707,
+      "resets_today": 1,
+      "resets_week": 84,
       "resets_month": 0,
-      "resets_lifetime": 70,
+      "resets_lifetime": 71,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
