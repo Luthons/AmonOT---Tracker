@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 15:16 (Brasília)",
+  "updated_at": "20/08/2026 às 15:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1105,11 +1105,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Aug 20, 2026, 15:12:50",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": true,
+      "online": true,
       "reset_history": [
         {
           "resets": 57,
@@ -1588,7 +1584,7 @@
     },
     {
       "name": "Loks",
-      "level": 2000,
+      "level": 1997,
       "resets": 60,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1718,11 +1714,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Aug 19, 2026, 18:29:00",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 31,
@@ -1857,7 +1849,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1991,
+      "level": 1990,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3543,12 +3535,6 @@
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Lougon Baiakeiro",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3633,6 +3619,12 @@
           "online": true
         },
         {
+          "name": "Loks",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "VukVuk",
           "value": 1997,
           "vocation": "Elder Druid",
@@ -3646,7 +3638,7 @@
         },
         {
           "name": "MekZera",
-          "value": 1991,
+          "value": 1990,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4528,7 +4520,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 15:15 (Brasília)",
+    "updated_at": "20/08/2026 às 15:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27463,6 +27455,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 15:18",
+      "player": "MekZera",
+      "level": 1991,
+      "killedBy": "Osh Don",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 15:14",
       "player": "Teylera Rp",
       "level": 1990,
@@ -28377,15 +28378,6 @@
       "level": 1453,
       "killedBy": "Nutellinha Druid",
       "maiorDano": "Gandalf Of Magician",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 04:49",
-      "player": "Welljacob",
-      "level": 987,
-      "killedBy": "Gandalf Of Magician",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
