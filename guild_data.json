@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 23:41 (Brasília)",
+  "updated_at": "19/08/2026 às 23:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -51,7 +51,7 @@
     },
     {
       "name": "Akronus",
-      "level": 1999,
+      "level": 1998,
       "resets": 69,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -937,7 +937,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1997,
+      "level": 1994,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1682,7 +1682,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1998,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3280,12 +3280,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3346,13 +3340,19 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
-          "value": 1999,
-          "vocation": "Elder Druid",
+          "name": "Akronus",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
           "online": true
         },
         {
           "name": "Kiel",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "MekZera",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -3371,7 +3371,7 @@
         },
         {
           "name": "Gokuu",
-          "value": 1997,
+          "value": 1994,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4235,7 +4235,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 23:41 (Brasília)",
+    "updated_at": "19/08/2026 às 23:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27170,6 +27170,60 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 19, 2026 23:42",
+      "player": "Gokuu",
+      "level": 1995,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:42",
+      "player": "Akronus",
+      "level": 1999,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:41",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:41",
+      "player": "Gokuu",
+      "level": 1997,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:40",
+      "player": "Gokuu",
+      "level": 1998,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 19, 2026 23:40",
+      "player": "Akronus",
+      "level": 2001,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 19, 2026 23:40",
       "player": "Gokuu",
       "level": 1998,
@@ -27804,15 +27858,6 @@
       "player": "Ed Da Deepweb",
       "level": 2000,
       "killedBy": "Forsa Sem Futuro",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 01:11",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Teko News",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
