@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 14:42 (Brasília)",
+  "updated_at": "20/08/2026 às 14:43 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -331,13 +331,19 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 2000,
-      "resets": 70,
+      "level": 8,
+      "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
+      "reset_history": [
+        {
+          "resets": 71,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 14:43 (Brasília)"
+        }
+      ]
     },
     {
       "name": "Achilles",
@@ -2448,6 +2454,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Yagoodz Hahaha",
+      "resets_total": 71,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Elite Knight",
+      "online": true
+    },
+    {
       "name": "Albatroz",
       "resets_total": 59,
       "resets_today": 1,
@@ -2701,6 +2715,12 @@
           "online": true
         },
         {
+          "name": "Yagoodz Hahaha",
+          "value": 71,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "El Diablo",
           "value": 71,
           "vocation": "Elder Druid",
@@ -2710,12 +2730,6 @@
           "name": "Albatrozz",
           "value": 70,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Yagoodz Hahaha",
-          "value": 70,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3182,12 +3196,6 @@
         },
         {
           "name": "Cerebro",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
           "online": true
@@ -4226,7 +4234,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 14:42 (Brasília)",
+    "updated_at": "20/08/2026 às 14:43 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27864,7 +27872,7 @@
         "Jhonnys Trembolizado": 94,
         "Magabela": 62,
         "Teylera Rp": 62,
-        "Yagoodz Hahaha": 70,
+        "Yagoodz Hahaha": 71,
         "Achilles": 18,
         "Adolph Healer": 20,
         "Albatroz": 59,
@@ -39871,7 +39879,7 @@
           "Jhonnys Trembolizado": 94,
           "Magabela": 62,
           "Teylera Rp": 62,
-          "Yagoodz Hahaha": 70,
+          "Yagoodz Hahaha": 71,
           "Achilles": 18,
           "Adolph Healer": 20,
           "Albatroz": 59,
@@ -42857,6 +42865,13 @@
           "gained": 1,
           "timestamp": "20/08/2026 às 11:12 (Brasília)",
           "hour_key": "2026-08-20-11"
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "resets": 71,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 14:43 (Brasília)",
+          "hour_key": "2026-08-20-14"
         }
       ]
     },
@@ -43711,11 +43726,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3659,
-      "resets_today": 7,
-      "resets_week": 88,
+      "total_current": 3660,
+      "resets_today": 8,
+      "resets_week": 89,
       "resets_month": 0,
-      "resets_lifetime": 85,
+      "resets_lifetime": 86,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
