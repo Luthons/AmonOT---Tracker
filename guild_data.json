@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 15:31 (Brasília)",
+  "updated_at": "20/08/2026 às 15:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -939,7 +939,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3231,12 +3231,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3298,6 +3292,12 @@
         },
         {
           "name": "Jhonnys Trembolizado",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
           "value": 1998,
           "vocation": "Royal Paladin",
           "online": true
@@ -4240,7 +4240,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 15:31 (Brasília)",
+    "updated_at": "20/08/2026 às 15:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27175,6 +27175,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 15:31",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Mrrealizandosonhos",
+      "maiorDano": "Amelior",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 15:29",
       "player": "Kiel",
       "level": 2000,
@@ -28070,15 +28079,6 @@
       "player": "Balinho",
       "level": 2036,
       "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 06:00",
-      "player": "Flecha Fofa",
-      "level": 2001,
-      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
