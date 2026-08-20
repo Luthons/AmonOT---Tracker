@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 06:26 (Brasília)",
+  "updated_at": "20/08/2026 às 06:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -483,7 +483,7 @@
     },
     {
       "name": "Balinho",
-      "level": 2036,
+      "level": 2033,
       "resets": 51,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -3102,15 +3102,15 @@
           "online": true
         },
         {
-          "name": "Balinho",
-          "value": 2036,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Garuvuvinha",
           "value": 2036,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Balinho",
+          "value": 2033,
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4183,7 +4183,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 06:26 (Brasília)",
+    "updated_at": "20/08/2026 às 06:27 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27117,6 +27117,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 20, 2026 06:27",
+      "player": "Balinho",
+      "level": 2036,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 20, 2026 06:00",
       "player": "Flecha Fofa",
