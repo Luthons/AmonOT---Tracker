@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 10:46 (Brasília)",
+  "updated_at": "20/08/2026 às 10:47 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -361,7 +361,7 @@
     },
     {
       "name": "Albatroz",
-      "level": 725,
+      "level": 896,
       "resets": 59,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -689,7 +689,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1994,
+      "level": 1992,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3351,7 +3351,7 @@
         },
         {
           "name": "Ed Da Deepweb",
-          "value": 1994,
+          "value": 1992,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3512,6 +3512,12 @@
           "online": true
         },
         {
+          "name": "Albatroz",
+          "value": 896,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Vitao The Trader",
           "value": 826,
           "vocation": "Master Sorcerer",
@@ -3526,12 +3532,6 @@
         {
           "name": "Balinho",
           "value": 788,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Albatroz",
-          "value": 725,
           "vocation": "Exalted Monk",
           "online": true
         },
@@ -4221,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 10:46 (Brasília)",
+    "updated_at": "20/08/2026 às 10:47 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27156,6 +27156,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 10:47",
+      "player": "Albatroz",
+      "level": 897,
+      "killedBy": "Teko News",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 10:47",
+      "player": "Ed Da Deepweb",
+      "level": 1994,
+      "killedBy": "Teko News",
+      "maiorDano": "Holly Sapetah",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 10:30",
       "player": "Lilian Faithkeeper",
       "level": 1618,
@@ -27880,15 +27898,6 @@
       "player": "Ntka",
       "level": 2000,
       "killedBy": "Holly Sapetah",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 16:59",
-      "player": "Lougon Baiakeiro",
-      "level": 2000,
-      "killedBy": "Famosa",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
