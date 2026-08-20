@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 10:26 (Brasília)",
+  "updated_at": "20/08/2026 às 10:27 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -315,7 +315,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
+      "level": 1998,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3182,12 +3182,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Yagoodz Hahaha",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -3341,6 +3335,12 @@
           "name": "VukVuk",
           "value": 2000,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
+          "value": 1998,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4221,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 10:26 (Brasília)",
+    "updated_at": "20/08/2026 às 10:27 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27156,6 +27156,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 10:26",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Amelior",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 10:21",
       "player": "Haony",
       "level": 1453,
@@ -27917,15 +27926,6 @@
       "level": 2000,
       "killedBy": "Holly Sapetah",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 16:48",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Vinizerah On Amonot",
-      "maiorDano": "Teko News",
       "world": "Baiak",
       "isPvp": true
     }
