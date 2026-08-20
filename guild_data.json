@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 01:23 (Brasília)",
+  "updated_at": "20/08/2026 às 01:24 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -361,8 +361,8 @@
     },
     {
       "name": "Albatroz",
-      "level": 1911,
-      "resets": 58,
+      "level": 8,
+      "resets": 59,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
@@ -397,6 +397,11 @@
           "resets": 58,
           "gained": 1,
           "timestamp": "18/08/2026 às 09:01 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 01:24 (Brasília)"
         }
       ]
     },
@@ -2416,6 +2421,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Albatroz",
+      "resets_total": 59,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Exalted Monk",
+      "online": true
+    },
+    {
       "name": "Welljacob",
       "resets_total": 44,
       "resets_today": 1,
@@ -2437,14 +2450,6 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Albatroz",
-      "resets_total": 58,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Exalted Monk",
       "online": true
     },
     {
@@ -2795,6 +2800,12 @@
           "online": true
         },
         {
+          "name": "Albatroz",
+          "value": 59,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Melbiss",
           "value": 59,
           "vocation": "Elite Knight",
@@ -2805,12 +2816,6 @@
           "value": 59,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Albatroz",
-          "value": 58,
-          "vocation": "Exalted Monk",
-          "online": true
         },
         {
           "name": "Ntka",
@@ -3314,12 +3319,6 @@
           "name": "Gokuu",
           "value": 1994,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Albatroz",
-          "value": 1911,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -4170,7 +4169,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 01:23 (Brasília)",
+    "updated_at": "20/08/2026 às 01:24 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27757,7 +27756,7 @@
         "Yagoodz Hahaha": 70,
         "Achilles": 18,
         "Adolph Healer": 20,
-        "Albatroz": 58,
+        "Albatroz": 59,
         "Baiakudinho": 69,
         "Balinho": 51,
         "Boingbringer": 30,
@@ -39625,7 +39624,7 @@
           "Yagoodz Hahaha": 70,
           "Achilles": 18,
           "Adolph Healer": 20,
-          "Albatroz": 58,
+          "Albatroz": 59,
           "Baiakudinho": 69,
           "Balinho": 51,
           "Boingbringer": 30,
@@ -42566,6 +42565,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 23:06 (Brasília)",
           "hour_key": "2026-08-19-23"
+        },
+        {
+          "name": "Albatroz",
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "20/08/2026 às 01:24 (Brasília)",
+          "hour_key": "2026-08-20-01"
         }
       ]
     },
@@ -43420,12 +43426,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 72,
-      "total_current": 3653,
-      "resets_today": 1,
-      "resets_week": 84,
+      "total_current": 3654,
+      "resets_today": 2,
+      "resets_week": 85,
       "resets_month": 0,
-      "resets_lifetime": 76,
-      "avg_per_player": 50.7
+      "resets_lifetime": 77,
+      "avg_per_player": 50.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
