@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 11:05 (Brasília)",
+  "updated_at": "20/08/2026 às 11:06 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -928,7 +928,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1998,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2138,7 +2138,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 1563,
+      "level": 1568,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3218,12 +3218,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3338,6 +3332,12 @@
           "online": true
         },
         {
+          "name": "Gokuu",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Elder Lougon",
           "value": 1997,
           "vocation": "Elder Druid",
@@ -3429,7 +3429,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 1563,
+          "value": 1568,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -4221,7 +4221,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 11:05 (Brasília)",
+    "updated_at": "20/08/2026 às 11:06 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27156,6 +27156,24 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 11:06",
+      "player": "Rofmao",
+      "level": 1570,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 11:05",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Nutellinha Druid",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 11:00",
       "player": "Luiscrazynear",
       "level": 1846,
@@ -27871,15 +27889,6 @@
       "player": "Yagoodz Hahaha",
       "level": 2000,
       "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 17:48",
-      "player": "Lipe Knight",
-      "level": 2033,
-      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
