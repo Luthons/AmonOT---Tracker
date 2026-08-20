@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 07:41 (Brasília)",
+  "updated_at": "20/08/2026 às 07:42 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -688,7 +688,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 2001,
+      "level": 1998,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3131,12 +3131,6 @@
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 2001,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -3307,6 +3301,12 @@
         {
           "name": "VukVuk",
           "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "El Diablo",
+          "value": 1998,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -4194,7 +4194,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 07:41 (Brasília)",
+    "updated_at": "20/08/2026 às 07:42 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27128,6 +27128,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 20, 2026 07:41",
+      "player": "El Diablo",
+      "level": 2001,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 20, 2026 07:21",
       "player": "Haony",
