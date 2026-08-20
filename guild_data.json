@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 11:29 (Brasília)",
+  "updated_at": "20/08/2026 às 11:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 72,
@@ -1607,7 +1607,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1846,
+      "level": 1898,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -3361,16 +3361,16 @@
           "online": true
         },
         {
+          "name": "Luiscrazynear",
+          "value": 1898,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Lukitas Brokenzada",
           "value": 1848,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Luiscrazynear",
-          "value": 1846,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -4220,7 +4220,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "20/08/2026 às 11:29 (Brasília)",
+    "updated_at": "20/08/2026 às 11:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27155,6 +27155,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 11:29",
+      "player": "Luiscrazynear",
+      "level": 1899,
+      "killedBy": "Teko News",
+      "maiorDano": "Osh Don",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 11:28",
       "player": "Cerebro",
       "level": 2000,
@@ -27825,42 +27834,6 @@
       "player": "Jhonnys Trembolizado",
       "level": 1995,
       "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 21:17",
-      "player": "Magabela",
-      "level": 814,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 20:56",
-      "player": "El Diablo",
-      "level": 2000,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 20:47",
-      "player": "Kiel",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 19, 2026 20:43",
-      "player": "Pally Tetss",
-      "level": 2000,
-      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
