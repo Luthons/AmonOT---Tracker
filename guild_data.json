@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "19/08/2026 às 22:46 (Brasília)",
+  "updated_at": "19/08/2026 às 22:49 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 73,
@@ -2198,8 +2198,8 @@
     },
     {
       "name": "Obrabo",
-      "level": 948,
-      "resets": 32,
+      "level": 8,
+      "resets": 33,
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
@@ -2228,6 +2228,11 @@
           "resets": 32,
           "gained": 1,
           "timestamp": "17/08/2026 às 23:04 (Brasília)"
+        },
+        {
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 22:49 (Brasília)"
         }
       ]
     },
@@ -2910,9 +2915,9 @@
     },
     {
       "name": "Obrabo",
-      "resets_total": 32,
+      "resets_total": 33,
       "resets_today": 0,
-      "resets_week": 3,
+      "resets_week": 4,
       "vocation": "Elite Knight",
       "online": true
     },
@@ -3375,7 +3380,7 @@
         },
         {
           "name": "Obrabo",
-          "value": 32,
+          "value": 33,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3828,12 +3833,6 @@
           "value": 1039,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Obrabo",
-          "value": 948,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Rp Terror",
@@ -4539,7 +4538,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "19/08/2026 às 22:45 (Brasília)",
+    "updated_at": "19/08/2026 às 22:49 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -28161,7 +28160,7 @@
         "Mugunza": 56,
         "Nino": 53,
         "Ntka": 57,
-        "Obrabo": 32,
+        "Obrabo": 33,
         "Paca": 37,
         "padim ed": 38,
         "palinhp": 54,
@@ -39995,7 +39994,7 @@
           "Mugunza": 56,
           "Nino": 53,
           "Ntka": 57,
-          "Obrabo": 32,
+          "Obrabo": 33,
           "Paca": 37,
           "padim ed": 38,
           "palinhp": 54,
@@ -43019,6 +43018,13 @@
           "gained": 1,
           "timestamp": "19/08/2026 às 21:33 (Brasília)",
           "hour_key": "2026-08-19-21"
+        },
+        {
+          "name": "Obrabo",
+          "resets": 33,
+          "gained": 1,
+          "timestamp": "19/08/2026 às 22:49 (Brasília)",
+          "hour_key": "2026-08-19-22"
         }
       ]
     },
@@ -43873,11 +43879,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 73,
-      "total_current": 3705,
+      "total_current": 3706,
       "resets_today": 0,
-      "resets_week": 82,
+      "resets_week": 83,
       "resets_month": 0,
-      "resets_lifetime": 69,
+      "resets_lifetime": 70,
       "avg_per_player": 50.8
     },
     "enemy_guild": {
