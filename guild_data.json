@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 19:08 (Brasília)",
+  "updated_at": "21/08/2026 às 19:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 24,
@@ -76,7 +76,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1846,
+      "level": 1849,
       "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
@@ -183,7 +183,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 973,
+      "level": 994,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -239,7 +239,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1820,
+      "level": 1829,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -448,7 +448,7 @@
     },
     {
       "name": "HEFESTO",
-      "level": 1910,
+      "level": 1939,
       "resets": 42,
       "vocation": "Elite Knight",
       "nick": "",
@@ -489,7 +489,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1736,
+      "level": 1740,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -743,7 +743,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1485,
+      "level": 1488,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1269,16 +1269,16 @@
           "online": true
         },
         {
+          "name": "HEFESTO",
+          "value": 1939,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Magabela",
           "value": 1937,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "HEFESTO",
-          "value": 1910,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "palinhp",
@@ -1288,19 +1288,19 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 1846,
+          "value": 1849,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Eckoss",
+          "value": 1829,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Ethernal Pally",
           "value": 1827,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Eckoss",
-          "value": 1820,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1312,7 +1312,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1736,
+          "value": 1740,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1324,7 +1324,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1485,
+          "value": 1488,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -1342,7 +1342,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 973,
+          "value": 994,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -2014,7 +2014,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 19:08 (Brasília)",
+    "updated_at": "21/08/2026 às 19:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -40797,6 +40797,6 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
+    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros."
   ]
 }
