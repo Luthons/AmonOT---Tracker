@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 01:08 (Brasília)",
+  "updated_at": "21/08/2026 às 01:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 38,
@@ -56,7 +56,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1996,
+      "level": 1999,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -153,7 +153,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1269,
+      "level": 1290,
       "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
@@ -169,7 +169,7 @@
     },
     {
       "name": "Achilles",
-      "level": 1995,
+      "level": 1997,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -368,7 +368,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1998,
+      "level": 2000,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -430,7 +430,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1998,
+      "level": 1999,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -551,7 +551,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1735,
+      "level": 1748,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -700,7 +700,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1611,
+      "level": 1617,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1016,7 +1016,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1994,
+      "level": 2000,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1107,7 +1107,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1474,
+      "level": 1478,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "padim ed",
-      "level": 1714,
+      "level": 1725,
       "resets": 38,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1862,6 +1862,12 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -1892,27 +1898,33 @@
           "online": true
         },
         {
+          "name": "MekZera",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
         },
         {
-          "name": "Teylera Rp",
-          "value": 1998,
+          "name": "Jhonnys Trembolizado",
+          "value": 1999,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Dede Knight",
-          "value": 1998,
-          "vocation": "Elite Knight",
+          "name": "Ed Da Deepweb",
+          "value": 1999,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
+          "name": "Teylera Rp",
           "value": 1998,
-          "vocation": "Elder Druid",
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -1934,26 +1946,14 @@
           "online": true
         },
         {
-          "name": "Haony",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Jhonnys Trembolizado",
-          "value": 1996,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
-          "value": 1995,
+          "value": 1997,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 1994,
+          "name": "Haony",
+          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1989,13 +1989,13 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1735,
+          "value": 1748,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "padim ed",
-          "value": 1714,
+          "value": 1725,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -2006,14 +2006,14 @@
           "online": false
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 1616,
+          "name": "Kashambao",
+          "value": 1617,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Kashambao",
-          "value": 1611,
+          "name": "Lilian Faithkeeper",
+          "value": 1616,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2031,7 +2031,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1474,
+          "value": 1478,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2043,7 +2043,7 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 1269,
+          "value": 1290,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -2733,7 +2733,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 01:08 (Brasília)",
+    "updated_at": "21/08/2026 às 01:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
