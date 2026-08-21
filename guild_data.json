@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 15:57 (Brasília)",
+  "updated_at": "21/08/2026 às 15:58 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 27,
-  "online_count": 20,
+  "total_members": 26,
+  "online_count": 19,
   "offline_count": 7,
   "members": [
     {
@@ -479,47 +479,6 @@
           "resets": 60,
           "gained": 1,
           "timestamp": "04/08/2026 às 10:23 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Haony",
-      "level": 1451,
-      "resets": 62,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 10:10 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 12:26 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "15/08/2026 às 14:46 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 16:47 (Brasília)"
-        },
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "19/08/2026 às 21:33 (Brasília)"
-        },
-        {
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "21/08/2026 às 03:40 (Brasília)"
         }
       ]
     },
@@ -1064,14 +1023,6 @@
       "online": true
     },
     {
-      "name": "Haony",
-      "resets_total": 62,
-      "resets_today": 1,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Kawik",
       "resets_total": 62,
       "resets_today": 1,
@@ -1196,12 +1147,6 @@
           "name": "Magabela",
           "value": 62,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 62,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -1473,12 +1418,6 @@
           "value": 1485,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Haony",
-          "value": 1451,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Baiakudinho",
@@ -2172,7 +2111,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 15:57 (Brasília)",
+    "updated_at": "21/08/2026 às 15:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25170,15 +25109,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 21, 2026 08:48",
-      "player": "Haony",
-      "level": 1217,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 21, 2026 03:07",
       "player": "Dede Knight",
       "level": 1997,
@@ -25282,15 +25212,6 @@
       "player": "Gokuu",
       "level": 1992,
       "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 00:28",
-      "player": "Haony",
-      "level": 1997,
-      "killedBy": "Amelior",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -25554,7 +25475,6 @@
         "Ethernal Pally": 40,
         "Garuvuvinha": 60,
         "Gokuu": 60,
-        "Haony": 62,
         "HEFESTO": 42,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
@@ -37085,7 +37005,6 @@
           "Ethernal Pally": 40,
           "Garuvuvinha": 60,
           "Gokuu": 60,
-          "Haony": 62,
           "HEFESTO": 42,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
@@ -40797,13 +40716,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 27,
-      "total_current": 1423,
-      "resets_today": 4,
-      "resets_week": 41,
+      "num_members": 26,
+      "total_current": 1361,
+      "resets_today": 3,
+      "resets_week": 37,
       "resets_month": 0,
-      "resets_lifetime": 41,
-      "avg_per_player": 52.7
+      "resets_lifetime": 37,
+      "avg_per_player": 52.3
     },
     "enemy_guild": {
       "guild": "MentaliTY",
