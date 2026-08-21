@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 09:18 (Brasília)",
+  "updated_at": "21/08/2026 às 09:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
@@ -276,7 +276,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 2000,
+      "level": 1997,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1824,12 +1824,6 @@
           "online": true
         },
         {
-          "name": "Boltfly Peoplecry",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Dede Knight",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -1899,6 +1893,12 @@
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2677,7 +2677,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 09:18 (Brasília)",
+    "updated_at": "21/08/2026 às 09:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25611,6 +25611,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 21, 2026 09:18",
+      "player": "Boltfly Peoplecry",
+      "level": 2000,
+      "killedBy": "Amelior",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 21, 2026 09:02",
       "player": "Jhonnys Trembolizado",
