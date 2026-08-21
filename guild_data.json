@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 01:19 (Brasília)",
+  "updated_at": "21/08/2026 às 01:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 38,
-  "online_count": 30,
+  "total_members": 37,
+  "online_count": 29,
   "offline_count": 8,
   "members": [
     {
@@ -176,52 +176,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Albatroz",
-      "level": 1638,
-      "resets": 59,
-      "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 17:08 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 01:07 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "15/08/2026 às 14:36 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 22:04 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 08:55 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "18/08/2026 às 09:01 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "20/08/2026 às 01:24 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Baiakudinho",
@@ -1466,14 +1420,6 @@
       "online": true
     },
     {
-      "name": "Albatroz",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 5,
-      "vocation": "Exalted Monk",
-      "online": true
-    },
-    {
       "name": "Boltfly Peoplecry",
       "resets_total": 48,
       "resets_today": 0,
@@ -1696,12 +1642,6 @@
           "name": "Loks",
           "value": 60,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Albatroz",
-          "value": 59,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -1996,12 +1936,6 @@
           "name": "padim ed",
           "value": 1725,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Albatroz",
-          "value": 1638,
-          "vocation": "Exalted Monk",
           "online": true
         },
         {
@@ -2732,7 +2666,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 01:19 (Brasília)",
+    "updated_at": "21/08/2026 às 01:20 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26424,7 +26358,6 @@
         "Teylera Rp": 62,
         "Yagoodz Hahaha": 71,
         "Achilles": 18,
-        "Albatroz": 59,
         "Baiakudinho": 70,
         "Balinho": 52,
         "Boltfly Peoplecry": 48,
@@ -38418,7 +38351,6 @@
           "Teylera Rp": 62,
           "Yagoodz Hahaha": 71,
           "Achilles": 18,
-          "Albatroz": 59,
           "Baiakudinho": 70,
           "Balinho": 52,
           "Boltfly Peoplecry": 48,
@@ -42125,13 +42057,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 38,
-      "total_current": 2041,
+      "num_members": 37,
+      "total_current": 1982,
       "resets_today": 1,
-      "resets_week": 60,
+      "resets_week": 55,
       "resets_month": 0,
-      "resets_lifetime": 69,
-      "avg_per_player": 53.7
+      "resets_lifetime": 64,
+      "avg_per_player": 53.6
     },
     "enemy_guild": {
       "guild": "MentaliTY",
