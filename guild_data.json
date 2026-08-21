@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 08:47 (Brasília)",
+  "updated_at": "21/08/2026 às 08:48 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
-  "online_count": 28,
-  "offline_count": 9,
+  "online_count": 29,
+  "offline_count": 8,
   "members": [
     {
       "name": "Dmonick",
@@ -582,7 +582,7 @@
     },
     {
       "name": "Haony",
-      "level": 1190,
+      "level": 1216,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -725,7 +725,7 @@
       "vocation": "Elite Knight",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 61,
@@ -1478,7 +1478,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Elite Knight",
-      "online": false
+      "online": true
     },
     {
       "name": "Lilian Faithkeeper",
@@ -1623,7 +1623,7 @@
           "name": "Kawik",
           "value": 61,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Dmonick",
@@ -1803,7 +1803,7 @@
           "name": "Kawik",
           "value": 2006,
           "vocation": "Elite Knight",
-          "online": false
+          "online": true
         },
         {
           "name": "Mugunza",
@@ -1980,14 +1980,14 @@
           "online": false
         },
         {
-          "name": "Rp Terror",
-          "value": 1197,
+          "name": "Haony",
+          "value": 1216,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Haony",
-          "value": 1190,
+          "name": "Rp Terror",
+          "value": 1197,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2677,7 +2677,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 08:47 (Brasília)",
+    "updated_at": "21/08/2026 às 08:48 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25612,6 +25612,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 21, 2026 08:48",
+      "player": "Haony",
+      "level": 1217,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 21, 2026 03:07",
       "player": "Dede Knight",
       "level": 1997,
@@ -26229,15 +26238,6 @@
       "level": 2034,
       "killedBy": "Crow Oz",
       "maiorDano": "Mrrealizandosonhos",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 15:34",
-      "player": "Gizao",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
