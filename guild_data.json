@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 03:07 (Brasília)",
+  "updated_at": "21/08/2026 às 03:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
@@ -327,7 +327,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1997,
+      "level": 1995,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1885,15 +1885,15 @@
           "online": true
         },
         {
-          "name": "Dede Knight",
-          "value": 1997,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Haony",
           "value": 1997,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Dede Knight",
+          "value": 1995,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -2672,7 +2672,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 03:07 (Brasília)",
+    "updated_at": "21/08/2026 às 03:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25606,6 +25606,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 21, 2026 03:07",
+      "player": "Dede Knight",
+      "level": 1997,
+      "killedBy": "Atreus Oldking",
+      "maiorDano": "Vinizerah On Amonot",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 21, 2026 02:55",
       "player": "Dede Knight",
