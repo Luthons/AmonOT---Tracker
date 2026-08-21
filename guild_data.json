@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 19:10 (Brasília)",
+  "updated_at": "21/08/2026 às 19:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 24,
@@ -489,7 +489,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1740,
+      "level": 1739,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -809,7 +809,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 2000,
+      "level": 1998,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1245,16 +1245,16 @@
           "online": true
         },
         {
-          "name": "Mugunza",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Mugunza",
+          "value": 1998,
+          "vocation": "Master Sorcerer",
+          "online": true
         },
         {
           "name": "Gizao",
@@ -1312,7 +1312,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1740,
+          "value": 1739,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2014,7 +2014,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 19:10 (Brasília)",
+    "updated_at": "21/08/2026 às 19:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24948,6 +24948,24 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 21, 2026 19:10",
+      "player": "Kashambao",
+      "level": 1740,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 21, 2026 19:10",
+      "player": "Mugunza",
+      "level": 2000,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 21, 2026 19:00",
       "player": "Gokuu",
