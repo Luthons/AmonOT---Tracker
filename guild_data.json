@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 11:02 (Brasília)",
+  "updated_at": "21/08/2026 às 11:03 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 32,
@@ -112,7 +112,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 2000,
+      "level": 1997,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1546,12 +1546,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Dede Knight",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -1613,6 +1607,12 @@
         },
         {
           "name": "Gizao",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Teylera Rp",
           "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
@@ -2381,7 +2381,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 11:02 (Brasília)",
+    "updated_at": "21/08/2026 às 11:03 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25315,6 +25315,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 21, 2026 11:02",
+      "player": "Teylera Rp",
+      "level": 2000,
+      "killedBy": "Tajuquinha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 21, 2026 10:37",
       "player": "Ethernal Pally",
