@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 09:32 (Brasília)",
+  "updated_at": "21/08/2026 às 09:33 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 35,
-  "online_count": 26,
+  "total_members": 34,
+  "online_count": 25,
   "offline_count": 9,
   "members": [
     {
@@ -1105,52 +1105,6 @@
       ]
     },
     {
-      "name": "padim ed",
-      "level": 1758,
-      "resets": 38,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 33,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 21:52 (Brasília)"
-        },
-        {
-          "resets": 34,
-          "gained": 1,
-          "timestamp": "14/08/2026 às 15:55 (Brasília)"
-        },
-        {
-          "resets": 35,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 10:33 (Brasília)"
-        },
-        {
-          "resets": 35,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 12:13 (Brasília)"
-        },
-        {
-          "resets": 36,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 20:34 (Brasília)"
-        },
-        {
-          "resets": 37,
-          "gained": 1,
-          "timestamp": "18/08/2026 às 21:57 (Brasília)"
-        },
-        {
-          "resets": 38,
-          "gained": 1,
-          "timestamp": "19/08/2026 às 21:08 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "palinhp",
       "level": 1867,
       "resets": 54,
@@ -1458,14 +1412,6 @@
       "online": false
     },
     {
-      "name": "padim ed",
-      "resets_total": 38,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Elder Druid",
-      "online": true
-    },
-    {
       "name": "palinhp",
       "resets_total": 54,
       "resets_today": 0,
@@ -1705,12 +1651,6 @@
           "online": true
         },
         {
-          "name": "padim ed",
-          "value": 38,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
@@ -1865,12 +1805,6 @@
           "value": 1775,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "padim ed",
-          "value": 1758,
-          "vocation": "Elder Druid",
-          "online": true
         },
         {
           "name": "Eckoss",
@@ -2606,7 +2540,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 09:32 (Brasília)",
+    "updated_at": "21/08/2026 às 09:33 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25614,15 +25548,6 @@
     },
     {
       "time": "Aug 21, 2026 01:36",
-      "player": "padim ed",
-      "level": 1729,
-      "killedBy": "Atreus Oldking",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 01:36",
       "player": "Gokuu",
       "level": 1978,
       "killedBy": "Teko News",
@@ -26229,7 +26154,6 @@
         "MekZera": 63,
         "Melbiss": 59,
         "Mugunza": 56,
-        "padim ed": 38,
         "palinhp": 54,
         "Rofmao": 50,
         "Rp Terror": 39,
@@ -37980,7 +37904,6 @@
           "MekZera": 63,
           "Melbiss": 59,
           "Mugunza": 56,
-          "padim ed": 38,
           "palinhp": 54,
           "Rofmao": 50,
           "Rp Terror": 39,
@@ -41670,13 +41593,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 35,
-      "total_current": 1871,
+      "num_members": 34,
+      "total_current": 1833,
       "resets_today": 2,
-      "resets_week": 56,
+      "resets_week": 52,
       "resets_month": 0,
-      "resets_lifetime": 63,
-      "avg_per_player": 53.5
+      "resets_lifetime": 58,
+      "avg_per_player": 53.9
     },
     "enemy_guild": {
       "guild": "MentaliTY",
