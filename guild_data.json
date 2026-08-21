@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 00:39 (Brasília)",
+  "updated_at": "21/08/2026 às 00:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 50,
+  "total_members": 47,
   "online_count": 38,
-  "offline_count": 12,
+  "offline_count": 9,
   "members": [
     {
       "name": "Albatrozz",
@@ -203,37 +203,6 @@
           "resets": 70,
           "gained": 1,
           "timestamp": "20/08/2026 às 21:21 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Dmonick",
-      "level": 2039,
-      "resets": 60,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 14:46 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 15:24 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 10:11 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:49 (Brasília)"
         }
       ]
     },
@@ -550,16 +519,6 @@
       ]
     },
     {
-      "name": "Brunaobringer",
-      "level": 2000,
-      "resets": 50,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
-    },
-    {
       "name": "Dede Knight",
       "level": 1998,
       "resets": 49,
@@ -852,7 +811,7 @@
     },
     {
       "name": "Haony",
-      "level": 1994,
+      "level": 1997,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1497,37 +1456,6 @@
       ]
     },
     {
-      "name": "Monstro Das Criptos",
-      "level": 2000,
-      "resets": 59,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "24/07/2026 às 02:32 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "26/07/2026 às 10:39 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 23:01 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "02/08/2026 às 14:15 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Mugunza",
       "level": 1998,
       "resets": 56,
@@ -1799,16 +1727,6 @@
       "level": 2000,
       "resets": 25,
       "vocation": "Elite Knight",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
-    },
-    {
-      "name": "Vitao The Trader",
-      "level": 826,
-      "resets": 22,
-      "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
       "online": false,
@@ -2213,12 +2131,6 @@
           "online": true
         },
         {
-          "name": "Monstro Das Criptos",
-          "value": 59,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "Ntka",
           "value": 57,
           "vocation": "Royal Paladin",
@@ -2259,12 +2171,6 @@
           "value": 51,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Brunaobringer",
-          "value": 50,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Ed Da Deepweb",
@@ -2357,12 +2263,6 @@
           "online": false
         },
         {
-          "name": "Vitao The Trader",
-          "value": 22,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
@@ -2417,12 +2317,6 @@
           "online": true
         },
         {
-          "name": "Brunaobringer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -2463,12 +2357,6 @@
           "value": 2000,
           "vocation": "Elder Druid",
           "online": true
-        },
-        {
-          "name": "Monstro Das Criptos",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Pally Tetss",
@@ -2525,6 +2413,12 @@
           "online": true
         },
         {
+          "name": "Haony",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ntka",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -2534,12 +2428,6 @@
           "name": "Achilles",
           "value": 1995,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 1994,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2660,12 +2548,6 @@
           "name": "Welljacob",
           "value": 987,
           "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
-          "name": "Vitao The Trader",
-          "value": 826,
-          "vocation": "Master Sorcerer",
           "online": false
         },
         {
@@ -3342,7 +3224,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 00:39 (Brasília)",
+    "updated_at": "21/08/2026 às 00:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27184,7 +27066,6 @@
         "Dmonick": 60,
         "Gizao": 61,
         "Akronus": 70,
-        "Dmonick": 60,
         "Jhonnys Trembolizado": 94,
         "Magabela": 62,
         "Teylera Rp": 62,
@@ -27194,7 +27075,6 @@
         "Baiakudinho": 69,
         "Balinho": 52,
         "Boltfly Peoplecry": 48,
-        "Brunaobringer": 50,
         "Dede Knight": 49,
         "Eckoss": 49,
         "Ed Da Deepweb": 50,
@@ -27217,7 +27097,6 @@
         "Luiscrazynear": 49,
         "MekZera": 63,
         "Melbiss": 59,
-        "Monstro Das Criptos": 59,
         "Mugunza": 56,
         "Ntka": 57,
         "padim ed": 38,
@@ -27228,7 +27107,6 @@
         "Rusha Rp": 66,
         "Snowzeraah": 45,
         "Ultimate Warrior": 25,
-        "Vitao The Trader": 22,
         "Voidshot": 61,
         "Welljacob": 44
       },
@@ -39220,7 +39098,6 @@
           "Dmonick": 60,
           "Gizao": 61,
           "Akronus": 70,
-          "Dmonick": 60,
           "Jhonnys Trembolizado": 94,
           "Magabela": 62,
           "Teylera Rp": 62,
@@ -39230,7 +39107,6 @@
           "Baiakudinho": 69,
           "Balinho": 52,
           "Boltfly Peoplecry": 48,
-          "Brunaobringer": 50,
           "Dede Knight": 49,
           "Eckoss": 49,
           "Ed Da Deepweb": 50,
@@ -39253,7 +39129,6 @@
           "Luiscrazynear": 49,
           "MekZera": 63,
           "Melbiss": 59,
-          "Monstro Das Criptos": 59,
           "Mugunza": 56,
           "Ntka": 57,
           "padim ed": 38,
@@ -39264,7 +39139,6 @@
           "Rusha Rp": 66,
           "Snowzeraah": 45,
           "Ultimate Warrior": 25,
-          "Vitao The Trader": 22,
           "Voidshot": 61,
           "Welljacob": 44
         }
@@ -42936,13 +42810,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 50,
-      "total_current": 2739,
+      "num_members": 47,
+      "total_current": 2608,
       "resets_today": 0,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 73,
-      "avg_per_player": 54.8
+      "avg_per_player": 55.5
     },
     "enemy_guild": {
       "guild": "MentaliTY",
