@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 03:36 (Brasília)",
+  "updated_at": "21/08/2026 às 03:37 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
@@ -582,8 +582,8 @@
     },
     {
       "name": "Haony",
-      "level": 1997,
-      "resets": 61,
+      "level": 8,
+      "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -613,6 +613,11 @@
           "resets": 61,
           "gained": 1,
           "timestamp": "19/08/2026 às 21:33 (Brasília)"
+        },
+        {
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "21/08/2026 às 03:37 (Brasília)"
         }
       ]
     },
@@ -1404,6 +1409,14 @@
       "online": true
     },
     {
+      "name": "Haony",
+      "resets_total": 62,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
@@ -1440,14 +1453,6 @@
       "resets_total": 40,
       "resets_today": 0,
       "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Haony",
-      "resets_total": 61,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -1597,6 +1602,12 @@
           "online": true
         },
         {
+          "name": "Haony",
+          "value": 62,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kashambao",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -1604,12 +1615,6 @@
         },
         {
           "name": "Gizao",
-          "value": 61,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Haony",
           "value": 61,
           "vocation": "Royal Paladin",
           "online": true
@@ -1882,12 +1887,6 @@
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Haony",
-          "value": 1997,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -2672,7 +2671,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 03:36 (Brasília)",
+    "updated_at": "21/08/2026 às 03:37 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -26365,7 +26364,7 @@
         "Ethernal Pally": 40,
         "Garuvuvinha": 60,
         "Gokuu": 60,
-        "Haony": 61,
+        "Haony": 62,
         "HEFESTO": 42,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
@@ -38298,7 +38297,7 @@
           "Ethernal Pally": 40,
           "Garuvuvinha": 60,
           "Gokuu": 60,
-          "Haony": 61,
+          "Haony": 62,
           "HEFESTO": 42,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
@@ -41141,6 +41140,13 @@
           "gained": 1,
           "timestamp": "21/08/2026 às 01:14 (Brasília)",
           "hour_key": "2026-08-21-01"
+        },
+        {
+          "name": "Haony",
+          "resets": 62,
+          "gained": 1,
+          "timestamp": "21/08/2026 às 03:37 (Brasília)",
+          "hour_key": "2026-08-21-03"
         }
       ]
     },
@@ -41995,11 +42001,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 37,
-      "total_current": 1982,
-      "resets_today": 1,
-      "resets_week": 55,
+      "total_current": 1983,
+      "resets_today": 2,
+      "resets_week": 56,
       "resets_month": 0,
-      "resets_lifetime": 64,
+      "resets_lifetime": 65,
       "avg_per_player": 53.6
     },
     "enemy_guild": {
