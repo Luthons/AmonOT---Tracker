@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 18:55 (Brasília)",
+  "updated_at": "21/08/2026 às 18:56 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 24,
@@ -412,7 +412,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 2000,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1221,12 +1221,6 @@
           "online": true
         },
         {
-          "name": "Gokuu",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Henrique Arqueiro",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -1264,6 +1258,12 @@
         },
         {
           "name": "Gizao",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
           "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
@@ -2014,7 +2014,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 18:55 (Brasília)",
+    "updated_at": "21/08/2026 às 18:56 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24949,6 +24949,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 21, 2026 18:56",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Nutellinha Druid",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 21, 2026 18:55",
       "player": "Gizao",
       "level": 2000,
@@ -25322,15 +25331,6 @@
       "player": "Baiakudinho",
       "level": 2000,
       "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 22:56",
-      "player": "Gizao",
-      "level": 2000,
-      "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
