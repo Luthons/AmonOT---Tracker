@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 08:08 (Brasília)",
+  "updated_at": "21/08/2026 às 08:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
@@ -143,7 +143,7 @@
     },
     {
       "name": "Teylera Rp",
-      "level": 1998,
+      "level": 2000,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -153,7 +153,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1467,
+      "level": 1489,
       "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
@@ -179,7 +179,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1031,
+      "level": 1064,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -260,7 +260,7 @@
     },
     {
       "name": "Balinho",
-      "level": 1642,
+      "level": 1691,
       "resets": 52,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -276,7 +276,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1996,
+      "level": 2000,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -363,7 +363,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1588,
+      "level": 1603,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -582,7 +582,7 @@
     },
     {
       "name": "Haony",
-      "level": 1140,
+      "level": 1190,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -664,7 +664,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1642,
+      "level": 1647,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -762,7 +762,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1656,
+      "level": 1675,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1153,7 +1153,7 @@
     },
     {
       "name": "padim ed",
-      "level": 1738,
+      "level": 1748,
       "resets": 38,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1220,7 +1220,7 @@
     },
     {
       "name": "Rofmao",
-      "level": 626,
+      "level": 736,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1261,7 +1261,7 @@
     },
     {
       "name": "Rp Terror",
-      "level": 1187,
+      "level": 1197,
       "resets": 39,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1824,6 +1824,18 @@
           "online": true
         },
         {
+          "name": "Teylera Rp",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Dede Knight",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -1890,21 +1902,9 @@
           "online": false
         },
         {
-          "name": "Teylera Rp",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 1996,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -1933,32 +1933,38 @@
         },
         {
           "name": "padim ed",
-          "value": 1738,
+          "value": 1748,
           "vocation": "Elder Druid",
           "online": true
         },
         {
-          "name": "Lilian Faithkeeper",
-          "value": 1656,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Balinho",
-          "value": 1642,
+          "value": 1691,
           "vocation": "Exalted Monk",
           "online": true
         },
         {
+          "name": "Lilian Faithkeeper",
+          "value": 1675,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Kashambao",
-          "value": 1642,
+          "value": 1647,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1588,
+          "value": 1603,
           "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Yagoodz Hahaha",
+          "value": 1489,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -1968,12 +1974,6 @@
           "online": false
         },
         {
-          "name": "Yagoodz Hahaha",
-          "value": 1467,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Snowzeraah",
           "value": 1370,
           "vocation": "Royal Paladin",
@@ -1981,19 +1981,19 @@
         },
         {
           "name": "Rp Terror",
-          "value": 1187,
+          "value": 1197,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Haony",
-          "value": 1140,
+          "value": 1190,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Baiakudinho",
-          "value": 1031,
+          "value": 1064,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2005,7 +2005,7 @@
         },
         {
           "name": "Rofmao",
-          "value": 626,
+          "value": 736,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -2677,7 +2677,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 08:08 (Brasília)",
+    "updated_at": "21/08/2026 às 08:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
