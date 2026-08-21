@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 00:37 (Brasília)",
+  "updated_at": "21/08/2026 às 00:38 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 52,
-  "online_count": 40,
+  "total_members": 51,
+  "online_count": 39,
   "offline_count": 12,
   "members": [
     {
@@ -1662,7 +1662,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 53,
@@ -1849,16 +1849,6 @@
           "timestamp": "18/08/2026 às 11:46 (Brasília)"
         }
       ]
-    },
-    {
-      "name": "Tio Bringer",
-      "level": 651,
-      "resets": 32,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
     },
     {
       "name": "Ultimate Warrior",
@@ -2077,7 +2067,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Rofmao",
@@ -2312,7 +2302,7 @@
           "name": "palinhp",
           "value": 54,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Nino",
@@ -2421,12 +2411,6 @@
           "value": 38,
           "vocation": "Elder Druid",
           "online": true
-        },
-        {
-          "name": "Tio Bringer",
-          "value": 32,
-          "vocation": "Royal Paladin",
-          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -2654,7 +2638,7 @@
           "name": "palinhp",
           "value": 1867,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Magabela",
@@ -2750,12 +2734,6 @@
           "name": "Vitao The Trader",
           "value": 826,
           "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
-          "name": "Tio Bringer",
-          "value": 651,
-          "vocation": "Royal Paladin",
           "online": false
         },
         {
@@ -3432,7 +3410,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 00:37 (Brasília)",
+    "updated_at": "21/08/2026 às 00:38 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27256,15 +27234,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 14:46",
-      "player": "Rofmao",
-      "level": 1602,
-      "killedBy": "Osh Don",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -27318,7 +27287,6 @@
         "Rp Terror": 39,
         "Rusha Rp": 66,
         "Snowzeraah": 45,
-        "Tio Bringer": 32,
         "Ultimate Warrior": 25,
         "Vitao The Trader": 22,
         "Voidshot": 61,
@@ -39356,7 +39324,6 @@
           "Rp Terror": 39,
           "Rusha Rp": 66,
           "Snowzeraah": 45,
-          "Tio Bringer": 32,
           "Ultimate Warrior": 25,
           "Vitao The Trader": 22,
           "Voidshot": 61,
@@ -43030,13 +42997,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 52,
-      "total_current": 2824,
+      "num_members": 51,
+      "total_current": 2792,
       "resets_today": 0,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 73,
-      "avg_per_player": 54.3
+      "avg_per_player": 54.7
     },
     "enemy_guild": {
       "guild": "MentaliTY",
