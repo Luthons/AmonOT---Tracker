@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 00:34 (Brasília)",
+  "updated_at": "21/08/2026 às 00:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 57,
+  "total_members": 53,
   "online_count": 40,
-  "offline_count": 17,
+  "offline_count": 13,
   "members": [
     {
       "name": "Albatrozz",
@@ -176,6 +176,37 @@
       ]
     },
     {
+      "name": "Dmonick",
+      "level": 2039,
+      "resets": 60,
+      "vocation": "Master Sorcerer",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 57,
+          "gained": 1,
+          "timestamp": "27/07/2026 às 14:46 (Brasília)"
+        },
+        {
+          "resets": 58,
+          "gained": 1,
+          "timestamp": "28/07/2026 às 15:24 (Brasília)"
+        },
+        {
+          "resets": 59,
+          "gained": 1,
+          "timestamp": "30/07/2026 às 10:11 (Brasília)"
+        },
+        {
+          "resets": 60,
+          "gained": 1,
+          "timestamp": "04/08/2026 às 21:49 (Brasília)"
+        }
+      ]
+    },
+    {
       "name": "Jhonnys Trembolizado",
       "level": 1998,
       "resets": 94,
@@ -296,16 +327,6 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": []
-    },
-    {
-      "name": "Adolph Healer",
-      "level": 2000,
-      "resets": 20,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
       "reset_history": []
     },
     {
@@ -447,16 +468,6 @@
       ]
     },
     {
-      "name": "Boingbringer",
-      "level": 2000,
-      "resets": 30,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
-    },
-    {
       "name": "Boltfly Peoplecry",
       "level": 1993,
       "resets": 48,
@@ -508,36 +519,10 @@
       ]
     },
     {
-      "name": "Brunao Rei Denovo",
-      "level": 2000,
-      "resets": 31,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 31,
-          "gained": 1,
-          "timestamp": "22/07/2026 às 09:20 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Brunaobringer",
       "level": 2000,
       "resets": 50,
       "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
-    },
-    {
-      "name": "Coriinga",
-      "level": 1473,
-      "resets": 64,
-      "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
       "online": false,
@@ -576,37 +561,6 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "18/08/2026 às 23:40 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Dmonick",
-      "level": 2039,
-      "resets": 60,
-      "vocation": "Master Sorcerer",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 14:46 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 15:24 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 10:11 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:49 (Brasília)"
         }
       ]
     },
@@ -2208,12 +2162,6 @@
           "online": true
         },
         {
-          "name": "Coriinga",
-          "value": 64,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
           "name": "MekZera",
           "value": 63,
           "vocation": "Royal Paladin",
@@ -2466,18 +2414,6 @@
           "online": false
         },
         {
-          "name": "Brunao Rei Denovo",
-          "value": 31,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
-          "name": "Boingbringer",
-          "value": 30,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
@@ -2487,12 +2423,6 @@
           "name": "Vitao The Trader",
           "value": 22,
           "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
-          "name": "Adolph Healer",
-          "value": 20,
-          "vocation": "Elder Druid",
           "online": false
         },
         {
@@ -2544,28 +2474,10 @@
           "online": true
         },
         {
-          "name": "Adolph Healer",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "Baiakudinho",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Boingbringer",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": false
-        },
-        {
-          "name": "Brunao Rei Denovo",
-          "value": 2000,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Brunaobringer",
@@ -2794,12 +2706,6 @@
           "value": 1474,
           "vocation": "Elite Knight",
           "online": true
-        },
-        {
-          "name": "Coriinga",
-          "value": 1473,
-          "vocation": "Master Sorcerer",
-          "online": false
         },
         {
           "name": "Akronus",
@@ -3517,7 +3423,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 00:34 (Brasília)",
+    "updated_at": "21/08/2026 às 00:35 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27367,22 +27273,18 @@
         "Albatrozz": 70,
         "Gizao": 61,
         "Akronus": 70,
+        "Dmonick": 60,
         "Jhonnys Trembolizado": 94,
         "Magabela": 62,
         "Teylera Rp": 62,
         "Yagoodz Hahaha": 71,
         "Achilles": 18,
-        "Adolph Healer": 20,
         "Albatroz": 59,
         "Baiakudinho": 69,
         "Balinho": 52,
-        "Boingbringer": 30,
         "Boltfly Peoplecry": 48,
-        "Brunao Rei Denovo": 31,
         "Brunaobringer": 50,
-        "Coriinga": 64,
         "Dede Knight": 49,
-        "Dmonick": 60,
         "Eckoss": 49,
         "Ed Da Deepweb": 50,
         "El Diablo": 71,
@@ -39409,22 +39311,18 @@
           "Albatrozz": 70,
           "Gizao": 61,
           "Akronus": 70,
+          "Dmonick": 60,
           "Jhonnys Trembolizado": 94,
           "Magabela": 62,
           "Teylera Rp": 62,
           "Yagoodz Hahaha": 71,
           "Achilles": 18,
-          "Adolph Healer": 20,
           "Albatroz": 59,
           "Baiakudinho": 69,
           "Balinho": 52,
-          "Boingbringer": 30,
           "Boltfly Peoplecry": 48,
-          "Brunao Rei Denovo": 31,
           "Brunaobringer": 50,
-          "Coriinga": 64,
           "Dede Knight": 49,
-          "Dmonick": 60,
           "Eckoss": 49,
           "Ed Da Deepweb": 50,
           "El Diablo": 71,
@@ -43132,13 +43030,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 57,
-      "total_current": 3010,
+      "num_members": 53,
+      "total_current": 2865,
       "resets_today": 0,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 73,
-      "avg_per_player": 52.8
+      "avg_per_player": 54.1
     },
     "enemy_guild": {
       "guild": "MentaliTY",
