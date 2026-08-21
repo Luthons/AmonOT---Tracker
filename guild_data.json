@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 23:40 (Brasília)",
+  "updated_at": "20/08/2026 às 23:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -556,7 +556,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1997,
+      "level": 1995,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -3297,15 +3297,15 @@
           "online": true
         },
         {
-          "name": "Dede Knight",
-          "value": 1997,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1995,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Dede Knight",
+          "value": 1995,
+          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -4192,7 +4192,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "20/08/2026 às 23:40 (Brasília)",
+    "updated_at": "20/08/2026 às 23:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27126,6 +27126,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 20, 2026 23:41",
+      "player": "Dede Knight",
+      "level": 1997,
+      "killedBy": "Atreus Oldking",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 20, 2026 23:38",
       "player": "Voidshot",
