@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 23:18 (Brasília)",
+  "updated_at": "20/08/2026 às 23:20 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -780,7 +780,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1729,
+      "level": 1728,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -883,7 +883,7 @@
     },
     {
       "name": "Garuvuvinha",
-      "level": 2033,
+      "level": 2031,
       "resets": 60,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1384,7 +1384,7 @@
     },
     {
       "name": "Loks",
-      "level": 2000,
+      "level": 1997,
       "resets": 60,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1633,7 +1633,7 @@
     },
     {
       "name": "MekZera",
-      "level": 1997,
+      "level": 1996,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3063,7 +3063,7 @@
         },
         {
           "name": "Garuvuvinha",
-          "value": 2033,
+          "value": 2031,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3155,12 +3155,6 @@
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 2000,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3266,8 +3260,14 @@
           "online": true
         },
         {
-          "name": "MekZera",
+          "name": "Loks",
           "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "MekZera",
+          "value": 1996,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3327,7 +3327,7 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1729,
+          "value": 1728,
           "vocation": "Royal Paladin",
           "online": false
         },
@@ -4131,7 +4131,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "20/08/2026 às 23:18 (Brasília)",
+    "updated_at": "20/08/2026 às 23:20 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27066,6 +27066,51 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 23:19",
+      "player": "Garuvuvinha",
+      "level": 2033,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:19",
+      "player": "Loks",
+      "level": 1998,
+      "killedBy": "Khanriel",
+      "maiorDano": "Lautaro Martinez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:19",
+      "player": "MekZera",
+      "level": 1997,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:18",
+      "player": "Ethernal Pally",
+      "level": 1729,
+      "killedBy": "Osh Don",
+      "maiorDano": "Khanriel",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:18",
+      "player": "Loks",
+      "level": 2000,
+      "killedBy": "Khanriel",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 23:18",
       "player": "Ethernal Pally",
       "level": 1730,
@@ -27854,15 +27899,6 @@
       "level": 1478,
       "killedBy": "Panuto Hahaha",
       "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 11:29",
-      "player": "Luiscrazynear",
-      "level": 1899,
-      "killedBy": "Teko News",
-      "maiorDano": "Osh Don",
       "world": "Baiak",
       "isPvp": true
     }
