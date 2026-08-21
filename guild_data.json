@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 01:17 (Brasília)",
+  "updated_at": "21/08/2026 às 01:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 38,
-  "online_count": 29,
-  "offline_count": 9,
+  "online_count": 30,
+  "offline_count": 8,
   "members": [
     {
       "name": "Dmonick",
@@ -184,7 +184,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 53,
@@ -556,7 +556,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1747,
+      "level": 1745,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1471,7 +1471,7 @@
       "resets_today": 0,
       "resets_week": 5,
       "vocation": "Exalted Monk",
-      "online": false
+      "online": true
     },
     {
       "name": "Boltfly Peoplecry",
@@ -1702,7 +1702,7 @@
           "name": "Albatroz",
           "value": 59,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Melbiss",
@@ -1988,7 +1988,7 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1747,
+          "value": 1745,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -2002,7 +2002,7 @@
           "name": "Albatroz",
           "value": 1638,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Kashambao",
@@ -2732,7 +2732,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 01:17 (Brasília)",
+    "updated_at": "21/08/2026 às 01:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25667,6 +25667,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 21, 2026 01:18",
+      "player": "Ethernal Pally",
+      "level": 1747,
+      "killedBy": "Khanriel",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 21, 2026 01:14",
       "player": "Ethernal Pally",
       "level": 1749,
@@ -26400,15 +26409,6 @@
       "player": "MekZera",
       "level": 2000,
       "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 14:58",
-      "player": "Rofmao",
-      "level": 1603,
-      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
