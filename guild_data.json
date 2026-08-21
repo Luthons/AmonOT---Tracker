@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 22:53 (Brasília)",
+  "updated_at": "20/08/2026 às 22:54 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
@@ -1628,7 +1628,7 @@
     },
     {
       "name": "MekZera",
-      "level": 2000,
+      "level": 1997,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3175,12 +3175,6 @@
           "online": true
         },
         {
-          "name": "MekZera",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Monstro Das Criptos",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -3244,6 +3238,12 @@
           "name": "Luiscrazynear",
           "value": 1997,
           "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "MekZera",
+          "value": 1997,
+          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -4118,7 +4118,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "20/08/2026 às 22:53 (Brasília)",
+    "updated_at": "20/08/2026 às 22:54 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27053,6 +27053,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 22:53",
+      "player": "MekZera",
+      "level": 2000,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 22:51",
       "player": "Pally Tetss",
       "level": 2000,
@@ -27823,15 +27832,6 @@
       "level": 1846,
       "killedBy": "Teko News",
       "maiorDano": "Panuto Hahaha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 10:59",
-      "player": "Balinho",
-      "level": 801,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
