@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 23:17 (Brasília)",
+  "updated_at": "20/08/2026 às 23:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 70,
-  "online_count": 48,
-  "offline_count": 22,
+  "online_count": 46,
+  "offline_count": 24,
   "members": [
     {
       "name": "Albatrozz",
@@ -780,12 +780,12 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1730,
+      "level": 1729,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 38,
@@ -862,7 +862,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 58,
@@ -2446,7 +2446,7 @@
       "resets_today": 0,
       "resets_week": 2,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Flam Ham Bum",
@@ -2753,7 +2753,7 @@
           "name": "Flecha Fofa",
           "value": 60,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Garuvuvinha",
@@ -2945,7 +2945,7 @@
           "name": "Ethernal Pally",
           "value": 40,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lotus Lothbrook",
@@ -3281,7 +3281,7 @@
           "name": "Flecha Fofa",
           "value": 1989,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Tadala De Cinco",
@@ -3327,9 +3327,9 @@
         },
         {
           "name": "Ethernal Pally",
-          "value": 1730,
+          "value": 1729,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "padim ed",
@@ -4131,7 +4131,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "20/08/2026 às 23:17 (Brasília)",
+    "updated_at": "20/08/2026 às 23:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27066,6 +27066,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 23:18",
+      "player": "Ethernal Pally",
+      "level": 1730,
+      "killedBy": "Open Detheca",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 23:15",
       "player": "Ethernal Pally",
       "level": 1732,
@@ -27854,24 +27863,6 @@
       "level": 1899,
       "killedBy": "Teko News",
       "maiorDano": "Osh Don",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 11:28",
-      "player": "Balinho",
-      "level": 844,
-      "killedBy": "Osh Don",
-      "maiorDano": "Panuto Hahaha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 11:24",
-      "player": "MekZera",
-      "level": 1998,
-      "killedBy": "Osh Don",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     }
