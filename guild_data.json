@@ -1,38 +1,12 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 00:40 (Brasília)",
+  "updated_at": "21/08/2026 às 00:41 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 47,
-  "online_count": 38,
+  "total_members": 46,
+  "online_count": 37,
   "offline_count": 9,
   "members": [
-    {
-      "name": "Albatrozz",
-      "level": 2002,
-      "resets": 70,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 68,
-          "gained": 1,
-          "timestamp": "06/08/2026 às 23:38 (Brasília)"
-        },
-        {
-          "resets": 69,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 20:58 (Brasília)"
-        },
-        {
-          "resets": 70,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 13:11 (Brasília)"
-        }
-      ]
-    },
     {
       "name": "Dmonick",
       "level": 2039,
@@ -2005,12 +1979,6 @@
           "online": true
         },
         {
-          "name": "Albatrozz",
-          "value": 70,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Akronus",
           "value": 70,
           "vocation": "Master Sorcerer",
@@ -2302,12 +2270,6 @@
           "name": "Kawik",
           "value": 2006,
           "vocation": "Elite Knight",
-          "online": true
-        },
-        {
-          "name": "Albatrozz",
-          "value": 2002,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -3224,7 +3186,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 00:40 (Brasília)",
+    "updated_at": "21/08/2026 às 00:41 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27062,7 +27024,6 @@
   "history": {
     "resets": {
       "last_snapshot": {
-        "Albatrozz": 70,
         "Dmonick": 60,
         "Gizao": 61,
         "Akronus": 70,
@@ -39094,7 +39055,6 @@
           "Welljacob": 44
         },
         "2026-08-21-00": {
-          "Albatrozz": 70,
           "Dmonick": 60,
           "Gizao": 61,
           "Akronus": 70,
@@ -42810,13 +42770,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 47,
-      "total_current": 2608,
+      "num_members": 46,
+      "total_current": 2538,
       "resets_today": 0,
       "resets_week": 64,
       "resets_month": 0,
       "resets_lifetime": 73,
-      "avg_per_player": 55.5
+      "avg_per_player": 55.2
     },
     "enemy_guild": {
       "guild": "MentaliTY",
