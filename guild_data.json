@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "20/08/2026 às 23:29 (Brasília)",
+  "updated_at": "20/08/2026 às 23:30 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -997,7 +997,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1998,
+      "level": 1997,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3585,6 +3585,18 @@
           "online": true
         },
         {
+          "name": "Dede Knight",
+          "value": 1997,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Gokuu",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Loks",
           "value": 1995,
           "vocation": "Elder Druid",
@@ -4462,7 +4474,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "20/08/2026 às 23:29 (Brasília)",
+    "updated_at": "20/08/2026 às 23:30 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -27397,6 +27409,42 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 20, 2026 23:30",
+      "player": "Akronus",
+      "level": 1445,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "Panuto Hahaha",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:30",
+      "player": "Dede Knight",
+      "level": 2000,
+      "killedBy": "Atreus Oldking",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:30",
+      "player": "Gokuu",
+      "level": 1998,
+      "killedBy": "Nao Eh Pedim",
+      "maiorDano": "Lautaro Martinez",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 20, 2026 23:29",
+      "player": "Rofmao",
+      "level": 540,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 20, 2026 23:29",
       "player": "Akronus",
       "level": 1446,
@@ -27434,19 +27482,19 @@
     },
     {
       "time": "Aug 20, 2026 23:29",
-      "player": "Garuvuvinha",
-      "level": 2030,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 20, 2026 23:29",
-      "player": "Gokuu",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Nao Eh Pedim",
+      "player": "Garuvuvinha",
+      "level": 2030,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
