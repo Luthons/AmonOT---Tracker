@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 00:09 (Brasília)",
+  "updated_at": "21/08/2026 às 00:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 71,
@@ -274,7 +274,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1188,
+      "level": 1239,
       "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
@@ -356,7 +356,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1997,
+      "level": 2000,
       "resets": 69,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -545,7 +545,7 @@
     },
     {
       "name": "Dede Knight",
-      "level": 1995,
+      "level": 1998,
       "resets": 49,
       "vocation": "Elite Knight",
       "nick": "",
@@ -648,7 +648,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1998,
+      "level": 2000,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -918,7 +918,7 @@
     },
     {
       "name": "Haony",
-      "level": 1933,
+      "level": 1980,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1108,7 +1108,7 @@
     },
     {
       "name": "Kev",
-      "level": 359,
+      "level": 710,
       "resets": 35,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -1683,7 +1683,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1459,
+      "level": 1474,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1908,7 +1908,7 @@
     },
     {
       "name": "padim ed",
-      "level": 1703,
+      "level": 1714,
       "resets": 38,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1975,7 +1975,7 @@
     },
     {
       "name": "Pally Tetss",
-      "level": 1999,
+      "level": 2000,
       "resets": 55,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2211,7 +2211,7 @@
     },
     {
       "name": "Tadala De Cinco",
-      "level": 1943,
+      "level": 1953,
       "resets": 63,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -2288,7 +2288,7 @@
     },
     {
       "name": "Voidshot",
-      "level": 1564,
+      "level": 1572,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -3081,6 +3081,12 @@
           "online": false
         },
         {
+          "name": "Baiakudinho",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Boingbringer",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -3097,6 +3103,12 @@
           "value": 2000,
           "vocation": "Elder Druid",
           "online": false
+        },
+        {
+          "name": "El Diablo",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
         },
         {
           "name": "Elder Lougon",
@@ -3171,16 +3183,16 @@
           "online": false
         },
         {
+          "name": "Pally Tetss",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Pally Tetss",
-          "value": 1999,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Jhonnys Trembolizado",
@@ -3195,13 +3207,13 @@
           "online": true
         },
         {
-          "name": "Ed Da Deepweb",
+          "name": "Dede Knight",
           "value": 1998,
-          "vocation": "Elder Druid",
+          "vocation": "Elite Knight",
           "online": true
         },
         {
-          "name": "El Diablo",
+          "name": "Ed Da Deepweb",
           "value": 1998,
           "vocation": "Elder Druid",
           "online": true
@@ -3231,12 +3243,6 @@
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "VukVuk",
           "value": 1997,
           "vocation": "Elder Druid",
@@ -3246,12 +3252,6 @@
           "name": "Achilles",
           "value": 1995,
           "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Dede Knight",
-          "value": 1995,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -3273,14 +3273,14 @@
           "online": true
         },
         {
-          "name": "Tadala De Cinco",
-          "value": 1943,
+          "name": "Haony",
+          "value": 1980,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Haony",
-          "value": 1933,
+          "name": "Tadala De Cinco",
+          "value": 1953,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3322,7 +3322,7 @@
         },
         {
           "name": "padim ed",
-          "value": 1703,
+          "value": 1714,
           "vocation": "Elder Druid",
           "online": true
         },
@@ -3352,7 +3352,7 @@
         },
         {
           "name": "Voidshot",
-          "value": 1564,
+          "value": 1572,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -3363,16 +3363,16 @@
           "online": true
         },
         {
+          "name": "Melbiss",
+          "value": 1474,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Coriinga",
           "value": 1473,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 1459,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Akronus",
@@ -3400,7 +3400,7 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 1188,
+          "value": 1239,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -3441,6 +3441,12 @@
           "online": false
         },
         {
+          "name": "Kev",
+          "value": 710,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Tio Bringer",
           "value": 651,
           "vocation": "Royal Paladin",
@@ -3451,12 +3457,6 @@
           "value": 626,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kev",
-          "value": 359,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -4126,7 +4126,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 00:09 (Brasília)",
+    "updated_at": "21/08/2026 às 00:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
