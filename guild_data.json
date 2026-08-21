@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 02:08 (Brasília)",
+  "updated_at": "21/08/2026 às 02:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 37,
@@ -56,7 +56,7 @@
     },
     {
       "name": "Jhonnys Trembolizado",
-      "level": 1999,
+      "level": 2000,
       "resets": 94,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -153,7 +153,7 @@
     },
     {
       "name": "Yagoodz Hahaha",
-      "level": 1290,
+      "level": 1343,
       "resets": 71,
       "vocation": "Elite Knight",
       "nick": "",
@@ -169,7 +169,7 @@
     },
     {
       "name": "Achilles",
-      "level": 1997,
+      "level": 1999,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -179,7 +179,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 8,
+      "level": 782,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -276,7 +276,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1993,
+      "level": 1994,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -389,7 +389,7 @@
     },
     {
       "name": "Ed Da Deepweb",
-      "level": 1999,
+      "level": 2000,
       "resets": 50,
       "vocation": "Elder Druid",
       "nick": "",
@@ -510,7 +510,7 @@
     },
     {
       "name": "Ethernal Pally",
-      "level": 1745,
+      "level": 1765,
       "resets": 40,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -546,7 +546,7 @@
     },
     {
       "name": "Gokuu",
-      "level": 1975,
+      "level": 1979,
       "resets": 60,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -659,7 +659,7 @@
     },
     {
       "name": "Kashambao",
-      "level": 1617,
+      "level": 1620,
       "resets": 62,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -929,7 +929,7 @@
     },
     {
       "name": "Luiscrazynear",
-      "level": 1998,
+      "level": 2000,
       "resets": 49,
       "vocation": "Elder Druid",
       "nick": "",
@@ -1066,7 +1066,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1478,
+      "level": 1483,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -1801,9 +1801,21 @@
           "online": true
         },
         {
+          "name": "Jhonnys Trembolizado",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Dede Knight",
           "value": 2000,
           "vocation": "Elite Knight",
+          "online": true
+        },
+        {
+          "name": "Ed Da Deepweb",
+          "value": 2000,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -1837,6 +1849,12 @@
           "online": true
         },
         {
+          "name": "Luiscrazynear",
+          "value": 2000,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "MekZera",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -1849,27 +1867,15 @@
           "online": false
         },
         {
-          "name": "Jhonnys Trembolizado",
+          "name": "Achilles",
           "value": 1999,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ed Da Deepweb",
-          "value": 1999,
-          "vocation": "Elder Druid",
+          "vocation": "Exalted Monk",
           "online": true
         },
         {
           "name": "Teylera Rp",
           "value": 1998,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Luiscrazynear",
-          "value": 1998,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -1885,12 +1891,6 @@
           "online": true
         },
         {
-          "name": "Achilles",
-          "value": 1997,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Haony",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -1898,13 +1898,13 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1993,
+          "value": 1994,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Gokuu",
-          "value": 1975,
+          "value": 1979,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1921,16 +1921,16 @@
           "online": false
         },
         {
+          "name": "Ethernal Pally",
+          "value": 1765,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Magabela",
           "value": 1758,
           "vocation": "Master Sorcerer",
           "online": false
-        },
-        {
-          "name": "Ethernal Pally",
-          "value": 1745,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "padim ed",
@@ -1940,7 +1940,7 @@
         },
         {
           "name": "Kashambao",
-          "value": 1617,
+          "value": 1620,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1964,7 +1964,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1478,
+          "value": 1483,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -1976,7 +1976,7 @@
         },
         {
           "name": "Yagoodz Hahaha",
-          "value": 1290,
+          "value": 1343,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -1991,6 +1991,12 @@
           "value": 987,
           "vocation": "Royal Paladin",
           "online": false
+        },
+        {
+          "name": "Baiakudinho",
+          "value": 782,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Rofmao",
@@ -2666,7 +2672,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 02:08 (Brasília)",
+    "updated_at": "21/08/2026 às 02:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25822,15 +25828,6 @@
       "level": 540,
       "killedBy": "Lautaro Martinez",
       "maiorDano": "Panuto Hahaha",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 23:37",
-      "player": "Kashambao",
-      "level": 1610,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
