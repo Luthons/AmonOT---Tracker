@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 15:33 (Brasília)",
+  "updated_at": "21/08/2026 às 15:34 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 31,
-  "online_count": 26,
+  "total_members": 30,
+  "online_count": 25,
   "offline_count": 5,
   "members": [
     {
@@ -109,16 +109,6 @@
           "timestamp": "19/08/2026 às 20:31 (Brasília)"
         }
       ]
-    },
-    {
-      "name": "Teylera Rp",
-      "level": 2000,
-      "resets": 62,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
     },
     {
       "name": "Yagoodz Hahaha",
@@ -1315,12 +1305,6 @@
           "online": true
         },
         {
-          "name": "Teylera Rp",
-          "value": 62,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Haony",
           "value": 62,
           "vocation": "Royal Paladin",
@@ -1490,12 +1474,6 @@
         },
         {
           "name": "Jhonnys Trembolizado",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Teylera Rp",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -2330,7 +2308,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 15:33 (Brasília)",
+    "updated_at": "21/08/2026 às 15:34 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -25265,15 +25243,6 @@
   },
   "deaths_global": [
     {
-      "time": "Aug 21, 2026 12:40",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 21, 2026 12:17",
       "player": "Lilian Faithkeeper",
       "level": 1707,
@@ -25296,15 +25265,6 @@
       "player": "Lilian Faithkeeper",
       "level": 1709,
       "killedBy": "Killua",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 11:02",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Tajuquinha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -25553,15 +25513,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 20, 2026 23:50",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Amelior",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 20, 2026 23:45",
       "player": "Gokuu",
       "level": 1994,
@@ -25653,19 +25604,19 @@
     },
     {
       "time": "Aug 20, 2026 23:29",
-      "player": "Garuvuvinha",
-      "level": 2030,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
+      "player": "Gokuu",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "Nao Eh Pedim",
       "world": "Baiak",
       "isPvp": true
     },
     {
       "time": "Aug 20, 2026 23:29",
-      "player": "Gokuu",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "Nao Eh Pedim",
+      "player": "Garuvuvinha",
+      "level": 2030,
+      "killedBy": "Julian Alvarez",
+      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -25769,15 +25720,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 20, 2026 23:05",
-      "player": "Teylera Rp",
-      "level": 2000,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 20, 2026 23:00",
       "player": "El Diablo",
       "level": 2000,
@@ -25820,7 +25762,6 @@
         "Gizao": 61,
         "Jhonnys Trembolizado": 94,
         "Magabela": 62,
-        "Teylera Rp": 62,
         "Yagoodz Hahaha": 71,
         "Achilles": 18,
         "Baiakudinho": 70,
@@ -37355,7 +37296,6 @@
           "Gizao": 61,
           "Jhonnys Trembolizado": 94,
           "Magabela": 62,
-          "Teylera Rp": 62,
           "Yagoodz Hahaha": 71,
           "Achilles": 18,
           "Baiakudinho": 70,
@@ -41080,13 +41020,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 31,
-      "total_current": 1678,
+      "num_members": 30,
+      "total_current": 1616,
       "resets_today": 4,
       "resets_week": 45,
       "resets_month": 0,
       "resets_lifetime": 46,
-      "avg_per_player": 54.1
+      "avg_per_player": 53.9
     },
     "enemy_guild": {
       "guild": "MentaliTY",
