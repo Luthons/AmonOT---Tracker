@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 16:39 (Brasília)",
+  "updated_at": "22/08/2026 às 16:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 15,
@@ -218,8 +218,8 @@
     },
     {
       "name": "Eckoss",
-      "level": 1996,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -239,6 +239,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "20/08/2026 às 09:22 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "22/08/2026 às 16:40 (Brasília)"
         }
       ]
     },
@@ -734,6 +739,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Eckoss",
+      "resets_total": 50,
+      "resets_today": 1,
+      "resets_week": 4,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
@@ -754,14 +767,6 @@
       "resets_total": 49,
       "resets_today": 0,
       "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
-      "name": "Eckoss",
-      "resets_total": 49,
-      "resets_today": 0,
-      "resets_week": 3,
       "vocation": "Royal Paladin",
       "online": true
     },
@@ -861,13 +866,13 @@
           "online": false
         },
         {
-          "name": "Boltfly Peoplecry",
-          "value": 49,
+          "name": "Eckoss",
+          "value": 50,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Eckoss",
+          "name": "Boltfly Peoplecry",
           "value": 49,
           "vocation": "Royal Paladin",
           "online": true
@@ -949,12 +954,6 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Eckoss",
-          "value": 1996,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Snowzeraah",
@@ -1666,7 +1665,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 16:39 (Brasília)",
+    "updated_at": "22/08/2026 às 16:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24617,24 +24616,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 03:59",
-      "player": "Achilles",
-      "level": 2000,
-      "killedBy": "Spam Caxota",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 03:38",
-      "player": "Boltfly Peoplecry",
-      "level": 1095,
-      "killedBy": "Barbearia Old School",
-      "maiorDano": "Segredin fofinho",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -24645,7 +24626,7 @@
         "Achilles": 18,
         "Baiakudinho": 70,
         "Boltfly Peoplecry": 49,
-        "Eckoss": 49,
+        "Eckoss": 50,
         "El Diablo": 71,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
@@ -34922,7 +34903,7 @@
           "Achilles": 18,
           "Baiakudinho": 70,
           "Boltfly Peoplecry": 49,
-          "Eckoss": 49,
+          "Eckoss": 50,
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
@@ -37629,6 +37610,13 @@
           "gained": 1,
           "timestamp": "21/08/2026 às 12:35 (Brasília)",
           "hour_key": "2026-08-21-12"
+        },
+        {
+          "name": "Eckoss",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "22/08/2026 às 16:40 (Brasília)",
+          "hour_key": "2026-08-22-16"
         }
       ]
     },
@@ -38483,12 +38471,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 15,
-      "total_current": 764,
-      "resets_today": 0,
-      "resets_week": 22,
+      "total_current": 765,
+      "resets_today": 1,
+      "resets_week": 23,
       "resets_month": 0,
       "resets_lifetime": 19,
-      "avg_per_player": 50.9
+      "avg_per_player": 51.0
     },
     "enemy_guild": {
       "guild": "MentaliTY",
