@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 08:08 (Brasília)",
+  "updated_at": "22/08/2026 às 08:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 17,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1999,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1978,
+      "level": 1995,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1521,
+      "level": 1539,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -218,7 +218,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1931,
+      "level": 1939,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -941,6 +941,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -977,12 +983,6 @@
           "online": false
         },
         {
-          "name": "Gizao",
-          "value": 1999,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1998,
           "vocation": "Exalted Monk",
@@ -990,13 +990,13 @@
         },
         {
           "name": "Magabela",
-          "value": 1978,
+          "value": 1995,
           "vocation": "Master Sorcerer",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1931,
+          "value": 1939,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1026,7 +1026,7 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1521,
+          "value": 1539,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1710,7 +1710,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 08:08 (Brasília)",
+    "updated_at": "22/08/2026 às 08:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
