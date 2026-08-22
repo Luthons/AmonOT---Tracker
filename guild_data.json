@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 11:58 (Brasília)",
+  "updated_at": "22/08/2026 às 11:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 17,
@@ -365,7 +365,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 2000,
+      "level": 1997,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -959,12 +959,6 @@
           "online": false
         },
         {
-          "name": "Its Gui",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -990,6 +984,12 @@
         },
         {
           "name": "El Diablo",
+          "value": 1997,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
+          "name": "Its Gui",
           "value": 1997,
           "vocation": "Elder Druid",
           "online": true
@@ -1710,7 +1710,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 11:58 (Brasília)",
+    "updated_at": "22/08/2026 às 11:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24644,6 +24644,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 22, 2026 11:58",
+      "player": "Its Gui",
+      "level": 2000,
+      "killedBy": "Harry Kane",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 22, 2026 03:59",
       "player": "Achilles",
