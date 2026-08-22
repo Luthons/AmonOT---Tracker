@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 21:09 (Brasília)",
+  "updated_at": "21/08/2026 às 21:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 22,
-  "online_count": 17,
+  "total_members": 20,
+  "online_count": 15,
   "offline_count": 5,
   "members": [
     {
@@ -421,27 +421,6 @@
       ]
     },
     {
-      "name": "HEFESTO",
-      "level": 1980,
-      "resets": 42,
-      "vocation": "Elite Knight",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 41,
-          "gained": 1,
-          "timestamp": "15/08/2026 às 20:49 (Brasília)"
-        },
-        {
-          "resets": 42,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 20:25 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Henrique Arqueiro",
       "level": 2000,
       "resets": 51,
@@ -460,62 +439,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Kashambao",
-      "level": 1739,
-      "resets": 62,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 12:08 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "11/08/2026 às 23:47 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 21:14 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "15/08/2026 às 03:08 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 12:42 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 07:06 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "18/08/2026 às 07:17 (Brasília)"
-        },
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "19/08/2026 às 06:55 (Brasília)"
-        },
-        {
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "20/08/2026 às 07:04 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Kolwaski",
@@ -956,22 +879,6 @@
       "online": true
     },
     {
-      "name": "HEFESTO",
-      "resets_total": 42,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Elite Knight",
-      "online": true
-    },
-    {
-      "name": "Kashambao",
-      "resets_total": 62,
-      "resets_today": 0,
-      "resets_week": 6,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Lilian Faithkeeper",
       "resets_total": 47,
       "resets_today": 0,
@@ -1034,12 +941,6 @@
           "name": "Magabela",
           "value": 62,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Kashambao",
-          "value": 62,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -1118,12 +1019,6 @@
           "name": "Its Gui",
           "value": 44,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "HEFESTO",
-          "value": 42,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -1217,12 +1112,6 @@
           "online": false
         },
         {
-          "name": "HEFESTO",
-          "value": 1980,
-          "vocation": "Elite Knight",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 1961,
           "vocation": "Master Sorcerer",
@@ -1251,12 +1140,6 @@
           "value": 1753,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kashambao",
-          "value": 1739,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -1956,7 +1839,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 21:09 (Brasília)",
+    "updated_at": "21/08/2026 às 21:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24892,15 +24775,6 @@
   "deaths_global": [
     {
       "time": "Aug 21, 2026 19:10",
-      "player": "Kashambao",
-      "level": 1740,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 19:10",
       "player": "Mugunza",
       "level": 2000,
       "killedBy": "Lautaro Martinez",
@@ -25144,15 +25018,6 @@
     },
     {
       "time": "Aug 20, 2026 23:37",
-      "player": "Kashambao",
-      "level": 1610,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 20, 2026 23:37",
       "player": "Loks",
       "level": 1995,
       "killedBy": "Panuto Hahaha",
@@ -25197,15 +25062,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 20, 2026 23:28",
-      "player": "Kashambao",
-      "level": 1611,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 20, 2026 23:19",
       "player": "Loks",
       "level": 1998,
@@ -25227,10 +25083,8 @@
         "El Diablo": 71,
         "Ethernal Pally": 40,
         "Gokuu": 60,
-        "HEFESTO": 42,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
-        "Kashambao": 62,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
         "Loks": 60,
@@ -36496,10 +36350,8 @@
           "El Diablo": 71,
           "Ethernal Pally": 40,
           "Gokuu": 60,
-          "HEFESTO": 42,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
-          "Kashambao": 62,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
           "Loks": 60,
@@ -40206,13 +40058,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 22,
-      "total_current": 1119,
+      "num_members": 20,
+      "total_current": 1015,
       "resets_today": 2,
-      "resets_week": 30,
+      "resets_week": 22,
       "resets_month": 0,
-      "resets_lifetime": 30,
-      "avg_per_player": 50.9
+      "resets_lifetime": 22,
+      "avg_per_player": 50.8
     },
     "enemy_guild": {
       "guild": "MentaliTY",
