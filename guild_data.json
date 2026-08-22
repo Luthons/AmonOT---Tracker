@@ -4,8 +4,8 @@
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 20,
-  "online_count": 14,
-  "offline_count": 6,
+  "online_count": 15,
+  "offline_count": 5,
   "members": [
     {
       "name": "Gizao",
@@ -581,11 +581,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
-      "last_login": "Aug 21, 2026, 21:31:41",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": true,
+      "online": true,
       "reset_history": [
         {
           "resets": 40,
@@ -1039,7 +1035,7 @@
           "name": "Loks",
           "value": 60,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Melbiss",
@@ -1177,7 +1173,7 @@
           "name": "Loks",
           "value": 2000,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Mugunza",
@@ -1919,7 +1915,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 21:57 (Brasília)",
+    "updated_at": "21/08/2026 às 21:58 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
