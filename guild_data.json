@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 15:08 (Brasília)",
+  "updated_at": "22/08/2026 às 15:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 16,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Achilles",
-      "level": 1999,
+      "level": 2000,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1634,
+      "level": 1651,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -162,7 +162,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1118,
+      "level": 1132,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -218,7 +218,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1978,
+      "level": 1982,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -355,7 +355,7 @@
     },
     {
       "name": "Its Gui",
-      "level": 1996,
+      "level": 1999,
       "resets": 44,
       "vocation": "Elder Druid",
       "nick": "",
@@ -553,7 +553,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1661,
+      "level": 1663,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -943,6 +943,12 @@
           "online": false
         },
         {
+          "name": "Achilles",
+          "value": 2000,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -961,20 +967,14 @@
           "online": false
         },
         {
-          "name": "Achilles",
-          "value": 1999,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Its Gui",
-          "value": 1996,
+          "value": 1999,
           "vocation": "Elder Druid",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1978,
+          "value": 1982,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -998,13 +998,13 @@
         },
         {
           "name": "Melbiss",
-          "value": 1661,
+          "value": 1663,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Baiakudinho",
-          "value": 1634,
+          "value": 1651,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1118,
+          "value": 1132,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -1688,7 +1688,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 15:08 (Brasília)",
+    "updated_at": "22/08/2026 às 15:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24622,33 +24622,6 @@
     ]
   },
   "deaths_global": [
-    {
-      "time": "Aug 22, 2026 13:26",
-      "player": "Its Gui",
-      "level": 1998,
-      "killedBy": "Polessi Old Legend",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 12:31",
-      "player": "Melbiss",
-      "level": 1660,
-      "killedBy": "Sauron Fubazord",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 11:58",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Harry Kane",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
     {
       "time": "Aug 22, 2026 03:59",
       "player": "Achilles",
