@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 16:20 (Brasília)",
+  "updated_at": "22/08/2026 às 16:21 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 16,
-  "online_count": 10,
+  "total_members": 15,
+  "online_count": 9,
   "offline_count": 6,
   "members": [
     {
@@ -352,16 +352,6 @@
           "timestamp": "01/08/2026 às 22:42 (Brasília)"
         }
       ]
-    },
-    {
-      "name": "Its Gui",
-      "level": 1995,
-      "resets": 44,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
     },
     {
       "name": "Kolwaski",
@@ -895,12 +885,6 @@
           "online": true
         },
         {
-          "name": "Its Gui",
-          "value": 44,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 39,
           "vocation": "Royal Paladin",
@@ -970,12 +954,6 @@
           "name": "Eckoss",
           "value": 1996,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Its Gui",
-          "value": 1995,
-          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -1688,7 +1666,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 16:20 (Brasília)",
+    "updated_at": "22/08/2026 às 16:21 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24623,15 +24601,6 @@
   },
   "deaths_global": [
     {
-      "time": "Aug 22, 2026 16:10",
-      "player": "Its Gui",
-      "level": 1998,
-      "killedBy": "Crow Oz",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 22, 2026 16:07",
       "player": "Boltfly Peoplecry",
       "level": 1146,
@@ -24641,37 +24610,10 @@
       "isPvp": true
     },
     {
-      "time": "Aug 22, 2026 16:02",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Harry Kane",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 13:26",
-      "player": "Its Gui",
-      "level": 1998,
-      "killedBy": "Polessi Old Legend",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 22, 2026 12:31",
       "player": "Melbiss",
       "level": 1660,
       "killedBy": "Sauron Fubazord",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 11:58",
-      "player": "Its Gui",
-      "level": 2000,
-      "killedBy": "Harry Kane",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -24705,7 +24647,6 @@
         "Boltfly Peoplecry": 49,
         "Eckoss": 49,
         "El Diablo": 71,
-        "Its Gui": 44,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
         "Loks": 60,
@@ -34983,7 +34924,6 @@
           "Boltfly Peoplecry": 49,
           "Eckoss": 49,
           "El Diablo": 71,
-          "Its Gui": 44,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
           "Loks": 60,
@@ -38542,13 +38482,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 16,
-      "total_current": 808,
+      "num_members": 15,
+      "total_current": 764,
       "resets_today": 0,
       "resets_week": 22,
       "resets_month": 0,
       "resets_lifetime": 19,
-      "avg_per_player": 50.5
+      "avg_per_player": 50.9
     },
     "enemy_guild": {
       "guild": "MentaliTY",
