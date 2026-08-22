@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 21:08 (Brasília)",
+  "updated_at": "21/08/2026 às 21:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 22,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1997,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1947,
+      "level": 1961,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -167,7 +167,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1031,
+      "level": 1033,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -223,7 +223,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1838,
+      "level": 1848,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -422,7 +422,7 @@
     },
     {
       "name": "HEFESTO",
-      "level": 1979,
+      "level": 1980,
       "resets": 42,
       "vocation": "Elite Knight",
       "nick": "",
@@ -717,7 +717,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1491,
+      "level": 1493,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -783,7 +783,7 @@
     },
     {
       "name": "Mugunza",
-      "level": 1999,
+      "level": 2000,
       "resets": 56,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -1157,6 +1157,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -1199,32 +1205,26 @@
           "online": true
         },
         {
+          "name": "Mugunza",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
         },
         {
-          "name": "Mugunza",
-          "value": 1999,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "HEFESTO",
-          "value": 1979,
+          "value": 1980,
           "vocation": "Elite Knight",
           "online": true
         },
         {
           "name": "Magabela",
-          "value": 1947,
+          "value": 1961,
           "vocation": "Master Sorcerer",
           "online": true
         },
@@ -1236,7 +1236,7 @@
         },
         {
           "name": "Eckoss",
-          "value": 1838,
+          "value": 1848,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Melbiss",
-          "value": 1491,
+          "value": 1493,
           "vocation": "Elite Knight",
           "online": true
         },
@@ -1284,7 +1284,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1031,
+          "value": 1033,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -1956,7 +1956,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 21:08 (Brasília)",
+    "updated_at": "21/08/2026 às 21:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
