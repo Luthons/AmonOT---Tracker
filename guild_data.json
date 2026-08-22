@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "21/08/2026 às 22:10 (Brasília)",
+  "updated_at": "21/08/2026 às 22:11 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 19,
+  "total_members": 18,
   "online_count": 0,
-  "offline_count": 19,
+  "offline_count": 18,
   "members": [
     {
       "name": "Gizao",
@@ -355,32 +355,6 @@
           "resets": 71,
           "gained": 1,
           "timestamp": "01/08/2026 às 22:42 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Ethernal Pally",
-      "level": 1828,
-      "resets": 40,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 38,
-          "gained": 1,
-          "timestamp": "14/08/2026 às 12:41 (Brasília)"
-        },
-        {
-          "resets": 39,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 15:58 (Brasília)"
-        },
-        {
-          "resets": 40,
-          "gained": 1,
-          "timestamp": "19/08/2026 às 12:11 (Brasília)"
         }
       ]
     },
@@ -863,14 +837,6 @@
       "online": false
     },
     {
-      "name": "Ethernal Pally",
-      "resets_total": 40,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": false
-    },
-    {
       "name": "Lilian Faithkeeper",
       "resets_total": 47,
       "resets_today": 0,
@@ -1008,12 +974,6 @@
           "online": false
         },
         {
-          "name": "Ethernal Pally",
-          "value": 40,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Rp Terror",
           "value": 39,
           "vocation": "Royal Paladin",
@@ -1106,12 +1066,6 @@
         {
           "name": "Eckoss",
           "value": 1857,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
-          "name": "Ethernal Pally",
-          "value": 1828,
           "vocation": "Royal Paladin",
           "online": false
         },
@@ -1819,7 +1773,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "21/08/2026 às 22:10 (Brasília)",
+    "updated_at": "21/08/2026 às 22:11 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24817,15 +24771,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 21, 2026 10:37",
-      "player": "Ethernal Pally",
-      "level": 1806,
-      "killedBy": "Sauron Fubazord",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 21, 2026 10:17",
       "player": "Gizao",
       "level": 2000,
@@ -24848,24 +24793,6 @@
       "player": "Gokuu",
       "level": 1978,
       "killedBy": "Teko News",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 01:18",
-      "player": "Ethernal Pally",
-      "level": 1747,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 01:14",
-      "player": "Ethernal Pally",
-      "level": 1749,
-      "killedBy": "Khanriel",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -24938,15 +24865,6 @@
       "player": "Gokuu",
       "level": 1990,
       "killedBy": "Skull Pally",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 21, 2026 00:04",
-      "player": "Ethernal Pally",
-      "level": 1737,
-      "killedBy": "Panuto Hahaha",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -25043,7 +24961,6 @@
         "Boltfly Peoplecry": 49,
         "Eckoss": 49,
         "El Diablo": 71,
-        "Ethernal Pally": 40,
         "Gokuu": 60,
         "Henrique Arqueiro": 51,
         "Its Gui": 44,
@@ -36261,7 +36178,6 @@
           "Boltfly Peoplecry": 49,
           "Eckoss": 49,
           "El Diablo": 71,
-          "Ethernal Pally": 40,
           "Gokuu": 60,
           "Henrique Arqueiro": 51,
           "Its Gui": 44,
@@ -39970,13 +39886,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 19,
-      "total_current": 959,
+      "num_members": 18,
+      "total_current": 919,
       "resets_today": 0,
-      "resets_week": 24,
+      "resets_week": 22,
       "resets_month": 0,
-      "resets_lifetime": 22,
-      "avg_per_player": 50.5
+      "resets_lifetime": 20,
+      "avg_per_player": 51.1
     },
     "enemy_guild": {
       "guild": "MentaliTY",
