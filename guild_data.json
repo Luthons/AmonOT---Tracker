@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 00:08 (Brasília)",
+  "updated_at": "23/08/2026 às 00:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 13,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1997,
+      "level": 2000,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1770,
+      "level": 1772,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -157,7 +157,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1471,
+      "level": 1507,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1361,
+      "level": 1377,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1713,
+      "level": 1714,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -771,6 +771,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Magabela",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -807,12 +813,6 @@
           "online": true
         },
         {
-          "name": "Magabela",
-          "value": 1997,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Snowzeraah",
           "value": 1909,
           "vocation": "Royal Paladin",
@@ -820,25 +820,25 @@
         },
         {
           "name": "Baiakudinho",
-          "value": 1770,
+          "value": 1772,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1713,
+          "value": 1714,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1471,
+          "value": 1507,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1361,
+          "value": 1377,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1516,7 +1516,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 00:08 (Brasília)",
+    "updated_at": "23/08/2026 às 00:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24450,51 +24450,6 @@
     ]
   },
   "deaths_global": [
-    {
-      "time": "Aug 22, 2026 23:23",
-      "player": "Gizao",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 23:20",
-      "player": "Magabela",
-      "level": 2000,
-      "killedBy": "Panuto Hahaha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 17:51",
-      "player": "El Diablo",
-      "level": 2000,
-      "killedBy": "Khanriel",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 17:43",
-      "player": "El Diablo",
-      "level": 2001,
-      "killedBy": "Nao Eh Pedim",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 22, 2026 16:07",
-      "player": "Boltfly Peoplecry",
-      "level": 1146,
-      "killedBy": "Tajuquinha",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
     {
       "time": "Aug 22, 2026 03:59",
       "player": "Achilles",
