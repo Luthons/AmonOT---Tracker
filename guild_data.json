@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 23:52 (Brasília)",
+  "updated_at": "22/08/2026 às 23:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 14,
-  "online_count": 10,
+  "total_members": 13,
+  "online_count": 9,
   "offline_count": 4,
   "members": [
     {
@@ -547,72 +547,6 @@
       ]
     },
     {
-      "name": "Melbiss",
-      "level": 1946,
-      "resets": 59,
-      "vocation": "Elite Knight",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "23/07/2026 às 23:09 (Brasília)"
-        },
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "25/07/2026 às 17:40 (Brasília)"
-        },
-        {
-          "resets": 51,
-          "gained": 1,
-          "timestamp": "29/07/2026 às 07:14 (Brasília)"
-        },
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 23:17 (Brasília)"
-        },
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "02/08/2026 às 20:59 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "06/08/2026 às 12:05 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 23:12 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 09:48 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "11/08/2026 às 23:08 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "14/08/2026 às 08:01 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 23:07 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Rp Terror",
       "level": 1263,
       "resets": 39,
@@ -750,14 +684,6 @@
       "online": true
     },
     {
-      "name": "Melbiss",
-      "resets_total": 59,
-      "resets_today": 0,
-      "resets_week": 1,
-      "vocation": "Elite Knight",
-      "online": true
-    },
-    {
       "name": "Rp Terror",
       "resets_total": 39,
       "resets_today": 0,
@@ -809,12 +735,6 @@
           "value": 60,
           "vocation": "Elder Druid",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 59,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Kolwaski",
@@ -910,12 +830,6 @@
           "name": "Magabela",
           "value": 1997,
           "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
-          "name": "Melbiss",
-          "value": 1946,
-          "vocation": "Elite Knight",
           "online": true
         },
         {
@@ -1622,7 +1536,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 23:52 (Brasília)",
+    "updated_at": "22/08/2026 às 23:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24602,15 +24516,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 22, 2026 12:31",
-      "player": "Melbiss",
-      "level": 1660,
-      "killedBy": "Sauron Fubazord",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 22, 2026 03:59",
       "player": "Achilles",
       "level": 2000,
@@ -24642,7 +24547,6 @@
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
         "Loks": 60,
-        "Melbiss": 59,
         "Rp Terror": 39,
         "Snowzeraah": 45,
         "Ultimate Warrior": 25
@@ -34546,7 +34450,6 @@
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
           "Loks": 60,
-          "Melbiss": 59,
           "Rp Terror": 39,
           "Snowzeraah": 45,
           "Ultimate Warrior": 25
@@ -38107,13 +38010,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 14,
-      "total_current": 711,
+      "num_members": 13,
+      "total_current": 652,
       "resets_today": 0,
-      "resets_week": 16,
+      "resets_week": 15,
       "resets_month": 0,
-      "resets_lifetime": 21,
-      "avg_per_player": 50.8
+      "resets_lifetime": 20,
+      "avg_per_player": 50.2
     },
     "enemy_guild": {
       "guild": "MentaliTY",
