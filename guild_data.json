@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 11:07 (Brasília)",
+  "updated_at": "23/08/2026 às 11:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 13,
-  "online_count": 10,
-  "offline_count": 3,
+  "online_count": 8,
+  "offline_count": 5,
   "members": [
     {
       "name": "Gizao",
@@ -30,7 +30,7 @@
       "vocation": "Master Sorcerer",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 56,
@@ -569,12 +569,12 @@
     },
     {
       "name": "Snowzeraah",
-      "level": 1909,
-      "resets": 45,
+      "level": 8,
+      "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 38,
@@ -615,6 +615,11 @@
           "resets": 45,
           "gained": 1,
           "timestamp": "18/08/2026 às 11:46 (Brasília)"
+        },
+        {
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "23/08/2026 às 11:08 (Brasília)"
         }
       ]
     },
@@ -632,12 +637,20 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Snowzeraah",
+      "resets_total": 46,
+      "resets_today": 1,
+      "resets_week": 5,
+      "vocation": "Royal Paladin",
+      "online": false
+    },
+    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
+      "online": false
     },
     {
       "name": "Baiakudinho",
@@ -670,14 +683,6 @@
       "resets_week": 1,
       "vocation": "Royal Paladin",
       "online": false
-    },
-    {
-      "name": "Snowzeraah",
-      "resets_total": 45,
-      "resets_today": 0,
-      "resets_week": 4,
-      "vocation": "Royal Paladin",
-      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -702,7 +707,7 @@
           "name": "Magabela",
           "value": 62,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "Gizao",
@@ -742,9 +747,9 @@
         },
         {
           "name": "Snowzeraah",
-          "value": 45,
+          "value": 46,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Rp Terror",
@@ -804,7 +809,7 @@
           "name": "Magabela",
           "value": 1997,
           "vocation": "Master Sorcerer",
-          "online": true
+          "online": false
         },
         {
           "name": "El Diablo",
@@ -815,12 +820,6 @@
         {
           "name": "Baiakudinho",
           "value": 1926,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Snowzeraah",
-          "value": 1909,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1516,7 +1515,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 11:07 (Brasília)",
+    "updated_at": "23/08/2026 às 11:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24573,7 +24572,7 @@
         "Lilian Faithkeeper": 47,
         "Loks": 60,
         "Rp Terror": 39,
-        "Snowzeraah": 45,
+        "Snowzeraah": 46,
         "Ultimate Warrior": 25
       },
       "snapshots": {
@@ -33788,7 +33787,7 @@
           "Lilian Faithkeeper": 47,
           "Loks": 60,
           "Rp Terror": 39,
-          "Snowzeraah": 45,
+          "Snowzeraah": 46,
           "Ultimate Warrior": 25
         }
       },
@@ -36396,6 +36395,13 @@
           "gained": 1,
           "timestamp": "22/08/2026 às 16:40 (Brasília)",
           "hour_key": "2026-08-22-16"
+        },
+        {
+          "name": "Snowzeraah",
+          "resets": 46,
+          "gained": 1,
+          "timestamp": "23/08/2026 às 11:08 (Brasília)",
+          "hour_key": "2026-08-23-11"
         }
       ]
     },
@@ -37250,11 +37256,11 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 13,
-      "total_current": 652,
-      "resets_today": 0,
-      "resets_week": 15,
+      "total_current": 653,
+      "resets_today": 1,
+      "resets_week": 16,
       "resets_month": 0,
-      "resets_lifetime": 19,
+      "resets_lifetime": 20,
       "avg_per_player": 50.2
     },
     "enemy_guild": {
