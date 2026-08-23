@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 16:08 (Brasília)",
+  "updated_at": "23/08/2026 às 16:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 13,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1997,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1954,
+      "level": 1964,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -157,7 +157,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1583,
+      "level": 1592,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Eckoss",
-      "level": 1526,
+      "level": 1540,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -244,7 +244,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1995,
+      "level": 2000,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1749,
+      "level": 1775,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Snowzeraah",
-      "level": 1049,
+      "level": 1055,
       "resets": 46,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -776,9 +776,21 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "El Diablo",
+          "value": 2000,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -800,44 +812,32 @@
           "online": false
         },
         {
-          "name": "Gizao",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 1997,
           "vocation": "Master Sorcerer",
           "online": false
         },
         {
-          "name": "El Diablo",
-          "value": 1995,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Baiakudinho",
-          "value": 1954,
+          "value": 1964,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1749,
+          "value": 1775,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1583,
+          "value": 1592,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Eckoss",
-          "value": 1526,
+          "value": 1540,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -849,7 +849,7 @@
         },
         {
           "name": "Snowzeraah",
-          "value": 1049,
+          "value": 1055,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -1521,7 +1521,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 16:08 (Brasília)",
+    "updated_at": "23/08/2026 às 16:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
