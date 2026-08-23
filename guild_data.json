@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 19:39 (Brasília)",
+  "updated_at": "23/08/2026 às 19:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 12,
-  "online_count": 10,
+  "total_members": 11,
+  "online_count": 9,
   "offline_count": 2,
   "members": [
     {
@@ -78,82 +78,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Baiakudinho",
-      "level": 1976,
-      "resets": 70,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 08:50 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 12:59 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 15:12 (Brasília)"
-        },
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:21 (Brasília)"
-        },
-        {
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 04:50 (Brasília)"
-        },
-        {
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 03:28 (Brasília)"
-        },
-        {
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "11/08/2026 às 01:22 (Brasília)"
-        },
-        {
-          "resets": 65,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 17:29 (Brasília)"
-        },
-        {
-          "resets": 66,
-          "gained": 1,
-          "timestamp": "14/08/2026 às 17:59 (Brasília)"
-        },
-        {
-          "resets": 67,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 16:06 (Brasília)"
-        },
-        {
-          "resets": 68,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 08:55 (Brasília)"
-        },
-        {
-          "resets": 69,
-          "gained": 1,
-          "timestamp": "19/08/2026 às 00:36 (Brasília)"
-        },
-        {
-          "resets": 70,
-          "gained": 1,
-          "timestamp": "21/08/2026 às 01:14 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Boltfly Peoplecry",
@@ -244,7 +168,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 2000,
+      "level": 1997,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -589,14 +513,6 @@
       "online": true
     },
     {
-      "name": "Baiakudinho",
-      "resets_total": 70,
-      "resets_today": 0,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Boltfly Peoplecry",
       "resets_total": 49,
       "resets_today": 0,
@@ -631,12 +547,6 @@
           "name": "El Diablo",
           "value": 71,
           "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Baiakudinho",
-          "value": 70,
-          "vocation": "Royal Paladin",
           "online": true
         },
         {
@@ -712,12 +622,6 @@
           "online": true
         },
         {
-          "name": "El Diablo",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -748,9 +652,9 @@
           "online": true
         },
         {
-          "name": "Baiakudinho",
-          "value": 1976,
-          "vocation": "Royal Paladin",
+          "name": "El Diablo",
+          "value": 1997,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -1445,7 +1349,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 19:39 (Brasília)",
+    "updated_at": "23/08/2026 às 19:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24380,29 +24284,20 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 23, 2026 19:39",
+      "player": "El Diablo",
+      "level": 2000,
+      "killedBy": "Lautaro Martinez",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 23, 2026 17:39",
       "player": "Gizao",
       "level": 2000,
       "killedBy": "Famosa",
       "maiorDano": "Skull Pally",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 23, 2026 17:32",
-      "player": "Baiakudinho",
-      "level": 1977,
-      "killedBy": "Holly Sapetah",
-      "maiorDano": "Skull Pally",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 23, 2026 13:37",
-      "player": "Baiakudinho",
-      "level": 1938,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
     },
@@ -24437,15 +24332,6 @@
       "time": "Aug 23, 2026 10:23",
       "player": "Gizao",
       "level": 2000,
-      "killedBy": "Lautaro Martinez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Aug 23, 2026 10:18",
-      "player": "Baiakudinho",
-      "level": 1929,
       "killedBy": "Lautaro Martinez",
       "maiorDano": "",
       "world": "Baiak",
@@ -24521,7 +24407,6 @@
         "Gizao": 61,
         "Magabela": 62,
         "Achilles": 18,
-        "Baiakudinho": 70,
         "Boltfly Peoplecry": 49,
         "Eckoss": 50,
         "El Diablo": 71,
@@ -33293,7 +33178,6 @@
           "Gizao": 61,
           "Magabela": 62,
           "Achilles": 18,
-          "Baiakudinho": 70,
           "Boltfly Peoplecry": 49,
           "Eckoss": 50,
           "El Diablo": 71,
@@ -36768,13 +36652,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 12,
-      "total_current": 607,
+      "num_members": 11,
+      "total_current": 537,
       "resets_today": 0,
-      "resets_week": 11,
+      "resets_week": 8,
       "resets_month": 0,
-      "resets_lifetime": 11,
-      "avg_per_player": 50.6
+      "resets_lifetime": 8,
+      "avg_per_player": 48.8
     },
     "enemy_guild": {
       "guild": "MentaliTY",
