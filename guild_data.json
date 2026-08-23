@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/08/2026 às 22:04 (Brasília)",
+  "updated_at": "22/08/2026 às 22:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 14,
@@ -81,7 +81,7 @@
     },
     {
       "name": "Baiakudinho",
-      "level": 1732,
+      "level": 1746,
       "resets": 70,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -548,7 +548,7 @@
     },
     {
       "name": "Melbiss",
-      "level": 1680,
+      "level": 1835,
       "resets": 59,
       "vocation": "Elite Knight",
       "nick": "",
@@ -919,8 +919,14 @@
           "online": false
         },
         {
+          "name": "Melbiss",
+          "value": 1835,
+          "vocation": "Elite Knight",
+          "online": true
+        },
+        {
           "name": "Baiakudinho",
-          "value": 1732,
+          "value": 1746,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -929,12 +935,6 @@
           "value": 1707,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Melbiss",
-          "value": 1680,
-          "vocation": "Elite Knight",
-          "online": true
         },
         {
           "name": "Rp Terror",
@@ -1622,7 +1622,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/08/2026 às 22:04 (Brasília)",
+    "updated_at": "22/08/2026 às 22:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24589,6 +24589,24 @@
       "level": 1660,
       "killedBy": "Sauron Fubazord",
       "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 22, 2026 03:59",
+      "player": "Achilles",
+      "level": 2000,
+      "killedBy": "Spam Caxota",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Aug 22, 2026 03:38",
+      "player": "Boltfly Peoplecry",
+      "level": 1095,
+      "killedBy": "Barbearia Old School",
+      "maiorDano": "Segredin fofinho",
       "world": "Baiak",
       "isPvp": true
     }
