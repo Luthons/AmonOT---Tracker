@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 23:28 (Brasília)",
+  "updated_at": "23/08/2026 às 23:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 11,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Achilles",
-      "level": 2000,
+      "level": 1997,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -81,8 +81,8 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 2000,
-      "resets": 49,
+      "level": 8,
+      "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -132,6 +132,11 @@
           "resets": 49,
           "gained": 1,
           "timestamp": "21/08/2026 às 10:30 (Brasília)"
+        },
+        {
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "23/08/2026 às 23:29 (Brasília)"
         }
       ]
     },
@@ -505,19 +510,19 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Boltfly Peoplecry",
+      "resets_total": 50,
+      "resets_today": 1,
+      "resets_week": 3,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Master Sorcerer",
-      "online": true
-    },
-    {
-      "name": "Boltfly Peoplecry",
-      "resets_total": 49,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
       "online": true
     },
     {
@@ -574,14 +579,14 @@
           "online": false
         },
         {
-          "name": "Eckoss",
+          "name": "Boltfly Peoplecry",
           "value": 50,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
-          "name": "Boltfly Peoplecry",
-          "value": 49,
+          "name": "Eckoss",
+          "value": 50,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -628,18 +633,6 @@
           "online": true
         },
         {
-          "name": "Achilles",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -662,6 +655,12 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Achilles",
+          "value": 1997,
+          "vocation": "Exalted Monk",
+          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
@@ -1349,7 +1348,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 23:28 (Brasília)",
+    "updated_at": "23/08/2026 às 23:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24284,6 +24283,15 @@
   },
   "deaths_global": [
     {
+      "time": "Aug 23, 2026 23:28",
+      "player": "Achilles",
+      "level": 2000,
+      "killedBy": "Leozin Rei Delas",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
       "time": "Aug 23, 2026 19:39",
       "player": "El Diablo",
       "level": 2000,
@@ -24407,7 +24415,7 @@
         "Gizao": 61,
         "Magabela": 62,
         "Achilles": 18,
-        "Boltfly Peoplecry": 49,
+        "Boltfly Peoplecry": 50,
         "Eckoss": 50,
         "El Diablo": 71,
         "Kolwaski": 55,
@@ -32948,7 +32956,7 @@
           "Gizao": 61,
           "Magabela": 62,
           "Achilles": 18,
-          "Boltfly Peoplecry": 49,
+          "Boltfly Peoplecry": 50,
           "Eckoss": 50,
           "El Diablo": 71,
           "Kolwaski": 55,
@@ -35569,6 +35577,13 @@
           "gained": 1,
           "timestamp": "23/08/2026 às 11:08 (Brasília)",
           "hour_key": "2026-08-23-11"
+        },
+        {
+          "name": "Boltfly Peoplecry",
+          "resets": 50,
+          "gained": 1,
+          "timestamp": "23/08/2026 às 23:29 (Brasília)",
+          "hour_key": "2026-08-23-23"
         }
       ]
     },
@@ -36423,12 +36438,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 11,
-      "total_current": 537,
-      "resets_today": 0,
-      "resets_week": 6,
+      "total_current": 538,
+      "resets_today": 1,
+      "resets_week": 7,
       "resets_month": 0,
-      "resets_lifetime": 8,
-      "avg_per_player": 48.8
+      "resets_lifetime": 9,
+      "avg_per_player": 48.9
     },
     "enemy_guild": {
       "guild": "MentaliTY",
