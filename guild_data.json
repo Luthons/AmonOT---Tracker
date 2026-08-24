@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 21:08 (Brasília)",
+  "updated_at": "23/08/2026 às 21:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 11,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1998,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1736,
+      "level": 1825,
       "resets": 49,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -168,7 +168,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1999,
+      "level": 2000,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -300,7 +300,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1783,
+      "level": 1785,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -616,6 +616,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -625,6 +631,12 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "El Diablo",
+          "value": 2000,
+          "vocation": "Elder Druid",
           "online": true
         },
         {
@@ -646,26 +658,14 @@
           "online": false
         },
         {
-          "name": "El Diablo",
-          "value": 1999,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 1998,
+          "name": "Boltfly Peoplecry",
+          "value": 1825,
           "vocation": "Royal Paladin",
           "online": true
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1783,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 1736,
+          "value": 1785,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1349,7 +1349,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 21:08 (Brasília)",
+    "updated_at": "23/08/2026 às 21:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
