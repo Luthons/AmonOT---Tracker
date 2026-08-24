@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/08/2026 às 18:52 (Brasília)",
+  "updated_at": "24/08/2026 às 18:53 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 10,
-  "online_count": 8,
+  "total_members": 9,
+  "online_count": 7,
   "offline_count": 2,
   "members": [
     {
@@ -78,37 +78,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Eckoss",
-      "level": 1925,
-      "resets": 50,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 17:38 (Brasília)"
-        },
-        {
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 14:36 (Brasília)"
-        },
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "20/08/2026 às 09:22 (Brasília)"
-        },
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "22/08/2026 às 16:40 (Brasília)"
-        }
-      ]
     },
     {
       "name": "El Diablo",
@@ -447,14 +416,6 @@
       "online": true
     },
     {
-      "name": "Eckoss",
-      "resets_total": 50,
-      "resets_today": 0,
-      "resets_week": 2,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Rp Terror",
       "resets_total": 39,
       "resets_today": 0,
@@ -496,12 +457,6 @@
         {
           "name": "Kolwaski",
           "value": 55,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Eckoss",
-          "value": 50,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -580,12 +535,6 @@
         {
           "name": "Lilian Faithkeeper",
           "value": 1952,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Eckoss",
-          "value": 1925,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1263,7 +1212,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/08/2026 às 18:52 (Brasília)",
+    "updated_at": "24/08/2026 às 18:53 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24207,15 +24156,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 24, 2026 16:41",
-      "player": "Eckoss",
-      "level": 1914,
-      "killedBy": "Fearless",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 24, 2026 02:56",
       "player": "Gizao",
       "level": 2000,
@@ -24321,7 +24261,6 @@
         "Gizao": 61,
         "Magabela": 62,
         "Achilles": 18,
-        "Eckoss": 50,
         "El Diablo": 71,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
@@ -31770,7 +31709,6 @@
           "Gizao": 61,
           "Magabela": 62,
           "Achilles": 18,
-          "Eckoss": 50,
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
@@ -35152,13 +35090,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 10,
-      "total_current": 488,
+      "num_members": 9,
+      "total_current": 438,
       "resets_today": 0,
-      "resets_week": 4,
+      "resets_week": 2,
       "resets_month": 0,
-      "resets_lifetime": 4,
-      "avg_per_player": 48.8
+      "resets_lifetime": 2,
+      "avg_per_player": 48.7
     },
     "enemy_guild": {
       "guild": "MentaliTY",
