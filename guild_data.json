@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/08/2026 às 19:08 (Brasília)",
+  "updated_at": "24/08/2026 às 19:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Achilles",
-      "level": 1998,
+      "level": 2000,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1952,
+      "level": 1957,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -491,6 +491,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Achilles",
+          "value": 2000,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
           "name": "El Diablo",
           "value": 2000,
           "vocation": "Elder Druid",
@@ -515,12 +521,6 @@
           "online": false
         },
         {
-          "name": "Achilles",
-          "value": 1998,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
           "name": "Gizao",
           "value": 1997,
           "vocation": "Royal Paladin",
@@ -534,7 +534,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1952,
+          "value": 1957,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -1212,7 +1212,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/08/2026 às 19:08 (Brasília)",
+    "updated_at": "24/08/2026 às 19:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
