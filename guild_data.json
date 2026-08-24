@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/08/2026 às 17:39 (Brasília)",
+  "updated_at": "24/08/2026 às 17:40 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 11,
-  "online_count": 6,
+  "total_members": 10,
+  "online_count": 5,
   "offline_count": 5,
   "members": [
     {
@@ -78,67 +78,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": []
-    },
-    {
-      "name": "Boltfly Peoplecry",
-      "level": 1185,
-      "resets": 50,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 41,
-          "gained": 1,
-          "timestamp": "29/07/2026 às 00:42 (Brasília)"
-        },
-        {
-          "resets": 42,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 00:05 (Brasília)"
-        },
-        {
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 23:49 (Brasília)"
-        },
-        {
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 11:55 (Brasília)"
-        },
-        {
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "14/08/2026 às 00:16 (Brasília)"
-        },
-        {
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "15/08/2026 às 23:41 (Brasília)"
-        },
-        {
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "17/08/2026 às 13:57 (Brasília)"
-        },
-        {
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "18/08/2026 às 23:21 (Brasília)"
-        },
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "21/08/2026 às 10:30 (Brasília)"
-        },
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "23/08/2026 às 23:29 (Brasília)"
-        }
-      ]
     },
     {
       "name": "Eckoss",
@@ -500,14 +439,6 @@
   "enemy_guilds": [],
   "resets_today": [
     {
-      "name": "Boltfly Peoplecry",
-      "resets_total": 50,
-      "resets_today": 1,
-      "resets_week": 3,
-      "vocation": "Royal Paladin",
-      "online": true
-    },
-    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
@@ -567,12 +498,6 @@
           "value": 55,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 50,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Eckoss",
@@ -669,12 +594,6 @@
           "value": 1263,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "value": 1185,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -1344,7 +1263,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/08/2026 às 17:39 (Brasília)",
+    "updated_at": "24/08/2026 às 17:40 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24297,15 +24216,6 @@
       "isPvp": true
     },
     {
-      "time": "Aug 24, 2026 13:24",
-      "player": "Boltfly Peoplecry",
-      "level": 1184,
-      "killedBy": "Crow Oz",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Aug 24, 2026 02:56",
       "player": "Gizao",
       "level": 2000,
@@ -24429,7 +24339,6 @@
         "Gizao": 61,
         "Magabela": 62,
         "Achilles": 18,
-        "Boltfly Peoplecry": 50,
         "Eckoss": 50,
         "El Diablo": 71,
         "Kolwaski": 55,
@@ -31938,7 +31847,6 @@
           "Gizao": 61,
           "Magabela": 62,
           "Achilles": 18,
-          "Boltfly Peoplecry": 50,
           "Eckoss": 50,
           "El Diablo": 71,
           "Kolwaski": 55,
@@ -35321,13 +35229,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 11,
-      "total_current": 538,
-      "resets_today": 1,
-      "resets_week": 7,
+      "num_members": 10,
+      "total_current": 488,
+      "resets_today": 0,
+      "resets_week": 4,
       "resets_month": 0,
-      "resets_lifetime": 7,
-      "avg_per_player": 48.9
+      "resets_lifetime": 4,
+      "avg_per_player": 48.8
     },
     "enemy_guild": {
       "guild": "MentaliTY",
