@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/08/2026 às 08:08 (Brasília)",
+  "updated_at": "24/08/2026 às 08:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 11,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1997,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Boltfly Peoplecry",
-      "level": 1033,
+      "level": 1063,
       "resets": 50,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -305,7 +305,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1886,
+      "level": 1887,
       "resets": 47,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -611,6 +611,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -641,12 +647,6 @@
           "online": false
         },
         {
-          "name": "Gizao",
-          "value": 1997,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 1997,
           "vocation": "Exalted Monk",
@@ -654,7 +654,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1886,
+          "value": 1887,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -672,7 +672,7 @@
         },
         {
           "name": "Boltfly Peoplecry",
-          "value": 1033,
+          "value": 1063,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -1344,7 +1344,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/08/2026 às 08:08 (Brasília)",
+    "updated_at": "24/08/2026 às 08:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
