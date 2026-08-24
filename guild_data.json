@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "23/08/2026 às 23:31 (Brasília)",
+  "updated_at": "23/08/2026 às 23:32 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 11,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 2000,
+      "level": 1997,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -621,12 +621,6 @@
       "val_label": "Level",
       "entries": [
         {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Magabela",
           "value": 2000,
           "vocation": "Master Sorcerer",
@@ -655,6 +649,12 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Gizao",
+          "value": 1997,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Achilles",
@@ -1348,7 +1348,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "23/08/2026 às 23:31 (Brasília)",
+    "updated_at": "23/08/2026 às 23:32 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24282,6 +24282,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 23, 2026 23:32",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Panuto Hahaha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 23, 2026 23:28",
       "player": "Achilles",
