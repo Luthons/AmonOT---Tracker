@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/08/2026 às 08:09 (Brasília)",
+  "updated_at": "25/08/2026 às 08:10 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 8,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 1998,
+      "level": 2000,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Magabela",
-      "level": 1997,
+      "level": 2000,
       "resets": 62,
       "vocation": "Master Sorcerer",
       "nick": "",
@@ -208,7 +208,7 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 852,
+      "level": 877,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -392,6 +392,18 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Magabela",
+          "value": 2000,
+          "vocation": "Master Sorcerer",
+          "online": true
+        },
+        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -416,18 +428,6 @@
           "online": false
         },
         {
-          "name": "Gizao",
-          "value": 1998,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Magabela",
-          "value": 1997,
-          "vocation": "Master Sorcerer",
-          "online": true
-        },
-        {
           "name": "Rp Terror",
           "value": 1263,
           "vocation": "Royal Paladin",
@@ -435,7 +435,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 852,
+          "value": 877,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -1107,7 +1107,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/08/2026 às 08:09 (Brasília)",
+    "updated_at": "25/08/2026 às 08:10 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
