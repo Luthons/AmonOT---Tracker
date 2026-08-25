@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/08/2026 às 00:24 (Brasília)",
+  "updated_at": "25/08/2026 às 00:25 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 8,
@@ -208,8 +208,8 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 2000,
-      "resets": 47,
+      "level": 8,
+      "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
@@ -249,6 +249,11 @@
           "resets": 47,
           "gained": 1,
           "timestamp": "16/08/2026 às 18:03 (Brasília)"
+        },
+        {
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "25/08/2026 às 00:25 (Brasília)"
         }
       ]
     },
@@ -302,6 +307,14 @@
   "enemy_guilds": [],
   "resets_today": [
     {
+      "name": "Lilian Faithkeeper",
+      "resets_total": 48,
+      "resets_today": 1,
+      "resets_week": 1,
+      "vocation": "Royal Paladin",
+      "online": true
+    },
+    {
       "name": "Magabela",
       "resets_total": 62,
       "resets_today": 0,
@@ -350,7 +363,7 @@
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 47,
+          "value": 48,
           "vocation": "Royal Paladin",
           "online": true
         },
@@ -392,12 +405,6 @@
         },
         {
           "name": "Kolwaski",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
@@ -1094,7 +1101,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/08/2026 às 00:24 (Brasília)",
+    "updated_at": "25/08/2026 às 00:25 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24109,7 +24116,7 @@
         "Achilles": 18,
         "El Diablo": 71,
         "Kolwaski": 55,
-        "Lilian Faithkeeper": 47,
+        "Lilian Faithkeeper": 48,
         "Rp Terror": 39,
         "Ultimate Warrior": 25
       },
@@ -31186,7 +31193,7 @@
           "Achilles": 18,
           "El Diablo": 71,
           "Kolwaski": 55,
-          "Lilian Faithkeeper": 47,
+          "Lilian Faithkeeper": 48,
           "Rp Terror": 39,
           "Ultimate Warrior": 25
         }
@@ -33641,6 +33648,13 @@
           "gained": 1,
           "timestamp": "23/08/2026 às 23:29 (Brasília)",
           "hour_key": "2026-08-23-23"
+        },
+        {
+          "name": "Lilian Faithkeeper",
+          "resets": 48,
+          "gained": 1,
+          "timestamp": "25/08/2026 às 00:25 (Brasília)",
+          "hour_key": "2026-08-25-00"
         }
       ]
     },
@@ -34495,12 +34509,12 @@
     "my_guild": {
       "guild": "Lowly People",
       "num_members": 8,
-      "total_current": 378,
-      "resets_today": 0,
-      "resets_week": 2,
+      "total_current": 379,
+      "resets_today": 1,
+      "resets_week": 3,
       "resets_month": 0,
-      "resets_lifetime": 2,
-      "avg_per_player": 47.2
+      "resets_lifetime": 3,
+      "avg_per_player": 47.4
     },
     "enemy_guild": {
       "guild": "MentaliTY",
