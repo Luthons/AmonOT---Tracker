@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/08/2026 às 23:04 (Brasília)",
+  "updated_at": "24/08/2026 às 23:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 9,
+  "total_members": 8,
   "online_count": 5,
-  "offline_count": 4,
+  "offline_count": 3,
   "members": [
     {
       "name": "Gizao",
@@ -258,107 +258,6 @@
       ]
     },
     {
-      "name": "Loks",
-      "level": 2000,
-      "resets": 60,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": [
-        {
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "25/07/2026 às 11:29 (Brasília)"
-        },
-        {
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "26/07/2026 às 19:28 (Brasília)"
-        },
-        {
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 20:51 (Brasília)"
-        },
-        {
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 21:57 (Brasília)"
-        },
-        {
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "27/07/2026 às 22:55 (Brasília)"
-        },
-        {
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 09:22 (Brasília)"
-        },
-        {
-          "resets": 49,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 17:28 (Brasília)"
-        },
-        {
-          "resets": 50,
-          "gained": 1,
-          "timestamp": "28/07/2026 às 23:10 (Brasília)"
-        },
-        {
-          "resets": 51,
-          "gained": 1,
-          "timestamp": "30/07/2026 às 21:31 (Brasília)"
-        },
-        {
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 12:01 (Brasília)"
-        },
-        {
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "02/08/2026 às 20:44 (Brasília)"
-        },
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 21:52 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:40 (Brasília)"
-        },
-        {
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 23:08 (Brasília)"
-        },
-        {
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 19:43 (Brasília)"
-        },
-        {
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 21:18 (Brasília)"
-        },
-        {
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "11/08/2026 às 23:24 (Brasília)"
-        },
-        {
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 21:44 (Brasília)"
-        }
-      ]
-    },
-    {
       "name": "Rp Terror",
       "level": 1263,
       "resets": 39,
@@ -449,12 +348,6 @@
           "online": true
         },
         {
-          "name": "Loks",
-          "value": 60,
-          "vocation": "Elder Druid",
-          "online": false
-        },
-        {
           "name": "Kolwaski",
           "value": 55,
           "vocation": "Royal Paladin",
@@ -513,12 +406,6 @@
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Loks",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -1212,7 +1099,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/08/2026 às 23:04 (Brasília)",
+    "updated_at": "24/08/2026 às 23:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24255,7 +24142,6 @@
         "El Diablo": 71,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 47,
-        "Loks": 60,
         "Rp Terror": 39,
         "Ultimate Warrior": 25
       },
@@ -31396,7 +31282,6 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 47,
-          "Loks": 60,
           "Rp Terror": 39,
           "Ultimate Warrior": 25
         }
@@ -34774,13 +34659,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 9,
-      "total_current": 438,
+      "num_members": 8,
+      "total_current": 378,
       "resets_today": 0,
       "resets_week": 2,
       "resets_month": 0,
       "resets_lifetime": 2,
-      "avg_per_player": 48.7
+      "avg_per_player": 47.2
     },
     "enemy_guild": {
       "guild": "MentaliTY",
