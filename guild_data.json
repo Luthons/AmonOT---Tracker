@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/08/2026 às 17:58 (Brasília)",
+  "updated_at": "25/08/2026 às 17:59 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 8,
@@ -81,7 +81,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 52,
@@ -213,7 +213,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 41,
@@ -312,7 +312,7 @@
       "resets_today": 1,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": true
+      "online": false
     },
     {
       "name": "Magabela",
@@ -341,7 +341,7 @@
           "name": "El Diablo",
           "value": 71,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Magabela",
@@ -365,7 +365,7 @@
           "name": "Lilian Faithkeeper",
           "value": 48,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Rp Terror",
@@ -425,7 +425,7 @@
           "name": "El Diablo",
           "value": 1997,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Rp Terror",
@@ -437,7 +437,7 @@
           "name": "Lilian Faithkeeper",
           "value": 1177,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         }
       ]
     }
@@ -1107,7 +1107,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/08/2026 às 17:58 (Brasília)",
+    "updated_at": "25/08/2026 às 17:59 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
