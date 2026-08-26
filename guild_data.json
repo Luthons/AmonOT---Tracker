@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "26/08/2026 às 01:34 (Brasília)",
+  "updated_at": "26/08/2026 às 01:35 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 8,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 2000,
+      "level": 1998,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -362,12 +362,6 @@
           "online": true
         },
         {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
@@ -384,6 +378,12 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
+        },
+        {
+          "name": "Gizao",
+          "value": 1998,
+          "vocation": "Royal Paladin",
+          "online": true
         },
         {
           "name": "Magabela",
@@ -1071,7 +1071,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "26/08/2026 às 01:34 (Brasília)",
+    "updated_at": "26/08/2026 às 01:35 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -24005,6 +24005,15 @@
     ]
   },
   "deaths_global": [
+    {
+      "time": "Aug 26, 2026 01:35",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Tajuquinha",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
     {
       "time": "Aug 26, 2026 01:26",
       "player": "Magabela",
