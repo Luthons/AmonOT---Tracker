@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "25/08/2026 às 22:17 (Brasília)",
+  "updated_at": "25/08/2026 às 22:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 8,
-  "online_count": 0,
-  "offline_count": 8,
+  "online_count": 5,
+  "offline_count": 3,
   "members": [
     {
       "name": "Gizao",
@@ -14,7 +14,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 61,
@@ -71,7 +71,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -81,7 +81,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 52,
@@ -192,7 +192,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 54,
@@ -213,7 +213,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 41,
@@ -312,7 +312,7 @@
       "resets_today": 0,
       "resets_week": 1,
       "vocation": "Royal Paladin",
-      "online": false
+      "online": true
     }
   ],
   "enemy_resets_today": [],
@@ -325,7 +325,7 @@
           "name": "El Diablo",
           "value": 71,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Magabela",
@@ -337,19 +337,19 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Kolwaski",
           "value": 55,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Lilian Faithkeeper",
           "value": 48,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Rp Terror",
@@ -367,7 +367,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         }
       ]
     },
@@ -379,13 +379,13 @@
           "name": "El Diablo",
           "value": 2028,
           "vocation": "Elder Druid",
-          "online": false
+          "online": true
         },
         {
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Magabela",
@@ -397,13 +397,13 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Ultimate Warrior",
@@ -421,7 +421,7 @@
           "name": "Lilian Faithkeeper",
           "value": 1191,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         }
       ]
     }
@@ -1091,7 +1091,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "25/08/2026 às 22:17 (Brasília)",
+    "updated_at": "25/08/2026 às 22:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
