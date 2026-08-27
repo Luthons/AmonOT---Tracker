@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "27/08/2026 às 14:54 (Brasília)",
+  "updated_at": "27/08/2026 às 14:55 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 7,
+  "total_members": 6,
   "online_count": 5,
-  "offline_count": 2,
+  "offline_count": 1,
   "members": [
     {
       "name": "Gizao",
@@ -113,16 +113,6 @@
           "timestamp": "01/08/2026 às 22:42 (Brasília)"
         }
       ]
-    },
-    {
-      "name": "Jokerah Is Back",
-      "level": 1263,
-      "resets": 39,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
     },
     {
       "name": "Kolwaski",
@@ -249,12 +239,6 @@
           "online": true
         },
         {
-          "name": "Jokerah Is Back",
-          "value": 39,
-          "vocation": "Royal Paladin",
-          "online": false
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 25,
           "vocation": "Elite Knight",
@@ -307,12 +291,6 @@
           "value": 1413,
           "vocation": "Royal Paladin",
           "online": true
-        },
-        {
-          "name": "Jokerah Is Back",
-          "value": 1263,
-          "vocation": "Royal Paladin",
-          "online": false
         }
       ]
     }
@@ -982,7 +960,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "27/08/2026 às 14:54 (Brasília)",
+    "updated_at": "27/08/2026 às 14:55 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23950,7 +23928,6 @@
         "Gizao": 61,
         "Achilles": 18,
         "El Diablo": 71,
-        "Jokerah Is Back": 39,
         "Kolwaski": 55,
         "Lilian Faithkeeper": 48,
         "Ultimate Warrior": 25
@@ -27022,7 +26999,6 @@
           "Gizao": 61,
           "Achilles": 18,
           "El Diablo": 71,
-          "Jokerah Is Back": 39,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48,
           "Ultimate Warrior": 25
@@ -30128,13 +30104,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 7,
-      "total_current": 317,
+      "num_members": 6,
+      "total_current": 278,
       "resets_today": 0,
       "resets_week": 1,
       "resets_month": 0,
       "resets_lifetime": 1,
-      "avg_per_player": 45.3
+      "avg_per_player": 46.3
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
