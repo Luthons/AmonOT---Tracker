@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/08/2026 às 22:04 (Brasília)",
+  "updated_at": "31/08/2026 às 22:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
-  "online_count": 5,
-  "offline_count": 1,
+  "online_count": 0,
+  "offline_count": 6,
   "members": [
     {
       "name": "Gizao",
@@ -14,7 +14,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 61,
@@ -35,12 +35,12 @@
     },
     {
       "name": "Achilles",
-      "level": 1998,
+      "level": 1999,
       "resets": 18,
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": []
     },
     {
@@ -50,7 +50,7 @@
       "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 69,
@@ -76,7 +76,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 54,
@@ -92,12 +92,12 @@
     },
     {
       "name": "Lilian Faithkeeper",
-      "level": 1984,
+      "level": 1986,
       "resets": 48,
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "reset_history": [
         {
           "resets": 43,
@@ -144,25 +144,25 @@
           "name": "El Diablo",
           "value": 71,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Kolwaski",
           "value": 55,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
           "value": 48,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -174,7 +174,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -186,13 +186,13 @@
           "name": "El Diablo",
           "value": 2017,
           "vocation": "Elder Druid",
-          "online": true
+          "online": false
         },
         {
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -204,19 +204,19 @@
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Achilles",
-          "value": 1998,
+          "value": 1999,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
-          "value": 1984,
+          "value": 1986,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         }
       ]
     }
@@ -886,7 +886,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/08/2026 às 22:04 (Brasília)",
+    "updated_at": "31/08/2026 às 22:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
