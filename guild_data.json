@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "31/08/2026 às 23:59 (Brasília)",
+  "updated_at": "01/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
@@ -51,23 +51,7 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": [
-        {
-          "resets": 69,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 10:27 (Brasília)"
-        },
-        {
-          "resets": 70,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 14:57 (Brasília)"
-        },
-        {
-          "resets": 71,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 22:42 (Brasília)"
-        }
-      ]
+      "reset_history": []
     },
     {
       "name": "Kolwaski",
@@ -99,11 +83,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": [
-        {
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 20:47 (Brasília)"
-        },
         {
           "resets": 44,
           "gained": 1,
@@ -886,7 +865,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "31/08/2026 às 23:59 (Brasília)",
+    "updated_at": "01/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23850,16 +23829,6 @@
         "Lilian Faithkeeper": 48
       },
       "snapshots": {
-        "2026-08-25-00": {
-          "Gizao": 61,
-          "Magabela": 62,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48,
-          "Rp Terror": 39,
-          "Ultimate Warrior": 25
-        },
         "2026-08-25-01": {
           "Gizao": 61,
           "Magabela": 62,
@@ -25299,79 +25268,17 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
+        },
+        "2026-09-01-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "El Diablo": 71,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 48
         }
       },
       "events": [
-        {
-          "name": "Boltfly Peoplecry",
-          "resets": 42,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 00:05 (Brasília)",
-          "hour_key": "2026-08-01-00"
-        },
-        {
-          "name": "Rp Terror",
-          "resets": 36,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 02:20 (Brasília)",
-          "hour_key": "2026-08-01-02"
-        },
-        {
-          "name": "El Diablo",
-          "resets": 69,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 10:27 (Brasília)",
-          "hour_key": "2026-08-01-10"
-        },
-        {
-          "name": "Loks",
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 12:01 (Brasília)",
-          "hour_key": "2026-08-01-12"
-        },
-        {
-          "name": "Akronus",
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 12:14 (Brasília)",
-          "hour_key": "2026-08-01-12"
-        },
-        {
-          "name": "Baiakudinho",
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 12:59 (Brasília)",
-          "hour_key": "2026-08-01-12"
-        },
-        {
-          "name": "MekZera",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 13:34 (Brasília)",
-          "hour_key": "2026-08-01-13"
-        },
-        {
-          "name": "El Diablo",
-          "resets": 70,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 14:57 (Brasília)",
-          "hour_key": "2026-08-01-14"
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 20:47 (Brasília)",
-          "hour_key": "2026-08-01-20"
-        },
-        {
-          "name": "El Diablo",
-          "resets": 71,
-          "gained": 1,
-          "timestamp": "01/08/2026 às 22:42 (Brasília)",
-          "hour_key": "2026-08-01-22"
-        },
         {
           "name": "Kev",
           "resets": 32,
@@ -27113,7 +27020,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-25-00": {},
         "2026-08-25-01": {},
         "2026-08-25-02": {},
         "2026-08-25-03": {},
@@ -27280,7 +27186,8 @@
         "2026-08-31-20": {},
         "2026-08-31-21": {},
         "2026-08-31-22": {},
-        "2026-08-31-23": {}
+        "2026-08-31-23": {},
+        "2026-09-01-00": {}
       },
       "events": []
     },
