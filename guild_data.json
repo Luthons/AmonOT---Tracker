@@ -1,116 +1,12 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/09/2026 às 04:27 (Brasília)",
+  "updated_at": "03/09/2026 às 04:29 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 6,
-  "online_count": 5,
-  "offline_count": 1,
-  "members": [
-    {
-      "name": "Gizao",
-      "level": 2000,
-      "resets": 61,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 22:04 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Ultimate Warrior",
-      "level": 2000,
-      "resets": 25,
-      "vocation": "Elite Knight",
-      "nick": "",
-      "rank": "Member",
-      "online": false,
-      "reset_history": []
-    },
-    {
-      "name": "Achilles",
-      "level": 2000,
-      "resets": 18,
-      "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
-    },
-    {
-      "name": "El Diablo",
-      "level": 2000,
-      "resets": 71,
-      "vocation": "Elder Druid",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
-    },
-    {
-      "name": "Kolwaski",
-      "level": 2000,
-      "resets": 55,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "08/08/2026 às 00:51 (Brasília)"
-        },
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 18:14 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "level": 2000,
-      "resets": 48,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": [
-        {
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 16:25 (Brasília)"
-        },
-        {
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 19:23 (Brasília)"
-        },
-        {
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 08:58 (Brasília)"
-        },
-        {
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 18:03 (Brasília)"
-        },
-        {
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "25/08/2026 às 00:25 (Brasília)"
-        }
-      ]
-    }
-  ],
+  "total_members": 0,
+  "online_count": 0,
+  "offline_count": 0,
+  "members": [],
   "enemy_guilds": [],
   "resets_today": [],
   "enemy_resets_today": [],
@@ -118,86 +14,12 @@
     "resets": {
       "name": "Resets",
       "val_label": "Resets",
-      "entries": [
-        {
-          "name": "El Diablo",
-          "value": 71,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Gizao",
-          "value": 61,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Kolwaski",
-          "value": 55,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 48,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ultimate Warrior",
-          "value": 25,
-          "vocation": "Elite Knight",
-          "online": false
-        },
-        {
-          "name": "Achilles",
-          "value": 18,
-          "vocation": "Exalted Monk",
-          "online": true
-        }
-      ]
+      "entries": []
     },
     "level": {
       "name": "Level",
       "val_label": "Level",
-      "entries": [
-        {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Ultimate Warrior",
-          "value": 2000,
-          "vocation": "Elite Knight",
-          "online": false
-        },
-        {
-          "name": "Achilles",
-          "value": 2000,
-          "vocation": "Exalted Monk",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 2000,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
-          "name": "Kolwaski",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        }
-      ]
+      "entries": []
     }
   },
   "war_rankings": {
@@ -865,7 +687,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/09/2026 às 04:27 (Brasília)",
+    "updated_at": "03/09/2026 às 04:29 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23798,45 +23620,10 @@
       }
     ]
   },
-  "deaths_global": [
-    {
-      "time": "Sep 02, 2026 23:23",
-      "player": "Lilian Faithkeeper",
-      "level": 1999,
-      "killedBy": "Royal Sniper",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 02, 2026 22:42",
-      "player": "Lilian Faithkeeper",
-      "level": 2000,
-      "killedBy": "Famosa",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 02, 2026 11:23",
-      "player": "Gizao",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    }
-  ],
+  "deaths_global": [],
   "history": {
     "resets": {
-      "last_snapshot": {
-        "Gizao": 61,
-        "Ultimate Warrior": 25,
-        "Achilles": 18,
-        "El Diablo": 71,
-        "Kolwaski": 55,
-        "Lilian Faithkeeper": 48
-      },
+      "last_snapshot": {},
       "snapshots": {
         "2026-08-27-05": {
           "Gizao": 61,
@@ -25183,14 +24970,7 @@
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
         },
-        "2026-09-03-04": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        }
+        "2026-09-03-04": {}
       },
       "events": [
         {
@@ -27620,13 +27400,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 6,
-      "total_current": 278,
+      "num_members": 0,
+      "total_current": 0,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 46.3
+      "avg_per_player": 0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
@@ -27995,8 +27775,9 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
+    "Inimigos (MentaliTY): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
+    "Inimigos (Old Legacy): Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)"
   ]
 }
