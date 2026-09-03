@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "02/09/2026 às 23:59 (Brasília)",
+  "updated_at": "03/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
@@ -865,7 +865,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "02/09/2026 às 23:59 (Brasília)",
+    "updated_at": "03/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23838,15 +23838,6 @@
         "Lilian Faithkeeper": 48
       },
       "snapshots": {
-        "2026-08-27-00": {
-          "Gizao": 61,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48,
-          "Rp Terror": 39,
-          "Ultimate Warrior": 25
-        },
         "2026-08-27-01": {
           "Gizao": 61,
           "Achilles": 18,
@@ -25195,72 +25186,17 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
+        },
+        "2026-09-03-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "El Diablo": 71,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 48
         }
       },
       "events": [
-        {
-          "name": "Akronus",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 00:56 (Brasília)",
-          "hour_key": "2026-08-03-00"
-        },
-        {
-          "name": "Nino",
-          "resets": 52,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 20:42 (Brasília)",
-          "hour_key": "2026-08-03-20"
-        },
-        {
-          "name": "Loks",
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 21:52 (Brasília)",
-          "hour_key": "2026-08-03-21"
-        },
-        {
-          "name": "Cerebro",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 21:53 (Brasília)",
-          "hour_key": "2026-08-03-21"
-        },
-        {
-          "name": "Gokuu",
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 21:57 (Brasília)",
-          "hour_key": "2026-08-03-21"
-        },
-        {
-          "name": "Pedim Kitbota",
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 22:39 (Brasília)",
-          "hour_key": "2026-08-03-22"
-        },
-        {
-          "name": "Jishuka",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 22:57 (Brasília)",
-          "hour_key": "2026-08-03-22"
-        },
-        {
-          "name": "Rp Terror",
-          "resets": 37,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 23:11 (Brasília)",
-          "hour_key": "2026-08-03-23"
-        },
-        {
-          "name": "Akronus",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "03/08/2026 às 23:53 (Brasília)",
-          "hour_key": "2026-08-03-23"
-        },
         {
           "name": "Lipe Knight",
           "resets": 60,
@@ -26841,7 +26777,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-27-00": {},
         "2026-08-27-01": {},
         "2026-08-27-02": {},
         "2026-08-27-03": {},
@@ -27008,7 +26943,8 @@
         "2026-09-02-20": {},
         "2026-09-02-21": {},
         "2026-09-02-22": {},
-        "2026-09-02-23": {}
+        "2026-09-02-23": {},
+        "2026-09-03-00": {}
       },
       "events": []
     },
