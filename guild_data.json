@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/09/2026 às 23:59 (Brasília)",
+  "updated_at": "04/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
@@ -15,13 +15,7 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": [
-        {
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 22:04 (Brasília)"
-        }
-      ]
+      "reset_history": []
     },
     {
       "name": "Ultimate Warrior",
@@ -865,7 +859,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "03/09/2026 às 23:59 (Brasília)",
+    "updated_at": "04/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23838,14 +23832,6 @@
         "Lilian Faithkeeper": 48
       },
       "snapshots": {
-        "2026-08-28-00": {
-          "Gizao": 61,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48,
-          "Ultimate Warrior": 25
-        },
         "2026-08-28-01": {
           "Gizao": 61,
           "Achilles": 18,
@@ -25181,86 +25167,17 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
+        },
+        "2026-09-04-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "El Diablo": 71,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 48
         }
       },
       "events": [
-        {
-          "name": "Lipe Knight",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 09:51 (Brasília)",
-          "hour_key": "2026-08-04-09"
-        },
-        {
-          "name": "Gokuu",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 10:23 (Brasília)",
-          "hour_key": "2026-08-04-10"
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "resets": 66,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 10:38 (Brasília)",
-          "hour_key": "2026-08-04-10"
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 12:44 (Brasília)",
-          "hour_key": "2026-08-04-12"
-        },
-        {
-          "name": "Baiakudinho",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 15:12 (Brasília)",
-          "hour_key": "2026-08-04-15"
-        },
-        {
-          "name": "Baiakudinho",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:21 (Brasília)",
-          "hour_key": "2026-08-04-21"
-        },
-        {
-          "name": "Loks",
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:40 (Brasília)",
-          "hour_key": "2026-08-04-21"
-        },
-        {
-          "name": "Nino",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:41 (Brasília)",
-          "hour_key": "2026-08-04-21"
-        },
-        {
-          "name": "Dmonick",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:49 (Brasília)",
-          "hour_key": "2026-08-04-21"
-        },
-        {
-          "name": "Dmonick Hahaha",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 21:58 (Brasília)",
-          "hour_key": "2026-08-04-21"
-        },
-        {
-          "name": "Gizao",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "04/08/2026 às 22:04 (Brasília)",
-          "hour_key": "2026-08-04-22"
-        },
         {
           "name": "Baiakudinho",
           "resets": 62,
@@ -26764,7 +26681,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-28-00": {},
         "2026-08-28-01": {},
         "2026-08-28-02": {},
         "2026-08-28-03": {},
@@ -26931,7 +26847,8 @@
         "2026-09-03-20": {},
         "2026-09-03-21": {},
         "2026-09-03-22": {},
-        "2026-09-03-23": {}
+        "2026-09-03-23": {},
+        "2026-09-04-00": {}
       },
       "events": []
     },
