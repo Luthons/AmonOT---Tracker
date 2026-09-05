@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/09/2026 às 23:59 (Brasília)",
+  "updated_at": "05/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
@@ -77,11 +77,6 @@
       "rank": "Member",
       "online": true,
       "reset_history": [
-        {
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 16:25 (Brasília)"
-        },
         {
           "resets": 45,
           "gained": 1,
@@ -859,7 +854,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/09/2026 às 23:59 (Brasília)",
+    "updated_at": "05/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23814,14 +23809,6 @@
         "Lilian Faithkeeper": 48
       },
       "snapshots": {
-        "2026-08-29-00": {
-          "Gizao": 61,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48,
-          "Ultimate Warrior": 25
-        },
         "2026-08-29-01": {
           "Gizao": 61,
           "Achilles": 18,
@@ -25157,114 +25144,17 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
+        },
+        "2026-09-05-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "El Diablo": 71,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 48
         }
       },
       "events": [
-        {
-          "name": "Baiakudinho",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 04:50 (Brasília)",
-          "hour_key": "2026-08-05-04"
-        },
-        {
-          "name": "Pestinha",
-          "resets": 42,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 08:09 (Brasília)",
-          "hour_key": "2026-08-05-08"
-        },
-        {
-          "name": "Alba Baiakeiro",
-          "resets": 67,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 08:37 (Brasília)",
-          "hour_key": "2026-08-05-08"
-        },
-        {
-          "name": "MekZera",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 09:10 (Brasília)",
-          "hour_key": "2026-08-05-09"
-        },
-        {
-          "name": "Teko News",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 09:38 (Brasília)",
-          "hour_key": "2026-08-05-09"
-        },
-        {
-          "name": "Guidao Palao",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 10:02 (Brasília)",
-          "hour_key": "2026-08-05-10"
-        },
-        {
-          "name": "Lipe Knight",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 10:12 (Brasília)",
-          "hour_key": "2026-08-05-10"
-        },
-        {
-          "name": "Akronus",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 10:51 (Brasília)",
-          "hour_key": "2026-08-05-10"
-        },
-        {
-          "name": "Cerebro",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 11:03 (Brasília)",
-          "hour_key": "2026-08-05-11"
-        },
-        {
-          "name": "Rusha Rp",
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 14:18 (Brasília)",
-          "hour_key": "2026-08-05-14"
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 14:20 (Brasília)",
-          "hour_key": "2026-08-05-14"
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 16:25 (Brasília)",
-          "hour_key": "2026-08-05-16"
-        },
-        {
-          "name": "Jishuka",
-          "resets": 61,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 20:50 (Brasília)",
-          "hour_key": "2026-08-05-20"
-        },
-        {
-          "name": "Punish Claude",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 23:06 (Brasília)",
-          "hour_key": "2026-08-05-23"
-        },
-        {
-          "name": "Loks",
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "05/08/2026 às 23:08 (Brasília)",
-          "hour_key": "2026-08-05-23"
-        },
         {
           "name": "Rp Terror",
           "resets": 38,
@@ -26663,7 +26553,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-29-00": {},
         "2026-08-29-01": {},
         "2026-08-29-02": {},
         "2026-08-29-03": {},
@@ -26830,7 +26719,8 @@
         "2026-09-04-20": {},
         "2026-09-04-21": {},
         "2026-09-04-22": {},
-        "2026-09-04-23": {}
+        "2026-09-04-23": {},
+        "2026-09-05-00": {}
       },
       "events": []
     },
