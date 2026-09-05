@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "04/09/2026 às 22:04 (Brasília)",
+  "updated_at": "04/09/2026 às 22:05 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
-  "online_count": 4,
-  "offline_count": 2,
+  "online_count": 0,
+  "offline_count": 6,
   "members": [
     {
       "name": "Gizao",
@@ -14,11 +14,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Sep 04, 2026, 20:32:23",
-      "guild_rank": "The Leader",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": []
     },
     {
@@ -29,10 +25,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "last_login": "Aug 08, 2026, 20:28:25",
-      "guild_rank": "The Leader",
-      "former_names": "Feefis Lidera",
-      "hidden": true,
       "reset_history": []
     },
     {
@@ -42,11 +34,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Sep 04, 2026, 14:52:57",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": []
     },
     {
@@ -57,10 +45,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "last_login": "Sep 04, 2026, 14:56:58",
-      "guild_rank": "Member",
-      "former_names": "Maguinn Returns, Maguinn Hahaha",
-      "hidden": false,
       "reset_history": []
     },
     {
@@ -70,11 +54,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Sep 04, 2026, 10:54:36",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": [
         {
           "resets": 54,
@@ -95,11 +75,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": true,
-      "last_login": "Sep 04, 2026, 18:52:46",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
+      "online": false,
       "reset_history": [
         {
           "resets": 44,
@@ -147,19 +123,19 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Kolwaski",
           "value": 55,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
           "value": 48,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -171,7 +147,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -183,7 +159,7 @@
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Ultimate Warrior",
@@ -195,7 +171,7 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": true
+          "online": false
         },
         {
           "name": "El Diablo",
@@ -207,13 +183,13 @@
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         },
         {
           "name": "Lilian Faithkeeper",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
+          "online": false
         }
       ]
     }
@@ -883,7 +859,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "04/09/2026 às 22:04 (Brasília)",
+    "updated_at": "04/09/2026 às 22:05 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
