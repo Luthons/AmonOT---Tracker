@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/09/2026 às 10:18 (Brasília)",
+  "updated_at": "07/09/2026 às 10:19 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 6,
-  "online_count": 3,
+  "total_members": 5,
+  "online_count": 2,
   "offline_count": 3,
   "members": [
     {
@@ -15,10 +15,6 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "last_login": "Sep 07, 2026, 02:14:22",
-      "guild_rank": "The Leader",
-      "former_names": "",
-      "hidden": false,
       "reset_history": []
     },
     {
@@ -29,10 +25,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "last_login": "Aug 08, 2026, 20:28:25",
-      "guild_rank": "The Leader",
-      "former_names": "Feefis Lidera",
-      "hidden": true,
       "reset_history": []
     },
     {
@@ -43,10 +35,6 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "last_login": "Sep 07, 2026, 08:31:38",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
       "reset_history": []
     },
     {
@@ -57,10 +45,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "last_login": "Sep 07, 2026, 07:32:18",
-      "guild_rank": "Member",
-      "former_names": "Maguinn Returns, Maguinn Hahaha",
-      "hidden": false,
       "reset_history": []
     },
     {
@@ -71,10 +55,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "last_login": "Sep 05, 2026, 08:05:26",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
       "reset_history": [
         {
           "resets": 54,
@@ -85,41 +65,6 @@
           "resets": 55,
           "gained": 1,
           "timestamp": "13/08/2026 às 18:14 (Brasília)"
-        }
-      ]
-    },
-    {
-      "name": "Lilian Faithkeeper",
-      "level": 2000,
-      "resets": 48,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "last_login": "Sep 07, 2026, 09:11:29",
-      "guild_rank": "Member",
-      "former_names": "",
-      "hidden": false,
-      "reset_history": [
-        {
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 19:23 (Brasília)"
-        },
-        {
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 08:58 (Brasília)"
-        },
-        {
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "16/08/2026 às 18:03 (Brasília)"
-        },
-        {
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "25/08/2026 às 00:25 (Brasília)"
         }
       ]
     }
@@ -149,12 +94,6 @@
           "value": 55,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 48,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Ultimate Warrior",
@@ -203,12 +142,6 @@
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -878,7 +811,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/09/2026 às 10:18 (Brasília)",
+    "updated_at": "07/09/2026 às 10:19 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23813,46 +23746,10 @@
   },
   "deaths_global": [
     {
-      "time": "Sep 07, 2026 04:43",
-      "player": "Lilian Faithkeeper",
-      "level": 2000,
-      "killedBy": "Killua",
-      "maiorDano": "Guizinho Fofinho",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 06, 2026 20:18",
-      "player": "Lilian Faithkeeper",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 06, 2026 17:54",
-      "player": "Lilian Faithkeeper",
-      "level": 2000,
-      "killedBy": "Julian Alvarez",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
       "time": "Sep 05, 2026 19:05",
       "player": "Gizao",
       "level": 2000,
       "killedBy": "Nao Eh Open",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 05, 2026 15:50",
-      "player": "Lilian Faithkeeper",
-      "level": 2000,
-      "killedBy": "Monkchia",
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
@@ -23883,8 +23780,7 @@
         "Ultimate Warrior": 25,
         "Achilles": 18,
         "El Diablo": 71,
-        "Kolwaski": 55,
-        "Lilian Faithkeeper": 48
+        "Kolwaski": 55
       },
       "snapshots": {
         "2026-08-31-11": {
@@ -25228,8 +25124,7 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
+          "Kolwaski": 55
         }
       },
       "events": [
@@ -27338,13 +27233,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 6,
-      "total_current": 278,
+      "num_members": 5,
+      "total_current": 230,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 46.3
+      "avg_per_player": 46.0
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
