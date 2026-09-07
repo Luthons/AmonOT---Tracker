@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/09/2026 às 18:44 (Brasília)",
+  "updated_at": "07/09/2026 às 18:45 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 5,
-  "online_count": 4,
+  "total_members": 4,
+  "online_count": 3,
   "offline_count": 1,
   "members": [
     {
@@ -32,16 +32,6 @@
       "level": 2000,
       "resets": 18,
       "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
-    },
-    {
-      "name": "El Diablo",
-      "level": 2002,
-      "resets": 71,
-      "vocation": "Elder Druid",
       "nick": "",
       "rank": "Member",
       "online": true,
@@ -78,12 +68,6 @@
       "val_label": "Resets",
       "entries": [
         {
-          "name": "El Diablo",
-          "value": 71,
-          "vocation": "Elder Druid",
-          "online": true
-        },
-        {
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
@@ -113,12 +97,6 @@
       "name": "Level",
       "val_label": "Level",
       "entries": [
-        {
-          "name": "El Diablo",
-          "value": 2002,
-          "vocation": "Elder Druid",
-          "online": true
-        },
         {
           "name": "Gizao",
           "value": 2000,
@@ -811,7 +789,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/09/2026 às 18:44 (Brasília)",
+    "updated_at": "07/09/2026 às 18:45 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23751,7 +23729,6 @@
         "Gizao": 61,
         "Ultimate Warrior": 25,
         "Achilles": 18,
-        "El Diablo": 71,
         "Kolwaski": 55
       },
       "snapshots": {
@@ -25087,7 +25064,6 @@
           "Gizao": 61,
           "Ultimate Warrior": 25,
           "Achilles": 18,
-          "El Diablo": 71,
           "Kolwaski": 55
         }
       },
@@ -27197,13 +27173,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 5,
-      "total_current": 230,
+      "num_members": 4,
+      "total_current": 159,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 46.0
+      "avg_per_player": 39.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
