@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "06/09/2026 às 23:59 (Brasília)",
+  "updated_at": "07/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 6,
@@ -854,7 +854,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "06/09/2026 às 23:59 (Brasília)",
+    "updated_at": "07/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23863,14 +23863,6 @@
         "Lilian Faithkeeper": 48
       },
       "snapshots": {
-        "2026-08-31-00": {
-          "Gizao": 61,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48,
-          "Ultimate Warrior": 25
-        },
         "2026-08-31-01": {
           "Gizao": 61,
           "Achilles": 18,
@@ -25206,79 +25198,17 @@
           "El Diablo": 71,
           "Kolwaski": 55,
           "Lilian Faithkeeper": 48
+        },
+        "2026-09-07-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "El Diablo": 71,
+          "Kolwaski": 55,
+          "Lilian Faithkeeper": 48
         }
       },
       "events": [
-        {
-          "name": "Jishuka",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 09:28 (Brasília)",
-          "hour_key": "2026-08-07-09"
-        },
-        {
-          "name": "Rusha Rp",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 09:56 (Brasília)",
-          "hour_key": "2026-08-07-09"
-        },
-        {
-          "name": "Php Eruim",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 12:24 (Brasília)",
-          "hour_key": "2026-08-07-12"
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 12:52 (Brasília)",
-          "hour_key": "2026-08-07-12"
-        },
-        {
-          "name": "Royal Sniper",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 14:41 (Brasília)",
-          "hour_key": "2026-08-07-14"
-        },
-        {
-          "name": "Magabela",
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 17:46 (Brasília)",
-          "hour_key": "2026-08-07-17"
-        },
-        {
-          "name": "Loks",
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 19:43 (Brasília)",
-          "hour_key": "2026-08-07-19"
-        },
-        {
-          "name": "Php Eruim",
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 21:05 (Brasília)",
-          "hour_key": "2026-08-07-21"
-        },
-        {
-          "name": "Akronus",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 21:41 (Brasília)",
-          "hour_key": "2026-08-07-21"
-        },
-        {
-          "name": "Melbiss",
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "07/08/2026 às 23:12 (Brasília)",
-          "hour_key": "2026-08-07-23"
-        },
         {
           "name": "Kev",
           "resets": 33,
@@ -26537,7 +26467,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-08-31-00": {},
         "2026-08-31-01": {},
         "2026-08-31-02": {},
         "2026-08-31-03": {},
@@ -26704,7 +26633,8 @@
         "2026-09-06-20": {},
         "2026-09-06-21": {},
         "2026-09-06-22": {},
-        "2026-09-06-23": {}
+        "2026-09-06-23": {},
+        "2026-09-07-00": {}
       },
       "events": []
     },
