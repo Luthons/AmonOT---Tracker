@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/09/2026 às 17:08 (Brasília)",
+  "updated_at": "07/09/2026 às 17:09 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 5,
@@ -39,7 +39,7 @@
     },
     {
       "name": "El Diablo",
-      "level": 1997,
+      "level": 2002,
       "resets": 71,
       "vocation": "Elder Druid",
       "nick": "",
@@ -114,6 +114,12 @@
       "val_label": "Level",
       "entries": [
         {
+          "name": "El Diablo",
+          "value": 2002,
+          "vocation": "Elder Druid",
+          "online": true
+        },
+        {
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
@@ -135,12 +141,6 @@
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
-          "name": "El Diablo",
-          "value": 1997,
-          "vocation": "Elder Druid",
           "online": true
         }
       ]
@@ -811,7 +811,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "07/09/2026 às 17:08 (Brasília)",
+    "updated_at": "07/09/2026 às 17:09 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
