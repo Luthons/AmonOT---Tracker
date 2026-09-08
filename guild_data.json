@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/09/2026 às 00:07 (Brasília)",
+  "updated_at": "08/09/2026 às 00:08 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -9,7 +9,7 @@
   "members": [
     {
       "name": "Gizao",
-      "level": 2000,
+      "level": 1997,
       "resets": 61,
       "vocation": "Royal Paladin",
       "nick": "",
@@ -93,12 +93,6 @@
       "val_label": "Level",
       "entries": [
         {
-          "name": "Gizao",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
-        },
-        {
           "name": "Ultimate Warrior",
           "value": 2000,
           "vocation": "Elite Knight",
@@ -113,6 +107,12 @@
         {
           "name": "Kolwaski",
           "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Gizao",
+          "value": 1997,
           "vocation": "Royal Paladin",
           "online": true
         }
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/09/2026 às 00:07 (Brasília)",
+    "updated_at": "08/09/2026 às 00:08 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23717,7 +23717,17 @@
       }
     ]
   },
-  "deaths_global": [],
+  "deaths_global": [
+    {
+      "time": "Sep 08, 2026 00:08",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Holly Sapetah",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    }
+  ],
   "history": {
     "resets": {
       "last_snapshot": {
