@@ -1,11 +1,11 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/09/2026 às 22:17 (Brasília)",
+  "updated_at": "08/09/2026 às 22:18 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
-  "online_count": 0,
-  "offline_count": 4,
+  "online_count": 3,
+  "offline_count": 1,
   "members": [
     {
       "name": "Gizao",
@@ -14,7 +14,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -34,7 +34,7 @@
       "vocation": "Exalted Monk",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": []
     },
     {
@@ -44,7 +44,7 @@
       "vocation": "Royal Paladin",
       "nick": "",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "reset_history": [
         {
           "resets": 55,
@@ -66,13 +66,13 @@
           "name": "Gizao",
           "value": 61,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Kolwaski",
           "value": 55,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Ultimate Warrior",
@@ -84,7 +84,7 @@
           "name": "Achilles",
           "value": 18,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         }
       ]
     },
@@ -96,7 +96,7 @@
           "name": "Gizao",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         },
         {
           "name": "Ultimate Warrior",
@@ -108,13 +108,13 @@
           "name": "Achilles",
           "value": 2000,
           "vocation": "Exalted Monk",
-          "online": false
+          "online": true
         },
         {
           "name": "Kolwaski",
           "value": 2000,
           "vocation": "Royal Paladin",
-          "online": false
+          "online": true
         }
       ]
     }
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/09/2026 às 22:17 (Brasília)",
+    "updated_at": "08/09/2026 às 22:18 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
