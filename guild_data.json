@@ -1,12 +1,59 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/09/2026 às 20:01 (Brasília)",
+  "updated_at": "09/09/2026 às 20:02 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 0,
-  "online_count": 0,
-  "offline_count": 0,
-  "members": [],
+  "total_members": 4,
+  "online_count": 3,
+  "offline_count": 1,
+  "members": [
+    {
+      "name": "Gizao",
+      "level": 2000,
+      "resets": 61,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Ultimate Warrior",
+      "level": 2000,
+      "resets": 25,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Achilles",
+      "level": 2000,
+      "resets": 18,
+      "vocation": "Exalted Monk",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": []
+    },
+    {
+      "name": "Kolwaski",
+      "level": 2000,
+      "resets": 55,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": true,
+      "reset_history": [
+        {
+          "resets": 55,
+          "gained": 1,
+          "timestamp": "13/08/2026 às 18:14 (Brasília)"
+        }
+      ]
+    }
+  ],
   "enemy_guilds": [],
   "resets_today": [],
   "enemy_resets_today": [],
@@ -14,12 +61,62 @@
     "resets": {
       "name": "Resets",
       "val_label": "Resets",
-      "entries": []
+      "entries": [
+        {
+          "name": "Gizao",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 55,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 25,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Achilles",
+          "value": 18,
+          "vocation": "Exalted Monk",
+          "online": true
+        }
+      ]
     },
     "level": {
       "name": "Level",
       "val_label": "Level",
-      "entries": []
+      "entries": [
+        {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": false
+        },
+        {
+          "name": "Achilles",
+          "value": 2000,
+          "vocation": "Exalted Monk",
+          "online": true
+        },
+        {
+          "name": "Kolwaski",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": true
+        }
+      ]
     }
   },
   "war_rankings": {
@@ -687,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/09/2026 às 20:01 (Brasília)",
+    "updated_at": "09/09/2026 às 20:02 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23620,10 +23717,61 @@
       }
     ]
   },
-  "deaths_global": [],
+  "deaths_global": [
+    {
+      "time": "Sep 08, 2026 23:38",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Sep 08, 2026 19:23",
+      "player": "Gizao",
+      "level": 1995,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Sep 08, 2026 12:06",
+      "player": "Gizao",
+      "level": 1997,
+      "killedBy": "Osh Don",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Sep 08, 2026 11:02",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Chszin Finalboss",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    },
+    {
+      "time": "Sep 08, 2026 00:08",
+      "player": "Gizao",
+      "level": 2000,
+      "killedBy": "Holly Sapetah",
+      "maiorDano": "",
+      "world": "Baiak",
+      "isPvp": true
+    }
+  ],
   "history": {
     "resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Gizao": 61,
+        "Ultimate Warrior": 25,
+        "Achilles": 18,
+        "Kolwaski": 55
+      },
       "snapshots": {
         "2026-09-02-21": {
           "Gizao": 61,
@@ -24853,7 +25001,12 @@
           "Achilles": 18,
           "Kolwaski": 55
         },
-        "2026-09-09-20": {}
+        "2026-09-09-20": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
+        }
       },
       "events": [
         {
@@ -26800,13 +26953,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 0,
-      "total_current": 0,
+      "num_members": 4,
+      "total_current": 159,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 0
+      "avg_per_player": 39.8
     },
     "enemy_guild": {
       "guild": "MentaliTY, Fuba Empire, Old Legacy",
@@ -27175,7 +27328,6 @@
     }
   ],
   "errors": [
-    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
     "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
     "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
