@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "08/09/2026 às 23:59 (Brasília)",
+  "updated_at": "09/09/2026 às 00:01 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "08/09/2026 às 23:59 (Brasília)",
+    "updated_at": "09/09/2026 às 00:01 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23773,14 +23773,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-02-00": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-02-01": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -25048,79 +25040,15 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-09-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
-        {
-          "name": "Vinizerah On Amonot",
-          "resets": 47,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 00:14 (Brasília)",
-          "hour_key": "2026-08-09-00"
-        },
-        {
-          "name": "Baiakudinho",
-          "resets": 63,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 03:28 (Brasília)",
-          "hour_key": "2026-08-09-03"
-        },
-        {
-          "name": "Jishuka",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 13:04 (Brasília)",
-          "hour_key": "2026-08-09-13"
-        },
-        {
-          "name": "Akronus",
-          "resets": 66,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 13:39 (Brasília)",
-          "hour_key": "2026-08-09-13"
-        },
-        {
-          "name": "Guidao Palao",
-          "resets": 57,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 17:10 (Brasília)",
-          "hour_key": "2026-08-09-17"
-        },
-        {
-          "name": "Magabela",
-          "resets": 59,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 17:43 (Brasília)",
-          "hour_key": "2026-08-09-17"
-        },
-        {
-          "name": "MekZera",
-          "resets": 62,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 18:57 (Brasília)",
-          "hour_key": "2026-08-09-18"
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "resets": 45,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 19:23 (Brasília)",
-          "hour_key": "2026-08-09-19"
-        },
-        {
-          "name": "Royal Sniper",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 22:56 (Brasília)",
-          "hour_key": "2026-08-09-22"
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "09/08/2026 às 23:49 (Brasília)",
-          "hour_key": "2026-08-09-23"
-        },
         {
           "name": "Jishuka",
           "resets": 65,
@@ -26218,7 +26146,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-02-00": {},
         "2026-09-02-01": {},
         "2026-09-02-02": {},
         "2026-09-02-03": {},
@@ -26385,7 +26312,8 @@
         "2026-09-08-20": {},
         "2026-09-08-21": {},
         "2026-09-08-22": {},
-        "2026-09-08-23": {}
+        "2026-09-08-23": {},
+        "2026-09-09-00": {}
       },
       "events": []
     },
