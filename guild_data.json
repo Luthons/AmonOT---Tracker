@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/09/2026 às 23:59 (Brasília)",
+  "updated_at": "10/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/09/2026 às 23:59 (Brasília)",
+    "updated_at": "10/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23727,14 +23727,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-03-00": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-03-01": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24954,65 +24946,15 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-10-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
-        {
-          "name": "Jishuka",
-          "resets": 65,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 07:50 (Brasília)",
-          "hour_key": "2026-08-10-07"
-        },
-        {
-          "name": "Akronus",
-          "resets": 67,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 08:24 (Brasília)",
-          "hour_key": "2026-08-10-08"
-        },
-        {
-          "name": "Melbiss",
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 09:48 (Brasília)",
-          "hour_key": "2026-08-10-09"
-        },
-        {
-          "name": "Kashambao",
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 12:08 (Brasília)",
-          "hour_key": "2026-08-10-12"
-        },
-        {
-          "name": "Vinizerah On Amonot",
-          "resets": 48,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 12:55 (Brasília)",
-          "hour_key": "2026-08-10-12"
-        },
-        {
-          "name": "Albatroz",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 17:08 (Brasília)",
-          "hour_key": "2026-08-10-17"
-        },
-        {
-          "name": "Lipe Knight",
-          "resets": 64,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 21:08 (Brasília)",
-          "hour_key": "2026-08-10-21"
-        },
-        {
-          "name": "Loks",
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "10/08/2026 às 21:18 (Brasília)",
-          "hour_key": "2026-08-10-21"
-        },
         {
           "name": "Flecha Fofa",
           "resets": 58,
@@ -26054,7 +25996,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-03-00": {},
         "2026-09-03-01": {},
         "2026-09-03-02": {},
         "2026-09-03-03": {},
@@ -26221,7 +26162,8 @@
         "2026-09-09-20": {},
         "2026-09-09-21": {},
         "2026-09-09-22": {},
-        "2026-09-09-23": {}
+        "2026-09-09-23": {},
+        "2026-09-10-00": {}
       },
       "events": []
     },
