@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/09/2026 às 21:59 (Brasília)",
+  "updated_at": "09/09/2026 às 22:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "09/09/2026 às 21:59 (Brasília)",
+    "updated_at": "09/09/2026 às 22:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23735,24 +23735,6 @@
       "maiorDano": "",
       "world": "Baiak",
       "isPvp": true
-    },
-    {
-      "time": "Sep 08, 2026 12:06",
-      "player": "Gizao",
-      "level": 1997,
-      "killedBy": "Osh Don",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
-    },
-    {
-      "time": "Sep 08, 2026 11:02",
-      "player": "Gizao",
-      "level": 2000,
-      "killedBy": "Chszin Finalboss",
-      "maiorDano": "",
-      "world": "Baiak",
-      "isPvp": true
     }
   ],
   "history": {
@@ -23764,14 +23746,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-02-22": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-02-23": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24995,6 +24969,12 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-09-22": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
@@ -26095,7 +26075,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-02-22": {},
         "2026-09-02-23": {},
         "2026-09-03-00": {},
         "2026-09-03-01": {},
@@ -26262,7 +26241,8 @@
         "2026-09-09-18": {},
         "2026-09-09-19": {},
         "2026-09-09-20": {},
-        "2026-09-09-21": {}
+        "2026-09-09-21": {},
+        "2026-09-09-22": {}
       },
       "events": []
     },
