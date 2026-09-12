@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "11/09/2026 às 23:59 (Brasília)",
+  "updated_at": "12/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -784,7 +784,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "11/09/2026 às 23:59 (Brasília)",
+    "updated_at": "12/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23773,14 +23773,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-05-00": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-05-01": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24904,72 +24896,15 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-12-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
-        {
-          "name": "Amelior",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 01:11 (Brasília)",
-          "hour_key": "2026-08-12-01"
-        },
-        {
-          "name": "Lilian Faithkeeper",
-          "resets": 46,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 08:58 (Brasília)",
-          "hour_key": "2026-08-12-08"
-        },
-        {
-          "name": "Boltfly Peoplecry",
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 11:55 (Brasília)",
-          "hour_key": "2026-08-12-11"
-        },
-        {
-          "name": "Haony",
-          "resets": 58,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 12:26 (Brasília)",
-          "hour_key": "2026-08-12-12"
-        },
-        {
-          "name": "Baiakudinho",
-          "resets": 65,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 17:29 (Brasília)",
-          "hour_key": "2026-08-12-17"
-        },
-        {
-          "name": "Lipe Knight",
-          "resets": 66,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 19:24 (Brasília)",
-          "hour_key": "2026-08-12-19"
-        },
-        {
-          "name": "Kev",
-          "resets": 34,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 20:26 (Brasília)",
-          "hour_key": "2026-08-12-20"
-        },
-        {
-          "name": "padim ed",
-          "resets": 33,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 21:52 (Brasília)",
-          "hour_key": "2026-08-12-21"
-        },
-        {
-          "name": "Rofmao",
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "12/08/2026 às 23:56 (Brasília)",
-          "hour_key": "2026-08-12-23"
-        },
         {
           "name": "Albatroz",
           "resets": 54,
@@ -25850,7 +25785,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-05-00": {},
         "2026-09-05-01": {},
         "2026-09-05-02": {},
         "2026-09-05-03": {},
@@ -26017,7 +25951,8 @@
         "2026-09-11-20": {},
         "2026-09-11-21": {},
         "2026-09-11-22": {},
-        "2026-09-11-23": {}
+        "2026-09-11-23": {},
+        "2026-09-12-00": {}
       },
       "events": []
     },
