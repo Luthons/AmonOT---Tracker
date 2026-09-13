@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "12/09/2026 às 23:59 (Brasília)",
+  "updated_at": "13/09/2026 às 00:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -45,13 +45,7 @@
       "nick": "",
       "rank": "Member",
       "online": true,
-      "reset_history": [
-        {
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 18:14 (Brasília)"
-        }
-      ]
+      "reset_history": []
     }
   ],
   "enemy_guilds": [],
@@ -784,7 +778,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "12/09/2026 às 23:59 (Brasília)",
+    "updated_at": "13/09/2026 às 00:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23782,14 +23776,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-06-00": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-06-01": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24865,107 +24851,15 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-13-00": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
-        {
-          "name": "Albatroz",
-          "resets": 54,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 01:07 (Brasília)",
-          "hour_key": "2026-08-13-01"
-        },
-        {
-          "name": "Luiscrazynear",
-          "resets": 43,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 02:09 (Brasília)",
-          "hour_key": "2026-08-13-02"
-        },
-        {
-          "name": "Lotus Lothbrook",
-          "resets": 38,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 09:39 (Brasília)",
-          "hour_key": "2026-08-13-09"
-        },
-        {
-          "name": "palinhp",
-          "resets": 53,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 10:26 (Brasília)",
-          "hour_key": "2026-08-13-10"
-        },
-        {
-          "name": "Flecha Fofa",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 12:17 (Brasília)",
-          "hour_key": "2026-08-13-12"
-        },
-        {
-          "name": "Albatrozz",
-          "resets": 70,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 13:11 (Brasília)",
-          "hour_key": "2026-08-13-13"
-        },
-        {
-          "name": "Flam Ham Bum",
-          "resets": 39,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 15:40 (Brasília)",
-          "hour_key": "2026-08-13-15"
-        },
-        {
-          "name": "Luiscrazynear",
-          "resets": 44,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 17:24 (Brasília)",
-          "hour_key": "2026-08-13-17"
-        },
-        {
-          "name": "Kolwaski",
-          "resets": 55,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 18:14 (Brasília)",
-          "hour_key": "2026-08-13-18"
-        },
-        {
-          "name": "Lipe Knight",
-          "resets": 67,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 18:20 (Brasília)",
-          "hour_key": "2026-08-13-18"
-        },
-        {
-          "name": "Kashambao",
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 21:14 (Brasília)",
-          "hour_key": "2026-08-13-21"
-        },
-        {
-          "name": "Loks",
-          "resets": 60,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 21:44 (Brasília)",
-          "hour_key": "2026-08-13-21"
-        },
-        {
-          "name": "Mugunza",
-          "resets": 56,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 22:53 (Brasília)",
-          "hour_key": "2026-08-13-22"
-        },
-        {
-          "name": "Welljacob",
-          "resets": 40,
-          "gained": 1,
-          "timestamp": "13/08/2026 às 23:11 (Brasília)",
-          "hour_key": "2026-08-13-23"
-        },
         {
           "name": "Boltfly Peoplecry",
           "resets": 45,
@@ -25748,7 +25642,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-06-00": {},
         "2026-09-06-01": {},
         "2026-09-06-02": {},
         "2026-09-06-03": {},
@@ -25915,7 +25808,8 @@
         "2026-09-12-20": {},
         "2026-09-12-21": {},
         "2026-09-12-22": {},
-        "2026-09-12-23": {}
+        "2026-09-12-23": {},
+        "2026-09-13-00": {}
       },
       "events": []
     },
