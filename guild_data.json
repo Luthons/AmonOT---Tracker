@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "13/09/2026 às 09:59 (Brasília)",
+  "updated_at": "13/09/2026 às 10:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -777,8 +777,8 @@
   },
   "war": {
     "my_guild": "Lowly People",
-    "enemy_guild": "MentaliTY, Fuba Empire, Old Legacy",
-    "updated_at": "13/09/2026 às 09:59 (Brasília)",
+    "enemy_guild": "MentaliTY",
+    "updated_at": "13/09/2026 às 10:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23776,14 +23776,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-06-10": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "El Diablo": 71,
-          "Kolwaski": 55,
-          "Lilian Faithkeeper": 48
-        },
         "2026-09-06-11": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24839,6 +24831,12 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-13-10": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
@@ -25624,7 +25622,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-06-10": {},
         "2026-09-06-11": {},
         "2026-09-06-12": {},
         "2026-09-06-13": {},
@@ -25791,7 +25788,8 @@
         "2026-09-13-06": {},
         "2026-09-13-07": {},
         "2026-09-13-08": {},
-        "2026-09-13-09": {}
+        "2026-09-13-09": {},
+        "2026-09-13-10": {}
       },
       "events": []
     },
@@ -26480,7 +26478,7 @@
       "avg_per_player": 39.8
     },
     "enemy_guild": {
-      "guild": "MentaliTY, Fuba Empire, Old Legacy",
+      "guild": "MentaliTY",
       "num_members": 0,
       "total_current": 0,
       "resets_today": 0,
@@ -26846,8 +26844,6 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
-    "Inimigos (Fuba Empire): Guilda 'Fuba Empire' não encontrada ou sem membros.",
-    "Inimigos (Old Legacy): Guilda 'Old Legacy' não encontrada ou sem membros."
+    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros."
   ]
 }
