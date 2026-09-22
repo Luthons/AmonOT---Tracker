@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "22/09/2026 às 02:59 (Brasília)",
+  "updated_at": "22/09/2026 às 03:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 4,
@@ -15,6 +15,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Sep 21, 2026, 22:57:54",
+      "guild_rank": "The Leader",
+      "former_names": "",
+      "hidden": false,
       "reset_history": []
     },
     {
@@ -25,6 +29,10 @@
       "nick": "",
       "rank": "Member",
       "online": false,
+      "last_login": "Aug 08, 2026, 20:28:25",
+      "guild_rank": "The Leader",
+      "former_names": "Feefis Lidera",
+      "hidden": true,
       "reset_history": []
     },
     {
@@ -35,6 +43,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Sep 21, 2026, 22:09:16",
+      "guild_rank": "Member",
+      "former_names": "",
+      "hidden": false,
       "reset_history": []
     },
     {
@@ -45,6 +57,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Sep 21, 2026, 23:39:55",
+      "guild_rank": "Member",
+      "former_names": "",
+      "hidden": false,
       "reset_history": []
     }
   ],
@@ -778,7 +794,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "22/09/2026 às 02:59 (Brasília)",
+    "updated_at": "22/09/2026 às 03:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23721,12 +23737,6 @@
         "Kolwaski": 55
       },
       "snapshots": {
-        "2026-09-15-03": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "Kolwaski": 55
-        },
         "2026-09-15-04": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24728,6 +24738,12 @@
           "Ultimate Warrior": 25,
           "Achilles": 18,
           "Kolwaski": 55
+        },
+        "2026-09-22-03": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25,
+          "Achilles": 18,
+          "Kolwaski": 55
         }
       },
       "events": [
@@ -24764,7 +24780,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-09-15-03": {},
         "2026-09-15-04": {},
         "2026-09-15-05": {},
         "2026-09-15-06": {},
@@ -24931,7 +24946,8 @@
         "2026-09-21-23": {},
         "2026-09-22-00": {},
         "2026-09-22-01": {},
-        "2026-09-22-02": {}
+        "2026-09-22-02": {},
+        "2026-09-22-03": {}
       },
       "events": []
     },
