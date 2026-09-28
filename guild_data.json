@@ -25983,7 +25983,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Inimigos (MentaliTY): Erro de conexão: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
     "Reset history: HTTPSConnectionPool(host='vgvjyceoefzzomcnuefo.supabase.co', port=443): Max retries exceeded with url: /rest/v1/reset_snapshots (Caused by NameResolutionError(\"HTTPSConnection(host='vgvjyceoefzzomcnuefo.supabase.co', port=443): Failed to resolve 'vgvjyceoefzzomcnuefo.supabase.co' ([Errno -2] Name or service not known)\"))"
   ]
 }
