@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "03/10/2026 às 00:35 (Brasília)",
+  "updated_at": "03/10/2026 às 00:36 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 4,
-  "online_count": 1,
+  "total_members": 3,
+  "online_count": 0,
   "offline_count": 3,
   "members": [
     {
@@ -25,16 +25,6 @@
       "nick": "",
       "rank": "Member",
       "online": false,
-      "reset_history": []
-    },
-    {
-      "name": "Achilles",
-      "level": 1979,
-      "resets": 18,
-      "vocation": "Exalted Monk",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
       "reset_history": []
     },
     {
@@ -73,12 +63,6 @@
           "value": 25,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Achilles",
-          "value": 18,
-          "vocation": "Exalted Monk",
-          "online": true
         }
       ]
     },
@@ -103,12 +87,6 @@
           "value": 2000,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Achilles",
-          "value": 1979,
-          "vocation": "Exalted Monk",
-          "online": true
         }
       ]
     }
@@ -778,7 +756,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "03/10/2026 às 00:35 (Brasília)",
+    "updated_at": "03/10/2026 às 00:36 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23717,7 +23695,6 @@
       "last_snapshot": {
         "Gizao": 61,
         "Ultimate Warrior": 25,
-        "Achilles": 18,
         "Kolwaski": 55
       },
       "snapshots": {
@@ -24726,7 +24703,6 @@
         "2026-10-03-00": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
-          "Achilles": 18,
           "Kolwaski": 55
         }
       },
@@ -25582,13 +25558,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 4,
-      "total_current": 159,
+      "num_members": 3,
+      "total_current": 141,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 39.8
+      "avg_per_player": 47.0
     },
     "enemy_guild": {
       "guild": "MentaliTY",
