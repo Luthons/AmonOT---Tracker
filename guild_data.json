@@ -1,10 +1,10 @@
 {
   "name": "Lowly People",
-  "updated_at": "05/10/2026 às 10:16 (Brasília)",
+  "updated_at": "05/10/2026 às 10:17 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 3,
-  "online_count": 1,
+  "total_members": 2,
+  "online_count": 0,
   "offline_count": 2,
   "members": [
     {
@@ -26,16 +26,6 @@
       "rank": "Member",
       "online": false,
       "reset_history": []
-    },
-    {
-      "name": "Kolwaski",
-      "level": 2000,
-      "resets": 55,
-      "vocation": "Royal Paladin",
-      "nick": "",
-      "rank": "Member",
-      "online": true,
-      "reset_history": []
     }
   ],
   "enemy_guilds": [],
@@ -51,12 +41,6 @@
           "value": 61,
           "vocation": "Royal Paladin",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 55,
-          "vocation": "Royal Paladin",
-          "online": true
         },
         {
           "name": "Ultimate Warrior",
@@ -81,12 +65,6 @@
           "value": 2000,
           "vocation": "Elite Knight",
           "online": false
-        },
-        {
-          "name": "Kolwaski",
-          "value": 2000,
-          "vocation": "Royal Paladin",
-          "online": true
         }
       ]
     }
@@ -756,7 +734,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "05/10/2026 às 10:16 (Brasília)",
+    "updated_at": "05/10/2026 às 10:17 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23694,8 +23672,7 @@
     "resets": {
       "last_snapshot": {
         "Gizao": 61,
-        "Ultimate Warrior": 25,
-        "Kolwaski": 55
+        "Ultimate Warrior": 25
       },
       "snapshots": {
         "2026-09-28-11": {
@@ -24644,8 +24621,7 @@
         },
         "2026-10-05-10": {
           "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Kolwaski": 55
+          "Ultimate Warrior": 25
         }
       },
       "events": []
@@ -25500,13 +25476,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 3,
-      "total_current": 141,
+      "num_members": 2,
+      "total_current": 86,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 47.0
+      "avg_per_player": 43.0
     },
     "enemy_guild": {
       "guild": "MentaliTY",
