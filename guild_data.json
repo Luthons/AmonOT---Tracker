@@ -1,12 +1,33 @@
 {
   "name": "Lowly People",
-  "updated_at": "07/10/2026 às 13:45 (Brasília)",
+  "updated_at": "07/10/2026 às 13:46 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
-  "total_members": 0,
+  "total_members": 2,
   "online_count": 0,
-  "offline_count": 0,
-  "members": [],
+  "offline_count": 2,
+  "members": [
+    {
+      "name": "Gizao",
+      "level": 2000,
+      "resets": 61,
+      "vocation": "Royal Paladin",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    },
+    {
+      "name": "Ultimate Warrior",
+      "level": 2000,
+      "resets": 25,
+      "vocation": "Elite Knight",
+      "nick": "",
+      "rank": "Member",
+      "online": false,
+      "reset_history": []
+    }
+  ],
   "enemy_guilds": [],
   "resets_today": [],
   "enemy_resets_today": [],
@@ -14,12 +35,38 @@
     "resets": {
       "name": "Resets",
       "val_label": "Resets",
-      "entries": []
+      "entries": [
+        {
+          "name": "Gizao",
+          "value": 61,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 25,
+          "vocation": "Elite Knight",
+          "online": false
+        }
+      ]
     },
     "level": {
       "name": "Level",
       "val_label": "Level",
-      "entries": []
+      "entries": [
+        {
+          "name": "Gizao",
+          "value": 2000,
+          "vocation": "Royal Paladin",
+          "online": false
+        },
+        {
+          "name": "Ultimate Warrior",
+          "value": 2000,
+          "vocation": "Elite Knight",
+          "online": false
+        }
+      ]
     }
   },
   "war_rankings": {
@@ -687,7 +734,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "07/10/2026 às 13:45 (Brasília)",
+    "updated_at": "07/10/2026 às 13:46 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23623,7 +23670,10 @@
   "deaths_global": [],
   "history": {
     "resets": {
-      "last_snapshot": {},
+      "last_snapshot": {
+        "Gizao": 61,
+        "Ultimate Warrior": 25
+      },
       "snapshots": {
         "2026-09-30-14": {
           "Gizao": 61,
@@ -24467,7 +24517,10 @@
           "Gizao": 61,
           "Ultimate Warrior": 25
         },
-        "2026-10-07-13": {}
+        "2026-10-07-13": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25
+        }
       },
       "events": []
     },
@@ -25321,13 +25374,13 @@
   "reset_stats": {
     "my_guild": {
       "guild": "Lowly People",
-      "num_members": 0,
-      "total_current": 0,
+      "num_members": 2,
+      "total_current": 86,
       "resets_today": 0,
       "resets_week": 0,
       "resets_month": 0,
       "resets_lifetime": 0,
-      "avg_per_player": 0
+      "avg_per_player": 43.0
     },
     "enemy_guild": {
       "guild": "MentaliTY",
@@ -25696,7 +25749,6 @@
     }
   ],
   "errors": [
-    "Membros: Erro de conexão: HTTPSConnectionPool(host='amonot.online', port=443): Read timed out. (read timeout=15)",
     "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros."
   ]
 }
