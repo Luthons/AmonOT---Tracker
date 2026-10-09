@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "09/10/2026 às 09:59 (Brasília)",
+  "updated_at": "09/10/2026 às 10:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 2,
@@ -15,6 +15,10 @@
       "nick": "",
       "rank": "Member",
       "online": true,
+      "last_login": "Oct 08, 2026, 22:08:15",
+      "guild_rank": "The Leader",
+      "former_names": "",
+      "hidden": false,
       "reset_history": []
     },
     {
@@ -25,6 +29,10 @@
       "nick": "",
       "rank": "Member",
       "online": false,
+      "last_login": "Aug 08, 2026, 20:28:25",
+      "guild_rank": "The Leader",
+      "former_names": "Feefis Lidera",
+      "hidden": true,
       "reset_history": []
     }
   ],
@@ -734,7 +742,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "09/10/2026 às 09:59 (Brasília)",
+    "updated_at": "09/10/2026 às 10:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23675,12 +23683,6 @@
         "Ultimate Warrior": 25
       },
       "snapshots": {
-        "2026-10-02-10": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25,
-          "Achilles": 18,
-          "Kolwaski": 55
-        },
         "2026-10-02-11": {
           "Gizao": 61,
           "Ultimate Warrior": 25,
@@ -24432,6 +24434,10 @@
         "2026-10-09-09": {
           "Gizao": 61,
           "Ultimate Warrior": 25
+        },
+        "2026-10-09-10": {
+          "Gizao": 61,
+          "Ultimate Warrior": 25
         }
       },
       "events": []
@@ -24439,7 +24445,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-10-02-10": {},
         "2026-10-02-11": {},
         "2026-10-02-12": {},
         "2026-10-02-13": {},
@@ -24606,7 +24611,8 @@
         "2026-10-09-06": {},
         "2026-10-09-07": {},
         "2026-10-09-08": {},
-        "2026-10-09-09": {}
+        "2026-10-09-09": {},
+        "2026-10-09-10": {}
       },
       "events": []
     },
