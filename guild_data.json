@@ -1,6 +1,6 @@
 {
   "name": "Lowly People",
-  "updated_at": "24/10/2026 às 21:59 (Brasília)",
+  "updated_at": "24/10/2026 às 22:00 (Brasília)",
   "owner": "Salles On Amonot",
   "founded": "Abril de 2026",
   "total_members": 1,
@@ -15,6 +15,10 @@
       "nick": "",
       "rank": "Member",
       "online": false,
+      "last_login": "Aug 08, 2026, 20:28:25",
+      "guild_rank": "The Leader",
+      "former_names": "Feefis Lidera",
+      "hidden": true,
       "reset_history": []
     }
   ],
@@ -712,7 +716,7 @@
   "war": {
     "my_guild": "Lowly People",
     "enemy_guild": "MentaliTY",
-    "updated_at": "24/10/2026 às 21:59 (Brasília)",
+    "updated_at": "24/10/2026 às 22:00 (Brasília)",
     "kills_total": 1129,
     "deaths_total": 1224,
     "kills_today": 0,
@@ -23652,10 +23656,6 @@
         "Ultimate Warrior": 25
       },
       "snapshots": {
-        "2026-10-17-22": {
-          "Gizao": 61,
-          "Ultimate Warrior": 25
-        },
         "2026-10-17-23": {
           "Gizao": 61,
           "Ultimate Warrior": 25
@@ -24197,6 +24197,9 @@
         },
         "2026-10-24-21": {
           "Ultimate Warrior": 25
+        },
+        "2026-10-24-22": {
+          "Ultimate Warrior": 25
         }
       },
       "events": []
@@ -24204,7 +24207,6 @@
     "enemy_resets": {
       "last_snapshot": {},
       "snapshots": {
-        "2026-10-17-22": {},
         "2026-10-17-23": {},
         "2026-10-18-00": {},
         "2026-10-18-01": {},
@@ -24371,7 +24373,8 @@
         "2026-10-24-18": {},
         "2026-10-24-19": {},
         "2026-10-24-20": {},
-        "2026-10-24-21": {}
+        "2026-10-24-21": {},
+        "2026-10-24-22": {}
       },
       "events": []
     },
@@ -25426,6 +25429,7 @@
     }
   ],
   "errors": [
-    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros."
+    "Inimigos (MentaliTY): Guilda 'MentaliTY' não encontrada ou sem membros.",
+    "Reset history: HTTPSConnectionPool(host='vgvjyceoefzzomcnuefo.supabase.co', port=443): Max retries exceeded with url: /rest/v1/reset_snapshots (Caused by NameResolutionError(\"HTTPSConnection(host='vgvjyceoefzzomcnuefo.supabase.co', port=443): Failed to resolve 'vgvjyceoefzzomcnuefo.supabase.co' ([Errno -2] Name or service not known)\"))"
   ]
 }
